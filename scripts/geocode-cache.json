@@ -1,0 +1,158 @@
+{
+  "batchelor|LA": {
+    "latitude": 30.8410901,
+    "longitude": -91.6636042,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "bogue chitto|MS": {
+    "latitude": 32.834635,
+    "longitude": -88.923767,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "breaux bridge|LA": {
+    "latitude": 30.2735323,
+    "longitude": -91.8992837,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "canton|MS": {
+    "latitude": 32.612602,
+    "longitude": -90.0367512,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "carencro|LA": {
+    "latitude": 30.317144,
+    "longitude": -92.0490096,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "crowley|LA": {
+    "latitude": 30.2140928,
+    "longitude": -92.3745761,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "eskridge|MS": {
+    "latitude": 33.5571568,
+    "longitude": -88.4088985,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "etta|MS": {
+    "latitude": 34.4703806,
+    "longitude": -89.2275721,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "falkner|MS": {
+    "latitude": 34.8420376,
+    "longitude": -88.934228,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "hickory/pearl river|LA": {
+    "latitude": 30.3760263,
+    "longitude": -89.7483974,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "holly springs|MS": {
+    "latitude": 34.76801,
+    "longitude": -89.4478784,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "iota|LA": {
+    "latitude": 30.3313265,
+    "longitude": -92.4955777,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "kaplan|LA": {
+    "latitude": 30.0031884,
+    "longitude": -92.2860146,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "maben|MS": {
+    "latitude": 33.5560492,
+    "longitude": -89.0846562,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "macon|MS": {
+    "latitude": 33.1054039,
+    "longitude": -88.5608767,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "multiple|LA": {
+    "latitude": 31.3119463,
+    "longitude": -92.4453558,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "n. mississippi|MS": {
+    "latitude": 34.2576067,
+    "longitude": -88.7033859,
+    "precision": "region",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "oakdale|LA": {
+    "latitude": 30.8147872,
+    "longitude": -92.6564081,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "pelahatchie|MS": {
+    "latitude": 32.3132159,
+    "longitude": -89.7989402,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "plaisance|LA": {
+    "latitude": 30.612419,
+    "longitude": -92.1262324,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "poplarville|MS": {
+    "latitude": 30.8401495,
+    "longitude": -89.5342315,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "scott|LA": {
+    "latitude": 30.2357569,
+    "longitude": -92.0945672,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "slaughter|LA": {
+    "latitude": 30.7174063,
+    "longitude": -91.1414958,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "tylertown area|MS": {
+    "latitude": 31.1166146,
+    "longitude": -90.1414836,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "waynesboro|MS": {
+    "latitude": 31.6749854,
+    "longitude": -88.6461237,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  },
+  "winterville|MS": {
+    "latitude": 33.501781,
+    "longitude": -91.0584402,
+    "precision": "city",
+    "source": "OpenStreetMap Nominatim"
+  }
+}
