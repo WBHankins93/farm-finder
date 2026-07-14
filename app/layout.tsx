@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const protocol = requestHeaders.get("x-forwarded-proto") || (host.startsWith("localhost") ? "http" : "https");
   const metadataBase = new URL(`${protocol}://${host}`);
   const title = "FarmFinder — Find farms across Louisiana & Mississippi";
-  const description = "Search and map 311 independent farms across Louisiana and Mississippi. Find produce, meat, seafood, honey, CSAs, farm pickup, and more.";
+  const description = "Ask questions, browse products, read detailed profiles, and map 311 independent farms across Louisiana and Mississippi.";
 
   return {
     metadataBase,
@@ -25,13 +25,13 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       type: "website",
-      images: [{ url: "/og.png", width: 1200, height: 630, alt: "FarmFinder — The Gulf South, by the field. 311 farms mapped." }],
+      images: [{ url: "/og-v2.png", width: 1200, height: 630, alt: "FarmFinder — Who grows what near me? Ask the Gulf South field guide." }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: ["/og.png"],
+      images: ["/og-v2.png"],
     },
   };
 }

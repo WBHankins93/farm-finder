@@ -2,13 +2,16 @@
 
 ## Product shape
 
-The first release is a public discovery tool, not a marketplace. It has one primary route and one job: let someone search the full farm library, understand how each farm sells, and see the results on a map.
+The first release is a public discovery and knowledge tool, not a marketplace. It has one primary route and one job: help someone ask a practical local-food question, browse the product landscape, understand how each farm sells, and see verified directory matches on a map.
 
 The page is organized in three layers:
 
 1. A compact mission and coverage introduction.
-2. The discovery workspace: full-text search, state/category/service filters, synchronized farm list, clustered map, and farm detail panel.
-3. A trust layer explaining source coverage, approximate locations, and the listing-update path.
+2. A dataset-grounded question box for product, place, farm, season, and shopping-method questions.
+3. A product field guide with specific product filters and seasonal context.
+4. The discovery workspace: full-text search, state/category/product/service filters, synchronized farm list, clustered map, and farm detail panel.
+5. Detailed farm profiles with summaries, products, sales paths, notes, contact options, source provenance, and location confidence.
+6. A public update ledger and trust layer explaining source coverage, approximate locations, and the listing-update path.
 
 ## Data architecture
 
@@ -29,9 +32,10 @@ Locations marked below street precision are deliberately described as approximat
 ## Interaction model
 
 - Search covers name, product, town, parish/county, region, market presence, and notes.
-- Filters can be combined across state, farm category, and five ways to buy.
+- Filters can be combined across state, broad farm category, twelve specific product guides, and five ways to buy.
+- Ask FarmFinder parses the question into products, places, farm names, seasons, and ways to buy; every result is backed by directory records and never claims live availability.
 - Desktop keeps map and list visible together; mobile uses an explicit list/map switch.
-- Selecting a list record and selecting a map marker share the same state and detail panel.
+- Farm profiles provide the detailed reading layer, while map selection keeps location exploration fast.
 - Empty results provide a single reset action.
 
 ## Next platform steps
