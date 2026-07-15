@@ -1,7 +1,7 @@
 {
   "status": "coverage_reviewed",
   "release_id": "tx-coverage-reviewed-2026-07-15",
-  "generated_at": "2026-07-15T18:54:45.436922+00:00",
+  "generated_at": "2026-07-15T19:00:18.926703+00:00",
   "scope": "Texas three-pass private state release; LA/MS canonical and public app remain unchanged.",
   "completion_definition": "All qualifying farms found under documented sources and three-pass process as of release date; not every USDA-defined or undiscoverable farm.",
   "collection_passes_started": [
@@ -15,10 +15,10 @@
     3
   ],
   "source_datasets_evaluated": 29,
-  "source_observations": 1050,
+  "source_observations": 1060,
   "source_observations_by_source": {
     "EatWild Texas directory": 51,
-    "FarmFinder curator verification \u2014 farm-owned or authoritative evidence": 29,
+    "FarmFinder curator verification \u2014 farm-owned or authoritative evidence": 39,
     "LocalHarvest \u2014 Texas county-seat gap search": 302,
     "PickYourOwn \u2014 Abilene": 6,
     "PickYourOwn \u2014 Austin": 20,
@@ -39,11 +39,11 @@
   },
   "excluded_or_grade_f_observations": 53,
   "proposed_entities": 899,
-  "manual_verification_decisions": 29,
+  "manual_verification_decisions": 39,
   "manual_excluded_entity_groups": 20,
-  "promotion_eligible_entities": 327,
-  "research_or_qa_entities": 572,
-  "identity_review_groups": 87,
+  "promotion_eligible_entities": 337,
+  "research_or_qa_entities": 562,
+  "identity_review_groups": 97,
   "identity_groups_split_for_county_conflict": 1,
   "current_la_ms_name_collisions": 3,
   "texas_counties_total": 254,
@@ -126,7 +126,7 @@
     "Young",
     "Zapata"
   ],
-  "counties_with_promotion_eligible_entities": 112,
+  "counties_with_promotion_eligible_entities": 114,
   "website_entities": 592,
   "social_entities": 506,
   "direct_contact_entities": 784,
@@ -138,7 +138,7 @@
   "county_lookup_failures": 107,
   "source_county_conflicts": 1,
   "pickyourown_county_sections": 251,
-  "open_qa_items": 572,
+  "open_qa_items": 562,
   "critical_errors": [],
   "promotion_note": "Eligible means the staged row meets field/evidence/privacy gates; canonical promotion still requires a deliberate immutable release review."
 }

@@ -9,13 +9,13 @@ Texas completed the repository's three-pass collection and state completion gate
 on 2026-07-15:
 
 - 29 source, channel, official-geography, and curator-decision datasets evaluated across passes 1–3;
-- 1,050 immutable source and curator-decision observations;
+- 1,060 immutable source and curator-decision observations;
 - 899 proposed Texas entities after deterministic identity and scope review;
-- 327 entities meet the staged promotion-field/evidence/privacy gates;
-- 572 entities remain in the explicit research or QA queue;
+- 337 entities meet the staged promotion-field/evidence/privacy gates;
+- 562 entities remain in the explicit research or QA queue;
 - all 254 counties were searched and have a documented coverage status;
 - 178 counties have at least one candidate, while 76 are `searched_none_found`;
-- 29 manual verification decisions are retained with their evidence and rationale;
+- 39 manual verification decisions are retained with their evidence and rationale;
 - 13 explicitly closed PickYourOwn observations and 20 curator-excluded entity groups remain auditable;
 - the Texas release validator passes.
 

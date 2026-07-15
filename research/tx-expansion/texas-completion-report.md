@@ -7,8 +7,8 @@
 ## Decision
 
 Texas is **coverage reviewed** under FarmFinder's documented three-pass state
-standard. The release contains 1,050 source and curator-decision observations reconciled
-to 899 proposed entities. Of those, 327 meet the staged promotion gates and 572 remain explicitly
+standard. The release contains 1,060 source and curator-decision observations reconciled
+to 899 proposed entities. Of those, 337 meet the staged promotion gates and 562 remain explicitly
 blocked for further research or QA. No Texas rows were added to the LA/MS canonical
 workbook or public application in this release.
 
@@ -22,20 +22,20 @@ private and commodity-only farms are outside the directory scope.
 |---|---:|
 | Source/channel/geography/curator datasets evaluated | 29 |
 | Successful collection requests | 898 / 898 |
-| Retained source and curator-decision observations | 1,050 |
+| Retained source and curator-decision observations | 1,060 |
 | Proposed Texas entities | 899 |
-| Promotion-eligible staged entities | 327 (36.4%) |
-| Research/QA entities | 572 (63.6%) |
+| Promotion-eligible staged entities | 337 (37.5%) |
+| Research/QA entities | 562 (62.5%) |
 | Counties with candidates | 178 / 254 |
-| Counties with at least one eligible entity | 112 / 254 |
+| Counties with at least one eligible entity | 114 / 254 |
 | Website present | 592 entities (65.1%) |
 | Any retained social URL | 506 entities (55.7%) |
 | Direct phone or email retained internally | 784 entities (86.2%) |
-| Manual verification decisions | 29 (9 corroborate / 20 exclude) |
+| Manual verification decisions | 39 (19 corroborate / 20 exclude) |
 | Excluded or grade-F observation rows | 53 |
 
-Among the 327 eligible entities, 258 have a website, 204 have at least one retained
-social URL, and 309 have a direct phone or email retained internally.
+Among the 337 eligible entities, 268 have a website, 213 have at least one retained
+social URL, and 319 have a direct phone or email retained internally.
 
 The 76 `searched_none_found` counties are Andrews, Archer, Armstrong, Bailey, Baylor,
 Borden, Briscoe, Brooks, Cochran, Coke, Crockett, Crosby, Culberson, Dawson, Deaf Smith,
@@ -112,14 +112,17 @@ silently merged. Every multi-source decision and underlying observation ID is in
 
 ## Manual verification progress
 
-The first three focused verification batches recorded 29 decisions in
+The first four focused verification batches recorded 39 decisions in
 `manual-verification-decisions.csv`. Original directory assertions remain in the
 observation table; curator decisions are additional observations with dates, URLs,
 rationales, and explicit include/exclude outcomes.
 
-- Nine operations were corroborated or corrected: Agarita Hills Ranch, Wylie Urban
+- Nineteen operations were corroborated or corrected: Agarita Hills Ranch, Wylie Urban
   Farm And Market, QF Seasoning Company / FC Farm to Table, Cedar Ridge Farms, Talise
-  Microgreens, BS Farms, Dresden Specialty Meats, South Tex Organics, and Lavande.
+  Microgreens, BS Farms, Dresden Specialty Meats, South Tex Organics, Lavande, KH Farm,
+  Four String Farm, Thomas Family Ranch, Imagine Lavender Farm, Evergreen Farms Christmas
+  Trees, Armadillo Gardens, Froberg Vegetable & Fruit Farm, Gina's Acres, Jolly Farms
+  Chickens, and Holland Cattle Co.
 - Twenty groups were excluded from Texas farm entities: two farmers markets, two coffee
   roasters, an agricultural supplier, a fiberglass manufacturer, a South Carolina bike
   rental, two farms/institutions physically outside Texas, and Steelbow Farm after its
@@ -128,19 +131,22 @@ rationales, and explicit include/exclude outcomes.
   and custom-processing businesses that made no farm-operation claim.
 - Street-number-as-ZIP errors were corrected for Cedar Ridge Farms, BS Farms, and
   Dresden Specialty Meats; Talise Microgreens' transposed ZIP was corrected; malformed
-  city fields were corrected for South Tex Organics and Lavande.
+  city fields were corrected for South Tex Organics and Lavande. Obsolete domains were
+  corrected for Four String Farm and Gina's Acres. Evergreen Farms' old `.com` domain
+  was removed after it resolved to unrelated gambling content and replaced with the
+  current farm-owned `.biz` site.
 
 These decisions reduced the candidate set from 919 to 899, increased eligible entities
-from 319 to 327, and reduced QA holds from 600 to 572. Texas verification is therefore
+from 319 to 337, and reduced QA holds from 600 to 562. Texas verification is therefore
 materially improved but not complete.
 
 ## Open issues
 
-The 572 QA entities can carry more than one blocker:
+The 562 QA entities can carry more than one blocker:
 
 | Blocker | Entities |
 |---|---:|
-| Single grade-E discovery listing needs current corroboration | 474 |
+| Single grade-E discovery listing needs current corroboration | 464 |
 | Member/vendor/mixed-type candidate needs farm-operation evidence | 132 |
 | County remains unresolved | 89 |
 | City or safe public service area missing | 74 |
@@ -199,8 +205,8 @@ two markets and two coffee roasters were excluded from the farm entity set.
 
 Texas remains complete at the bounded `coverage_reviewed` collection stage, but the
 record-by-record verification program is still in progress and the state is not ready
-for public promotion. Promotion is intentionally separate: the 327 eligible staged
+for public promotion. Promotion is intentionally separate: the 337 eligible staged
 entities should not be appended to the canonical workbook until a new release
 ID, storage object, checksum, app mapping, rollback point, and public-location/privacy
-review are prepared. The 572 QA entities remain valuable evidence but are not approved
+review are prepared. The 562 QA entities remain valuable evidence but are not approved
 public farm listings.

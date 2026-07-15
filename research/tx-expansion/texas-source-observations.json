@@ -2,7 +2,7 @@
   "release": {
     "status": "coverage_reviewed",
     "release_id": "tx-coverage-reviewed-2026-07-15",
-    "generated_at": "2026-07-15T18:54:45.436922+00:00",
+    "generated_at": "2026-07-15T19:00:18.926703+00:00",
     "scope": "Texas three-pass private state release; LA/MS canonical and public app remain unchanged.",
     "completion_definition": "All qualifying farms found under documented sources and three-pass process as of release date; not every USDA-defined or undiscoverable farm.",
     "collection_passes_started": [
@@ -16,10 +16,10 @@
       3
     ],
     "source_datasets_evaluated": 29,
-    "source_observations": 1050,
+    "source_observations": 1060,
     "source_observations_by_source": {
       "EatWild Texas directory": 51,
-      "FarmFinder curator verification \u2014 farm-owned or authoritative evidence": 29,
+      "FarmFinder curator verification \u2014 farm-owned or authoritative evidence": 39,
       "LocalHarvest \u2014 Texas county-seat gap search": 302,
       "PickYourOwn \u2014 Abilene": 6,
       "PickYourOwn \u2014 Austin": 20,
@@ -40,11 +40,11 @@
     },
     "excluded_or_grade_f_observations": 53,
     "proposed_entities": 899,
-    "manual_verification_decisions": 29,
+    "manual_verification_decisions": 39,
     "manual_excluded_entity_groups": 20,
-    "promotion_eligible_entities": 327,
-    "research_or_qa_entities": 572,
-    "identity_review_groups": 87,
+    "promotion_eligible_entities": 337,
+    "research_or_qa_entities": 562,
+    "identity_review_groups": 97,
     "identity_groups_split_for_county_conflict": 1,
     "current_la_ms_name_collisions": 3,
     "texas_counties_total": 254,
@@ -127,7 +127,7 @@
       "Young",
       "Zapata"
     ],
-    "counties_with_promotion_eligible_entities": 112,
+    "counties_with_promotion_eligible_entities": 114,
     "website_entities": 592,
     "social_entities": 506,
     "direct_contact_entities": 784,
@@ -139,7 +139,7 @@
     "county_lookup_failures": 107,
     "source_county_conflicts": 1,
     "pickyourown_county_sections": 251,
-    "open_qa_items": 572,
+    "open_qa_items": 562,
     "critical_errors": [],
     "promotion_note": "Eligible means the staged row meets field/evidence/privacy gates; canonical promotion still requires a deliberate immutable release review."
   },
@@ -238,7 +238,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Aransas County seat search (https://www.localharvest.org/rockport-tx/farms). Listing last updated Jan 21, 2025. We raise Grassfed and Finished Dry Aged Beef, Pasture-Raised Heritage Pork, and Pasture-Raised Chicken here on our small farm in Meyersville Texas. We offer quarterly farm tours and make our meats accessible through our home delivery program. We ship our local and humane meats directly to your doorstep through our online ordering system (on our website) and also offer a subscription model for those that never want to run out of our meats! Local pickups are available by appointment. We enjoying sharing our story and connecting with others online under our social media profiles: Facebook: 1915 Farm and Instagram 1915_Farm A little background: \"I used to work for a pharmaceutical company and sell diabetes medications for a living. This made Tanner and I extremely passionate to get to the source of the problem: what we choose to eat every single day. I quit my pharma career and vowed to use my education of the disease to help prevent, instead of mask the causes of diabetes. Our goal is to help you eat healthier by raising healthier meat. Our animals are raised in their natural environments: outdoors on pasture, with the land and animal welfare at the top of mind, free from drugs and an"
+      "notes": "Discovered through Bee County seat search (https://www.localharvest.org/beeville-tx/farms). Listing last updated Jan 21, 2025. We raise Grassfed and Finished Dry Aged Beef, Pasture-Raised Heritage Pork, and Pasture-Raised Chicken here on our small farm in Meyersville Texas. We offer quarterly farm tours and make our meats accessible through our home delivery program. We ship our local and humane meats directly to your doorstep through our online ordering system (on our website) and also offer a subscription model for those that never want to run out of our meats! Local pickups are available by appointment. We enjoying sharing our story and connecting with others online under our social media profiles: Facebook: 1915 Farm and Instagram 1915_Farm A little background: \"I used to work for a pharmaceutical company and sell diabetes medications for a living. This made Tanner and I extremely passionate to get to the source of the problem: what we choose to eat every single day. I quit my pharma career and vowed to use my education of the disease to help prevent, instead of mask the causes of diabetes. Our goal is to help you eat healthier by raising healthier meat. Our animals are raised in their natural environments: outdoors on pasture, with the land and animal welfare at the top of mind, free from drugs and an"
     },
     {
       "observation_id": "txobs_d567973a54bc82b1e553",
@@ -1150,7 +1150,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated Nov 11, 2025. We are a small chemical free transistional organic farm on the Little Joshua Creek near Boerne Texas providing range free eggs, beautiful healthly vegies with enthusiasm to help our Planet become better served. will consider an internship during the summer. Our CSA is $200 a season. In Abundance-The Ahimsa Farm Team!!!!!"
+      "notes": "Discovered through Bexar County seat search (https://www.localharvest.org/san-antonio-tx/farms). Listing last updated Nov 11, 2025. We are a small chemical free transistional organic farm on the Little Joshua Creek near Boerne Texas providing range free eggs, beautiful healthly vegies with enthusiasm to help our Planet become better served. will consider an internship during the summer. Our CSA is $200 a season. In Abundance-The Ahimsa Farm Team!!!!!"
     },
     {
       "observation_id": "txobs_ae945a453b9ac7cda314",
@@ -2206,7 +2206,7 @@
       "evidence_grade": "D",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Angelina County seat search (https://www.localharvest.org/lufkin-tx/farms). Listing last updated May 7, 2026. Applewood Grove is a small farmstead in Ben Wheeler Texas. We raise and sell sheep, fainting goats, and heritage turkeys sustainably as part of our land management program and sell pasture-raised lamb seasonally. Heritage turkeys will be available in time for Thanksgiving. Lamb cuts are in stock and available for purchase.. Ewe lambs and fainting goats kids are available for sale. Check our website to confirm availability and current prices."
+      "notes": "Discovered through Anderson County seat search (https://www.localharvest.org/palestine-tx/farms). Listing last updated May 7, 2026. Applewood Grove is a small farmstead in Ben Wheeler Texas. We raise and sell sheep, fainting goats, and heritage turkeys sustainably as part of our land management program and sell pasture-raised lamb seasonally. Heritage turkeys will be available in time for Thanksgiving. Lamb cuts are in stock and available for purchase.. Ewe lambs and fainting goats kids are available for sale. Check our website to confirm availability and current prices."
     },
     {
       "observation_id": "txobs_86d3e64e5281d8adc4c8",
@@ -2305,9 +2305,57 @@
       "notes": "We are chemical-free beekeepers running our family farm. We sell local raw honey that basically goes straight from our hives into the bottles. We are hoping and working to turn our old family farm into a pollinator habitat where bees and butterflies can thrive. We renovated the 100 year old farm house into our store-front where you are welcome to come by and purchase honey, beeswax lotions, lip balms, candles, and more. We have salves for soothing muscle soreness and arthritis. We have skin lotions to help dry skin...all utilizing beeswax. We also sell fresh chicken eggs. We occasionally host tours at our farm so children can learn about beekeeping."
     },
     {
+      "observation_id": "txobs_1790e938fcb0d25cb613",
+      "candidate_key": "armadillo gardens",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
+      "current_release_name_collision": "",
+      "farm_name": "Armadillo Gardens",
+      "entity_type_source": "farm",
+      "entity_type_review": "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+      "state": "TX",
+      "county": "Bexar",
+      "county_fips": "48029",
+      "county_source": "https://www.armadillogardens.com/",
+      "city": "San Antonio",
+      "postal_code": "78209",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "curator_verified_safe_service_area",
+      "address_visibility": "internal_source_value",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "contact_visibility": "internal_source_value",
+      "products": "Seasonal vegetables; CSA shares",
+      "business_types": "Urban market garden; CSA",
+      "website_url": "https://www.armadillogardens.com/",
+      "facebook_url": "",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "on_farm_sales": null,
+      "farmers_market_sales": null,
+      "online_sales": null,
+      "local_delivery": null,
+      "u_pick": null,
+      "wholesale": null,
+      "farm_to_school": null,
+      "retail_sales": null,
+      "restaurant_sales": null,
+      "hours_or_season": "",
+      "source_pass": 3,
+      "source_name": "FarmFinder curator verification \u2014 farm-owned or authoritative evidence",
+      "source_url": "https://www.armadillogardens.com/",
+      "source_record_id": "txreview_20260715_035",
+      "evidence_grade": "C",
+      "retrieved_date": "2026-07-15",
+      "promotion_status": "staged_pending_rules",
+      "notes": "The farm-owned site identifies Armadillo Gardens as an urban market garden growing food in San Antonio and currently offers community-supported-agriculture shares.; Farm-owned evidence independently corroborates the older discovery listing."
+    },
+    {
       "observation_id": "txobs_c880853c11a0b7e5d894",
       "candidate_key": "armadillo gardens",
-      "identity_review_status": "source_unique_name",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
       "current_release_name_collision": "",
       "farm_name": "Armadillo Gardens",
       "entity_type_source": "Family Farm",
@@ -4894,7 +4942,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated Jan 21, 2026. All natural, chemical free, seasonal vegetable farm practicing no till to improve soil health. Husband and wife owned and operated offering seasonal CSA memberships for local pick up. You can also find us at the Barton Creek farmers market in Austin and the Buda farmers market. Volunteer opportunities every Friday morning. Please email to sign up for volunteer shifts."
+      "notes": "Discovered through Bexar County seat search (https://www.localharvest.org/san-antonio-tx/farms). Listing last updated Jan 21, 2026. All natural, chemical free, seasonal vegetable farm practicing no till to improve soil health. Husband and wife owned and operated offering seasonal CSA memberships for local pick up. You can also find us at the Barton Creek farmers market in Austin and the Buda farmers market. Volunteer opportunities every Friday morning. Please email to sign up for volunteer shifts."
     },
     {
       "observation_id": "txobs_b31afb2748c459577d27",
@@ -8062,7 +8110,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Aransas County seat search (https://www.localharvest.org/rockport-tx/farms). Listing last updated Jan 21, 2025. We are family operated ranch and farm, please contact us if you would like to buy eggs from pastured chickens, pasture-raised cornish cross and heritage meat chickens, grass feed beef."
+      "notes": "Discovered through Bee County seat search (https://www.localharvest.org/beeville-tx/farms). Listing last updated Jan 21, 2025. We are family operated ranch and farm, please contact us if you would like to buy eggs from pastured chickens, pasture-raised cornish cross and heritage meat chickens, grass feed beef."
     },
     {
       "observation_id": "txobs_a3c2181a3866d80faca8",
@@ -8398,7 +8446,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Angelina County seat search (https://www.localharvest.org/lufkin-tx/farms). Listing last updated Aug 13, 2025. Caddo Springs Farm is a veteran owned farm/ranch who strives to produce quality products the way mother nature intended. We believe that healthy food can be produced in a non-intrusive manner that is good for the land, the farmer and the consumer. We try to use long proven methods coupled with modern sustainability techniques to produce a happy animal that only has one bad day in its life. The primary goals of Caddo Springs is sustainability, animal care and a healthy product. Everything else is secondary to those primary concerns. Our products are steroid and antibiotics free. Please contact us if you are interested in a farm tour."
+      "notes": "Discovered through Anderson County seat search (https://www.localharvest.org/palestine-tx/farms). Listing last updated Aug 13, 2025. Caddo Springs Farm is a veteran owned farm/ranch who strives to produce quality products the way mother nature intended. We believe that healthy food can be produced in a non-intrusive manner that is good for the land, the farmer and the consumer. We try to use long proven methods coupled with modern sustainability techniques to produce a happy animal that only has one bad day in its life. The primary goals of Caddo Springs is sustainability, animal care and a healthy product. Everything else is secondary to those primary concerns. Our products are steroid and antibiotics free. Please contact us if you are interested in a farm tour."
     },
     {
       "observation_id": "txobs_309649eb740544df6bfe",
@@ -9502,7 +9550,7 @@
       "evidence_grade": "D",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated May 24, 2026. The Central Texas Farmers Cooperative is a group of farmers that reside in Hays, Caldwell, Blanco, and Travis county. As a farmers cooperative we are working together to provide Central Texans with greater access to an abundant amount of diverse, local, sustainably produced, and fresh foods. We currently run a multi-farm Community Supported Agriculture (CSA) that takes place in Spring, Summer, and Fall."
+      "notes": "Discovered through Bexar County seat search (https://www.localharvest.org/san-antonio-tx/farms). Listing last updated May 24, 2026. The Central Texas Farmers Cooperative is a group of farmers that reside in Hays, Caldwell, Blanco, and Travis county. As a farmers cooperative we are working together to provide Central Texans with greater access to an abundant amount of diverse, local, sustainably produced, and fresh foods. We currently run a multi-farm Community Supported Agriculture (CSA) that takes place in Spring, Summer, and Fall."
     },
     {
       "observation_id": "txobs_ec9d759c276308b1097f",
@@ -9694,7 +9742,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Brown County seat search (https://www.localharvest.org/brownwood-tx/farms). Listing last updated Apr 5, 2026. Chapman 3C Cattle Company \u2013 Premium Pasture-Raised Beef (Half & Whole Only)"
+      "notes": "Discovered through Bosque County seat search (https://www.localharvest.org/meridian-tx/farms). Listing last updated Apr 5, 2026. Chapman 3C Cattle Company \u2013 Premium Pasture-Raised Beef (Half & Whole Only)"
     },
     {
       "observation_id": "txobs_3c52cc1e071cc0d675f9",
@@ -10126,7 +10174,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Baylor County seat search (https://www.localharvest.org/seymour-tx/farms). Listing last updated Jan 21, 2025. We are a USDA certified grass fed ranch and produce cattle sustainably. Our cows are born and grow up on a ranch about 12 mi N of Childress grazing on grass and nutrient rich fodder grown on our ranch. We slaughter our cows between 2 and 3 years of age and maintain an inventory of frozen beef for purchase and consumption. You will not find better quality beef anywhere (including Central Market). We encourage you to know what you are putting in your body and know where it comes from to ensure optimal health. Our beef is never out of our control until it gets to you. For information, please call (972) 523-9926 or email us. To your health! Tom Phillips"
+      "notes": "Discovered through Armstrong County seat search (https://www.localharvest.org/claude-tx/farms). Listing last updated Jan 21, 2025. We are a USDA certified grass fed ranch and produce cattle sustainably. Our cows are born and grow up on a ranch about 12 mi N of Childress grazing on grass and nutrient rich fodder grown on our ranch. We slaughter our cows between 2 and 3 years of age and maintain an inventory of frozen beef for purchase and consumption. You will not find better quality beef anywhere (including Central Market). We encourage you to know what you are putting in your body and know where it comes from to ensure optimal health. Our beef is never out of our control until it gets to you. For information, please call (972) 523-9926 or email us. To your health! Tom Phillips"
     },
     {
       "observation_id": "txobs_4018f9fd4fb728308dec",
@@ -11998,7 +12046,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Bailey County seat search (https://www.localharvest.org/muleshoe-tx/farms). Listing last updated Jan 21, 2025. We have a small farming operation in West Texas where we grow mostly organic tomato, pepper, cantaloupe, squash, cucumber, giant pumpkins and watermeons. We grow only heirloom varieties and are developing crosses using only heirloom varieties, mostly tomatoes and peppers."
+      "notes": "Discovered through Andrews County seat search (https://www.localharvest.org/andrews-tx/farms). Listing last updated Jan 21, 2025. We have a small farming operation in West Texas where we grow mostly organic tomato, pepper, cantaloupe, squash, cucumber, giant pumpkins and watermeons. We grow only heirloom varieties and are developing crosses using only heirloom varieties, mostly tomatoes and peppers."
     },
     {
       "observation_id": "txobs_9a59e6c010e662f67d05",
@@ -14062,7 +14110,7 @@
       "evidence_grade": "D",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated May 14, 2026. Did you know that Microgreens have FOUR to FORTY TIMES MORE NUTRIENTS than their adult vegetable version? Studies by the USDA and universities have shown this. We have many varieties and they're always harvested same day for our subscribers to ensure freshness. In addition, we make powders, capsules, seasoning and infused oil all with our Microgreens to ensure everyone in your family can get their share of vegetable nutrients! We grow using USDA Certified Organic Seed, OMRI-Listed organic soil, purified water and love. That is it! No pesticides, fertilizers, etc. About Us Family We are the Zuniga Family, born and raised from generations of farmers and botanist. We hand sow, grow, and harvest all of our crops together with love and gratitude. We were raised in Texas with the love and knowledge of healthy farming at the palm of our hands. Vision/Mission We strive to be the premier Microgreens supplier in Texas, providing the best tasting and most nutritious Microgreens available and in as many forms as possible to make it easy. Our mission is to supply the most organic atmosphere and product for our family and to anyone we feed. We truly believe that everyone deserves to have a suffi"
+      "notes": "Discovered through Bexar County seat search (https://www.localharvest.org/san-antonio-tx/farms). Listing last updated May 14, 2026. Did you know that Microgreens have FOUR to FORTY TIMES MORE NUTRIENTS than their adult vegetable version? Studies by the USDA and universities have shown this. We have many varieties and they're always harvested same day for our subscribers to ensure freshness. In addition, we make powders, capsules, seasoning and infused oil all with our Microgreens to ensure everyone in your family can get their share of vegetable nutrients! We grow using USDA Certified Organic Seed, OMRI-Listed organic soil, purified water and love. That is it! No pesticides, fertilizers, etc. About Us Family We are the Zuniga Family, born and raised from generations of farmers and botanist. We hand sow, grow, and harvest all of our crops together with love and gratitude. We were raised in Texas with the love and knowledge of healthy farming at the palm of our hands. Vision/Mission We strive to be the premier Microgreens supplier in Texas, providing the best tasting and most nutritious Microgreens available and in as many forms as possible to make it easy. Our mission is to supply the most organic atmosphere and product for our family and to anyone we feed. We truly believe that everyone deserves to have a suffi"
     },
     {
       "observation_id": "txobs_7267043444c51eb30751",
@@ -14638,7 +14686,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Aransas County seat search (https://www.localharvest.org/rockport-tx/farms). Listing last updated Jan 21, 2025. Farm Fresh Chicken and Duck Eggs Available"
+      "notes": "Discovered through Bee County seat search (https://www.localharvest.org/beeville-tx/farms). Listing last updated Jan 21, 2025. Farm Fresh Chicken and Duck Eggs Available"
     },
     {
       "observation_id": "txobs_d1c6344fd8d31f528cc6",
@@ -14734,7 +14782,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Bailey County seat search (https://www.localharvest.org/muleshoe-tx/farms). Listing last updated Jan 21, 2025. Elle Farms is a new CSA vegetable and fruit farm in Lubbock, TX. We have a 18 week summer share starting in June, and will begin adding other season shares as our membership grows. We are committed to being a sustainable organic farm, and are in transition to become organic certified. NO GMO's or harmful pesticides are used, and specific care is used to increase our soils with high organic matter. We can do farm tours for CSA's, groups and also have educational workshops on urban gardening."
+      "notes": "Discovered through Andrews County seat search (https://www.localharvest.org/andrews-tx/farms). Listing last updated Jan 21, 2025. Elle Farms is a new CSA vegetable and fruit farm in Lubbock, TX. We have a 18 week summer share starting in June, and will begin adding other season shares as our membership grows. We are committed to being a sustainable organic farm, and are in transition to become organic certified. NO GMO's or harmful pesticides are used, and specific care is used to increase our soils with high organic matter. We can do farm tours for CSA's, groups and also have educational workshops on urban gardening."
     },
     {
       "observation_id": "txobs_3d34d9e12ccc730f8a7e",
@@ -15121,9 +15169,57 @@
       "notes": "Brands: Brand; Etx Legends Coffee Co; Etx Legends Coffee Co.; sales: Direct To Public"
     },
     {
+      "observation_id": "txobs_95232c4028299f942195",
+      "candidate_key": "evergreen farms christmas trees",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
+      "current_release_name_collision": "",
+      "farm_name": "Evergreen Farms Christmas Trees",
+      "entity_type_source": "farm",
+      "entity_type_review": "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+      "state": "TX",
+      "county": "Bastrop",
+      "county_fips": "48021",
+      "county_source": "https://www.evergreenfarms.biz/",
+      "city": "Elgin",
+      "postal_code": "78621",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "curator_verified_safe_service_area",
+      "address_visibility": "internal_source_value",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "contact_visibility": "internal_source_value",
+      "products": "Christmas trees; pumpkins; seasonal agritourism",
+      "business_types": "Christmas-tree farm; U-pick; agritourism",
+      "website_url": "https://www.evergreenfarms.biz/",
+      "facebook_url": "",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "on_farm_sales": null,
+      "farmers_market_sales": null,
+      "online_sales": null,
+      "local_delivery": null,
+      "u_pick": null,
+      "wholesale": null,
+      "farm_to_school": null,
+      "retail_sales": null,
+      "restaurant_sales": null,
+      "hours_or_season": "",
+      "source_pass": 3,
+      "source_name": "FarmFinder curator verification \u2014 farm-owned or authoritative evidence",
+      "source_url": "https://www.evergreenfarms.biz/",
+      "source_record_id": "txreview_20260715_034",
+      "evidence_grade": "C",
+      "retrieved_date": "2026-07-15",
+      "promotion_status": "staged_pending_rules",
+      "notes": "The current farm-owned site identifies Evergreen Farms at 242 Monkey Road in Elgin and documents Christmas-tree cultivation, pumpkin activities, and continuing farm operation.; Replaces the compromised evergreen-farms.com domain"
+    },
+    {
       "observation_id": "txobs_70328bb5d4b4c875f31e",
       "candidate_key": "evergreen farms christmas trees",
-      "identity_review_status": "source_unique_name",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
       "current_release_name_collision": "",
       "farm_name": "Evergreen Farms Christmas Trees",
       "entity_type_source": "U-pick operation",
@@ -15502,7 +15598,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Angelina County seat search (https://www.localharvest.org/lufkin-tx/farms). Listing last updated Jun 16, 2026. Far Out Farm is a permaculture farm project that provides native and medicinal plants, hand made herbal products, eggs and chickens to the local community. We are currently offering our products at the Huntsville Farmers Market on Saturdays 8am-noon at the corner of 11th street and Hwy 75. The market is in the parking lot of Walgreens and Mckenzies BBQ. We are also looking to share skills and cultivate friendships with others who would like to learn sustainable farming and permaculture. Interested individuals please contact us for more information."
+      "notes": "Discovered through Anderson County seat search (https://www.localharvest.org/palestine-tx/farms). Listing last updated Jun 16, 2026. Far Out Farm is a permaculture farm project that provides native and medicinal plants, hand made herbal products, eggs and chickens to the local community. We are currently offering our products at the Huntsville Farmers Market on Saturdays 8am-noon at the corner of 11th street and Hwy 75. The market is in the parking lot of Walgreens and Mckenzies BBQ. We are also looking to share skills and cultivate friendships with others who would like to learn sustainable farming and permaculture. Interested individuals please contact us for more information."
     },
     {
       "observation_id": "txobs_1644121e68a3f9b40df4",
@@ -16702,12 +16798,60 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Archer County seat search (https://www.localharvest.org/archer-city-tx/farms). Listing last updated Dec 2, 2025. Foster Farm is a family ran All Natural Grass Fed & Grass Finished Beef farm. Our cattle are treated well & loved on almost every day - as evidenced by all the pictures of us petting them & grandchildren even sitting on their backs petting them - see pictures on our Facebook page: @fosterfarmbeef Our cattle live a stress free, easy going life grazing year round as they roam all over our 120 acre farm that has been in our family for over 60 years. We do not use pesticides or herbicides on our pastures. We do not use antibiotics or hormones on our cattle. They have access year round to their choice of native wild grasses & vegetation as well as coastal Bermuda grass & also, oat & wheat grasses in the winter time and fresh hay processed from our own healthy pastures. We offer all natural minerals as free choice for the cattle, as well as, diatomaceous earth. We literally deliver from our healthy grassy fields here at Foster Farm straight to the butcher. We offer 1/2 & whole steers to fill your freezer with healthy grass fed beef, which includes delivery to the butcher for processing, where the animal is processed according to your specifications. You pay us for the animal based on its"
+      "notes": "Discovered through Bell County seat search (https://www.localharvest.org/belton-tx/farms). Listing last updated Dec 2, 2025. Foster Farm is a family ran All Natural Grass Fed & Grass Finished Beef farm. Our cattle are treated well & loved on almost every day - as evidenced by all the pictures of us petting them & grandchildren even sitting on their backs petting them - see pictures on our Facebook page: @fosterfarmbeef Our cattle live a stress free, easy going life grazing year round as they roam all over our 120 acre farm that has been in our family for over 60 years. We do not use pesticides or herbicides on our pastures. We do not use antibiotics or hormones on our cattle. They have access year round to their choice of native wild grasses & vegetation as well as coastal Bermuda grass & also, oat & wheat grasses in the winter time and fresh hay processed from our own healthy pastures. We offer all natural minerals as free choice for the cattle, as well as, diatomaceous earth. We literally deliver from our healthy grassy fields here at Foster Farm straight to the butcher. We offer 1/2 & whole steers to fill your freezer with healthy grass fed beef, which includes delivery to the butcher for processing, where the animal is processed according to your specifications. You pay us for the animal based on its"
+    },
+    {
+      "observation_id": "txobs_8c5cd33877974b9a7d96",
+      "candidate_key": "four string farm",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
+      "current_release_name_collision": "",
+      "farm_name": "Four String Farm",
+      "entity_type_source": "farm",
+      "entity_type_review": "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+      "state": "TX",
+      "county": "Aransas",
+      "county_fips": "48007",
+      "county_source": "https://fourstringfarm.com/about/",
+      "city": "Rockport",
+      "postal_code": "78382",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "curator_verified_safe_service_area",
+      "address_visibility": "internal_source_value",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "contact_visibility": "internal_source_value",
+      "products": "Pastured pork; pastured poultry; eggs; seasonal vegetables and herbs",
+      "business_types": "Direct-market heritage farm",
+      "website_url": "https://fourstringfarm.com/",
+      "facebook_url": "",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "on_farm_sales": null,
+      "farmers_market_sales": null,
+      "online_sales": null,
+      "local_delivery": null,
+      "u_pick": null,
+      "wholesale": null,
+      "farm_to_school": null,
+      "retail_sales": null,
+      "restaurant_sales": null,
+      "hours_or_season": "",
+      "source_pass": 3,
+      "source_name": "FarmFinder curator verification \u2014 farm-owned or authoritative evidence",
+      "source_url": "https://fourstringfarm.com/about/",
+      "source_record_id": "txreview_20260715_031",
+      "evidence_grade": "C",
+      "retrieved_date": "2026-07-15",
+      "promotion_status": "staged_pending_rules",
+      "notes": "The farm-owned site identifies Four String Farm as a heritage farm in Rockport and describes its pastured livestock, eggs, and seasonal crop production; the site also contains current 2025 farm-authored activity.; Replaces the obsolete .me website value with the current farm-owned .com domain."
     },
     {
       "observation_id": "txobs_c6b7cd6b6dc1ed04ac5a",
       "candidate_key": "four string farm",
-      "identity_review_status": "source_unique_name",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
       "current_release_name_collision": "",
       "farm_name": "Four String Farm",
       "entity_type_source": "Family Farm",
@@ -16750,7 +16894,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Aransas County seat search (https://www.localharvest.org/rockport-tx/farms). Listing last updated Jan 21, 2025. Four String Farm offers pastured pork, pastured chicken, fresh eggs, and seasonal vegetables and herbs throughout the year. We use heritage farming methods, including rotational grazing on pasture and garden space, and natural pest management techniques. No hormones, steroids or antibiotics are given to our animals. We never use chemical pesticides or fertilizers on our farm. All of our products are available at Coastal Bend Health Foods, in the Heritage District of Rockport, TX, next door to Latitude. Contact Costal Bend Health Foods of Rockport to find out what is fresh from the farm today."
+      "notes": "Discovered through Bee County seat search (https://www.localharvest.org/beeville-tx/farms). Listing last updated Jan 21, 2025. Four String Farm offers pastured pork, pastured chicken, fresh eggs, and seasonal vegetables and herbs throughout the year. We use heritage farming methods, including rotational grazing on pasture and garden space, and natural pest management techniques. No hormones, steroids or antibiotics are given to our animals. We never use chemical pesticides or fertilizers on our farm. All of our products are available at Coastal Bend Health Foods, in the Heritage District of Rockport, TX, next door to Latitude. Contact Costal Bend Health Foods of Rockport to find out what is fresh from the farm today."
     },
     {
       "observation_id": "txobs_ff8330841b6c785ca07d",
@@ -16945,9 +17089,57 @@
       "notes": "Fresas by Aldalin - strawberries, you pick or already picked, | 5155 County Rd. 307, Jourdanton, TX 78026. Phone: 210-620-4840. Email: Fresasbyaldalin@gmail.com . Open: hours vary, call or see thier Facebook page, Please contact us ahead of time to reserve your picking time.. Fresas is a U-Pick Farm established in 2019.Strawberries can either be picked to order for your convenience or you can enjoy the experience of picking your own fresh berries. When you stop by, we will have multiple types of Strawberry Jams and numerous other Strawberry treats available for purchase. [ Click here to update the listing ] (UPDATED: April 28, 2025, JBS) (ADDED: February 25, 2021, JBS) | "
     },
     {
+      "observation_id": "txobs_d82ba6bfb817afa932a2",
+      "candidate_key": "froberg vegetable and fruit farm",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
+      "current_release_name_collision": "",
+      "farm_name": "Froberg Vegetable & Fruit Farm",
+      "entity_type_source": "farm",
+      "entity_type_review": "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+      "state": "TX",
+      "county": "Brazoria",
+      "county_fips": "48039",
+      "county_source": "https://frobergsfarm.com/",
+      "city": "Alvin",
+      "postal_code": "77511",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "curator_verified_safe_service_area",
+      "address_visibility": "internal_source_value",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "contact_visibility": "internal_source_value",
+      "products": "Strawberries; vegetables; fruit; U-pick; seasonal crops",
+      "business_types": "Produce farm; U-pick; farm store; agritourism",
+      "website_url": "https://frobergsfarm.com/",
+      "facebook_url": "",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "on_farm_sales": null,
+      "farmers_market_sales": null,
+      "online_sales": null,
+      "local_delivery": null,
+      "u_pick": null,
+      "wholesale": null,
+      "farm_to_school": null,
+      "retail_sales": null,
+      "restaurant_sales": null,
+      "hours_or_season": "",
+      "source_pass": 3,
+      "source_name": "FarmFinder curator verification \u2014 farm-owned or authoritative evidence",
+      "source_url": "https://frobergsfarm.com/",
+      "source_record_id": "txreview_20260715_036",
+      "evidence_grade": "C",
+      "retrieved_date": "2026-07-15",
+      "promotion_status": "staged_pending_rules",
+      "notes": "The farm-owned site identifies Froberg's Farm in Alvin, publishes its address, and documents current homegrown fruit and vegetable production, U-pick crops, and a seasonal produce calendar.; Current farm-owned evidence independently corroborates the older discovery listing."
+    },
+    {
       "observation_id": "txobs_323d3c72602aa78ac720",
       "candidate_key": "froberg vegetable and fruit farm",
-      "identity_review_status": "source_unique_name",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
       "current_release_name_collision": "",
       "farm_name": "Froberg Vegetable & Fruit Farm",
       "entity_type_source": "U-pick operation",
@@ -17422,7 +17614,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated Feb 28, 2026. Galloping Winds Ranch is nestled on the fringe of the Texas Hill Country. We are a small, family-run operation. Our primary focus is quality livestock - specializing in Nubian dairy goats and Great Pyrenees livestock guardian dogs. Our Nubian dairy goats are purebred and registered with ADGA. We take pride in breeding healthy dairy goats from proven milking lines. In addition to milk production and conformation, our herd is known for flashy colors and spots. Goat kids are generally available starting in the Spring. Reservations are accepted as soon as kids arrive. Please visit our website to see pictures and information about our breeding herd and any new arrivals. Please note: We are not licensed to sell milk or milk products. Great Pyrenees are well respected protectors of livestock and family; a known working breed. Our pups are raised by working parents alongside our dairy goats. We interact with pups frequently so they are both livestock focused and human friendly. We typically have healthy, non-registered pups available to working and pet homes throughout the year."
+      "notes": "Discovered through Bastrop County seat search (https://www.localharvest.org/bastrop-tx/farms). Listing last updated Feb 28, 2026. Galloping Winds Ranch is nestled on the fringe of the Texas Hill Country. We are a small, family-run operation. Our primary focus is quality livestock - specializing in Nubian dairy goats and Great Pyrenees livestock guardian dogs. Our Nubian dairy goats are purebred and registered with ADGA. We take pride in breeding healthy dairy goats from proven milking lines. In addition to milk production and conformation, our herd is known for flashy colors and spots. Goat kids are generally available starting in the Spring. Reservations are accepted as soon as kids arrive. Please visit our website to see pictures and information about our breeding herd and any new arrivals. Please note: We are not licensed to sell milk or milk products. Great Pyrenees are well respected protectors of livestock and family; a known working breed. Our pups are raised by working parents alongside our dairy goats. We interact with pups frequently so they are both livestock focused and human friendly. We typically have healthy, non-registered pups available to working and pet homes throughout the year."
     },
     {
       "observation_id": "txobs_6af757144d521e878a02",
@@ -17614,7 +17806,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Aransas County seat search (https://www.localharvest.org/rockport-tx/farms). Listing last updated Jan 21, 2025. Truly pastured-raised fresh eggs from happy chickens and ducks. The \"girls\" spend their days in the pasture and under the brush or playing in the \"chicken creek\". It is important to us that our animals have a good life for their welfare and because happy chickens lay more eggs. Our small homestead is located on Goliad Airport Road, please call when you want to come by for eggs; we'll be glad to introduce you to our girls. Children are welcome - who knows, we may have some chicks or ducklings for them to play with!"
+      "notes": "Discovered through Bee County seat search (https://www.localharvest.org/beeville-tx/farms). Listing last updated Jan 21, 2025. Truly pastured-raised fresh eggs from happy chickens and ducks. The \"girls\" spend their days in the pasture and under the brush or playing in the \"chicken creek\". It is important to us that our animals have a good life for their welfare and because happy chickens lay more eggs. Our small homestead is located on Goliad Airport Road, please call when you want to come by for eggs; we'll be glad to introduce you to our girls. Children are welcome - who knows, we may have some chicks or ducklings for them to play with!"
     },
     {
       "observation_id": "txobs_85e0e5c5f4d9f8adf341",
@@ -17662,7 +17854,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Aransas County seat search (https://www.localharvest.org/rockport-tx/farms). Listing last updated Mar 3, 2025. Garret's Legacy Farmstead is a small, family-owned place outside of Goliad, Texas. We specialize in naturally-raised chicken and duck eggs and seasonal veggies and fruit, delivered to Victoria, Texas on Tuesdays and to the city of Goliad daily."
+      "notes": "Discovered through Bee County seat search (https://www.localharvest.org/beeville-tx/farms). Listing last updated Mar 3, 2025. Garret's Legacy Farmstead is a small, family-owned place outside of Goliad, Texas. We specialize in naturally-raised chicken and duck eggs and seasonal veggies and fruit, delivered to Victoria, Texas on Tuesdays and to the city of Goliad daily."
     },
     {
       "observation_id": "txobs_0dfa633cee9be558f71a",
@@ -17710,7 +17902,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated Jan 22, 2026. Cultivating a Sustainable Future Welcome to Gather & Deliver, where our passion for Radical Regenerative Farming & Education takes root. Beyond growing the finest farm items on our land at Hamilton Pool Farms, we've cultivated a network of dedicated organic and regenerative farms across Texas, united in a shared vision for a healthier, more sustainable future. Our Commitment to Community: Gather & Deliver is more than just a source for exceptional farm products; we are a hub connecting local farms and businesses in the vibrant Texas community. By collaborating with like-minded partners, we bring you an array of amazing, locally sourced products that embody the principles of regenerative farming. Why Regenerative Matters: Regenerative farming is not just a practice; it's a necessity for the future. It's about cultivating a sustainable ecosystem that nourishes both the community and the planet. Through our platform, we aim to share the significance of regenerative practices, fostering a deeper connection between consumers and the source of their food. Your Journey to Empowered Choices: Join us on this journey towards sustainability. Explore the benefits of regenerative farming, under"
+      "notes": "Discovered through Bexar County seat search (https://www.localharvest.org/san-antonio-tx/farms). Listing last updated Jan 22, 2026. Cultivating a Sustainable Future Welcome to Gather & Deliver, where our passion for Radical Regenerative Farming & Education takes root. Beyond growing the finest farm items on our land at Hamilton Pool Farms, we've cultivated a network of dedicated organic and regenerative farms across Texas, united in a shared vision for a healthier, more sustainable future. Our Commitment to Community: Gather & Deliver is more than just a source for exceptional farm products; we are a hub connecting local farms and businesses in the vibrant Texas community. By collaborating with like-minded partners, we bring you an array of amazing, locally sourced products that embody the principles of regenerative farming. Why Regenerative Matters: Regenerative farming is not just a practice; it's a necessity for the future. It's about cultivating a sustainable ecosystem that nourishes both the community and the planet. Through our platform, we aim to share the significance of regenerative practices, fostering a deeper connection between consumers and the source of their food. Your Journey to Empowered Choices: Join us on this journey towards sustainability. Explore the benefits of regenerative farming, under"
     },
     {
       "observation_id": "txobs_0501a3da136693e23c10",
@@ -17950,7 +18142,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated Jul 16, 2025. Regenerative farm that employs the best possible production practices to raise food that's better for the earth, the animals and for you! Working with nature's design, we move the animals everyday to fresh grass which feeds the soil, allows the birds to flourish and creates the most nutrient-dense, delicious food on the planet. 100% clean. No chemicals and pharmaceuticals. Come by and see us at the markets. Or get free local delivery through our online store."
+      "notes": "Discovered through Bexar County seat search (https://www.localharvest.org/san-antonio-tx/farms). Listing last updated Jul 16, 2025. Regenerative farm that employs the best possible production practices to raise food that's better for the earth, the animals and for you! Working with nature's design, we move the animals everyday to fresh grass which feeds the soil, allows the birds to flourish and creates the most nutrient-dense, delicious food on the planet. 100% clean. No chemicals and pharmaceuticals. Come by and see us at the markets. Or get free local delivery through our online store."
     },
     {
       "observation_id": "txobs_ec9881571a567f6ef97a",
@@ -18145,9 +18337,57 @@
       "notes": "Local family farm raising amazing pastured proteins for you and our community! We raise pastured pork, lamb, and goat!"
     },
     {
+      "observation_id": "txobs_1132f34fc2ffefead14e",
+      "candidate_key": "ginas acres",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
+      "current_release_name_collision": "",
+      "farm_name": "Gina's Acres",
+      "entity_type_source": "farm",
+      "entity_type_review": "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+      "state": "TX",
+      "county": "Brazoria",
+      "county_fips": "48039",
+      "county_source": "https://www.grittyfarmgirl.com/home2",
+      "city": "Damon",
+      "postal_code": "77430",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "curator_verified_safe_service_area",
+      "address_visibility": "internal_source_value",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "contact_visibility": "internal_source_value",
+      "products": "Grass-fed beef; pasture-raised pork; eggs",
+      "business_types": "Livestock farm; direct-market farm",
+      "website_url": "https://www.grittyfarmgirl.com/home2",
+      "facebook_url": "",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "on_farm_sales": null,
+      "farmers_market_sales": null,
+      "online_sales": null,
+      "local_delivery": null,
+      "u_pick": null,
+      "wholesale": null,
+      "farm_to_school": null,
+      "retail_sales": null,
+      "restaurant_sales": null,
+      "hours_or_season": "",
+      "source_pass": 3,
+      "source_name": "FarmFinder curator verification \u2014 farm-owned or authoritative evidence",
+      "source_url": "https://www.grittyfarmgirl.com/home2",
+      "source_record_id": "txreview_20260715_037",
+      "evidence_grade": "C",
+      "retrieved_date": "2026-07-15",
+      "promotion_status": "staged_pending_rules",
+      "notes": "The farm-owned current site identifies Gina's Acres as a Houston-area producing farm and describes its own grass-fed cattle, pastured pigs, chickens, beef, pork, and eggs.; Replaces the unavailable ginasacres.com website value with the farm's current owned site."
+    },
+    {
       "observation_id": "txobs_a9d2e25b1eb05c7c239a",
       "candidate_key": "ginas acres",
-      "identity_review_status": "source_unique_name",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
       "current_release_name_collision": "",
       "farm_name": "Gina's Acres",
       "entity_type_source": "Family Farm",
@@ -19054,7 +19294,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated Jan 27, 2026. Our award-winning, certified organic family farm uses regenerative growing methods to raise the tastiest vegetables, herbs, flowers and meat possible. Our food is all local, all the time! No synthetic pesticides/fertilizers ever. Since 2015, we have worked to create the first community of Tiny Homes around our certified organic farm. This development, built by Roberts Communities, merges the historic farmstead built by the Bergstrom family 1902 with innovative, sustainable living. We provide tours the first Saturday of the month at noon. ($10 per person). Our farm stand - located 8 miles east of downtown Austin - is open to all Saturdays 9-noon. We have veggies, flowers, eggs and other goodies. To reserve a flower bouquet, join our Flower CSA. Volunteers welcome at our intown and Bastrop farm locations! See www.greengatefarms.net for more info. Thanks for supporting certified organic, local farms."
+      "notes": "Discovered through Bexar County seat search (https://www.localharvest.org/san-antonio-tx/farms). Listing last updated Jan 27, 2026. Our award-winning, certified organic family farm uses regenerative growing methods to raise the tastiest vegetables, herbs, flowers and meat possible. Our food is all local, all the time! No synthetic pesticides/fertilizers ever. Since 2015, we have worked to create the first community of Tiny Homes around our certified organic farm. This development, built by Roberts Communities, merges the historic farmstead built by the Bergstrom family 1902 with innovative, sustainable living. We provide tours the first Saturday of the month at noon. ($10 per person). Our farm stand - located 8 miles east of downtown Austin - is open to all Saturdays 9-noon. We have veggies, flowers, eggs and other goodies. To reserve a flower bouquet, join our Flower CSA. Volunteers welcome at our intown and Bastrop farm locations! See www.greengatefarms.net for more info. Thanks for supporting certified organic, local farms."
     },
     {
       "observation_id": "txobs_b5b566894774d57943cc",
@@ -19630,7 +19870,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Aransas County seat search (https://www.localharvest.org/rockport-tx/farms). Listing last updated Jan 21, 2025. Since 2007 Gulf Breeze Alpaca Ranch & Lodging has offered a variety of products made from the fiber of our alpaca and heritage sheep. Handmade and mill produced apparel, household items, yarns and souvenirs are available year round in our onsite gift and yarn shop. Experience the charm of alpacas by booking an Alapca Encounter, a walk with an alpaca. Or enjoy a farmstay by reserving one of cabins."
+      "notes": "Discovered through Bee County seat search (https://www.localharvest.org/beeville-tx/farms). Listing last updated Jan 21, 2025. Since 2007 Gulf Breeze Alpaca Ranch & Lodging has offered a variety of products made from the fiber of our alpaca and heritage sheep. Handmade and mill produced apparel, household items, yarns and souvenirs are available year round in our onsite gift and yarn shop. Experience the charm of alpacas by booking an Alapca Encounter, a walk with an alpaca. Or enjoy a farmstay by reserving one of cabins."
     },
     {
       "observation_id": "txobs_1a8704294cccb9be9b70",
@@ -22225,9 +22465,57 @@
       "notes": "Discovered through Liberty County seat search (https://www.localharvest.org/liberty-tx/farms). Listing last updated Jan 21, 2025. Currently specializing in free range chicken egg production. Future plans include expanding products to include poultry for meat, and meat goats. Eventually will seek organic certification for all poultry products."
     },
     {
+      "observation_id": "txobs_6fe1f89ac141cf89578c",
+      "candidate_key": "holland cattle co",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
+      "current_release_name_collision": "",
+      "farm_name": "Holland Cattle Co.",
+      "entity_type_source": "ranch",
+      "entity_type_review": "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+      "state": "TX",
+      "county": "Burnet",
+      "county_fips": "48053",
+      "county_source": "https://www.hollandcattleco.com/",
+      "city": "Marble Falls",
+      "postal_code": "78654",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "curator_verified_safe_service_area",
+      "address_visibility": "internal_source_value",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "contact_visibility": "internal_source_value",
+      "products": "Pasture-raised grass-fed beef; lamb",
+      "business_types": "Cattle ranch; livestock farm; direct sales",
+      "website_url": "https://www.hollandcattleco.com/",
+      "facebook_url": "",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "on_farm_sales": null,
+      "farmers_market_sales": null,
+      "online_sales": null,
+      "local_delivery": null,
+      "u_pick": null,
+      "wholesale": null,
+      "farm_to_school": null,
+      "retail_sales": null,
+      "restaurant_sales": null,
+      "hours_or_season": "",
+      "source_pass": 3,
+      "source_name": "FarmFinder curator verification \u2014 farm-owned or authoritative evidence",
+      "source_url": "https://www.hollandcattleco.com/",
+      "source_record_id": "txreview_20260715_039",
+      "evidence_grade": "C",
+      "retrieved_date": "2026-07-15",
+      "promotion_status": "staged_pending_rules",
+      "notes": "The ranch-owned site states that Holland Cattle Co. raises pasture-fed cattle on its own Burnet County ranch and partner ranches and sells pasture-raised beef and lamb.; Farm-owned evidence independently corroborates the older discovery listing."
+    },
+    {
       "observation_id": "txobs_2928cb2170c718496797",
       "candidate_key": "holland cattle co",
-      "identity_review_status": "source_unique_name",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
       "current_release_name_collision": "",
       "farm_name": "Holland Cattle Co.",
       "entity_type_source": "Family Farm",
@@ -22270,7 +22558,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated Jan 22, 2026. Holland Cattle Co. offers whole, half, and quarter beef. We also offer a more space saving - of 10lb boxes of beef and 20lb boxes of beef. At Holland Cattle Co., our tradition is to raise pastured livestock producing healthy meat for you and your family (and our family, too). Ranching is our full-time business and passion. This is not a hobby for us. Our ranch has been in business for over a century, and we are working diligently to build sustainable practices to thrive for another 100 years and more."
+      "notes": "Discovered through Bexar County seat search (https://www.localharvest.org/san-antonio-tx/farms). Listing last updated Jan 22, 2026. Holland Cattle Co. offers whole, half, and quarter beef. We also offer a more space saving - of 10lb boxes of beef and 20lb boxes of beef. At Holland Cattle Co., our tradition is to raise pastured livestock producing healthy meat for you and your family (and our family, too). Ranching is our full-time business and passion. This is not a hobby for us. Our ranch has been in business for over a century, and we are working diligently to build sustainable practices to thrive for another 100 years and more."
     },
     {
       "observation_id": "txobs_5d41bb3c725ea9ceb6f9",
@@ -22414,7 +22702,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Bailey County seat search (https://www.localharvest.org/muleshoe-tx/farms). Listing last updated Jan 23, 2026. Holy Cow Beef is a family-run West Texas operation in operation for over 20 years. We believe food is never neutral. How it is raised matters: to our bodies, our communities, and our moral life. Guided by our faith, we assure our food is raised rightly from the land to the family. It is by this Catholic understanding of stewardship, we apply to the land, animals, and our labor as gifts entrusted to us, not resources to be exploited. We raise our animals intentionally and with respect, believing this work is not just a business but a vocation, an act of service carried out with integrity, humility, and gratitude. We\u2019re deeply thankful to every customer who chooses to support our family and share our beef at their table."
+      "notes": "Discovered through Andrews County seat search (https://www.localharvest.org/andrews-tx/farms). Listing last updated Jan 23, 2026. Holy Cow Beef is a family-run West Texas operation in operation for over 20 years. We believe food is never neutral. How it is raised matters: to our bodies, our communities, and our moral life. Guided by our faith, we assure our food is raised rightly from the land to the family. It is by this Catholic understanding of stewardship, we apply to the land, animals, and our labor as gifts entrusted to us, not resources to be exploited. We raise our animals intentionally and with respect, believing this work is not just a business but a vocation, an act of service carried out with integrity, humility, and gratitude. We\u2019re deeply thankful to every customer who chooses to support our family and share our beef at their table."
     },
     {
       "observation_id": "txobs_97ef2374aa0b8f061126",
@@ -23185,9 +23473,57 @@
       "notes": "It isn't anything too complicated, we just want to provide our community with food that is not pumped full of antibiotics and growth hormones and where the animals are cared for and considered in each step of the way. We pride ourselves in being transparent with our raising practices and welcome you to come and see the operation."
     },
     {
+      "observation_id": "txobs_c26345a51d5158298a6d",
+      "candidate_key": "imagine lavender farm",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
+      "current_release_name_collision": "",
+      "farm_name": "Imagine Lavender Farm",
+      "entity_type_source": "farm",
+      "entity_type_review": "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+      "state": "TX",
+      "county": "Bandera",
+      "county_fips": "48019",
+      "county_source": "https://www.imaginelavender.com/pages/about-us",
+      "city": "Vanderpool",
+      "postal_code": "78885",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "curator_verified_safe_service_area",
+      "address_visibility": "internal_source_value",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "contact_visibility": "internal_source_value",
+      "products": "Lavender; lavender-derived products",
+      "business_types": "Lavender farm; farmers-market seller",
+      "website_url": "https://www.imaginelavender.com",
+      "facebook_url": "",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "on_farm_sales": null,
+      "farmers_market_sales": null,
+      "online_sales": null,
+      "local_delivery": null,
+      "u_pick": null,
+      "wholesale": null,
+      "farm_to_school": null,
+      "retail_sales": null,
+      "restaurant_sales": null,
+      "hours_or_season": "",
+      "source_pass": 3,
+      "source_name": "FarmFinder curator verification \u2014 farm-owned or authoritative evidence",
+      "source_url": "https://www.imaginelavender.com/pages/about-us",
+      "source_record_id": "txreview_20260715_033",
+      "evidence_grade": "C",
+      "retrieved_date": "2026-07-15",
+      "promotion_status": "staged_pending_rules",
+      "notes": "The business-owned current About page describes a three-generation Texas Hill Country operation rooted in lavender farming and identifies ongoing farmers-market sales.; The current business has expanded into a boutique brand; retention is based on its explicit farm-production claim."
+    },
+    {
       "observation_id": "txobs_f4bff14c2062a5366cdf",
       "candidate_key": "imagine lavender farm",
-      "identity_review_status": "source_unique_name",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
       "current_release_name_collision": "",
       "farm_name": "Imagine Lavender Farm",
       "entity_type_source": "U-pick operation",
@@ -24097,9 +24433,57 @@
       "notes": "Discovered through Harris County seat search (https://www.localharvest.org/houston-tx/farms). Listing last updated Jan 21, 2025. Jolie Vue Farms is located in the pastoral hills of Washington County, Texas, about 80 miles northwest of Houston. In 1989, its new owners dedicated themselves to the restoration of the native grasses, clovers, flowers and herbaceous materials without the use of synthetic fertilizers, herbicides, or pesticides. A decade of diligence to that task allowed nature to do her work, and the farm reached the stage where the measured introduction of complementary livestock will complete the farm's restoration and transform it into a self-sustaining agricultural enterprise. Jolie Vue grows heritage cattle and pastured pigs and brings those meats, with free range chickens and eggs to your door, once a month, in an ice chest which we provide. Our creatures are not caged, but instead free-ranged in symbiotic rotation. They not only provide clean, healthy and tasty food for our buyers, but as importantly, enrich our soils and pastures by acting in harmony with nature. We are land healers and grass farmers first, because that is where wholesome food begins. We grow organic fruits and vegetables to make sure our animals eat only the best. Our CSA is easy- you can skip any month you'd like, or sign"
     },
     {
+      "observation_id": "txobs_ac3f398e0475c358c54b",
+      "candidate_key": "jolly farms chickens",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
+      "current_release_name_collision": "",
+      "farm_name": "Jolly Farms Chickens",
+      "entity_type_source": "farm",
+      "entity_type_review": "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+      "state": "TX",
+      "county": "Brazoria",
+      "county_fips": "48039",
+      "county_source": "https://www.jollyfarms.org/",
+      "city": "Alvin",
+      "postal_code": "77511",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "curator_verified_safe_service_area",
+      "address_visibility": "internal_source_value",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "contact_visibility": "internal_source_value",
+      "products": "Pasture-raised chicken",
+      "business_types": "Poultry farm; direct-market farm",
+      "website_url": "https://www.jollyfarms.org",
+      "facebook_url": "",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "on_farm_sales": null,
+      "farmers_market_sales": null,
+      "online_sales": null,
+      "local_delivery": null,
+      "u_pick": null,
+      "wholesale": null,
+      "farm_to_school": null,
+      "retail_sales": null,
+      "restaurant_sales": null,
+      "hours_or_season": "",
+      "source_pass": 3,
+      "source_name": "FarmFinder curator verification \u2014 farm-owned or authoritative evidence",
+      "source_url": "https://www.jollyfarms.org/",
+      "source_record_id": "txreview_20260715_038",
+      "evidence_grade": "C",
+      "retrieved_date": "2026-07-15",
+      "promotion_status": "staged_pending_rules",
+      "notes": "The farm-owned site identifies Jolly Farms as a family-operated Alvin farm, describes raising and pasturing its own chickens, and provides current direct sales and farm contact information.; Farm-owned evidence independently corroborates the older discovery listing."
+    },
+    {
       "observation_id": "txobs_1215e6f5a6a8cc146446",
       "candidate_key": "jolly farms chickens",
-      "identity_review_status": "source_unique_name",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
       "current_release_name_collision": "",
       "farm_name": "Jolly Farms Chickens",
       "entity_type_source": "Family Farm",
@@ -24769,9 +25153,57 @@
       "notes": "Discovered through Galveston County seat search (https://www.localharvest.org/galveston-tx/farms). Listing last updated Jan 21, 2025. We have now been raising birds commercially for over 5 years. \"Our Girls Don't Do Drugs\". We feed our flock Certified Organic and \"Verified\" NON/GMO, NON/SOY, NON/Medicated Feeds from Coyote Creek. Our girls are Pastured, meaning they graze all day on open pasture enjoying the Sun, eating bugs, grasses, weeds, etc, just being chickens. We deliver in a wide area (visit our website for area, www.kenzhenz.com) We deliver our Eggs, Honey, and Broiler Meat Birds to the Houston/Galveston and surrounding areas. Our eggmobiles are placed in pastures behind cattle and work with the cattle to better make the lands and environment sustainable. We are happy to currently have one of the eggmobiles on the local Dairy where the birds help fertilize the 40 acres with natural clean poo! We have so much going on! Our eggs are $6.00 a dozen, our honey which is raw, unpasturized, pure, is $13. a pint and the broiler meat birds are $7.00 a lb. Our minimum order with no delivery fee is $100. A delivery fee of $10 will be charged for a delivery between $75 and $100. A delivery fee of $15 will be charged for a delivery between $50 and $75. Any order below $50 will have a $20 delivery fee. To order, please"
     },
     {
+      "observation_id": "txobs_0643e587f9c164336009",
+      "candidate_key": "kh farm",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
+      "current_release_name_collision": "",
+      "farm_name": "KH Farm",
+      "entity_type_source": "farm",
+      "entity_type_review": "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+      "state": "TX",
+      "county": "Atascosa",
+      "county_fips": "48013",
+      "county_source": "https://khfarmpoteet.com/",
+      "city": "Poteet",
+      "postal_code": "78065",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "curator_verified_safe_service_area",
+      "address_visibility": "internal_source_value",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "contact_visibility": "internal_source_value",
+      "products": "Strawberries; seasonal produce; U-pick",
+      "business_types": "U-pick farm; produce farm",
+      "website_url": "https://khfarmpoteet.com/",
+      "facebook_url": "",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "on_farm_sales": null,
+      "farmers_market_sales": null,
+      "online_sales": null,
+      "local_delivery": null,
+      "u_pick": null,
+      "wholesale": null,
+      "farm_to_school": null,
+      "retail_sales": null,
+      "restaurant_sales": null,
+      "hours_or_season": "",
+      "source_pass": 3,
+      "source_name": "FarmFinder curator verification \u2014 farm-owned or authoritative evidence",
+      "source_url": "https://khfarmpoteet.com/",
+      "source_record_id": "txreview_20260715_030",
+      "evidence_grade": "C",
+      "retrieved_date": "2026-07-15",
+      "promotion_status": "staged_pending_rules",
+      "notes": "The farm-owned site identifies KH Farm five miles outside Poteet and describes current strawberry and produce cultivation, U-pick sales, and the published Poteet address.; Farm-owned evidence independently corroborates the older discovery listing."
+    },
+    {
       "observation_id": "txobs_87f45fe14a6d49f6624c",
       "candidate_key": "kh farm",
-      "identity_review_status": "source_unique_name",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
       "current_release_name_collision": "",
       "farm_name": "KH Farm",
       "entity_type_source": "U-pick operation",
@@ -25102,7 +25534,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Sabine County seat search (https://www.localharvest.org/hemphill-tx/farms). Listing last updated Jan 21, 2025. We are just getting set up, but have begun to gather heritage breeds of ducks and a few of chickens as well! We custom blend our own feed and will be offering eating and hatching eggs and possibly chicks at some point as well!! And while we aren't a pure organic farm, we don't use antibiotics or chemicals. We won't offer any product we wouldn't eat ourselves! We are offering duck and chicken eggs. Duck eggs are fantastic for baking but also make some of the creamiest deviled eggs ever! Taking orders for barnyard mix chickens and ducks (until our breeding pens are finished then we'll have purebreds) Also taking orders for hatching eggs in chickens... We have pure silkies (Lavender Roo over a Blue Hen....which can give you blue, black, lavender as well as blue and black split to lavender our last hatch gave us blue and blacks"
+      "notes": "Discovered through San Augustine County seat search (https://www.localharvest.org/san-augustine-tx/farms). Listing last updated Jan 21, 2025. We are just getting set up, but have begun to gather heritage breeds of ducks and a few of chickens as well! We custom blend our own feed and will be offering eating and hatching eggs and possibly chicks at some point as well!! And while we aren't a pure organic farm, we don't use antibiotics or chemicals. We won't offer any product we wouldn't eat ourselves! We are offering duck and chicken eggs. Duck eggs are fantastic for baking but also make some of the creamiest deviled eggs ever! Taking orders for barnyard mix chickens and ducks (until our breeding pens are finished then we'll have purebreds) Also taking orders for hatching eggs in chickens... We have pure silkies (Lavender Roo over a Blue Hen....which can give you blue, black, lavender as well as blue and black split to lavender our last hatch gave us blue and blacks"
     },
     {
       "observation_id": "txobs_ff75b2d5c385c844f223",
@@ -30094,7 +30526,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated Apr 22, 2026. We grow produce using sustainable methods. We have pasture raised beef. I also offer refrigerator pickles, sauerkraut, kimkraut (a vegetarian, not too hot variation of kimchi), pickled beets and pickled onions. Currently we sell at Bell Tower Farmers Market in Cedar Park and Mueller Farmers Market in Austin."
+      "notes": "Discovered through Bexar County seat search (https://www.localharvest.org/san-antonio-tx/farms). Listing last updated Apr 22, 2026. We grow produce using sustainable methods. We have pasture raised beef. I also offer refrigerator pickles, sauerkraut, kimkraut (a vegetarian, not too hot variation of kimchi), pickled beets and pickled onions. Currently we sell at Bell Tower Farmers Market in Cedar Park and Mueller Farmers Market in Austin."
     },
     {
       "observation_id": "txobs_48f1162fefcec49b5140",
@@ -38830,7 +39262,7 @@
       "evidence_grade": "D",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Newton County seat search (https://www.localharvest.org/newton-tx/farms). Listing last updated May 29, 2026. A small family farm with Livestock, Fruits, Vegetables, and Herbs. I raise Pigs, Goats, Sheep, Geese, Ducks, Chickens, Rabbits. I sell both newborns for your own raising and adults for meat. Live Stock: Pig Breeds - KuneKune Goat Breeds - Nigerian Dwarf Sheep breeds - Katahdin Geese breeds - French Toulouse, African Ducks breeds - Muscovy, Grimaud Hybrid Piken, Rouen, Blue Swedish, Blue Magpie. Chicken breeds - Buff Orpington, Speckled Sussex, Faverolles, Bresse, Dixie Rainbow. Rabbit Breeds - New Zealand Eggs: I have brown and cream chicken eggs. Various duck eggs white, cream, greenish & blueish tinted. My flock is free range and gets a varied diet from free ranging such as grass and insects that is at sometimes supplemented with protein and grains or other things such as eggshell, grit, or oyster shell for full dietary needs. No chemicals, vaccinations, GMO, or hormones used. Vegetables: (when in season) Okra, Corn, Tomatoes, Watermelon, Cantaloupe, Cucumber, Squash, Eggplant, and various hot and/or sweet peppers, Sweet Potato, Broccoli, Carrots, Garlic, Shallots, Chives, Green onion, Parsley. Peppers - Bell peppers (Red, Orange, Yellow, Chocolate), Cayenne, Tabasco, Jalapeno, P"
+      "notes": "Discovered through Orange County seat search (https://www.localharvest.org/orange-tx/farms). Listing last updated May 29, 2026. A small family farm with Livestock, Fruits, Vegetables, and Herbs. I raise Pigs, Goats, Sheep, Geese, Ducks, Chickens, Rabbits. I sell both newborns for your own raising and adults for meat. Live Stock: Pig Breeds - KuneKune Goat Breeds - Nigerian Dwarf Sheep breeds - Katahdin Geese breeds - French Toulouse, African Ducks breeds - Muscovy, Grimaud Hybrid Piken, Rouen, Blue Swedish, Blue Magpie. Chicken breeds - Buff Orpington, Speckled Sussex, Faverolles, Bresse, Dixie Rainbow. Rabbit Breeds - New Zealand Eggs: I have brown and cream chicken eggs. Various duck eggs white, cream, greenish & blueish tinted. My flock is free range and gets a varied diet from free ranging such as grass and insects that is at sometimes supplemented with protein and grains or other things such as eggshell, grit, or oyster shell for full dietary needs. No chemicals, vaccinations, GMO, or hormones used. Vegetables: (when in season) Okra, Corn, Tomatoes, Watermelon, Cantaloupe, Cucumber, Squash, Eggplant, and various hot and/or sweet peppers, Sweet Potato, Broccoli, Carrots, Garlic, Shallots, Chives, Green onion, Parsley. Peppers - Bell peppers (Red, Orange, Yellow, Chocolate), Cayenne, Tabasco, Jalapeno, P"
     },
     {
       "observation_id": "txobs_3d3d043bd4d9458756c4",
@@ -39118,7 +39550,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Bailey County seat search (https://www.localharvest.org/muleshoe-tx/farms). Listing last updated Jan 21, 2025. The South Plains Food Bank, Inc. in Lubbock, Texas uses a 5.5-acre, chemical-free, urban farm as a setting to teach life skills and job skills to underserved teens. Our CSA program raises funds to pay youth to work on the farm during the summer. We produce a weekly newsletter for our shareholders, host an annual Friends and Family Day in May and offer tours and volunteer opportunities. In addition to wonderful, locally grown vegetables our shareholders have the added pleasure of getting to know and mentor our teenage farmers."
+      "notes": "Discovered through Andrews County seat search (https://www.localharvest.org/andrews-tx/farms). Listing last updated Jan 21, 2025. The South Plains Food Bank, Inc. in Lubbock, Texas uses a 5.5-acre, chemical-free, urban farm as a setting to teach life skills and job skills to underserved teens. Our CSA program raises funds to pay youth to work on the farm during the summer. We produce a weekly newsletter for our shareholders, host an annual Friends and Family Day in May and offer tours and volunteer opportunities. In addition to wonderful, locally grown vegetables our shareholders have the added pleasure of getting to know and mentor our teenage farmers."
     },
     {
       "observation_id": "txobs_9a168232d172c75cfacc",
@@ -39982,7 +40414,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Aransas County seat search (https://www.localharvest.org/rockport-tx/farms). Listing last updated Jan 21, 2025. Split Horizon Eco-Stead is an Eco-Stead ran by The Pafford Family, Our Main Goals Are Learning and Teaching Self Reliance and Sustainability."
+      "notes": "Discovered through Bee County seat search (https://www.localharvest.org/beeville-tx/farms). Listing last updated Jan 21, 2025. Split Horizon Eco-Stead is an Eco-Stead ran by The Pafford Family, Our Main Goals Are Learning and Teaching Self Reliance and Sustainability."
     },
     {
       "observation_id": "txobs_0658dc5d7f9678d3c670",
@@ -41230,7 +41662,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated Apr 10, 2026. Sussex Farm and Ranch \"A Small Producer of Craft Beef\" At Sussex Farm and Ranch, we have crossed our legacy Red Angus cattle with the Japanese breed Akaushi. This produces a hearty animal suited to the South Texas environment with the superior marbling and exceptional tenderness of the Akaushi. We take pride in our regenerative and restorative approach to farming, using only organic fertilizers to enrich our soil and enhance the health of our pastures. Our commitment to sustainability includes aggressive pasture rotation and no use of pesticides or synthetic fertilizers. Our cattle are never treated with hormones, antibiotics, or growth stimulants, ensuring that our beef is as pure and natural as it can be. Visit our website sussexranch.com"
+      "notes": "Discovered through Bexar County seat search (https://www.localharvest.org/san-antonio-tx/farms). Listing last updated Apr 10, 2026. Sussex Farm and Ranch \"A Small Producer of Craft Beef\" At Sussex Farm and Ranch, we have crossed our legacy Red Angus cattle with the Japanese breed Akaushi. This produces a hearty animal suited to the South Texas environment with the superior marbling and exceptional tenderness of the Akaushi. We take pride in our regenerative and restorative approach to farming, using only organic fertilizers to enrich our soil and enhance the health of our pastures. Our commitment to sustainability includes aggressive pasture rotation and no use of pesticides or synthetic fertilizers. Our cattle are never treated with hormones, antibiotics, or growth stimulants, ensuring that our beef is as pure and natural as it can be. Visit our website sussexranch.com"
     },
     {
       "observation_id": "txobs_e9385684f5307df0a010",
@@ -42190,7 +42622,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Aransas County seat search (https://www.localharvest.org/rockport-tx/farms). Listing last updated Jan 21, 2025. "
+      "notes": "Discovered through Bee County seat search (https://www.localharvest.org/beeville-tx/farms). Listing last updated Jan 21, 2025. "
     },
     {
       "observation_id": "txobs_0dff144df8e15982db2f",
@@ -44590,7 +45022,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Blanco County seat search (https://www.localharvest.org/johnson-city-tx/farms). Listing last updated Mar 25, 2026. 21 acre family farm and homestead in Central Texas, specializing in pastured pork, poultry, duck eggs and baked goods. Please visit us at www.therowdyroost.com to learn more and shop today."
+      "notes": "Discovered through Bee County seat search (https://www.localharvest.org/beeville-tx/farms). Listing last updated Mar 25, 2026. 21 acre family farm and homestead in Central Texas, specializing in pastured pork, poultry, duck eggs and baked goods. Please visit us at www.therowdyroost.com to learn more and shop today."
     },
     {
       "observation_id": "txobs_33dfa01ba903c20073c7",
@@ -44833,9 +45265,57 @@
       "notes": "We are an urban farm west of downtown San Antonio focusing on empowering women and gender diverse people in urban agriculture."
     },
     {
+      "observation_id": "txobs_90ceafa57c3ed44ed557",
+      "candidate_key": "thomas family ranch",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
+      "current_release_name_collision": "",
+      "farm_name": "Thomas Family Ranch",
+      "entity_type_source": "farm",
+      "entity_type_review": "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+      "state": "TX",
+      "county": "Austin",
+      "county_fips": "48015",
+      "county_source": "https://www.thomasfamilyranch.com/",
+      "city": "Sealy",
+      "postal_code": "77474",
+      "address": "",
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "curator_verified_safe_service_area",
+      "address_visibility": "internal_source_value",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "contact_visibility": "internal_source_value",
+      "products": "Blueberries; quarter horses; U-pick",
+      "business_types": "U-pick farm; ranch",
+      "website_url": "https://www.thomasfamilyranch.com",
+      "facebook_url": "",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "on_farm_sales": null,
+      "farmers_market_sales": null,
+      "online_sales": null,
+      "local_delivery": null,
+      "u_pick": null,
+      "wholesale": null,
+      "farm_to_school": null,
+      "retail_sales": null,
+      "restaurant_sales": null,
+      "hours_or_season": "",
+      "source_pass": 3,
+      "source_name": "FarmFinder curator verification \u2014 farm-owned or authoritative evidence",
+      "source_url": "https://www.thomasfamilyranch.com/",
+      "source_record_id": "txreview_20260715_032",
+      "evidence_grade": "C",
+      "retrieved_date": "2026-07-15",
+      "promotion_status": "staged_pending_rules",
+      "notes": "The ranch-owned site identifies a family farm in Sealy with pick-your-own blueberries and registered quarter horses and publishes its Sealy address and direct contact.; Farm-owned evidence independently corroborates the older discovery listing."
+    },
+    {
       "observation_id": "txobs_a0420f0c2aac07a8e5ea",
       "candidate_key": "thomas family ranch",
-      "identity_review_status": "source_unique_name",
+      "identity_review_status": "exact_normalized_name_group_reviewed_by_reconciliation_rules",
       "current_release_name_collision": "",
       "farm_name": "Thomas Family Ranch",
       "entity_type_source": "U-pick operation",
@@ -48622,7 +49102,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Mason County seat search (https://www.localharvest.org/mason-tx/farms). Listing last updated Jan 21, 2025. Wild Herd is our small, diversified family farm nestled in beautiful Texas Hill Country. We raise all heritage breeds of livestock, including pigs, turkeys, and cattle. They are rotated on native pasture their entire lives which allows them to live and thrive in healthful, wild conditions. Animal welfare and comfort is always our top priority. Beef cattle rotationally graze across 190 acres of diversified pastureland. Our pigs and turkeys eat a locally milled non-gmo, non-soy, non-corn grain ration. Thanksgiving turkeys are butchered on-farm in the fall to lessen transportation stress at time of slaughter. We never use any herbicides, pesticides, or synthetic fertilizers on our pastures. Meat animals are not given any hormones or antibiotics. Pork and beef is available by the share (whole or \u00bd for pork and whole, \u00bd, \u00bc, ? for beef) or as individual cuts. Turkeys are available by pre-order in late summer for purchase of a whole bird for the holiday season. Check our website and Instagram (@wildherdtx) for availability updates. We can arrange drop-off points or home delivery throughout Central Texas, or you are also welcome to come check out the ranch and pick up on-farm."
+      "notes": "Discovered through McCulloch County seat search (https://www.localharvest.org/brady-tx/farms). Listing last updated Jan 21, 2025. Wild Herd is our small, diversified family farm nestled in beautiful Texas Hill Country. We raise all heritage breeds of livestock, including pigs, turkeys, and cattle. They are rotated on native pasture their entire lives which allows them to live and thrive in healthful, wild conditions. Animal welfare and comfort is always our top priority. Beef cattle rotationally graze across 190 acres of diversified pastureland. Our pigs and turkeys eat a locally milled non-gmo, non-soy, non-corn grain ration. Thanksgiving turkeys are butchered on-farm in the fall to lessen transportation stress at time of slaughter. We never use any herbicides, pesticides, or synthetic fertilizers on our pastures. Meat animals are not given any hormones or antibiotics. Pork and beef is available by the share (whole or \u00bd for pork and whole, \u00bd, \u00bc, ? for beef) or as individual cuts. Turkeys are available by pre-order in late summer for purchase of a whole bird for the holiday season. Check our website and Instagram (@wildherdtx) for availability updates. We can arrange drop-off points or home delivery throughout Central Texas, or you are also welcome to come check out the ranch and pick up on-farm."
     },
     {
       "observation_id": "txobs_e02c88fbe5f2b0347d2b",
@@ -48766,7 +49246,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Calhoun County seat search (https://www.localharvest.org/port-lavaca-tx/farms). Listing last updated Mar 27, 2026. We grow vegetables and fruits and have a large free range flock of chickens, ducks and geese. All of our vegetables and fruits are grown sustainably. We sell eggs from chickens, ducks and geese as well and limit the amount of premade feeds, using no antibiotics or hormones unless for a treatable illness under direct supervision of a veterinarian. We sell at the following Farmer\u2019s Markets :"
+      "notes": "Discovered through Brazoria County seat search (https://www.localharvest.org/angleton-tx/farms). Listing last updated Mar 27, 2026. We grow vegetables and fruits and have a large free range flock of chickens, ducks and geese. All of our vegetables and fruits are grown sustainably. We sell eggs from chickens, ducks and geese as well and limit the amount of premade feeds, using no antibiotics or hormones unless for a treatable illness under direct supervision of a veterinarian. We sell at the following Farmer\u2019s Markets :"
     },
     {
       "observation_id": "txobs_5840b020eaae57a58e8e",
@@ -49390,7 +49870,7 @@
       "evidence_grade": "E",
       "retrieved_date": "2026-07-15",
       "promotion_status": "staged_pending_rules",
-      "notes": "Discovered through Bailey County seat search (https://www.localharvest.org/muleshoe-tx/farms). Listing last updated Jan 21, 2025. We're a new farm using a special technique of naturally grown produce. We will deliver our products through online orders or by phone orders at a nominal fee direct to your door. Our produce stand is open in the Spring, Summer and Fall and features local products of area gardens, as well as locally crafted products and crafts. There will be more coming in March and April for the 2011 growing season! Check our website regularly for our blog, recipes and information from solid sources on the benefits and highlights of buying and eating locally grown foods!"
+      "notes": "Discovered through Andrews County seat search (https://www.localharvest.org/andrews-tx/farms). Listing last updated Jan 21, 2025. We're a new farm using a special technique of naturally grown produce. We will deliver our products through online orders or by phone orders at a nominal fee direct to your door. Our produce stand is open in the Spring, Summer and Fall and features local products of area gardens, as well as locally crafted products and crafts. There will be more coming in March and April for the 2011 growing season! Check our website regularly for our blog, recipes and information from solid sources on the benefits and highlights of buying and eating locally grown foods!"
     },
     {
       "observation_id": "txobs_c1aa39502404ef7d7207",
