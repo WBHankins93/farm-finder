@@ -1,0 +1,479 @@
+{
+  "contractVersion": 2,
+  "state": {
+    "code": "TX",
+    "name": "Texas",
+    "countyEquivalentLabel": "county",
+    "countyEquivalentCount": 254
+  },
+  "policy": {
+    "version": "2026-07-15",
+    "missingDataDisposition": "research_or_qa_queue",
+    "affirmativeExclusionReasons": [
+      "confirmed_closed",
+      "confirmed_nonfarm",
+      "duplicate_identity",
+      "outside_jurisdiction"
+    ]
+  },
+  "collection": {
+    "requiredPasses": [
+      1,
+      2,
+      3
+    ],
+    "sources": [
+      {
+        "sourceId": "txsrc-f80a206e8194",
+        "name": "Texas Department of Agriculture \u2014 2026 Certified Farmers Markets",
+        "pass": 1,
+        "sourceUrl": "https://texasagriculture.gov/Grants-Services/Certified-Farmers-Markets",
+        "repositoryPath": null,
+        "decision": "channel_infrastructure_only_not_farm_observations",
+        "recordsParsed": 11,
+        "retrievedAt": "2026-07-15T21:54:19.231019+00:00",
+        "responseSha256": "47cc49141e5033c780bf1e08c77013a09b116a986c1d48fa5d3a59bf1a3c92d9",
+        "notes": "Certified market map reviewed; markets are channels, not farm entities."
+      },
+      {
+        "sourceId": "txsrc-c89abcd70a04",
+        "name": "Texas Department of Agriculture \u2014 Farm to School vendor resource list",
+        "pass": 1,
+        "sourceUrl": "https://www.squaremeals.org/Portals/8/files/NSLP/LFS/LFS%20Vendor%20Resource%20List%20Updated%20Nov%202024.pdf?ver=I7PGgvoElV78S-FFin0OiQ%3D%3D",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 100,
+        "retrievedAt": "2026-07-15T21:54:19.838705+00:00",
+        "responseSha256": "00da2193eac8cae5f7b0df82bf622d390527ed7912955c1f55d2ac0df53de22c",
+        "notes": "110 parsed vendors; distributors retained only in raw evidence, not as farm observations."
+      },
+      {
+        "sourceId": "txsrc-85a940b4f118",
+        "name": "Texas Department of Agriculture \u2014 GO TEXAN Farm And Ranch",
+        "pass": 1,
+        "sourceUrl": "https://bridge.texasagriculture.gov/GoTexanSearch/?resultsFormat=CommaSeparatedValues&searchType=Advanced&pageSize=2147483647&businessType=Farm+And+Ranch&pageNumber=1",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 100,
+        "retrievedAt": "2026-07-15T21:54:18.848448+00:00",
+        "responseSha256": "1488cce57f25bc347831fba0ae60395b4839d434db83359cec7d7a82033e9e92",
+        "notes": null
+      },
+      {
+        "sourceId": "txsrc-415190a49185",
+        "name": "U.S. Census Bureau \u2014 Texas county denominator",
+        "pass": 1,
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2748%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+        "repositoryPath": null,
+        "decision": "coverage_denominator",
+        "recordsParsed": 254,
+        "retrievedAt": "2026-07-15T21:54:16.313144+00:00",
+        "responseSha256": "ec87c687fc28c0de903eeddb5105fceb44309084630ece0b3007dc75659693d5",
+        "notes": null
+      },
+      {
+        "sourceId": "txsrc-bcfb8f95eca8",
+        "name": "EatWild Texas directory",
+        "pass": 2,
+        "sourceUrl": "https://www.eatwild.com/products/texas.html",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 51,
+        "retrievedAt": "2026-07-15T21:54:32.890825+00:00",
+        "responseSha256": "d38e7cb63acfca94a09c8f47ac1065115734c548e25d9a39d150bc0a6eabaedd",
+        "notes": null
+      },
+      {
+        "sourceId": "txsrc-5bba454ff4ac",
+        "name": "Shop Texas Farms \u2014 member business directory",
+        "pass": 2,
+        "sourceUrl": "https://shoptexasfarms.com/business-directory/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 56,
+        "retrievedAt": "2026-07-15T21:54:34.385086+00:00",
+        "responseSha256": null,
+        "notes": "56 unique member profiles found across all three directory pages; business-type review remains explicit."
+      },
+      {
+        "sourceId": "txsrc-013fb79193db",
+        "name": "Texas Center for Local Food \u2014 Farms & Ranches",
+        "pass": 2,
+        "sourceUrl": "https://texaslocalfood.org/wp-json/tld-connector/v1/content",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 254,
+        "retrievedAt": "2026-07-15T21:54:32.399231+00:00",
+        "responseSha256": "a4f7602f9e7362c3f4feb78a499b981ef97e3ef62db986f258034ab5f4d3c9fe",
+        "notes": "254 farm-tagged summaries; 254 detailed profiles; 0 failures."
+      },
+      {
+        "sourceId": "txsrc-6ab07a8eedfe",
+        "name": "FarmFinder curator verification decisions",
+        "pass": 3,
+        "sourceUrl": null,
+        "repositoryPath": "manual-decisions.csv",
+        "decision": "curator_decisions_applied",
+        "recordsParsed": 63,
+        "retrievedAt": "2026-07-15T21:54:53.131842+00:00",
+        "responseSha256": "fe16e4425a1c4ad9a1e021789536da5b27ad71a5ab07ad91ae98b0d3c1e6b12e",
+        "notes": "Farm-owned or authoritative evidence reviewed manually; original source assertions remain immutable."
+      },
+      {
+        "sourceId": "txsrc-342b73f9abf2",
+        "name": "LocalHarvest \u2014 Texas county-seat gap search",
+        "pass": 3,
+        "sourceUrl": "https://www.localharvest.org",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 302,
+        "retrievedAt": "2026-07-15T21:54:52.293386+00:00",
+        "responseSha256": null,
+        "notes": "All 254 official county seats searched; 2887 card observations deduplicated to 302 farm profiles."
+      },
+      {
+        "sourceId": "txsrc-f61037e4d509",
+        "name": "PickYourOwn \u2014 Abilene",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXabilene.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 6,
+        "retrievedAt": "2026-07-15T21:54:35.060090+00:00",
+        "responseSha256": "b98c4f26c02dab3607d4f4c4928e711eb83249cd691a349e425bbcd05e3c59fe",
+        "notes": "County sections searched: 15; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-bb2a1b446bcc",
+        "name": "PickYourOwn \u2014 Austin",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXaustin.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 20,
+        "retrievedAt": "2026-07-15T21:54:35.452281+00:00",
+        "responseSha256": "8923ba60c7d1dd064b440594cbdc324a9ba34f245e60ae27f4311a2b8af7ca08",
+        "notes": "County sections searched: 18; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-194d793a3dbd",
+        "name": "PickYourOwn \u2014 Corpus Christi",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXcorpus.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 4,
+        "retrievedAt": "2026-07-15T21:54:35.780544+00:00",
+        "responseSha256": "20caf023ad65d163deee30692e6012a4f68c8516aa04f7067cab828246a1c1ee",
+        "notes": "County sections searched: 14; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-496ebb94663d",
+        "name": "PickYourOwn \u2014 Dallas / Fort Worth",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXdallas.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 27,
+        "retrievedAt": "2026-07-15T21:54:36.223803+00:00",
+        "responseSha256": "47202d29a1fb45a8e508c7636885cfab749b6b238b8dc8b776837cf2384c369d",
+        "notes": "County sections searched: 25; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-5f52bd670362",
+        "name": "PickYourOwn \u2014 Far West",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXfarwest.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 2,
+        "retrievedAt": "2026-07-15T21:54:38.805281+00:00",
+        "responseSha256": "bd37a42cc665d68fd75fc2628daf7c7d23fb76dd1d6c33ec6954f2017b916e94",
+        "notes": "County sections searched: 15; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-e0d7e0fa26b6",
+        "name": "PickYourOwn \u2014 Houston / Southeast",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXhouston.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 27,
+        "retrievedAt": "2026-07-15T21:54:36.603479+00:00",
+        "responseSha256": "881edbfe09226ab1eca7b3dba9ba216360f441a50eed311e8f45ab0e58103fc3",
+        "notes": "County sections searched: 25; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-869768090acc",
+        "name": "PickYourOwn \u2014 Lubbock",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXlubbock.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 3,
+        "retrievedAt": "2026-07-15T21:54:36.938825+00:00",
+        "responseSha256": "528f0dd30fc43ce3f3e310cf473df6758037b87d17f236452ff9f356d873b89b",
+        "notes": "County sections searched: 28; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-6250da60769c",
+        "name": "PickYourOwn \u2014 Northeast",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXnortheast.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 35,
+        "retrievedAt": "2026-07-15T21:54:37.412208+00:00",
+        "responseSha256": "e5538884b5b3eec52bfa7fb98e3d2a5ee97638454b4eff747c88de26d39607d2",
+        "notes": "County sections searched: 29; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-e09c285fe350",
+        "name": "PickYourOwn \u2014 Panhandle",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXpanhandle.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 3,
+        "retrievedAt": "2026-07-15T21:54:37.711540+00:00",
+        "responseSha256": "f56399acf3251db041a4087bd0b55dcf38852fa8c5917698c6e426ab760490ce",
+        "notes": "County sections searched: 26; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-114f4f80bead",
+        "name": "PickYourOwn \u2014 San Angelo",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXsanangelo.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 0,
+        "retrievedAt": "2026-07-15T21:54:37.918625+00:00",
+        "responseSha256": "2c2c4302cd32af2917450b98de76bb1b24f418868c77f3b8163e02565883cccf",
+        "notes": "County sections searched: 15; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-9ecf17827e28",
+        "name": "PickYourOwn \u2014 San Antonio",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXsanantonio.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 27,
+        "retrievedAt": "2026-07-15T21:54:38.341752+00:00",
+        "responseSha256": "48a77b3e5ef7b855adf9faaf471966c78c48dce02433dfa7048b8b436bbe9611",
+        "notes": "County sections searched: 14; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-34dced6be521",
+        "name": "PickYourOwn \u2014 Southern Tip",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXsouth.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 2,
+        "retrievedAt": "2026-07-15T21:54:38.569304+00:00",
+        "responseSha256": "7551046f2a125068042895685288ee701653431299ffd5e72958bb3ef632a5ac",
+        "notes": "County sections searched: 15; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-c35b62b7b45d",
+        "name": "PickYourOwn \u2014 Texas regional index",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TX.htm",
+        "repositoryPath": null,
+        "decision": "regional_coverage_index",
+        "recordsParsed": 13,
+        "retrievedAt": "2026-07-15T21:54:34.744586+00:00",
+        "responseSha256": "fc026514c0fe5c4237019cd252412b9c769e56303ed1f2fd334b6c969da49129",
+        "notes": "All 13 published Texas regions were collected separately."
+      },
+      {
+        "sourceId": "txsrc-568cdbdcad63",
+        "name": "PickYourOwn \u2014 Wichita Falls",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TXwichitafalls.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 2,
+        "retrievedAt": "2026-07-15T21:54:39.042247+00:00",
+        "responseSha256": "000ab123f09a9dc2c1a09cf60632b0bd0b2cc0239420e5c13034bc0df52a33d5",
+        "notes": "County sections searched: 12; explicit closures retained as grade-F exclusions."
+      },
+      {
+        "sourceId": "txsrc-78d7312df9b8",
+        "name": "Texas Open Farms / YouPickTexas",
+        "pass": 3,
+        "sourceUrl": "https://www.youpicktexas.com/",
+        "repositoryPath": null,
+        "decision": "evaluated_rejected_as_entity_source",
+        "recordsParsed": 0,
+        "retrievedAt": "2026-07-15T21:54:53.109828+00:00",
+        "responseSha256": "ab39c76f308803ecec23e850ca2949d21c32cf872aa8355efe97af04c66f2050",
+        "notes": "Directory displayed a fictitious 555 contact number and unsupported network branding; retained as an issue, not evidence."
+      },
+      {
+        "sourceId": "txsrc-12a8acee089e",
+        "name": "Texas State Library \u2014 county-seat search anchors",
+        "pass": 3,
+        "sourceUrl": "https://www.tsl.texas.gov/ref/abouttx/countyseats.html",
+        "repositoryPath": null,
+        "decision": "coverage_search_anchors",
+        "recordsParsed": 254,
+        "retrievedAt": "2026-07-15T21:54:39.219842+00:00",
+        "responseSha256": "68204cf4fbfeacad4c896997cc20287e145a4688f9d519ebda81f5cdd22a1b33",
+        "notes": null
+      },
+      {
+        "sourceId": "txsrc-8eac5380f8f7",
+        "name": "U.S. Census Bureau \u2014 2020 ZCTA-to-county relationship",
+        "pass": 3,
+        "sourceUrl": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+        "repositoryPath": null,
+        "decision": "geography_enrichment_reference",
+        "recordsParsed": 2894,
+        "retrievedAt": "2026-07-15T21:54:17.854868+00:00",
+        "responseSha256": "3ed41278d637dc249e0323306f68be8a6c234e3090f4de88ef328dee71aeaaaf",
+        "notes": "Only 1306 Texas ZCTAs wholly contained in one county are eligible for fallback assignment."
+      },
+      {
+        "sourceId": "txsrc-c0ba7d2443a4",
+        "name": "U.S. Census Bureau \u2014 2020 place-by-county reference",
+        "pass": 3,
+        "sourceUrl": "https://www2.census.gov/geo/docs/reference/codes2020/national_place_by_county2020.txt",
+        "repositoryPath": null,
+        "decision": "geography_enrichment_reference",
+        "recordsParsed": 2056,
+        "retrievedAt": "2026-07-15T21:54:18.602773+00:00",
+        "responseSha256": "9996494d33cf6ee4527491508aa1b8dae85dcff3a979886e19b0b375e5d06ec6",
+        "notes": "Only 1659 Texas places occurring in one county are eligible for locality fallback assignment."
+      },
+      {
+        "sourceId": "txsrc-95ccd6d2f723",
+        "name": "US Farm Trail \u2014 Texas discovery page",
+        "pass": 3,
+        "sourceUrl": "https://www.usfarmtrail.com/states/texas",
+        "repositoryPath": null,
+        "decision": "evaluated_rejected_as_entity_source",
+        "recordsParsed": 0,
+        "retrievedAt": "2026-07-15T21:54:52.909937+00:00",
+        "responseSha256": "3a375357bb286fcb84ccb849325ba7acce99a4cfc3abf183bbc7511e9585a96e",
+        "notes": "240 rendered farm-link occurrences; source mixes markets, duplicates, and weak-provenance records."
+      },
+      {
+        "sourceId": "txsrc-a1e874e0cdd5",
+        "name": "USDA AMS Local Food Directories",
+        "pass": 3,
+        "sourceUrl": "https://www.ams.usda.gov/services/local-regional/food-directories-listings",
+        "repositoryPath": null,
+        "decision": "evaluated_interface_no_public_bulk_api",
+        "recordsParsed": 0,
+        "retrievedAt": "2026-07-15T21:54:52.513939+00:00",
+        "responseSha256": "f9069e8b6fb53fe0842eb7708c4cbf4ed8513c544c99b76a50ea1f142d41e9f2",
+        "notes": "Official page says a developer API will be available in the future; interface reviewed but not scraped as a hidden data service."
+      }
+    ],
+    "coverage": {
+      "countyEquivalentsReviewed": 254,
+      "countyEquivalentsWithCandidates": 179,
+      "countyEquivalentsWithEligibleEntities": 171,
+      "unresolvedCountyEquivalents": []
+    }
+  },
+  "repositoryPolicy": {
+    "requiredFiles": [
+      "state.yaml",
+      "entities.csv",
+      "decisions.csv",
+      "report.md"
+    ],
+    "maxTrackedBytes": 5000000
+  },
+  "release": {
+    "id": "tx-coverage-reviewed-v5-2026-07-15",
+    "status": "coverage_reviewed",
+    "generatedAt": "2026-07-15T22:00:00+00:00",
+    "promotionReady": false,
+    "promotionBlockReason": "state approval and canonical promotion remain separate gates",
+    "counts": {
+      "sourceObservations": 1062,
+      "proposedEntities": 883,
+      "promotionEligibleEntities": 716,
+      "researchOrQaEntities": 167,
+      "excludedObservations": 47,
+      "excludedEntityGroups": 27,
+      "identityReviewGroups": 113,
+      "countyCoverageRows": 254,
+      "countiesWithCandidates": 179,
+      "countiesWithEligibleEntities": 171,
+      "sourceDatasets": 29,
+      "manualDecisions": 76
+    },
+    "repositoryFiles": {
+      "entities.csv": {
+        "sha256": "5352139011dc4d6af32b3df603a6fc7fc5a3749c79bf1e09140127177eee2641",
+        "bytes": 717073
+      },
+      "decisions.csv": {
+        "sha256": "3c34decfc708a8f02048629b777e524aac10dc76cdb972cf7ce289a7b2ce9562",
+        "bytes": 35568
+      },
+      "report.md": {
+        "sha256": "344bca8111f3c1ed128c62d8facddfd54a2fb86bbd2a49b85146f24a6471df1e",
+        "bytes": 4552
+      }
+    },
+    "evidenceStorage": {
+      "provider": "s3-compatible",
+      "environment": "local-staging",
+      "status": "local_bundle_only",
+      "bucket": "farmfinder-source-releases",
+      "prefix": "state-expansions/TX/tx-coverage-reviewed-v5-2026-07-15/",
+      "versioningRequired": true,
+      "managedCopyRequiredBeforePromotion": true
+    },
+    "artifacts": [
+      {
+        "role": "observations",
+        "filename": "observations.csv.zst",
+        "objectKey": "state-expansions/TX/tx-coverage-reviewed-v5-2026-07-15/observations.csv.zst",
+        "sha256": "26f83d320398c3d98b7b90bf2f42de3ab9d9a489de94462d34216538a689ce91",
+        "bytes": 267302,
+        "rows": 1062,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:26f83d320398c3d98b7b90bf"
+      },
+      {
+        "role": "source_records",
+        "filename": "source-records.jsonl.zst",
+        "objectKey": "state-expansions/TX/tx-coverage-reviewed-v5-2026-07-15/source-records.jsonl.zst",
+        "sha256": "c916930558757505a3acd07286c5b597662161510635b234a697365c31a54a71",
+        "bytes": 450278,
+        "rows": 31,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:c916930558757505a3acd072"
+      },
+      {
+        "role": "collection_log",
+        "filename": "collection-log.jsonl.zst",
+        "objectKey": "state-expansions/TX/tx-coverage-reviewed-v5-2026-07-15/collection-log.jsonl.zst",
+        "sha256": "070f367c7507f18090aeff9aa024dae5f0ed54592618f152ea30952675459ca6",
+        "bytes": 66711,
+        "rows": 1016,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:070f367c7507f18090aeff9a"
+      }
+    ],
+    "canonicalBoundary": {
+      "authorityMode": "pre_cutover_workbook",
+      "allowedStates": [
+        "LA",
+        "MS"
+      ],
+      "sourceRowCount": 299
+    },
+    "approval": {}
+  }
+}
