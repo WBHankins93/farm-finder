@@ -1,6 +1,6 @@
 # ADR-0003: Consolidated state approval gates
 
-**Status:** Accepted
+**Status:** Superseded by ADR-0004
 **Date:** 2026-07-15
 **Deciders:** FarmFinder owner
 
