@@ -6,6 +6,8 @@
 
 The workbook identified by `config/source-of-truth.json` is the only editable authoring source. The manifest pins its sheet, checksum, row count, candidate-entity count, required columns, allowed states, and known duplicate groups. The generated JSON is a build artifact, not another source of truth.
 
+Cutover staging began on 2026-07-15: the pinned workbook is stored as a versioned object, and its 315 raw rows are registered in local PostgreSQL as a validated release. Staging does not change authority. The workbook remains authoritative until reviewed canonical entities are promoted atomically and the manifest authority mode changes.
+
 ### After PostgreSQL cutover
 
 Promoted canonical tables are the only mutable source of truth. Workbooks, directory downloads, API responses, and farm submissions are immutable source releases stored in object storage and represented by `dataset_releases`, `import_batches`, and `source_records`.
@@ -49,6 +51,8 @@ The future database must enforce this separation through distinct schemas or an 
 6. Report discovered farms, verified contacts, precise locations, source freshness, and unresolved duplicates for that region.
 
 States remain the top-level official namespace. Collection can proceed in smaller regions without making those regions substitutes for states, counties, or Louisiana parishes.
+
+Active Mississippi collection remains a separate working set during cutover. When a collection milestone is ready, freeze it as a new immutable release with a new ID and checksum; never overwrite the currently validated release. See the [cutover runbook](cutover-runbook.md).
 
 ## Canonical-value policy
 

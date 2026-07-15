@@ -7,7 +7,7 @@ This ledger records each production capability, its implementation decision, cur
 | Service boundary | TypeScript modular monolith; web, API, worker deployables | Boundary documented | Versioned API with health/readiness and OpenAPI contract |
 | Authentication | Managed OIDC identity; public reads anonymous | Planned | Verified sessions, logout, account deletion path |
 | Authorization | Consumer, farm owner, curator, admin; farm-scoped claims | Schema foundation | Deny-by-default integration tests for every protected endpoint |
-| PostgreSQL | Canonical after explicit dataset cutover | 30-table foundation runtime-verified | Pinned release imported and reconciled without silent data loss |
+| PostgreSQL | Canonical after explicit dataset cutover | Pinned release validated with all 315 raw rows staged locally; canonical normalization/promotion pending | Pinned release imported and reconciled without silent data loss |
 | PostGIS | Geography points and official administrative areas | Extension and radius test passing | Production-shaped radius and bounding-box plans use GiST index |
 | Migrations | Ordered SQL initially; one forward-only history | Clean local database applies all three migrations | Production runner records and locks each migration |
 | Background processing | One worker with idempotency, timeout, backoff, and terminal failure state | Job schema foundation | Crash/retry integration tests and duplicate-side-effect test |
@@ -17,13 +17,13 @@ This ledger records each production capability, its implementation decision, cur
 | Tracing | OpenTelemetry-compatible trace through HTTP, tool, DB, model | Planned | Trace ID plus p50/p95 latency, tokens, and cost per request |
 | Prompt injection | Retrieved content is untrusted data and cannot authorize tools | Policy documented | Adversarial eval suite passes |
 | PII | Public/private contact separation and non-public exact locations | Schema foundation | Public-role snapshot contains no private values |
-| Tests | Unit, integration with PostGIS, API contract, migration, policy | Build/smoke and DB foundation tests passing | API, policy, importer, and eval checks block release |
+| Tests | Unit, integration with PostGIS, API contract, migration, policy | Build/smoke, DB foundation, importer unit, object checksum, and staged-row reconciliation checks passing | API, policy, importer, and eval checks block release |
 | CI/CD | Build, tests, migration check, evals, staging smoke, promotion | Project repository boundary resolved; automation planned | Clean clone can reproduce every required input |
-| Infrastructure | Local Compose now; managed Postgres/object store/telemetry/IaC later | Local PostGIS bootstrap and verification passing | Backup restore and staging deployment tested |
+| Infrastructure | Local Compose now; managed Postgres/object store/telemetry/IaC later | Local PostGIS and versioned S3-compatible source storage running | Backup restore and staging deployment tested |
 | Real users | Five pilot farms plus consumer cohort | Product action | Baseline and target metrics recorded before pilot |
 | Outcomes | Correct-answer rate, search-to-contact, claims, corrections, freshness, latency, cost | Defined, not instrumented | Dashboard and case-study export |
 | Architecture/case study | ADRs, diagrams, index decisions, failures, revisions | Foundation documented | Published after pilot with measured evidence |
-| Object storage | Source releases and future images; metadata in PostgreSQL | Contract documented | Checksum, rights, variants, retention, signed access tested |
+| Object storage | Source releases and future images; metadata in PostgreSQL | Pinned workbook stored and independently checksum-verified in local versioned S3-compatible storage; managed bucket pending | Managed versioning, restore, rights, retention, and signed access tested |
 | National coverage | Official admin areas plus operational coverage regions | Schema foundation | Coverage completeness and freshness measured per region |
 | Sproutflow lead workspace | Private namespace or CRM keyed by stable `farm_id`; filters governed FarmFinder facts but owns all lead/outreach/client fields | Planned; no private outreach schema in current migrations | Owner-only grants, public-role denial tests, audit coverage, and do-not-contact enforcement |
 

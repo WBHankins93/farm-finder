@@ -39,7 +39,7 @@ The database is the FarmFinder product asset. Every correction or voluntary cont
 ## Current state (2026-07-15)
 
 - **Pre-cutover canonical authoring source is `research/local_farm_database_final.xlsx`, sheet `All Farms` — 315 source rows / 311 normalized farm names** (239 LA / 72 MS public listings after name-based merging). The machine-readable release contract is `03-app/site/config/source-of-truth.json`; validate it with `npm run data:validate` from `03-app/site/`.
-- The public site uses `03-app/site/app/data/farms.json` with 311 mapped listings. PostgreSQL/PostGIS foundation migrations exist and pass locally, but the workbook has not been imported or cut over; PostgreSQL is not canonical yet.
+- The public site uses `03-app/site/app/data/farms.json` with 311 mapped listings. Cutover staging began 2026-07-15: the pinned workbook is stored in local versioned S3-compatible object storage and all 315 raw rows are registered as a validated PostgreSQL release. Canonical normalization, reconciliation, managed storage, promotion, and API cutover remain; PostgreSQL is not canonical yet.
 - Older dashboards and v1/v2 workbooks remain historical snapshots, not editable authorities.
 - Known identity-review groups: Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens each have two source rows. The public generator currently merges by normalized name; the PostgreSQL workflow will require evidence-based review.
 - Current public artifact: 84 farms have a confirmed website and 227 do not (~73% without a confirmed website). The ~90% figure still applies only to the original field-collected South Louisiana cohort, not the expanded directory.
@@ -64,8 +64,9 @@ Separate Sproutflow company question: pricing for farm client sites (one-time vs
 
 ## Next actions
 
-1. Import the pinned 315-row release into PostgreSQL staging and reconcile it to 311 candidate entities without silent merging.
-2. Recompute contactability for FarmFinder participation, then recruit 5 farms for listing corrections, claims, or interviews; any Sproutflow commercial outreach remains separate.
-3. Upgrade approximate geocodes to farm-confirmed locations during outreach; never expose a private exact location by default.
+1. Normalize and reconcile the staged 315-row PostgreSQL release to 311 candidate entities without silent merging, beginning with the four known identity-review groups.
+2. Freeze the next Mississippi collection milestone as a new immutable release without overwriting the validated v1 release.
+3. Provision managed versioned object storage and managed PostgreSQL backups before promotion.
+4. Recompute contactability for FarmFinder participation, then recruit 5 farms for listing corrections, claims, or interviews; any Sproutflow commercial outreach remains separate.
 
 Done: market brief (sourced) ✓ · 311/311 public listings mapped ✓ · source-of-truth release validation ✓ · PostgreSQL/PostGIS foundation verified ✓

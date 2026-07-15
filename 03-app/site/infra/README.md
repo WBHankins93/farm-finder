@@ -1,17 +1,21 @@
 # Infrastructure
 
-`infra/` owns reproducible runtime dependencies and deployment configuration. The first implemented slice is a local PostgreSQL/PostGIS database that applies the foundation migrations to a clean volume.
+`infra/` owns reproducible runtime dependencies and deployment configuration. The implemented local slice contains PostgreSQL/PostGIS plus a loopback-only S3-compatible object store for immutable source-release testing.
 
-## Local database
+## Local cutover infrastructure
 
 ```bash
 cp infra/.env.example infra/.env
-npm run db:up
+npm run infra:up
 npm run db:verify
-npm run db:down
+npm run cutover:stage
+npm run cutover:verify
+npm run infra:down
 ```
 
-The default port is `127.0.0.1:54329`, avoiding an accidental public bind. Credentials in `.env.example` are local placeholders only. `npm run db:reset` deletes the local volume and all local database contents; it must never be pointed at a shared environment.
+PostgreSQL binds to `127.0.0.1:54329`; object storage and its console bind to `127.0.0.1:9000` and `127.0.0.1:9001`. Credentials in `.env.example` are local placeholders only. The local object store has versioning enabled by the importer and proves the provider-neutral S3 contract; it is not a production backup.
+
+`npm run db:reset` deletes only the local PostgreSQL volume and preserves the versioned object-storage volume. It must never be pointed at a shared environment. `docker compose -f infra/compose.yaml down -v` would delete both volumes and should be used only when their deliberate destruction is intended.
 
 Container initialization is only a local bootstrap mechanism. Production migrations will run as a distinct release step with a migration identity, advisory lock, timeout, and recorded migration history.
 
@@ -20,7 +24,7 @@ Container initialization is only a local bootstrap mechanism. Production migrati
 | Component | Responsibility | Initial decision |
 |---|---|---|
 | Managed PostgreSQL | Canonical data, PostGIS, full text, jobs, outbox | Required; automated backups and point-in-time recovery |
-| Object storage | Immutable source releases and future media | Provider deferred; versioning, checksum, lifecycle, and signed access required |
+| Object storage | Immutable source releases and future media | Local S3-compatible workflow implemented; managed provider still to be selected, with versioning, checksum, lifecycle, and signed access required |
 | Web runtime | Public UI and cached rendering | Existing deployment retained during migration |
 | API runtime | REST, auth, authorization, query tools | TypeScript; private DB credentials |
 | Worker runtime | Imports, geocoding, dedupe, document/media processing | TypeScript worker plus bounded Python ingestion tasks |
@@ -45,4 +49,6 @@ Container initialization is only a local bootstrap mechanism. Production migrati
 - A restore into staging is tested before production launch and periodically afterward.
 - Recovery-point and recovery-time objectives are written from real product needs before the pilot.
 
-Local object storage, a telemetry collector, and a separate message broker are intentionally absent. Add them when the first executable workflow requires them, not to make the local stack look larger.
+A telemetry collector and separate message broker remain intentionally absent. Add them when their first executable workflow requires them.
+
+See the [cutover runbook](../docs/data-governance/cutover-runbook.md) for release staging, verification, Mississippi collection isolation, and promotion gates.

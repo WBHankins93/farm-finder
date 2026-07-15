@@ -12,6 +12,8 @@ The local Compose database applies these files only when its volume is first cre
 
 `npm run db:verify` checks extensions, core tables, and documented indexes. `npm run db:test` exercises database invariants and a PostGIS radius query inside a transaction that is always rolled back.
 
+`npm run cutover:stage` registers the pinned immutable object and stores every workbook row in `source_records` through one idempotent, transactional import batch. `npm run cutover:verify` independently checks the database counts, duplicate groups, object version, and downloaded object checksum. Staging validates evidence; it does not populate or promote canonical farms.
+
 ## Schema principles
 
 - Source rows are immutable; canonical farm values can change without erasing their evidence.

@@ -12,13 +12,19 @@
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
+    "infra:up": "docker compose -f infra/compose.yaml up -d --wait",
+    "infra:down": "docker compose -f infra/compose.yaml down",
     "db:up": "docker compose -f infra/compose.yaml up -d --wait",
     "db:down": "docker compose -f infra/compose.yaml down",
-    "db:reset": "docker compose -f infra/compose.yaml down -v",
+    "db:reset": "sh infra/reset-db.sh",
     "db:verify": "sh infra/verify-db.sh",
     "db:test": "sh infra/test-db.sh",
     "data:setup": "python3 -m venv .venv && .venv/bin/python -m pip install -r scripts/requirements.txt",
-    "data:validate": ".venv/bin/python scripts/validate-source-of-truth.py"
+    "data:validate": ".venv/bin/python scripts/validate-source-of-truth.py",
+    "cutover:test": "PYTHONPATH=scripts .venv/bin/python -m unittest discover -s scripts/tests -p 'test_*.py'",
+    "cutover:stage": ".venv/bin/python scripts/stage_source_release.py",
+    "cutover:verify": ".venv/bin/python scripts/verify_staged_release.py",
+    "cutover:local": "npm run infra:up && npm run data:validate && npm run cutover:test && npm run cutover:stage && npm run cutover:verify"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",

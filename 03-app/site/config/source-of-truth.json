@@ -10,7 +10,14 @@
     "sha256": "7ca730b0eaabc7f3839cfe12c293f8fd90346c759ba7e4a19c0a901fe88af28e",
     "sourceRowCount": 315,
     "candidateEntityCount": 311,
-    "allowedStates": ["LA", "MS"]
+    "allowedStates": ["LA", "MS"],
+    "storage": {
+      "bucket": "farmfinder-source-releases",
+      "objectKey": "farmfinder-directory/2026-07-13-final-v1/local_farm_database_final.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "visibility": "private",
+      "versioningRequired": true
+    }
   },
   "identity": {
     "candidateKey": "normalized farm name",

@@ -40,11 +40,11 @@ FarmFinder currently has a working static-first public directory and a verified 
 | Public map | 311 mapped listings with explicit location precision |
 | Confirmed websites | 84 listings; 227 currently lack a confirmed website |
 | Public application | Working vinext/Next.js directory using generated JSON |
-| PostgreSQL foundation | 30 tables, PostGIS, full-text retrieval, jobs, audit, and auth/claims schema verified locally |
+| PostgreSQL cutover | 30-table foundation verified; pinned release validated with all 315 raw rows staged locally; canonical normalization and promotion pending |
 | Custom indexes | 27 documented indexes tied to queries, invariants, or worker operations |
 | Natural-language answers | Prototype client-side parsing only; production hybrid query system is planned |
 | Authentication | Schema and hosting helpers exist; farm claim/management flows are not active |
-| Object storage | Contract documented; no production bucket or image pipeline yet |
+| Object storage | Pinned workbook stored and checksum-verified in local versioned S3-compatible storage; managed bucket and image pipeline pending |
 | Repository | Private GitHub repository with one project-level history |
 
 The four known identity-review groups are Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens. Their duplicate source rows must be reviewed during PostgreSQL import rather than silently merged.
@@ -278,6 +278,8 @@ Current verified baseline:
 - 315 source rows reconcile to 311 normalized-name candidates.
 - All 30 FarmFinder tables and 27 documented custom indexes exist.
 - Database invariant tests pass.
+- The pinned workbook is stored as an immutable versioned object and all 315 raw rows are staged idempotently in PostgreSQL.
+- Independent cutover verification reconciles the database count, duplicate groups, object version, and downloaded object checksum.
 - The production web build passes.
 - FarmFinder server-render and public-artifact smoke tests pass.
 - ESLint passes.
@@ -294,7 +296,8 @@ Before PostgreSQL cutover, the workbook remains the editable authoring source.
 4. Run `npm run data:validate`.
 5. Regenerate the public JSON with `scripts/generate-farms.py`.
 6. Run lint, build, and smoke tests.
-7. Review and commit the workbook, manifest, artifact, and relevant documentation together.
+7. Run `npm run cutover:stage` and `npm run cutover:verify` so the release is stored and registered before review.
+8. During the reversible pre-promotion transition, review and commit the workbook, manifest, artifact, and relevant documentation together.
 
 After PostgreSQL cutover, this process changes: source files become immutable imports, and reviewed canonical tables become the only mutable authority.
 
@@ -321,7 +324,9 @@ Every state receives three documented passes:
 2. Farmers markets, CSAs, food hubs, U-pick, agritourism, and producer associations.
 3. National-directory and county-by-county gap discovery.
 
-Mississippi is the next active expansion area. Staging outputs live in `research/ms-expansion/` and do not alter the canonical workbook automatically.
+Mississippi is the next active expansion area. Staging outputs live in `research/ms-expansion/` and do not alter the canonical workbook or the validated cutover release automatically. At a collection milestone, freeze the Mississippi inputs under a new release ID and checksum, upload them as a new immutable object, and stage them without overwriting the current release.
+
+See the [PostgreSQL cutover runbook](03-app/site/docs/data-governance/cutover-runbook.md).
 
 ### Quarterly verification
 
@@ -384,10 +389,12 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 
 ### Phase 1 — Idempotent importer and PostgreSQL cutover
 
-**Status:** Next
+**Status:** In progress
 
-- Register the pinned workbook as a `dataset_release`.
-- Import all 315 workbook rows into immutable staging/source records.
+- ✅ Store the pinned workbook as a versioned S3-compatible object and verify its checksum.
+- ✅ Register the pinned workbook as a validated `dataset_release`.
+- ✅ Import all 315 workbook rows through an idempotent batch into immutable staging/source records.
+- ✅ Keep active Mississippi collection isolated from the pinned release.
 - Normalize geography, products, channels, links, and contacts.
 - Reconcile source rows to 311 identity candidates without name-only automatic merges.
 - Put the four known duplicate groups into a review queue.

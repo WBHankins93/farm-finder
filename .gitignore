@@ -25,3 +25,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Large/private cutover working files belong in object storage, not Git.
+# Existing governed workbook releases remain tracked until PostgreSQL promotion.
+data/source-releases/
+data/exports/
+research/**/raw/
+03-app/site/.cutover/
