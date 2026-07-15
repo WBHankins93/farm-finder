@@ -1,0 +1,32 @@
+name: State release contract
+
+on:
+  pull_request:
+    paths:
+      - "research/state-expansions/**"
+      - "01-database/tools/**"
+      - "01-database/state-release-contract.md"
+      - ".github/workflows/state-release-contract.yml"
+  push:
+    branches: [main]
+    paths:
+      - "research/state-expansions/**"
+      - "01-database/tools/**"
+      - "01-database/state-release-contract.md"
+      - ".github/workflows/state-release-contract.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test shared state-release rules
+        run: python3 -m unittest discover -s 01-database/tools/tests -p "test_*.py"
+      - name: Validate every committed state release
+        run: python3 01-database/tools/validate_state_releases.py

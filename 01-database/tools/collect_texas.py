@@ -25,6 +25,8 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
+from state_release_urls import classify_public_urls
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from collect_alabama import (  # Reuse the tested transport and small HTML DOM.
     Observation,
@@ -42,9 +44,10 @@ from collect_alabama import (  # Reuse the tested transport and small HTML DOM.
 
 
 ROOT = Path(__file__).resolve().parents[2]
-OUTPUT_DIR = ROOT / "research" / "tx-expansion"
+STATE_DIR = ROOT / "research" / "state-expansions" / "TX"
+OUTPUT_DIR = ROOT / "data" / "source-releases" / "work" / "TX"
 PUBLIC_FARMS = ROOT / "03-app" / "site" / "app" / "data" / "farms.json"
-MANUAL_VERIFICATION_DECISIONS = OUTPUT_DIR / "manual-verification-decisions.csv"
+MANUAL_VERIFICATION_DECISIONS = STATE_DIR / "manual-decisions.csv"
 TODAY = date.today().isoformat()
 
 GO_TEXAN_URL = "https://bridge.texasagriculture.gov/GoTexanSearch/"
@@ -634,10 +637,11 @@ def census_address_county(item: Observation) -> tuple[str, str, str, dict[str, A
 
 
 def old_county_cache() -> dict[str, tuple[str, str, str]]:
-    path = OUTPUT_DIR / "texas-source-observations.json"
+    path = OUTPUT_DIR / "observations.csv"
     if not path.exists(): return {}
-    try: rows = json.loads(path.read_text(encoding="utf-8")).get("records", [])
-    except (json.JSONDecodeError, OSError): return {}
+    try:
+        with path.open(newline="", encoding="utf-8") as handle: rows = list(csv.DictReader(handle))
+    except (csv.Error, OSError): return {}
     return {row.get("observation_id", ""): (row.get("county", ""), row.get("county_fips", ""), row.get("county_source", ""))
             for row in rows if row.get("county") and row.get("county") != "Unknown"}
 
@@ -737,6 +741,10 @@ def reconcile(observations: list[Observation], excluded_candidate_keys: set[str]
             if go_texan_only and re.search(r"coffee|candy|restaurant|bakery|brew|distill|sauce|seasoning|retail|market$", name, re.I):
                 blockers.append("official Farm And Ranch category conflicts with business-name entity signals")
             entity_id = "TX-" + hashlib.sha256(f"{key}|{county}|{items[0].observation_id if conflict else ''}".encode()).hexdigest()[:10].upper()
+            website_url, facebook_url, instagram_url, tiktok_url = classify_public_urls(
+                choose(active, "website_url"), choose(active, "facebook_url"),
+                choose(active, "instagram_url"), choose(active, "tiktok_url"),
+            )
             entity = {
                 "entity_id": entity_id, "farm_name": name, "normalized_name": key,
                 "entity_type": "producer_requires_type_review" if unconfirmed_member_or_vendor else "farm",
@@ -747,8 +755,8 @@ def reconcile(observations: list[Observation], excluded_candidate_keys: set[str]
                 "latitude": choose(active, "latitude"), "longitude": choose(active, "longitude"), "products": products,
                 "business_types": unique_values(active, "business_types"), "phone_internal": choose(active, "phone"),
                 "email_internal": choose(active, "email"), "contact_visibility": "internal_until_public_use_review",
-                "website_url": choose(active, "website_url"), "facebook_url": choose(active, "facebook_url"),
-                "instagram_url": choose(active, "instagram_url"), "tiktok_url": choose(active, "tiktok_url"),
+                "website_url": website_url, "facebook_url": facebook_url,
+                "instagram_url": instagram_url, "tiktok_url": tiktok_url,
                 "on_farm_sales": any(x.on_farm_sales is True for x in active), "farmers_market_sales": any(x.farmers_market_sales is True for x in active),
                 "online_sales": any(x.online_sales is True for x in active), "local_delivery": any(x.local_delivery is True for x in active),
                 "u_pick": any(x.u_pick is True for x in active), "wholesale": any(x.wholesale is True for x in active),
@@ -779,6 +787,7 @@ def write_csv(path: Path, records: list[dict[str, Any]]) -> None:
 
 def main() -> int:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
     logs = []; raw_sources: dict[str, Any] = {}; observations: list[Observation] = []; critical = []
 
     county_body, log = fetch(USDA_COUNTIES_URL)
@@ -1097,16 +1106,14 @@ def main() -> int:
         "promotion_note": "Eligible means the staged row meets field/evidence/privacy gates; canonical promotion still requires a deliberate immutable release review.",
     }
 
-    (OUTPUT_DIR / "texas-source-observations.json").write_text(json.dumps({"release": summary, "records": observation_records}, indent=2), encoding="utf-8")
-    write_csv(OUTPUT_DIR / "texas-source-observations.csv", observation_records)
-    (OUTPUT_DIR / "texas-candidate-entities.json").write_text(json.dumps({"release": summary, "records": entities}, indent=2), encoding="utf-8")
-    write_csv(OUTPUT_DIR / "texas-candidate-entities.csv", entities); write_csv(OUTPUT_DIR / "identity-review.csv", identity_review)
-    write_csv(OUTPUT_DIR / "qa-queue.csv", qa); write_csv(OUTPUT_DIR / "county-coverage.csv", coverage)
-    write_csv(OUTPUT_DIR / "excluded-observations.csv", excluded); write_csv(OUTPUT_DIR / "geography-conflicts.csv", geography_conflicts)
-    (OUTPUT_DIR / "source-pass-log.json").write_text(json.dumps(logs, indent=2), encoding="utf-8")
+    write_csv(OUTPUT_DIR / "observations.csv", observation_records)
+    write_csv(STATE_DIR / "entities.csv", entities); write_csv(OUTPUT_DIR / "identity-review.csv", identity_review)
+    write_csv(OUTPUT_DIR / "qa-queue.csv", qa); write_csv(STATE_DIR / "county-coverage.csv", coverage)
+    write_csv(OUTPUT_DIR / "exclusions.csv", excluded); write_csv(OUTPUT_DIR / "geography-conflicts.csv", geography_conflicts)
+    (OUTPUT_DIR / "request-log.json").write_text(json.dumps(logs, indent=2), encoding="utf-8")
     (OUTPUT_DIR / "county-lookup-errors.json").write_text(json.dumps(lookup_errors, indent=2), encoding="utf-8")
     (OUTPUT_DIR / "raw-source-records.json").write_text(json.dumps(raw_sources, indent=2), encoding="utf-8")
-    (OUTPUT_DIR / "collection-summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    (OUTPUT_DIR / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(json.dumps(summary, indent=2)); return 0 if summary["status"] == "coverage_reviewed" else 1
 
 

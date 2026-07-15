@@ -58,24 +58,28 @@ Mississippi's initial staged run uses:
 The collector is `01-database/tools/collect_mississippi.py`. It writes staging data to
 `research/ms-expansion/` and does not edit the canonical workbook.
 
+All new or rebuilt state releases must follow
+`01-database/state-release-contract.md`. Detailed observations and diagnostics belong
+in the private evidence bundle; only the seven-file contract is committed under
+`research/state-expansions/<STATE>/`. The shared validator is
+`01-database/tools/validate_state_releases.py`.
+
 Alabama completed all three passes on 2026-07-15. The coverage-reviewed private state
 release contains 1,048 source observations reconciled to 850 proposed entities; 635
 meet the staged promotion gates and 215 remain in explicit research/QA. All 67 counties
 have candidates. Two source records resolving outside Alabama remain grade-F
-exclusions. The collector is `01-database/tools/collect_alabama.py`, the validator is
-`01-database/tools/validate_alabama_release.py`, and the detailed review is
-`research/al-expansion/alabama-completion-report.md`. Alabama remains separate staging
+exclusions. The collector is `01-database/tools/collect_alabama.py`, and the detailed
+review and release manifest are under `research/state-expansions/AL/`. Alabama remains separate staging
 until a deliberate immutable promotion release; LA/MS remains canonical.
 
 Texas completed all three passes on 2026-07-15. The coverage-reviewed private state
-release contains 1,021 source observations reconciled to 919 proposed entities; 319
-meet the staged promotion gates and 600 remain in explicit research/QA. All 254
-counties were searched: 179 have candidates, 75 are explicitly
-`searched_none_found`, and 111 have at least one promotion-eligible entity. Thirteen
-closed listings remain grade-F exclusions. The collector is
-`01-database/tools/collect_texas.py`, the validator is
-`01-database/tools/validate_texas_release.py`, and the detailed review is
-`research/tx-expansion/texas-completion-report.md`. Texas remains separate staging
+release contains 1,060 source and curator observations reconciled to 899 proposed
+entities; 337 meet the staged promotion gates and 562 remain in explicit research/QA.
+All 254 counties were searched: 178 have candidates, 76 are explicitly
+`searched_none_found`, and 114 have at least one promotion-eligible entity. Detailed
+evidence includes 53 exclusion rows and 39 manual decisions. The collector is
+`01-database/tools/collect_texas.py`, and the detailed review and release manifest are
+under `research/state-expansions/TX/`. Texas remains separate staging
 until deliberate immutable promotion; LA/MS remains canonical.
 
 ## Record and field verification

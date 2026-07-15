@@ -28,9 +28,12 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterable
 
+from state_release_urls import classify_public_urls
+
 
 ROOT = Path(__file__).resolve().parents[2]
-OUTPUT_DIR = ROOT / "research" / "al-expansion"
+STATE_DIR = ROOT / "research" / "state-expansions" / "AL"
+OUTPUT_DIR = ROOT / "data" / "source-releases" / "work" / "AL"
 PUBLIC_FARMS = ROOT / "03-app" / "site" / "app" / "data" / "farms.json"
 USER_AGENT = "FarmFinder/1.0 (+public-directory research; contact in repository)"
 TODAY = date.today().isoformat()
@@ -617,12 +620,13 @@ def census_address_county(address: str, city: str, postal_code: str) -> tuple[st
 
 
 def old_county_cache() -> dict[str, tuple[str, str, str]]:
-    path = OUTPUT_DIR / "alabama-source-observations.json"
+    path = OUTPUT_DIR / "observations.csv"
     if not path.exists():
         return {}
     try:
-        rows = json.loads(path.read_text(encoding="utf-8")).get("records", [])
-    except (json.JSONDecodeError, OSError):
+        with path.open(newline="", encoding="utf-8") as handle:
+            rows = list(csv.DictReader(handle))
+    except (csv.Error, OSError):
         return {}
     return {row.get("observation_id", ""): (row.get("county", ""), row.get("county_fips", ""), row.get("county_source", ""))
             for row in rows if row.get("county")}
@@ -722,6 +726,10 @@ def reconcile(observations: list[Observation]) -> tuple[list[dict[str, Any]], li
             if not products: blockers.append("products or farm activity missing")
             if grades == ["E"]: blockers.append("single secondary discovery listing needs corroboration")
             promotion = "promotion_eligible_reviewed" if not blockers else "research_or_qa_queue"
+            website_url, facebook_url, instagram_url, tiktok_url = classify_public_urls(
+                choose(source_items, "website_url"), choose(source_items, "facebook_url"),
+                choose(source_items, "instagram_url"), choose(source_items, "tiktok_url"),
+            )
             entity = {
                 "entity_id": entity_id, "farm_name": name, "normalized_name": key,
                 "entity_type": "producer_requires_type_review" if bee_only else "farm",
@@ -733,8 +741,8 @@ def reconcile(observations: list[Observation]) -> tuple[list[dict[str, Any]], li
                 "products": products, "business_types": unique_values(source_items, "business_types"),
                 "phone_internal": choose(source_items, "phone"), "email_internal": choose(source_items, "email"),
                 "contact_visibility": "internal_until_public_use_review",
-                "website_url": choose(source_items, "website_url"), "facebook_url": choose(source_items, "facebook_url"),
-                "instagram_url": choose(source_items, "instagram_url"), "tiktok_url": choose(source_items, "tiktok_url"),
+                "website_url": website_url, "facebook_url": facebook_url,
+                "instagram_url": instagram_url, "tiktok_url": tiktok_url,
                 "on_farm_sales": any(item.on_farm_sales is True for item in source_items),
                 "farmers_market_sales": any(item.farmers_market_sales is True for item in source_items),
                 "online_sales": any(item.online_sales is True for item in source_items),
@@ -771,6 +779,7 @@ def write_csv(path: Path, records: list[dict[str, Any]]) -> None:
 
 def main() -> int:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
     source_log: list[dict[str, Any]] = []
     raw_sources: dict[str, Any] = {}
     observations: list[Observation] = []
@@ -992,18 +1001,16 @@ def main() -> int:
         "promotion_note": "Eligible means the staged row meets field/evidence/privacy gates; promotion into canonical data still requires a deliberate immutable release review.",
     }
 
-    (OUTPUT_DIR / "alabama-source-observations.json").write_text(json.dumps({"release": summary, "records": observation_records}, indent=2), encoding="utf-8")
-    write_csv(OUTPUT_DIR / "alabama-source-observations.csv", observation_records)
-    (OUTPUT_DIR / "alabama-candidate-entities.json").write_text(json.dumps({"release": summary, "records": entities}, indent=2), encoding="utf-8")
-    write_csv(OUTPUT_DIR / "alabama-candidate-entities.csv", entities)
+    write_csv(OUTPUT_DIR / "observations.csv", observation_records)
+    write_csv(STATE_DIR / "entities.csv", entities)
     write_csv(OUTPUT_DIR / "identity-review.csv", identity_review)
     write_csv(OUTPUT_DIR / "qa-queue.csv", qa)
-    write_csv(OUTPUT_DIR / "county-coverage.csv", county_coverage)
-    write_csv(OUTPUT_DIR / "excluded-observations.csv", excluded)
-    (OUTPUT_DIR / "source-pass-log.json").write_text(json.dumps(source_log, indent=2), encoding="utf-8")
+    write_csv(STATE_DIR / "county-coverage.csv", county_coverage)
+    write_csv(OUTPUT_DIR / "exclusions.csv", excluded)
+    (OUTPUT_DIR / "request-log.json").write_text(json.dumps(source_log, indent=2), encoding="utf-8")
     (OUTPUT_DIR / "county-lookup-errors.json").write_text(json.dumps(county_errors, indent=2), encoding="utf-8")
     (OUTPUT_DIR / "raw-source-records.json").write_text(json.dumps(raw_sources, indent=2), encoding="utf-8")
-    (OUTPUT_DIR / "collection-summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    (OUTPUT_DIR / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(json.dumps(summary, indent=2))
     return 0 if summary["status"] == "coverage_reviewed" else 1
 

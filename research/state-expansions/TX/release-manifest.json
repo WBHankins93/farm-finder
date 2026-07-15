@@ -1,0 +1,144 @@
+{
+  "contractVersion": 1,
+  "state": "TX",
+  "releaseId": "tx-coverage-reviewed-2026-07-15",
+  "status": "coverage_reviewed",
+  "generatedAt": "2026-07-15T19:00:18.926703+00:00",
+  "promotionReady": false,
+  "promotionBlockReason": "record-level QA and managed evidence storage remain incomplete",
+  "counts": {
+    "sourceObservations": 1060,
+    "proposedEntities": 899,
+    "promotionEligibleEntities": 337,
+    "researchOrQaEntities": 562,
+    "excludedObservations": 53,
+    "identityReviewGroups": 97,
+    "countyCoverageRows": 254,
+    "countiesWithCandidates": 178,
+    "countiesWithEligibleEntities": 114,
+    "sourceDatasets": 29,
+    "manualDecisions": 39
+  },
+  "repositoryFiles": {
+    "state-config.json": {
+      "sha256": "b462d4f1db4e9f9623971ec7c27a1c2df4f4f3b5d8a86ab1034b00d3947cee85",
+      "bytes": 506
+    },
+    "sources.json": {
+      "sha256": "b5994fa203ce8308aafaf9c490f24f22c0b35fc0d7081fb48403c6c80dd3b0f7",
+      "bytes": 15945
+    },
+    "manual-decisions.csv": {
+      "sha256": "7314d6a51550c10accbd067ff4e88cc6ed610d9698bccd3d9daf6f1699965ada",
+      "bytes": 20125
+    },
+    "entities.csv": {
+      "sha256": "be58e24831699bd4d3a274e3fff5a0ce0ba47f121cf06ceb0a06be4845fc9cca",
+      "bytes": 747588
+    },
+    "county-coverage.csv": {
+      "sha256": "b4b942e9a9663de2042d4cdb4b25eff9da24c01f15411c32561a4ed4c3578c64",
+      "bytes": 51882
+    },
+    "completion-report.md": {
+      "sha256": "56f79cecea434414ba38a459fa949980465d4dd7518310b9b7816b61d03c361a",
+      "bytes": 11969
+    }
+  },
+  "evidenceStorage": {
+    "provider": "s3-compatible",
+    "environment": "local-staging",
+    "status": "versioned_local_s3_staging",
+    "bucket": "farmfinder-source-releases",
+    "prefix": "state-expansions/TX/tx-coverage-reviewed-2026-07-15/",
+    "versioningRequired": true,
+    "managedCopyRequiredBeforePromotion": true
+  },
+  "artifacts": [
+    {
+      "role": "observations",
+      "filename": "observations.csv.zst",
+      "objectKey": "state-expansions/TX/tx-coverage-reviewed-2026-07-15/observations.csv.zst",
+      "sha256": "5b8ea7d99d658dad9ebe84a27346fb17f7ca602ee3692466acf4b1f24de2ab0f",
+      "bytes": 267105,
+      "rows": 1060,
+      "contentType": "application/zstd",
+      "visibility": "private",
+      "versionId": "286f0472-3979-4c7e-833f-d5b57a1168b5"
+    },
+    {
+      "role": "raw_source_records",
+      "filename": "raw-source-records.jsonl.zst",
+      "objectKey": "state-expansions/TX/tx-coverage-reviewed-2026-07-15/raw-source-records.jsonl.zst",
+      "sha256": "e843ae1a9e7b4879808c9ea77ba471962707ffa5048bdcfb583cc2aca9368d01",
+      "bytes": 448165,
+      "rows": 31,
+      "contentType": "application/zstd",
+      "visibility": "private",
+      "versionId": "176b58f7-593f-4b28-afed-32016d85748e"
+    },
+    {
+      "role": "request_log",
+      "filename": "request-log.jsonl.zst",
+      "objectKey": "state-expansions/TX/tx-coverage-reviewed-2026-07-15/request-log.jsonl.zst",
+      "sha256": "5c2643642dbc9d035757c9a7d35e2083945b84159dfc61a3d452a9be2a031be3",
+      "bytes": 66432,
+      "rows": 1015,
+      "contentType": "application/zstd",
+      "visibility": "private",
+      "versionId": "d6445b07-3159-4863-abde-98eadd90d588"
+    },
+    {
+      "role": "qa_queue",
+      "filename": "qa-queue.csv.zst",
+      "objectKey": "state-expansions/TX/tx-coverage-reviewed-2026-07-15/qa-queue.csv.zst",
+      "sha256": "0cef22a01c261955ff93898eae5eca8ac3362cb1d29fd4f581f4c6042faabec2",
+      "bytes": 12350,
+      "rows": 562,
+      "contentType": "application/zstd",
+      "visibility": "private",
+      "versionId": "4fdd35aa-2653-4dea-b12e-27efbec852f8"
+    },
+    {
+      "role": "identity_review",
+      "filename": "identity-review.csv.zst",
+      "objectKey": "state-expansions/TX/tx-coverage-reviewed-2026-07-15/identity-review.csv.zst",
+      "sha256": "e6d689c7d35686ce8ba4f986e7bd8e0c70fbfa38520a80c3179e60610ecbbe96",
+      "bytes": 6440,
+      "rows": 97,
+      "contentType": "application/zstd",
+      "visibility": "private",
+      "versionId": "6892c79a-7e58-45a9-a09a-9925c6c70e47"
+    },
+    {
+      "role": "exclusions",
+      "filename": "exclusions.csv.zst",
+      "objectKey": "state-expansions/TX/tx-coverage-reviewed-2026-07-15/exclusions.csv.zst",
+      "sha256": "4a91671615964a1a99c234367175907f2887f6363fd8c321347f29dc0dd6f99e",
+      "bytes": 13697,
+      "rows": 53,
+      "contentType": "application/zstd",
+      "visibility": "private",
+      "versionId": "39af100f-e84d-4b58-a830-a9607525cef1"
+    },
+    {
+      "role": "geography_errors",
+      "filename": "geography-errors.jsonl.zst",
+      "objectKey": "state-expansions/TX/tx-coverage-reviewed-2026-07-15/geography-errors.jsonl.zst",
+      "sha256": "79d21c52155a592de951db0fd6b20badedcb6767dbb37f77cf150a0e50a2fdf2",
+      "bytes": 4036,
+      "rows": 108,
+      "contentType": "application/zstd",
+      "visibility": "private",
+      "versionId": "3b054038-b217-4b03-9daf-2082199f9dbd"
+    }
+  ],
+  "canonicalBoundary": {
+    "authorityMode": "pre_cutover_workbook",
+    "allowedStates": [
+      "LA",
+      "MS"
+    ],
+    "sourceRowCount": 311
+  }
+}

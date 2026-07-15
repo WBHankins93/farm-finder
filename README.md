@@ -21,13 +21,13 @@ FarmFinder currently has a working static-first public directory and a verified 
 | Canonical records | 311 one-row-per-entity workbook listings: 237 LA and 74 MS |
 | Public map | 311 mapped listings with explicit location precision |
 | Website/contact QA | 99 website flags, 57 populated URLs, 42 missing URLs; 230 direct contacts and 81 missing direct phone/email |
-| State expansion | Alabama coverage reviewed: 635 eligible / 215 QA. Texas coverage reviewed: 1,021 observations, 919 proposed entities, 319 eligible / 600 QA; all 254 counties searched. Both remain private staging. |
+| State expansion | Alabama coverage reviewed: 850 entities, 635 eligible / 215 QA. Texas coverage reviewed: 1,060 observations, 899 entities, 337 eligible / 562 QA; all 254 counties searched. Both use the seven-file state contract and remain private staging. |
 | Public application | Working vinext/Next.js directory using generated JSON |
 | PostgreSQL cutover | 30-table foundation verified; historical v1 with 315 raw rows remains staged locally; enriched v2 must be staged as a new immutable release |
 | Custom indexes | 27 documented indexes tied to queries, invariants, or worker operations |
 | Natural-language answers | Prototype client-side parsing only; production hybrid query system is planned |
 | Authentication | Schema and hosting helpers exist; farm claim/management flows are not active |
-| Object storage | Pinned workbook stored and checksum-verified in local versioned S3-compatible storage; managed bucket and image pipeline pending |
+| Object storage | Pinned workbook plus AL/TX state-evidence bundles stored and checksum-verified in local versioned S3-compatible storage; managed bucket and image pipeline pending |
 | Repository | Private GitHub repository with one project-level history |
 
 The four former duplicate groups—Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens—were evidence-reviewed and consolidated to one canonical row each. Their separate source histories remain in the canonical workbook's provenance fields and `Source Log`.
@@ -66,6 +66,7 @@ Start with:
 
 - [Source-of-truth workflow](03-app/site/docs/data-governance/source-of-truth.md)
 - [State expansion and verification system](01-database/state-expansion-and-verification.md)
+- [State release contract](01-database/state-release-contract.md)
 - [Machine-readable dataset manifest](03-app/site/config/source-of-truth.json)
 
 ### PostgreSQL/PostGIS foundation
