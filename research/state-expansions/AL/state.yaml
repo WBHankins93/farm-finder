@@ -1,0 +1,299 @@
+{
+  "contractVersion": 2,
+  "state": {
+    "code": "AL",
+    "name": "Alabama",
+    "countyEquivalentLabel": "county",
+    "countyEquivalentCount": 67
+  },
+  "policy": {
+    "version": "2026-07-15",
+    "missingDataDisposition": "research_or_qa_queue",
+    "affirmativeExclusionReasons": [
+      "confirmed_closed",
+      "confirmed_nonfarm",
+      "duplicate_identity",
+      "outside_jurisdiction"
+    ]
+  },
+  "collection": {
+    "requiredPasses": [
+      1,
+      2,
+      3
+    ],
+    "sources": [
+      {
+        "sourceId": "alsrc-4138a35a3e8c",
+        "name": "Alabama FMA \u2014 2026 statewide farm-stand roster",
+        "pass": 1,
+        "sourceUrl": "https://agi.alabama.gov/farmersmarket/wp-content/uploads/sites/9/2023/02/2026-statewide-redemption-sites.pdf",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 134,
+        "retrievedAt": "2026-07-15T21:35:06.217045+00:00",
+        "responseSha256": "94d6211a7cd2e306a13073400835a13e995ec60937bd862d69f1ae220874a063",
+        "notes": null
+      },
+      {
+        "sourceId": "alsrc-61a46a43b668",
+        "name": "Alabama Farm to School \u2014 farmer page",
+        "pass": 1,
+        "sourceUrl": "https://agi.alabama.gov/fts/farmers/",
+        "repositoryPath": null,
+        "decision": "evaluated_no_public_producer_directory",
+        "recordsParsed": 0,
+        "retrievedAt": "2026-07-15T21:35:06.408332+00:00",
+        "responseSha256": "c68d5d2fbe808f4500656be1baa14e51d807ff4702d51d3db24492bb580e59f8",
+        "notes": "The page invites farmer registration but exposes no searchable producer roster."
+      },
+      {
+        "sourceId": "alsrc-7ea2704f8d5a",
+        "name": "Alabama Farmers Market Authority \u2014 farm-stand map",
+        "pass": 1,
+        "sourceUrl": "https://agi.alabama.gov/farmersmarket/locations/farmers-stand-location-map/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 117,
+        "retrievedAt": "2026-07-15T21:35:05.791439+00:00",
+        "responseSha256": "3427c619a43c85c6b7cec55e86284159f3e4a17e1b6a29805a0176de4471363e",
+        "notes": null
+      },
+      {
+        "sourceId": "alsrc-8a4422912eb8",
+        "name": "Alabama Farmers Market Authority \u2014 u-pick map",
+        "pass": 1,
+        "sourceUrl": "https://agi.alabama.gov/farmersmarket/locations/u-pick-location-map/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 82,
+        "retrievedAt": "2026-07-15T21:35:05.903832+00:00",
+        "responseSha256": "e237390566d505433e7ab0d299570ef495de1f9ff6d9edd218489b27eed8ca4d",
+        "notes": null
+      },
+      {
+        "sourceId": "alsrc-64e4231d82e8",
+        "name": "Alabama Plant Protection \u2014 Beekeepers Selling Bees",
+        "pass": 1,
+        "sourceUrl": "https://agi.alabama.gov/plantprotection/beeks-selling-bees/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 34,
+        "retrievedAt": "2026-07-15T21:35:06.318607+00:00",
+        "responseSha256": "dfe41c242bf78968f2344ef0b2e67ad26c2169a672656023e3b5793f457b3cfa",
+        "notes": null
+      },
+      {
+        "sourceId": "alsrc-4bcf7c4f7232",
+        "name": "Sweet Grown Alabama \u2014 Farm members",
+        "pass": 1,
+        "sourceUrl": "https://www.sweetgrownalabama.org/find-sweet-grown",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 407,
+        "retrievedAt": "2026-07-15T21:35:05.627555+00:00",
+        "responseSha256": "97f1282635020ae572010f8dd4fb6fdfbdf90303c6a328d2c849e16055066f4c",
+        "notes": null
+      },
+      {
+        "sourceId": "alsrc-26f40816cc7d",
+        "name": "Alabama Cattlemen\u2019s Association \u2014 Bama Beef Sales Directory",
+        "pass": 2,
+        "sourceUrl": "https://www.bamabeef.org/p/about/bama-beef-sales-directory",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 98,
+        "retrievedAt": "2026-07-15T21:35:08.290500+00:00",
+        "responseSha256": "05df497623f47970b4d105bf9b12b36c03ce3a5737a4b7d2da729b09e104cfb9",
+        "notes": null
+      },
+      {
+        "sourceId": "alsrc-42267aa5f5b3",
+        "name": "Alabama FMA \u2014 farmers-market channel map",
+        "pass": 2,
+        "sourceUrl": "https://agi.alabama.gov/farmersmarket/locations/farmers-market-location-map/",
+        "repositoryPath": null,
+        "decision": "channel_infrastructure_only_not_farm_observations",
+        "recordsParsed": 157,
+        "retrievedAt": "2026-07-15T21:35:06.021763+00:00",
+        "responseSha256": "6376585124fae70f5e5eefe7d74aa9d173b0bf8b654dce016ec5d19632da3560",
+        "notes": "Markets are retained as channel evidence and never typed as farms."
+      },
+      {
+        "sourceId": "alsrc-be65bdc06f87",
+        "name": "EatWild Alabama directory",
+        "pass": 2,
+        "sourceUrl": "https://www.eatwild.com/products/alabama.html",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 10,
+        "retrievedAt": "2026-07-15T21:35:08.515229+00:00",
+        "responseSha256": "7936747d57dfd17efe0f65aefad14a3aec3e8ef78706feaa98aabf65aabccf28",
+        "notes": "Only farm addresses physically in Alabama were retained; out-of-state suppliers were excluded."
+      },
+      {
+        "sourceId": "alsrc-8deac9c1f4bb",
+        "name": "PickYourOwn \u2014 Central Alabama",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/ALbham.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 45,
+        "retrievedAt": "2026-07-15T21:35:09.708619+00:00",
+        "responseSha256": "03860daec700b638db37180178d7e55a49706607da61b3374c5957f573914850",
+        "notes": "County sections searched: 21; explicit closure records retained as grade F exclusions."
+      },
+      {
+        "sourceId": "alsrc-261098e519e5",
+        "name": "PickYourOwn \u2014 North Alabama",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/ALhuntsv.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 36,
+        "retrievedAt": "2026-07-15T21:35:09.217235+00:00",
+        "responseSha256": "8e9cbda94c84f795e2b005f51a83f5ec83a43bb995f35ae680f802c3fb04ba35",
+        "notes": "County sections searched: 11; explicit closure records retained as grade F exclusions."
+      },
+      {
+        "sourceId": "alsrc-7e6164a1efef",
+        "name": "PickYourOwn \u2014 Southeast Alabama",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/ALmontg.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 60,
+        "retrievedAt": "2026-07-15T21:35:10.365334+00:00",
+        "responseSha256": "95be6ac4e92ffec3b13258229d26ce34a2abbb1d28de9f6182dd4ca72c467913",
+        "notes": "County sections searched: 23; explicit closure records retained as grade F exclusions."
+      },
+      {
+        "sourceId": "alsrc-cd1f49383b21",
+        "name": "PickYourOwn \u2014 Southwest Alabama",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/ALmobile.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 25,
+        "retrievedAt": "2026-07-15T21:35:10.752328+00:00",
+        "responseSha256": "d2ee8c0b0d9ea32614a41e839f25c3990e4bf8d74c92c944a0842024ae868f9f",
+        "notes": "County sections searched: 11; explicit closure records retained as grade F exclusions."
+      },
+      {
+        "sourceId": "alsrc-da67fa8c16db",
+        "name": "US Farm Trail \u2014 Alabama discovery page",
+        "pass": 3,
+        "sourceUrl": "https://www.usfarmtrail.com/states/alabama",
+        "repositoryPath": null,
+        "decision": "evaluated_rejected_as_entity_source",
+        "recordsParsed": 0,
+        "retrievedAt": "2026-07-15T21:35:10.954329+00:00",
+        "responseSha256": "dae3e0ddca570f16120023bd4575c2f85e29e86fb6ce57790f2d42fda6813b95",
+        "notes": "Page exposed 240 rendered farm links but mixed markets, duplicates, off-state entities, and weak per-record provenance; no automatic observations accepted."
+      }
+    ],
+    "coverage": {
+      "countyEquivalentsReviewed": 67,
+      "countyEquivalentsWithCandidates": 67,
+      "countyEquivalentsWithEligibleEntities": 67,
+      "unresolvedCountyEquivalents": []
+    }
+  },
+  "repositoryPolicy": {
+    "requiredFiles": [
+      "state.yaml",
+      "entities.csv",
+      "decisions.csv",
+      "report.md"
+    ],
+    "maxTrackedBytes": 5000000
+  },
+  "release": {
+    "id": "al-coverage-reviewed-v4-2026-07-15",
+    "status": "coverage_reviewed",
+    "generatedAt": "2026-07-15T21:35:12.179695+00:00",
+    "promotionReady": false,
+    "promotionBlockReason": "11 retained candidates require follow-up; absence-based exclusions were reversed",
+    "counts": {
+      "sourceObservations": 1057,
+      "proposedEntities": 810,
+      "promotionEligibleEntities": 799,
+      "researchOrQaEntities": 11,
+      "excludedObservations": 6,
+      "identityReviewGroups": 162,
+      "countyCoverageRows": 67,
+      "countiesWithCandidates": 67,
+      "countiesWithEligibleEntities": 67,
+      "sourceDatasets": 14,
+      "manualDecisions": 79,
+      "excludedEntityGroups": 6
+    },
+    "repositoryFiles": {
+      "entities.csv": {
+        "sha256": "49e7109a6aefd93ee7b6317c249a33773d1ae464ef848b34e7ea8f0a1780c14b",
+        "bytes": 621394
+      },
+      "decisions.csv": {
+        "sha256": "c365e47ed2c09de82fe9110ca50c2a5c0e4d6da3e27a39c0d1018c6d3a2b1282",
+        "bytes": 31395
+      },
+      "report.md": {
+        "sha256": "7857ab5324e7c9e8cb3ed619bfe41e2365db845d9284682b30029badd0072dcb",
+        "bytes": 4742
+      }
+    },
+    "evidenceStorage": {
+      "provider": "s3-compatible",
+      "environment": "local-staging",
+      "status": "versioned_local_s3_staging",
+      "bucket": "farmfinder-source-releases",
+      "prefix": "state-expansions/AL/al-record-verified-v3-2026-07-15/",
+      "versioningRequired": true,
+      "managedCopyRequiredBeforePromotion": true
+    },
+    "artifacts": [
+      {
+        "role": "observations",
+        "filename": "observations.csv.zst",
+        "objectKey": "state-expansions/AL/al-record-verified-v3-2026-07-15/observations.csv.zst",
+        "sha256": "088fa515652bf9bf8db03bb8f51d29ca561919d62e70bfdd1c2b9ff6ae781d1d",
+        "bytes": 206469,
+        "rows": 1057,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "6c51ecdb-303e-43dc-832d-82214a2e4e5f"
+      },
+      {
+        "role": "source_records",
+        "filename": "raw-source-records.jsonl.zst",
+        "objectKey": "state-expansions/AL/al-record-verified-v3-2026-07-15/raw-source-records.jsonl.zst",
+        "sha256": "ccefbc845b4485929bf90b5d33f2cf35d5c8f1397137a4b16a39ccc1bd692c87",
+        "bytes": 223421,
+        "rows": 15,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "4f8d4955-6159-4a4d-bad0-5fd598fe42de"
+      },
+      {
+        "role": "collection_log",
+        "filename": "request-log.jsonl.zst",
+        "objectKey": "state-expansions/AL/al-record-verified-v3-2026-07-15/request-log.jsonl.zst",
+        "sha256": "bf6d161959ba123b5251497ac1eb969814aa3122aa651645a14198e90860aef7",
+        "bytes": 3280,
+        "rows": 26,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "8a2b88f9-749a-438a-940c-2b84b462ed3d"
+      }
+    ],
+    "canonicalBoundary": {
+      "authorityMode": "pre_cutover_workbook",
+      "allowedStates": [
+        "LA",
+        "MS"
+      ],
+      "sourceRowCount": 299
+    },
+    "approval": {}
+  }
+}
