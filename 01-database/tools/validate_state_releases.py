@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any
 
 from state_release_urls import is_valid_website
+from state_policy import AFFIRMATIVE_EXCLUSION_REASONS, ELIGIBLE_STATUS, RESEARCH_STATUS
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -27,6 +28,9 @@ REQUIRED_ARTIFACT_ROLES = {
 }
 ALLOWED_COVERAGE_STATUSES = {
     "candidates_found", "searched_none_found", "source_blocked", "follow_up_required",
+}
+ALLOWED_RELEASE_STATUSES = {
+    "researching", "collected", "coverage_reviewed", "record_verified", "approved", "promoted",
 }
 ELIGIBLE_REQUIRED_FIELDS = [
     "entity_id", "farm_name", "entity_type", "identity_decision", "state",
@@ -59,6 +63,38 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
+def release_fingerprint(manifest: dict[str, Any]) -> str:
+    """Fingerprint the immutable repository inputs and private evidence identities."""
+    if "release" in manifest:
+        release = manifest.get("release", {})
+        manifest = {
+            "contractVersion": manifest.get("contractVersion"),
+            "state": manifest.get("state", {}).get("code"),
+            "releaseId": release.get("id"),
+            "repositoryFiles": release.get("repositoryFiles", {}),
+            "artifacts": release.get("artifacts", []),
+        }
+    payload = {
+        "contractVersion": manifest.get("contractVersion"),
+        "state": manifest.get("state"),
+        "releaseId": manifest.get("releaseId"),
+        "repositoryFiles": manifest.get("repositoryFiles", {}),
+        "artifacts": [
+            {
+                "role": row.get("role"),
+                "objectKey": row.get("objectKey"),
+                "versionId": row.get("versionId"),
+                "sha256": row.get("sha256"),
+                "bytes": row.get("bytes"),
+                "rows": row.get("rows"),
+            }
+            for row in sorted(manifest.get("artifacts", []), key=lambda item: str(item.get("role")))
+        ],
+    }
+    encoded = json.dumps(payload, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()
+
+
 def require(condition: bool, message: str, errors: list[str]) -> None:
     if not condition:
         errors.append(message)
@@ -82,7 +118,7 @@ def read_compressed_csv(path: Path) -> list[dict[str, str]]:
     return list(csv.DictReader(io.StringIO(result.stdout.decode("utf-8"))))
 
 
-def validate_state(state: str, require_local_artifacts: bool) -> dict[str, Any]:
+def _validate_v1_state(state: str, require_local_artifacts: bool) -> dict[str, Any]:
     state_dir = STATE_ROOT / state
     errors: list[str] = []
     warnings: list[str] = []
@@ -181,11 +217,32 @@ def validate_state(state: str, require_local_artifacts: bool) -> dict[str, Any]:
     by_role = {row.get("role"): row for row in artifacts}
     require(set(by_role) == REQUIRED_ARTIFACT_ROLES, "artifact role set is incomplete or duplicated", errors)
     storage = manifest.get("evidenceStorage", {})
+    release_status = str(manifest.get("status", ""))
+    promotion_ready = manifest.get("promotionReady") is True
+    require(release_status in ALLOWED_RELEASE_STATUSES, "release manifest has invalid lifecycle status", errors)
     require(storage.get("provider") == "s3-compatible", "evidence provider must be S3-compatible", errors)
     require(storage.get("versioningRequired") is True, "evidence storage must require versioning", errors)
-    require(storage.get("managedCopyRequiredBeforePromotion") is True,
-            "managed-copy promotion guard is missing", errors)
-    require(manifest.get("promotionReady") is False, "coverage-reviewed staging must not be promotion-ready", errors)
+    if release_status in {"researching", "collected", "coverage_reviewed"}:
+        require(not promotion_ready, f"{release_status} release must not be promotion-ready", errors)
+    if release_status in {"record_verified", "approved", "promoted"}:
+        require(not qa, f"{release_status} release still has QA entities", errors)
+    if release_status == "record_verified":
+        require(not promotion_ready, "record-verified release requires explicit approval", errors)
+    if release_status in {"approved", "promoted"}:
+        require(promotion_ready, f"{release_status} release must be promotion-ready", errors)
+        require(storage.get("environment") not in {None, "", "local-staging"},
+                f"{release_status} release evidence is not in managed storage", errors)
+        require(storage.get("managedCopyRequiredBeforePromotion") is False,
+                f"{release_status} release still requires a managed evidence copy", errors)
+        approval = manifest.get("approval", {})
+        require(approval.get("decision") == "approved", "release lacks an approval decision", errors)
+        require(bool(approval.get("approvedBy")), "release lacks an approver", errors)
+        require(bool(approval.get("approvedAt")), "release lacks an approval timestamp", errors)
+        require(approval.get("releaseFingerprint") == release_fingerprint(manifest),
+                "approval fingerprint does not match the immutable release", errors)
+    elif storage.get("environment") == "local-staging":
+        require(storage.get("managedCopyRequiredBeforePromotion") is True,
+                "local staging must retain the managed-copy promotion guard", errors)
     prefix = storage.get("prefix", "")
     for role, artifact in by_role.items():
         require(artifact.get("objectKey", "").startswith(prefix), f"{role} object key is outside release prefix", errors)
@@ -241,15 +298,24 @@ def validate_state(state: str, require_local_artifacts: bool) -> dict[str, Any]:
 
     canonical = json.loads(CANONICAL_MANIFEST.read_text(encoding="utf-8"))["release"]
     boundary = manifest.get("canonicalBoundary", {})
-    require(canonical.get("allowedStates") == boundary.get("allowedStates") == ["LA", "MS"],
-            "state staging changed canonical allowed states", errors)
-    require(canonical.get("sourceRowCount") == boundary.get("sourceRowCount") == 311,
-            "state staging changed canonical row count", errors)
+    require(canonical.get("allowedStates") == boundary.get("allowedStates"),
+            "state manifest does not match canonical allowed states", errors)
+    require(canonical.get("sourceRowCount") == boundary.get("sourceRowCount"),
+            "state manifest does not match canonical row count", errors)
+    if release_status != "promoted":
+        require(state not in canonical.get("allowedStates", []),
+                "unpromoted state is already inside the canonical boundary", errors)
+    else:
+        require(state in canonical.get("allowedStates", []),
+                "promoted state is absent from the canonical boundary", errors)
 
     return {
         "state": state,
         "status": "passed" if not errors else "failed",
         "releaseId": manifest.get("releaseId"),
+        "releaseStatus": release_status,
+        "promotionReady": promotion_ready,
+        "releaseFingerprint": release_fingerprint(manifest),
         "entities": len(entities),
         "eligible": len(eligible),
         "qa": len(qa),
@@ -261,6 +327,203 @@ def validate_state(state: str, require_local_artifacts: bool) -> dict[str, Any]:
     }
 
 
+def _validate_v2_state(state: str, require_local_artifacts: bool) -> dict[str, Any]:
+    """Validate the four-file national state contract."""
+    state_dir = STATE_ROOT / state
+    errors: list[str] = []
+    warnings: list[str] = []
+    try:
+        document = json.loads((state_dir / "state.yaml").read_text(encoding="utf-8"))
+        entities = read_csv(state_dir / "entities.csv")
+        decisions = read_csv(state_dir / "decisions.csv")
+    except (FileNotFoundError, json.JSONDecodeError) as exc:
+        return {"state": state, "status": "failed", "errors": [str(exc)], "warnings": []}
+
+    required_files = {"state.yaml", "entities.csv", "decisions.csv", "report.md"}
+    actual_files = {
+        path.name for path in state_dir.iterdir()
+        if path.is_file() and not path.name.startswith(".")
+    }
+    require(actual_files == required_files,
+            f"state directory must contain exactly {sorted(required_files)}; found {sorted(actual_files)}", errors)
+    require(document.get("contractVersion") == 2, "state.yaml contractVersion must be 2", errors)
+    state_config = document.get("state", {})
+    require(state_config.get("code") == state, "state.yaml code mismatch", errors)
+    require(bool(state_config.get("countyEquivalentLabel")), "county-equivalent label is missing", errors)
+    expected_counties = int(state_config.get("countyEquivalentCount", 0))
+    require(expected_counties > 0, "county-equivalent denominator must be positive", errors)
+
+    repository_policy = document.get("repositoryPolicy", {})
+    require(set(repository_policy.get("requiredFiles", [])) == required_files,
+            "state.yaml requiredFiles must name the four-file contract", errors)
+    total_bytes = sum(path.stat().st_size for path in state_dir.iterdir() if path.is_file())
+    require(total_bytes <= int(repository_policy.get("maxTrackedBytes", 5_000_000)),
+            "state directory exceeds tracked-byte budget", errors)
+
+    policy = document.get("policy", {})
+    require(policy.get("missingDataDisposition") == RESEARCH_STATUS,
+            "missing data must route to research_or_qa_queue", errors)
+    require(set(policy.get("affirmativeExclusionReasons", [])) == set(AFFIRMATIVE_EXCLUSION_REASONS),
+            "affirmative exclusion reasons do not match national policy", errors)
+
+    release = document.get("release", {})
+    release_status = str(release.get("status", ""))
+    promotion_ready = release.get("promotionReady") is True
+    counts = release.get("counts", {})
+    eligible = [row for row in entities if row.get("promotion_status") == ELIGIBLE_STATUS]
+    qa = [row for row in entities if row.get("promotion_status") == RESEARCH_STATUS]
+    require(release_status in ALLOWED_RELEASE_STATUSES, "release has invalid lifecycle status", errors)
+    require(all(row.get("farm_name", "").strip() for row in entities),
+            "every retained candidate requires a farm name", errors)
+    require(all(row.get("promotion_status") in {ELIGIBLE_STATUS, RESEARCH_STATUS} for row in entities),
+            "entity has an invalid promotion status", errors)
+    require(len(entities) == int(counts.get("proposedEntities", -1)), "entity count does not reconcile", errors)
+    require(len(eligible) == int(counts.get("promotionEligibleEntities", -1)),
+            "eligible count does not reconcile", errors)
+    require(len(qa) == int(counts.get("researchOrQaEntities", -1)), "QA count does not reconcile", errors)
+    require(len(entities) == len({row.get("entity_id") for row in entities}), "duplicate entity ID", errors)
+    require(len(entities) == len({(row.get("normalized_name"), row.get("county_equivalent")) for row in entities}),
+            "duplicate normalized-name/county-equivalent key", errors)
+    require(all(row.get("state") == state for row in entities), "entity has wrong state", errors)
+    require(all(row.get("entity_id", "").startswith(state + "-") for row in entities),
+            "entity ID has wrong state prefix", errors)
+    eligible_fields = [
+        "entity_id", "farm_name", "entity_type", "identity_decision", "state",
+        "county_equivalent", "city", "products", "public_location_classification",
+        "contact_visibility", "source_urls", "last_retrieved",
+    ]
+    for row in eligible:
+        missing = [field for field in eligible_fields if not row.get(field)]
+        require(not missing, f"eligible {row.get('entity_id')} missing {', '.join(missing)}", errors)
+        require(not row.get("promotion_blockers"), f"eligible {row.get('entity_id')} has blockers", errors)
+    for row in qa:
+        require(bool(row.get("promotion_blockers")),
+                f"QA candidate {row.get('entity_id')} must explain its research blockers", errors)
+
+    require(len(decisions) == len({row.get("review_id") for row in decisions}),
+            "duplicate decision review ID", errors)
+    required_decision_fields = {
+        "review_id", "farm_name", "normalized_name", "decision", "source_url",
+        "retrieved_date", "decision_basis",
+    }
+    for row in decisions:
+        missing = sorted(field for field in required_decision_fields if not row.get(field))
+        require(not missing, f"decision {row.get('review_id')} missing {', '.join(missing)}", errors)
+        require(row.get("decision") in {"corroborate", "exclude", "merge", "correct", "retain"},
+                f"decision {row.get('review_id')} has invalid action", errors)
+        if row.get("decision") == "exclude":
+            require(row.get("exclusion_reason") in AFFIRMATIVE_EXCLUSION_REASONS,
+                    f"decision {row.get('review_id')} lacks an affirmative exclusion reason", errors)
+    excluded_names = {row.get("normalized_name") for row in decisions if row.get("decision") == "exclude"}
+    entity_names = {row.get("normalized_name") for row in entities}
+    require(not (excluded_names & entity_names), "affirmatively excluded entity remains staged", errors)
+    require(len(decisions) == int(counts.get("manualDecisions", -1)), "decision count does not reconcile", errors)
+    require(sum(int(row.get("source_observation_count", 0)) for row in entities)
+            + int(counts.get("excludedObservations", 0))
+            == int(counts.get("sourceObservations", -1)),
+            "retained and affirmatively excluded observations do not reconcile", errors)
+    require(sum(row.get("decision") == "exclude" for row in decisions)
+            == int(counts.get("excludedEntityGroups", -1)),
+            "affirmatively excluded entity groups do not reconcile", errors)
+
+    collection = document.get("collection", {})
+    sources = collection.get("sources", [])
+    require({row.get("pass") for row in sources} == set(collection.get("requiredPasses", [])),
+            "source plan does not cover every required pass", errors)
+    require(len(sources) == len({row.get("sourceId") for row in sources}), "duplicate source ID", errors)
+    coverage = collection.get("coverage", {})
+    require(int(coverage.get("countyEquivalentsReviewed", -1)) == expected_counties,
+            "county-equivalent coverage denominator does not reconcile", errors)
+    require(int(counts.get("countyCoverageRows", -1)) == expected_counties,
+            "release county-equivalent count does not reconcile", errors)
+
+    repository_files = release.get("repositoryFiles", {})
+    require(set(repository_files) == {"entities.csv", "decisions.csv", "report.md"},
+            "release repository file hashes are incomplete", errors)
+    for filename, metadata in repository_files.items():
+        path = state_dir / filename
+        require(path.stat().st_size == metadata.get("bytes"), f"{filename} byte count changed", errors)
+        require(sha256_file(path) == metadata.get("sha256"), f"{filename} checksum changed", errors)
+
+    expected_roles = {"observations", "source_records", "collection_log"}
+    artifacts = release.get("artifacts", [])
+    by_role = {row.get("role"): row for row in artifacts}
+    require(set(by_role) == expected_roles, "external evidence role set must contain exactly three objects", errors)
+    storage = release.get("evidenceStorage", {})
+    require(storage.get("provider") == "s3-compatible", "evidence provider must be S3-compatible", errors)
+    require(storage.get("versioningRequired") is True, "evidence storage must require versioning", errors)
+    prefix = str(storage.get("prefix", ""))
+    for role, artifact in by_role.items():
+        require(str(artifact.get("objectKey", "")).startswith(prefix),
+                f"{role} object key is outside release prefix", errors)
+        require(bool(artifact.get("versionId")), f"{role} lacks immutable object version", errors)
+        require(len(str(artifact.get("sha256", ""))) == 64, f"{role} lacks SHA-256", errors)
+        require(int(artifact.get("bytes", 0)) > 0, f"{role} has no stored bytes", errors)
+    if by_role:
+        require(int(by_role["observations"].get("rows", -1)) == int(counts.get("sourceObservations", -2)),
+                "observation artifact count does not reconcile", errors)
+
+    if release_status in {"record_verified", "approved", "promoted"}:
+        require(not qa, f"{release_status} release still has QA candidates", errors)
+    if release_status in {"approved", "promoted"}:
+        approval = release.get("approval", {})
+        require(promotion_ready, f"{release_status} release must be promotion-ready", errors)
+        require(storage.get("managedCopyRequiredBeforePromotion") is False,
+                f"{release_status} release still requires managed evidence", errors)
+        require(approval.get("decision") == "approved", "release lacks approval", errors)
+        require(approval.get("releaseFingerprint") == release_fingerprint(document),
+                "approval fingerprint does not match release", errors)
+    else:
+        require(not promotion_ready, f"{release_status} release must not be promotion-ready", errors)
+
+    canonical = json.loads(CANONICAL_MANIFEST.read_text(encoding="utf-8"))["release"]
+    boundary = release.get("canonicalBoundary", {})
+    require(canonical.get("allowedStates") == boundary.get("allowedStates"),
+            "state release does not match canonical allowed states", errors)
+    require(canonical.get("sourceRowCount") == boundary.get("sourceRowCount"),
+            "state release does not match canonical row count", errors)
+    require((state in canonical.get("allowedStates", [])) == (release_status == "promoted"),
+            "state lifecycle and canonical boundary disagree", errors)
+
+    for row in entities:
+        if row.get("website_url"):
+            require(is_valid_website(row["website_url"]),
+                    f"entity {row.get('entity_id')} has an invalid website", errors)
+
+    if require_local_artifacts:
+        local_dir = LOCAL_RELEASE_ROOT / state / str(release.get("id"))
+        for role, artifact in by_role.items():
+            path = local_dir / str(artifact.get("filename"))
+            require(path.is_file(), f"local evidence artifact is unavailable: {path}", errors)
+    return {
+        "state": state,
+        "status": "passed" if not errors else "failed",
+        "contractVersion": 2,
+        "releaseId": release.get("id"),
+        "releaseStatus": release_status,
+        "promotionReady": promotion_ready,
+        "releaseFingerprint": release_fingerprint(document),
+        "entities": len(entities),
+        "eligible": len(eligible),
+        "qa": len(qa),
+        "counties": expected_counties,
+        "trackedBytes": total_bytes,
+        "artifactBytes": sum(int(row.get("bytes", 0)) for row in artifacts),
+        "errors": errors,
+        "warnings": warnings,
+    }
+
+
+def validate_state(state: str, require_local_artifacts: bool) -> dict[str, Any]:
+    state = state.upper()
+    if (STATE_ROOT / state / "state.yaml").is_file():
+        return _validate_v2_state(state, require_local_artifacts)
+    result = _validate_v1_state(state, require_local_artifacts)
+    result.setdefault("contractVersion", 1)
+    result.setdefault("warnings", []).append("contract version 1 is deprecated; migrate to the four-file contract")
+    return result
+
+
 def main() -> int:
     args = parse_args()
     states = [value.upper() for value in args.states] or sorted(
@@ -268,7 +531,7 @@ def main() -> int:
     )
     results = [validate_state(state, args.require_local_artifacts) for state in states]
     status = "passed" if all(row["status"] == "passed" for row in results) else "failed"
-    print(json.dumps({"status": status, "contractVersion": 1, "states": results}, indent=2))
+    print(json.dumps({"status": status, "contractVersion": 2, "states": results}, indent=2))
     return 0 if status == "passed" else 1
 
 

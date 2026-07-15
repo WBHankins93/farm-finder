@@ -1,0 +1,21 @@
+name: PR scope guard
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  assess:
+    if: ${{ !contains(github.event.pull_request.labels.*.name, 'large-reviewed-change') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Reject oversized or artifact-heavy pull requests
+        run: >-
+          python3 01-database/tools/assess_pr_scope.py
+          --base "${{ github.event.pull_request.base.sha }}"
+          --head "${{ github.event.pull_request.head.sha }}"

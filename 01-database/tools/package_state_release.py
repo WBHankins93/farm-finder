@@ -3,7 +3,7 @@
 
 The script migrates legacy collector output or packages the standardized local work
 directory, compresses immutable evidence, optionally uploads it to versioned
-S3-compatible storage, and writes the seven-file repository contract.
+S3-compatible storage, and writes the four-file repository contract.
 """
 
 from __future__ import annotations
@@ -173,6 +173,166 @@ def storage_helpers():
     return ensure_versioned_bucket, runtime_settings, storage_client, upload_immutable_release
 
 
+def normalized_entity_copy(source: Path, destination: Path) -> None:
+    """Promote collector output to the national county-equivalent column name."""
+    with source.open(newline="", encoding="utf-8") as handle:
+        rows = list(csv.DictReader(handle))
+        fields = list(handle and (rows[0].keys() if rows else []))
+    if "county" in fields:
+        fields[fields.index("county")] = "county_equivalent"
+    for row in rows:
+        row["county_equivalent"] = row.pop("county", row.get("county_equivalent", ""))
+    with destination.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def package_v2(args: argparse.Namespace, state: str, state_dir: Path, source_dir: Path) -> int:
+    """Package the deterministic version-2 four-file state release."""
+    document = json.loads((state_dir / "state.yaml").read_text(encoding="utf-8"))
+    observations = find_file(source_dir, ["observations.csv"])
+    entities = find_file(source_dir, ["entities.csv"])
+    summary_path = find_file(source_dir, ["summary.json"])
+    coverage_path = find_file(source_dir, ["county-coverage.csv"])
+    raw_path = find_file(source_dir, ["raw-source-records.json"])
+    request_path = find_file(source_dir, ["request-log.json", "source-pass-log.json"])
+    summary = json.loads(summary_path.read_text(encoding="utf-8"))
+    if summary.get("status") not in {"coverage_reviewed", "record_verified"}:
+        raise RuntimeError("only a coverage-reviewed or record-verified state may be packaged")
+
+    normalized_entity_copy(entities, state_dir / "entities.csv")
+    decisions_path = state_dir / "decisions.csv"
+    if not decisions_path.is_file():
+        raise FileNotFoundError("decisions.csv must exist before packaging")
+    coverage = read_csv_rows(coverage_path)
+    requests = json_list(request_path)
+    sources = source_catalog(state, requests)
+    release_id = str(summary["release_id"])
+    bundle_dir = LOCAL_RELEASE_ROOT / state / release_id
+    bundle_dir.mkdir(parents=True, exist_ok=True)
+    artifacts: list[dict[str, Any]] = []
+
+    with tempfile.TemporaryDirectory(prefix=f"farmfinder-{state.lower()}-") as temporary:
+        temp = Path(temporary)
+        raw = json.loads(raw_path.read_text(encoding="utf-8"))
+        raw_jsonl = temp / "source-records.jsonl"
+        raw_count = write_jsonl(raw_jsonl, [{"dataset": key, "records": raw[key]} for key in sorted(raw)])
+        request_jsonl = temp / "collection-log.jsonl"
+        request_count = write_jsonl(request_jsonl, requests)
+        inputs = [
+            ("observations", observations, "observations.csv.zst", csv_count(observations)),
+            ("source_records", raw_jsonl, "source-records.jsonl.zst", raw_count),
+            ("collection_log", request_jsonl, "collection-log.jsonl.zst", request_count),
+        ]
+        for role, source, filename, rows in inputs:
+            destination = bundle_dir / filename
+            compress_zstd(source, destination)
+            checksum = sha256_file(destination)
+            artifacts.append({
+                "role": role,
+                "filename": filename,
+                "objectKey": f"state-expansions/{state}/{release_id}/{filename}",
+                "sha256": checksum,
+                "bytes": destination.stat().st_size,
+                "rows": rows,
+                "contentType": "application/zstd",
+                "visibility": "private",
+                "versionId": f"local:{checksum[:24]}",
+            })
+
+    storage_status = "local_bundle_only"
+    bucket = BUCKET
+    environment = "local-staging"
+    managed_copy_required = True
+    if args.upload:
+        ensure_bucket, runtime_settings, storage_client, upload = storage_helpers()
+        settings = runtime_settings()
+        client = storage_client(settings)
+        bucket = settings.source_release_bucket or BUCKET
+        ensure_bucket(client, bucket, settings.object_storage_region)
+        for artifact in artifacts:
+            artifact["versionId"] = upload(
+                client,
+                bucket=bucket,
+                object_key=artifact["objectKey"],
+                path=bundle_dir / artifact["filename"],
+                sha256=artifact["sha256"],
+                content_type=artifact["contentType"],
+            )
+        storage_status = "versioned_managed_copy"
+        environment = "managed"
+        managed_copy_required = False
+
+    decisions = read_csv_rows(decisions_path)
+    excluded_groups = sum(row.get("decision") == "exclude" for row in decisions)
+    release = document.setdefault("release", {})
+    counts = {
+        "sourceObservations": int(summary["source_observations"]),
+        "proposedEntities": int(summary["proposed_entities"]),
+        "promotionEligibleEntities": int(summary["promotion_eligible_entities"]),
+        "researchOrQaEntities": int(summary["research_or_qa_entities"]),
+        "excludedObservations": int(summary["excluded_or_grade_f_observations"]),
+        "excludedEntityGroups": excluded_groups,
+        "identityReviewGroups": int(summary["identity_review_groups"]),
+        "countyCoverageRows": len(coverage),
+        "countiesWithCandidates": int(summary["counties_with_candidates"]),
+        "countiesWithEligibleEntities": int(summary["counties_with_promotion_eligible_entities"]),
+        "sourceDatasets": len(sources["datasets"]),
+        "manualDecisions": len(decisions),
+    }
+    unresolved = [
+        row.get("county", "") for row in coverage
+        if row.get("status") in {"source_blocked", "follow_up_required"}
+    ]
+    document["collection"]["sources"] = sources["datasets"]
+    document["collection"]["coverage"] = {
+        "countyEquivalentsReviewed": len(coverage),
+        "countyEquivalentsWithCandidates": counts["countiesWithCandidates"],
+        "countyEquivalentsWithEligibleEntities": counts["countiesWithEligibleEntities"],
+        "unresolvedCountyEquivalents": unresolved,
+    }
+    release.update({
+        "id": release_id,
+        "status": summary["status"],
+        "generatedAt": summary.get("generated_at"),
+        "promotionReady": False,
+        "promotionBlockReason": "state approval and canonical promotion remain separate gates",
+        "counts": counts,
+        "evidenceStorage": {
+            "provider": "s3-compatible",
+            "environment": environment,
+            "status": storage_status,
+            "bucket": bucket,
+            "prefix": f"state-expansions/{state}/{release_id}/",
+            "versioningRequired": True,
+            "managedCopyRequiredBeforePromotion": managed_copy_required,
+        },
+        "artifacts": artifacts,
+        "approval": {},
+    })
+    release["repositoryFiles"] = {
+        name: {"sha256": sha256_file(state_dir / name), "bytes": (state_dir / name).stat().st_size}
+        for name in ("entities.csv", "decisions.csv", "report.md")
+    }
+    write_json(state_dir / "state.yaml", document)
+    print(json.dumps({
+        "status": "packaged",
+        "state": state,
+        "releaseId": release_id,
+        "repositoryFiles": 4,
+        "artifacts": 3,
+        "artifactBytes": sum(row["bytes"] for row in artifacts),
+        "storageStatus": storage_status,
+    }, indent=2))
+    return 0
+
+
+def read_csv_rows(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as handle:
+        return list(csv.DictReader(handle))
+
+
 def main() -> int:
     args = parse_args()
     state = args.state.upper()
@@ -187,6 +347,8 @@ def main() -> int:
     default_source = work_dir if work_dir.is_dir() else spec["legacy_dir"]
     source_dir = (args.source_dir or default_source).resolve()
     state_dir = STATE_ROOT / state
+    if (state_dir / "state.yaml").is_file():
+        return package_v2(args, state, state_dir, source_dir)
     lookup_dirs = [source_dir, state_dir]
     config = json.loads((state_dir / "state-config.json").read_text(encoding="utf-8"))
 

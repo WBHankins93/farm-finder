@@ -1,70 +1,93 @@
-# State release contract
+# National state release contract
 
-> Contract version 1 · Effective 2026-07-15
+> Contract version 2 · Effective 2026-07-15
 
 ## Purpose
 
-FarmFinder must support fifty state research programs without creating fifty
-different schemas or treating generated diagnostics as competing sources of truth.
-Each state therefore commits exactly seven small contract files under
-`research/state-expansions/<STATE>/` and stores detailed evidence in private,
-versioned object storage.
+FarmFinder uses one deterministic collection, cleaning, review, and promotion
+process for every state. Collection may be scheduled by geographic region, but
+approval and canonical promotion are always state-based.
 
-## Repository authority
+## Non-deletion policy
 
-`entities.csv` is the only committed staged entity table for a state.
-`manual-decisions.csv` is the only mutable human decision input. The state is not
-canonical or public until an explicit promotion release updates the global source
-of truth.
+A source observation containing a farm name is a durable candidate even when every
+other field is empty. Missing geography, products, contact details, website,
+corroboration, or operating-status evidence creates a research blocker. It never
+creates an exclusion and never authorizes deletion.
 
-The committed state directory contains only:
+An exclusion requires affirmative, cited evidence for exactly one reason:
 
-- `state-config.json`
-- `sources.json`
-- `manual-decisions.csv`
-- `entities.csv`
-- `county-coverage.csv`
-- `completion-report.md`
-- `release-manifest.json`
+- `confirmed_nonfarm`
+- `confirmed_closed`
+- `outside_jurisdiction`
+- `duplicate_identity`
 
-JSON mirrors of CSV tables are prohibited. Derived QA, identity, exclusion, and
-geography files are prohibited in the state directory because the release process
-can regenerate them from immutable observations and manual decisions.
+Excluded and superseded observations remain in immutable evidence storage. Legal
+form, including LLC or corporation, is not itself an exclusion reason. FarmFinder
+prioritizes independent and smaller producers during research without silently
+discarding a named operation.
 
-## Private evidence bundle
+## Four committed files
 
-Every manifest points to one immutable prefix:
+Every state directory contains exactly:
 
-```text
-state-expansions/TX/tx-coverage-reviewed-2026-07-15/
-  observations.csv.zst
-  raw-source-records.jsonl.zst
-  request-log.jsonl.zst
-  qa-queue.csv.zst
-  identity-review.csv.zst
-  exclusions.csv.zst
-  geography-errors.jsonl.zst
-```
+- `state.yaml` — state and county-equivalent configuration, source plan, release
+  metadata, evidence pointers, counts, lifecycle, and approval fingerprint.
+- `entities.csv` — the normalized candidate table. It includes both promotion-
+  eligible rows and unresolved named candidates.
+- `decisions.csv` — append-only corrections, merges, corroborations, and affirmative
+  exclusions with evidence references. Corrections supersede earlier decisions;
+  they do not erase them.
+- `report.md` — generated findings, county-equivalent coverage, unresolved work,
+  validation results, and promotion readiness.
 
-`.zst` means Zstandard compression. JSONL stores one JSON record per line. The
-observation table currently remains CSV before compression to avoid adding a
-Parquet runtime dependency; PostgreSQL ingestion may replace it with typed Parquet
-later without changing the repository contract.
+`state.yaml` uses the JSON-compatible subset of YAML so the standard Python runtime
+can parse it deterministically without YAML tags, anchors, or environment-dependent
+coercion.
 
-Every artifact entry records its role, object key, object version, checksum,
-compressed byte size, row count, privacy, and content type. An artifact key is
-immutable: changed bytes require a new release ID.
+Raw source records, request logs, immutable observations, and generated QA views are
+not committed. They live in versioned managed storage or the staging database and
+are referenced by checksum and object version from `state.yaml`. QA queues,
+exclusions, identity reviews, and geography diagnostics are derived views, not
+additional sources of truth.
 
-## Lifecycle
+## Geography
+
+The shared field is `county_equivalent`. The displayed label is configured per
+state: county, parish, borough, census area, or independent city. Census/FIPS codes
+provide the stable national identity.
+
+## Lifecycle and review
 
 States progress through `researching`, `collected`, `coverage_reviewed`,
-`record_verified`, and `promoted`. Completing the three collection passes permits
-`coverage_reviewed`; it does not imply that every candidate has cleared QA.
+`record_verified`, `approved`, and `promoted`.
+
+- `coverage_reviewed`: every county-equivalent and required source pass has a
+  documented result; candidates may remain unresolved.
+- `record_verified`: every retained candidate has a disposition and the QA count is
+  zero. This does not imply managed-storage approval.
+- `approved`: validation, managed immutable evidence, and approval fingerprint pass.
+- `promoted`: the approved state release was atomically added to canonical data.
+
+The reviewer reads `report.md` and the generated status output. Any entity, decision,
+evidence checksum, object version, or policy change invalidates prior approval.
 
 ## Required checks
 
-The shared validator enforces the seven-file allowlist, a five-megabyte state-folder
-budget, one schema version, state and county consistency, three-pass source coverage,
-unique IDs and identity keys, promotion fields, evidence grades, manual-decision
-provenance, count reconciliation, artifact hashes, immutable object versions, and
-the unchanged LA/MS canonical boundary.
+The shared validator enforces the four-file allowlist, schema version, state and
+county-equivalent consistency, candidate retention, unique identities, required
+promotion fields, append-only decision provenance, affirmative exclusion reasons,
+count reconciliation, immutable evidence references, approval fingerprint, and
+canonical boundary.
+
+Before publishing a pull request, run:
+
+```bash
+python3 01-database/tools/assess_pr_scope.py
+python3 -m unittest discover -s 01-database/tools/tests -p "test_*.py"
+python3 01-database/tools/validate_state_releases.py
+```
+
+CI rejects non-contract state artifacts, more than 20 changed files, or more than
+15,000 additions unless an explicitly reviewed exception is labeled
+`large-reviewed-change`.

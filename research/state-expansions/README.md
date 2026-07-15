@@ -1,37 +1,20 @@
 # FarmFinder state releases
 
-Every state uses the same seven-file repository contract:
+Every state uses the same four-file repository contract:
 
-1. `state-config.json` — stable geography, lifecycle, and size rules.
-2. `sources.json` — the reviewed source catalog and three-pass decisions.
-3. `manual-decisions.csv` — human-authored inclusion, correction, merge, and exclusion decisions.
-4. `entities.csv` — the only committed staged entity table for the state.
-5. `county-coverage.csv` — the official county denominator and coverage result.
-6. `completion-report.md` — findings, limitations, and unresolved work.
-7. `release-manifest.json` — counts, hashes, and immutable evidence-object references.
+1. `state.yaml` — configuration, source plan, lifecycle, counts, and immutable evidence pointers.
+2. `entities.csv` — retained normalized candidates, including unresolved name-only discoveries.
+3. `decisions.csv` — append-only corrections, merges, corroborations, and evidence-backed exclusions.
+4. `report.md` — generated coverage, QA, validation, and promotion summary.
 
-Raw observations, source payloads, request logs, QA queues, identity diagnostics,
-exclusions, and geography errors are release evidence rather than repository source.
-They are stored as private compressed objects under the manifest's versioned
-S3-compatible prefix. Local working copies live under the ignored
-`data/source-releases/` tree and are never the only durable copy approved for
-promotion.
+Missing data never excludes or deletes a named farm. It keeps the candidate in
+`research_or_qa_queue` for later enrichment. Raw observations and generated QA views
+live in managed versioned storage or the staging database, not Git.
 
-Run the common contract validator from the repository root:
+Run the shared checks from the repository root:
 
 ```bash
+python3 -m unittest discover -s 01-database/tools/tests -p "test_*.py"
 python3 01-database/tools/validate_state_releases.py
+python3 01-database/tools/state_release_status.py AL TX
 ```
-
-Use `--require-local-artifacts` while building or migrating a release. Managed
-object storage remains required before a state can move from `coverage_reviewed`
-to `record_verified` or `promoted`.
-
-After a collector writes its ignored work files, package and stage a release with:
-
-```bash
-03-app/site/.venv/bin/python 01-database/tools/package_state_release.py \
-  --state TX --upload
-```
-
-The pull-request workflow runs the shared validator automatically for every state.
