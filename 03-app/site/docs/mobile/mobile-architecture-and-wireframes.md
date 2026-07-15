@@ -63,12 +63,12 @@ Share contracts and semantic tokens, not rendered components. DOM components, CS
 
 Use Expo Router with native stacks and four primary tabs:
 
-1. **Discover:** search, nearby shortcuts, harvest/product entry points, recent farms.
-2. **Map:** full-screen map, result sheet, location control, list toggle.
-3. **Ask:** practical questions and grounded answers; no chat-history requirement for v1.
-4. **Saved:** anonymous local saves initially or authenticated synchronized saves after sign-in.
+1. **Discover:** search, location-aware nearby farms, radius control, and recent farms.
+2. **Map:** full-screen map, clustered results, result sheet, location control, and list toggle.
+3. **All farms:** scalable directory search, filters, sort, and paginated results.
+4. **Saved:** authenticated synchronized favorites and private notes.
 
-Account, claims, corrections, settings, provenance, and source details live in stack routes rather than permanent tabs.
+Account, filters, notes, claims, corrections, settings, provenance, and source details live in stack routes rather than permanent tabs. The Ask experience is deferred from the staging mobile tab bar.
 
 ## Screen map
 
@@ -76,16 +76,14 @@ Account, claims, corrections, settings, provenance, and source details live in s
 flowchart TD
     Launch --> Discover
     Discover --> Results
-    Discover --> Product
-    Discover --> Ask
+    Discover --> AllFarms
+    Discover --> Map
     Results --> Farm
     Results --> Map
     Map --> Farm
-    Ask --> Answer
-    Answer --> Results
-    Answer --> Farm
     Farm --> Source
     Farm --> Save
+    Farm --> Note
     Farm --> Claim
     Saved --> Farm
     Account --> Claims
@@ -116,7 +114,7 @@ flowchart TD
 │ Farm name · town · products │
 │ Farm name · town · products │
 ├─────────────────────────────┤
-│ Discover   Map   Ask   Saved│
+│ Discover   Map   All   Saved│
 └─────────────────────────────┘
 ```
 
@@ -158,7 +156,7 @@ Filters open in a native bottom sheet with Apply and Clear actions. Result count
 │ │ View farm →             │ │
 │ └─────────────────────────┘ │
 ├─────────────────────────────┤
-│ Discover   Map   Ask   Saved│
+│ Discover   Map   All   Saved│
 └─────────────────────────────┘
 ```
 
@@ -188,7 +186,7 @@ Use a native bottom sheet for selected records. Preserve map camera state when o
 └─────────────────────────────┘
 ```
 
-### Ask
+### Ask (deferred from staging mobile tab bar)
 
 ```text
 ┌─────────────────────────────┐
@@ -203,7 +201,7 @@ Use a native bottom sheet for selected records. Preserve map camera state when o
 │ [Show 8 farms]              │
 │ Sources / limits            │
 ├─────────────────────────────┤
-│ Discover   Map   Ask   Saved│
+│ Discover   Map   All   Saved│
 └─────────────────────────────┘
 ```
 
@@ -255,8 +253,8 @@ Use a native bottom sheet for selected records. Preserve map camera state when o
 2. Scaffold Expo Router app with development, preview, and production profiles.
 3. Implement Discover, Results, Farm, and lazy Map against fixtures.
 4. Connect read-only API, caching, offline metadata, and deep links.
-5. Add Ask using the same structured/hybrid answer contract as web.
-6. Add OIDC, Saved sync, account deletion, and session revocation.
+5. Add OIDC, Saved sync, private notes, account deletion, and session revocation.
+6. Add Ask using the same structured/hybrid answer contract as web.
 7. Add claims/corrections only after web authorization tests pass.
 8. Run device matrix, accessibility, performance, privacy, store metadata, and staged rollout.
 
