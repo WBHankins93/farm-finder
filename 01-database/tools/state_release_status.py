@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Produce one human review surface from the seven-file state contract."""
+"""Produce one human review surface from the national state contract."""
 
 from __future__ import annotations
 
@@ -43,25 +43,44 @@ def state_status(state: str, require_local_artifacts: bool = False) -> dict[str,
     state = state.upper()
     state_dir = STATE_ROOT / state
     validation = validate_state(state, require_local_artifacts)
-    manifest = json.loads((state_dir / "release-manifest.json").read_text(encoding="utf-8"))
     entities = read_csv(state_dir / "entities.csv")
-    coverage = read_csv(state_dir / "county-coverage.csv")
     qa = [row for row in entities if row.get("promotion_status") == "research_or_qa_queue"]
-    unresolved_counties = [
-        row["county"] for row in coverage
-        if row.get("status") in {"source_blocked", "follow_up_required"}
-    ]
-    storage = manifest.get("evidenceStorage", {})
-    fingerprint = release_fingerprint(manifest)
-    approval = manifest.get("approval", {})
+    if (state_dir / "state.yaml").is_file():
+        document = json.loads((state_dir / "state.yaml").read_text(encoding="utf-8"))
+        release = document.get("release", {})
+        collection = document.get("collection", {})
+        storage = release.get("evidenceStorage", {})
+        approval = release.get("approval", {})
+        fingerprint = release_fingerprint(document)
+        release_id = release.get("id")
+        release_status = str(release.get("status", ""))
+        promotion_ready = release.get("promotionReady") is True
+        coverage = collection.get("coverage", {})
+        unresolved_counties = list(coverage.get("unresolvedCountyEquivalents", []))
+        county_count = int(document.get("state", {}).get("countyEquivalentCount", 0))
+        review_surface = state_dir / "report.md"
+    else:
+        document = json.loads((state_dir / "release-manifest.json").read_text(encoding="utf-8"))
+        storage = document.get("evidenceStorage", {})
+        approval = document.get("approval", {})
+        fingerprint = release_fingerprint(document)
+        release_id = document.get("releaseId")
+        release_status = str(document.get("status", ""))
+        promotion_ready = document.get("promotionReady") is True
+        coverage_rows = read_csv(state_dir / "county-coverage.csv")
+        unresolved_counties = [
+            row["county"] for row in coverage_rows
+            if row.get("status") in {"source_blocked", "follow_up_required"}
+        ]
+        county_count = len(coverage_rows)
+        review_surface = state_dir / "completion-report.md"
     canonical = json.loads(CANONICAL_MANIFEST.read_text(encoding="utf-8"))["release"]
-    release_status = str(manifest.get("status", ""))
 
     checks = [
         gate(
             "contract",
             validation["status"] == "passed",
-            "seven files, schemas, counts, hashes, URLs, and evidence reconcile"
+            "contract files, schemas, counts, hashes, URLs, and evidence reconcile"
             if validation["status"] == "passed" else "; ".join(validation["errors"]),
         ),
         gate(
@@ -106,19 +125,19 @@ def state_status(state: str, require_local_artifacts: bool = False) -> dict[str,
     promotable = all(row["status"] == "passed" for row in checks[:5])
     return {
         "state": state,
-        "releaseId": manifest.get("releaseId"),
+        "releaseId": release_id,
         "lifecycleStatus": release_status,
-        "promotionReady": manifest.get("promotionReady") is True,
+        "promotionReady": promotion_ready,
         "promotable": promotable,
         "releaseFingerprint": fingerprint,
         "counts": {
             "entities": len(entities),
             "eligible": len(entities) - len(qa),
             "qa": len(qa),
-            "counties": len(coverage),
+            "counties": county_count,
             "unresolvedCounties": len(unresolved_counties),
         },
-        "humanReviewSurface": str((state_dir / "completion-report.md").relative_to(STATE_ROOT.parent.parent)),
+        "humanReviewSurface": str(review_surface.relative_to(STATE_ROOT.parent.parent)),
         "machineInputs": sorted(path.name for path in state_dir.iterdir() if path.is_file()),
         "gates": checks,
     }

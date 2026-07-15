@@ -11,10 +11,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 STATE_CONTRACT_FILES = {
-    "state-config.json", "sources.json", "manual-decisions.csv", "entities.csv",
-    "county-coverage.csv", "completion-report.md", "release-manifest.json",
+    "state.yaml", "entities.csv", "decisions.csv", "report.md",
 }
 PROHIBITED_STATE_NAMES = {
+    "state-config.json", "sources.json", "manual-decisions.csv",
+    "county-coverage.csv", "completion-report.md", "release-manifest.json",
     "raw-source-records.json", "source-pass-log.json", "collection-summary.json",
     "qa-queue.csv", "identity-review.csv", "excluded-observations.csv",
     "county-lookup-errors.json", "geography-conflicts.csv",
@@ -54,10 +55,11 @@ def main() -> int:
         parts = Path(path).parts
         if len(parts) >= 4 and parts[:2] == ("research", "state-expansions"):
             state, filename = parts[2], parts[3]
-            states.setdefault(state, set()).add(filename)
-            if filename not in STATE_CONTRACT_FILES:
+            if added_count:
+                states.setdefault(state, set()).add(filename)
+            if added_count and filename not in STATE_CONTRACT_FILES:
                 errors.append(f"{state} changes non-contract state file {filename}")
-            if filename in PROHIBITED_STATE_NAMES:
+            if added_count and filename in PROHIBITED_STATE_NAMES:
                 errors.append(f"{state} includes prohibited generated artifact {filename}")
         if added_count > 5000:
             warnings.append(f"large text addition: {path} adds {added_count} lines")
@@ -68,7 +70,7 @@ def main() -> int:
         errors.append(f"PR adds {additions} lines; limit is {args.max_additions}")
     for state, names in states.items():
         if len(names) > len(STATE_CONTRACT_FILES):
-            errors.append(f"{state} changes {len(names)} state files; contract permits seven")
+            errors.append(f"{state} changes {len(names)} state files; contract permits four")
 
     files.sort(key=lambda row: (row["additions"], row["deletions"]), reverse=True)
     report = {
