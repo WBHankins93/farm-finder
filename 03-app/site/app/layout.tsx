@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { Geist } from "next/font/google";
+import { Geist, Newsreader } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const newsreader = Newsreader({
+  variable: "--font-newsreader",
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -42,8 +48,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} antialiased`}>{children}</body>
+    <html lang="en" className={`${geistSans.variable} ${newsreader.variable}`}>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

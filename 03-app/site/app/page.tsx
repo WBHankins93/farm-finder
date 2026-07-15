@@ -1,37 +1,20 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import maplibregl, { type GeoJSONSource, type Map as MapLibreMap } from "maplibre-gl";
-import type { FeatureCollection, Point } from "geojson";
 import farmsData from "./data/farms.json";
+import { categoryColors, serviceLabels, type Farm } from "./lib/farms";
 
-type Farm = {
-  id: string;
-  name: string;
-  category: string;
-  region: string;
-  parish: string;
-  state: string;
-  city: string;
-  productsText: string;
-  products: string[];
-  marketPresence: string;
-  website: string;
-  hasWebsite: boolean;
-  onlineStore: boolean;
-  facebook: boolean;
-  instagram: boolean;
-  farmersMarket: boolean;
-  csa: boolean;
-  ships: boolean;
-  onFarm: boolean;
-  contact: string;
-  notes: string;
-  source: string;
-  latitude: number;
-  longitude: number;
-  geoPrecision: string;
-};
+const MapCanvas = dynamic(() => import("./components/farm-map"), {
+  ssr: false,
+  loading: () => (
+    <div className="map-wrap map-placeholder" role="status">
+      <span />
+      <strong>Preparing the field map…</strong>
+      <small>The farm list is ready while geography loads.</small>
+    </div>
+  ),
+});
 
 type ServiceKey = "farmersMarket" | "onFarm" | "csa" | "ships" | "onlineStore";
 type ViewMode = "list" | "map";
@@ -185,62 +168,6 @@ const productGuides: ProductGuide[] = [
   },
 ];
 
-const categoryColors: Record<string, string> = {
-  Produce: "#55734d",
-  Mixed: "#b65f39",
-  Meat: "#8b3e30",
-  "Honey/Specialty": "#c08a2e",
-  Dairy: "#557a78",
-  Seafood: "#39738c",
-  Rice: "#99835c",
-  "Urban Farm": "#6b6c3b",
-  "Value-Added": "#7d5b7f",
-};
-
-const categoryExpression: maplibregl.ExpressionSpecification = [
-  "match",
-  ["get", "category"],
-  "Produce",
-  categoryColors.Produce,
-  "Mixed",
-  categoryColors.Mixed,
-  "Meat",
-  categoryColors.Meat,
-  "Honey/Specialty",
-  categoryColors["Honey/Specialty"],
-  "Dairy",
-  categoryColors.Dairy,
-  "Seafood",
-  categoryColors.Seafood,
-  "Rice",
-  categoryColors.Rice,
-  "Urban Farm",
-  categoryColors["Urban Farm"],
-  "Value-Added",
-  categoryColors["Value-Added"],
-  "#59604c",
-];
-
-function toFeatures(items: Farm[]): FeatureCollection<Point> {
-  return {
-    type: "FeatureCollection",
-    features: items.map((farm) => ({
-      type: "Feature",
-      geometry: { type: "Point", coordinates: [farm.longitude, farm.latitude] },
-      properties: { id: farm.id, name: farm.name, category: farm.category },
-    })),
-  };
-}
-
-function serviceLabels(farm: Farm) {
-  return [
-    farm.farmersMarket && "Market",
-    farm.onFarm && "Farm pickup",
-    farm.csa && "CSA",
-    farm.ships && "Delivery",
-    farm.onlineStore && "Order online",
-  ].filter(Boolean) as string[];
-}
 
 function farmMatchesProduct(farm: Farm, productId: string) {
   if (productId === "All") return true;
@@ -372,217 +299,6 @@ function answerFarmQuestion(question: string): AskAnswer {
     farmIds: matches.map((farm) => farm.id),
     productId: product?.id,
   };
-}
-
-function MapCanvas({
-  visibleFarms,
-  selectedFarm,
-  onSelect,
-  onOpenProfile,
-}: {
-  visibleFarms: Farm[];
-  selectedFarm: Farm | null;
-  onSelect: (id: string | null) => void;
-  onOpenProfile: (id: string) => void;
-}) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const mapRef = useRef<MapLibreMap | null>(null);
-  const initialVisibleFarmsRef = useRef(visibleFarms);
-  const [mapReady, setMapReady] = useState(false);
-  const [locationMessage, setLocationMessage] = useState("");
-
-  useEffect(() => {
-    if (!containerRef.current || mapRef.current) return;
-
-    const map = new maplibregl.Map({
-      container: containerRef.current,
-      style: "https://tiles.openfreemap.org/styles/liberty",
-      center: [-91.3, 31.45],
-      zoom: 5.35,
-      minZoom: 4,
-      maxZoom: 16,
-      attributionControl: false,
-    });
-
-    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
-    map.addControl(
-      new maplibregl.AttributionControl({ compact: true, customAttribution: "Farm locations are approximate" }),
-      "bottom-right",
-    );
-
-    map.on("load", () => {
-      map.addSource("farms", {
-        type: "geojson",
-        data: toFeatures(initialVisibleFarmsRef.current),
-        cluster: true,
-        clusterMaxZoom: 10,
-        clusterRadius: 46,
-      });
-      map.addSource("selected-farm", { type: "geojson", data: toFeatures([]) });
-
-      map.addLayer({
-        id: "clusters-halo",
-        type: "circle",
-        source: "farms",
-        filter: ["has", "point_count"],
-        paint: {
-          "circle-color": "rgba(248, 244, 232, .84)",
-          "circle-radius": ["step", ["get", "point_count"], 22, 20, 28, 60, 34],
-          "circle-stroke-width": 1.5,
-          "circle-stroke-color": "#263d31",
-        },
-      });
-      map.addLayer({
-        id: "cluster-count",
-        type: "symbol",
-        source: "farms",
-        filter: ["has", "point_count"],
-        layout: {
-          "text-field": ["get", "point_count_abbreviated"],
-          "text-font": ["Noto Sans Regular"],
-          "text-size": 12,
-        },
-        paint: { "text-color": "#263d31" },
-      });
-      map.addLayer({
-        id: "farm-points",
-        type: "circle",
-        source: "farms",
-        filter: ["!", ["has", "point_count"]],
-        paint: {
-          "circle-color": categoryExpression,
-          "circle-radius": ["interpolate", ["linear"], ["zoom"], 5, 5.5, 10, 8],
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "#fffaf0",
-          "circle-opacity": 0.96,
-        },
-      });
-      map.addLayer({
-        id: "selected-ring",
-        type: "circle",
-        source: "selected-farm",
-        paint: {
-          "circle-radius": 14,
-          "circle-color": "rgba(0,0,0,0)",
-          "circle-stroke-width": 3,
-          "circle-stroke-color": "#b94f2e",
-        },
-      });
-
-      map.on("click", "clusters-halo", async (event) => {
-        const feature = map.queryRenderedFeatures(event.point, { layers: ["clusters-halo"] })[0];
-        const clusterId = Number(feature?.properties?.cluster_id);
-        const source = map.getSource("farms") as GeoJSONSource;
-        if (!feature || Number.isNaN(clusterId)) return;
-        const zoom = await source.getClusterExpansionZoom(clusterId);
-        const coordinates = (feature.geometry as Point).coordinates as [number, number];
-        map.easeTo({ center: coordinates, zoom, duration: 650 });
-      });
-
-      map.on("click", "farm-points", (event) => {
-        const id = event.features?.[0]?.properties?.id;
-        if (id) onSelect(String(id));
-      });
-
-      for (const layer of ["clusters-halo", "farm-points"]) {
-        map.on("mouseenter", layer, () => (map.getCanvas().style.cursor = "pointer"));
-        map.on("mouseleave", layer, () => (map.getCanvas().style.cursor = ""));
-      }
-
-      setMapReady(true);
-    });
-
-    mapRef.current = map;
-    return () => {
-      map.remove();
-      mapRef.current = null;
-    };
-  }, [onSelect]);
-
-  useEffect(() => {
-    if (!mapReady || !mapRef.current) return;
-    const source = mapRef.current.getSource("farms") as GeoJSONSource | undefined;
-    source?.setData(toFeatures(visibleFarms));
-  }, [visibleFarms, mapReady]);
-
-  useEffect(() => {
-    if (!mapReady || !mapRef.current) return;
-    const source = mapRef.current.getSource("selected-farm") as GeoJSONSource | undefined;
-    source?.setData(toFeatures(selectedFarm ? [selectedFarm] : []));
-    if (selectedFarm) {
-      mapRef.current.flyTo({
-        center: [selectedFarm.longitude, selectedFarm.latitude],
-        zoom: Math.max(mapRef.current.getZoom(), 9),
-        offset: [0, 60],
-        duration: 800,
-      });
-    }
-  }, [selectedFarm, mapReady]);
-
-  function fitVisible() {
-    const map = mapRef.current;
-    if (!map || visibleFarms.length === 0) return;
-    const bounds = new maplibregl.LngLatBounds();
-    visibleFarms.forEach((farm) => bounds.extend([farm.longitude, farm.latitude]));
-    map.fitBounds(bounds, { padding: 58, maxZoom: 10, duration: 700 });
-  }
-
-  function useLocation() {
-    if (!navigator.geolocation) {
-      setLocationMessage("Location is not available in this browser.");
-      return;
-    }
-    setLocationMessage("Finding you…");
-    navigator.geolocation.getCurrentPosition(
-      ({ coords }) => {
-        mapRef.current?.flyTo({ center: [coords.longitude, coords.latitude], zoom: 9, duration: 800 });
-        setLocationMessage("Map centered near you.");
-      },
-      () => setLocationMessage("We couldn’t access your location."),
-      { enableHighAccuracy: false, timeout: 8000 },
-    );
-  }
-
-  return (
-    <div className="map-wrap">
-      <div ref={containerRef} className="map-canvas" aria-label="Interactive map of farms" />
-      <div className="map-tools" aria-label="Map tools">
-        <button type="button" onClick={fitVisible}>Fit results</button>
-        <button type="button" onClick={useLocation}>Use my location</button>
-      </div>
-      {locationMessage && <div className="location-toast" role="status">{locationMessage}</div>}
-      <div className="map-key" aria-label="Map legend">
-        <span><i className="key-dot produce" /> Produce</span>
-        <span><i className="key-dot meat" /> Meat</span>
-        <span><i className="key-dot mixed" /> Mixed</span>
-        <span><i className="key-dot more" /> More</span>
-      </div>
-      {selectedFarm && (
-        <aside className="map-detail" aria-label={`${selectedFarm.name} details`}>
-          <button className="detail-close" type="button" onClick={() => onSelect(null)} aria-label="Close farm details">×</button>
-          <div className="detail-kicker">
-            <i style={{ background: categoryColors[selectedFarm.category] || "#59604c" }} />
-            {selectedFarm.category}
-          </div>
-          <h3>{selectedFarm.name}</h3>
-          <p className="detail-place">{selectedFarm.city}, {selectedFarm.state} · {selectedFarm.parish} {selectedFarm.state === "LA" ? "Parish" : "County"}</p>
-          <p className="detail-products">{selectedFarm.productsText}</p>
-          {selectedFarm.marketPresence && (
-            <div className="buy-note"><span>How to buy</span>{selectedFarm.marketPresence}</div>
-          )}
-          <div className="detail-tags">
-            {serviceLabels(selectedFarm).map((label) => <span key={label}>{label}</span>)}
-          </div>
-          <div className="detail-actions">
-            <button type="button" onClick={() => onOpenProfile(selectedFarm.id)}>Full profile →</button>
-            {selectedFarm.website && <a href={selectedFarm.website} target="_blank" rel="noreferrer">Visit website ↗</a>}
-            {selectedFarm.contact && <span>{selectedFarm.contact}</span>}
-          </div>
-          <p className="precision-note">{selectedFarm.geoPrecision === "city" ? "City-level location" : "Approximate area"} · Confirm before visiting</p>
-        </aside>
-      )}
-    </div>
-  );
 }
 
 function FarmProfileDialog({
@@ -719,6 +435,8 @@ export default function Home() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState<AskAnswer | null>(null);
   const [askFarmIds, setAskFarmIds] = useState<string[] | null>(null);
+  const [mapActivated, setMapActivated] = useState(false);
+  const mapShellRef = useRef<HTMLDivElement>(null);
 
   const filteredFarms = useMemo(() => {
     const term = query.trim().toLocaleLowerCase();
@@ -764,6 +482,27 @@ export default function Home() {
       setSelectedId(null);
     }
   }, [filteredFarms, selectedId]);
+
+  useEffect(() => {
+    const shell = mapShellRef.current;
+    if (!shell || mapActivated) return;
+    if (!("IntersectionObserver" in window)) {
+      // This fallback mirrors the observer callback for browsers without the API.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setMapActivated(true);
+      return;
+    }
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        setMapActivated(true);
+        observer.disconnect();
+      },
+      { rootMargin: "480px 0px" },
+    );
+    observer.observe(shell);
+    return () => observer.disconnect();
+  }, [mapActivated]);
 
   function toggleService(service: ServiceKey) {
     setServices((current) =>
@@ -816,6 +555,7 @@ export default function Home() {
 
   return (
     <div className="site-shell">
+      <a className="skip-link" href="#discover">Skip to farm search</a>
       <header className="topbar">
         <a className="brand" href="#top" aria-label="FarmFinder home">
           <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
@@ -823,20 +563,27 @@ export default function Home() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="#ask">Ask</a>
-          <a href="#products">Products</a>
+          <a href="#products">Harvest</a>
           <a href="#discover">Explore farms</a>
           <a href="#updates">Updates</a>
-          <a className="farmer-link" href="#about">Farm submissions</a>
+          <a className="farmer-link" href="#discover">Find farms</a>
         </nav>
       </header>
 
       <main id="top">
         <section className="hero" aria-labelledby="hero-title">
-          <div className="hero-stamp" aria-hidden="true">Field notes<br />No. 001</div>
+          <div className="hero-atlas" aria-hidden="true">
+            <span className="atlas-line atlas-line-one" />
+            <span className="atlas-line atlas-line-two" />
+            <i className="atlas-pin atlas-pin-one" />
+            <i className="atlas-pin atlas-pin-two" />
+            <i className="atlas-pin atlas-pin-three" />
+          </div>
+          <div className="hero-stamp" aria-hidden="true">Release 001<br />July 2026</div>
           <p className="hero-kicker">Louisiana · Mississippi · Growing outward</p>
-          <h1 id="hero-title">The Gulf South,<br /><em>by the field.</em></h1>
+          <h1 id="hero-title">Find the Gulf South,<br /><em>by the field.</em></h1>
           <p className="hero-copy">Find the people growing, raising, catching, and making food near you—then learn exactly how to buy from them.</p>
-          <a className="hero-cta" href="#ask">Ask FarmFinder <span>↓</span></a>
+          <a className="hero-cta" href="#discover">Find food near you <span>↓</span></a>
           <div className="hero-stats" aria-label="Directory coverage">
             <div><strong>{farms.length}</strong><span>unique farms mapped</span></div>
             <div><strong>{louisianaCount}</strong><span>Louisiana listings</span></div>
@@ -1037,8 +784,16 @@ export default function Home() {
                 )}
               </div>
             </div>
-            <div className="map-panel">
-              <MapCanvas visibleFarms={filteredFarms} selectedFarm={selectedFarm} onSelect={selectFarm} onOpenProfile={openProfile} />
+            <div className="map-panel" ref={mapShellRef}>
+              {mapActivated ? (
+                <MapCanvas visibleFarms={filteredFarms} selectedFarm={selectedFarm} onSelect={selectFarm} onOpenProfile={openProfile} />
+              ) : (
+                <div className="map-wrap map-placeholder" role="status">
+                  <span />
+                  <strong>Map waits until you need it.</strong>
+                  <small>Search and browse the farm list while geography stays off the critical path.</small>
+                </div>
+              )}
             </div>
           </div>
         </section>
@@ -1047,7 +802,7 @@ export default function Home() {
           <div className="updates-heading">
             <p className="section-number">04 / Latest directory update</p>
             <h2 id="updates-title">What changed,<br />and what comes next.</h2>
-            <p>July 2026 · The newest research workbook contains 315 source rows. Four repeated farm names were merged into 311 public profiles for this release.</p>
+            <p>July 2026 · The canonical workbook now contains 311 one-row-per-entity listings. Four duplicate groups were evidence-reviewed, merged, and retained in the source log.</p>
           </div>
           <div className="update-ledger">
             <article className="update-lead">
@@ -1090,6 +845,11 @@ export default function Home() {
         <div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a></div>
         <small>© 2026 FarmFinder</small>
       </footer>
+      <nav className="mobile-dock" aria-label="Mobile navigation">
+        <a href="#ask">Ask</a>
+        <a href="#products">Harvest</a>
+        <a href="#discover">Explore</a>
+      </nav>
       {profileFarm && <FarmProfileDialog farm={profileFarm} onClose={closeProfile} onShowMap={showProfileOnMap} onOpenFarm={openProfile} />}
     </div>
   );

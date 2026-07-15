@@ -489,6 +489,9 @@ database coverage
 Related planning:
 
 - [App vision](03-app/app-vision.md)
+- [Phased build plan](03-app/site/docs/product/phased-build-plan.md)
+- [Web design system and wireframe](03-app/site/docs/design/web-design-system.md)
+- [Mobile architecture and wireframes](03-app/site/docs/mobile/mobile-architecture-and-wireframes.md)
 - [Production implementation ledger](03-app/site/docs/implementation-ledger.md)
 
 ## Known limitations and open decisions
@@ -521,6 +524,9 @@ When making changes:
 ## Documentation map
 
 - [Production architecture](03-app/site/docs/architecture/README.md)
+- [Phased build plan](03-app/site/docs/product/phased-build-plan.md)
+- [Web design system and wireframe](03-app/site/docs/design/web-design-system.md)
+- [Mobile architecture and wireframes](03-app/site/docs/mobile/mobile-architecture-and-wireframes.md)
 - [Architecture decision record](03-app/site/docs/architecture/decisions/0001-platform-foundation.md)
 - [Implementation ledger](03-app/site/docs/implementation-ledger.md)
 - [Index decision register](03-app/site/docs/architecture/index-register.md)
