@@ -1,31 +1,36 @@
-# vinext-starter
+# FarmFinder web and platform foundation
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+The public FarmFinder directory runs on [vinext](https://github.com/cloudflare/vinext). The production foundation adds a governed dataset release, PostgreSQL/PostGIS migrations, documented indexes, database integration tests, architecture decisions, and local infrastructure without changing the static-first public release.
 
 ## Prerequisites
 
 - Node.js `>=22.13.0`
+- Python 3 with the pinned dependencies installed by `npm run data:setup`
+- Docker Desktop for the local PostgreSQL/PostGIS stack
 
 ## Quick Start
 
 ```bash
 npm install
+npm run data:setup
+npm run data:validate
 npm run dev
-npm run build
 ```
 
 This starter does not use `wrangler.jsonc`.
 
-## Included Shape
+## Current shape
 
 - edit site code under `app/`
-- `.openai/hosting.json` declares optional Sites D1 and R2 bindings
+- `app/data/farms.json` is the current 311-listing public build artifact
+- `config/source-of-truth.json` pins the pre-cutover canonical workbook release
+- `packages/db/` owns the production PostgreSQL/PostGIS migrations and index decisions
+- `infra/` owns reproducible local dependencies and the production infrastructure contract
+- `docs/` records architecture, data governance, and implementation state
+- `evals/` contains versioned question-answering and safety expectations
 - `vite.config.ts` simulates declared bindings for local development
-- `db/schema.ts` starts intentionally empty
-- `examples/d1/` contains an optional D1 example surface
-- `drizzle.config.ts` supports local migration generation when needed
+
+`db/schema.ts`, `db/index.ts`, and the D1 example remain from the hosting starter and are not the production database source. They will be removed or replaced when the API is connected to PostgreSQL in one verified change.
 
 ## Workspace Auth Headers
 
@@ -89,10 +94,19 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 
 - `npm run dev`: start local development
 - `npm run build`: verify the vinext build output
-- `npm test`: build the starter and verify its rendered loading skeleton
-- `npm run db:generate`: generate Drizzle migrations after schema changes
+- `npm test`: build and verify the rendered FarmFinder shell and 311-record artifact
+- `npm run lint`: run the application linter
+- `npm run data:setup`: create the ignored Python environment for workbook tooling
+- `npm run data:validate`: validate the canonical workbook release manifest
+- `npm run db:up`: start a healthy local PostgreSQL/PostGIS database
+- `npm run db:verify`: verify required extensions, tables, and documented indexes
+- `npm run db:test`: exercise spatial and integrity invariants in a rolled-back transaction
+- `npm run db:down`: stop local infrastructure while preserving its volume
+- `npm run db:reset`: delete the local database volume; local development only
 
 ## Learn More
 
 - [vinext Documentation](https://github.com/cloudflare/vinext)
-- [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
+- [Production architecture](docs/architecture/README.md)
+- [Implementation ledger](docs/implementation-ledger.md)
+- [Source-of-truth workflow](docs/data-governance/source-of-truth.md)

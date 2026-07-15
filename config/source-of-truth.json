@@ -1,0 +1,56 @@
+{
+  "contractVersion": 1,
+  "dataset": "farmfinder-directory",
+  "authorityMode": "pre_cutover_workbook",
+  "cutoverTarget": "postgresql",
+  "release": {
+    "id": "2026-07-13-final-v1",
+    "workspacePath": "../../research/local_farm_database_final.xlsx",
+    "sheet": "All Farms",
+    "sha256": "7ca730b0eaabc7f3839cfe12c293f8fd90346c759ba7e4a19c0a901fe88af28e",
+    "sourceRowCount": 315,
+    "candidateEntityCount": 311,
+    "allowedStates": ["LA", "MS"]
+  },
+  "identity": {
+    "candidateKey": "normalized farm name",
+    "automaticMergePolicy": "none after PostgreSQL cutover; ambiguous candidates require review",
+    "knownDuplicateGroups": [
+      "butterfield farm",
+      "earth friendly farms",
+      "faust farms",
+      "river queen greens"
+    ]
+  },
+  "requiredColumns": [
+    "Farm Name",
+    "Category",
+    "Region/Zone",
+    "Parish/County",
+    "State",
+    "City/Town",
+    "Products",
+    "Market Presence",
+    "Has Website",
+    "Website URL",
+    "Has Online Store",
+    "Has Facebook",
+    "Has Instagram",
+    "Sells at Farmers Market",
+    "Offers CSA",
+    "Ships Products",
+    "On-Farm Sales",
+    "Web Presence Score",
+    "Contact Info",
+    "Notes",
+    "Source Tab"
+  ],
+  "requiredNonEmptyColumns": [
+    "Farm Name",
+    "Parish/County",
+    "State",
+    "City/Town",
+    "Products",
+    "Source Tab"
+  ]
+}

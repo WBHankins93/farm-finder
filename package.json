@@ -11,7 +11,14 @@
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
-    "db:generate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate",
+    "db:up": "docker compose -f infra/compose.yaml up -d --wait",
+    "db:down": "docker compose -f infra/compose.yaml down",
+    "db:reset": "docker compose -f infra/compose.yaml down -v",
+    "db:verify": "sh infra/verify-db.sh",
+    "db:test": "sh infra/test-db.sh",
+    "data:setup": "python3 -m venv .venv && .venv/bin/python -m pip install -r scripts/requirements.txt",
+    "data:validate": ".venv/bin/python scripts/validate-source-of-truth.py"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",

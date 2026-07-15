@@ -16,12 +16,21 @@ The page is organized in three layers:
 ## Data architecture
 
 - Source of record: `research/local_farm_database_final.xlsx`, sheet `All Farms`.
+- Release contract: `config/source-of-truth.json` pins the workbook checksum, structure, row count, candidate count, states, and known duplicate groups.
 - Existing geocodes: recovered from `farmfinder-dashboard-v2.html` for the earlier 235-farm dataset.
 - New locations: city/state geocodes are cached in `scripts/geocode-cache.json`; no geocoding service is called by the live site.
 - Build artifact: `app/data/farms.json` contains 311 deduplicated listings. Duplicate names are merged and boolean selling options use an “any source says yes” rule.
 - Refresh path: run `scripts/generate-farms.py` after updating the workbook. Add `--geocode` only when new city/state combinations require coordinates.
 
 This static-first approach makes the directory fast, inexpensive, deployable without credentials, and resilient to third-party API downtime. The JSON record shape is already compatible with a later database migration.
+
+## Production foundation status
+
+- `packages/db/migrations/` defines the PostgreSQL/PostGIS canonical model, source evidence, official geography, coverage regions, auth/claims foundation, full-text retrieval, object metadata, jobs, outbox, and audit.
+- `docs/architecture/index-register.md` records the query, cost, and review plan for every custom index.
+- `infra/compose.yaml` bootstraps and verifies the schema on local PostGIS.
+- `docs/data-governance/source-of-truth.md` defines farm, area, import, dedupe, and release promotion workflows.
+- The API, worker, PostgreSQL importer, and database cutover are not implemented yet. The public site still reads the generated JSON artifact.
 
 ## Map architecture
 
@@ -40,8 +49,8 @@ Locations marked below street precision are deliberately described as approximat
 
 ## Next platform steps
 
-1. Move records to a real database when farmers can claim or edit listings.
-2. Preserve source attribution and field-level verification dates during migration.
-3. Add exact farm-gate coordinates only with farmer confirmation.
-4. Add market entities and farm-to-market relationships before ordering.
-5. Introduce authentication only for claim and management flows; public discovery should remain account-free.
+1. Import the pinned workbook into immutable staging/source tables and reconcile 315 rows to 311 candidate entities.
+2. Build the versioned read-only API and structured query tools against PostgreSQL.
+3. Preserve source attribution and field-level verification dates during canonical promotion.
+4. Add exact farm-gate coordinates only with farmer confirmation.
+5. Introduce authentication only for claim and management flows; public discovery remains account-free.

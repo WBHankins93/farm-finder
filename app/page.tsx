@@ -387,6 +387,7 @@ function MapCanvas({
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
+  const initialVisibleFarmsRef = useRef(visibleFarms);
   const [mapReady, setMapReady] = useState(false);
   const [locationMessage, setLocationMessage] = useState("");
 
@@ -412,7 +413,7 @@ function MapCanvas({
     map.on("load", () => {
       map.addSource("farms", {
         type: "geojson",
-        data: toFeatures(visibleFarms),
+        data: toFeatures(initialVisibleFarmsRef.current),
         cluster: true,
         clusterMaxZoom: 10,
         clusterRadius: 46,
@@ -757,7 +758,11 @@ export default function Home() {
   );
 
   useEffect(() => {
-    if (selectedId && !filteredFarms.some((farm) => farm.id === selectedId)) setSelectedId(null);
+    if (selectedId && !filteredFarms.some((farm) => farm.id === selectedId)) {
+      // Filtering invalidates the selection; clearing it is the synchronization this effect performs.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setSelectedId(null);
+    }
   }, [filteredFarms, selectedId]);
 
   function toggleService(service: ServiceKey) {
