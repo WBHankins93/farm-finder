@@ -208,20 +208,20 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_336273c1ffb4b6fa4763",
-    "farm_name": "Jim Franks Farm Direct Meat",
-    "address": "931 Turkey Bottom Rd",
-    "city": "Yoakum",
-    "postal_code": "77995",
-    "error": "No Texas Census address match returned"
-  },
-  {
     "observation_id": "txobs_6b33c287a50b2d43545e",
     "farm_name": "Howland Insurance & Financial Strategies representing American National Insurance",
     "address": "",
     "city": "",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_336273c1ffb4b6fa4763",
+    "farm_name": "Jim Franks Farm Direct Meat",
+    "address": "931 Turkey Bottom Rd",
+    "city": "Yoakum",
+    "postal_code": "77995",
+    "error": "No Texas Census address match returned"
   },
   {
     "observation_id": "txobs_a031eb4fa126d1231b13",
@@ -256,14 +256,6 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_6d2a94a4fa2914888c2a",
-    "farm_name": "Five Pines Farm",
-    "address": "",
-    "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
     "observation_id": "txobs_4631dee0a8c58e7c6c78",
     "farm_name": "Strickland Farms",
     "address": "",
@@ -272,10 +264,18 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_46beaa8075493c70314b",
-    "farm_name": "Ficarro Farms",
+    "observation_id": "txobs_6d2a94a4fa2914888c2a",
+    "farm_name": "Five Pines Farm",
     "address": "",
-    "city": "Corpus Christi",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_b4fca7f021049a77bd48",
+    "farm_name": "Eat Your Greens! Organic Farm",
+    "address": "",
+    "city": "Austin",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
@@ -288,38 +288,6 @@
     "error": "No Texas Census address match returned"
   },
   {
-    "observation_id": "txobs_b4fca7f021049a77bd48",
-    "farm_name": "Eat Your Greens! Organic Farm",
-    "address": "",
-    "city": "Austin",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
-    "observation_id": "txobs_61a130eb9bb70eeb25a6",
-    "farm_name": "Caddo Springs Farm",
-    "address": "",
-    "city": "Frankston",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
-    "observation_id": "txobs_914d6c51e6295fbe4376",
-    "farm_name": "Red Truck Farm",
-    "address": "",
-    "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
-    "observation_id": "txobs_d1c6344fd8d31f528cc6",
-    "farm_name": "Elisabeth Murphy",
-    "address": "",
-    "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
     "observation_id": "txobs_1cb7580fb038711e59dd",
     "farm_name": "RNR Cattle Company",
     "address": "",
@@ -328,18 +296,26 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_3d042bfc81c8823a7866",
-    "farm_name": "Happy Feet Farm",
-    "address": "County Rd 140",
-    "city": "Midland",
-    "postal_code": "79706",
-    "error": "No Texas Census address match returned"
-  },
-  {
-    "observation_id": "txobs_f8d90c4d9a00811dbdba",
-    "farm_name": "Salli's Corner Patch, LLC",
+    "observation_id": "txobs_c1b0a769f2acf3f72a1a",
+    "farm_name": "Dark Water Ranch",
     "address": "",
     "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_90bcbb5b9eddd2729d06",
+    "farm_name": "Acadian Family Farm LLC",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_46beaa8075493c70314b",
+    "farm_name": "Ficarro Farms",
+    "address": "",
+    "city": "Corpus Christi",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
@@ -368,16 +344,24 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_66df33f64eedddba4c81",
-    "farm_name": "JX Ranch Natural Beef",
+    "observation_id": "txobs_61a130eb9bb70eeb25a6",
+    "farm_name": "Caddo Springs Farm",
     "address": "",
-    "city": "",
+    "city": "Frankston",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
     "observation_id": "txobs_6e7832b0421ad050c3d6",
     "farm_name": "Windrush Alpacas",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_66df33f64eedddba4c81",
+    "farm_name": "JX Ranch Natural Beef",
     "address": "",
     "city": "",
     "postal_code": "",
@@ -400,12 +384,44 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
+    "observation_id": "txobs_3d042bfc81c8823a7866",
+    "farm_name": "Happy Feet Farm",
+    "address": "County Rd 140",
+    "city": "Midland",
+    "postal_code": "79706",
+    "error": "No Texas Census address match returned"
+  },
+  {
+    "observation_id": "txobs_914d6c51e6295fbe4376",
+    "farm_name": "Red Truck Farm",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_f8d90c4d9a00811dbdba",
+    "farm_name": "Salli's Corner Patch, LLC",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
     "observation_id": "txobs_8cd7e98e60aae8ad01fa",
     "farm_name": "Hudson Plains Raw Dairy",
     "address": "FM 2889",
     "city": "Goodnight",
     "postal_code": "79019",
     "error": "No Texas Census address match returned"
+  },
+  {
+    "observation_id": "txobs_d1c6344fd8d31f528cc6",
+    "farm_name": "Elisabeth Murphy",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
     "observation_id": "txobs_8356322c11b191e20a43",
@@ -416,18 +432,18 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_90bcbb5b9eddd2729d06",
-    "farm_name": "Acadian Family Farm LLC",
+    "observation_id": "txobs_7c5dd6565209cc5534ac",
+    "farm_name": "Fruitful Hill Farm LLC",
     "address": "",
     "city": "",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_c1b0a769f2acf3f72a1a",
-    "farm_name": "Dark Water Ranch",
+    "observation_id": "txobs_500a4d2e007ab6a5d1da",
+    "farm_name": "Quail Haven Urban Farm",
     "address": "",
-    "city": "",
+    "city": "Fort Worth",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
@@ -456,14 +472,6 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_669696273580511fcf66",
-    "farm_name": "Mountain Meadows Farm",
-    "address": "",
-    "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
     "observation_id": "txobs_ff8330841b6c785ca07d",
     "farm_name": "Four Winds Ranch",
     "address": "",
@@ -472,26 +480,18 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
+    "observation_id": "txobs_669696273580511fcf66",
+    "farm_name": "Mountain Meadows Farm",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
     "observation_id": "txobs_81540b454ac51d50f9b5",
     "farm_name": "JV Farms",
     "address": "",
     "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
-    "observation_id": "txobs_7c5dd6565209cc5534ac",
-    "farm_name": "Fruitful Hill Farm LLC",
-    "address": "",
-    "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
-    "observation_id": "txobs_500a4d2e007ab6a5d1da",
-    "farm_name": "Quail Haven Urban Farm",
-    "address": "",
-    "city": "Fort Worth",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
@@ -512,14 +512,6 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_26826118340a5c825a24",
-    "farm_name": "McClendon Farms",
-    "address": "",
-    "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
     "observation_id": "txobs_ba79da158612646394fa",
     "farm_name": "Michael Neighbors",
     "address": "",
@@ -528,20 +520,12 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_afecddcb0646265e0b29",
-    "farm_name": "Harmony Hollow Apiaries",
+    "observation_id": "txobs_26826118340a5c825a24",
+    "farm_name": "McClendon Farms",
     "address": "",
-    "city": "Richardson",
+    "city": "",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
-    "observation_id": "txobs_a30b86e418fb59ce9d02",
-    "farm_name": "Bee Space Apiaries",
-    "address": "McMillen Rd",
-    "city": "Wylie",
-    "postal_code": "75098",
-    "error": "No Texas Census address match returned"
   },
   {
     "observation_id": "txobs_21e9531007f8ab93bd20",
@@ -568,14 +552,6 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_8961c25eac1b25c2eebb",
-    "farm_name": "Augustus Ranch",
-    "address": "PO Box 757",
-    "city": "Yoakum",
-    "postal_code": "77995",
-    "error": "No Texas Census address match returned"
-  },
-  {
     "observation_id": "txobs_1a258e889de06e8ce139",
     "farm_name": "LCF Ranch",
     "address": "2900 Anna Pierre Road",
@@ -584,8 +560,32 @@
     "error": "No Texas Census address match returned"
   },
   {
-    "observation_id": "txobs_d55463c6aee17092328a",
-    "farm_name": "Caprock Farms",
+    "observation_id": "txobs_8961c25eac1b25c2eebb",
+    "farm_name": "Augustus Ranch",
+    "address": "PO Box 757",
+    "city": "Yoakum",
+    "postal_code": "77995",
+    "error": "No Texas Census address match returned"
+  },
+  {
+    "observation_id": "txobs_afecddcb0646265e0b29",
+    "farm_name": "Harmony Hollow Apiaries",
+    "address": "",
+    "city": "Richardson",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_a30b86e418fb59ce9d02",
+    "farm_name": "Bee Space Apiaries",
+    "address": "McMillen Rd",
+    "city": "Wylie",
+    "postal_code": "75098",
+    "error": "No Texas Census address match returned"
+  },
+  {
+    "observation_id": "txobs_3198334d4aef1a7c38e0",
+    "farm_name": "W Diamond L Ranch and Produce",
     "address": "",
     "city": "",
     "postal_code": "",
@@ -600,18 +600,10 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_3198334d4aef1a7c38e0",
-    "farm_name": "W Diamond L Ranch and Produce",
+    "observation_id": "txobs_d55463c6aee17092328a",
+    "farm_name": "Caprock Farms",
     "address": "",
     "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
-    "observation_id": "txobs_409b4ac5b157df0e622a",
-    "farm_name": "Synergic Farms",
-    "address": "",
-    "city": "Desdemona",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
@@ -640,14 +632,6 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_9eecf244fc5bb3e85e13",
-    "farm_name": "Mysterious Horizons Farm",
-    "address": "",
-    "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
     "observation_id": "txobs_61ad6c2c5a408d9d70d1",
     "farm_name": "Desert Micro - Organic Microgreens",
     "address": "",
@@ -656,8 +640,8 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_23d88835a6e09186a0cd",
-    "farm_name": "The Veggie Mart",
+    "observation_id": "txobs_9eecf244fc5bb3e85e13",
+    "farm_name": "Mysterious Horizons Farm",
     "address": "",
     "city": "",
     "postal_code": "",
@@ -666,6 +650,14 @@
   {
     "observation_id": "txobs_5222325c61df8a0aee58",
     "farm_name": "Mac Ranch, Llc",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_23d88835a6e09186a0cd",
+    "farm_name": "The Veggie Mart",
     "address": "",
     "city": "",
     "postal_code": "",
@@ -684,6 +676,14 @@
     "farm_name": "Naturally Balanced Farms",
     "address": "",
     "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_409b4ac5b157df0e622a",
+    "farm_name": "Synergic Farms",
+    "address": "",
+    "city": "Desdemona",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
@@ -712,14 +712,6 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_9426ccfbb3710575394f",
-    "farm_name": "Briarhill Farms",
-    "address": "",
-    "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
     "observation_id": "txobs_2e4abaf6c22067fa4f18",
     "farm_name": "Redger Farms",
     "address": "",
@@ -730,6 +722,14 @@
   {
     "observation_id": "txobs_7b912bb81f1c9a8a14a2",
     "farm_name": "Jornada Alpaca Ranch",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_9426ccfbb3710575394f",
+    "farm_name": "Briarhill Farms",
     "address": "",
     "city": "",
     "postal_code": "",
@@ -752,22 +752,6 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_5fdfbbc61a2b110b185b",
-    "farm_name": "Cottonwood Springs Ranch",
-    "address": "",
-    "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
-    "observation_id": "txobs_d69f281f0abf4a3793b6",
-    "farm_name": "Wild Herd Cattle & Kitchen",
-    "address": "",
-    "city": "Pontotoc",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
     "observation_id": "txobs_d86e6ba2c538ffc7b65e",
     "farm_name": "Dale Family Farms",
     "address": "",
@@ -784,24 +768,16 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_9bfedf52afccef7da90c",
-    "farm_name": "Soileau Family Cajun Farm",
+    "observation_id": "txobs_d69f281f0abf4a3793b6",
+    "farm_name": "Wild Herd Cattle & Kitchen",
     "address": "",
-    "city": "",
+    "city": "Pontotoc",
     "postal_code": "",
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
-    "observation_id": "txobs_229c997e49e9ceda4ffa",
-    "farm_name": "Brookshire Farm",
-    "address": "",
-    "city": "",
-    "postal_code": "",
-    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
-  },
-  {
-    "observation_id": "txobs_51e1b80a7748340ed137",
-    "farm_name": "Harvest Organic",
+    "observation_id": "txobs_5fdfbbc61a2b110b185b",
+    "farm_name": "Cottonwood Springs Ranch",
     "address": "",
     "city": "",
     "postal_code": "",
@@ -816,8 +792,32 @@
     "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
   },
   {
+    "observation_id": "txobs_9bfedf52afccef7da90c",
+    "farm_name": "Soileau Family Cajun Farm",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_51e1b80a7748340ed137",
+    "farm_name": "Harvest Organic",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
     "observation_id": "txobs_1c9c3464db88f10396bc",
     "farm_name": "Sandy Land Farm",
+    "address": "",
+    "city": "",
+    "postal_code": "",
+    "error": "No exact-address match and no wholly single-county 2020 ZCTA fallback"
+  },
+  {
+    "observation_id": "txobs_229c997e49e9ceda4ffa",
+    "farm_name": "Brookshire Farm",
     "address": "",
     "city": "",
     "postal_code": "",

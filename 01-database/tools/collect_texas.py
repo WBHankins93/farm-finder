@@ -44,6 +44,7 @@ from collect_alabama import (  # Reuse the tested transport and small HTML DOM.
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "research" / "tx-expansion"
 PUBLIC_FARMS = ROOT / "03-app" / "site" / "app" / "data" / "farms.json"
+MANUAL_VERIFICATION_DECISIONS = OUTPUT_DIR / "manual-verification-decisions.csv"
 TODAY = date.today().isoformat()
 
 GO_TEXAN_URL = "https://bridge.texasagriculture.gov/GoTexanSearch/"
@@ -132,6 +133,69 @@ def empty_observation(source_name: str, source_record_id: str, farm_name: str, s
         "evidence_grade": grade, "retrieved_date": TODAY, "promotion_status": "staged_pending_rules",
         "notes": "",
     }
+
+
+def manual_verification_observations() -> tuple[list[Observation], set[str], list[dict[str, str]]]:
+    """Load evidence-backed curator decisions without mutating source claims.
+
+    Corroborations become additional observations. Exclusions become grade-F
+    decision observations and suppress the matching normalized-name group from
+    the candidate entity set while leaving every original assertion auditable.
+    """
+    if not MANUAL_VERIFICATION_DECISIONS.exists():
+        return [], set(), []
+    with MANUAL_VERIFICATION_DECISIONS.open(newline="", encoding="utf-8") as handle:
+        records = list(csv.DictReader(handle))
+    observations: list[Observation] = []
+    excluded_keys: set[str] = set()
+    seen_review_ids: set[str] = set()
+    for record in records:
+        review_id = clean_text(record.get("review_id"))
+        farm_name = clean_text(record.get("farm_name"))
+        key = clean_text(record.get("normalized_name"))
+        decision = clean_text(record.get("decision")).casefold()
+        if not review_id or review_id in seen_review_ids:
+            raise ValueError(f"Manual verification has a missing or duplicate review_id: {review_id!r}")
+        if not farm_name or key != normalized_name(farm_name):
+            raise ValueError(f"Manual verification {review_id} has an invalid normalized-name target")
+        if decision not in {"corroborate", "exclude"}:
+            raise ValueError(f"Manual verification {review_id} has unsupported decision {decision!r}")
+        seen_review_ids.add(review_id)
+        source_url = clean_url(record.get("source_url"))
+        if not source_url:
+            raise ValueError(f"Manual verification {review_id} is missing a valid evidence URL")
+        grade = "F" if decision == "exclude" else clean_text(record.get("evidence_grade")) or "C"
+        item = empty_observation(
+            "FarmFinder curator verification — farm-owned or authoritative evidence",
+            review_id,
+            farm_name,
+            source_url,
+            3,
+            grade,
+        )
+        item.update({
+            "identity_review_status": f"manual_{decision}_decision_recorded",
+            "entity_type_source": clean_text(record.get("verified_entity_type")),
+            "entity_type_review": "manual_review_excluded_nonfarm" if decision == "exclude" else
+                                  "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
+            "county": normalized_county(record.get("county", "")),
+            "county_source": source_url,
+            "city": clean_text(record.get("city")),
+            "postal_code": clean_text(record.get("postal_code")),
+            "location_precision": "curator_verified_safe_service_area",
+            "products": clean_text(record.get("products")),
+            "business_types": clean_text(record.get("business_types")),
+            "website_url": clean_url(record.get("website_url")),
+            "retrieved_date": clean_text(record.get("retrieved_date")) or TODAY,
+            "promotion_status": "excluded_manual_verification_nonfarm" if decision == "exclude" else
+                                "staged_pending_rules",
+            "notes": "; ".join(value for value in [clean_text(record.get("decision_basis")),
+                                                     clean_text(record.get("notes"))] if value),
+        })
+        observations.append(Observation(**item))
+        if decision == "exclude":
+            excluded_keys.add(key)
+    return observations, excluded_keys, records
 
 
 def first_value(meta: dict[str, Any], key: str) -> str:
@@ -623,12 +687,16 @@ def unique_values(items: list[Observation], field: str) -> str:
     return "; ".join(values)
 
 
-def reconcile(observations: list[Observation]) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+def reconcile(observations: list[Observation], excluded_candidate_keys: set[str] | None = None
+              ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    excluded_candidate_keys = excluded_candidate_keys or set()
     grouped: defaultdict[str, list[Observation]] = defaultdict(list)
     for item in observations:
         if item.candidate_key: grouped[item.candidate_key].append(item)
     entities = []; reviews = []; qa = []
     for key, all_items in sorted(grouped.items()):
+        if key in excluded_candidate_keys:
+            continue
         known = sorted({x.county for x in all_items if x.county})
         conflict = len(known) > 1
         shared = any(identity_tokens(a) & identity_tokens(b) for i, a in enumerate(all_items) for b in all_items[i + 1:]
@@ -895,6 +963,19 @@ def main() -> int:
                                  "Directory displayed a fictitious 555 contact number and unsupported network branding; retained as an issue, not evidence."))
     raw_sources["youpicktexas_evaluation"] = {"accepted": 0, "reason": "Fictitious 555 contact and unclear provenance."}
 
+    manual_observations, manual_excluded_keys, manual_records = manual_verification_observations()
+    observations.extend(manual_observations)
+    raw_sources["manual_verification_decisions"] = manual_records
+    logs.append({"url": str(MANUAL_VERIFICATION_DECISIONS), "attempts_used": 1, "http_status": 200,
+                 "bytes": MANUAL_VERIFICATION_DECISIONS.stat().st_size if MANUAL_VERIFICATION_DECISIONS.exists() else 0,
+                 "sha256": hashlib.sha256(MANUAL_VERIFICATION_DECISIONS.read_bytes()).hexdigest()
+                           if MANUAL_VERIFICATION_DECISIONS.exists() else "",
+                 "elapsed_seconds": 0, "error": "" if MANUAL_VERIFICATION_DECISIONS.exists() else
+                 "Manual verification decision file is missing", "pass": 3,
+                 "source_name": "FarmFinder curator verification decisions", "records_parsed": len(manual_records),
+                 "retrieved_at": now_iso(), "source_decision": "curator_decisions_applied",
+                 "note": "Farm-owned or authoritative evidence reviewed manually; original source assertions remain immutable."})
+
     if len(counties) != 254: critical.append(f"Texas county denominator expected 254, received {len(counties)}")
     primary_logs = [x for x in logs if x.get("source_name") != "U.S. Census Geocoder" and x.get("source_decision") != "request_component"]
     required_sources = {"U.S. Census Bureau — Texas county denominator", "Texas Department of Agriculture — GO TEXAN Farm And Ranch",
@@ -952,7 +1033,8 @@ def main() -> int:
     geocoder_failure_ids = {row["observation_id"]: row for row in geocoder_failures}
     lookup_errors = []
     for item in observations:
-        if not item.county or item.county == "Unknown":
+        if (not item.county or item.county == "Unknown") and item.evidence_grade != "F" and \
+                not item.promotion_status.startswith("excluded"):
             prior = geocoder_failure_ids.get(item.observation_id, {})
             lookup_errors.append({"observation_id": item.observation_id, "farm_name": item.farm_name,
                                   "address": item.address, "city": item.city, "postal_code": item.postal_code,
@@ -965,7 +1047,7 @@ def main() -> int:
         if counts[item.candidate_key] > 1: item.identity_review_status = "exact_normalized_name_group_reviewed_by_reconciliation_rules"
         if item.candidate_key in current_names: item.current_release_name_collision = current_names[item.candidate_key]
     observations.sort(key=lambda x: (x.candidate_key, x.source_name, x.source_record_id))
-    entities, identity_review, qa = reconcile(observations)
+    entities, identity_review, qa = reconcile(observations, manual_excluded_keys)
     eligible = [x for x in entities if x["promotion_status"] == "promotion_eligible_reviewed"]
     entity_counts = Counter(x["county"] for x in entities if x["county"]); eligible_counts = Counter(x["county"] for x in eligible if x["county"])
     pass_counts: Counter[tuple[str, int]] = Counter()
@@ -983,7 +1065,8 @@ def main() -> int:
     missing = [x["county"] for x in coverage if not x["candidate_entities"]]
 
     observation_records = [asdict(x) for x in observations]
-    excluded = [x for x in observation_records if x["evidence_grade"] == "F" or x["promotion_status"].startswith("excluded")]
+    excluded = [x for x in observation_records if x["evidence_grade"] == "F" or
+                x["promotion_status"].startswith("excluded") or x["candidate_key"] in manual_excluded_keys]
     summary = {
         "status": "coverage_reviewed" if not critical else "blocked_validation_errors",
         "release_id": f"tx-coverage-reviewed-{TODAY}", "generated_at": now_iso(),
@@ -993,6 +1076,8 @@ def main() -> int:
         "source_datasets_evaluated": len(primary_logs), "source_observations": len(observations),
         "source_observations_by_source": dict(sorted(Counter(x.source_name for x in observations).items())),
         "excluded_or_grade_f_observations": len(excluded), "proposed_entities": len(entities),
+        "manual_verification_decisions": len(manual_records),
+        "manual_excluded_entity_groups": len(manual_excluded_keys),
         "promotion_eligible_entities": len(eligible), "research_or_qa_entities": len(entities) - len(eligible),
         "identity_review_groups": len(identity_review),
         "identity_groups_split_for_county_conflict": sum(x["review_status"].startswith("split") for x in identity_review),

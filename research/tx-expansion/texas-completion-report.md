@@ -7,8 +7,8 @@
 ## Decision
 
 Texas is **coverage reviewed** under FarmFinder's documented three-pass state
-standard. The release contains 1,021 source observations reconciled to 919 proposed
-entities. Of those, 319 meet the staged promotion gates and 600 remain explicitly
+standard. The release contains 1,050 source and curator-decision observations reconciled
+to 899 proposed entities. Of those, 327 meet the staged promotion gates and 572 remain explicitly
 blocked for further research or QA. No Texas rows were added to the LA/MS canonical
 workbook or public application in this release.
 
@@ -20,27 +20,28 @@ private and commodity-only farms are outside the directory scope.
 
 | Measure | Result |
 |---|---:|
-| Source/channel/geography datasets evaluated | 28 |
-| Successful collection requests | 897 / 897 |
-| Retained source observations | 1,021 |
-| Proposed Texas entities | 919 |
-| Promotion-eligible staged entities | 319 (34.7%) |
-| Research/QA entities | 600 (65.3%) |
-| Counties with candidates | 179 / 254 |
-| Counties with at least one eligible entity | 111 / 254 |
-| Website present | 599 entities (65.2%) |
-| Any retained social URL | 507 entities (55.2%) |
-| Direct phone or email retained internally | 792 entities (86.2%) |
-| Explicit closure exclusions | 13 |
+| Source/channel/geography/curator datasets evaluated | 29 |
+| Successful collection requests | 898 / 898 |
+| Retained source and curator-decision observations | 1,050 |
+| Proposed Texas entities | 899 |
+| Promotion-eligible staged entities | 327 (36.4%) |
+| Research/QA entities | 572 (63.6%) |
+| Counties with candidates | 178 / 254 |
+| Counties with at least one eligible entity | 112 / 254 |
+| Website present | 592 entities (65.1%) |
+| Any retained social URL | 506 entities (55.7%) |
+| Direct phone or email retained internally | 784 entities (86.2%) |
+| Manual verification decisions | 29 (9 corroborate / 20 exclude) |
+| Excluded or grade-F observation rows | 53 |
 
-Among the 319 eligible entities, 251 have a website, 203 have at least one retained
-social URL, and 301 have a direct phone or email retained internally.
+Among the 327 eligible entities, 258 have a website, 204 have at least one retained
+social URL, and 309 have a direct phone or email retained internally.
 
-The 75 `searched_none_found` counties are Andrews, Archer, Armstrong, Bailey, Baylor,
+The 76 `searched_none_found` counties are Andrews, Archer, Armstrong, Bailey, Baylor,
 Borden, Briscoe, Brooks, Cochran, Coke, Crockett, Crosby, Culberson, Dawson, Deaf Smith,
 Dickens, Duval, Foard, Glasscock, Gray, Gregg, Hale, Hall, Hansford, Haskell, Hemphill,
 Hockley, Hudspeth, Hutchinson, Irion, Jack, Jeff Davis, Jim Hogg, Jones, Kenedy, Kent,
-King, Kinney, Kleberg, Knox, Lamb, Lipscomb, Loving, Lynn, Madison, McMullen, Mills,
+King, Kinney, Kleberg, Knox, La Salle, Lamb, Lipscomb, Loving, Lynn, Madison, McMullen, Mills,
 Newton, Nolan, Ochiltree, Oldham, Pecos, Reagan, Real, Roberts, Runnels, San Augustine,
 Scurry, Shackelford, Sherman, Starr, Stephens, Sterling, Stonewall, Terry, Throckmorton,
 Upton, Victoria, Ward, Wheeler, Wilbarger, Willacy, Winkler, Young, and Zapata. Zero is
@@ -90,9 +91,9 @@ qualifying public candidate with a defensible county assignment.
 
 ## Identity accountability
 
-There are 78 multi-observation normalized-name groups:
+There are 87 multi-observation normalized-name groups:
 
-- 70 merged because the exact normalized name resolved to one geography;
+- 79 merged because the exact normalized name resolved to one geography;
 - 7 cross-county groups merged only after exact shared contact, website, social, city,
   or address evidence established one operation and a preferred geography;
 - 1 group remains split: The Blueberry Farm has plausible separate operations in
@@ -109,35 +110,59 @@ and Hill Crest Creamery—but no cross-state merge occurred. No fuzzy-name group
 silently merged. Every multi-source decision and underlying observation ID is in
 `identity-review.csv`.
 
+## Manual verification progress
+
+The first three focused verification batches recorded 29 decisions in
+`manual-verification-decisions.csv`. Original directory assertions remain in the
+observation table; curator decisions are additional observations with dates, URLs,
+rationales, and explicit include/exclude outcomes.
+
+- Nine operations were corroborated or corrected: Agarita Hills Ranch, Wylie Urban
+  Farm And Market, QF Seasoning Company / FC Farm to Table, Cedar Ridge Farms, Talise
+  Microgreens, BS Farms, Dresden Specialty Meats, South Tex Organics, and Lavande.
+- Twenty groups were excluded from Texas farm entities: two farmers markets, two coffee
+  roasters, an agricultural supplier, a fiberglass manufacturer, a South Carolina bike
+  rental, two farms/institutions physically outside Texas, and Steelbow Farm after its
+  documented relocation from Austin to New York; the member-directory audit additionally
+  removed insurance, software, marketing, painting, legal, veterinary, body-care, bakery,
+  and custom-processing businesses that made no farm-operation claim.
+- Street-number-as-ZIP errors were corrected for Cedar Ridge Farms, BS Farms, and
+  Dresden Specialty Meats; Talise Microgreens' transposed ZIP was corrected; malformed
+  city fields were corrected for South Tex Organics and Lavande.
+
+These decisions reduced the candidate set from 919 to 899, increased eligible entities
+from 319 to 327, and reduced QA holds from 600 to 572. Texas verification is therefore
+materially improved but not complete.
+
 ## Open issues
 
-The 600 QA entities can carry more than one blocker:
+The 572 QA entities can carry more than one blocker:
 
 | Blocker | Entities |
 |---|---:|
-| Single grade-E discovery listing needs current corroboration | 479 |
-| Member/vendor/mixed-type candidate needs farm-operation evidence | 149 |
-| County remains unresolved | 97 |
-| City or safe public service area missing | 75 |
-| Product or farm-activity specificity missing | 45 |
-| Official Farm And Ranch category conflicts with business-name signals | 6 |
+| Single grade-E discovery listing needs current corroboration | 474 |
+| Member/vendor/mixed-type candidate needs farm-operation evidence | 132 |
+| County remains unresolved | 89 |
+| City or safe public service area missing | 74 |
+| Product or farm-activity specificity missing | 40 |
 | Same normalized name remains split across counties | 2 entity rows / 1 group |
 
-The 97 county-blocked entities represent 107 source observations. The release attempted
-143 exact-address Census geography requests; 61 returned no match. Conservative
-single-county ZCTA and Census-place fallbacks reduced the unresolved observation count
-from 235 to 107. Records without an exact match or a wholly single-county fallback were
-left unresolved rather than assigned from a nearby county-seat search.
+The 89 county-blocked entities include 107 original source observations that still lack
+a defensible source-level county. The current rebuild made or replayed 117 exact-address
+Census geography requests, 35 of which returned no match. Some entities were resolved
+or excluded by manual evidence even though the original assertion remains geographically
+incomplete. Records without an exact match, a wholly single-county fallback, or explicit
+verification evidence remain unresolved rather than being assigned from a nearby
+county-seat search.
 
 One official source-county conflict is retained: Hill Farm To Table Ranch was listed
 as Navarro County but its exact address resolved to Hill County. The exact-address
 county is used in the proposed entity and the conflict remains in
 `geography-conflicts.csv`.
 
-Six GO TEXAN-only names remain blocked because their business-name signals conflict
-with an automatic farm interpretation: Bastrop 1832 Farmers Market, Wylie Urban Farm
-And Market, QF Seasoning Company, Hillsboro Farmers Market, ETX Legends Coffee Co, and
-Cowpuncher Coffee LLC.
+No GO TEXAN business-name conflict remains unresolved. Wylie Urban Farm And Market and
+QF Seasoning Company / FC Farm to Table were corroborated as producing operations; the
+two markets and two coffee roasters were excluded from the farm entity set.
 
 ## URL and data-quality corrections made during review
 
@@ -172,9 +197,10 @@ Cowpuncher Coffee LLC.
 
 ## Release disposition
 
-Texas is complete at the `coverage_reviewed` research stage and ready for deliberate
-immutable-release review. Promotion is intentionally separate: the 319 eligible
-staged entities should not be appended to the canonical workbook until a new release
+Texas remains complete at the bounded `coverage_reviewed` collection stage, but the
+record-by-record verification program is still in progress and the state is not ready
+for public promotion. Promotion is intentionally separate: the 327 eligible staged
+entities should not be appended to the canonical workbook until a new release
 ID, storage object, checksum, app mapping, rollback point, and public-location/privacy
-review are prepared. The 600 QA entities remain valuable evidence but are not approved
+review are prepared. The 572 QA entities remain valuable evidence but are not approved
 public farm listings.

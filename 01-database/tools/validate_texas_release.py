@@ -37,6 +37,7 @@ def main() -> int:
     conflicts = read_csv("geography-conflicts.csv")
     lookup_errors = json.loads((DATA / "county-lookup-errors.json").read_text(encoding="utf-8"))
     source_log = json.loads((DATA / "source-pass-log.json").read_text(encoding="utf-8"))
+    manual_decisions = read_csv("manual-verification-decisions.csv")
 
     eligible = [row for row in entities if row["promotion_status"] == "promotion_eligible_reviewed"]
     require(summary.get("status") == "coverage_reviewed", "summary status is not coverage_reviewed", errors)
@@ -103,8 +104,8 @@ def main() -> int:
     primary_logs = [row for row in source_log if row.get("source_decision") not in {"request_component", "county_enrichment"}]
     component_logs = [row for row in source_log if row.get("source_decision") == "request_component"]
     geocoder_logs = [row for row in source_log if row.get("source_decision") == "county_enrichment"]
-    require(len(primary_logs) == summary.get("source_datasets_evaluated") == 28,
-            "expected 28 evaluated primary/channel/reference datasets", errors)
+    require(len(primary_logs) == summary.get("source_datasets_evaluated") == 29,
+            "expected 29 evaluated primary/channel/reference/curator datasets", errors)
     require({int(row["pass"]) for row in primary_logs} == {1, 2, 3}, "source log does not cover all three passes", errors)
     require(not [row for row in primary_logs if row.get("error")], "one or more primary source datasets failed", errors)
     require(not [row for row in component_logs if row.get("error")], "one or more component source requests failed", errors)
@@ -134,6 +135,24 @@ def main() -> int:
             "Texas Center for Local Food observation count changed", errors)
     require(actual_source_counts["LocalHarvest — Texas county-seat gap search"] == 302,
             "LocalHarvest observation count changed", errors)
+    require(actual_source_counts["FarmFinder curator verification — farm-owned or authoritative evidence"] ==
+            len(manual_decisions) == summary.get("manual_verification_decisions"),
+            "manual-verification decision count does not reconcile", errors)
+    manual_keys = {row["normalized_name"] for row in manual_decisions}
+    require(len(manual_keys) == len(manual_decisions), "manual-verification targets are not unique", errors)
+    require(all(row["normalized_name"] == row["normalized_name"].strip() and row["source_url"] and
+                row["decision_basis"] and row["retrieved_date"] for row in manual_decisions),
+            "manual-verification decision is missing its target, source, date, or rationale", errors)
+    excluded_keys = {row["normalized_name"] for row in manual_decisions if row["decision"] == "exclude"}
+    corroborated_keys = {row["normalized_name"] for row in manual_decisions if row["decision"] == "corroborate"}
+    entity_keys = {row["normalized_name"] for row in entities}
+    eligible_keys = {row["normalized_name"] for row in eligible}
+    require(not (excluded_keys & entity_keys), "manually excluded entity remains in candidate output", errors)
+    require(corroborated_keys <= eligible_keys, "manual corroboration did not clear every targeted entity", errors)
+    require(len(excluded_keys) == summary.get("manual_excluded_entity_groups"),
+            "manual exclusion-group count does not reconcile", errors)
+    require(len(raw.get("manual_verification_decisions", [])) == len(manual_decisions),
+            "raw manual-verification evidence is incomplete", errors)
     require(len(raw.get("texas_local_food_profiles", [])) == 254 and not raw.get("texas_local_food_profile_failures"),
             "Texas Center for Local Food raw profile evidence is incomplete", errors)
     require(len(raw.get("shop_texas_farms_profiles", [])) == 56 and not raw.get("shop_texas_farms_failures"),

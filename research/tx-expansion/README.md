@@ -8,14 +8,15 @@
 Texas completed the repository's three-pass collection and state completion gates
 on 2026-07-15:
 
-- 28 source, channel, and official geography datasets evaluated across passes 1–3;
-- 1,021 immutable source observations;
-- 919 proposed Texas entities after deterministic identity review;
-- 319 entities meet the staged promotion-field/evidence/privacy gates;
-- 600 entities remain in the explicit research or QA queue;
+- 29 source, channel, official-geography, and curator-decision datasets evaluated across passes 1–3;
+- 1,050 immutable source and curator-decision observations;
+- 899 proposed Texas entities after deterministic identity and scope review;
+- 327 entities meet the staged promotion-field/evidence/privacy gates;
+- 572 entities remain in the explicit research or QA queue;
 - all 254 counties were searched and have a documented coverage status;
-- 179 counties have at least one candidate, while 75 are `searched_none_found`;
-- 13 explicitly closed PickYourOwn observations remain grade-F exclusions;
+- 178 counties have at least one candidate, while 76 are `searched_none_found`;
+- 29 manual verification decisions are retained with their evidence and rationale;
+- 13 explicitly closed PickYourOwn observations and 20 curator-excluded entity groups remain auditable;
 - the Texas release validator passes.
 
 `coverage_reviewed` means all qualifying farms found under the documented sources and
@@ -34,6 +35,7 @@ USDA-defined, private, commodity-only, or publicly undiscoverable farm is known.
 - `geography-conflicts.csv` — source-versus-exact-address county conflicts and decisions.
 - `source-pass-log.json` — request status, attempts, hashes, retrieval dates, and accept/reject decisions.
 - `county-lookup-errors.json` — observations still lacking a defensible county after conservative fallbacks.
+- `manual-verification-decisions.csv` — evidence-backed corroboration/exclusion decisions applied without overwriting source assertions.
 - `collection-summary.json` — reconciled release totals.
 - `texas-completion-report.md` — detailed findings, decisions, limitations, and next review work.
 
