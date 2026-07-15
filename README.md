@@ -18,10 +18,10 @@ FarmFinder currently has a working static-first public directory and a verified 
 | Area | Current state |
 |---|---|
 | Canonical pre-cutover source | `research/local_farm_database_final.xlsx`, sheet `All Farms` |
-| Canonical records | 311 one-row-per-entity workbook listings: 237 LA and 74 MS |
-| Public map | 311 mapped listings with explicit location precision |
-| Website/contact QA | 99 website flags, 57 populated URLs, 42 missing URLs; 230 direct contacts and 81 missing direct phone/email |
-| State expansion | Alabama coverage reviewed: 850 entities, 635 eligible / 215 QA. Texas coverage reviewed: 1,060 observations, 899 entities, 337 eligible / 562 QA; all 254 counties searched. Both use the seven-file state contract and remain private staging. |
+| Canonical records | 299 one-row-per-entity workbook listings: 220 LA and 79 MS |
+| Public map | 299 mapped listings with explicit location precision |
+| Website/contact QA | 88 website flags, 85 populated URLs, 3 missing URLs; 243 direct contacts and 56 missing direct phone/email |
+| State expansion | Alabama coverage reviewed: 850 entities, 635 eligible / 215 QA. Texas coverage reviewed: 1,060 observations, 899 entities, 337 eligible / 562 QA; all 254 counties searched. Both remain private staging and are migrating to the four-file national state contract. |
 | Public application | Working vinext/Next.js directory using generated JSON |
 | PostgreSQL cutover | 30-table foundation verified; historical v1 with 315 raw rows remains staged locally; enriched v2 must be staged as a new immutable release |
 | Custom indexes | 27 documented indexes tied to queries, invariants, or worker operations |
@@ -257,7 +257,7 @@ npm run db:test
 Current verified baseline:
 
 - Canonical workbook checksum and structure pass.
-- 311 canonical rows reconcile to 311 normalized-name entities with no exact normalized-name duplicate groups.
+- 299 canonical rows reconcile to 299 normalized-name entities with no exact normalized-name duplicate groups.
 - All 30 FarmFinder tables and 27 documented custom indexes exist.
 - Database invariant tests pass.
 - The pinned workbook is stored as an immutable versioned object and all 315 raw rows are staged idempotently in PostgreSQL.
@@ -379,7 +379,7 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 - ✅ Keep active Mississippi collection isolated from the pinned release.
 - Normalize geography, products, channels, links, and contacts.
 - ✅ Reconcile the four known duplicate groups in the canonical workbook using evidence while retaining provenance.
-- Stage enriched release v2 as a new immutable release and reconcile its 311 canonical rows.
+- Stage corrected enriched release v2 as a new immutable release and reconcile its 299 canonical rows.
 - Import source provenance and field-level assertions.
 - Compare database-derived public JSON against the current artifact.
 - Promote the release atomically and make PostgreSQL canonical.
@@ -439,7 +439,7 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 
 **Status:** Planned
 
-- Recompute contactability for FarmFinder listing participation against the 311-listing release.
+- Recompute contactability for FarmFinder listing participation against the 299-listing release.
 - Recruit at least five farms for a FarmFinder listing, correction, or claim pilot.
 - Recruit a small consumer cohort.
 - Measure answer correctness, successful searches, search-to-contact actions, claims, corrections, freshness, latency, and cost.
