@@ -1,6 +1,6 @@
 # Texas state review report
 
-> Release: `tx-coverage-reviewed-v5-2026-07-15`
+> Release: `tx-coverage-reviewed-v6-qa-2026-07-15`
 >
 > Contract: national state contract v2
 >
@@ -28,7 +28,7 @@ keeps those candidates staged.
 | Research/QA entities | 167 |
 | Affirmatively excluded observations | 47 |
 | Effective excluded entity groups | 27 |
-| Append-only decisions | 76 |
+| Append-only decisions | 237 |
 | Counties reviewed | 254 of 254 |
 | Counties with retained candidates | 179 |
 | Counties searched with none found | 75 |
@@ -75,6 +75,10 @@ Missing geography or contact detail does not imply that a farm is invalid or clo
 The correct follow-up is enrichment from farm-owned, official, or independently
 corroborating sources.
 
+All 167 QA entities now have explicit append-only `retain` decisions. Those
+decisions preserve the named candidates and document the unresolved blockers; they
+do not clear QA or authorize exclusion.
+
 ## Effective exclusions
 
 Every active exclusion has a source URL, retrieval date, append-only decision, and
@@ -112,7 +116,8 @@ none of these fields remains retained.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain all 167 QA candidates through append-only review.
+1. Resolve the documented blockers for all 167 retained QA candidates; their
+   explicit retain decisions do not clear QA or authorize exclusion.
 2. Copy the three immutable evidence objects to managed production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.
 4. Promote Texas atomically in a separate canonical-release change.
