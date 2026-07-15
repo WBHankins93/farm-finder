@@ -8,7 +8,7 @@ Missing fields create research blockers; they never create an exclusion.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Iterable
+from typing import Iterable, Mapping
 
 
 RESEARCH_STATUS = "research_or_qa_queue"
@@ -59,3 +59,25 @@ def validate_exclusion_reason(reason: str) -> None:
             "exclude decisions require one of: "
             + ", ".join(sorted(AFFIRMATIVE_EXCLUSION_REASONS))
         )
+
+
+def effective_decisions(rows: Iterable[Mapping[str, str]]) -> list[Mapping[str, str]]:
+    """Return unsuperseded decisions while validating the append-only chain."""
+    materialized = list(rows)
+    identifiers = [row.get("review_id", "") for row in materialized]
+    if not all(identifiers) or len(identifiers) != len(set(identifiers)):
+        raise ValueError("decision review IDs must be present and unique")
+    known = set(identifiers)
+    superseded: set[str] = set()
+    for row in materialized:
+        prior = row.get("supersedes_review_id", "").strip()
+        if not prior:
+            continue
+        if prior == row.get("review_id"):
+            raise ValueError(f"decision {prior} cannot supersede itself")
+        if prior not in known:
+            raise ValueError(f"decision {row.get('review_id')} supersedes unknown decision {prior}")
+        if prior in superseded:
+            raise ValueError(f"decision {prior} is superseded more than once")
+        superseded.add(prior)
+    return [row for row in materialized if row.get("review_id") not in superseded]

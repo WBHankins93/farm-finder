@@ -18,6 +18,7 @@ from state_policy import (  # noqa: E402
     EXCLUDED_STATUS,
     RESEARCH_STATUS,
     classify_candidate,
+    effective_decisions,
 )
 from state_release_status import state_status  # noqa: E402
 import migrate_state_contract_v2 as migration  # noqa: E402
@@ -61,6 +62,19 @@ class CandidateRetentionPolicyTests(unittest.TestCase):
 
     def test_complete_candidate_can_be_eligible(self) -> None:
         self.assertEqual(classify_candidate("Documented Farm").status, ELIGIBLE_STATUS)
+
+    def test_later_retain_decision_supersedes_exclusion(self) -> None:
+        rows = [
+            {"review_id": "one", "decision": "exclude", "supersedes_review_id": ""},
+            {"review_id": "two", "decision": "retain", "supersedes_review_id": "one"},
+        ]
+        self.assertEqual([row["decision"] for row in effective_decisions(rows)], ["retain"])
+
+    def test_supersession_requires_known_prior_decision(self) -> None:
+        with self.assertRaisesRegex(ValueError, "unknown decision"):
+            effective_decisions([
+                {"review_id": "two", "decision": "retain", "supersedes_review_id": "missing"}
+            ])
 
 
 class CurrentStateContractTests(unittest.TestCase):

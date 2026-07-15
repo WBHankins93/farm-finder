@@ -19,6 +19,8 @@ import tempfile
 from pathlib import Path
 from typing import Any
 
+from state_policy import effective_decisions
+
 
 ROOT = Path(__file__).resolve().parents[2]
 STATE_ROOT = ROOT / "research" / "state-expansions"
@@ -265,7 +267,7 @@ def package_v2(args: argparse.Namespace, state: str, state_dir: Path, source_dir
         managed_copy_required = False
 
     decisions = read_csv_rows(decisions_path)
-    excluded_groups = sum(row.get("decision") == "exclude" for row in decisions)
+    excluded_groups = sum(row.get("decision") == "exclude" for row in effective_decisions(decisions))
     release = document.setdefault("release", {})
     counts = {
         "sourceObservations": int(summary["source_observations"]),

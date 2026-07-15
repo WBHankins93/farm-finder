@@ -11,7 +11,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-from state_policy import AFFIRMATIVE_EXCLUSION_REASONS, RESEARCH_STATUS
+from state_policy import AFFIRMATIVE_EXCLUSION_REASONS, RESEARCH_STATUS, effective_decisions
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -90,7 +90,9 @@ def migrate(state: str) -> dict[str, Any]:
     report_path = state_dir / "report.md"
     report_path.write_text((state_dir / "completion-report.md").read_text(encoding="utf-8"), encoding="utf-8")
     counts = dict(manifest.get("counts", {}))
-    counts["excludedEntityGroups"] = sum(row.get("decision") == "exclude" for row in decisions)
+    counts["excludedEntityGroups"] = sum(
+        row.get("decision") == "exclude" for row in effective_decisions(decisions)
+    )
     role_map = {
         "observations": "observations",
         "raw_source_records": "source_records",

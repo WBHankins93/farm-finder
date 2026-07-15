@@ -14,7 +14,12 @@ from pathlib import Path
 from typing import Any
 
 from state_release_urls import is_valid_website
-from state_policy import AFFIRMATIVE_EXCLUSION_REASONS, ELIGIBLE_STATUS, RESEARCH_STATUS
+from state_policy import (
+    AFFIRMATIVE_EXCLUSION_REASONS,
+    ELIGIBLE_STATUS,
+    RESEARCH_STATUS,
+    effective_decisions,
+)
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -400,8 +405,11 @@ def _validate_v2_state(state: str, require_local_artifacts: bool) -> dict[str, A
         require(bool(row.get("promotion_blockers")),
                 f"QA candidate {row.get('entity_id')} must explain its research blockers", errors)
 
-    require(len(decisions) == len({row.get("review_id") for row in decisions}),
-            "duplicate decision review ID", errors)
+    try:
+        current_decisions = effective_decisions(decisions)
+    except ValueError as exc:
+        errors.append(str(exc))
+        current_decisions = decisions
     required_decision_fields = {
         "review_id", "farm_name", "normalized_name", "decision", "source_url",
         "retrieved_date", "decision_basis",
@@ -409,12 +417,12 @@ def _validate_v2_state(state: str, require_local_artifacts: bool) -> dict[str, A
     for row in decisions:
         missing = sorted(field for field in required_decision_fields if not row.get(field))
         require(not missing, f"decision {row.get('review_id')} missing {', '.join(missing)}", errors)
-        require(row.get("decision") in {"corroborate", "exclude", "merge", "correct", "retain"},
+        require(row.get("decision") in {"corroborate", "exclude", "merge", "correct", "retain", "distinct"},
                 f"decision {row.get('review_id')} has invalid action", errors)
         if row.get("decision") == "exclude":
             require(row.get("exclusion_reason") in AFFIRMATIVE_EXCLUSION_REASONS,
                     f"decision {row.get('review_id')} lacks an affirmative exclusion reason", errors)
-    excluded_names = {row.get("normalized_name") for row in decisions if row.get("decision") == "exclude"}
+    excluded_names = {row.get("normalized_name") for row in current_decisions if row.get("decision") == "exclude"}
     entity_names = {row.get("normalized_name") for row in entities}
     require(not (excluded_names & entity_names), "affirmatively excluded entity remains staged", errors)
     require(len(decisions) == int(counts.get("manualDecisions", -1)), "decision count does not reconcile", errors)
@@ -422,7 +430,7 @@ def _validate_v2_state(state: str, require_local_artifacts: bool) -> dict[str, A
             + int(counts.get("excludedObservations", 0))
             == int(counts.get("sourceObservations", -1)),
             "retained and affirmatively excluded observations do not reconcile", errors)
-    require(sum(row.get("decision") == "exclude" for row in decisions)
+    require(sum(row.get("decision") == "exclude" for row in current_decisions)
             == int(counts.get("excludedEntityGroups", -1)),
             "affirmatively excluded entity groups do not reconcile", errors)
 
