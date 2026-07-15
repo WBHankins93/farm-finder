@@ -30,3 +30,5 @@ jobs:
         run: python3 -m unittest discover -s 01-database/tools/tests -p "test_*.py"
       - name: Validate every committed state release
         run: python3 01-database/tools/validate_state_releases.py
+      - name: Generate the consolidated state review status
+        run: python3 01-database/tools/state_release_status.py AL TX

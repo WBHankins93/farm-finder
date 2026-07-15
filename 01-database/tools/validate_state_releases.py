@@ -28,6 +28,9 @@ REQUIRED_ARTIFACT_ROLES = {
 ALLOWED_COVERAGE_STATUSES = {
     "candidates_found", "searched_none_found", "source_blocked", "follow_up_required",
 }
+ALLOWED_RELEASE_STATUSES = {
+    "researching", "collected", "coverage_reviewed", "record_verified", "approved", "promoted",
+}
 ELIGIBLE_REQUIRED_FIELDS = [
     "entity_id", "farm_name", "entity_type", "identity_decision", "state",
     "county", "city", "products", "public_location_classification",
@@ -57,6 +60,29 @@ def sha256_file(path: Path) -> str:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def release_fingerprint(manifest: dict[str, Any]) -> str:
+    """Fingerprint the immutable repository inputs and private evidence identities."""
+    payload = {
+        "contractVersion": manifest.get("contractVersion"),
+        "state": manifest.get("state"),
+        "releaseId": manifest.get("releaseId"),
+        "repositoryFiles": manifest.get("repositoryFiles", {}),
+        "artifacts": [
+            {
+                "role": row.get("role"),
+                "objectKey": row.get("objectKey"),
+                "versionId": row.get("versionId"),
+                "sha256": row.get("sha256"),
+                "bytes": row.get("bytes"),
+                "rows": row.get("rows"),
+            }
+            for row in sorted(manifest.get("artifacts", []), key=lambda item: str(item.get("role")))
+        ],
+    }
+    encoded = json.dumps(payload, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()
 
 
 def require(condition: bool, message: str, errors: list[str]) -> None:
@@ -181,11 +207,32 @@ def validate_state(state: str, require_local_artifacts: bool) -> dict[str, Any]:
     by_role = {row.get("role"): row for row in artifacts}
     require(set(by_role) == REQUIRED_ARTIFACT_ROLES, "artifact role set is incomplete or duplicated", errors)
     storage = manifest.get("evidenceStorage", {})
+    release_status = str(manifest.get("status", ""))
+    promotion_ready = manifest.get("promotionReady") is True
+    require(release_status in ALLOWED_RELEASE_STATUSES, "release manifest has invalid lifecycle status", errors)
     require(storage.get("provider") == "s3-compatible", "evidence provider must be S3-compatible", errors)
     require(storage.get("versioningRequired") is True, "evidence storage must require versioning", errors)
-    require(storage.get("managedCopyRequiredBeforePromotion") is True,
-            "managed-copy promotion guard is missing", errors)
-    require(manifest.get("promotionReady") is False, "coverage-reviewed staging must not be promotion-ready", errors)
+    if release_status in {"researching", "collected", "coverage_reviewed"}:
+        require(not promotion_ready, f"{release_status} release must not be promotion-ready", errors)
+    if release_status in {"record_verified", "approved", "promoted"}:
+        require(not qa, f"{release_status} release still has QA entities", errors)
+    if release_status == "record_verified":
+        require(not promotion_ready, "record-verified release requires explicit approval", errors)
+    if release_status in {"approved", "promoted"}:
+        require(promotion_ready, f"{release_status} release must be promotion-ready", errors)
+        require(storage.get("environment") not in {None, "", "local-staging"},
+                f"{release_status} release evidence is not in managed storage", errors)
+        require(storage.get("managedCopyRequiredBeforePromotion") is False,
+                f"{release_status} release still requires a managed evidence copy", errors)
+        approval = manifest.get("approval", {})
+        require(approval.get("decision") == "approved", "release lacks an approval decision", errors)
+        require(bool(approval.get("approvedBy")), "release lacks an approver", errors)
+        require(bool(approval.get("approvedAt")), "release lacks an approval timestamp", errors)
+        require(approval.get("releaseFingerprint") == release_fingerprint(manifest),
+                "approval fingerprint does not match the immutable release", errors)
+    elif storage.get("environment") == "local-staging":
+        require(storage.get("managedCopyRequiredBeforePromotion") is True,
+                "local staging must retain the managed-copy promotion guard", errors)
     prefix = storage.get("prefix", "")
     for role, artifact in by_role.items():
         require(artifact.get("objectKey", "").startswith(prefix), f"{role} object key is outside release prefix", errors)
@@ -241,15 +288,24 @@ def validate_state(state: str, require_local_artifacts: bool) -> dict[str, Any]:
 
     canonical = json.loads(CANONICAL_MANIFEST.read_text(encoding="utf-8"))["release"]
     boundary = manifest.get("canonicalBoundary", {})
-    require(canonical.get("allowedStates") == boundary.get("allowedStates") == ["LA", "MS"],
-            "state staging changed canonical allowed states", errors)
-    require(canonical.get("sourceRowCount") == boundary.get("sourceRowCount") == 311,
-            "state staging changed canonical row count", errors)
+    require(canonical.get("allowedStates") == boundary.get("allowedStates"),
+            "state manifest does not match canonical allowed states", errors)
+    require(canonical.get("sourceRowCount") == boundary.get("sourceRowCount"),
+            "state manifest does not match canonical row count", errors)
+    if release_status != "promoted":
+        require(state not in canonical.get("allowedStates", []),
+                "unpromoted state is already inside the canonical boundary", errors)
+    else:
+        require(state in canonical.get("allowedStates", []),
+                "promoted state is absent from the canonical boundary", errors)
 
     return {
         "state": state,
         "status": "passed" if not errors else "failed",
         "releaseId": manifest.get("releaseId"),
+        "releaseStatus": release_status,
+        "promotionReady": promotion_ready,
+        "releaseFingerprint": release_fingerprint(manifest),
         "entities": len(entities),
         "eligible": len(eligible),
         "qa": len(qa),
