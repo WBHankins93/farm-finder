@@ -63,6 +63,13 @@ export default function FarmMap({
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
+    if (!maplibregl.supported()) {
+      // WebGL capability is the external browser state synchronized by this effect.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setMapError("The interactive map is unavailable in this browser.");
+      return;
+    }
+
     let map: MapLibreMap;
     try {
       map = new maplibregl.Map({
@@ -76,7 +83,6 @@ export default function FarmMap({
       });
     } catch {
       // MapLibre initialization is the external synchronization attempted by this effect.
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       setMapError("The interactive map is unavailable in this browser.");
       return;
     }
