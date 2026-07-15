@@ -14,6 +14,7 @@ import re
 import socket
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timezone
@@ -40,11 +41,13 @@ def normalized_name(value: object) -> str:
 
 def with_scheme(value: str) -> str:
     value = value.strip()
-    if not value:
+    if not value or re.search(r"\s", value):
         return ""
     if value.startswith(("http://", "https://")):
         return value
-    return f"https://{value}"
+    candidate = f"https://{value}"
+    parsed = urllib.parse.urlparse(candidate)
+    return candidate if parsed.hostname and "." in parsed.hostname else ""
 
 
 def check_url(url: str, attempts: int = 3, timeout: int = 20) -> dict:
