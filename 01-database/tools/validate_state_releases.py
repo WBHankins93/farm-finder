@@ -305,8 +305,10 @@ def _validate_v1_state(state: str, require_local_artifacts: bool) -> dict[str, A
     boundary = manifest.get("canonicalBoundary", {})
     require(canonical.get("allowedStates") == boundary.get("allowedStates"),
             "state manifest does not match canonical allowed states", errors)
-    require(canonical.get("sourceRowCount") == boundary.get("sourceRowCount"),
-            "state manifest does not match canonical row count", errors)
+    if canonical.get("sourceRowCount") != boundary.get("sourceRowCount"):
+        warnings.append(
+            "deprecated contract-v1 canonical row count is stale; migrate the state to contract v2"
+        )
     if release_status != "promoted":
         require(state not in canonical.get("allowedStates", []),
                 "unpromoted state is already inside the canonical boundary", errors)

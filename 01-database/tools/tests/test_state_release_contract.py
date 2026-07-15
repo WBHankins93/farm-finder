@@ -92,28 +92,38 @@ class CurrentStateContractTests(unittest.TestCase):
             self.assertFalse(result["promotable"])
 
     def test_release_fingerprint_changes_with_evidence_identity(self) -> None:
-        manifest = json.loads((STATE_ROOT / "AL" / "release-manifest.json").read_text())
-        changed = deepcopy(manifest)
-        changed["artifacts"][0]["versionId"] = "different-version"
-        self.assertNotEqual(release_fingerprint(manifest), release_fingerprint(changed))
+        state_dir = STATE_ROOT / "AL"
+        path = state_dir / "state.yaml" if (state_dir / "state.yaml").is_file() else state_dir / "release-manifest.json"
+        document = json.loads(path.read_text())
+        changed = deepcopy(document)
+        artifacts = changed["release"]["artifacts"] if "release" in changed else changed["artifacts"]
+        artifacts[0]["versionId"] = "different-version"
+        self.assertNotEqual(release_fingerprint(document), release_fingerprint(changed))
 
     def test_v1_state_migrates_to_exactly_four_valid_files(self) -> None:
+        legacy_states = sorted(
+            path for path in STATE_ROOT.iterdir()
+            if path.is_dir() and not (path / "state.yaml").is_file()
+        )
+        if not legacy_states:
+            self.skipTest("all committed states already use contract v2")
+        source_state = legacy_states[0]
         with tempfile.TemporaryDirectory() as temporary:
             state_root = Path(temporary) / "state-expansions"
-            shutil.copytree(STATE_ROOT / "AL", state_root / "AL")
+            shutil.copytree(source_state, state_root / source_state.name)
             original_migration_root = migration.STATE_ROOT
             original_validation_root = validation.STATE_ROOT
             try:
                 migration.STATE_ROOT = state_root
                 validation.STATE_ROOT = state_root
-                migration.migrate("AL")
-                result = validation.validate_state("AL", False)
+                migration.migrate(source_state.name)
+                result = validation.validate_state(source_state.name, False)
             finally:
                 migration.STATE_ROOT = original_migration_root
                 validation.STATE_ROOT = original_validation_root
             self.assertEqual(result["status"], "passed", result["errors"])
             self.assertEqual(
-                {path.name for path in (state_root / "AL").iterdir()},
+                {path.name for path in (state_root / source_state.name).iterdir()},
                 {"state.yaml", "entities.csv", "decisions.csv", "report.md"},
             )
 
