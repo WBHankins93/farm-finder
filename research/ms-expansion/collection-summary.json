@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "canonical_source_rows": 315,
+  "canonical_ms_rows": 72,
+  "three_passes_completed": [
+    1,
+    2,
+    3
+  ],
+  "unique_candidates_collected": 262,
+  "existing_exact_or_alias_matches": 51,
+  "new_candidates": 211,
+  "multi_source_candidates": 6,
+  "source_requests": 254,
+  "failed_source_requests": 0,
+  "county_values_present": 211,
+  "census_geocode_failures": 32
+}

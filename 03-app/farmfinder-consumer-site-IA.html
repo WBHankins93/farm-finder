@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FarmFinder — Consumer Site: Information Architecture &amp; Wireframe Skeleton</title>
+<style>
+  :root{
+    /* Field-journal palette (document chrome). Wireframes themselves stay low-fi grayscale. */
+    --loam:#2a2520; --ink:#1c1a17; --muted:#6b6459; --faint:#8a8378;
+    --kraft:#efe7d8; --cane:#faf6ee; --paper:#f6f1e7;
+    --moss:#3f6f52; --moss-soft:#e7efe6; --rust:#a8532f; --rust-soft:#f4e4da;
+    --brass:#9a7b3f; --line:#e0d7c6; --line2:#d2c8b4;
+    --wire:#3a3a3a; --wirebg:#fbfbfa; --wireline:#c8c8c8; --wiremuted:#888;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font:16px/1.6 "Iowan Old Style","Palatino Linotype",Georgia,serif;}
+  .app{display:grid;grid-template-columns:270px 1fr;max-width:1400px;margin:0 auto;}
+  /* Sidebar */
+  nav.toc{position:sticky;top:0;align-self:start;height:100vh;overflow:auto;
+          background:var(--loam);color:var(--cane);padding:26px 20px 60px;}
+  nav.toc .brand{font-weight:700;font-size:19px;letter-spacing:.02em;}
+  nav.toc .brand small{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+        color:#c8bfa8;font-weight:400;margin-top:4px;font-family:system-ui,sans-serif;}
+  nav.toc a{display:block;color:#d9d1bf;text-decoration:none;font-size:13.5px;padding:5px 0;
+        font-family:system-ui,-apple-system,sans-serif;border-left:2px solid transparent;padding-left:10px;margin-left:-10px;}
+  nav.toc a:hover{color:#fff;border-left-color:var(--rust);}
+  nav.toc .grp{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#8f8straight;
+        color:#a99f88;margin:20px 0 4px;font-family:system-ui,sans-serif;font-weight:600;}
+  main{padding:48px 56px 120px;min-width:0;}
+  /* Type */
+  h1{font-size:34px;line-height:1.12;margin:0 0 6px;letter-spacing:-.01em;}
+  h2{font-size:25px;margin:52px 0 6px;padding-top:22px;border-top:2px solid var(--ink);letter-spacing:-.01em;}
+  h3{font-size:18.5px;margin:30px 0 8px;color:var(--loam);}
+  h4{font-size:14px;margin:18px 0 6px;text-transform:uppercase;letter-spacing:.08em;color:var(--rust);
+     font-family:system-ui,sans-serif;}
+  p{margin:0 0 12px;} p.lede{font-size:18px;color:var(--loam);}
+  .kicker{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+          color:var(--moss);font-weight:700;margin:0 0 10px;}
+  a{color:var(--rust);}
+  ul,ol{margin:6px 0 14px;padding-left:22px;} li{margin:5px 0;}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;background:var(--kraft);
+       padding:1px 5px;border-radius:4px;}
+  /* Sans blocks */
+  .sans{font-family:system-ui,-apple-system,sans-serif;}
+  /* Banner */
+  .banner{background:var(--rust-soft);border:1px solid #e6c8b5;border-left:5px solid var(--rust);
+          border-radius:10px;padding:16px 20px;margin:20px 0 8px;font-family:system-ui,sans-serif;font-size:14.5px;}
+  .banner strong{color:var(--rust);}
+  .note{background:var(--moss-soft);border:1px solid #cfe0cd;border-left:5px solid var(--moss);
+        border-radius:10px;padding:14px 18px;margin:16px 0;font-family:system-ui,sans-serif;font-size:14px;}
+  .meta{font-family:system-ui,sans-serif;color:var(--muted);font-size:13.5px;}
+  /* Wireframe blocks */
+  .wire{background:var(--wirebg);border:1px solid var(--line2);border-radius:12px;padding:0;margin:14px 0 6px;overflow:hidden;}
+  .wire .cap{background:var(--kraft);border-bottom:1px solid var(--line2);padding:8px 14px;
+       font-family:system-ui,sans-serif;font-size:12.5px;font-weight:700;letter-spacing:.04em;color:var(--loam);
+       display:flex;justify-content:space-between;align-items:center;}
+  .wire .cap .route{font-weight:500;color:var(--muted);font-size:11.5px;font-family:ui-monospace,monospace;}
+  .wire pre{margin:0;padding:16px 18px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+       font-size:12px;line-height:1.5;color:var(--wire);white-space:pre;overflow-x:auto;background:#fff;}
+  .annot{display:grid;grid-template-columns:1fr;gap:0;padding:2px 18px 14px;font-family:system-ui,sans-serif;font-size:13px;}
+  .annot ol{margin:8px 0 0;padding-left:20px;} .annot li{margin:3px 0;color:var(--loam);}
+  .annot b{color:var(--rust);font-family:ui-monospace,monospace;font-size:12px;}
+  /* Tables */
+  table{width:100%;border-collapse:collapse;margin:10px 0 8px;font-family:system-ui,sans-serif;font-size:13.5px;}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:var(--cane);}
+  tr:nth-child(even) td{background:#fbf8f2;}
+  .pill{display:inline-block;font-family:system-ui,sans-serif;font-size:11px;font-weight:700;padding:2px 9px;
+        border-radius:999px;background:var(--moss-soft);color:var(--moss);}
+  .pill.p2{background:var(--rust-soft);color:var(--rust);}
+  .pill.p3{background:var(--kraft);color:var(--brass);}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:22px;}
+  @media(max-width:900px){.app{grid-template-columns:1fr}.app nav.toc{display:none}main{padding:28px 20px 80px}.cols{grid-template-columns:1fr}}
+  .foot{margin-top:56px;border-top:1px solid var(--line);padding-top:16px;font-family:system-ui,sans-serif;font-size:12.5px;color:var(--muted);}
+  .prompt{background:#241f1a;color:#e9e2d2;border-radius:12px;padding:18px 20px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+          font-size:12.5px;line-height:1.6;white-space:pre-wrap;margin:12px 0;overflow-x:auto;}
+</style>
+</head>
+<body>
+<div class="app">
+<nav class="toc">
+  <div class="brand">FarmFinder<small>Consumer Site · IA Package</small></div>
+  <div class="grp">Foundations</div>
+  <a href="#intro">0 · Read me first</a>
+  <a href="#philosophy">1 · Design philosophy</a>
+  <a href="#artdir">2 · Art direction</a>
+  <div class="grp">Structure</div>
+  <a href="#sitemap">3 · Sitemap</a>
+  <a href="#components">4 · Component inventory</a>
+  <div class="grp">Wireframes</div>
+  <a href="#w-home">5.1 Home</a>
+  <a href="#w-discover">5.2 Discover (map + list)</a>
+  <a href="#w-farm">5.3 Farm profile</a>
+  <a href="#w-fresh">5.4 What's Fresh</a>
+  <a href="#w-markets">5.5 Markets</a>
+  <a href="#w-stories">5.6 Stories &amp; spotlight</a>
+  <a href="#w-region">5.7 Region landing</a>
+  <a href="#w-shop">5.8 Shop / cart / checkout</a>
+  <a href="#w-farmers">5.9 For Farmers + Claim</a>
+  <a href="#w-dash">5.10 Farmer dashboard</a>
+  <div class="grp">Behavior</div>
+  <a href="#flows">6 · User flows</a>
+  <a href="#data">7 · Data mapping</a>
+  <a href="#scope">8 · Scope &amp; open questions</a>
+</nav>
+
+<main>
+<p class="kicker">FarmFinder · Track 3 (App) — Website-First</p>
+<h1>Consumer Site — Information Architecture &amp; Wireframe Skeleton</h1>
+<p class="meta">Planning artifact · 2026-07-13 · Scope: Discovery core + Trust/story layer + Ordering + Farm onboarding · Geography: Gulf South, South-Louisiana-first · Archetype: Field Journal (× Product OS) · Derived with the <code>ui-design-system</code> skill.</p>
+
+<div class="banner" id="intro">
+<strong>Read me first — this is a plan, not a build.</strong> Nothing here is production code. The gray boxes are
+<em>low-fidelity wireframes</em> (structure and hierarchy only — no real styling, copy, or imagery). The document chrome
+carries the intended brand palette so you can feel the direction, but the screens themselves are deliberately unstyled so we
+argue about <em>structure</em> before anyone writes CSS. Purpose: get aligned on pages, components, and flows for the
+"website-first" version of the FarmFinder app — the thing you can show users to convey the idea. Ordering and farmer-onboarding
+are included in the skeleton per your scope decision, even though AGENTS.md keeps them for a later build phase.
+</div>
+
+<!-- ============================= 1 PHILOSOPHY ============================= -->
+<h2 id="philosophy">1 · Design philosophy — why it won't look like the dashboard</h2>
+<p class="lede">The internal dashboard is a facade over a spreadsheet: tabs, tables, stat cards. Correct for you; wrong for the public.
+The consumer site has to make someone <em>feel</em> that fresh, local food is all around them and worth the trip.</p>
+<p>Three ideas drive every decision below:</p>
+<ol>
+<li><b>Place over product.</b> The hero of this site is the <em>region and its farms</em>, not a search bar on a gradient.
+The emotional pitch ("the backbone of this country is a 20-minute drive away") is structural, not a footer afterthought.</li>
+<li><b>Map is the spine, story is the skin.</b> Discovery (map + filter + profiles) is the utility that keeps people coming back;
+editorial (why-local, farmer spotlights, seasonality) is what converts a first-time visitor into a believer. Both are first-class.</li>
+<li><b>Depth is the differentiator — so surface it.</b> Your database goes deep where LocalHarvest/Localize go shallow.
+The UI must show that depth: market days, what's in season <em>this week</em>, certifications, CSA, ships-vs-pickup — not just a pin and a name.</li>
+</ol>
+<div class="note"><b>Anti-slop guard rails</b> (from the <code>ui-design-system</code> skill) applied throughout: no left-copy/right-image hero,
+no eyebrow+subhead+two-button stack, no equal 3-column icon cards, no purple gradients, no Inter-for-everything, no fade-up-on-everything.
+The layout should be recognizable with the text stripped out.</div>
+
+<!-- ============================= 2 ART DIRECTION ============================= -->
+<h2 id="artdir">2 · Art direction</h2>
+<h3>Archetype: <em>Field Journal</em> (primary) × <em>Product OS</em> (functional screens)</h3>
+<p>Field Journal is the craft/artisan/sustainability archetype — it reads as a naturalist's field notebook: full-bleed land and
+produce photography, a hand-annotated feel, seasonal margins, ink-on-kraft texture. It is the correct structural metaphor for a
+farm-discovery brand and the single biggest lever against generic output. The transactional screens (discover, shop, dashboard)
+borrow <em>Product OS</em> structure — quiet panels, a real map, low but intentional density — so utility never fights the mood.</p>
+
+<h4>Palette — described in materials, not hex</h4>
+<table>
+<tr><th>Material</th><th>Role</th></tr>
+<tr><td>Sun-bleached kraft paper</td><td>Primary surface / backgrounds</td></tr>
+<tr><td>Field loam brown &amp; ink</td><td>Text, structure, rules</td></tr>
+<tr><td>Cane-sugar cream</td><td>Cards, quiet pockets, negative space</td></tr>
+<tr><td>Deep bayou / cypress green</td><td>Brand accent, "in season," verified marks</td></tr>
+<tr><td>Boiled-crawfish rust / terracotta</td><td>Sparingly — the single discreet CTA color</td></tr>
+<tr><td>Morning-fog off-white &amp; aged brass</td><td>Overlays, hairlines, certification badges</td></tr>
+</table>
+
+<h4>Typography</h4>
+<p>Oversized editorial <b>serif</b> display (headlines cross imagery, journal-style); small-caps, wide-tracked
+<b>humanist sans</b> for navigation, labels, and utility. Letter-spacing modulates density: titles tight, nav wide, meta tracked.
+No Inter-for-everything.</p>
+
+<h4>Buttons &amp; motion</h4>
+<p>Primary CTA is a single discreet <b>transparent glass/ink pill</b> with a fine border and uppercase small type — never two bright
+blocks. Motion is archetype-specific: <b>page-curl hint and ink-bleed reveals on scroll</b> for editorial sections, slow map/label
+settling for discovery — never generic fade-up. Always respect <code>prefers-reduced-motion</code>.</p>
+
+<div class="note"><b>Ready-to-paste hero reference prompt</b> (Step 1 of the ui-design-system workflow, parameters filled for FarmFinder).
+Feed this to an image tool to generate the art plate <em>before</em> any coding — this is the visual source of truth, not a wireframe.</div>
+<div class="prompt">Create ONE horizontal 16:9 website hero design reference, but do NOT use a conventional website hero layout.
+
+Business: FarmFinder — a Gulf South local-farm discovery brand connecting people with small, direct-to-consumer farms (produce, eggs, honey, seafood, flowers). Mission-driven, agrarian, rooted in South Louisiana.
+
+Layout archetype: field journal — a naturalist's field notebook that happens to be shaped like a website.
+
+Composition first:
+- Full-bleed, golden-hour photography of a working South Louisiana small farm (rows of produce, cypress/bayou edge) dominates the whole canvas.
+- Typography integrated like a field journal: an oversized serif title crossing the image, hand-annotated vertical captions in the margin ("in season this week", a hand-drawn map arrow), small-caps navigation tucked into the top edge.
+- No left-column marketing block. No image-right/copy-left split. No eyebrow/subheadline/two-button stack.
+- A single discreet editorial "stamp" pill in a lower corner as the only CTA.
+- Asymmetry, cropping, generous negative space, journal-margin annotations.
+- Make the layout recognizable even if the text is removed.
+
+Palette: sun-bleached kraft, field loam brown, cane-sugar cream, deep bayou green, boiled-crawfish rust accent, morning-fog off-white, aged brass.
+
+Typography: large readable editorial serif headline; refined small-caps humanist sans for small UI.
+
+Copy to include legibly but minimally: "FarmFinder", "Fresh is closer than you think", "Find farms near you".
+
+Make it feel like an Awwwards-level field-journal editorial homepage, structurally different from a SaaS hero. Convertible into a coded site using one major background/visual asset plus real coded text/navigation/buttons.</div>
+
+<!-- ============================= 3 SITEMAP ============================= -->
+<h2 id="sitemap">3 · Sitemap</h2>
+<p>Two audiences on one platform: <b>eaters</b> (public discovery + ordering) and <b>farmers</b> (claim + manage). Public site
+defaults to South Louisiana where coverage is deepest, with a region switcher wired for the concentric-ring expansion
+(Gulf South → Ring 1 → …) from your scaling document.</p>
+<div class="wire">
+<div class="cap">Sitemap — v1 skeleton <span class="route">public + farmer + system</span></div>
+<pre>
+FarmFinder
+│
+├─ PUBLIC · Discover & story ─────────────────────────────
+│   ├─ /                         Home (Field-journal hero, "fresh near you", region switcher)
+│   ├─ /discover                 Map + filterable list  ◄── the spine
+│   │     └─ ?region= &products= &csa= &cert= &market-day= &ships=      (filter state in URL)
+│   ├─ /farms/:slug              Farm profile  (deep record: products, seasons, market days, certs)
+│   │     └─ /farms/:slug/shop   Farm storefront (only if farm has ordering)
+│   ├─ /whats-fresh              Seasonal browse — "what's in season this week" → farms carrying it
+│   │     └─ /whats-fresh/:crop  Single product → nearby farms + seasonality band
+│   ├─ /markets                  Farmers-market directory + weekly schedule  (from Markets tab)
+│   │     └─ /markets/:slug       Single market: day/time/vendors present
+│   ├─ /stories                  Editorial hub — Why Local · Spotlights · Seasonality guide
+│   │     └─ /stories/:slug       Article / farmer spotlight
+│   ├─ /region/:slug             Region landing (south-louisiana default; gulf-south, south-mississippi…)
+│   ├─ /about  /how-it-works     Mission + trust
+│   └─ /for-farmers              Cross-over pitch to the supply side
+│
+├─ ORDERING (scoped now, build later) ────────────────────
+│   ├─ /cart                     Cross-farm cart (grouped by farm & fulfillment)
+│   ├─ /checkout                 Pickup / market-pickup / local-delivery
+│   └─ /order/:id                Confirmation + pickup instructions
+│
+├─ FARMER · Claim & manage ───────────────────────────────
+│   ├─ /for-farmers              Landing / value prop
+│   ├─ /claim                    Search the database → "This is my farm"  ◄── uses YOUR data as the hook
+│   ├─ /join                     New farm (not yet in DB) signup
+│   └─ /dashboard                Farmer home
+│         ├─ /dashboard/listing    Profile & story editor
+│         ├─ /dashboard/products   Products + weekly availability
+│         ├─ /dashboard/schedule   Market days / on-farm hours
+│         └─ /dashboard/orders     Incoming orders (if ordering enabled)
+│
+└─ SYSTEM ────────────────────────────────────────────────
+    ├─ /search                   Global search (farms, products, markets, places)
+    ├─ /account · /account/orders · /account/saved
+    ├─ auth (login / signup / magic-link)   ·   location permission prompt
+    └─ 404 · empty-region state ("we're still cataloging this area — get notified")
+</pre>
+</div>
+<div class="note"><b>Strategic hook in the sitemap:</b> <code>/claim</code> turns your 315-farm database into the farmer-acquisition
+engine — a farmer searches, finds their farm <em>already listed with real detail</em>, and claims it. That "you already know us"
+moment is the two-sided cold-start solution the market brief worries about.</div>
+
+<!-- ============================= 4 COMPONENTS ============================= -->
+<h2 id="components">4 · Component inventory</h2>
+<p>The reusable kit. Every wireframe below is assembled from these; names are the shared vocabulary for a future build.</p>
+<table>
+<tr><th>Component</th><th>Type</th><th>Notes / anti-slop intent</th></tr>
+<tr><td><code>RegionSwitcher</code></td><td>Global</td><td>Top-edge, small-caps. Defaults to South LA; lists live regions + "coming soon" (ring plan).</td></tr>
+<tr><td><code>JournalNav</code></td><td>Global</td><td>Quiet uppercase nav tucked to top edge; thin underline on hover. Not a desktop hamburger.</td></tr>
+<tr><td><code>LocationCue</code></td><td>Global</td><td>"Farms near <em>Covington</em>" — editable place chip; drives all "near me" queries.</td></tr>
+<tr><td><code>GlassCTA</code></td><td>Atom</td><td>The single discreet rust/ink pill. One per view, ideally.</td></tr>
+<tr><td><code>FarmCard</code></td><td>Molecule</td><td>Photo-led, asymmetric. Name, place, 2-3 product glyphs, market-day tag, distance. NOT a rounded drop-shadow card grid.</td></tr>
+<tr><td><code>MapCanvas</code> + <code>Pin</code>/<code>Cluster</code></td><td>Molecule</td><td>Full-height map; pins by category; clusters by parish. Hover ↔ list sync.</td></tr>
+<tr><td><code>FilterRail</code></td><td>Molecule</td><td>Products · Certs (LDAF/GAP/Organic/AGA) · CSA · Ships · Market day · On-farm sales. Maps 1:1 to DB booleans.</td></tr>
+<tr><td><code>SeasonBand</code></td><td>Molecule</td><td>Horizontal calendar strip showing when a crop is in season; "now" marker.</td></tr>
+<tr><td><code>MarketDayBlock</code></td><td>Molecule</td><td>Where/when to find this farm this week — the highest-value field per the contact research.</td></tr>
+<tr><td><code>CertBadge</code> / <code>CSABadge</code></td><td>Atom</td><td>Aged-brass stamps. Trust signals; filterable.</td></tr>
+<tr><td><code>WebPresenceMeter</code></td><td>Atom</td><td>Internal-ish: your 0–10 score can drive a subtle "new to the web — say hi" nudge on thin profiles.</td></tr>
+<tr><td><code>ProductCard</code> + <code>AvailabilityBadge</code></td><td>Molecule</td><td>Shop screens. In-stock / seasonal / pre-order states.</td></tr>
+<tr><td><code>StoryCard</code></td><td>Molecule</td><td>Editorial teaser — magazine crop, not icon card.</td></tr>
+<tr><td><code>CartLine</code> / <code>OrderSummary</code></td><td>Molecule</td><td>Grouped by farm + fulfillment method.</td></tr>
+<tr><td><code>ClaimResult</code></td><td>Molecule</td><td>DB-backed search hit with a "This is my farm" action.</td></tr>
+<tr><td><code>ListingForm</code></td><td>Organism</td><td>Farmer-facing editor; fields map to the schema (see §7).</td></tr>
+<tr><td><code>EmptyRegion</code></td><td>State</td><td>Honest "still cataloging" state + email capture. Avoids the wide-and-shallow lie.</td></tr>
+<tr><td><code>JournalFooter</code></td><td>Global</td><td>Region list, for-farmers, mission, sources credit.</td></tr>
+</table>
+
+<!-- ============================= 5 WIREFRAMES ============================= -->
+<h2 id="w-home">5 · Wireframes</h2>
+<p class="meta">Low-fi. <b>[ ]</b> = container/panel · <b>▓</b> = image/media zone · <b>◦</b> = control · numbers ↔ annotations beneath.</p>
+
+<h3 id="w-home">5.1 · Home</h3>
+<div class="wire">
+<div class="cap">Home <span class="route">/</span></div>
+<pre>
+┌──────────────────────────────────────────────────────────────────────────┐
+│ FARMFINDER            DISCOVER  WHAT'S FRESH  MARKETS  STORIES   ◦ Covington▾│ 1
+│                                                                            │
+│ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ FULL-BLEED FARM PHOTOGRAPH ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ │
+│ ▓                                                              in season ▓ │ 2
+│ ▓     Fresh is closer                                         · okra     ▓ │
+│ ▓     than you think.                                         · figs     ▓ │ 3
+│ ▓         (serif, crossing image)                            · shrimp   ▓ │
+│ ▓                                                            · honey    ▓ │
+│ ▓                                          ┌──────────────────────────┐ ▓ │
+│ ▓                                          │ ◦ Find farms near you  → │ ▓ │ 4
+│ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ └──────────────────────────┘ ▓ │
+├──────────────────────────────────────────────────────────────────────────┤
+│  87 farms within 30 miles of you · 12 at a market this week               │ 5
+├──────────────────────────────────────────────────────────────────────────┤
+│  WHAT'S FRESH THIS WEEK                                                    │
+│   [▓ okra ] [▓ figs ] [▓ creole toms] [▓ shrimp ] [▓ honey ]  → all       │ 6
+├──────────────────────────────────────────────────────────────────────────┤
+│  FARMS TO MEET                                (asymmetric, not 3 equal)    │
+│   ┌───────────────┐  ┌─────────┐                                          │
+│   │ ▓ big feature │  │ ▓ farm  │   Credo Farms — Amite · eggs, pork       │ 7
+│   │   Credo Farms │  │  card   │   Sprout NOLA — CCFM Thursdays           │
+│   └───────────────┘  └─────────┘   Cicada Calling — Independence · CSA    │
+├──────────────────────────────────────────────────────────────────────────┤
+│  WHY LOCAL  ▓▓ editorial band — "the backbone of the country is nearby"   │ 8
+│   [ StoryCard ]        [ StoryCard: farmer spotlight ]        → Stories    │
+├──────────────────────────────────────────────────────────────────────────┤
+│  ARE YOU A FARMER?  You may already be in our directory. →  Claim your farm│ 9
+├──────────────────────────────────────────────────────────────────────────┤
+│  JournalFooter · Regions ▾ (S. Louisiana ✓ · S. Mississippi ✓ · more soon)│ 10
+└──────────────────────────────────────────────────────────────────────────┘
+</pre>
+</div>
+<div class="annot"><ol>
+<li><b>1</b> <code>JournalNav</code> + <code>RegionSwitcher</code> tucked into the top edge — quiet, uppercase, no desktop hamburger.</li>
+<li><b>2–3</b> Field-journal hero: full-bleed media, serif title crossing it, hand-annotated "in season this week" margin. No copy/image split.</li>
+<li><b>4</b> The single <code>GlassCTA</code> as a corner stamp — one action, discreet.</li>
+<li><b>5</b> Live proof-of-density strip — turns the "fresh is all around you" claim into a number, personalized by <code>LocationCue</code>.</li>
+<li><b>6</b> <code>SeasonBand</code>-driven "what's fresh" rail — the utility that makes the site a weekly habit.</li>
+<li><b>7</b> <code>FarmCard</code> set, deliberately asymmetric (one feature + smaller) to dodge the equal-3-column slop.</li>
+<li><b>8</b> Editorial "Why Local" band — the emotional pitch, first-class not footer.</li>
+<li><b>9</b> Supply-side conversion hook straight to <code>/claim</code>.</li>
+<li><b>10</b> Footer surfaces the ring-expansion honestly (live vs. coming soon).</li>
+</ol></div>
+
+<h3 id="w-discover">5.2 · Discover — map + filterable list (the spine)</h3>
+<div class="wire">
+<div class="cap">Discover <span class="route">/discover?region=south-la&amp;products=eggs&amp;market-day=thu</span></div>
+<pre>
+┌──────────────────────────────────────────────────────────────────────────┐
+│ FARMFINDER   ◦ Covington▾   ◦ Search farms & products…            STORIES  │ 1
+├───────────────┬──────────────────────────────────────────────────────────┤
+│ FILTER RAIL   │                                                          │ │
+│               │              ▓▓▓  MAP CANVAS  ▓▓▓                         │ │
+│ Products      │        ● (pin)        ⬤ 6 (cluster / parish)             │ 3
+│  ☑ eggs       │              ●                                           │ │
+│  ☐ produce    │                    ●        ● ← hovered = card lifts     │ │
+│  ☐ honey      │       ●                                                  │ │
+│  ☐ seafood    │                                                          │ │
+│ Certs         │                                                          │ │
+│  ☐ LDAF ☐ GAP │──────────────────────────────────────────────────────────│
+│  ☐ Organic    │  LIST  ·  87 farms  ·  sort: distance ▾                   │ 4
+│ ☑ At a market │  ┌────────────────────────────────────────────────────┐  │ │
+│   day: Thu    │  │ ▓  Credo Farms · Amite · 8 mi                        │  │ │
+│ ☐ CSA         │  │    eggs · pork · broth   ◦ Thu: Covington Market     │  │ 5
+│ ☐ Ships       │  └────────────────────────────────────────────────────┘  │ │
+│ ☐ On-farm     │  ┌────────────────────────────────────────────────────┐  │ │
+│               │  │ ▓  Sprout NOLA · New Orleans · 41 mi                 │  │ │
+│ [ Clear ]     │  │    urban produce   ◦ Thu: CCFM   ⬢ new to the web    │  │ 6
+│               │  └────────────────────────────────────────────────────┘  │ │
+└───────────────┴──────────────────────────────────────────────────────────┘
+</pre>
+</div>
+<div class="annot"><ol>
+<li><b>1</b> Persistent <code>LocationCue</code> + global search. Filters + place both serialize into the URL (shareable, back-button safe).</li>
+<li><b>3</b> <code>MapCanvas</code> with category <code>Pin</code>s and parish-level <code>Cluster</code>s (fits your city/parish geocode precision). Hover syncs to the list.</li>
+<li><b>4</b> Split view, map-led. Product-OS density here — quiet, not journal-lush.</li>
+<li><b>5</b> <code>FarmCard</code> (list variant) leads with the <code>MarketDayBlock</code> — the field your contact research proved most findable and most useful.</li>
+<li><b>6</b> <code>WebPresenceMeter</code> surfaces a gentle "new to the web" mark on thin profiles — honest, and a soft Sproutflow lead signal.</li>
+<li><b>FilterRail</b> maps 1:1 to database booleans (Has Website, CSA, Ships, On-Farm Sales, certs) — no filter exists that the data can't answer.</li>
+</ol></div>
+
+<h3 id="w-farm">5.3 · Farm profile (the deep record)</h3>
+<div class="wire">
+<div class="cap">Farm profile <span class="route">/farms/credo-farms</span></div>
+<pre>
+┌──────────────────────────────────────────────────────────────────────────┐
+│ ← Discover                                                    ♡ Save   ⤴   │ 1
+│ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓ FARM BANNER PHOTO ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ │
+│   Credo Farms                                          ⬡LDAF ⬡GAP        │ 2
+│   Amite, Tangipahoa Parish · 8 mi                     (aged-brass stamps) │
+├───────────────────────────────────────────┬──────────────────────────────┤
+│  THE STORY (editorial, journal voice)      │  FIND / BUY                  │ │
+│  ▓▓ pull quote + 2 short paras ▓▓          │  ┌─────────────────────────┐ │ │
+│                                            │  │ ◦ Shop online        →  │ │ 3
+│  WHAT THEY GROW & RAISE                    │  │ ◦ Get directions        │ │ │
+│   eggs · pork · chicken · broth · soap     │  └─────────────────────────┘ │ │
+│                                            │                              │ │
+│  IN SEASON NOW  [SeasonBand ▤▤▤●▤▤ ]       │  WHERE TO FIND THEM          │ 4
+│                                            │   Thu · Covington Market 3–7 │ │
+│  HOW TO GET IT                             │   Home delivery · LA-wide    │ │
+│   ✓ On-farm  ✓ Delivery  ✓ Ships  ✗ CSA    │                              │ │
+│                                            │  CONTACT                     │ 5
+│  CERTIFICATIONS  LDAF · GAP                 │   ◦ (985) 327-5122           │ │
+│                                            │   ◦ credofarms.com           │ │
+│                                            │   ◦ Facebook                 │ │
+├───────────────────────────────────────────┴──────────────────────────────┤
+│  NEARBY FARMS YOU MIGHT LIKE   [FarmCard][FarmCard][FarmCard]              │ 6
+└──────────────────────────────────────────────────────────────────────────┘
+                     ── thin-profile variant ──
+│  ⬢ New to the web. FarmFinder listed this farm from public records.        │ 7
+│    Know them? Suggest an edit.   ·   Are you the owner? → Claim this farm.  │
+</pre>
+</div>
+<div class="annot"><ol>
+<li><b>1</b> Save + share (share is the growth loop — a profile is the shareable unit).</li>
+<li><b>2</b> Identity + <code>CertBadge</code> stamps over the banner.</li>
+<li><b>3</b> Right rail is the action column: shop (if enabled) or the discreet directions/contact set. Single primary <code>GlassCTA</code>.</li>
+<li><b>4</b> <code>MarketDayBlock</code> + fulfillment — the "how do I actually get this" answer, up high.</li>
+<li><b>5</b> Contact block populated by the enrichment work; degrades gracefully to web/social when no phone.</li>
+<li><b>6</b> Related farms keep people in discovery.</li>
+<li><b>7</b> <b>Thin-profile variant</b> — the honest state for the ~68% with little web presence: transparent about provenance, invites a claim/edit. This is the differentiator turned into UI.</li>
+</ol></div>
+
+<h3 id="w-fresh">5.4 · What's Fresh — seasonal browse</h3>
+<div class="wire">
+<div class="cap">What's Fresh <span class="route">/whats-fresh</span> · <span class="route">/whats-fresh/okra</span></div>
+<pre>
+┌──────────────────────────────────────────────────────────────────────────┐
+│  WHAT'S FRESH — near Covington · week of Jul 13                            │
+│  SeasonBand (year strip, "now" marker):  Jan─────Jul●───────────Dec        │ 1
+│                                                                            │
+│  RIGHT NOW            ┌ okra ┐ ┌ figs ┐ ┌ creole toms ┐ ┌ shrimp ┐ ┌honey┐ │ 2
+│                       └ ▓▓▓ ┘ └ ▓▓▓ ┘ └   ▓▓▓▓▓    ┘ └ ▓▓▓▓ ┘ └ ▓▓ ┘   │
+│  COMING SOON          citrus · sweet potato · pecans                       │ 3
+│  ──────────────────────────────────────────────────────────────────────── │
+│  › single crop:  OKRA                                                      │
+│     SeasonBand ▤▤▤▤▓▓▓●▓▓▤▤   in season Jun–Sep                            │ 4
+│     14 farms near you have okra now →  [FarmCard][FarmCard][FarmCard]…     │ 5
+└──────────────────────────────────────────────────────────────────────────┘
+</pre>
+</div>
+<div class="annot"><ol>
+<li><b>1</b> A regional seasonality model (Gulf South calendar) powers this — an editorial asset national apps lack.</li>
+<li><b>2–3</b> "Right now / coming soon" reframes browsing around <em>time</em>, not SKUs.</li>
+<li><b>4</b> Per-crop <code>SeasonBand</code> teaches seasonality (mission/education) while being useful.</li>
+<li><b>5</b> Crop → the farms near you that carry it → profile. Ties story back into discovery.</li>
+</ol></div>
+
+<h3 id="w-markets">5.5 · Markets directory</h3>
+<div class="wire">
+<div class="cap">Markets <span class="route">/markets</span> · <span class="route">/markets/crescent-city-thursday</span></div>
+<pre>
+┌──────────────────────────────────────────────────────────────────────────┐
+│  FARMERS MARKETS — South Louisiana            ◦ this week ▾   ◦ map / list │
+│  MON  TUE  WED  THU●  FRI  SAT  SUN         (day tabs; today highlighted)  │ 1
+│  ┌────────────────────────────────────────────────────────────────────┐   │
+│  │ Crescent City FM — Mid-City · Thu 3–7 · 500 N Norman C Francis Pkwy │   │ 2
+│  │   vendors today: Mycelium Express · Sprout NOLA · Cicada Calling …  │   │ 3
+│  └────────────────────────────────────────────────────────────────────┘   │
+│  ┌────────────────────────────────────────────────────────────────────┐   │
+│  │ Covington Farmers Market · Sat 8–12 · …                             │   │
+│  └────────────────────────────────────────────────────────────────────┘   │
+└──────────────────────────────────────────────────────────────────────────┘
+</pre>
+</div>
+<div class="annot"><ol>
+<li><b>1</b> Day-of-week is the primary axis — how people actually plan a market trip.</li>
+<li><b>2</b> Built from your Farmers Markets tab (20 markets) + schedules recovered in the contact research.</li>
+<li><b>3</b> Market ⇄ farm cross-links: a market lists which cataloged farms appear there, each linking to its profile. Two datasets, one graph.</li>
+</ol></div>
+
+<h3 id="w-stories">5.6 · Stories hub &amp; spotlight article</h3>
+<div class="cols">
+<div class="wire">
+<div class="cap">Stories hub <span class="route">/stories</span></div>
+<pre>
+┌────────────────────────────────────┐
+│ STORIES                             │
+│ ▓▓ FEATURED — full-bleed spotlight ▓│ 1
+│    "The Provosts & the last of      │
+│     the sugarcane"                  │
+├────────────────────────────────────┤
+│ WHY LOCAL   SPOTLIGHTS   SEASONALITY│ 2
+│ [StoryCard]      [StoryCard]        │
+│ [StoryCard]      [StoryCard]        │
+└────────────────────────────────────┘
+</pre>
+</div>
+<div class="wire">
+<div class="cap">Article <span class="route">/stories/:slug</span></div>
+<pre>
+┌────────────────────────────────────┐
+│ ▓▓ hero image, serif title over ▓▓  │
+│  Editorial body (journal measure,   │ 3
+│  wide margins, pull quotes)         │
+│                                     │
+│  ── mentioned in this story ──      │
+│  [FarmCard: Provost Farm] →         │ 4
+│  ◦ Share                            │
+└────────────────────────────────────┘
+</pre>
+</div>
+</div>
+<div class="annot"><ol>
+<li><b>1–2</b> Magazine hierarchy (one feature + categories), not an equal card grid. Categories double as the content strategy: acquisition (Why Local), depth (Spotlights), utility (Seasonality).</li>
+<li><b>3</b> Long-form journal measure — the trust layer that converts believers and gives farms dignity/representation.</li>
+<li><b>4</b> Every story links to real farm profiles — editorial feeds discovery feeds farms.</li>
+</ol></div>
+
+<h3 id="w-region">5.7 · Region landing (ring expansion)</h3>
+<div class="wire">
+<div class="cap">Region <span class="route">/region/south-louisiana</span> · <span class="route">/region/gulf-south</span></div>
+<pre>
+┌──────────────────────────────────────────────────────────────────────────┐
+│ ▓▓ regional hero ▓▓   South Louisiana — 235 farms cataloged                │ 1
+│  Parishes ▾   ·   What's fresh here   ·   Markets this week                │
+│  ┌ coverage note ─────────────────────────────────────────────────────┐   │
+│  │ ✓ Deep: NOLA Metro, Northshore, Acadiana   ◦ Growing: River Parishes│   │ 2
+│  └────────────────────────────────────────────────────────────────────┘   │
+│  [ Discover farms here → ]                                                 │
+├──────────────────────────────────────────────────────────────────────────┤
+│  EmptyRegion variant (e.g. /region/alabama, Ring 1 not live):             │ 3
+│   "We're cataloging Gulf South next. Be first to know →  ◦ email"          │
+│   Ring map:  ● LA/MS  ○ AL·E-TX·AR  ○ TN·GA·FL-N·SC                        │
+└──────────────────────────────────────────────────────────────────────────┘
+</pre>
+</div>
+<div class="annot"><ol>
+<li><b>1–2</b> Region pages make each ring a launchable, SEO-friendly market and show coverage <em>honestly</em> (deep vs. growing) — the opposite of wide-and-shallow.</li>
+<li><b>3</b> <code>EmptyRegion</code> converts out-of-area demand into a waitlist and visualizes the concentric-ring plan from your scaling doc, so "national ambition" reads as a roadmap, not a false claim.</li>
+</ol></div>
+
+<h3 id="w-shop">5.8 · Shop → Cart → Checkout → Confirmation</h3>
+<div class="banner"><strong>Scope flag:</strong> included in the skeleton per your decision; AGENTS.md keeps ordering for a later build phase.
+Design so a farm with <em>no</em> online store still works perfectly in discovery — ordering is progressive enhancement, never a dead end.</div>
+<div class="wire">
+<div class="cap">Farm storefront → Cart → Checkout → Confirmation <span class="route">/farms/:slug/shop · /cart · /checkout · /order/:id</span></div>
+<pre>
+ SHOP (/farms/:slug/shop)          CART (/cart)                 CHECKOUT (/checkout)
+┌───────────────────────────┐   ┌──────────────────────────┐  ┌──────────────────────────┐
+│ Credo Farms · Store        │   │ YOUR CART                │  │ 1 · FULFILLMENT          │
+│ ┌ ProductCard ┐┌ Product ┐ │   │ ── Credo Farms ──────────│  │  ◉ On-farm pickup        │ 3
+│ │ ▓ eggs      ││ ▓ pork  │ │   │  Eggs ×2      [AvailBadge]│  │  ○ Market pickup (Thu)   │
+│ │ $6  ◦ Add   ││ $18 Add │ │ 1 │  Pork  ×1               │  │  ○ Local delivery        │
+│ └─────────────┘└─────────┘ │   │  ── grouped by farm ─────│  │ 2 · WHEN                 │
+│ ┌ Product ┐┌ Product ┐     │   │  + River Queen Greens    │ 2│  ◦ Sat Jul 18 window     │
+│ │ ▓ broth ││ ▓ soap  │     │   │                          │  │ 3 · DETAILS + PAY        │
+│ └─────────┘└─────────┘     │   │  Subtotal … · fees by    │  │  name · phone · pay      │
+│ [ AvailabilityBadge: pre-  │   │  fulfillment method      │  │  [ ◦ Place order → ]     │
+│   order · seasonal ]       │   │  [ ◦ Checkout → ]        │  │                          │
+└───────────────────────────┘   └──────────────────────────┘  └──────────────────────────┘
+ CONFIRMATION (/order/:id):  ✓ Order placed · pickup Thu at Covington Market 3–7 · map · add to calendar · text the farm
+</pre>
+</div>
+<div class="annot"><ol>
+<li><b>1</b> <code>ProductCard</code> + <code>AvailabilityBadge</code> handle the reality of farm stock: in-stock / seasonal / pre-order — not e-commerce "always buy now."</li>
+<li><b>2</b> Cart <em>groups by farm and fulfillment</em> — a multi-farm cart is the marketplace's real shape; each farm sets its own pickup/delivery.</li>
+<li><b>3</b> Checkout leads with <em>fulfillment</em> (pickup / market pickup / local delivery), because logistics — not payment — is the hard part of local food. Confirmation reinforces the market-day habit.</li>
+</ol></div>
+
+<h3 id="w-farmers">5.9 · For Farmers + Claim your farm</h3>
+<div class="cols">
+<div class="wire">
+<div class="cap">For Farmers <span class="route">/for-farmers</span></div>
+<pre>
+┌────────────────────────────────────┐
+│ ▓▓ hero: a farmer, journal voice ▓▓ │
+│  "You're already the backbone.      │
+│   Let people find you."             │ 1
+│  ◦ Claim your farm  (free)          │
+├────────────────────────────────────┤
+│ How it works · 1 find 2 claim 3 add │ 2
+│ What you get · profile, map, market │
+│   days, orders (optional)           │
+│ ── Powered by Sproutflow ──         │ 3
+│   Want a full website? →            │
+└────────────────────────────────────┘
+</pre>
+</div>
+<div class="wire">
+<div class="cap">Claim <span class="route">/claim</span></div>
+<pre>
+┌────────────────────────────────────┐
+│ CLAIM YOUR FARM                     │
+│ ◦ Search: "Credo"________  [find]   │ 4
+│ ┌ ClaimResult ────────────────────┐ │
+│ │ Credo Farms · Amite · eggs,pork │ │ 5
+│ │ [ This is my farm ]             │ │
+│ └─────────────────────────────────┘ │
+│ Not listed? → /join (add new farm)  │ 6
+│ ── verify ──  ◦ email/phone match   │ 7
+│   or "we'll confirm within 48h"     │
+└────────────────────────────────────┘
+</pre>
+</div>
+</div>
+<div class="annot"><ol>
+<li><b>1</b> Pitch in the farm's own language; the CTA is "claim," and it's free — friction as low as possible for an offline audience.</li>
+<li><b>2</b> Three steps, plainly. "Orders" explicitly optional so a farm can be discovery-only.</li>
+<li><b>3</b> Honest cross-sell to Sproutflow (Track 2) for farms that want a real site — the funding engine, disclosed, not bait.</li>
+<li><b>4–5</b> <code>ClaimResult</code> searches your existing 315 records — the "you already know us" moment that solves supply-side cold-start.</li>
+<li><b>6</b> <code>/join</code> catches farms not yet cataloged (and enriches the DB — every claim feeds the shared asset).</li>
+<li><b>7</b> Lightweight verification; manual-review fallback keeps it real without blocking.</li>
+</ol></div>
+
+<h3 id="w-dash">5.10 · Farmer dashboard &amp; listing editor</h3>
+<div class="wire">
+<div class="cap">Farmer dashboard <span class="route">/dashboard · /dashboard/listing · /dashboard/products · /dashboard/schedule</span></div>
+<pre>
+┌───────────────┬──────────────────────────────────────────────────────────┐
+│ ◦ Listing     │  DASHBOARD · Credo Farms                    ● Published    │ 1
+│ ◦ Products    │  ┌ Profile completeness ▓▓▓▓▓▓░░ 72% ┐  ⬢ score 8/10       │ 2
+│ ◦ Schedule    │  Add: 2 more products · a photo · this week's market      │
+│ ◦ Orders (3)  │──────────────────────────────────────────────────────────│
+│ ◦ Preview →   │  LISTING EDITOR (ListingForm → schema)                    │ 3
+│               │   name ▢  story ▢  products ▢  certs ▢  fulfillment ▢     │
+│               │   photos ▢  contact ▢  region/parish/city ▢               │
+│               │──────────────────────────────────────────────────────────│
+│               │  THIS WEEK   ◦ At Covington Market Thu 3–7   ◦ delivery ✓ │ 4
+│               │  INCOMING ORDERS (if enabled)  Eggs×2 · pickup Thu … [ok] │ 5
+└───────────────┴──────────────────────────────────────────────────────────┘
+</pre>
+</div>
+<div class="annot"><ol>
+<li><b>1–2</b> A dashboard that respects a busy, non-technical user: one clear status, a completeness nudge, your <code>WebPresenceScore</code> reused as a friendly target.</li>
+<li><b>3</b> <code>ListingForm</code> fields are exactly the schema columns (§7) — what the farmer edits is what the DB stores and the app reads. One source of truth.</li>
+<li><b>4</b> Editing "this week's market/hours" is the recurring action — the freshest, most valuable field, made a 10-second update.</li>
+<li><b>5</b> Orders inbox only appears if the farm opted into ordering — progressive, not imposed.</li>
+</ol></div>
+
+<!-- ============================= 6 FLOWS ============================= -->
+<h2 id="flows">6 · Primary user flows</h2>
+<div class="wire">
+<div class="cap">Flow A — Discover &amp; visit (core loop, no login required)</div>
+<pre>
+Home ──set/confirm location──► Discover (map+filter) ──tap pin/card──► Farm profile
+                                     ▲                                     │
+                                     │                              ┌──────┼───────────┐
+                                     └───"nearby farms"◄────────────┘   Save · Directions · See market days
+</pre>
+</div>
+<div class="wire">
+<div class="cap">Flow B — Order (progressive; only farms with a store)</div>
+<pre>
+Farm profile ──Shop online──► Storefront ──Add──► Cart (grouped by farm) ──Checkout──►
+   choose fulfillment (on-farm / market pickup / delivery) ──Pay──► Confirmation (calendar + text-the-farm)
+</pre>
+</div>
+<div class="wire">
+<div class="cap">Flow C — Farmer claim &amp; publish (the supply-side loop)</div>
+<pre>
+/for-farmers ──Claim──► /claim (search DB) ──"This is my farm"──► verify ──► Dashboard
+   └► if not found ──► /join (new farm) ─────────────────────────────────────┘
+Dashboard ──Listing editor──► add products + certs + THIS WEEK's market ──Publish──► live profile
+                                                                          └► (optional) enable Orders
+</pre>
+</div>
+<div class="wire">
+<div class="cap">Flow D — Seasonal browse (habit / education loop)</div>
+<pre>
+Home "What's fresh" ──► /whats-fresh ──pick crop──► /whats-fresh/okra ──► farms near you with okra ──► Farm profile
+</pre>
+</div>
+<div class="note"><b>Design principle across flows:</b> discovery works with zero login and zero ordering. Auth is required only to
+save, order, or manage a farm. The offline-farm reality means <em>the map and profiles must be fully useful even when a farm
+has no store, no site, and no phone</em> — the graceful-degradation path is the product, not an edge case.</div>
+
+<!-- ============================= 7 DATA MAPPING ============================= -->
+<h2 id="data">7 · Data mapping — UI ↔ database</h2>
+<p>Every screen reads from the same schema the database already uses (<code>local_farm_database_final.xlsx</code> → future
+Postgres/PostGIS). No UI element requires a field the data can't provide; fields the UI wants but the data lacks are flagged as enrichment targets.</p>
+<table>
+<tr><th>UI element</th><th>Database field(s)</th><th>State</th></tr>
+<tr><td>Map pin / cluster</td><td><code>Latitude</code>, <code>Longitude</code>, <code>Geo Precision</code>, <code>Parish/County</code></td><td><span class="pill">have</span> 235/235 geocoded (79% city-level)</td></tr>
+<tr><td>FarmCard identity</td><td><code>Farm Name</code>, <code>City/Town</code>, <code>Region/Zone</code>, <code>Category</code></td><td><span class="pill">have</span></td></tr>
+<tr><td>Product glyphs / filters</td><td><code>Products</code>, <code>Category</code></td><td><span class="pill">have</span> (free-text → normalize to tags)</td></tr>
+<tr><td>FilterRail toggles</td><td><code>Has Website</code>, <code>Offers CSA</code>, <code>Ships Products</code>, <code>On-Farm Sales</code>, <code>Sells at Farmers Market</code></td><td><span class="pill">have</span> booleans</td></tr>
+<tr><td>CertBadge</td><td>LDAF / GAP / USDA Organic / AGA</td><td><span class="pill p2">enrich</span> earmarked (LSU AgCenter), not yet a column</td></tr>
+<tr><td>MarketDayBlock</td><td><code>Market Presence</code> → structured day/time/location</td><td><span class="pill p2">enrich</span> free-text now; contact research recovers schedules</td></tr>
+<tr><td>Contact block</td><td><code>Contact Info</code> → phone / email / web / social</td><td><span class="pill p2">enrich</span> 148 lack phone; split into channels</td></tr>
+<tr><td>Thin-profile / "new to web" cue</td><td><code>Web Presence Score</code> (0–10)</td><td><span class="pill">have</span></td></tr>
+<tr><td>SeasonBand</td><td>regional crop-seasonality model (new)</td><td><span class="pill p3">build</span> Gulf South calendar asset</td></tr>
+<tr><td>Storefront / Cart</td><td>products, price, availability, fulfillment (new tables)</td><td><span class="pill p3">build</span> later phase</td></tr>
+<tr><td>Region landing coverage</td><td><code>Source Tab</code>, per-region counts, ring status</td><td><span class="pill">have</span> counts; ring model from scaling doc</td></tr>
+</table>
+<div class="note">Recommended schema additions this IA implies (align with the contact research): a structured <code>Market Schedule</code>,
+a <code>Contact Channel</code> (phone/email/web-form/social), <code>Certifications</code>, and <code>outreach_status</code> /
+<code>date_verified</code> (already in the draft schema). These are additive — they don't disturb existing data.</div>
+
+<!-- ============================= 8 SCOPE ============================= -->
+<h2 id="scope">8 · Scope boundaries &amp; open questions</h2>
+<h4>In this skeleton</h4>
+<p class="sans">Discovery core (map/search/filter/profiles) · trust &amp; story layer · ordering/checkout flow · farmer claim + dashboard ·
+region/ring framing · full component inventory · data mapping · four primary flows · art direction + ready-to-paste hero prompt.</p>
+<h4>Deliberately NOT here (say the word and I'll add)</h4>
+<p class="sans">Visual comps / hi-fi mockups · real copy · a coded prototype · payments/tax/delivery-logistics detail · admin/moderation
+tooling · auth provider choice · analytics plan · accessibility audit checklist · mobile-specific redraws (noted, not drawn).</p>
+<h4>Open questions that change the build</h4>
+<table>
+<tr><th>Question</th><th>Why it matters / who bears the risk</th></tr>
+<tr><td>Is v1 a <b>demo/marketing</b> site or a <b>functional</b> discovery tool?</td><td>Demo can fake the map with curated data; functional needs the DB wired + normalized. Big cost delta — decide before build-plan.</td></tr>
+<tr><td>Ordering: <b>native</b> vs. <b>link-out</b> to a farm's Square/Barn2Door?</td><td>Native = liability, payments, support burden you own. Link-out ships in days and dodges marketplace logistics. Recommend link-out for v1.</td></tr>
+<tr><td>Who edits a profile before a farm claims it?</td><td>Trust + legal. "Listed from public records" needs a correction/opt-out path (shown in 5.3) and a policy behind it.</td></tr>
+<tr><td>Seasonality model — source of truth?</td><td>SeasonBand is a differentiator but must be regionally accurate (LSU AgCenter planting guides) or it erodes trust.</td></tr>
+<tr><td>Does <code>/claim</code> launch with the app, or earlier as a Sproutflow lead-gen page?</td><td>Claim could ship now against the DB and feed outreach before the full app exists — sequencing lever.</td></tr>
+</table>
+<div class="note"><b>Recommendation for the next step.</b> This IA is deliberately broad because you asked to see the whole idea. Before any
+build, narrow v1 to <b>Discovery core + Story layer + Claim</b>, treat ordering as <b>link-out</b>, and keep the ring/region framing as
+<em>copy</em>, not engineering. That gives you a showable, honest "website-first" FarmFinder grounded in real data, defers the
+expensive marketplace machinery, and still demonstrates the full vision. When you're ready, this maps cleanly onto the
+product-spec → architecture → build-plan chain.</div>
+
+<div class="note"><b>Automation / repeatability note:</b> the database→UI field mapping in §7 and the enrichment loop in the contact
+report are both rule-based and recurring — good candidates for a <b>Claude Skill</b> ("enrich a farm row" and "generate a farm
+profile page from a DB record"). Worth capturing once v1 scope is locked, and worth adding to AGENTS.md as the app track wakes up.</div>
+
+<p class="foot">FarmFinder · Consumer Site IA &amp; Wireframe Skeleton · Planning artifact, not a build · Generated 2026-07-13 using the
+ui-design-system skill (Field Journal archetype). Grounded in AGENTS.md, the farm database (315 farms), the national expansion
+strategy, and the contact-enrichment proof batch. Wireframes are low-fidelity by design — structure before styling.</p>
+</main>
+</div>
+</body>
+</html>

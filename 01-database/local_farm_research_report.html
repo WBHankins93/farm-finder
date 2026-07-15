@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Local Farm Database Research — South Louisiana & South Mississippi</title>
+<style>
+:root {
+  --green-dark: #1B5E20;
+  --green-mid: #2E7D32;
+  --green-light: #4CAF50;
+  --green-bg: #E8F5E9;
+  --green-pale: #F1F8E9;
+  --cream: #FFFDE7;
+  --brown: #5D4037;
+  --brown-light: #8D6E63;
+  --red-soft: #E57373;
+  --orange: #FF9800;
+  --blue: #1565C0;
+  --gray-dark: #333;
+  --gray-mid: #666;
+  --gray-light: #f5f5f5;
+  --border: #ddd;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: var(--gray-dark); line-height: 1.6; background: #fafafa; }
+.container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+/* Header */
+header { background: linear-gradient(135deg, var(--green-dark), var(--green-mid)); color: white; padding: 48px 0 40px; }
+header h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
+header .subtitle { font-size: 1.1rem; opacity: 0.9; font-weight: 300; }
+header .meta { margin-top: 16px; font-size: 0.85rem; opacity: 0.7; }
+
+/* Sections */
+section { background: white; border-radius: 8px; margin: 24px auto; padding: 32px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); max-width: 1100px; }
+section h2 { color: var(--green-dark); font-size: 1.4rem; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid var(--green-bg); }
+section h3 { color: var(--green-mid); font-size: 1.1rem; margin: 20px 0 10px; }
+p { margin-bottom: 12px; }
+
+/* Stats Grid */
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0; }
+.stat-card { background: var(--green-pale); border-radius: 8px; padding: 20px; text-align: center; border-left: 4px solid var(--green-light); }
+.stat-card .number { font-size: 2.2rem; font-weight: 700; color: var(--green-dark); }
+.stat-card .label { font-size: 0.85rem; color: var(--gray-mid); margin-top: 4px; }
+
+/* Score Bar */
+.score-bar-container { margin: 8px 0; }
+.score-bar { height: 20px; border-radius: 10px; background: #eee; overflow: hidden; position: relative; }
+.score-fill { height: 100%; border-radius: 10px; transition: width 0.3s; }
+.score-fill.red { background: var(--red-soft); }
+.score-fill.orange { background: var(--orange); }
+.score-fill.green { background: var(--green-light); }
+.score-label { font-size: 0.8rem; color: var(--gray-mid); display: flex; justify-content: space-between; margin-top: 2px; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.9rem; }
+th { background: var(--green-dark); color: white; padding: 10px 12px; text-align: left; font-weight: 600; }
+td { padding: 8px 12px; border-bottom: 1px solid var(--border); }
+tr:nth-child(even) { background: var(--gray-light); }
+tr:hover { background: var(--green-bg); }
+
+/* Category Tags */
+.tag { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; margin: 2px; }
+.tag-produce { background: #C8E6C9; color: #1B5E20; }
+.tag-meat { background: #FFCDD2; color: #B71C1C; }
+.tag-dairy { background: #FFF9C4; color: #F57F17; }
+.tag-honey { background: #FFE0B2; color: #E65100; }
+.tag-mixed { background: #E1BEE7; color: #4A148C; }
+.tag-seafood { background: #B3E5FC; color: #01579B; }
+.tag-urban { background: #B2DFDB; color: #004D40; }
+
+/* Callout boxes */
+.callout { padding: 16px 20px; border-radius: 8px; margin: 16px 0; }
+.callout-insight { background: var(--cream); border-left: 4px solid var(--orange); }
+.callout-opportunity { background: var(--green-bg); border-left: 4px solid var(--green-light); }
+.callout-warning { background: #FFF3E0; border-left: 4px solid var(--red-soft); }
+.callout strong { display: block; margin-bottom: 4px; }
+
+/* Two-column layout */
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } }
+
+/* Lists */
+.checklist { list-style: none; padding: 0; }
+.checklist li { padding: 6px 0; padding-left: 24px; position: relative; }
+.checklist li::before { content: '✓'; position: absolute; left: 0; color: var(--green-light); font-weight: 700; }
+
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+  <h1>Local Farm Database Research Report</h1>
+  <p class="subtitle">South Louisiana & South Mississippi — Direct-to-Consumer Farm Landscape</p>
+  <p class="meta">Compiled July 12, 2026 | Sproutflow Studio | Phase 1 Research</p>
+</div>
+</header>
+
+<div class="container">
+
+<!-- Executive Summary -->
+<section>
+  <h2>Executive Summary</h2>
+  <p>This research catalogs <strong>112 direct-to-consumer farms</strong> across South Louisiana and South Mississippi, along with <strong>20 farmers markets</strong>, <strong>20 data source directories</strong>, and a competitive landscape analysis of <strong>9 existing platforms</strong> attempting to serve this space.</p>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="number">112</div>
+      <div class="label">Farms Cataloged</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">73%</div>
+      <div class="label">Have No Website</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">89%</div>
+      <div class="label">No Online Store</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">20</div>
+      <div class="label">Farmers Markets Mapped</div>
+    </div>
+  </div>
+
+  <div class="callout callout-opportunity">
+    <strong>Core Finding</strong>
+    The thesis holds up. The vast majority of small farms in this region have little to no web presence. Most rely entirely on word-of-mouth, Facebook posts, and farmers market foot traffic. There is no dominant regional platform connecting consumers to these farms, and the national apps that exist (Localize, Farmish, Locally Grown) have poor data quality and thin coverage in LA/MS. This is an underserved market with real demand.
+  </div>
+</section>
+
+<!-- Data Breakdown -->
+<section>
+  <h2>Database Breakdown by Region</h2>
+
+  <div class="two-col">
+    <div>
+      <h3>Geographic Distribution</h3>
+      <table>
+        <tr><th>Region</th><th>Farm Count</th><th>% of Total</th></tr>
+        <tr><td>NOLA Metro (50mi radius)</td><td>56</td><td>50%</td></tr>
+        <tr><td>South Louisiana (beyond 50mi)</td><td>26</td><td>23%</td></tr>
+        <tr><td>South Mississippi</td><td>30</td><td>27%</td></tr>
+      </table>
+    </div>
+    <div>
+      <h3>Category Distribution</h3>
+      <table>
+        <tr><th>Category</th><th>Count</th><th>Tag</th></tr>
+        <tr><td>Produce / Vegetables / Fruit</td><td>44</td><td><span class="tag tag-produce">Produce</span></td></tr>
+        <tr><td>Mixed (multi-product farms)</td><td>32</td><td><span class="tag tag-mixed">Mixed</span></td></tr>
+        <tr><td>Meat / Poultry</td><td>16</td><td><span class="tag tag-meat">Meat</span></td></tr>
+        <tr><td>Honey / Specialty</td><td>8</td><td><span class="tag tag-honey">Honey</span></td></tr>
+        <tr><td>Urban Farm</td><td>6</td><td><span class="tag tag-urban">Urban</span></td></tr>
+        <tr><td>Dairy / Cheese</td><td>4</td><td><span class="tag tag-dairy">Dairy</span></td></tr>
+        <tr><td>Seafood</td><td>2</td><td><span class="tag tag-seafood">Seafood</span></td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Web Presence Analysis -->
+<section>
+  <h2>Web Presence Analysis — The Opportunity Gap</h2>
+  <p>This is where the platform thesis gets validated. The web presence score (1–10 scale) measures website existence, online store capability, social media presence, and discoverability.</p>
+
+  <h3>Web Presence Score Distribution</h3>
+  <div class="score-bar-container">
+    <p><strong>Score 1–2 (No/Minimal Web Presence)</strong> — 68 farms (61%)</p>
+    <div class="score-bar"><div class="score-fill red" style="width:61%"></div></div>
+    <div class="score-label"><span>Facebook-only or nothing at all</span><span>61%</span></div>
+  </div>
+  <div class="score-bar-container">
+    <p><strong>Score 3–4 (Basic Presence)</strong> — 28 farms (25%)</p>
+    <div class="score-bar"><div class="score-fill orange" style="width:25%"></div></div>
+    <div class="score-label"><span>Simple website or strong social, no e-commerce</span><span>25%</span></div>
+  </div>
+  <div class="score-bar-container">
+    <p><strong>Score 5+ (Functional Digital Presence)</strong> — 16 farms (14%)</p>
+    <div class="score-bar"><div class="score-fill green" style="width:14%"></div></div>
+    <div class="score-label"><span>Website + online ordering or delivery</span><span>14%</span></div>
+  </div>
+
+  <div class="callout callout-insight">
+    <strong>Key Insight</strong>
+    86% of cataloged farms have a web presence score of 4 or below. The most common "web presence" is a Facebook page with intermittent posting. Only about 12 farms out of 112 have any form of online ordering. The farms that DO have strong digital presence (Credo Farms, Home Place Pastures, Remington-Lott) are thriving — proving the model works when executed.
+  </div>
+
+  <h3>Best-in-Class Examples (Design System References)</h3>
+  <table>
+    <tr><th>Farm</th><th>State</th><th>Why They Stand Out</th><th>Web Score</th></tr>
+    <tr><td><a href="https://credofarms.com" target="_blank">Credo Farms</a></td><td>LA</td><td>Clean brand, online store, home delivery, newsletter, SEO-optimized blog content, restaurant wholesale</td><td>9/10</td></tr>
+    <tr><td><a href="https://homeplacepastures.com" target="_blank">Home Place Pastures</a></td><td>MS</td><td>On-farm butcher shop + restaurant, online store, shipping, farm tours, camping, 5th generation story</td><td>9/10</td></tr>
+    <tr><td><a href="https://www.laughingbuddhanursery.com" target="_blank">Laughing Buddha / Local Cooling Farms</a></td><td>LA</td><td>Aggregator model — 40+ producers under one storefront + hub delivery + online ordering via LocalLine</td><td>8/10</td></tr>
+    <tr><td>Remington-Lott Farms</td><td>MS</td><td>4 retail storefronts across central MS, online ordering, carries other MS products</td><td>7/10</td></tr>
+    <tr><td>Reyer Farms</td><td>MS</td><td>Storefront + online ordering + farmers market presence — full-channel approach</td><td>7/10</td></tr>
+    <tr><td>Shaded Grove Farm Market</td><td>MS</td><td>UPS home delivery anywhere — breaks the "local only" limitation</td><td>7/10</td></tr>
+  </table>
+</section>
+
+<!-- Competitive Landscape -->
+<section>
+  <h2>Competitive Landscape Assessment</h2>
+  <p>Several platforms attempt to connect consumers with local farms nationally. None dominate the LA/MS region, and most have significant UX or data quality problems.</p>
+
+  <table>
+    <tr><th>Platform</th><th>Type</th><th>LA/MS Coverage</th><th>Threat</th><th>Key Weakness</th></tr>
+    <tr><td>LocalHarvest</td><td>Directory</td><td>Moderate</td><td>Low</td><td>Dated UI, stale listings, no e-commerce</td></tr>
+    <tr><td>Localize</td><td>Freemium App</td><td>Low</td><td>Medium</td><td>Buggy, paywall frustration, poor data quality</td></tr>
+    <tr><td>Farmish</td><td>App Marketplace</td><td>Very Low</td><td>Low</td><td>Early stage, thin listings in this region</td></tr>
+    <tr><td>Locally Grown</td><td>SaaS for Farms</td><td>Low</td><td>Medium</td><td>Consumer discovery weak — farmer tool, not consumer tool</td></tr>
+    <tr><td>Red Hen</td><td>App</td><td>Growing in MS</td><td>Low</td><td>Very early, limited features</td></tr>
+    <tr><td>USDA Portal</td><td>Gov Directory</td><td>Good (markets)</td><td>None</td><td>Static listings, no profiles, complementary</td></tr>
+    <tr><td>Genuine MS</td><td>State Brand</td><td>MS only</td><td>None</td><td>MS only, no e-commerce — potential partner</td></tr>
+    <tr><td>WhatsGood</td><td>Market Ordering</td><td>NOLA only</td><td>Low</td><td>Single market (CCFM), not discovery-focused</td></tr>
+  </table>
+
+  <div class="callout callout-opportunity">
+    <strong>Competitive Gap</strong>
+    No existing platform combines: (1) curated, verified farm profiles with quality web design, (2) regional focus on LA/MS, (3) consumer discovery AND farm e-commerce, and (4) the kind of visual storytelling that makes consumers actually want to explore. The national apps are going wide and shallow. A regional platform going deep and high-quality has a clear lane.
+  </div>
+</section>
+
+<!-- Key Data Sources -->
+<section>
+  <h2>Key Data Sources for Ongoing Research</h2>
+  <p>These directories and organizations are the primary sources for expanding the database beyond this initial 112-farm catalog. Each has different strengths and should be cross-referenced.</p>
+
+  <div class="two-col">
+    <div>
+      <h3>Louisiana Sources</h3>
+      <ul class="checklist">
+        <li><a href="https://www.crescentcityfarmersmarket.org/vendors" target="_blank">CCFM Vendor List</a> — 70+ verified NOLA-area producers</li>
+        <li><a href="https://www.lsuagcenter.com/topics/food_health/farm%20to%20school/producers/la-farm-food-map-and-directory" target="_blank">LSU AgCenter Farm Food Map</a> — official state-level directory, searchable by parish</li>
+        <li><a href="https://www.gogreennola.org/farms/" target="_blank">Go Green NOLA</a> — curated SE Louisiana farm list</li>
+        <li><a href="https://www.growacadiana.org/directory" target="_blank">Grow Acadiana</a> — excellent Acadiana/Lafayette directory</li>
+        <li><a href="https://blackfarmersindex.com/region-6-louisiana" target="_blank">Black Farmers Index (Region 6)</a> — comprehensive Black-owned farm list</li>
+        <li><a href="https://www.farmerspal.com/organic-farms/region/louisiana/page/1/" target="_blank">Farmers Pal</a> — organic/sustainable farms by parish</li>
+        <li><a href="https://www.localharvest.org/new-orleans-la/farms" target="_blank">LocalHarvest (LA)</a> — crowdsourced farm directory</li>
+        <li><a href="https://www.eatwild.com/products/louisiana.html" target="_blank">EatWild (LA)</a> — pasture-based farming directory</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Mississippi Sources</h3>
+      <ul class="checklist">
+        <li><a href="https://genuinems.com/members/raised/" target="_blank">Genuine Mississippi</a> — state-backed brand with full member directory</li>
+        <li><a href="https://www.mdac.ms.gov/bureaus-departments/market-development/mississippi-farmers-market/" target="_blank">MS Dept of Agriculture</a> — official farmers market listings</li>
+        <li><a href="https://pickyourown.org/MS.htm" target="_blank">PickYourOwn.org (MS)</a> — detailed u-pick farm directory</li>
+        <li><a href="https://www.localharvest.org/picayune-ms/farms" target="_blank">LocalHarvest (MS)</a> — farms near the LA border</li>
+        <li><a href="https://www.eatwild.com/products/mississippi.html" target="_blank">EatWild (MS)</a> — pasture-based farming directory</li>
+        <li><a href="https://www.redhenapp.com/farms-near-mississippi" target="_blank">Red Hen App (MS)</a> — growing farm marketplace</li>
+        <li><a href="https://localmeatmilkeggs.org" target="_blank">Local Meat Milk Eggs</a> — animal product directory</li>
+        <li><a href="https://localhoneyfinder.org" target="_blank">Local Honey Finder</a> — apiary/honey directory</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Strategic Observations -->
+<section>
+  <h2>Strategic Observations for the Platform</h2>
+
+  <h3>1. The Aggregator Model Already Works Here</h3>
+  <p>Laughing Buddha Nursery in Metairie (on Clearview — 5 minutes from you) already proves the aggregation model at a physical level. They pull products from 40+ regional farms and sell through one storefront with online ordering and hub delivery. They use LocalLine for e-commerce. The digital version of this model — a curated, beautifully designed platform that does for discovery what Laughing Buddha does for distribution — doesn't exist yet.</p>
+
+  <h3>2. Black-Owned Farms Are Significantly Underrepresented Online</h3>
+  <p>The Black Farmers Index lists dozens of farms in Louisiana Region 6, many of which have zero web presence beyond an email address. Indian Springs Farmers Association in Petal, MS operates a 45-member cooperative of Black farmers across six Mississippi counties with a state-of-the-art packing shed — and they have no website. This is a meaningful gap where a platform could create real impact.</p>
+
+  <h3>3. The "Ethnic Vegetables" Category Is a Hidden Niche</h3>
+  <p>Multiple farms (River Road Farm in Vacherie, S&E Heavenly Farms in Franklin, Warner Hall Farm in Greensburg, Fontenot Green Acres in Opelousas) specialize in "ethnic vegetables" — crops like specialty sweet potatoes, Georgia candy squash, and culturally specific produce. None of them have websites. This niche has both cultural significance and market demand that a platform could highlight.</p>
+
+  <h3>4. The CSA Model Is Fragmented</h3>
+  <p>At least 8–10 farms in the database offer CSA boxes, but consumers have no single place to compare them. Each farm handles CSA signups independently — some via email, some via phone, some via Facebook posts. A platform that aggregated CSA availability by region would immediately be useful.</p>
+
+  <h3>5. Mississippi's Genuine MS Program Is a Natural Partner</h3>
+  <p>Genuine Mississippi is a state-backed brand that certifies MS-grown/raised products. They have a good directory but no e-commerce layer. Their member farms are already verified. A partnership here could bootstrap the Mississippi side of the platform with pre-vetted data.</p>
+
+  <h3>6. Design System Reference Points</h3>
+  <p>For building a consistent design system, the contrast between the best and worst farm websites is instructive. Credo Farms and Home Place Pastures show what good looks like: clean photography, clear product categories, straightforward ordering, and genuine storytelling. The vast majority of farms have nothing — meaning the platform becomes their web presence, and the design system needs to work for a farm that provides nothing more than a name, location, and product list.</p>
+
+  <div class="callout callout-warning">
+    <strong>Data Completeness Note</strong>
+    This initial catalog of 112 farms is a starting point, not a complete census. Based on the directories identified, the true count of direct-to-consumer farms in South Louisiana and South Mississippi is likely 300–500+. The LSU AgCenter directory alone contains farms not captured here, and many small operations exist only as farmers market vendors with no online footprint at all. Phase 2 should involve systematically scraping each identified directory and cross-referencing to deduplicate.
+  </div>
+</section>
+
+<!-- Next Steps -->
+<section>
+  <h2>Recommended Next Steps</h2>
+  <div class="two-col">
+    <div>
+      <h3>Data Expansion (Phase 2)</h3>
+      <ul class="checklist">
+        <li>Scrape LSU AgCenter Farm Food Map directory by parish</li>
+        <li>Pull complete Genuine MS member list programmatically</li>
+        <li>Cross-reference USDA Local Food Portal for LA/MS</li>
+        <li>Visit CCFM vendor pages to extract full profiles</li>
+        <li>Add web presence audit per farm (screenshot + score)</li>
+        <li>Add lat/long coordinates for map visualization</li>
+        <li>Deduplicate across directories</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Platform Planning</h3>
+      <ul class="checklist">
+        <li>Define MVP feature set: discovery vs. e-commerce vs. both</li>
+        <li>Design system: farm profile template that works with minimal input</li>
+        <li>Determine onboarding flow for farms with no digital literacy</li>
+        <li>Evaluate Laughing Buddha's LocalLine integration as a model</li>
+        <li>Assess partnership potential with Genuine MS, CCFM, LSU AgCenter</li>
+        <li>Build prototype with 10–15 farms from the database</li>
+        <li>Consider Sproutflow as the web design arm that builds individual farm sites feeding into the platform</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<footer style="background: var(--green-dark); color: rgba(255,255,255,0.7); text-align: center; padding: 24px; margin-top: 40px; font-size: 0.85rem;">
+  <p>Sproutflow Studio — Local Farm Database Research | Phase 1 | July 2026</p>
+  <p style="margin-top: 4px; opacity: 0.6;">Data sourced from CCFM, LSU AgCenter, Genuine MS, LocalHarvest, USDA, Black Farmers Index, and direct web research</p>
+</footer>
+
+</body>
+</html>

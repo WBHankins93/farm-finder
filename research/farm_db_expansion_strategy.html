@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farm Database Expansion Strategy — National Scaling Plan</title>
+<style>
+:root {
+  --earth: #2D3B2D;
+  --earth-mid: #3E5C3E;
+  --sage: #6B8F71;
+  --cream: #F7F4EF;
+  --warm-white: #FDFCFA;
+  --clay: #C4703F;
+  --clay-light: #E8A870;
+  --slate: #4A4A4A;
+  --gray: #777;
+  --border: #E0DCD5;
+  --red-soft: #D45B5B;
+  --gold: #B8963E;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; color: var(--slate); line-height: 1.7; background: var(--cream); }
+
+header { background: var(--earth); color: white; padding: 48px 0; }
+header .inner { max-width: 1000px; margin: 0 auto; padding: 0 32px; }
+header h1 { font-size: 1.8rem; font-weight: 700; letter-spacing: -0.5px; }
+header .sub { opacity: 0.7; font-size: 0.95rem; margin-top: 6px; }
+
+.container { max-width: 1000px; margin: 0 auto; padding: 0 32px; }
+
+section { background: var(--warm-white); border-radius: 6px; margin: 28px auto; padding: 36px; max-width: 1000px; border: 1px solid var(--border); }
+section h2 { color: var(--earth); font-size: 1.35rem; margin-bottom: 18px; padding-bottom: 10px; border-bottom: 2px solid var(--sage); letter-spacing: -0.3px; }
+section h3 { color: var(--earth-mid); font-size: 1.05rem; margin: 22px 0 10px; }
+p { margin-bottom: 14px; font-size: 0.95rem; }
+
+/* Decision cards */
+.decision-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin: 24px 0; }
+@media (max-width: 900px) { .decision-grid { grid-template-columns: 1fr; } }
+
+.option-card { border-radius: 8px; padding: 24px; border: 2px solid var(--border); position: relative; }
+.option-card.recommended { border-color: var(--sage); background: linear-gradient(180deg, #f0f7f0, var(--warm-white)); }
+.option-card.recommended::before { content: '★ RECOMMENDED'; position: absolute; top: -12px; left: 16px; background: var(--sage); color: white; font-size: 0.7rem; font-weight: 700; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.5px; }
+.option-card h4 { font-size: 1rem; color: var(--earth); margin-bottom: 8px; }
+.option-card .speed { font-size: 0.8rem; color: var(--gray); margin-bottom: 10px; }
+.pro { color: var(--sage); font-size: 0.85rem; margin: 3px 0; }
+.con { color: var(--red-soft); font-size: 0.85rem; margin: 3px 0; }
+
+/* Phase timeline */
+.phase { display: grid; grid-template-columns: 80px 1fr; gap: 16px; margin: 16px 0; padding: 18px; border-left: 4px solid var(--sage); background: var(--cream); border-radius: 0 6px 6px 0; }
+.phase-num { font-size: 2rem; font-weight: 700; color: var(--sage); text-align: center; line-height: 1; }
+.phase-num span { display: block; font-size: 0.7rem; color: var(--gray); font-weight: 400; text-transform: uppercase; letter-spacing: 1px; }
+.phase-body h4 { font-size: 0.95rem; color: var(--earth); margin-bottom: 4px; }
+.phase-body p { font-size: 0.88rem; margin-bottom: 4px; }
+.phase-meta { font-size: 0.78rem; color: var(--gray); margin-top: 6px; }
+
+/* Callouts */
+.callout { padding: 18px 22px; border-radius: 6px; margin: 18px 0; font-size: 0.92rem; }
+.callout-rec { background: #f0f7f0; border-left: 4px solid var(--sage); }
+.callout-risk { background: #FFF8F0; border-left: 4px solid var(--clay); }
+.callout-key { background: #F5F0FF; border-left: 4px solid #7E57C2; }
+.callout strong { display: block; margin-bottom: 4px; font-size: 0.95rem; }
+
+/* Comparison table */
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.88rem; }
+th { background: var(--earth); color: white; padding: 10px 14px; text-align: left; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.3px; }
+td { padding: 10px 14px; border-bottom: 1px solid var(--border); }
+tr:nth-child(even) { background: var(--cream); }
+
+/* Region map representation */
+.ring-model { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 24px 0; flex-wrap: wrap; }
+.ring { display: flex; align-items: center; justify-content: center; border-radius: 50%; text-align: center; font-size: 0.72rem; font-weight: 600; color: white; line-height: 1.2; }
+.ring-1 { width: 90px; height: 90px; background: var(--earth); }
+.ring-2 { width: 120px; height: 120px; background: var(--earth-mid); }
+.ring-3 { width: 140px; height: 140px; background: var(--sage); }
+.ring-4 { width: 160px; height: 160px; background: var(--clay); }
+.ring-arrow { font-size: 1.4rem; color: var(--gray); }
+
+a { color: var(--clay); text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header>
+<div class="inner">
+  <h1>Farm Database — National Expansion Strategy</h1>
+  <p class="sub">Decision framework for scaling from 315 farms in LA/MS to nationwide coverage</p>
+</div>
+</header>
+
+<div class="container">
+
+<!-- The Decision -->
+<section>
+  <h2>Three Approaches, One Recommendation</h2>
+  <p>The core tension: depth is what differentiates this database from every existing national directory. Expanding too fast sacrifices that. Expanding too slowly misses the window while competitors (Localize, Farmish) improve their coverage. The question is how to scale without diluting quality.</p>
+
+  <div class="decision-grid">
+    <div class="option-card">
+      <h4>Option A: State-by-State</h4>
+      <p class="speed">~2 states per research session</p>
+      <p class="pro">✓ Completeness per state is high</p>
+      <p class="pro">✓ Easy to track progress</p>
+      <p class="pro">✓ Matches state-level directories (every state has its own ag dept)</p>
+      <p class="con">✗ 50 states = very long timeline</p>
+      <p class="con">✗ Some states have 5 farms, others have 500 — uneven sessions</p>
+      <p class="con">✗ Doesn't prioritize by market opportunity</p>
+    </div>
+
+    <div class="option-card recommended">
+      <h4>Option B: Concentric Rings by Region</h4>
+      <p class="speed">~1 region per research cycle</p>
+      <p class="pro">✓ Builds outward from existing coverage</p>
+      <p class="pro">✓ Natural shipping/travel zones for users</p>
+      <p class="pro">✓ Each ring is a launchable market</p>
+      <p class="pro">✓ Prioritizes adjacent states with similar farm culture</p>
+      <p class="con">✗ Requires defining regions (not always clean boundaries)</p>
+      <p class="con">✗ Some high-value markets (Pacific NW, Northeast) are far out</p>
+    </div>
+
+    <div class="option-card">
+      <h4>Option C: All at Once (National Sweep)</h4>
+      <p class="speed">Broad but shallow</p>
+      <p class="pro">✓ "National" label from day one</p>
+      <p class="pro">✓ Can claim coverage everywhere</p>
+      <p class="con">✗ This is exactly what Localize and LocalHarvest did — and it's their weakness</p>
+      <p class="con">✗ Sacrifices the depth that differentiates your platform</p>
+      <p class="con">✗ Impossible to verify quality across 50 states simultaneously</p>
+      <p class="con">✗ Stale data problem from day one</p>
+    </div>
+  </div>
+</section>
+
+<!-- Recommendation -->
+<section>
+  <h2>Recommendation: Concentric Rings, Batched by State Pairs</h2>
+  <p>The hybrid approach. Expand in geographic rings outward from your LA/MS base, but within each ring, batch by state pairs (or singles for large states). Each ring is a launchable market — meaning the platform could go live for "Gulf South" before you've touched the Pacific Northwest. This matches how users actually search: within their region and adjacent areas.</p>
+
+  <div class="ring-model">
+    <div class="ring ring-1">LA / MS<br>(DONE)</div>
+    <span class="ring-arrow">→</span>
+    <div class="ring ring-2">Ring 1<br>AL / TX-E<br>AR</div>
+    <span class="ring-arrow">→</span>
+    <div class="ring ring-3">Ring 2<br>TN / GA<br>FL-N / SC</div>
+    <span class="ring-arrow">→</span>
+    <div class="ring ring-4">Ring 3<br>NC / VA<br>Midwest<br>Pacific NW</div>
+  </div>
+
+  <div class="callout callout-rec">
+    <strong>Why this wins</strong>
+    Each ring produces a usable, launchable regional database. You don't need national coverage to launch — you need deep, trusted coverage in one region. Ring 0 (LA/MS) is already done. Ring 1 adds the Gulf South states that share the same farm culture, same growing seasons, and are within weekend-trip distance for your initial user base. By the time you hit Ring 2, the platform has traction and the data collection process is a proven, repeatable skill.
+  </div>
+</section>
+
+<!-- Detailed Ring Plan -->
+<section>
+  <h2>Expansion Ring Plan — Detailed</h2>
+
+  <div class="phase">
+    <div class="phase-num">0<span>Complete</span></div>
+    <div class="phase-body">
+      <h4>Louisiana + South Mississippi</h4>
+      <p>315 farms cataloged across 12 spreadsheet tabs. 31 source directories documented. Competitive landscape mapped. Web presence scoring complete.</p>
+      <p class="phase-meta">Status: ✅ Done — 315 farms, full source audit</p>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">1<span>Next</span></div>
+    <div class="phase-body">
+      <h4>Gulf South: Alabama + East Texas + Arkansas + Full Mississippi</h4>
+      <p><strong>Alabama:</strong> Strong farm-to-table scene around Birmingham + Mobile. Alabama Farmers Federation directory, Alabama Cooperative Extension System, Alabama Farmers Market Authority are the key sources. Black Belt region has significant underrepresentation similar to what you found in LA.</p>
+      <p><strong>East Texas (within 200mi of LA):</strong> East TX has a distinct farm culture from West TX. Piney Woods, Tyler rose farms, East Texas farm markets. TX AgriLife Extension Service is the equivalent of LSU AgCenter.</p>
+      <p><strong>Arkansas:</strong> Natural State branding. AR Grown program (state equivalent of Genuine MS). Strong poultry/livestock + produce in the Ozarks. University of Arkansas Cooperative Extension.</p>
+      <p><strong>Full Mississippi:</strong> Complete the N. Mississippi coverage that Phase 2 started. Delta farms, Oxford/Tupelo food scene, MS State Extension Service.</p>
+      <p class="phase-meta">Estimated yield: 400–600 additional farms | Research sessions: 4–6 | Priority sources: State ag extension services + state "grown" programs</p>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">2<span>Growth</span></div>
+    <div class="phase-body">
+      <h4>Southeast: Tennessee + Georgia + North Florida + South Carolina</h4>
+      <p><strong>Tennessee:</strong> Nashville's farm-to-table explosion. TN Dept of Agriculture "Pick Tennessee Products" program. Strong Appalachian small-farm tradition.</p>
+      <p><strong>Georgia:</strong> GA Grown program. Significant produce (Vidalia onions, peaches). Atlanta metro has strong farm-to-table demand. UGA Cooperative Extension.</p>
+      <p><strong>North Florida:</strong> FL panhandle and North FL have farm culture more aligned with the South than with South FL. Fresh From Florida program.</p>
+      <p><strong>South Carolina:</strong> Certified SC Grown program. Charleston farm-to-table scene. Lowcountry farms, sea islands agriculture.</p>
+      <p class="phase-meta">Estimated yield: 600–900 additional farms | Research sessions: 6–8 | By this point, the research workflow should be a documented Claude Skill</p>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">3<span>Scale</span></div>
+    <div class="phase-body">
+      <h4>Broader South + Midwest + Pacific NW</h4>
+      <p>At this point, the system is proven and the platform has users. Expansion decisions become market-driven: which regions have the highest user demand? Where are farmers requesting to be listed? The data collection process is a repeatable skill, and the platform itself may start attracting farm self-submissions.</p>
+      <p class="phase-meta">States: NC, VA, KY, MO, OH, OR, WA, VT, ME, etc. | This phase is demand-driven, not supply-driven</p>
+    </div>
+  </div>
+</section>
+
+<!-- Per-State Research Protocol -->
+<section>
+  <h2>Per-State Research Protocol (Repeatable)</h2>
+  <p>Every state expansion should follow the same source hierarchy we established for LA/MS. This is the protocol that should become a Claude Skill:</p>
+
+  <table>
+    <tr><th>Step</th><th>Source Type</th><th>Where to Find It</th><th>Expected Yield</th></tr>
+    <tr><td>1</td><td>State Agricultural Extension Service</td><td>[State] Cooperative Extension / Land-Grant University (every state has one)</td><td>50–200 farms</td></tr>
+    <tr><td>2</td><td>State "Grown" or "Fresh" Program</td><td>State Dept of Agriculture marketing program (GA Grown, Certified SC, Pick TN, etc.)</td><td>30–100 farms</td></tr>
+    <tr><td>3</td><td>Major Farmers Markets (Top 5 in state)</td><td>Vendor lists from the largest metro-area markets</td><td>50–150 unique vendors</td></tr>
+    <tr><td>4</td><td>EatWild [State]</td><td>eatwild.com/products/[state].html</td><td>3–30 farms</td></tr>
+    <tr><td>5</td><td>LocalHarvest [Top 5 cities]</td><td>localharvest.org/[city]-[state]/farms</td><td>20–80 farms</td></tr>
+    <tr><td>6</td><td>PickYourOwn.org [State]</td><td>pickyourown.org/[state].htm</td><td>10–50 u-pick farms</td></tr>
+    <tr><td>7</td><td>Black Farmers Index [Region]</td><td>blackfarmersindex.com/region-[n]-[state]</td><td>5–30 farms</td></tr>
+    <tr><td>8</td><td>Regional food directories / nonprofits</td><td>Search for "[region] local food directory" or "[city] food alliance"</td><td>10–40 farms</td></tr>
+    <tr><td>9</td><td>Deduplication + web presence scoring</td><td>Cross-reference all sources, remove duplicates, score 1–10</td><td>Net unique count</td></tr>
+    <tr><td>10</td><td>Source Completion Audit</td><td>Document every source with status: Complete / Partial / Referenced</td><td>Accountability record</td></tr>
+  </table>
+
+  <div class="callout callout-key">
+    <strong>The key insight from LA/MS that applies everywhere</strong>
+    Every state has a land-grant university with a cooperative extension service that maintains a farm directory. This is always the single highest-yield source. In Louisiana it was LSU AgCenter. In Alabama it's Auburn. In Georgia it's UGA. In Texas it's Texas A&M AgriLife. Start there every time — it's the equivalent of getting the government census before doing door-to-door canvassing.
+  </div>
+</section>
+
+<!-- Data Architecture -->
+<section>
+  <h2>Data Architecture Recommendation for Scale</h2>
+  <p>The current spreadsheet-with-tabs model works for 315 farms. It won't work for 3,000. Before Ring 1 expansion, the data should move to a structure that supports the platform build.</p>
+
+  <h3>Recommended Structure</h3>
+  <table>
+    <tr><th>Component</th><th>Current</th><th>Recommended at Scale</th></tr>
+    <tr><td>Storage format</td><td>Excel tabs by region</td><td>Single normalized table (Supabase/Postgres) with region as a column</td></tr>
+    <tr><td>Deduplication</td><td>Manual (some overlap between tabs)</td><td>Unique key: farm name + state + parish/county</td></tr>
+    <tr><td>Geographic data</td><td>City/Parish text</td><td>Geocoded lat/lng for map rendering</td></tr>
+    <tr><td>Source tracking</td><td>Notes column + audit tab</td><td>Separate source_references table (farm_id → source, date_verified)</td></tr>
+    <tr><td>Web presence score</td><td>Manual 1–10</td><td>Semi-automated: check if website resolves, count social handles, flag online stores</td></tr>
+    <tr><td>Certification data</td><td>In Notes column</td><td>Separate certifications table (farm_id → cert_type, cert_body, verified_date)</td></tr>
+    <tr><td>Market presence</td><td>Text field</td><td>Many-to-many: farm_id → market_id linking table</td></tr>
+  </table>
+
+  <div class="callout callout-risk">
+    <strong>Risk: Don't over-engineer the database before building the platform</strong>
+    The spreadsheet is the right tool for research. The database is the right tool for the platform. The migration should happen when you're ready to build the app, not before. Premature database design without knowing the final schema is a time sink. Keep researching in spreadsheets, then do a single migration when the platform schema is locked.
+  </div>
+</section>
+
+<!-- What to build as a Skill -->
+<section>
+  <h2>This Should Become a Claude Skill</h2>
+  <p>The research workflow we've now proven across LA/MS is a strong candidate for a reusable Claude Skill. Here's what it would codify:</p>
+
+  <h3>Skill: farm-database-expansion</h3>
+  <p><strong>Trigger:</strong> "Expand the farm database to [state]" or "Research farms in [region]"</p>
+  <p><strong>Inputs:</strong> Target state or region, existing database file path</p>
+  <p><strong>Process:</strong> Execute the 10-step per-state protocol above, outputting a new spreadsheet tab + source audit entries</p>
+  <p><strong>Outputs:</strong> Updated .xlsx with new tab(s), updated source audit tab, updated HTML report with new stats</p>
+  <p><strong>Quality gate:</strong> No tab marked "complete" until all 10 steps are documented in the source audit</p>
+
+  <div class="callout callout-rec">
+    <strong>When to build the skill</strong>
+    After completing Ring 1 (Alabama + East Texas + Arkansas + full Mississippi). By that point, you'll have run the protocol 4–5 more times and will know exactly which steps yield the most data, which sources are consistently high-quality, and where the process needs adjustment. Building the skill now would codify assumptions that haven't been tested outside LA/MS.
+  </div>
+</section>
+
+<!-- Timeline -->
+<section>
+  <h2>Realistic Timeline</h2>
+  <table>
+    <tr><th>Phase</th><th>States</th><th>Est. Farms Added</th><th>Running Total</th><th>Research Sessions</th></tr>
+    <tr><td>Ring 0 (Done)</td><td>LA, S. MS</td><td>315</td><td>315</td><td>Done</td></tr>
+    <tr><td>Ring 1</td><td>AL, E. TX, AR, Full MS</td><td>400–600</td><td>~800</td><td>4–6 sessions</td></tr>
+    <tr><td>Ring 2</td><td>TN, GA, N. FL, SC</td><td>600–900</td><td>~1,500</td><td>6–8 sessions</td></tr>
+    <tr><td>Ring 3</td><td>NC, VA, KY, MO + demand-driven</td><td>800+</td><td>~2,500+</td><td>Ongoing</td></tr>
+    <tr style="font-weight:bold; background: #f0f7f0;"><td>Platform Launch Window</td><td colspan="4">After Ring 1 completion — ~800 farms across 5 Gulf South states is a viable launch dataset</td></tr>
+  </table>
+
+  <p style="margin-top: 16px;">The platform doesn't need national coverage to launch. It needs <strong>deep, trusted coverage in one region</strong> where users can't find this data anywhere else. That's the Gulf South. Launch with Ring 0 + Ring 1 (~800 farms), then expand based on user demand and farm self-submissions.</p>
+</section>
+
+</div>
+
+<footer style="background: var(--earth); color: rgba(255,255,255,0.6); text-align: center; padding: 24px; margin-top: 40px; font-size: 0.82rem;">
+  <p>Sproutflow Studio — National Expansion Strategy | July 2026</p>
+</footer>
+
+</body>
+</html>

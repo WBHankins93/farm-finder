@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact & Schedule Enrichment — Proof Batch (FarmFinder)</title>
+<style>
+  :root{
+    --ink:#1f2a24; --muted:#5f6f66; --line:#e2e8e2; --paper:#fbfcfa;
+    --green:#2f6f4e; --green-soft:#eaf3ee; --amber:#b8770f; --amber-soft:#fbf1df;
+    --red:#a23b2e; --red-soft:#f7e8e5; --chip:#f0f4f0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:1080px;margin:0 auto;padding:40px 28px 80px;}
+  header.rep{border-bottom:2px solid var(--ink);padding-bottom:18px;margin-bottom:8px;}
+  .kicker{letter-spacing:.14em;text-transform:uppercase;font-size:12px;color:var(--green);font-weight:700;margin:0 0 6px;}
+  h1{font-size:30px;line-height:1.15;margin:0 0 8px;}
+  .sub{color:var(--muted);margin:0;font-size:15px;}
+  h2{font-size:20px;margin:38px 0 10px;padding-top:6px;border-top:1px solid var(--line);}
+  h2:first-of-type{border-top:none;}
+  p{margin:0 0 12px;}
+  .stats{display:flex;flex-wrap:wrap;gap:14px;margin:22px 0 6px;}
+  .stat{flex:1 1 150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;}
+  .stat .n{font-size:30px;font-weight:800;line-height:1;color:var(--green);}
+  .stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;text-transform:uppercase;letter-spacing:.06em;}
+  table{width:100%;border-collapse:collapse;margin:12px 0 8px;font-size:14px;}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{background:#fff;position:sticky;top:0;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);}
+  tr:nth-child(even) td{background:#fff;}
+  .tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap;}
+  .t-found{background:var(--green-soft);color:var(--green);}
+  .t-part{background:var(--amber-soft);color:var(--amber);}
+  .t-none{background:#f2eceb;color:var(--red);}
+  .t-skip{background:#eee;color:#666;}
+  code.ph{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;}
+  .callout{background:var(--green-soft);border:1px solid #cfe3d7;border-left:4px solid var(--green);
+           border-radius:8px;padding:14px 16px;margin:16px 0;}
+  .callout.warn{background:var(--amber-soft);border-color:#ecd9ad;border-left-color:var(--amber);}
+  ul{margin:6px 0 14px;padding-left:20px;} li{margin:4px 0;}
+  .foot{margin-top:40px;font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;}
+  a{color:var(--green);}
+  .legend{font-size:12.5px;color:var(--muted);margin:6px 0 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="rep">
+    <p class="kicker">FarmFinder · Database Enrichment</p>
+    <h1>Contact &amp; Schedule Enrichment — Proof Batch</h1>
+    <p class="sub">18 Louisiana farms with no phone in the database, researched to test hit rate before committing to the full 148 · 2026-07-13</p>
+  </header>
+
+  <h2>Why this batch, and what it tells us</h2>
+  <p>The canonical database (<code>research/local_farm_database_final.xlsx</code>, "All Farms" tab, 315 farms) has
+  <strong>148 farms with no phone number</strong> — 83 in Louisiana, 65 in Mississippi. Rather than blind-research all 148
+  (slow, and many small farms simply aren't findable online), I ran a <strong>proof batch of 18</strong>: Louisiana farms
+  with no phone <em>but</em> an active market presence — the exact profile your outreach plan cares about. Most are
+  Crescent City Farmers Market (CCFM) vendors, which turned out to matter.</p>
+
+  <div class="stats">
+    <div class="stat"><div class="n">16</div><div class="l">Researched (2 blocked by search limit)</div></div>
+    <div class="stat"><div class="n">6</div><div class="l">Direct phone numbers found</div></div>
+    <div class="stat"><div class="n">14</div><div class="l">Gained new contact and/or schedule</div></div>
+    <div class="stat"><div class="n">8</div><div class="l">Database facts to correct</div></div>
+  </div>
+  <p class="legend">Hit rate on the researched 16: phone <strong>~38%</strong>, any net-new actionable contact or schedule <strong>~88%</strong>.</p>
+
+  <div class="callout">
+    <strong>Headline finding.</strong> A direct <em>phone</em> is only findable about a third of the time — but nearly every
+    farm has a findable <strong>market schedule and/or website/email</strong>. For outreach and for the future app, the higher-value
+    enrichment isn't the phone at all: it's the <strong>where-to-find-them schedule</strong> plus a web/email contact. The phone gap
+    is real, but it's the wrong single metric to chase.
+  </div>
+
+  <h2>Findings</h2>
+  <p class="legend"><span class="tag t-found">phone</span> direct phone found &nbsp;
+     <span class="tag t-part">partial</span> schedule / web / email found, no phone &nbsp;
+     <span class="tag t-none">none</span> nothing net-new &nbsp;
+     <span class="tag t-skip">pending</span> not reached (search limit)</p>
+  <table>
+    <thead>
+      <tr><th>#</th><th>Farm</th><th>Result</th><th>Phone found</th><th>Other contact / schedule discovered</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td><strong>Credo Farms</strong><br><span class="legend">Amite</span></td>
+        <td><span class="tag t-found">phone</span></td>
+        <td><code class="ph">985-327-5122</code></td>
+        <td>20085 Carriage Dr, Amite 70422; online farm store w/ LA delivery + pickup (credofarms.com).</td></tr>
+
+      <tr><td>2</td><td><strong>Sprout NOLA</strong><br><span class="legend">New Orleans</span></td>
+        <td><span class="tag t-found">phone</span></td>
+        <td><code class="ph">504-512-6646</code></td>
+        <td>info@sproutnola.org · at CCFM <strong>every Thursday</strong>.</td></tr>
+
+      <tr><td>3</td><td><strong>Cicada Calling Farm</strong><br><span class="legend">Independence</span></td>
+        <td><span class="tag t-found">phone</span></td>
+        <td><code class="ph">225-267-5060</code></td>
+        <td>cicadacallingfarm.com · CCFM Thursday/Sunday · CSA. (DB lists "no website" — it has one.)</td></tr>
+
+      <tr><td>4</td><td><strong>Nola Tilth</strong><br><span class="legend">New Orleans East</span></td>
+        <td><span class="tag t-found">phone</span></td>
+        <td><code class="ph">504-616-0423</code></td>
+        <td>14000 Dwyer Blvd; nolatilth.com; CSA (labor-in-lieu). (DB lists "no website" — it has one.)</td></tr>
+
+      <tr><td>5</td><td><strong>Schmelly's Dirt Farm</strong><br><span class="legend">New Orleans</span></td>
+        <td><span class="tag t-found">phone</span></td>
+        <td><code class="ph">504-535-4769</code></td>
+        <td>dirt@schmellys.com; 8301 Olive St; schmellys.com. (Compost + urban produce.)</td></tr>
+
+      <tr><td>6</td><td><strong>Iverstine Farms</strong><br><span class="legend">Kentwood / Baton Rouge</span></td>
+        <td><span class="tag t-found">phone</span></td>
+        <td><code class="ph">225-349-8200</code></td>
+        <td>Butcher shop 7731 Perkins Rd, BR; shop hours Mon–Sat, Sun 10–3; iverstinebutcher.com.</td></tr>
+
+      <tr><td>7</td><td><strong>Mycelium Express</strong><br><span class="legend">Pearl River</span></td>
+        <td><span class="tag t-part">partial</span></td>
+        <td>—</td>
+        <td><strong>Full market schedule:</strong> CCFM Uptown Tue 8–12, Mid-City Thu 3–7, City Park Sun 8–12; Gretna Sat 8:30–12:30. myceliumexpress.com (contact form). (DB lists "New Orleans" — actually <strong>Pearl River, LA</strong>.)</td></tr>
+
+      <tr><td>8</td><td><strong>Micro Pharms</strong><br><span class="legend">Baton Rouge</span></td>
+        <td><span class="tag t-part">partial</span></td>
+        <td>—</td>
+        <td>micropharms.com; Thu Mid-City &amp; Sun City Park markets. (DB lists "New Orleans" — founder Christopher Pham is <strong>Baton Rouge</strong>-based.)</td></tr>
+
+      <tr><td>9</td><td><strong>Know Dat Grow Dat</strong><br><span class="legend">New Orleans</span></td>
+        <td><span class="tag t-part">partial</span></td>
+        <td>—</td>
+        <td>knowdatgrowdat.com/contact; sells across NOLA farmers markets. (DB lists "no website" — it has one. Note: distinct from <em>Grow Dat Youth Farm</em>.)</td></tr>
+
+      <tr><td>10</td><td><strong>Sunflower Hill Farm</strong><br><span class="legend">Tangipahoa</span></td>
+        <td><span class="tag t-part">partial</span></td>
+        <td>—</td>
+        <td>sunflowerhillfarmllc.com + Square store (sunflower-hill-farm-llc.square.site); FB @sunflowerhillfarm. Onsite honey house.</td></tr>
+
+      <tr><td>11</td><td><strong>Phiro Fresh Farms</strong><br><span class="legend">Arnaudville</span></td>
+        <td><span class="tag t-part">partial</span></td>
+        <td>—</td>
+        <td>phirofreshfarms1@gmail.com; listed in Black Farmers Index &amp; Grow Acadiana directories; FB/IG/YouTube.</td></tr>
+
+      <tr><td>12</td><td><strong>Provost Farm</strong><br><span class="legend">New Iberia</span></td>
+        <td><span class="tag t-part">partial</span></td>
+        <td>—</td>
+        <td>provostfarm@gmail.com; provostfarmllc.com (June &amp; Angie Provost). <em>Separate</em> "Paul Provost Farms" listed as 337-364-0545 — different entity, verify before use.</td></tr>
+
+      <tr><td>13</td><td><strong>Nightshade Farm &amp; Flowers</strong><br><span class="legend">New Orleans</span></td>
+        <td><span class="tag t-part">partial</span></td>
+        <td>—</td>
+        <td>nightshadefarms.com + Square store; prefers email / Instagram DM. Specialty cut flowers, event design.</td></tr>
+
+      <tr><td>14</td><td><strong>Epney Farms Premium Beef</strong><br><span class="legend">Amite</span></td>
+        <td><span class="tag t-part">partial</span></td>
+        <td>—</td>
+        <td>24444 East Bell Rd, Amite; pre-order / home delivery / off-farm pickup; FB, IG, email. Grass-fed beef.</td></tr>
+
+      <tr><td>15</td><td><strong>VEGGI Co-Op</strong><br><span class="legend">New Orleans East</span></td>
+        <td><span class="tag t-part">partial</span></td>
+        <td>—</td>
+        <td>4626 Alcee Fortier Blvd Ste E; veggifarmcoop.com; CSA program; CCFM vendor. Vietnamese-American growers co-op.</td></tr>
+
+      <tr><td>16</td><td><strong>Vintage Garden Farms</strong><br><span class="legend">Metairie / Chalmette</span></td>
+        <td><span class="tag t-none">none</span></td>
+        <td>—</td>
+        <td>Only social already-known-equivalent: FB "The Vintage Garden Farm", X @VGFarmsNola. No phone/email/site surfaced.</td></tr>
+
+      <tr><td>17</td><td><strong>Brickwall Farms</strong><br><span class="legend">New Orleans</span></td>
+        <td><span class="tag t-skip">pending</span></td>
+        <td>—</td>
+        <td>Not reached — daily web-search limit hit. CCFM vendor; retry after reset.</td></tr>
+
+      <tr><td>18</td><td><strong>5D Natural Farm</strong><br><span class="legend">SE Louisiana</span></td>
+        <td><span class="tag t-skip">pending</span></td>
+        <td>—</td>
+        <td>Not reached — daily web-search limit hit. CCFM vendor; retry after reset.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>What the batch proves</h2>
+  <ul>
+    <li><strong>Phones are the hardest field, ~38% findable.</strong> Small direct-to-consumer farms deliberately route contact
+      through Facebook/Instagram DM or a website form. Chasing "phone for all 148" would be low-yield and slow.</li>
+    <li><strong>Schedules and web/email are ~88% findable</strong> and are more useful anyway — a farm's market days are what an
+      app user (and an outreach call) actually needs. CCFM/Market Umbrella vendor pages are a goldmine: one source yields
+      schedule + products + often contact for dozens of NOLA-metro farms at once.</li>
+    <li><strong>The database has accuracy debt.</strong> This batch alone surfaced 8 corrections — several farms tagged "no website"
+      have one (Cicada, Nola Tilth, Know Dat Grow Dat), and two are mis-located (Mycelium = Pearl River, Micro Pharms = Baton Rouge).
+      Enrichment is also a data-QA pass, not just a fill-in-the-blanks.</li>
+  </ul>
+
+  <div class="callout warn">
+    <strong>Recommendation before you spend effort on all 148.</strong><br>
+    Reframe the task from "find missing phones" to "<strong>enrich market schedule + best contact channel</strong>," and mine the
+    <em>aggregator sources</em> first (CCFM / Market Umbrella vendor directory, Grow Acadiana, EatWild, Black Farmers Index) rather
+    than searching farm-by-farm. Rough plan:
+    <ul style="margin-bottom:0">
+      <li><strong>Tier 1 — CCFM / market-roster farms (~40–60 of the 148):</strong> high yield, batchable from a handful of directory
+        pages. Best ROI; do these next.</li>
+      <li><strong>Tier 2 — farms with a website or Square store but no phone:</strong> scrape the contact page. Medium yield.</li>
+      <li><strong>Tier 3 — social-only / no digital footprint:</strong> flag as "phone requires field/manual outreach." Don't burn
+        research time here; these get a phone when Sproutflow actually calls.</li>
+    </ul>
+    Net: expect to enrich schedule/contact for well over half the 148, but accept that a stubborn tail (~20–30%) will only get a
+    phone through direct outreach — which is fine, because that's the outreach step anyway.
+  </div>
+
+  <h2>Suggested next steps</h2>
+  <ul>
+    <li>Confirm the reframe above, and I'll (a) finish Brickwall Farms + 5D Natural after the search limit resets, then
+      (b) run Tier 1 across the remaining CCFM/roster farms.</li>
+    <li>I can write these findings <strong>back into the xlsx</strong> — new/updated <code>Contact Info</code>, a <code>Market Schedule</code>
+      column, a <code>Contact Channel</code> column (phone / email / web-form / social), and a <code>Data Correction</code> flag for the 8 fixes.</li>
+    <li>This enrichment loop is repeatable and rule-based — a strong <strong>Claude Skill</strong> candidate
+      ("enrich a farm row from its market roster + web presence"). Worth capturing once the reframe is settled.</li>
+  </ul>
+
+  <p class="foot">Method: targeted web search per farm (farm name + location + "contact/phone/schedule"), cross-checked against
+  the farm's own site and the Crescent City Farmers Market / Market Umbrella vendor directory. Phone numbers shown were the
+  best single match returned; verify before any automated dial/text use. 16 of 18 completed before the daily search quota reset.
+  Source: <code>research/local_farm_database_final.xlsx</code> · Report generated 2026-07-13.</p>
+</div>
+</body>
+</html>
