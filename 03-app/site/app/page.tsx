@@ -559,7 +559,7 @@ export default function Home() {
       <header className="topbar">
         <a className="brand" href="#top" aria-label="FarmFinder home">
           <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
-          <span>FarmFinder<small>Gulf South field guide</small></span>
+          <span>FarmFinder<small>U.S. farm field guide</small></span>
         </a>
         <nav aria-label="Primary navigation">
           <a href="#ask">Ask</a>
@@ -580,8 +580,8 @@ export default function Home() {
             <i className="atlas-pin atlas-pin-three" />
           </div>
           <div className="hero-stamp" aria-hidden="true">Release 001<br />July 2026</div>
-          <p className="hero-kicker">Louisiana · Mississippi · Growing outward</p>
-          <h1 id="hero-title">Find the Gulf South,<br /><em>by the field.</em></h1>
+          <p className="hero-kicker">Now mapping Louisiana · Mississippi · Expanding region by region</p>
+          <h1 id="hero-title">Find the farms<br /><em>behind your food.</em></h1>
           <p className="hero-copy">Find the people growing, raising, catching, and making food near you—then learn exactly how to buy from them.</p>
           <a className="hero-cta" href="#discover">Find food near you <span>↓</span></a>
           <div className="hero-stats" aria-label="Directory coverage">
@@ -827,7 +827,7 @@ export default function Home() {
           <div className="about-grid">
             <h2 id="about-title">A living directory,<br />built from the ground up.</h2>
             <div>
-              <p>FarmFinder is cataloging independent farms across the Gulf South so buying local takes less detective work. This first map combines public directories, farmers-market rosters, extension resources, and direct research.</p>
+              <p>FarmFinder is cataloging independent farms across the continental United States so buying local takes less detective work. Louisiana and Mississippi are the first coverage area, built from public directories, farmers-market rosters, extension resources, and direct research.</p>
               <p>Some pins represent a city or regional center rather than a farm gate. Always contact a farm before visiting; availability, hours, and harvests change with the season.</p>
             </div>
             <aside>
@@ -841,7 +841,7 @@ export default function Home() {
 
       <footer>
         <a className="brand footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span><span>FarmFinder<small>Find food closer to home.</small></span></a>
-        <p>Louisiana → Mississippi → one region at a time.</p>
+        <p>Louisiana → Mississippi → the continental U.S., one region at a time.</p>
         <div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a></div>
         <small>© 2026 FarmFinder</small>
       </footer>

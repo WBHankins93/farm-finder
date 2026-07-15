@@ -1,12 +1,9 @@
-# FarmFinder App — Vision (placeholder)
+# FarmFinder App — Vision
 
-"Google Maps / Uber for local farms" — discovery + ordering across the farm database.
+"Google Maps / Uber for local farms" — discovery across a continental-U.S. farm database, with ordering considered only where it creates demonstrated value.
 
-**Status: intentionally dormant.** No spec or build work until:
-1. Database covers South LA + South MS with meaningful density
-2. FarmFinder has real participating farms through listing corrections, claims, interviews, or other consented engagement
-3. Market brief (`research/market-opportunity-brief.md`) validates the space — LocalHarvest, Farmish, Barn2Door, and farmers-market apps already exist; we need a sourced view of why they haven't won and what our database advantage is worth.
+**Status: product and platform foundation active.** The public directory, architecture, design system, and production roadmap are underway. Authenticated farm management, ordering, and full production question answering remain gated on governed database cutover, real farm participation, and measured consumer demand.
 
-Test markets: South Louisiana + South Mississippi. Scale state-by-state based on results.
+Launch/test markets: South Louisiana + South Mississippi. These are the first coverage areas, not the product boundary. Scale state-by-state toward continental-U.S. coverage based on evidence and the governed source-of-truth process.
 
-When ready: run product-research → product-spec → architecture → build-plan chain.
+Current implementation plan: `site/docs/product/phased-build-plan.md`.

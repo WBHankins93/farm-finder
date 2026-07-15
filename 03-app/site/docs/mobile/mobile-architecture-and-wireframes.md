@@ -23,7 +23,7 @@ Do not wrap the website in a WebView. A responsive/PWA website should remain ava
 
 ## Product boundary
 
-The mobile app is another FarmFinder client. It does not connect directly to PostgreSQL or object storage.
+The mobile app is another client of the continental-U.S. FarmFinder product. Louisiana and Mississippi are its first available coverage, not its permanent geography. It does not connect directly to PostgreSQL or object storage.
 
 ```mermaid
 flowchart LR

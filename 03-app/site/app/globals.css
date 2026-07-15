@@ -68,7 +68,7 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
     linear-gradient(108deg, var(--paper) 0 61%, var(--paper-deep) 61% 100%);
   background-size: 82px 82px, 82px 82px, auto;
 }
-.hero::after { content: "GULF SOUTH"; position: absolute; right: -8px; bottom: 112px; writing-mode: vertical-rl; font-size: 10px; letter-spacing: .35em; color: rgba(37, 39, 31, .45); }
+.hero::after { content: "U.S. FARM FIELD GUIDE"; position: absolute; right: -8px; bottom: 112px; writing-mode: vertical-rl; font-size: 10px; letter-spacing: .35em; color: rgba(37, 39, 31, .45); }
 .hero-kicker, .section-number { margin: 0; text-transform: uppercase; letter-spacing: .22em; font-size: 10px; font-weight: 750; color: var(--rust); }
 .hero > :not(.hero-atlas) { position: relative; z-index: 2; }
 .hero h1 { margin: 32px 0 20px; font: 500 clamp(72px, 8.7vw, 132px)/.82 var(--serif); letter-spacing: -.065em; max-width: 1120px; }

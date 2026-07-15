@@ -2,7 +2,7 @@
 
 ## Outcome
 
-Build one production-quality FarmFinder platform in deliberate releases: trustworthy farm data first, a fast public Next.js directory second, governed participation and authentication third, grounded question answering fourth, and a native mobile client only after the shared API is stable.
+Build one production-quality FarmFinder platform for continental-U.S. farm discovery in deliberate releases: trustworthy farm data first, a fast public Next.js directory second, governed participation and authentication third, grounded question answering fourth, and a native mobile client only after the shared API is stable.
 
 The website and mobile app are clients of the same FarmFinder platform. PostgreSQL, object storage, source provenance, authorization policy, and API contracts are shared infrastructure; UI state and device-specific interactions are not.
 
@@ -15,6 +15,7 @@ The website and mobile app are clients of the same FarmFinder platform. PostgreS
 - Approximate locations are labeled; private exact locations never enter public output.
 - The web experience is the first complete client and the contract test for mobile.
 - Each phase has a measurable completion gate and a reversible release.
+- Louisiana and Mississippi are the launch coverage area; the continental United States is the product boundary.
 
 ## What the repository boundaries mean
 
@@ -70,7 +71,7 @@ CI verifies the documented index inventory and critical query plans. It does not
 | 6. Production operations and pilot | Planned | CI/CD, staging, telemetry, backups, alerts, five-farm and consumer pilot | Restore, rollback, SLO, support, and outcome evidence exists |
 | 7. Mobile foundation | Planned | Stable shared contracts, deep links, session model, offline cache policy, mobile tokens | Web API compatibility suite and mobile architecture review pass |
 | 8. Expo/React Native mobile application | Planned | Native discovery, map, profiles, saved farms, claims, and account flows | Store-ready builds, device accessibility, offline/error, and performance gates pass |
-| 9. Regional and national expansion | Active data work | Repeatable state releases and coverage reporting | Per-state source passes, freshness, duplicates, licensing, and restore gates pass |
+| 9. Continental-U.S. expansion | Active data work | Repeatable state releases and county/state coverage reporting | Per-state source passes, freshness, duplicates, licensing, and restore gates pass |
 
 ## Phase 1 — PostgreSQL cutover
 

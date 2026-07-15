@@ -1,6 +1,6 @@
 # FarmFinder
 
-FarmFinder is a standalone product building a trustworthy, searchable directory of independent farms and local-food producers, beginning in Louisiana and Mississippi and designed to expand across the United States.
+FarmFinder is a standalone product building a trustworthy, searchable directory of independent farms and local-food producers across the continental United States. Louisiana and Mississippi are the first coverage area, not the product boundary.
 
 FarmFinder itself has two connected product tracks:
 
@@ -452,7 +452,7 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 **Status:** Active data work, platform integration planned
 
 - Complete the Mississippi three-pass collection and review its staged candidates.
-- Expand through the Gulf South, then the remaining South, Midwest, Northeast, and West.
+- Expand state-by-state from the Gulf South until FarmFinder covers the continental United States.
 - Track completeness and freshness at state and county/parish levels.
 - Maintain operational coverage regions for foodsheds, metros, and agricultural districts.
 - Add partitions or database sharding only when query, vacuum, backup, or maintenance measurements require them.

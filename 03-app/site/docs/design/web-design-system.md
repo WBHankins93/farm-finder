@@ -2,7 +2,8 @@
 
 ## Project context
 
-- **Product:** standalone public farm-discovery directory and local-food field guide.
+- **Product:** standalone continental-U.S. farm-discovery directory and local-food field guide.
+- **Launch coverage:** Louisiana and Mississippi first; the Gulf South is a starting region, not the product identity or boundary.
 - **Audience:** shoppers looking for nearby products and ways to buy; farmers reviewing or eventually managing their listing.
 - **Primary job:** get from “I want this food near this place” to a trustworthy farm result with the next buying step.
 - **Archetype:** Field Journal × Living Atlas.
@@ -26,12 +27,12 @@ The page behaves like a field notebook opened over a survey map:
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│ FARMFINDER / GULF SOUTH FIELD GUIDE   Ask  Harvest  Explore    Find farms  │
+│ FARMFINDER / U.S. FARM FIELD GUIDE    Ask  Harvest  Explore    Find farms  │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│ LA · MS · GROWING OUTWARD                    [FIELD RECORD / JUL 2026]       │
+│ LA · MS LIVE · EXPANDING REGION BY REGION    [FIELD RECORD / JUL 2026]       │
 │                                                                              │
-│ THE GULF SOUTH,                                                            ○ │
-│        BY THE FIELD.                 contour rings / parcel lines / pins     │
+│ FIND THE FARMS,                                                           ○ │
+│        BEHIND YOUR FOOD.              contour rings / parcel lines / pins     │
 │                                                                              │
 │       Find growers, markets, pickup, and ordering paths near you.            │
 │       [ FIND FOOD NEAR YOU ↓ ]                                               │
@@ -62,10 +63,10 @@ The page behaves like a field notebook opened over a survey map:
 ┌─────────────────────────────┐
 │ FARMFINDER       FIND FARMS │
 ├─────────────────────────────┤
-│ LA · MS                     │
-│ THE GULF                    │
-│ SOUTH, BY                   │
-│ THE FIELD.              ○   │
+│ LA · MS · EXPANDING         │
+│ FIND THE FARMS              │
+│ BEHIND YOUR                 │
+│ FOOD.                   ○   │
 │ Find food closer to home.   │
 │ [ FIND FOOD NEAR YOU ↓ ]    │
 │ 311 mapped · 2 states       │
@@ -168,7 +169,7 @@ The prompts below are complete and can be reused when visual assets or future se
 **Tool:** GPT Image 2
 **Input:** None
 
-> Create one horizontal 16:9 website hero design reference for FarmFinder, a standalone Gulf South farm-discovery directory, but do not use a conventional website hero layout. Use a Field Journal × Living Atlas archetype. Build an asymmetrical full-canvas agricultural survey composition from abstract parcel lines, river curves, topographic contours, crop-row marks, and a few precise map pins; do not use stock-photo people or a left-copy/right-image split. Integrate oversized readable editorial serif type like a field-guide cover, with small-caps navigation and quiet edge captions. Include only “FARMFINDER,” “THE GULF SOUTH, BY THE FIELD,” and one discreet “FIND FOOD NEAR YOU” editorial stamp. Palette: river slate, chlorophyll ink, weathered seed paper, cane fiber, persimmon stamp, oyster-shell white. No eyebrow/headline/subheadline/two-button stack, no centered SaaS hero, no purple gradient, no equal cards. The layout must remain recognizable if all text disappears. Buttons are fine-bordered transparent pills, never bright blocks. Responsive intent must preserve the atlas composition rather than stack generic columns.
+> Create one horizontal 16:9 website hero design reference for FarmFinder, a standalone continental-U.S. farm-discovery directory launching first in Louisiana and Mississippi, but do not use a conventional website hero layout. Use a Field Journal × Living Atlas archetype whose geography can expand nationally rather than a Gulf South regional brand. Build an asymmetrical full-canvas agricultural survey composition from abstract parcel lines, river curves, topographic contours, crop-row marks, and a few precise map pins; do not use stock-photo people or a left-copy/right-image split. Integrate oversized readable editorial serif type like a field-guide cover, with small-caps navigation and quiet edge captions. Include only “FARMFINDER,” “FIND THE FARMS BEHIND YOUR FOOD,” and one discreet “FIND FOOD NEAR YOU” editorial stamp. Palette: river slate, chlorophyll ink, weathered seed paper, cane fiber, persimmon stamp, oyster-shell white. No eyebrow/headline/subheadline/two-button stack, no centered SaaS hero, no purple gradient, no equal cards. The layout must remain recognizable if all text disappears. Buttons are fine-bordered transparent pills, never bright blocks. Responsive intent must preserve the atlas composition rather than stack generic columns.
 
 **What to look for:** A unique atlas silhouette, one clear action, strong type tension, and enough quiet space for real coded text.
 

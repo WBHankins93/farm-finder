@@ -6,8 +6,8 @@
 
 FarmFinder is a two-track product initiative to make independent farms easier to find, starting in South Louisiana:
 
-1. **Farm database** — a comprehensive database of local farms, starting with South Louisiana, then all of Louisiana, then state-by-state. Core observation driving this: ~90% of local farms in South Louisiana have no website — **verified against our own database** (89% of 81 LA farms in `01-database/local_farm_database.xlsx`, verified 2026-07-12; dashboard: `farmfinder-dashboard.html`). Note nuance: many are on Facebook; "no website" ≠ "no online presence at all" (30% of NOLA Metro farms have zero web presence including social).
-2. **FarmFinder app** — long-term: a "Google Maps / Uber for local farms" built on the database. Test markets: South Louisiana + South Mississippi (two-state test), scale based on results.
+1. **Farm database** — a comprehensive database of local farms across the continental United States, built state-by-state starting with South Louisiana and then all of Louisiana. Core observation driving this: ~90% of local farms in South Louisiana have no website — **verified against our own database** (89% of 81 LA farms in `01-database/local_farm_database.xlsx`, verified 2026-07-12; dashboard: `farmfinder-dashboard.html`). Note nuance: many are on Facebook; "no website" ≠ "no online presence at all" (30% of NOLA Metro farms have zero web presence including social).
+2. **FarmFinder app** — long-term: a continental-U.S. "Google Maps / Uber for local farms" built on the database. South Louisiana + South Mississippi are the first test markets, not the product boundary; coverage scales state-by-state based on results.
 
 ### Standalone product boundary
 
@@ -41,7 +41,7 @@ The database is the FarmFinder product asset. Every correction or voluntary cont
 
 ## Key decisions
 
-- **Start narrow:** South Louisiana only until the database + farm-participation + consumer-discovery loop is proven. Then South MS. Then one state at a time.
+- **Start narrow, build national:** South Louisiana only until the database + farm-participation + consumer-discovery loop is proven. Then South MS. Then one state at a time until the continental United States is covered.
 - **Keep FarmFinder standalone:** no separate-company branding, commercial workflow, customer system, or promotion belongs in the product.
 - **Retain useful digital-presence facts:** verified website, social, store, map, and contact-visibility data remain part of the farm directory.
 - **Marketplace functionality comes last:** the current app work is directory, data governance, and production platform foundation; ordering waits for coverage, farm participation, and demonstrated consumer demand.

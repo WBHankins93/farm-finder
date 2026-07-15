@@ -108,9 +108,9 @@
 </nav>
 
 <main>
-<p class="kicker">FarmFinder · Track 3 (App) — Website-First</p>
+<p class="kicker">FarmFinder App — Website-First</p>
 <h1>Consumer Site — Information Architecture &amp; Wireframe Skeleton</h1>
-<p class="meta">Planning artifact · 2026-07-13 · Scope: Discovery core + Trust/story layer + Ordering + Farm onboarding · Geography: Gulf South, South-Louisiana-first · Archetype: Field Journal (× Product OS) · Derived with the <code>ui-design-system</code> skill.</p>
+<p class="meta">Planning artifact · 2026-07-13 · Scope: Discovery core + Trust/story layer + Ordering + Farm onboarding · Geography: continental-U.S. product, South-Louisiana-first rollout · Archetype: Field Journal (× Product OS) · Derived with the <code>ui-design-system</code> skill.</p>
 
 <div class="banner" id="intro">
 <strong>Read me first — this is a plan, not a build.</strong> Nothing here is production code. The gray boxes are
@@ -171,7 +171,7 @@ settling for discovery — never generic fade-up. Always respect <code>prefers-r
 Feed this to an image tool to generate the art plate <em>before</em> any coding — this is the visual source of truth, not a wireframe.</div>
 <div class="prompt">Create ONE horizontal 16:9 website hero design reference, but do NOT use a conventional website hero layout.
 
-Business: FarmFinder — a Gulf South local-farm discovery brand connecting people with small, direct-to-consumer farms (produce, eggs, honey, seafood, flowers). Mission-driven, agrarian, rooted in South Louisiana.
+Business: FarmFinder — a continental-U.S. farm-discovery product connecting people with small, direct-to-consumer farms (produce, eggs, honey, seafood, flowers), launching first in South Louisiana and Mississippi. Mission-driven and agrarian; the launch region must not become the permanent product boundary.
 
 Layout archetype: field journal — a naturalist's field notebook that happens to be shaped like a website.
 
@@ -194,8 +194,8 @@ Make it feel like an Awwwards-level field-journal editorial homepage, structural
 <!-- ============================= 3 SITEMAP ============================= -->
 <h2 id="sitemap">3 · Sitemap</h2>
 <p>Two audiences on one platform: <b>eaters</b> (public discovery + ordering) and <b>farmers</b> (claim + manage). Public site
-defaults to South Louisiana where coverage is deepest, with a region switcher wired for the concentric-ring expansion
-(Gulf South → Ring 1 → …) from your scaling document.</p>
+defaults to South Louisiana where coverage is deepest, with a region switcher wired for state-by-state expansion
+(Gulf South launch → adjacent regions → continental U.S.) from your scaling document.</p>
 <div class="wire">
 <div class="cap">Sitemap — v1 skeleton <span class="route">public + farmer + system</span></div>
 <pre>
@@ -499,14 +499,14 @@ moment is the two-sided cold-start solution the market brief worries about.</div
 │  [ Discover farms here → ]                                                 │
 ├──────────────────────────────────────────────────────────────────────────┤
 │  EmptyRegion variant (e.g. /region/alabama, Ring 1 not live):             │ 3
-│   "We're cataloging Gulf South next. Be first to know →  ◦ email"          │
+│   "We're expanding across the U.S. region by region. Join the waitlist →"  │
 │   Ring map:  ● LA/MS  ○ AL·E-TX·AR  ○ TN·GA·FL-N·SC                        │
 └──────────────────────────────────────────────────────────────────────────┘
 </pre>
 </div>
 <div class="annot"><ol>
 <li><b>1–2</b> Region pages make each ring a launchable, SEO-friendly market and show coverage <em>honestly</em> (deep vs. growing) — the opposite of wide-and-shallow.</li>
-<li><b>3</b> <code>EmptyRegion</code> converts out-of-area demand into a waitlist and visualizes the concentric-ring plan from your scaling doc, so "national ambition" reads as a roadmap, not a false claim.</li>
+<li><b>3</b> <code>EmptyRegion</code> converts out-of-area demand into a waitlist and visualizes the expansion plan, so continental-U.S. scope reads as a governed roadmap, not a false coverage claim.</li>
 </ol></div>
 
 <h3 id="w-shop">5.8 · Shop → Cart → Checkout → Confirmation</h3>

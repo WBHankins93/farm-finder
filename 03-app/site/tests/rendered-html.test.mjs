@@ -29,7 +29,7 @@ test("server-renders the FarmFinder directory shell", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<title>FarmFinder — Find farms across Louisiana &amp; Mississippi<\/title>/i);
+  assert.match(html, /<title>FarmFinder — Find the farms behind your food<\/title>/i);
   assert.match(html, /<nav[^>]+aria-label="Primary navigation"/i);
   assert.match(html, /<main id="top">/i);
   assert.match(html, /<section[^>]+id="ask"/i);
