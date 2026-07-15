@@ -7,9 +7,9 @@
     "id": "2026-07-15-enriched-v2",
     "workspacePath": "../../research/local_farm_database_final.xlsx",
     "sheet": "All Farms",
-    "sha256": "cbdf1649385a3c29ac0af1677dbbdf145ce5a8072e86075479e98786759ecce5",
-    "sourceRowCount": 311,
-    "candidateEntityCount": 311,
+    "sha256": "9fd2c2abe13e26fb5e3c72aeabe42e7b04da78d8af0b0af43f1db20bdf9ce4e9",
+    "sourceRowCount": 299,
+    "candidateEntityCount": 299,
     "allowedStates": ["LA", "MS"],
     "storage": {
       "bucket": "farmfinder-source-releases",
