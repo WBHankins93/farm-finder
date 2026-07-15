@@ -16,6 +16,7 @@ from state_policy import AFFIRMATIVE_EXCLUSION_REASONS, RESEARCH_STATUS, effecti
 
 ROOT = Path(__file__).resolve().parents[2]
 STATE_ROOT = ROOT / "research" / "state-expansions"
+CANONICAL_MANIFEST = ROOT / "03-app" / "site" / "config" / "source-of-truth.json"
 OLD_FILES = {
     "state-config.json", "sources.json", "manual-decisions.csv",
     "county-coverage.csv", "completion-report.md", "release-manifest.json",
@@ -62,6 +63,7 @@ def migrate(state: str) -> dict[str, Any]:
     coverage = read_csv(state_dir / "county-coverage.csv")
     entities = read_csv(state_dir / "entities.csv")
     decisions = read_csv(state_dir / "manual-decisions.csv")
+    canonical = json.loads(CANONICAL_MANIFEST.read_text(encoding="utf-8"))["release"]
 
     entity_fields = list(entities[0]) if entities else []
     if "county" in entity_fields:
@@ -146,7 +148,11 @@ def migrate(state: str) -> dict[str, Any]:
             },
             "evidenceStorage": manifest.get("evidenceStorage", {}),
             "artifacts": artifacts,
-            "canonicalBoundary": manifest.get("canonicalBoundary", {}),
+            "canonicalBoundary": {
+                "authorityMode": "pre_cutover_workbook",
+                "allowedStates": canonical.get("allowedStates", []),
+                "sourceRowCount": canonical.get("sourceRowCount"),
+            },
             "approval": manifest.get("approval", {}),
         },
     }
