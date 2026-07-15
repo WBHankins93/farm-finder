@@ -8,7 +8,7 @@
 
 FarmFinder currently builds a static 311-listing JSON artifact from a workbook. The next production case must support trustworthy geographic and product queries, source provenance, farm claims, background imports, authorization, and eventually narrative question answering across a national dataset.
 
-The existing application is TypeScript. The workbook ingestion script is Python. The currently tracked Git repository contains only `03-app/site`; research and database files are adjacent workspace assets rather than versioned contents of that repository.
+The existing application is TypeScript. The workbook ingestion script is Python. At the time of this decision, only `03-app/site` was tracked by Git; the project was consolidated into one private root repository later on 2026-07-15 while preserving the original site history.
 
 ## Decision
 
@@ -66,7 +66,7 @@ The existing application is TypeScript. The workbook ingestion script is Python.
 - Data ingestion becomes more explicit because source records and canonical entities are separate.
 - National expansion is primarily a coverage and data-governance problem, not a database-sharding problem.
 - PostgreSQL extensions and indexes must be supported by the chosen managed provider.
-- Repository consolidation must be revisited before CI can validate the workbook and application from a clean clone.
+- The consolidated repository allows CI to validate the workbook, manifest, application, and database foundation from one clean clone.
 
 ## Revisit triggers
 
@@ -82,4 +82,4 @@ The existing application is TypeScript. The workbook ingestion script is Python.
 3. Import the pinned workbook into staging and compare 315 source rows to 311 candidate entities.
 4. Build read-only query tools and API contracts.
 5. Add authentication and claims before accepting public writes.
-6. Consolidate the project Git boundary or make the source dataset available to CI as a versioned artifact.
+6. [x] Consolidate the project Git boundary so governed data and application code are versioned together.

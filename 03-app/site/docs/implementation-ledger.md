@@ -18,7 +18,7 @@ This ledger records each production capability, its implementation decision, cur
 | Prompt injection | Retrieved content is untrusted data and cannot authorize tools | Policy documented | Adversarial eval suite passes |
 | PII | Public/private contact separation and non-public exact locations | Schema foundation | Public-role snapshot contains no private values |
 | Tests | Unit, integration with PostGIS, API contract, migration, policy | Build/smoke and DB foundation tests passing | API, policy, importer, and eval checks block release |
-| CI/CD | Build, tests, migration check, evals, staging smoke, promotion | Planned; repo boundary noted | Clean clone can reproduce every required input |
+| CI/CD | Build, tests, migration check, evals, staging smoke, promotion | Project repository boundary resolved; automation planned | Clean clone can reproduce every required input |
 | Infrastructure | Local Compose now; managed Postgres/object store/telemetry/IaC later | Local PostGIS bootstrap and verification passing | Backup restore and staging deployment tested |
 | Real users | Five pilot farms plus consumer cohort | Product action | Baseline and target metrics recorded before pilot |
 | Outcomes | Correct-answer rate, search-to-contact, claims, corrections, freshness, latency, cost | Defined, not instrumented | Dashboard and case-study export |
@@ -26,12 +26,8 @@ This ledger records each production capability, its implementation decision, cur
 | Object storage | Source releases and future images; metadata in PostgreSQL | Contract documented | Checksum, rights, variants, retention, signed access tested |
 | National coverage | Official admin areas plus operational coverage regions | Schema foundation | Coverage completeness and freshness measured per region |
 
-## Repository boundary decision still open
+## Repository boundary resolved
 
-Only this site directory is currently tracked by Git. The canonical workbook, outreach, and research folders live two levels above it. No CI/CD claim is complete until one of these is chosen:
+On 2026-07-15, FarmFinder was consolidated into one private repository rooted at `farm-finder/`. The canonical workbook, database tools, outreach, research, architecture, and web application are now versioned together. The original ChatGPT Sites commits remain in history under `03-app/site/`.
 
-1. Promote the FarmFinder workspace root to the repository root.
-2. Move/version governed data inputs inside this repository.
-3. Publish each immutable dataset release to object storage and have CI verify its checksum.
-
-The foundation validator works in the current workspace, but a clean clone of the site repository alone cannot access the workbook yet.
+CI automation remains outstanding, but a clean project clone now contains the pinned workbook and the manifest needed for source-of-truth validation.
