@@ -25,6 +25,7 @@ This ledger records each production capability, its implementation decision, cur
 | Architecture/case study | ADRs, diagrams, index decisions, failures, revisions | Foundation documented | Published after pilot with measured evidence |
 | Object storage | Source releases and future images; metadata in PostgreSQL | Contract documented | Checksum, rights, variants, retention, signed access tested |
 | National coverage | Official admin areas plus operational coverage regions | Schema foundation | Coverage completeness and freshness measured per region |
+| Sproutflow lead workspace | Private namespace or CRM keyed by stable `farm_id`; filters governed FarmFinder facts but owns all lead/outreach/client fields | Planned; no private outreach schema in current migrations | Owner-only grants, public-role denial tests, audit coverage, and do-not-contact enforcement |
 
 ## Repository boundary resolved
 

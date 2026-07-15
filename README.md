@@ -13,7 +13,18 @@ The database is the shared product asset. Better coverage and farm participation
 
 Sproutflow is Ben Hankins's separate company. Its farm outreach, website services, clients, and revenue strategy are not FarmFinder application features, FarmFinder product roadmap items, or the FarmFinder business model.
 
-This private repository contains `02-outreach/` because Ben may use FarmFinder research in separate Sproutflow business development. If a Sproutflow conversation produces a farm correction or voluntary listing information, that information must enter FarmFinder through the same consent, provenance, privacy, and verification rules as any other source. The commercial relationship remains separate.
+This does **not** mean removing digital-presence information from FarmFinder. FarmFinder keeps source-backed facts such as confirmed websites, social profiles, online stores, map listings, contact channels, market participation, products, and verification dates. Ben may privately filter those facts to identify farms that could benefit from Sproutflow services.
+
+The boundary is between shared facts and the private commercial workflow:
+
+| Data | Owner and visibility |
+|---|---|
+| Farm identity, geography, products, markets, website/social/store/map links, contact visibility, sources, and verification history | FarmFinder's governed data layer; public fields may serve the directory, while sensitive fields remain restricted |
+| Digital-presence opportunity, lead score, outreach stage, contact attempts, private notes, next follow-up, proposal/client status, and do-not-contact status | Private Sproutflow workspace; never returned by the public FarmFinder API |
+
+Both sides will reference the same stable `farm_id`. The planned PostgreSQL design starts with separate permission boundaries for FarmFinder data and Sproutflow-private records, so the private workflow can be moved to a separate CRM or service later without changing farm identities.
+
+This private repository contains `02-outreach/` because Ben may use FarmFinder research in separate Sproutflow business development. If a Sproutflow conversation produces a farm correction or voluntary listing information, that information must enter FarmFinder through the same consent, provenance, privacy, and verification rules as any other source. A Sproutflow annotation does not automatically become a FarmFinder fact, and the commercial relationship remains separate.
 
 > **Geography note:** `LA` means Louisiana throughout this repository, not Los Angeles.
 
