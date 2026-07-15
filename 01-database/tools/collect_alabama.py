@@ -29,6 +29,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 from state_release_urls import classify_public_urls
+from state_policy import classify_candidate
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -725,7 +726,7 @@ def reconcile(observations: list[Observation]) -> tuple[list[dict[str, Any]], li
             if not city: blockers.append("city or safe public service area missing")
             if not products: blockers.append("products or farm activity missing")
             if grades == ["E"]: blockers.append("single secondary discovery listing needs corroboration")
-            promotion = "promotion_eligible_reviewed" if not blockers else "research_or_qa_queue"
+            promotion = classify_candidate(name, blockers).status
             website_url, facebook_url, instagram_url, tiktok_url = classify_public_urls(
                 choose(source_items, "website_url"), choose(source_items, "facebook_url"),
                 choose(source_items, "instagram_url"), choose(source_items, "tiktok_url"),
@@ -1002,10 +1003,10 @@ def main() -> int:
     }
 
     write_csv(OUTPUT_DIR / "observations.csv", observation_records)
-    write_csv(STATE_DIR / "entities.csv", entities)
+    write_csv(OUTPUT_DIR / "entities.csv", entities)
     write_csv(OUTPUT_DIR / "identity-review.csv", identity_review)
     write_csv(OUTPUT_DIR / "qa-queue.csv", qa)
-    write_csv(STATE_DIR / "county-coverage.csv", county_coverage)
+    write_csv(OUTPUT_DIR / "county-coverage.csv", county_coverage)
     write_csv(OUTPUT_DIR / "exclusions.csv", excluded)
     (OUTPUT_DIR / "request-log.json").write_text(json.dumps(source_log, indent=2), encoding="utf-8")
     (OUTPUT_DIR / "county-lookup-errors.json").write_text(json.dumps(county_errors, indent=2), encoding="utf-8")

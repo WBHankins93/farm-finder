@@ -26,6 +26,7 @@ from pathlib import Path
 from typing import Any
 
 from state_release_urls import classify_public_urls
+from state_policy import classify_candidate, validate_exclusion_reason
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from collect_alabama import (  # Reuse the tested transport and small HTML DOM.
@@ -47,7 +48,7 @@ ROOT = Path(__file__).resolve().parents[2]
 STATE_DIR = ROOT / "research" / "state-expansions" / "TX"
 OUTPUT_DIR = ROOT / "data" / "source-releases" / "work" / "TX"
 PUBLIC_FARMS = ROOT / "03-app" / "site" / "app" / "data" / "farms.json"
-MANUAL_VERIFICATION_DECISIONS = STATE_DIR / "manual-decisions.csv"
+MANUAL_VERIFICATION_DECISIONS = STATE_DIR / "decisions.csv"
 TODAY = date.today().isoformat()
 
 GO_TEXAN_URL = "https://bridge.texasagriculture.gov/GoTexanSearch/"
@@ -163,6 +164,8 @@ def manual_verification_observations() -> tuple[list[Observation], set[str], lis
             raise ValueError(f"Manual verification {review_id} has an invalid normalized-name target")
         if decision not in {"corroborate", "exclude"}:
             raise ValueError(f"Manual verification {review_id} has unsupported decision {decision!r}")
+        if decision == "exclude":
+            validate_exclusion_reason(clean_text(record.get("exclusion_reason")))
         seen_review_ids.add(review_id)
         source_url = clean_url(record.get("source_url"))
         if not source_url:
@@ -181,7 +184,7 @@ def manual_verification_observations() -> tuple[list[Observation], set[str], lis
             "entity_type_source": clean_text(record.get("verified_entity_type")),
             "entity_type_review": "manual_review_excluded_nonfarm" if decision == "exclude" else
                                   "farm_activity_confirmed_by_farm_owned_or_authoritative_source",
-            "county": normalized_county(record.get("county", "")),
+            "county": normalized_county(record.get("county_equivalent") or record.get("county", "")),
             "county_source": source_url,
             "city": clean_text(record.get("city")),
             "postal_code": clean_text(record.get("postal_code")),
@@ -745,6 +748,7 @@ def reconcile(observations: list[Observation], excluded_candidate_keys: set[str]
                 choose(active, "website_url"), choose(active, "facebook_url"),
                 choose(active, "instagram_url"), choose(active, "tiktok_url"),
             )
+            disposition = classify_candidate(name, blockers)
             entity = {
                 "entity_id": entity_id, "farm_name": name, "normalized_name": key,
                 "entity_type": "producer_requires_type_review" if unconfirmed_member_or_vendor else "farm",
@@ -764,7 +768,7 @@ def reconcile(observations: list[Observation], excluded_candidate_keys: set[str]
                 "source_observation_ids": " | ".join(x.observation_id for x in items),
                 "source_names": " | ".join(dict.fromkeys(x.source_name for x in items)),
                 "source_urls": " | ".join(dict.fromkeys(x.source_url for x in items)), "evidence_grades": "; ".join(grades),
-                "last_retrieved": TODAY, "promotion_status": "promotion_eligible_reviewed" if not blockers else "research_or_qa_queue",
+                "last_retrieved": TODAY, "promotion_status": disposition.status,
                 "promotion_blockers": "; ".join(blockers),
                 "notes": "Fields selected by evidence grade; all underlying observations remain separately auditable.",
             }
@@ -1107,8 +1111,8 @@ def main() -> int:
     }
 
     write_csv(OUTPUT_DIR / "observations.csv", observation_records)
-    write_csv(STATE_DIR / "entities.csv", entities); write_csv(OUTPUT_DIR / "identity-review.csv", identity_review)
-    write_csv(OUTPUT_DIR / "qa-queue.csv", qa); write_csv(STATE_DIR / "county-coverage.csv", coverage)
+    write_csv(OUTPUT_DIR / "entities.csv", entities); write_csv(OUTPUT_DIR / "identity-review.csv", identity_review)
+    write_csv(OUTPUT_DIR / "qa-queue.csv", qa); write_csv(OUTPUT_DIR / "county-coverage.csv", coverage)
     write_csv(OUTPUT_DIR / "exclusions.csv", excluded); write_csv(OUTPUT_DIR / "geography-conflicts.csv", geography_conflicts)
     (OUTPUT_DIR / "request-log.json").write_text(json.dumps(logs, indent=2), encoding="utf-8")
     (OUTPUT_DIR / "county-lookup-errors.json").write_text(json.dumps(lookup_errors, indent=2), encoding="utf-8")
