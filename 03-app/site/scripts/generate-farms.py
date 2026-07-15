@@ -95,6 +95,24 @@ GEOCODE_ALIASES = {
     ("se louisiana", "LA"): "Hammond, Louisiana",
 }
 
+# Evidence-backed corrections that must outrank the historical dashboard's by-name
+# coordinates. Both farms participate in New Orleans markets but are located in
+# Poplarville, Mississippi.
+LOCATION_OVERRIDES = {
+    "fat cat farm": {
+        "latitude": 30.8401495,
+        "longitude": -89.5342315,
+        "precision": "city",
+        "source": "OpenStreetMap Nominatim",
+    },
+    "pearl river pastures": {
+        "latitude": 30.8401495,
+        "longitude": -89.5342315,
+        "precision": "city",
+        "source": "OpenStreetMap Nominatim",
+    },
+}
+
 
 def geocode_city(city: str, state: str) -> dict | None:
     query = GEOCODE_ALIASES.get((key(city), state), f"{city}, {state}, USA")
@@ -160,7 +178,8 @@ def main() -> None:
         city_key = (key(row["City/Town"]), clean(row["State"]))
         cache_key = "|".join(city_key)
         location = (
-            verified_by_name.get(name_key)
+            LOCATION_OVERRIDES.get(name_key)
+            or verified_by_name.get(name_key)
             or verified_by_city.get(city_key)
             or cache.get(cache_key)
         )
@@ -242,6 +261,15 @@ def main() -> None:
             "contact": unique_join(group["Contact Info"].tolist(), " · "),
             "notes": unique_join(group["Notes"].tolist()),
             "source": unique_join(group["Source Tab"].tolist()),
+            "recordId": clean(first.get("Record ID")),
+            "recordStatus": clean(first.get("Record Status")),
+            "websiteVerificationStatus": clean(first.get("Website Verification Status")),
+            "facebookUrl": clean(first.get("Facebook URL")),
+            "instagramUrl": clean(first.get("Instagram URL")),
+            "contactStatus": clean(first.get("Contact Status")),
+            "lastVerified": clean(first.get("Last Verified")),
+            "verificationSource": clean(first.get("Verification Source")),
+            "identityNotes": clean(first.get("Identity Notes")),
             "latitude": round(float(location["latitude"]), 6),
             "longitude": round(float(location["longitude"]), 6),
             "geoPrecision": clean(location["precision"]),

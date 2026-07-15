@@ -32,3 +32,16 @@ data/source-releases/
 data/exports/
 research/**/raw/
 03-app/site/.cutover/
+
+# State directories contain only the seven-file contract. These generated evidence
+# names belong under data/source-releases/ and are also rejected by the validator.
+research/state-expansions/*/raw-source-records*
+research/state-expansions/*/*source-observations*
+research/state-expansions/*/*candidate-entities.json
+research/state-expansions/*/request-log*
+research/state-expansions/*/source-pass-log*
+research/state-expansions/*/qa-queue*
+research/state-expansions/*/identity-review*
+research/state-expansions/*/excluded-observations*
+research/state-expansions/*/county-lookup-errors*
+research/state-expansions/*/geography-conflicts*

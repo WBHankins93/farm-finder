@@ -297,16 +297,21 @@ def main() -> int:
         records=records,
         object_details=object_details,
     )
+    duplicate_group_names = duplicate_groups(records)
     report = {
         "status": "staged",
         "authorityMode": manifest["authorityMode"],
         "promotionBlocked": True,
-        "promotionBlockReason": "known duplicate groups require identity review",
+        "promotionBlockReason": (
+            "known duplicate groups require identity review"
+            if duplicate_group_names
+            else "normalization, privacy, provenance, and promotion review remain incomplete"
+        ),
         "dataset": manifest["dataset"],
         "release": release["id"],
         "sourceObject": object_details,
         "candidateEntities": release["candidateEntityCount"],
-        "duplicateGroups": duplicate_groups(records),
+        "duplicateGroups": duplicate_group_names,
         **database,
     }
     print(json.dumps(report, indent=2))

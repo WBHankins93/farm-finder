@@ -197,6 +197,12 @@ def parse_genuine_profile(candidate: Candidate, body: str) -> Candidate:
             value = html.unescape(match.group(1)).strip()
             if field_name == "email":
                 value = re.sub(r"^mailto:", "", value, flags=re.I).split("?", 1)[0]
+            elif field_name == "instagram_url" and re.search(r"instagram\.com/https?://", value, flags=re.I):
+                value = re.sub(r"^https?://(?:www\.)?instagram\.com/", "", value, flags=re.I)
+            elif field_name == "facebook_url":
+                value = re.sub(r"^https://ww\.facebook\.com", "https://www.facebook.com", value, flags=re.I)
+            elif field_name == "website_url" and (re.search(r"\s", value) or "." not in value):
+                value = ""
             setattr(candidate, field_name, value)
 
     products = [clean_text(item) for item in re.findall(r'<li\s+class="product-item">(.*?)</li>', body, flags=re.I | re.S)]

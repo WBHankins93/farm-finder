@@ -21,6 +21,8 @@
     "db:test": "sh infra/test-db.sh",
     "data:setup": "python3 -m venv .venv && .venv/bin/python -m pip install -r scripts/requirements.txt",
     "data:validate": ".venv/bin/python scripts/validate-source-of-truth.py",
+    "states:validate": ".venv/bin/python ../../01-database/tools/validate_state_releases.py",
+    "states:test": ".venv/bin/python -m unittest discover -s ../../01-database/tools/tests -p 'test_*.py'",
     "cutover:test": "PYTHONPATH=scripts .venv/bin/python -m unittest discover -s scripts/tests -p 'test_*.py'",
     "cutover:stage": ".venv/bin/python scripts/stage_source_release.py",
     "cutover:verify": ".venv/bin/python scripts/verify_staged_release.py",

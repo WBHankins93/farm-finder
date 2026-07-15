@@ -2,7 +2,7 @@
 
 ## Current cutover state
 
-Cutover began on 2026-07-15. Release `2026-07-13-final-v1` has completed the first reversible stage:
+Cutover began on 2026-07-15. Historical release `2026-07-13-final-v1` completed the first reversible stage:
 
 - The governed workbook passed its checksum, structure, row-count, state, and duplicate-group checks.
 - Its exact bytes were uploaded to a private, versioned S3-compatible object.
@@ -11,7 +11,7 @@ Cutover began on 2026-07-15. Release `2026-07-13-final-v1` has completed the fir
 - Verification downloaded the recorded object version, re-hashed it, and reconciled all 315 rows.
 - The release is `validated`, not `promoted`. The workbook remains the authoring authority and the public app still reads generated JSON.
 
-Promotion is blocked until the four known identity groups are reviewed and source rows are normalized into canonical relational tables.
+The current workbook/manifest is now release `2026-07-15-enriched-v2`: 311 canonical rows after evidence review of the four former duplicate groups. V2 has not yet replaced or overwritten v1 in staging. Promotion remains blocked until v2 is staged, its fields and provenance are normalized into canonical relational tables, privacy rules are reviewed, and public-artifact equivalence passes.
 
 ## Local execution
 
@@ -50,10 +50,10 @@ Local MinIO proves the S3-compatible contract but is not the production backup. 
 
 ## Mississippi collection while cutover proceeds
 
-Do not edit release `2026-07-13-final-v1` or its stored object while Mississippi discovery is active.
+Do not edit release `2026-07-13-final-v1` or its stored object. The v2 workbook and ongoing Mississippi research are new release inputs.
 
-1. Continue writing collection candidates and pass logs under `research/ms-expansion/`.
-2. Treat those files as working evidence, not automatic canonical updates.
+1. Continue recording collection candidates and pass logs in the canonical workbook's `Research Queue` and `Source Log`; raw collection artifacts under `research/ms-expansion/` remain reproducible evidence, not a second database authority.
+2. Treat staged candidates as working evidence, not automatic canonical updates.
 3. When a Mississippi collection milestone is ready, freeze its inputs and assign a new release ID.
 4. Produce a new immutable source file and manifest with its own checksum, counts, states, source inventory, and duplicate groups.
 5. Upload and stage it as a new release. Never overwrite the validated v1 object.
@@ -76,8 +76,8 @@ Revisit indexes only after normalization queries and `EXPLAIN (ANALYZE, BUFFERS)
 
 ## Remaining promotion gates
 
-1. Review Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens without name-only merging.
-2. Normalize official geography, products, sales channels, links, contacts, and location visibility.
+1. Preserve the completed evidence-based decisions for Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens when importing v2; do not recreate name-only merges.
+2. Normalize official geography, products, sales channels, links, contacts, verification sources, identity notes, and location visibility.
 3. Preserve field-level assertions linking every selected value to its source record.
 4. Compare database-derived public output with the current 311-listing artifact.
 5. Run public/private projection tests and structured query evals.

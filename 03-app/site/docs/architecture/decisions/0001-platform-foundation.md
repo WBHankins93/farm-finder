@@ -79,7 +79,7 @@ The existing application is TypeScript. The workbook ingestion script is Python.
 
 1. Establish and validate the canonical dataset release manifest.
 2. Apply the initial PostgreSQL/PostGIS schema and index register.
-3. Import the pinned workbook into staging and compare 315 source rows to 311 candidate entities.
+3. Import each pinned workbook release into staging and reconcile source rows to reviewed canonical entities without silent merging.
 4. Build read-only query tools and API contracts.
 5. Add authentication and claims before accepting public writes.
 6. [x] Consolidate the project Git boundary so governed data and application code are versioned together.
