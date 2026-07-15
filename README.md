@@ -2,13 +2,18 @@
 
 FarmFinder is building a trustworthy, searchable directory of independent farms and local-food producers, beginning in Louisiana and Mississippi and designed to expand across the United States.
 
-The project has three connected tracks:
+FarmFinder itself has two connected product tracks:
 
 1. **Farm data:** collect, verify, normalize, and maintain farm, product, location, market, contact, and source information.
-2. **Sproutflow outreach:** use the directory to find farms that need a stronger online presence, build relationships, and fund the work.
-3. **Consumer application:** help people discover farms, search by product or place, explore a map, and eventually ask grounded natural-language questions.
+2. **Consumer application:** help people discover farms, search by product or place, explore a map, and eventually ask grounded natural-language questions.
 
-The database is the shared asset. Outreach improves the data, farm relationships improve trust and coverage, and the consumer app sends demand back to farms.
+The database is the shared product asset. Better coverage and farm participation improve consumer discovery, and consumer demand creates more value for participating farms.
+
+### Relationship to Sproutflow
+
+Sproutflow is Ben Hankins's separate company. Its farm outreach, website services, clients, and revenue strategy are not FarmFinder application features, FarmFinder product roadmap items, or the FarmFinder business model.
+
+This private repository contains `02-outreach/` because Ben may use FarmFinder research in separate Sproutflow business development. If a Sproutflow conversation produces a farm correction or voluntary listing information, that information must enter FarmFinder through the same consent, provenance, privacy, and verification rules as any other source. The commercial relationship remains separate.
 
 > **Geography note:** `LA` means Louisiana throughout this repository, not Los Angeles.
 
@@ -178,7 +183,7 @@ farm-finder/
 ├── 01-database/                 Collection rules, historical workbooks, tools
 │   ├── tools/                   Mississippi collection and quarterly verification
 │   └── state-expansion-and-verification.md
-├── 02-outreach/                 Sproutflow positioning and pilot outreach
+├── 02-outreach/                 Separate, private Sproutflow outreach materials
 ├── 03-app/
 │   ├── app-vision.md
 │   └── site/                    Current web app and production foundation
@@ -352,7 +357,7 @@ See [`03-app/site/evals/`](03-app/site/evals/) and the [implementation ledger](0
 
 ## Roadmap
 
-The phases below are dependency-driven rather than calendar promises. Data expansion and Sproutflow outreach may continue alongside platform work, but marketplace functionality remains intentionally last.
+The phases below are dependency-driven rather than calendar promises. Data expansion and direct FarmFinder participation work may continue alongside platform development, but marketplace functionality remains intentionally last.
 
 ### Phase 0 — Foundation complete
 
@@ -430,12 +435,12 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 
 **Completion gate:** a clean clone can reproduce all checks; staging deploys automatically; production promotion is explicit; backup restore and rollback are demonstrated.
 
-### Phase 6 — Pilot users and flagship case study
+### Phase 6 — FarmFinder pilot users and flagship case study
 
 **Status:** Planned
 
-- Recompute outreach-fit and contactability against the 311-listing release.
-- Select five pilot farms and run the Sproutflow outreach workflow.
+- Recompute contactability for FarmFinder listing participation against the 311-listing release.
+- Recruit at least five farms for a FarmFinder listing, correction, or claim pilot.
 - Recruit a small consumer cohort.
 - Measure answer correctness, successful searches, search-to-contact actions, claims, corrections, freshness, latency, and cost.
 - Record failures, changed decisions, and operational lessons.
@@ -469,27 +474,28 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 
 **Status:** Intentionally deferred
 
-Ordering, payment, inventory, fulfillment, and marketplace mechanics will not be built until directory coverage, farm relationships, and consumer demand are demonstrated. Static farm sites and lightweight ordering links remain the preferred solution where they meet a farm's needs.
+Ordering, payment, inventory, fulfillment, and marketplace mechanics will not be built until directory coverage, farm participation, and consumer demand are demonstrated. Until then, FarmFinder should link to each farm's chosen ordering or contact method rather than impose a FarmFinder marketplace.
 
-## Product and business validation
+## FarmFinder product validation
 
-The current strategic sequence remains:
+The FarmFinder product sequence is:
 
 ```text
 database coverage
-    → outreach leads
-    → Sproutflow revenue and farm relationships
-    → verified listings and early adopters
+    → verified listings and farm participation
     → consumer discovery and demand
     → marketplace decision based on evidence
 ```
 
 Related planning:
 
-- [Outreach plan](02-outreach/outreach-plan.md)
 - [Market opportunity brief](research/market-opportunity-brief.md)
 - [App vision](03-app/app-vision.md)
 - [Production implementation ledger](03-app/site/docs/implementation-ledger.md)
+
+Separate internal company planning:
+
+- [Sproutflow farm outreach plan](02-outreach/outreach-plan.md) — private Sproutflow business material, not part of the FarmFinder app roadmap.
 
 ## Known limitations and open decisions
 

@@ -1,6 +1,8 @@
 # Sproutflow Studios — Farm Outreach Plan (v1)
 
-> Goal: turn offline South Louisiana farms into Sproutflow clients while building the FarmFinder database. Revenue funds the mission.
+> Goal: turn offline South Louisiana farms into Sproutflow clients through Sproutflow's separate website-service business. FarmFinder listing corrections are optional, governed contributions rather than a sales deliverable.
+
+> **Scope boundary:** This is private Sproutflow company planning, not FarmFinder app functionality, the FarmFinder product roadmap, or the FarmFinder business model. Any correction or voluntary listing information learned through this work enters FarmFinder only through its consent, provenance, privacy, and verification process.
 
 ## Positioning
 

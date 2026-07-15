@@ -4,24 +4,31 @@
 
 ## What this is
 
-FarmFinder is a three-track initiative to get underrepresented small farms online, starting in South Louisiana:
+FarmFinder is a two-track product initiative to make independent farms easier to find, starting in South Louisiana:
 
 1. **Farm database** — a comprehensive database of local farms, starting with South Louisiana, then all of Louisiana, then state-by-state. Core observation driving this: ~90% of local farms in South Louisiana have no website — **verified against our own database** (89% of 81 LA farms in `01-database/local_farm_database.xlsx`, verified 2026-07-12; dashboard: `farmfinder-dashboard.html`). Note nuance: many are on Facebook; "no website" ≠ "no online presence at all" (30% of NOLA Metro farms have zero web presence including social).
-2. **Sproutflow Studios outreach niche** — use the database as a lead list. Sproutflow builds these farms an online presence (mostly static sites, some with online ordering — reference point: rareseeds.com). The nature-related brand name is an immediate trust signal with this audience. This funds and grows Sproutflow while building the database.
-3. **FarmFinder app** — long-term: a "Google Maps / Uber for local farms" built on the database. Test markets: South Louisiana + South Mississippi (two-state test), scale based on results.
+2. **FarmFinder app** — long-term: a "Google Maps / Uber for local farms" built on the database. Test markets: South Louisiana + South Mississippi (two-state test), scale based on results.
+
+### Relationship to Sproutflow
+
+Sproutflow Studios is Ben Hankins's separate company. Its farm outreach, website services, clients, and revenue are not FarmFinder app functionality, FarmFinder roadmap items, or the FarmFinder business model. Private Sproutflow materials live in `02-outreach/` because the same owner may use FarmFinder research for separate business development.
+
+A Sproutflow interaction may contribute a correction or voluntary farm information to FarmFinder only through the normal consent, provenance, privacy, and verification workflow. The commercial relationship remains separate from FarmFinder.
+
+Separate Sproutflow operating note: farm client sites should remain static-first, with ordering added only when the client needs it. This is a Sproutflow service decision, not a FarmFinder application decision.
 
 **Note on geography:** "LA" in this project means **Louisiana**, not Los Angeles.
 
 ## How the tracks feed each other
 
-Database → outreach leads → Sproutflow revenue + farm relationships → farms become seed content & early adopters for the app → app drives demand back to farms.
+Database coverage → verified listings + farm participation → consumer discovery → demand back to farms.
 
-The database is the shared asset. Every outreach conversation should enrich it (contact info, products, seasonality, willingness to be listed).
+The database is the FarmFinder product asset. Every correction or voluntary contribution must enrich it through governed provenance and privacy rules, regardless of where the information originated.
 
 ## Repo layout
 
 - `01-database/` — schema, collection SOP, and the farm data itself (CSV/xlsx now; migrate to real DB when the app track starts)
-- `02-outreach/` — Sproutflow positioning, service tiers, outreach scripts and pipeline
+- `02-outreach/` — separate, private Sproutflow positioning, service tiers, outreach scripts, and pipeline; not FarmFinder product scope
 - `03-app/` — public directory plus the staged production platform foundation
 - `research/` — market opportunity brief, competitor notes, sourced stats
 
@@ -38,22 +45,22 @@ The database is the shared asset. Every outreach conversation should enrich it (
 
 ## Key decisions
 
-- **Start narrow:** South Louisiana only until the database + outreach loop is proven. Then South MS. Then one state at a time.
-- **Sproutflow funds the mission:** outreach is revenue-first (site builds), database is the byproduct/asset.
-- **Keep farm sites simple:** static-first, ordering only where the farm actually needs it. Don't over-engineer.
-- **Marketplace functionality comes last:** the current app work is directory, data governance, and production platform foundation; ordering waits for coverage and farm relationships.
+- **Start narrow:** South Louisiana only until the database + farm-participation + consumer-discovery loop is proven. Then South MS. Then one state at a time.
+- **Keep company boundaries explicit:** Sproutflow commercial outreach is separate from FarmFinder product functionality and roadmap.
+- **Marketplace functionality comes last:** the current app work is directory, data governance, and production platform foundation; ordering waits for coverage, farm participation, and demonstrated consumer demand.
 
 ## Open questions
 
 - Verify the "90% offline" claim with sourced data (USDA census, ag extension studies).
-- Pricing for farm site builds (one-time vs. hosted/monthly retainer)?
 - Database licensing/ownership if farms contribute data — terms needed before app launch.
 - What counts as a "farm" for inclusion (acreage, sales channel, licensed vs. hobby)?
+
+Separate Sproutflow company question: pricing for farm client sites (one-time vs. hosted/monthly retainer).
 
 ## Next actions
 
 1. Import the pinned 315-row release into PostgreSQL staging and reconcile it to 311 candidate entities without silent merging.
-2. Recompute the outreach-fit/contactability list against the 311-listing release, then pick 5 pilot farms.
+2. Recompute contactability for FarmFinder participation, then recruit 5 farms for listing corrections, claims, or interviews; any Sproutflow commercial outreach remains separate.
 3. Upgrade approximate geocodes to farm-confirmed locations during outreach; never expose a private exact location by default.
 
 Done: market brief (sourced) ✓ · 311/311 public listings mapped ✓ · source-of-truth release validation ✓ · PostgreSQL/PostGIS foundation verified ✓

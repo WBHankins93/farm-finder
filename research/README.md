@@ -7,5 +7,5 @@ Older workbook and dashboard files are historical snapshots. Do not promote one 
 
 Pending:
 
-- Deeper unit-economics pass once Sproutflow pilot pricing is decided.
+- Separate Sproutflow company research: deeper unit-economics pass once its farm-service pilot pricing is decided. This is not FarmFinder app scope.
 - Files from earlier FarmFinder chats — to be added here when Ben re-attaches them.

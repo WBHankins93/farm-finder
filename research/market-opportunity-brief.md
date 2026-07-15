@@ -1,6 +1,8 @@
 # Market Opportunity Brief — FarmFinder (v1, 2026-07-12)
 
-Decision this supports: is the local-farm database → Sproutflow outreach → discovery app sequence worth pursuing, and in what order?
+Decision this supports: evaluate two separate owner decisions—the Sproutflow farm-service niche and whether or when the FarmFinder discovery app is worth pursuing—while identifying any legitimate, consented overlap.
+
+> **Scope boundary:** This brief analyzes strategic overlap for the common owner. Sproutflow outreach and client revenue are separate company activity, not FarmFinder app functionality, roadmap, or monetization.
 
 ## The core stat, corrected
 
@@ -21,8 +23,8 @@ Ben's working claim: "90% of local farms in South LA aren't online at all." The 
 
 ## Assessment
 
-- **Sproutflow outreach niche: strong.** Underserved segment, no direct price competitor, trust-based moat, and every client feeds the database. Risk: small dollars per client; this is a volume-and-relationship business, not a big-ticket one. LA's DTC pie is only $11.2M/yr — Sproutflow revenue ceiling in-state is modest; the strategic value is the database + relationships.
-- **Database: the real asset.** Nobody has authoritative Gulf South coverage. Cheap to build as an outreach byproduct.
+- **Sproutflow outreach niche: strong.** Underserved segment, no direct price competitor, and a trust-based moat. Risk: small dollars per client; this is a volume-and-relationship business, not a big-ticket one. LA's DTC pie is only $11.2M/yr, so Sproutflow's in-state revenue ceiling is modest. A client does not automatically become FarmFinder data; corrections or listing information transfer only through the governed consent and provenance workflow.
+- **FarmFinder database: the real asset.** Nobody has authoritative Gulf South coverage. Coverage requires its own governed collection and verification process. Voluntary corrections learned through separate Sproutflow work may contribute under that process, but client activity is not assumed to be FarmFinder's acquisition pipeline.
 - **App: unproven, defer.** Marketplace apps here face a two-sided cold-start with a supply side that is offline by definition. LocalHarvest/GrownBy haven't cracked it. Only attempt after the database + farm relationships de-risk the supply side. Second-order risk: app maintenance burden competes with Sproutflow client work.
 
 **Recommendation:** sequence as planned — database + outreach now, app decision later against real coverage numbers. Alternative worth keeping open: instead of a standalone app, license/syndicate the database (to GrownBy, state ag programs, tourism boards) — revenue without cold-start risk.
