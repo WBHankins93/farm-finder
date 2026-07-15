@@ -27,19 +27,20 @@ The database is the FarmFinder product asset. Every correction or voluntary cont
 
 - `01-database/` — schema, collection SOP, and the farm data itself (CSV/xlsx now; migrate to real DB when the app track starts)
 - `03-app/` — public directory plus the staged production platform foundation
-- `research/` — market opportunity brief, sourced stats, and seven-file state-release contracts under `research/state-expansions/<STATE>/`
+- `research/` — market opportunity brief, sourced stats, and four-file state-release contracts under `research/state-expansions/<STATE>/`
 
 ## Current state (2026-07-15)
 
-- **Pre-cutover canonical authoring source is `research/local_farm_database_final.xlsx`, sheet `All Farms` — 311 canonical rows / 311 normalized farm names** (237 LA / 74 MS). The same workbook now contains `Database Summary`, `Research Queue`, `QA Queue`, and `Source Log`; no separate farm database file is authoritative. The machine-readable release contract is `03-app/site/config/source-of-truth.json`; validate it with `npm run data:validate` from `03-app/site/`.
-- The public site uses `03-app/site/app/data/farms.json` with 311 mapped listings. Cutover staging began 2026-07-15 with historical release `2026-07-13-final-v1`; the new `2026-07-15-enriched-v2` workbook must be staged as a new immutable release before promotion. PostgreSQL is not canonical yet.
+- **Pre-cutover canonical authoring source is `research/local_farm_database_final.xlsx`, sheet `All Farms` — 299 canonical rows / 299 record IDs** (220 LA / 79 MS). The same workbook contains `Database Summary`, `Research Queue`, `QA Queue`, and `Source Log`; no separate farm database file is authoritative. The machine-readable release contract is `03-app/site/config/source-of-truth.json`; validate it with `npm run data:validate` from `03-app/site/`.
+- The public site uses `03-app/site/app/data/farms.json` with 299 mapped listings. Cutover staging began 2026-07-15 with historical release `2026-07-13-final-v1`; the corrected `2026-07-15-enriched-v2` workbook must be staged as a new immutable release before promotion. PostgreSQL is not canonical yet.
 - Older dashboards and v1/v2 workbooks remain historical snapshots, not editable authorities.
 - Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens were evidence-reviewed and merged to one canonical row each; their separate source provenance remains in `Source Tab` and `Source Log`. No exact normalized-name duplicate groups remain.
-- Current canonical workbook: 99 rows are flagged as having a website, 57 contain a website URL, and 42 flagged rows still need URL research. Direct public contacts exist for 230 listings; 81 lack a direct phone/email, including 53 with a social-only outreach path and 28 with no public outreach path.
+- Current canonical workbook: 88 rows are flagged as having a website, 85 contain a website URL, and 3 flagged rows still need URL research. Direct public contacts exist for 243 listings; 56 lack a direct phone/email, including 42 with a social-only outreach path and 14 with no public outreach path.
+- Mississippi's current canonical slice contains 79 reviewed rows after five Louisiana-market records were corrected to their Mississippi home state. Mississippi is not statewide-complete: historical staging still contains 262 candidates, including 211 new candidates, and 17 county gaps that must be reconciled before statewide promotion.
 - Mississippi staging contains 262 candidates from three collection passes: 51 existing/possible canonical matches and 211 new candidates. It covers 65 of 82 counties; 17 county gaps remain explicitly queued.
 - Alabama completed its coverage-reviewed private state release on 2026-07-15: 1,048 source observations reconciled to 850 proposed entities, with 635 meeting staged promotion gates and 215 in explicit research/QA. All 67 counties have candidates; Sumter has no promotion-eligible row yet. Two off-state source records remain grade-F exclusions. Alabama is not part of the LA/MS canon until deliberate immutable promotion.
 - Texas completed its coverage-reviewed private state release on 2026-07-15: 1,060 source and curator observations reconciled to 899 proposed entities, with 337 meeting staged promotion gates and 562 in explicit research/QA. All 254 counties were searched; 178 have candidates, 76 are `searched_none_found`, and 114 have at least one eligible entity. Texas is not part of the LA/MS canon until deliberate immutable promotion.
-- Every new or rebuilt state follows `01-database/state-release-contract.md`: exactly seven committed files, one staged entity CSV, one human decision CSV, and private compressed evidence bound by version IDs and SHA-256 checksums. Validate all state contracts with `npm run states:validate` from `03-app/site/`.
+- Every new or rebuilt state follows `01-database/state-release-contract.md`: exactly four committed files, retained staged candidates, append-only decisions, and private evidence bound by version IDs and SHA-256 checksums. Validate all state contracts with `npm run states:validate` from `03-app/site/`.
 - Baseline stats computed: 89% of LA farms in DB lack a website; South MS is 47% online (different market dynamics between the two test states).
 - Market brief written (`research/market-opportunity-brief.md`), sourced.
 
@@ -59,10 +60,10 @@ The database is the FarmFinder product asset. Every correction or voluntary cont
 
 ## Next actions
 
-1. Continue high-priority research for the 42 website flags without URLs and 81 listings without direct phone/email; work the explicit `QA Queue` and preserve evidence in `Source Log`.
+1. Continue high-priority research for the 3 website flags without URLs and 56 listings without direct phone/email; work the explicit `QA Queue` and preserve evidence in `Source Log`.
 2. Continue Mississippi county-gap and candidate identity review; do not promote the 211 new candidates without evidence-based inclusion and identity checks.
 3. Stage `2026-07-15-enriched-v2` as a new immutable release without overwriting validated v1.
 4. Provision managed versioned object storage and managed PostgreSQL backups before promotion.
 5. Review the Alabama and Texas state reports and promotion boundaries before beginning Tennessee; planned collection order after Texas is Tennessee, Florida, South Carolina, then Arkansas.
 
-Done: market brief (sourced) ✓ · 311/311 public listings mapped ✓ · source-of-truth release validation ✓ · PostgreSQL/PostGIS foundation verified ✓
+Done: market brief (sourced) ✓ · 299/299 public listings mapped ✓ · source-of-truth release validation ✓ · PostgreSQL/PostGIS foundation verified ✓
