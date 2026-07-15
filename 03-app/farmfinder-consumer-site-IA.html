@@ -354,7 +354,7 @@ moment is the two-sided cold-start solution the market brief worries about.</div
 <li><b>3</b> <code>MapCanvas</code> with category <code>Pin</code>s and parish-level <code>Cluster</code>s (fits your city/parish geocode precision). Hover syncs to the list.</li>
 <li><b>4</b> Split view, map-led. Product-OS density here — quiet, not journal-lush.</li>
 <li><b>5</b> <code>FarmCard</code> (list variant) leads with the <code>MarketDayBlock</code> — the field your contact research proved most findable and most useful.</li>
-<li><b>6</b> <code>WebPresenceMeter</code> surfaces a gentle "new to the web" mark on thin profiles — honest, and a soft Sproutflow lead signal.</li>
+<li><b>6</b> <code>WebPresenceMeter</code> surfaces a gentle "new to the web" mark on thin profiles so users understand when directory evidence is limited.</li>
 <li><b>FilterRail</b> maps 1:1 to database booleans (Has Website, CSA, Ships, On-Farm Sales, certs) — no filter exists that the data can't answer.</li>
 </ol></div>
 
@@ -551,8 +551,8 @@ Design so a farm with <em>no</em> online store still works perfectly in discover
 │ How it works · 1 find 2 claim 3 add │ 2
 │ What you get · profile, map, market │
 │   days, orders (optional)           │
-│ ── Powered by Sproutflow ──         │ 3
-│   Want a full website? →            │
+│ ── FarmFinder listing support ──    │ 3
+│   Need help with your listing? →    │
 └────────────────────────────────────┘
 </pre>
 </div>
@@ -576,7 +576,7 @@ Design so a farm with <em>no</em> online store still works perfectly in discover
 <div class="annot"><ol>
 <li><b>1</b> Pitch in the farm's own language; the CTA is "claim," and it's free — friction as low as possible for an offline audience.</li>
 <li><b>2</b> Three steps, plainly. "Orders" explicitly optional so a farm can be discovery-only.</li>
-<li><b>3</b> Honest cross-sell to Sproutflow (Track 2) for farms that want a real site — the funding engine, disclosed, not bait.</li>
+<li><b>3</b> A FarmFinder support path helps farms correct and complete their directory listings.</li>
 <li><b>4–5</b> <code>ClaimResult</code> searches your existing 315 records — the "you already know us" moment that solves supply-side cold-start.</li>
 <li><b>6</b> <code>/join</code> catches farms not yet cataloged (and enriches the DB — every claim feeds the shared asset).</li>
 <li><b>7</b> Lightweight verification; manual-review fallback keeps it real without blocking.</li>
@@ -663,7 +663,7 @@ Postgres/PostGIS). No UI element requires a field the data can't provide; fields
 <tr><td>Region landing coverage</td><td><code>Source Tab</code>, per-region counts, ring status</td><td><span class="pill">have</span> counts; ring model from scaling doc</td></tr>
 </table>
 <div class="note">Recommended schema additions this IA implies (align with the contact research): a structured <code>Market Schedule</code>,
-a <code>Contact Channel</code> (phone/email/web-form/social), <code>Certifications</code>, and <code>outreach_status</code> /
+a <code>Contact Channel</code> (phone/email/web-form/social), <code>Certifications</code>, and <code>claim_status</code> /
 <code>date_verified</code> (already in the draft schema). These are additive — they don't disturb existing data.</div>
 
 <!-- ============================= 8 SCOPE ============================= -->
@@ -681,7 +681,7 @@ tooling · auth provider choice · analytics plan · accessibility audit checkli
 <tr><td>Ordering: <b>native</b> vs. <b>link-out</b> to a farm's Square/Barn2Door?</td><td>Native = liability, payments, support burden you own. Link-out ships in days and dodges marketplace logistics. Recommend link-out for v1.</td></tr>
 <tr><td>Who edits a profile before a farm claims it?</td><td>Trust + legal. "Listed from public records" needs a correction/opt-out path (shown in 5.3) and a policy behind it.</td></tr>
 <tr><td>Seasonality model — source of truth?</td><td>SeasonBand is a differentiator but must be regionally accurate (LSU AgCenter planting guides) or it erodes trust.</td></tr>
-<tr><td>Does <code>/claim</code> launch with the app, or earlier as a Sproutflow lead-gen page?</td><td>Claim could ship now against the DB and feed outreach before the full app exists — sequencing lever.</td></tr>
+<tr><td>Does <code>/claim</code> launch with the first public release or after directory search is stable?</td><td>Launching later reduces authorization risk; launching earlier improves farm corrections. Decide from pilot readiness.</td></tr>
 </table>
 <div class="note"><b>Recommendation for the next step.</b> This IA is deliberately broad because you asked to see the whole idea. Before any
 build, narrow v1 to <b>Discovery core + Story layer + Claim</b>, treat ordering as <b>link-out</b>, and keep the ring/region framing as

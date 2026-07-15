@@ -103,7 +103,7 @@ def geocode_city(city: str, state: str) -> dict | None:
     )
     request = urllib.request.Request(
         f"https://nominatim.openstreetmap.org/search?{params}",
-        headers={"User-Agent": "FarmFinder data build (contact: hello@sproutflow.com)"},
+        headers={"User-Agent": "FarmFinder/0.1 data build"},
     )
     with urllib.request.urlopen(request, timeout=20) as response:
         results = json.load(response)

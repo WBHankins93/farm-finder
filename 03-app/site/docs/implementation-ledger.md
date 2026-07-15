@@ -25,10 +25,9 @@ This ledger records each production capability, its implementation decision, cur
 | Architecture/case study | ADRs, diagrams, index decisions, failures, revisions | Foundation documented | Published after pilot with measured evidence |
 | Object storage | Source releases and future images; metadata in PostgreSQL | Pinned workbook stored and independently checksum-verified in local versioned S3-compatible storage; managed bucket pending | Managed versioning, restore, rights, retention, and signed access tested |
 | National coverage | Official admin areas plus operational coverage regions | Schema foundation | Coverage completeness and freshness measured per region |
-| Sproutflow lead workspace | Private namespace or CRM keyed by stable `farm_id`; filters governed FarmFinder facts but owns all lead/outreach/client fields | Planned; no private outreach schema in current migrations | Owner-only grants, public-role denial tests, audit coverage, and do-not-contact enforcement |
 
 ## Repository boundary resolved
 
-On 2026-07-15, FarmFinder was consolidated into one private repository rooted at `farm-finder/`. The canonical workbook, database tools, outreach, research, architecture, and web application are now versioned together. The original ChatGPT Sites commits remain in history under `03-app/site/`.
+On 2026-07-15, FarmFinder was consolidated into one private repository rooted at `farm-finder/`. The canonical workbook, database tools, research, architecture, and web application are now versioned together. The original ChatGPT Sites commits remain in history under `03-app/site/`.
 
 CI automation remains outstanding, but a clean project clone now contains the pinned workbook and the manifest needed for source-of-truth validation.

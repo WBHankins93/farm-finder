@@ -14,19 +14,14 @@ Promoted canonical tables are the only mutable source of truth. Workbooks, direc
 
 No spreadsheet may be edited and reintroduced as an authoritative replacement after cutover. Changes arrive as new source records or curator actions with audit evidence.
 
-## Internal reuse and commercial separation
+## Digital-presence facts and visibility
 
-FarmFinder retains governed, source-backed digital-presence information because it is useful to both farm discovery and data quality. Authorized internal users may filter farm facts such as confirmed website status, social and online-store links, map listings, market participation, products, contact availability, and verification age. One permitted private use is identifying farms that may benefit from Sproutflow website or digital-presence services.
+FarmFinder retains governed, source-backed website, social, online-store, map, market, product, contact, and verification information because those facts directly support farm discovery and directory quality.
 
-That reuse does not make Sproutflow's workflow part of the FarmFinder product:
-
-- FarmFinder facts retain their provenance, confidence, verification, consent, and public/private visibility rules.
-- Sproutflow lead scores, opportunity assessments, outreach history, relationship notes, follow-ups, proposals, client status, and do-not-contact state remain private commercial records keyed by `farm_id`.
-- Private Sproutflow records never become public FarmFinder fields and are never returned through the public API, exports, logs, or analytics.
-- A fact learned during outreach enters FarmFinder only as a new sourced assertion or curator action with the appropriate consent and visibility; a private annotation is not canonical evidence.
-- Access to FarmFinder private contacts for outreach must follow the contact's recorded visibility, consent, terms, and applicable communication rules.
-
-The future database must enforce this separation through distinct schemas or an equivalent permission boundary, not application convention alone.
+- Every fact retains its provenance, confidence, verification, consent, and public/private visibility rules.
+- Private contacts and non-public locations never become public fields and are never returned through public APIs, exports, logs, analytics, or model prompts.
+- A correction enters FarmFinder only as a sourced assertion or curator action with appropriate consent and visibility.
+- FarmFinder stores only product and operational data required for the directory, farm participation, governance, and platform reliability.
 
 ## Adding a new farm
 

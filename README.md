@@ -1,6 +1,6 @@
 # FarmFinder
 
-FarmFinder is building a trustworthy, searchable directory of independent farms and local-food producers, beginning in Louisiana and Mississippi and designed to expand across the United States.
+FarmFinder is a standalone product building a trustworthy, searchable directory of independent farms and local-food producers, beginning in Louisiana and Mississippi and designed to expand across the United States.
 
 FarmFinder itself has two connected product tracks:
 
@@ -8,23 +8,6 @@ FarmFinder itself has two connected product tracks:
 2. **Consumer application:** help people discover farms, search by product or place, explore a map, and eventually ask grounded natural-language questions.
 
 The database is the shared product asset. Better coverage and farm participation improve consumer discovery, and consumer demand creates more value for participating farms.
-
-### Relationship to Sproutflow
-
-Sproutflow is Ben Hankins's separate company. Its farm outreach, website services, clients, and revenue strategy are not FarmFinder application features, FarmFinder product roadmap items, or the FarmFinder business model.
-
-This does **not** mean removing digital-presence information from FarmFinder. FarmFinder keeps source-backed facts such as confirmed websites, social profiles, online stores, map listings, contact channels, market participation, products, and verification dates. Ben may privately filter those facts to identify farms that could benefit from Sproutflow services.
-
-The boundary is between shared facts and the private commercial workflow:
-
-| Data | Owner and visibility |
-|---|---|
-| Farm identity, geography, products, markets, website/social/store/map links, contact visibility, sources, and verification history | FarmFinder's governed data layer; public fields may serve the directory, while sensitive fields remain restricted |
-| Digital-presence opportunity, lead score, outreach stage, contact attempts, private notes, next follow-up, proposal/client status, and do-not-contact status | Private Sproutflow workspace; never returned by the public FarmFinder API |
-
-Both sides will reference the same stable `farm_id`. The planned PostgreSQL design starts with separate permission boundaries for FarmFinder data and Sproutflow-private records, so the private workflow can be moved to a separate CRM or service later without changing farm identities.
-
-This private repository contains `02-outreach/` because Ben may use FarmFinder research in separate Sproutflow business development. If a Sproutflow conversation produces a farm correction or voluntary listing information, that information must enter FarmFinder through the same consent, provenance, privacy, and verification rules as any other source. A Sproutflow annotation does not automatically become a FarmFinder fact, and the commercial relationship remains separate.
 
 > **Geography note:** `LA` means Louisiana throughout this repository, not Los Angeles.
 
@@ -194,7 +177,6 @@ farm-finder/
 ├── 01-database/                 Collection rules, historical workbooks, tools
 │   ├── tools/                   Mississippi collection and quarterly verification
 │   └── state-expansion-and-verification.md
-├── 02-outreach/                 Separate, private Sproutflow outreach materials
 ├── 03-app/
 │   ├── app-vision.md
 │   └── site/                    Current web app and production foundation
@@ -208,7 +190,6 @@ farm-finder/
 │       ├── scripts/             Workbook validation and JSON generation
 │       └── tests/               Web smoke tests
 ├── research/                    Canonical workbook, expansion staging, market research
-├── AGENTS.md                    Project decisions and current source-of-truth summary
 └── README.md
 ```
 
@@ -507,13 +488,8 @@ database coverage
 
 Related planning:
 
-- [Market opportunity brief](research/market-opportunity-brief.md)
 - [App vision](03-app/app-vision.md)
 - [Production implementation ledger](03-app/site/docs/implementation-ledger.md)
-
-Separate internal company planning:
-
-- [Sproutflow farm outreach plan](02-outreach/outreach-plan.md) — private Sproutflow business material, not part of the FarmFinder app roadmap.
 
 ## Known limitations and open decisions
 
@@ -544,7 +520,6 @@ When making changes:
 
 ## Documentation map
 
-- [Project source of truth](AGENTS.md)
 - [Production architecture](03-app/site/docs/architecture/README.md)
 - [Architecture decision record](03-app/site/docs/architecture/decisions/0001-platform-foundation.md)
 - [Implementation ledger](03-app/site/docs/implementation-ledger.md)

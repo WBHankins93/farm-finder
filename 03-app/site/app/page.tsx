@@ -826,7 +826,7 @@ export default function Home() {
           <a href="#products">Products</a>
           <a href="#discover">Explore farms</a>
           <a href="#updates">Updates</a>
-          <a className="farmer-link" href="mailto:hello@sproutflow.com?subject=Add%20or%20update%20my%20FarmFinder%20listing">Add your farm ↗</a>
+          <a className="farmer-link" href="#about">Farm submissions</a>
         </nav>
       </header>
 
@@ -1063,7 +1063,7 @@ export default function Home() {
           <div className="update-notes">
             <div><span>Now live</span><p>Detailed profiles, specific product browsing, combined category filters, directory-grounded questions, and clearer location confidence.</p></div>
             <div><span>Being improved</span><p>Farm-gate addresses, weekly availability, market schedules, certifications, seasonal inventory, and farmer-verified stories.</p></div>
-            <div><span>How to help</span><p>Farmers and shoppers can send corrections, richer descriptions, product updates, or a missing listing directly to the project.</p><a href="mailto:hello@sproutflow.com?subject=FarmFinder%20listing%20update">Send a field update ↗</a></div>
+            <div><span>How to help</span><p>Farmers and shoppers will be able to submit corrections, richer descriptions, product updates, or missing listings through a dedicated FarmFinder form.</p><a href="#about">Submission details ↓</a></div>
           </div>
         </section>
 
@@ -1078,7 +1078,7 @@ export default function Home() {
             <aside>
               <strong>Grow the map</strong>
               <p>Own a farm, know one we missed, or see a detail that needs fixing?</p>
-              <a href="mailto:hello@sproutflow.com?subject=FarmFinder%20listing%20update">Send an update ↗</a>
+              <span>A dedicated FarmFinder submission form is planned.</span>
             </aside>
           </div>
         </section>
@@ -1087,8 +1087,8 @@ export default function Home() {
       <footer>
         <a className="brand footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span><span>FarmFinder<small>Find food closer to home.</small></span></a>
         <p>Louisiana → Mississippi → one region at a time.</p>
-        <div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a><a href="mailto:hello@sproutflow.com">Contact</a></div>
-        <small>© 2026 FarmFinder · A Sproutflow initiative</small>
+        <div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a></div>
+        <small>© 2026 FarmFinder</small>
       </footer>
       {profileFarm && <FarmProfileDialog farm={profileFarm} onClose={closeProfile} onShowMap={showProfileOnMap} onOpenFarm={openProfile} />}
     </div>
