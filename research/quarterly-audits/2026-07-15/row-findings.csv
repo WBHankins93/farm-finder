@@ -1,0 +1,357 @@
+dataset,row,farm_name,state,findings
+canonical,8,Brickwall Farms,LA,contact_missing
+canonical,9,5D Natural Farm,LA,county_not_specific | contact_missing
+canonical,11,Cajun Growers,LA,county_not_specific | contact_missing
+canonical,12,Perilloux Farm,LA,contact_missing
+canonical,13,White Oaks Farm,LA,contact_missing
+canonical,14,Fat Cat Farm,MS,contact_missing
+canonical,16,Johndales Farm,LA,county_not_specific | contact_missing
+canonical,17,Mizell's Farm,LA,contact_missing
+canonical,19,Burg's Bees,LA,county_not_specific | contact_missing
+canonical,23,Southern Maids Dairy,LA,county_not_specific | contact_missing
+canonical,24,T&R Dairy Farm,LA,county_not_specific | contact_missing
+canonical,25,White Sand Homestead,LA,contact_missing
+canonical,26,L'Hoste Citrus,LA,contact_missing
+canonical,27,Cherry Creek Orchards,LA,contact_missing
+canonical,28,Micro Pharms,LA,contact_missing
+canonical,29,CRISP Farms,LA,county_not_specific | contact_missing
+canonical,31,Cicada Calling Farm,LA,county_not_specific | contact_missing
+canonical,32,Nightshade Farm and Flowers,LA,county_not_specific | contact_missing
+canonical,33,Nola Tilth,LA,contact_missing
+canonical,34,Utopia Gardens,LA,contact_missing
+canonical,35,Edible City Gardens,LA,contact_missing
+canonical,36,Know Dat Grow Dat,LA,contact_missing
+canonical,37,Fisher Farms,LA,contact_missing
+canonical,39,Sunflower Hill Farm,LA,contact_missing
+canonical,45,Tomkins Farm,LA,county_not_specific | contact_missing
+canonical,46,Indian Springs Farmers Assoc.,MS,contact_missing
+canonical,47,J&D Blueberry Farm,LA,county_not_specific | contact_missing
+canonical,48,Joe Fekete's Family Farm,LA,county_not_specific | contact_missing
+canonical,49,Schmelly's Dirt Farm,LA,contact_missing
+canonical,50,Sams Sprouts,LA,contact_missing
+canonical,51,Carona Farms,LA,county_not_specific | contact_missing
+canonical,52,Too Tall Farm and Nursery,LA,county_not_specific | contact_missing
+canonical,53,Mycelium Express,LA,contact_missing
+canonical,54,Bottomlands Ag Cooperative,LA,county_not_specific | contact_missing
+canonical,55,Anna Marie Seafood,LA,county_not_specific | contact_missing
+canonical,56,Pete & Clara's Seafood,LA,county_not_specific | contact_missing
+canonical,57,Louisiana Gourmet Produce,LA,county_not_specific | contact_missing
+canonical,60,Hill Crest Creamery,LA,contact_missing
+canonical,61,Bayou Farm,LA,contact_missing
+canonical,62,Robin Farms,LA,contact_missing
+canonical,63,Thy Bounty Farms,LA,contact_missing
+canonical,64,Gotreaux Farms,LA,contact_missing
+canonical,65,Three Brothers Farm,LA,contact_missing
+canonical,66,Mark and Mary's City Farm,LA,contact_missing
+canonical,68,Loup Farms,LA,contact_missing
+canonical,82,G Blessed Farm,LA,contact_missing
+canonical,84,Black Creek Farm,MS,contact_missing
+canonical,85,3R Cattle Company,MS,contact_missing
+canonical,87,Lorens Longleaf Ranch,MS,contact_missing
+canonical,88,Tick Creek Farm,MS,contact_missing
+canonical,96,Shaded Grove Farm Market,MS,county_not_specific
+canonical,97,Sweet Meat Farms,MS,contact_missing
+canonical,98,Beason Family Farm,MS,county_not_specific
+canonical,99,Mauthe Farms LLC,MS,county_not_specific
+canonical,100,Mitchell Family Farms,MS,contact_missing
+canonical,104,Two Dog Farms,MS,county_not_specific
+canonical,105,Living Soil Farms,MS,county_not_specific
+canonical,109,Ol' Cappy's Bees,MS,county_not_specific | contact_missing
+canonical,111,Coy Bee Company,MS,county_not_specific
+canonical,120,Iverstine Farms Butcher,LA,website_flag_without_url
+canonical,126,DR Homestead,LA,website_flag_without_url
+canonical,128,Landry Poche Strawberry Farm,LA,website_flag_without_url
+canonical,134,Wetland Bee Company,LA,website_flag_without_url
+canonical,138,River Baron Ranch,LA,website_flag_without_url
+canonical,139,A&A Acres,LA,contact_missing
+canonical,140,Berry Hill Farm,LA,website_flag_without_url
+canonical,143,Epney Farms Premium Beef,LA,contact_missing
+canonical,144,Fletcher Farm,LA,website_flag_without_url
+canonical,147,Poche Family Farm,LA,contact_missing | website_flag_without_url
+canonical,151,Four H Farms,LA,website_flag_without_url
+canonical,156,Ewing Farms Dairy,LA,website_flag_without_url
+canonical,159,Three Twelve Beef,LA,website_flag_without_url
+canonical,160,Westdome Nursery,LA,website_flag_without_url
+canonical,161,Gretna Farmers Market,LA,website_flag_without_url
+canonical,162,Compostella Farm,MS,website_flag_without_url
+canonical,169,Delcambre Direct Seafood,LA,website_flag_without_url
+canonical,170,Gonsoulin Land and Cattle,LA,website_flag_without_url
+canonical,172,Happy Wings Honey Farms,LA,website_flag_without_url
+canonical,175,Bumble Prairie Growing,LA,contact_missing | website_flag_without_url
+canonical,179,Guidry's Cajun Farmstead,LA,website_flag_without_url
+canonical,183,David Chauvin's Seafood,LA,website_flag_without_url
+canonical,186,Vermilion Oaks Ranch,LA,website_flag_without_url
+canonical,187,Wright Honey,LA,website_flag_without_url
+canonical,189,Blazing Star Farm,LA,website_flag_without_url
+canonical,190,James Rice Farms - Prairie Ronde Rice,LA,website_flag_without_url
+canonical,192,Prairie Acadian Rice,LA,website_flag_without_url
+canonical,193,T. Moise Farms,LA,website_flag_without_url
+canonical,194,Kennedy Rice Mill / 4Sisters Rice,LA,website_flag_without_url
+canonical,195,H.J. Bergeron Pecan Shelling Plant,LA,website_flag_without_url
+canonical,196,Four Oaks Farm / The Boiling Branch,LA,website_flag_without_url
+canonical,197,Gray-Walk Farms,LA,website_flag_without_url
+canonical,199,Tiny Utopia,LA,website_flag_without_url
+canonical,205,Cotton Street Farm,LA,website_flag_without_url
+canonical,207,Morell Dairy Farm,LA,website_flag_without_url
+canonical,208,Smith Family Farms,LA,website_flag_without_url
+canonical,212,Estes Farms,LA,website_flag_without_url
+canonical,214,4Sisters Rice / Kennedy Rice Mill,LA,website_flag_without_url
+canonical,215,4F Cattle Farms,LA,website_flag_without_url
+canonical,224,Riverside Pecan Company,LA,website_flag_without_url
+canonical,225,2 Guys Honey,LA,website_flag_without_url
+canonical,228,Mad Horse Farms,LA,website_flag_without_url
+canonical,240,Bernard's Apiaries,LA,contact_missing
+canonical,242,Cajun Prairie Farm,LA,contact_missing
+canonical,267,Starkey Farmstead,LA,contact_missing
+canonical,268,Triple R Ranch Meats,LA,county_not_specific | contact_missing
+canonical,269,D&M Farms,LA,contact_missing
+canonical,270,High Cotton Meat Company,LA,contact_missing
+canonical,271,SNOFA Aquaponics,LA,contact_missing
+canonical,272,Maranatha Farm,LA,contact_missing
+canonical,273,Richoux Family Farm,MS,contact_missing
+canonical,274,Culbertson Cattle Co.,MS,contact_missing
+canonical,275,Royal Queens Farm,LA,contact_missing
+canonical,277,Barefoot Springs Farm,MS,contact_missing
+canonical,278,Blue Courage Farms,MS,county_not_specific
+canonical,279,Bozeman Meat Co.,MS,website_flag_without_url
+canonical,280,Broadhead Farms,MS,county_not_specific | contact_missing
+canonical,281,Dixie Farms,MS,contact_missing
+canonical,282,Falkner Farms,MS,county_not_specific
+canonical,283,Henderson Heritage Homestead,MS,county_not_specific | contact_missing
+canonical,285,Larkfield Farms,MS,county_not_specific | contact_missing
+canonical,286,New Grass Farm,MS,contact_missing
+canonical,288,Sunset Oaks Farm,MS,county_not_specific
+canonical,289,The Five Cent Farm,MS,county_not_specific | contact_missing
+canonical,290,LAN Farms,MS,county_not_specific
+canonical,291,Lloyd Farms Corriente Cattle,MS,contact_missing
+canonical,292,Raines Wagyu,MS,contact_missing
+canonical,294,Nobile Family Farms,MS,county_not_specific
+canonical,295,The Great Mississippi Tea Company,MS,county_not_specific | contact_missing | website_flag_without_url
+canonical,296,Two Brooks Rice,MS,county_not_specific | contact_missing
+canonical,297,Banks Rice,MS,county_not_specific
+canonical,298,Bass Pecan Company,MS,county_not_specific
+canonical,300,Windsor Farms,MS,county_not_specific
+canonical,301,Twelve2 Farm,MS,county_not_specific
+canonical,302,Down Home Milling Co.,MS,county_not_specific
+canonical,303,Southern Char Seasonings,MS,county_not_specific | contact_missing
+canonical,305,Amason Farms,MS,county_not_specific
+canonical,306,Black Jack Ranch,MS,county_not_specific
+canonical,307,Dowdle Family Farms,MS,county_not_specific
+canonical,308,Etta Hills Farm,MS,county_not_specific | contact_missing
+canonical,309,Free State Beef and Cattle,MS,county_not_specific
+ms_staging,1,3R Land & Livestock LLC,MS,missing_county | not_promoted
+ms_staging,2,4P Beef,MS,not_promoted
+ms_staging,3,5D Natural Farm,MS,not_promoted
+ms_staging,4,5D Natural Farms,MS,missing_city | missing_county | not_promoted
+ms_staging,5,61 Farms LLP,MS,not_promoted
+ms_staging,7,"A Cut Above Processing and Meat Market, LLC",MS,not_promoted
+ms_staging,8,"A Cut Above Processing & Meat Market, LLC",MS,not_promoted
+ms_staging,9,Addison Blueberry Farms,MS,not_promoted
+ms_staging,11,Amber's Blueberry Farm,MS,not_promoted
+ms_staging,12,Amorphous Gardens,MS,missing_city | missing_county | not_promoted
+ms_staging,13,Angel Wings Greenhouse,MS,not_promoted
+ms_staging,14,Arrowhead Hill Farm,MS,not_promoted
+ms_staging,15,Artillery Ridge Growers,MS,missing_city | missing_county | not_promoted
+ms_staging,16,B and L Farms,MS,not_promoted
+ms_staging,17,B & W Orchard,MS,not_promoted
+ms_staging,18,Bacot Farms,MS,not_promoted
+ms_staging,19,Bailey Barn Farms & Soap Co.,MS,not_promoted
+ms_staging,20,Banks Farms,MS,not_promoted
+ms_staging,24,Beaver-Dam Fresh Farms Inc,MS,not_promoted
+ms_staging,25,Becca’s Blooms Floral Flower Preservation,MS,missing_products | missing_county | not_promoted
+ms_staging,26,Becci’s Barnyard,MS,not_promoted
+ms_staging,27,"Bee’s Best Honey, LLC",MS,not_promoted
+ms_staging,28,BeeTree Meadows,MS,missing_city | missing_county | not_promoted
+ms_staging,29,Big Creek Farm LLC,MS,missing_county | not_promoted
+ms_staging,32,Blue Barn Farms,MS,not_promoted
+ms_staging,33,Blue Courage Farms,MS,missing_county
+ms_staging,34,Blue Sky Farms MS,MS,not_promoted
+ms_staging,35,Blue Tara Organic PYO Blueberry Farm,MS,not_promoted
+ms_staging,36,Blueberry Bluephoria at Toft Farms,MS,not_promoted
+ms_staging,37,Blueberry Heaven,MS,not_promoted
+ms_staging,38,Blueberry Hill Canton,MS,missing_city | not_promoted
+ms_staging,39,Blueberry Hill Farm Florence,MS,not_promoted
+ms_staging,40,Blueberry Pines Farm,MS,not_promoted
+ms_staging,42,Bluff Farm Supply,MS,not_promoted
+ms_staging,43,Boots to Roots Farm,MS,not_promoted
+ms_staging,44,Bounds Blueberry Farm,MS,not_promoted
+ms_staging,45,"Bowie Creek Orchard, LLC",MS,not_promoted
+ms_staging,47,Breckenridge Farms,MS,not_promoted
+ms_staging,48,Breezy Oaks Ranch,MS,not_promoted
+ms_staging,49,Broadhead Beef,MS,not_promoted
+ms_staging,51,Bruce Sweet Potato,MS,not_promoted
+ms_staging,52,Burris Farms U-Pick,MS,not_promoted
+ms_staging,53,Burwell Farms LLC,MS,not_promoted
+ms_staging,54,C&W Farms Caledonia,MS,not_promoted
+ms_staging,55,"Cal-Maine Foods, Inc",MS,not_promoted
+ms_staging,56,Carnes Farms,MS,missing_county | not_promoted
+ms_staging,57,Cedar Hill Farm,MS,not_promoted
+ms_staging,58,Cedar Hill Farm & Cedar Hill’s Haunted Farm,MS,missing_county | not_promoted
+ms_staging,59,Charlie’s U-Pik,MS,not_promoted
+ms_staging,60,Charlie's U-Pik Wiggins,MS,missing_city | not_promoted
+ms_staging,61,Chatawa Farms,MS,not_promoted
+ms_staging,62,Cherry Creek Orchards,MS,not_promoted
+ms_staging,63,Chicora Organic Farm,MS,not_promoted
+ms_staging,65,Circle L Enterprises,MS,not_promoted
+ms_staging,66,CM Farms And Services LLC,MS,not_promoted
+ms_staging,68,Colemans Farm LLC,MS,not_promoted
+ms_staging,69,Cooper Farms and Vineyard LLC,MS,not_promoted
+ms_staging,70,COOPER FARMS & VINEYARD,MS,missing_city | missing_county | not_promoted
+ms_staging,72,Crooked Row Farms LLC,MS,missing_county | not_promoted
+ms_staging,73,Croom Farms,MS,not_promoted
+ms_staging,74,Cypress Point Pecans LLC,MS,missing_county | not_promoted
+ms_staging,75,Dabbs Farm,MS,not_promoted
+ms_staging,76,"Dannemann Farm, LLC",MS,not_promoted
+ms_staging,77,Delta Pride Catfish,MS,missing_county | not_promoted
+ms_staging,79,DONNA CORKERN,MS,missing_city | missing_county | not_promoted
+ms_staging,82,Dry Bottom Farms and Nursery,MS,not_promoted
+ms_staging,84,Dutch Creek Goat Farm,MS,missing_city | missing_county | not_promoted
+ms_staging,85,Eight Acre Porch and Poultry LLC,MS,not_promoted
+ms_staging,86,Ellis Farms,MS,missing_city | missing_county | not_promoted
+ms_staging,87,Emma Wilder Farm,MS,not_promoted
+ms_staging,90,"Faithful Fruits Farm, LLC",MS,not_promoted
+ms_staging,92,Farmer Browns Southern Farm,MS,not_promoted
+ms_staging,93,First Fruits Farm,MS,missing_city | not_promoted
+ms_staging,94,Flavourful Fungi,MS,missing_city | missing_county | not_promoted
+ms_staging,95,Flower Farm and Cottage,MS,not_promoted
+ms_staging,96,Foot Print Farms,MS,not_promoted
+ms_staging,98,Fresh Grown Farm,MS,missing_city | missing_county
+ms_staging,99,FreshGrown Farm,MS,not_promoted
+ms_staging,100,Fulmers Farmstead and General Store,MS,not_promoted
+ms_staging,101,Gatewood Blueberry Farm,MS,not_promoted
+ms_staging,102,Geneva Springs Farm,MS,not_promoted
+ms_staging,103,George (Sonny) Magee,MS,not_promoted
+ms_staging,104,Golden S Farms,MS,not_promoted
+ms_staging,105,"Golden Valley Doodles, Inc.",MS,not_promoted
+ms_staging,106,Good Earth Eats,MS,missing_county | not_promoted
+ms_staging,107,Granny Springs Farm,MS,not_promoted
+ms_staging,108,Grazing Way Farm,MS,not_promoted
+ms_staging,109,Great Southern Farms,MS,not_promoted
+ms_staging,110,"Green Acres Creamery, LLC",MS,not_promoted
+ms_staging,111,Hays Berry Farms,MS,not_promoted
+ms_staging,112,Heartland Catfish Company,MS,not_promoted
+ms_staging,113,Heavenly Trace Farm and Orchard LLC,MS,not_promoted
+ms_staging,114,Henderson Farms,MS,not_promoted
+ms_staging,117,High Heeled Hippie,MS,missing_city | missing_county | not_promoted
+ms_staging,118,High Hill Ranch,MS,not_promoted
+ms_staging,119,High Hope Farm,MS,not_promoted
+ms_staging,121,Homestead Farms,MS,missing_city | missing_county | not_promoted
+ms_staging,123,Hope Fruit and Berry Farm,MS,not_promoted
+ms_staging,124,Humphrey Farms,MS,not_promoted
+ms_staging,127,James Farm,MS,not_promoted
+ms_staging,128,JD Farms & Pearl River Tea Co.,MS,missing_city | missing_county | not_promoted
+ms_staging,129,Jerry Morrisson Tree Farm,MS,not_promoted
+ms_staging,130,JP Show Cattle,MS,missing_products | missing_county | not_promoted
+ms_staging,131,K and M Nursery,MS,not_promoted
+ms_staging,132,Keep Mississippi Beautiful’s Wildflower Trails of Mississippi,MS,missing_county | not_promoted
+ms_staging,133,Kengro Corporation,MS,not_promoted
+ms_staging,134,Kingbeehoney,MS,not_promoted
+ms_staging,135,Kuska Paku Alpaca Farm - South Mississippi Alpacas,MS,not_promoted
+ms_staging,136,La Terre Farms,MS,not_promoted
+ms_staging,137,LAN Farms,MS,missing_county
+ms_staging,138,LandMax Properties & Timber Company,MS,not_promoted
+ms_staging,139,Lazy Acres Farm Fun,MS,not_promoted
+ms_staging,140,Lazy Acres Plantation,MS,not_promoted
+ms_staging,141,Lazy U Farm,MS,not_promoted
+ms_staging,142,Lindy’s Pecans,MS,missing_county | not_promoted
+ms_staging,143,Line Creek Farms,MS,not_promoted
+ms_staging,144,Line Prairie Farms,MS,not_promoted
+ms_staging,145,Little Bluestem Farm,MS,missing_city | missing_county | not_promoted
+ms_staging,146,Little Lapp Farm,MS,not_promoted
+ms_staging,147,Living Soil Farms,MS,missing_county
+ms_staging,150,Loch Ross Farms,MS,not_promoted
+ms_staging,151,M&M Cattle Company,MS,not_promoted
+ms_staging,152,Magnolia Creek Farm,MS,not_promoted
+ms_staging,153,Mary’s Berries,MS,not_promoted
+ms_staging,154,"Mauthe Farms, LLC",MS,missing_county
+ms_staging,155,Mert’s Satsumas,MS,not_promoted
+ms_staging,156,Mississippi Beef Brothers,MS,missing_county | not_promoted
+ms_staging,157,MISSISSIPPI BEES,MS,not_promoted
+ms_staging,158,Mississippi Crawfish Company,MS,missing_county | not_promoted
+ms_staging,159,Mississippi Poodles Doodles and Giants,MS,missing_county | not_promoted
+ms_staging,162,Moon Lake Pecans LLC,MS,not_promoted
+ms_staging,163,Morgan Farms Custom Beef,MS,not_promoted
+ms_staging,164,Morning Dew Pastures llc,MS,not_promoted
+ms_staging,165,Morris Watermelon Farm LLC,MS,not_promoted
+ms_staging,166,Moseley Meadows,MS,missing_county | not_promoted
+ms_staging,167,MS Coastal Seafood,MS,not_promoted
+ms_staging,168,MS PEANUT SUPPLY,MS,missing_county | not_promoted
+ms_staging,169,Murphree Orchards,MS,not_promoted
+ms_staging,170,N & W Farms Produce Inc.,MS,not_promoted
+ms_staging,171,Nature Crest LLC,MS,not_promoted
+ms_staging,173,Nesbit Blueberry Plantation,MS,not_promoted
+ms_staging,174,New Ground Nursery,MS,not_promoted
+ms_staging,176,Ol’ Cappy’s Bee Products,MS,not_promoted
+ms_staging,177,Our Four Acre Farm,MS,not_promoted
+ms_staging,178,Overflow Honey Co.,MS,not_promoted
+ms_staging,179,Pasture & Pine,MS,not_promoted
+ms_staging,180,Paul’s Plants,MS,not_promoted
+ms_staging,181,Pearl River Apiaries,MS,missing_products | not_promoted
+ms_staging,183,Pearl River Tea Company,MS,not_promoted
+ms_staging,184,Pecan Hill Farms,MS,not_promoted
+ms_staging,185,Pennington Farms Honey,MS,not_promoted
+ms_staging,186,"Persimmon Ridge Family Farm, LLC",MS,missing_county | not_promoted
+ms_staging,188,Pine Valley Farms,MS,not_promoted
+ms_staging,189,Pistolville Market and Grill,MS,not_promoted
+ms_staging,190,Plow Horse Produce,MS,not_promoted
+ms_staging,191,Pontotoc Blueberry Ridge,MS,not_promoted
+ms_staging,192,Primas Family Farm,MS,not_promoted
+ms_staging,193,Pumpkin Patch Farms,MS,not_promoted
+ms_staging,194,R & R Vineyard,MS,missing_county | not_promoted
+ms_staging,195,"Reaper's Suburban Homestead, LLC",MS,missing_city | missing_county | not_promoted
+ms_staging,196,"Red Bird Farms, LLC",MS,not_promoted
+ms_staging,197,Red River Trading Company,MS,not_promoted
+ms_staging,198,Reese Orchard,MS,not_promoted
+ms_staging,199,Restoration Ministry of MS Recovery Ranch,MS,missing_products | not_promoted
+ms_staging,200,Richard Williamson's Blueberry Farm,MS,not_promoted
+ms_staging,201,Ricky Joe's Farm,MS,not_promoted
+ms_staging,203,Rivers Plant Farm and Nusery,MS,not_promoted
+ms_staging,204,Rowell Farms,MS,not_promoted
+ms_staging,205,Rusty Acres Produce,MS,not_promoted
+ms_staging,207,Sandy Run Farm,MS,missing_city | not_promoted
+ms_staging,208,Sandy Run Farm & Nursery LLC,MS,not_promoted
+ms_staging,209,SARAH'S FARM,MS,missing_city | missing_county | not_promoted
+ms_staging,210,Sassy’s Salsa,MS,not_promoted
+ms_staging,211,Sawyer Farms,MS,not_promoted
+ms_staging,212,Sea Alis Seafood Company,MS,missing_county | not_promoted
+ms_staging,213,Second Chance Brangus,MS,not_promoted
+ms_staging,216,Shady Acres Farm,MS,not_promoted
+ms_staging,217,Shook Creek Farm,MS,missing_county | not_promoted
+ms_staging,218,Shroomdom Inc. & MisBEEhaving Bee’s,MS,not_promoted
+ms_staging,219,Simmons Farm Raised Catfish,MS,missing_county | not_promoted
+ms_staging,220,Simply Dunn Honey,MS,not_promoted
+ms_staging,221,Sims Farms LLC,MS,not_promoted
+ms_staging,222,Six Mile Farms LLC,MS,missing_county | not_promoted
+ms_staging,223,Smith’s Honey Farm LLC,MS,not_promoted
+ms_staging,224,Southern Cross Farm,MS,not_promoted
+ms_staging,225,Southern Prairie Pet Food,MS,not_promoted
+ms_staging,226,Sparrow Gardens,MS,missing_county | not_promoted
+ms_staging,227,Spring Lake Berry Farm,MS,not_promoted
+ms_staging,228,Stormy Creek Cottage LLC,MS,not_promoted
+ms_staging,229,Sumrall Farms,MS,missing_city | missing_county | not_promoted
+ms_staging,230,Sunrise Honey,MS,missing_county | not_promoted
+ms_staging,232,Superior Catfish,MS,missing_county | not_promoted
+ms_staging,233,T & R Dairy,MS,missing_county | not_promoted
+ms_staging,234,Talson Farms,MS,not_promoted
+ms_staging,235,Taylor Flower Patch,MS,not_promoted
+ms_staging,236,The Blueberry Patch,MS,not_promoted
+ms_staging,237,The Farm,MS,not_promoted
+ms_staging,239,The Food System,MS,missing_county | not_promoted
+ms_staging,240,The High Heeled Hippie,MS,not_promoted
+ms_staging,241,The Reservation Farm,MS,not_promoted
+ms_staging,242,Thirty West Farms,MS,not_promoted
+ms_staging,243,Thornhill Farms,MS,not_promoted
+ms_staging,245,Tippah County Growers Inc.,MS,not_promoted
+ms_staging,247,"Twisted Pines Quail Farm, LLC",MS,not_promoted
+ms_staging,248,Two Brooks Farm,MS,missing_county | not_promoted
+ms_staging,249,Two Crackers Oyster Company,MS,not_promoted
+ms_staging,251,Varner Show Goats,MS,not_promoted
+ms_staging,252,Viking Honey®,MS,missing_city | missing_county | not_promoted
+ms_staging,253,Walking W Cattle Company,MS,not_promoted
+ms_staging,254,Weesner Meadow Meats,MS,not_promoted
+ms_staging,255,White Farms Pure Honey,MS,not_promoted
+ms_staging,256,"Wildflower Honey Bee Company, LLC",MS,not_promoted
+ms_staging,257,Williams Family Farms,MS,not_promoted
+ms_staging,259,Wise Family Farm,MS,not_promoted
+ms_staging,261,YaYa’s Blessings,MS,missing_products | not_promoted
+ms_staging,262,Yazoo Honey,MS,not_promoted

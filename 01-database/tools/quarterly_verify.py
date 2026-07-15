@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Quarterly, exception-driven verification for FarmFinder releases and staging data.
+"""Six-month, exception-driven verification for FarmFinder releases and staging data.
 
 This scanner retries every HTTP check up to three times. It writes a dated audit
 report and never changes canonical farm values automatically.
@@ -27,7 +27,7 @@ ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / "03-app" / "site" / "config" / "source-of-truth.json"
 MS_CANDIDATES = ROOT / "research" / "ms-expansion" / "mississippi-candidates.json"
 AUDIT_ROOT = ROOT / "research" / "quarterly-audits"
-USER_AGENT = "FarmFinder/1.0 (+quarterly public-directory verification)"
+USER_AGENT = "FarmFinder/1.0 (+semiannual public-directory verification)"
 TODAY = date.today().isoformat()
 
 
@@ -114,7 +114,11 @@ def canonical_audit() -> tuple[dict, list[dict], dict[str, set[str]]]:
     rows = sheet.iter_rows(values_only=True)
     headers = [normalized(value) for value in next(rows)]
     positions = {header: index for index, header in enumerate(headers)}
-    records = [dict(zip(headers, row)) for row in rows]
+    records = [
+        record
+        for row in rows
+        if normalized((record := dict(zip(headers, row))).get("Farm Name"))
+    ]
     errors: list[str] = []
     warnings: list[str] = []
     if digest != release["sha256"]:
@@ -179,10 +183,46 @@ def canonical_audit() -> tuple[dict, list[dict], dict[str, set[str]]]:
 
 
 def staging_audit(url_owners: dict[str, set[str]]) -> tuple[dict, list[dict]]:
-    if not MS_CANDIDATES.exists():
+    manifest = json.loads(MANIFEST.read_text())
+    release = manifest["release"]
+    workbook_path = (MANIFEST.parent.parent / release["workspacePath"]).resolve()
+    workbook = load_workbook(workbook_path, read_only=True, data_only=True)
+    if "Research Queue" in workbook.sheetnames:
+        sheet = workbook["Research Queue"]
+        rows = sheet.iter_rows(values_only=True)
+        headers = [normalized(value) for value in next(rows)]
+        staged_rows = [
+            record
+            for row in rows
+            if normalized((record := dict(zip(headers, row))).get("Farm Name"))
+        ]
+        records = [
+            {
+                "farm_name": record.get("Farm Name"),
+                "state": record.get("State"),
+                "county": record.get("County"),
+                "city": record.get("City"),
+                "products": record.get("Products"),
+                "phone": record.get("Phone"),
+                "email": record.get("Email"),
+                "website_url": record.get("Website URL"),
+                "facebook_url": record.get("Facebook URL"),
+                "instagram_url": record.get("Instagram URL"),
+                "source_urls": record.get("Source URLs"),
+                "retrieved_date": record.get("Retrieved Date"),
+                "review_status": record.get("Review Status"),
+            }
+            for record in staged_rows
+        ]
+        candidate_file = f"{workbook_path}#Research Queue"
+        release_id = release["id"]
+    elif MS_CANDIDATES.exists():
+        payload = json.loads(MS_CANDIDATES.read_text())
+        records = payload["records"]
+        candidate_file = str(MS_CANDIDATES)
+        release_id = payload.get("release_id")
+    else:
         return {"candidate_file": str(MS_CANDIDATES), "status": "not_found"}, []
-    payload = json.loads(MS_CANDIDATES.read_text())
-    records = payload["records"]
     findings: list[dict] = []
     for index, record in enumerate(records, start=1):
         row_findings: list[str] = []
@@ -211,8 +251,8 @@ def staging_audit(url_owners: dict[str, set[str]]) -> tuple[dict, list[dict]]:
             if url:
                 url_owners.setdefault(url, set()).add(f"ms_staging:{index}:{normalized(record.get('farm_name'))}")
     return {
-        "candidate_file": str(MS_CANDIDATES),
-        "release_id": payload.get("release_id"),
+        "candidate_file": candidate_file,
+        "release_id": release_id,
         "candidate_rows": len(records),
         "county_present": sum(bool(normalized(record.get("county"))) for record in records),
         "city_present": sum(bool(normalized(record.get("city"))) for record in records),

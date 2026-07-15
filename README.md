@@ -18,19 +18,19 @@ FarmFinder currently has a working static-first public directory and a verified 
 | Area | Current state |
 |---|---|
 | Canonical pre-cutover source | `research/local_farm_database_final.xlsx`, sheet `All Farms` |
-| Source records | 315 workbook rows |
-| Public candidate entities | 311 normalized-name listings: 239 LA and 72 MS |
+| Canonical records | 311 one-row-per-entity workbook listings: 237 LA and 74 MS |
 | Public map | 311 mapped listings with explicit location precision |
-| Confirmed websites | 84 listings; 227 currently lack a confirmed website |
+| Website/contact QA | 99 website flags, 57 populated URLs, 42 missing URLs; 230 direct contacts and 81 missing direct phone/email |
+| State expansion | Alabama coverage reviewed: 635 eligible / 215 QA. Texas coverage reviewed: 1,021 observations, 919 proposed entities, 319 eligible / 600 QA; all 254 counties searched. Both remain private staging. |
 | Public application | Working vinext/Next.js directory using generated JSON |
-| PostgreSQL cutover | 30-table foundation verified; pinned release validated with all 315 raw rows staged locally; canonical normalization and promotion pending |
+| PostgreSQL cutover | 30-table foundation verified; historical v1 with 315 raw rows remains staged locally; enriched v2 must be staged as a new immutable release |
 | Custom indexes | 27 documented indexes tied to queries, invariants, or worker operations |
 | Natural-language answers | Prototype client-side parsing only; production hybrid query system is planned |
 | Authentication | Schema and hosting helpers exist; farm claim/management flows are not active |
 | Object storage | Pinned workbook stored and checksum-verified in local versioned S3-compatible storage; managed bucket and image pipeline pending |
 | Repository | Private GitHub repository with one project-level history |
 
-The four known identity-review groups are Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens. Their duplicate source rows must be reviewed during PostgreSQL import rather than silently merged.
+The four former duplicate groups—Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens—were evidence-reviewed and consolidated to one canonical row each. Their separate source histories remain in the canonical workbook's provenance fields and `Source Log`.
 
 ## What works today
 
@@ -60,7 +60,7 @@ FarmFinder now has explicit rules for:
 - Classifying exact locations and contacts as public or private.
 - Promoting a complete release atomically.
 - Running state collection in three documented source passes.
-- Performing quarterly source and link verification without automatically overwriting canonical data.
+- Performing six-month source and link verification without automatically overwriting canonical data.
 
 Start with:
 
@@ -175,7 +175,7 @@ See the complete [index decision register](03-app/site/docs/architecture/index-r
 ```text
 farm-finder/
 ├── 01-database/                 Collection rules, historical workbooks, tools
-│   ├── tools/                   Mississippi collection and quarterly verification
+│   ├── tools/                   Mississippi collection and six-month verification
 │   └── state-expansion-and-verification.md
 ├── 03-app/
 │   ├── app-vision.md
@@ -256,7 +256,7 @@ npm run db:test
 Current verified baseline:
 
 - Canonical workbook checksum and structure pass.
-- 315 source rows reconcile to 311 normalized-name candidates.
+- 311 canonical rows reconcile to 311 normalized-name entities with no exact normalized-name duplicate groups.
 - All 30 FarmFinder tables and 27 documented custom indexes exist.
 - Database invariant tests pass.
 - The pinned workbook is stored as an immutable versioned object and all 315 raw rows are staged idempotently in PostgreSQL.
@@ -309,7 +309,7 @@ Mississippi is the next active expansion area. Staging outputs live in `research
 
 See the [PostgreSQL cutover runbook](03-app/site/docs/data-governance/cutover-runbook.md).
 
-### Quarterly verification
+### Six-month verification
 
 From the repository root, after `data:setup`:
 
@@ -317,7 +317,7 @@ From the repository root, after `data:setup`:
 03-app/site/.venv/bin/python 01-database/tools/quarterly_verify.py
 ```
 
-The scanner validates the pinned release, retries source URLs up to three times, compares previous status, and writes dated exception queues. It does not delete farms or overwrite canonical values automatically.
+The scanner validates the pinned release every six months, retries source URLs up to three times, compares previous status, and writes dated exception queues. The historical script filename is retained. It does not delete farms or overwrite canonical values automatically.
 
 ## Security and privacy principles
 
@@ -366,7 +366,7 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 - Created and runtime-verified the PostgreSQL/PostGIS schema.
 - Added job, idempotency, outbox, audit, auth/claims, full-text, and media-metadata foundations.
 - Added database integration tests and updated FarmFinder web smoke tests.
-- Documented state expansion, evidence grades, release gates, and quarterly verification.
+- Documented state expansion, evidence grades, release gates, and six-month verification.
 
 ### Phase 1 — Idempotent importer and PostgreSQL cutover
 
@@ -374,11 +374,11 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 
 - ✅ Store the pinned workbook as a versioned S3-compatible object and verify its checksum.
 - ✅ Register the pinned workbook as a validated `dataset_release`.
-- ✅ Import all 315 workbook rows through an idempotent batch into immutable staging/source records.
+- ✅ Import all 315 rows from historical release v1 through an idempotent batch into immutable staging/source records.
 - ✅ Keep active Mississippi collection isolated from the pinned release.
 - Normalize geography, products, channels, links, and contacts.
-- Reconcile source rows to 311 identity candidates without name-only automatic merges.
-- Put the four known duplicate groups into a review queue.
+- ✅ Reconcile the four known duplicate groups in the canonical workbook using evidence while retaining provenance.
+- Stage enriched release v2 as a new immutable release and reconcile its 311 canonical rows.
 - Import source provenance and field-level assertions.
 - Compare database-derived public JSON against the current artifact.
 - Promote the release atomically and make PostgreSQL canonical.
@@ -452,6 +452,7 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 **Status:** Active data work, platform integration planned
 
 - Complete the Mississippi three-pass collection and review its staged candidates.
+- Review and deliberately promote the completed Alabama coverage-reviewed state release; do not fold it into LA/MS canon implicitly.
 - Expand state-by-state from the Gulf South until FarmFinder covers the continental United States.
 - Track completeness and freshness at state and county/parish levels.
 - Maintain operational coverage regions for foodsheds, metros, and agricultural districts.

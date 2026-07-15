@@ -4,16 +4,16 @@
   "authorityMode": "pre_cutover_workbook",
   "cutoverTarget": "postgresql",
   "release": {
-    "id": "2026-07-13-final-v1",
+    "id": "2026-07-15-enriched-v2",
     "workspacePath": "../../research/local_farm_database_final.xlsx",
     "sheet": "All Farms",
-    "sha256": "7ca730b0eaabc7f3839cfe12c293f8fd90346c759ba7e4a19c0a901fe88af28e",
-    "sourceRowCount": 315,
+    "sha256": "cbdf1649385a3c29ac0af1677dbbdf145ce5a8072e86075479e98786759ecce5",
+    "sourceRowCount": 311,
     "candidateEntityCount": 311,
     "allowedStates": ["LA", "MS"],
     "storage": {
       "bucket": "farmfinder-source-releases",
-      "objectKey": "farmfinder-directory/2026-07-13-final-v1/local_farm_database_final.xlsx",
+      "objectKey": "farmfinder-directory/2026-07-15-enriched-v2/local_farm_database_final.xlsx",
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "visibility": "private",
       "versioningRequired": true
@@ -22,12 +22,7 @@
   "identity": {
     "candidateKey": "normalized farm name",
     "automaticMergePolicy": "none after PostgreSQL cutover; ambiguous candidates require review",
-    "knownDuplicateGroups": [
-      "butterfield farm",
-      "earth friendly farms",
-      "faust farms",
-      "river queen greens"
-    ]
+    "knownDuplicateGroups": []
   },
   "requiredColumns": [
     "Farm Name",
@@ -50,7 +45,16 @@
     "Web Presence Score",
     "Contact Info",
     "Notes",
-    "Source Tab"
+    "Source Tab",
+    "Record ID",
+    "Record Status",
+    "Website Verification Status",
+    "Facebook URL",
+    "Instagram URL",
+    "Contact Status",
+    "Last Verified",
+    "Verification Source",
+    "Identity Notes"
   ],
   "requiredNonEmptyColumns": [
     "Farm Name",

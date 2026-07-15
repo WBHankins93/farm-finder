@@ -1,0 +1,52 @@
+{
+  "status": "coverage_reviewed",
+  "release_id": "al-coverage-reviewed-2026-07-15",
+  "generated_at": "2026-07-15T16:21:20.304568+00:00",
+  "scope": "Alabama three-pass private state release; LA/MS canonical and public app remain unchanged.",
+  "completion_definition": "All qualifying farms found under documented sources and three-pass process as of the release date; not every USDA-defined or undiscoverable farm.",
+  "collection_passes_started": [
+    1,
+    2,
+    3
+  ],
+  "collection_passes_completed": [
+    1,
+    2,
+    3
+  ],
+  "source_datasets_evaluated": 14,
+  "source_observations": 1048,
+  "source_observations_by_source": {
+    "Alabama Cattlemen\u2019s Association \u2014 Bama Beef Sales Directory": 98,
+    "Alabama FMA \u2014 2026 statewide farm-stand roster": 134,
+    "Alabama Farmers Market Authority \u2014 farm-stand map": 117,
+    "Alabama Farmers Market Authority \u2014 u-pick map": 82,
+    "Alabama Plant Protection \u2014 Beekeepers Selling Bees": 34,
+    "EatWild Alabama directory": 10,
+    "PickYourOwn \u2014 Central Alabama": 45,
+    "PickYourOwn \u2014 North Alabama": 36,
+    "PickYourOwn \u2014 Southeast Alabama": 60,
+    "PickYourOwn \u2014 Southwest Alabama": 25,
+    "Sweet Grown Alabama \u2014 Farm members": 407
+  },
+  "excluded_or_grade_f_observations": 2,
+  "proposed_entities": 850,
+  "promotion_eligible_entities": 635,
+  "research_or_qa_entities": 215,
+  "identity_review_groups": 146,
+  "identity_groups_split_for_county_conflict": 4,
+  "current_la_ms_name_collisions": 0,
+  "alabama_counties_total": 67,
+  "counties_with_candidates": 67,
+  "counties_without_candidates": [],
+  "counties_with_promotion_eligible_entities": 66,
+  "website_entities": 272,
+  "social_entities": 418,
+  "direct_contact_entities": 776,
+  "source_requests": 26,
+  "failed_source_requests": 4,
+  "county_lookup_failures": 2,
+  "open_qa_items": 215,
+  "critical_errors": [],
+  "promotion_note": "Eligible means the staged row meets field/evidence/privacy gates; promotion into canonical data still requires a deliberate immutable release review."
+}

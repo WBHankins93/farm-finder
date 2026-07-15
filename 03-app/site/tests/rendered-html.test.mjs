@@ -35,8 +35,8 @@ test("server-renders the FarmFinder directory shell", async () => {
   assert.match(html, /<section[^>]+id="ask"/i);
   assert.match(html, /<section[^>]+id="discover"/i);
   assert.match(html, /311[^<]*<\/strong><span>unique farms mapped/i);
-  assert.match(html, /newest research workbook contains 315 source rows/i);
-  assert.match(html, /Four repeated farm names were merged into 311 public profiles/i);
+  assert.match(html, /canonical workbook now contains 311 one-row-per-entity listings/i);
+  assert.match(html, /Four duplicate groups were evidence-reviewed/i);
   assert.doesNotMatch(html, /Your site is taking shape|Codex is working/i);
 });
 
@@ -47,8 +47,8 @@ test("ships one internally consistent public farm artifact", async () => {
 
   assert.equal(farms.length, 311);
   assert.equal(new Set(farms.map((farm) => farm.id)).size, farms.length);
-  assert.equal(farms.filter((farm) => farm.state === "LA").length, 239);
-  assert.equal(farms.filter((farm) => farm.state === "MS").length, 72);
+  assert.equal(farms.filter((farm) => farm.state === "LA").length, 237);
+  assert.equal(farms.filter((farm) => farm.state === "MS").length, 74);
 
   for (const farm of farms) {
     assert.ok(farm.id);

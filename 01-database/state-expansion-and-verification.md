@@ -58,6 +58,26 @@ Mississippi's initial staged run uses:
 The collector is `01-database/tools/collect_mississippi.py`. It writes staging data to
 `research/ms-expansion/` and does not edit the canonical workbook.
 
+Alabama completed all three passes on 2026-07-15. The coverage-reviewed private state
+release contains 1,048 source observations reconciled to 850 proposed entities; 635
+meet the staged promotion gates and 215 remain in explicit research/QA. All 67 counties
+have candidates. Two source records resolving outside Alabama remain grade-F
+exclusions. The collector is `01-database/tools/collect_alabama.py`, the validator is
+`01-database/tools/validate_alabama_release.py`, and the detailed review is
+`research/al-expansion/alabama-completion-report.md`. Alabama remains separate staging
+until a deliberate immutable promotion release; LA/MS remains canonical.
+
+Texas completed all three passes on 2026-07-15. The coverage-reviewed private state
+release contains 1,021 source observations reconciled to 919 proposed entities; 319
+meet the staged promotion gates and 600 remain in explicit research/QA. All 254
+counties were searched: 179 have candidates, 75 are explicitly
+`searched_none_found`, and 111 have at least one promotion-eligible entity. Thirteen
+closed listings remain grade-F exclusions. The collector is
+`01-database/tools/collect_texas.py`, the validator is
+`01-database/tools/validate_texas_release.py`, and the detailed review is
+`research/tx-expansion/texas-completion-report.md`. Texas remains separate staging
+until deliberate immutable promotion; LA/MS remains canonical.
+
 ## Record and field verification
 
 Verification is assertion-based. A source observation never erases an older one; it
@@ -85,10 +105,10 @@ Required promotion fields:
 - identity decision for possible duplicates;
 - public/private classification for address and contact fields.
 
-## Quarterly scan
+## Six-month scan
 
-Run `03-app/site/.venv/bin/python 01-database/tools/quarterly_verify.py` every three
-months. The scanner:
+Run `03-app/site/.venv/bin/python 01-database/tools/quarterly_verify.py` every six
+months. The script retains its historical filename, but the operating cadence is semiannual. The scanner:
 
 1. revalidates the pinned workbook checksum, row count, required fields, states, and
    normalized-name duplicate groups;
@@ -127,6 +147,5 @@ known.
   a farm-confirmed visitor location, a public business address, or reduced precision.
 - Keep source contact information internal until public-use permission is clear.
 - Farm-owner corrections outrank older third-party data.
-- The quarterly job creates an exception queue; it does not overwrite values, delete a
+- The six-month job creates an exception queue; it does not overwrite values, delete a
   farm after a single 404, or infer closure from absence in one directory.
-
