@@ -1,0 +1,56 @@
+# Source-of-truth and coverage workflow
+
+## Authority modes
+
+### Before PostgreSQL cutover
+
+The workbook identified by `config/source-of-truth.json` is the only editable authoring source. The manifest pins its sheet, checksum, row count, candidate-entity count, required columns, allowed states, and known duplicate groups. The generated JSON is a build artifact, not another source of truth.
+
+### After PostgreSQL cutover
+
+Promoted canonical tables are the only mutable source of truth. Workbooks, directory downloads, API responses, and farm submissions are immutable source releases stored in object storage and represented by `dataset_releases`, `import_batches`, and `source_records`.
+
+No spreadsheet may be edited and reintroduced as an authoritative replacement after cutover. Changes arrive as new source records or curator actions with audit evidence.
+
+## Adding a new farm
+
+1. Register the source, license/terms, retrieval date, and immutable file checksum.
+2. Create an import batch with a unique idempotency key.
+3. Store the raw row in `source_records` before normalization.
+4. Normalize names, products, links, contacts, and geography without discarding original text.
+5. Compare candidates using name, administrative area, address, contact, links, and source identifiers.
+6. Automatically accept only high-confidence matches. Send ambiguous and same-name cases to curator review.
+7. Preserve each source value in `farm_field_assertions`; select canonical values according to verification recency and curator policy.
+8. Validate required public fields, visibility, provenance, and geographic precision.
+9. Promote the dataset release atomically. Failed or partial imports never become visible.
+10. Record the affected farm IDs, source records, actor, and release in the audit log.
+
+## Adding a new area
+
+1. Add official geography to `admin_areas` using stable FIPS/GNIS identifiers where available.
+2. Keep official geography separate from operational collection areas.
+3. Create a `coverage_region` for a foodshed, metro, agricultural district, or county cluster.
+4. Map the coverage region to one or more official administrative areas.
+5. Register the sources expected for that region and define a coverage target.
+6. Report discovered farms, verified contacts, precise locations, source freshness, and unresolved duplicates for that region.
+
+States remain the top-level official namespace. Collection can proceed in smaller regions without making those regions substitutes for states, counties, or Louisiana parishes.
+
+## Canonical-value policy
+
+- A verified farm-owner correction outranks older third-party directory data unless legal or safety review blocks it.
+- More recent observations do not erase older observations; they supersede them with evidence.
+- A boolean is not true merely because any historical source said yes. The canonical value uses status, recency, confidence, and verification.
+- Absence from one source is not proof that a product, market channel, or website does not exist.
+- Exact locations and private contacts are independently classified; canonical does not automatically mean public.
+- Derived fields such as `has_website` are computed from active canonical links rather than maintained separately.
+
+## Release gates
+
+- Manifest checksum and workbook structure match.
+- Required values are present and allowed values are valid.
+- Duplicate groups are reviewed or explicitly carried as unresolved.
+- Source licensing/terms and retrieval dates are recorded.
+- Counts reconcile from source rows to candidate entities to promoted entities.
+- Query evals are pinned to the release being promoted.
+- The previous release remains restorable.
