@@ -1,0 +1,683 @@
+{
+  "contractVersion": 2,
+  "state": {
+    "code": "FL",
+    "name": "Florida",
+    "countyEquivalentLabel": "county",
+    "countyEquivalentCount": 67
+  },
+  "policy": {
+    "version": "2026-07-15",
+    "missingDataDisposition": "research_or_qa_queue",
+    "affirmativeExclusionReasons": [
+      "confirmed_closed",
+      "confirmed_nonfarm",
+      "duplicate_identity",
+      "outside_jurisdiction"
+    ]
+  },
+  "collection": {
+    "requiredPasses": [
+      1,
+      2,
+      3
+    ],
+    "sources": [
+      {
+        "sourceId": "flsrc-a00ddfc6ad0e",
+        "name": "Florida Department of Agriculture and Consumer Services — Florida Farm to You producer directory",
+        "pass": 1,
+        "sourceUrl": "https://flfarmtoyou.com/producer/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 171,
+        "retrievedAt": "2026-07-16T01:40:25.075412+00:00",
+        "responseSha256": "68d77c33cc599bc580e99a0b5f3445fb532176939dafbdb017ce5cbd693ec97b",
+        "notes": "Traversed 19 live archive pages and retained 171 unique named producer profiles."
+      },
+      {
+        "sourceId": "flsrc-8b0daa4d7be6",
+        "name": "U.S. Census Bureau — county denominator",
+        "pass": 1,
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2712%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+        "repositoryPath": null,
+        "decision": "coverage_denominator",
+        "recordsParsed": 67,
+        "retrievedAt": "2026-07-16T01:40:23.126020+00:00",
+        "responseSha256": "6abc46a910468e6a5a0ff75676667d1e537dd56de65653a92ca3778de4dcf195",
+        "notes": null
+      },
+      {
+        "sourceId": "flsrc-7915a2a1a274",
+        "name": "EatWild Florida directory",
+        "pass": 2,
+        "sourceUrl": "https://www.eatwild.com/products/florida.html",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 14,
+        "retrievedAt": "2026-07-16T01:40:27.322398+00:00",
+        "responseSha256": "93e039d2450e0a6c4ac4e522cd3504c480de7d97e30b5bec55816a6ebba81983",
+        "notes": null
+      },
+      {
+        "sourceId": "flsrc-62cde9dd6326",
+        "name": "Florida Department of Agriculture and Consumer Services — CSA locator",
+        "pass": 2,
+        "sourceUrl": "https://www.fdacs.gov/Consumer-Resources/Buy-Fresh-From-Florida/Community-Supported-Agriculture-CSAs",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 24,
+        "retrievedAt": "2026-07-16T01:40:27.095214+00:00",
+        "responseSha256": "dcb89ac7410ec71d804f5c5681cc453e5ee436b9298afc26f51c2ea456b2e222",
+        "notes": "Every named row under the live county headings was retained."
+      },
+      {
+        "sourceId": "flsrc-3e4e5708e5aa",
+        "name": "Florida Department of Agriculture and Consumer Services — U-pick farm locator",
+        "pass": 2,
+        "sourceUrl": "https://www.fdacs.gov/Consumer-Resources/Buy-Fresh-From-Florida/U-Pick-Farms",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 100,
+        "retrievedAt": "2026-07-16T01:40:26.949554+00:00",
+        "responseSha256": "733a78bab4a3088375125b011c9fed0f8273ab512460fb05989d22cf885cbf72",
+        "notes": "The live FDACS page exposed 100 child profiles; every unique named profile was retained."
+      },
+      {
+        "sourceId": "flsrc-80b6f7526644",
+        "name": "LocalHarvest — Florida county-seat gap search",
+        "pass": 3,
+        "sourceUrl": "https://www.localharvest.org",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 12,
+        "retrievedAt": "2026-07-16T01:40:43.229376+00:00",
+        "responseSha256": null,
+        "notes": "Searched 1 county-seat anchors; deduplicated 12 profile URLs. Failures remain explicit."
+      },
+      {
+        "sourceId": "flsrc-0fea8e111ded",
+        "name": "PickYourOwn — Alachua County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-Alachua.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 38,
+        "retrievedAt": "2026-07-16T01:40:30.113139+00:00",
+        "responseSha256": "88c6c12619fe5205e4f0280906d0dcf2ca3097e7595b2408422f7b216ab290de",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-1a1f050fc23c",
+        "name": "PickYourOwn — Baker, Columbia and Union Counties",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-BakerColumbiaUnion.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 7,
+        "retrievedAt": "2026-07-16T01:40:30.258985+00:00",
+        "responseSha256": "134d0657fa9e5afbc6be6c1e30432f7d92aac8914a585e4587b9bf96f8de21c1",
+        "notes": "County sections searched: 3; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-0dbde5f23a6d",
+        "name": "PickYourOwn — Bay, Holmes, Walton and Washington County, mid-Panhandle",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLpanhandle-WaltonBay.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 6,
+        "retrievedAt": "2026-07-16T01:40:29.085245+00:00",
+        "responseSha256": "1918926c0348aa3073c6be682c9bceed8529168c6cb3dcfa9fe2f592c8721ce7",
+        "notes": "County sections searched: 4; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-ac828c1d7c2d",
+        "name": "PickYourOwn — Bradford and Clay counties",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-BradfordClay.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 8,
+        "retrievedAt": "2026-07-16T01:40:30.418034+00:00",
+        "responseSha256": "56f241b8585ee673444d819ddfcfb13ef392b258177246c6abec67b75da3048a",
+        "notes": "County sections searched: 2; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-b43fb524f9fb",
+        "name": "PickYourOwn — Brevard County and Osceola County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLeastcentral-Brevard.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 19,
+        "retrievedAt": "2026-07-16T01:40:32.503134+00:00",
+        "responseSha256": "51dfd3a28231e29aee6b27d48119e79ed4d2bf73c733a444ffbc018c019b3520",
+        "notes": "County sections searched: 2; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-b97048e2cf1c",
+        "name": "PickYourOwn — Broward County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLsoutheastBroward.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 4,
+        "retrievedAt": "2026-07-16T01:40:36.973822+00:00",
+        "responseSha256": "6ee188c7458fb54da1db8a10f1a07e7c353f4ce78f12f7ce983fca6007705f28",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-935a07dc2d42",
+        "name": "PickYourOwn — Charlotte and Glades County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLwest-CharlotteGlades.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 4,
+        "retrievedAt": "2026-07-16T01:40:36.178587+00:00",
+        "responseSha256": "840cf48e2a46695adbc6efd501dd3c129c19f78ec027567d9d559ea874bfbefa",
+        "notes": "County sections searched: 2; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-bd825b97deb7",
+        "name": "PickYourOwn — Citrus County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLwest-Citrus.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 10,
+        "retrievedAt": "2026-07-16T01:40:34.066789+00:00",
+        "responseSha256": "6439b8e8a04618b7126f3ca9d563fd1ed53e0ec9acca63265b3994337954a119",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-3b3a8cc9212e",
+        "name": "PickYourOwn — Desoto and Hardee County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLwest-DesotoHardee.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 7,
+        "retrievedAt": "2026-07-16T01:40:35.973882+00:00",
+        "responseSha256": "37f2c61c28e65a318db6a6d945bb4d3ba3941b1e6bb63501777ab413fe3370dc",
+        "notes": "County sections searched: 2; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-9f417451c18f",
+        "name": "PickYourOwn — Dixie and Lafayette counties",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-DixieLafayette.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 1,
+        "retrievedAt": "2026-07-16T01:40:30.617871+00:00",
+        "responseSha256": "49144be18d44757d23a280ba91a2fe1cc830b5e736d1b24fd175461563540918",
+        "notes": "County sections searched: 2; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-7b9fb8364e21",
+        "name": "PickYourOwn — Eastern Florida Panhandle: Jefferson, Madison and Taylor County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLpanhandle-East.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 14,
+        "retrievedAt": "2026-07-16T01:40:29.851429+00:00",
+        "responseSha256": "c8fc6839140c6c8888dd145fd7977ac67cd0f45f6a9393d5d15bcbb079113146",
+        "notes": "County sections searched: 3; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-be95a5a721ba",
+        "name": "PickYourOwn — Escambia County (Pensacola area)",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLpanhandle-Escambia.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 6,
+        "retrievedAt": "2026-07-16T01:40:28.396519+00:00",
+        "responseSha256": "056667a8885858fab00c392370f08fa78c86295cbe42a23e0df862583b1860bf",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-7d3976976d81",
+        "name": "PickYourOwn — Flagler and St. John's counties",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-StJohnsFlagler.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 4,
+        "retrievedAt": "2026-07-16T01:40:30.855922+00:00",
+        "responseSha256": "0fc91fa45b185dc40d7da111459df05724c99065bfbe9e7bc5e4a323bb2c56b7",
+        "notes": "County sections searched: 2; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-23e7bbc4950d",
+        "name": "PickYourOwn — Gilcrist and Levy counties",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-GilcrestLevy.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 6,
+        "retrievedAt": "2026-07-16T01:40:31.011483+00:00",
+        "responseSha256": "810ca2775d6dd11afc9cacb3b8858c841ccb88c3c954d81064ff973b94cf627c",
+        "notes": "County sections searched: 2; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-e163994e054c",
+        "name": "PickYourOwn — Hamilton County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-Hamilton.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 2,
+        "retrievedAt": "2026-07-16T01:40:31.220260+00:00",
+        "responseSha256": "6ae365de4332c21948dd1223af2f5a14dd457f8543462f0e5bea8eb201837717",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-860a9a8e36ac",
+        "name": "PickYourOwn — Hernando County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLwest-Hernando.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 15,
+        "retrievedAt": "2026-07-16T01:40:34.531245+00:00",
+        "responseSha256": "320d0ed4a868bd50c2a0d3b446b007df96ad539c3b3f1e08de47c09f2cd1b449",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-74694018b86d",
+        "name": "PickYourOwn — Highlands County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLwest-Highlands.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 2,
+        "retrievedAt": "2026-07-16T01:40:35.358122+00:00",
+        "responseSha256": "888dd829a024671f245ddfcef4cd0bdbc287aa7eebfac8b1c9e20f76815ba8b7",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-1e8106b8cbb9",
+        "name": "PickYourOwn — Indian River County, Okeechobee County, St. Lucie County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLeastcentral-StLucie.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 3,
+        "retrievedAt": "2026-07-16T01:40:33.414960+00:00",
+        "responseSha256": "5ae0c25bfe23c3d8aebf0f0005e702f50418103de5dca48fb0bd1622994727d0",
+        "notes": "County sections searched: 3; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-0faee41edd2a",
+        "name": "PickYourOwn — Jackson County, Calhoun County, Franklin, Gulf, Liberty counties",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLpanhandle-Jackson.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 10,
+        "retrievedAt": "2026-07-16T01:40:29.294090+00:00",
+        "responseSha256": "b7402b76d49fd1c2105468c8fbfd2fca9a9f7551c20e52077b6f13f702053995",
+        "notes": "County sections searched: 5; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-0f54b90df9c2",
+        "name": "PickYourOwn — Jacksonville area; Duval and Nassau Counties",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-Jacksonville.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 19,
+        "retrievedAt": "2026-07-16T01:40:31.506074+00:00",
+        "responseSha256": "ec8d21ce499787a50b0f27d55076a6d2e6378db16644bc589e01da4a9ad5a124",
+        "notes": "County sections searched: 2; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-4c05de6e8e5d",
+        "name": "PickYourOwn — Lake County Orlando area",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLeastcentral-Lake.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 0,
+        "retrievedAt": "2026-07-16T01:40:32.770286+00:00",
+        "responseSha256": "6467dbeecd3ad2850aa4b766e969665200739330064cd6b1b397f9ee47e4569c",
+        "notes": "County sections searched: 0; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-c44fa8afefa7",
+        "name": "PickYourOwn — Manatee County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLwest-Manatee.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 6,
+        "retrievedAt": "2026-07-16T01:40:35.565320+00:00",
+        "responseSha256": "46ca76b5ee825f2f58fcea64a923b15c967ad2ad91f2ac35ef0d5bba4e129e5d",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-b5688ff925d8",
+        "name": "PickYourOwn — Marion County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-Marion.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 24,
+        "retrievedAt": "2026-07-16T01:40:31.829140+00:00",
+        "responseSha256": "1fd43d8301e66915a3e3eddd769f82574d885b19a3302ebe7f360f95a75fc89a",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-515e58289b39",
+        "name": "PickYourOwn — Martin County or Palm Beach County,",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLsoutheastPalmbeach.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 3,
+        "retrievedAt": "2026-07-16T01:40:36.795426+00:00",
+        "responseSha256": "30741e063f068fa7347504bdf66c7f1b74c49dd8661283829a3480d16dcd3a7b",
+        "notes": "County sections searched: 2; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-b2fb6400ac82",
+        "name": "PickYourOwn — Miami-Dade County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLsoutheast.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 8,
+        "retrievedAt": "2026-07-16T01:40:36.593918+00:00",
+        "responseSha256": "7aab4f36cba99f35816e133173713aff88161e6b3545ae11a67eb3ac10e74ee9",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-0c5745c907ce",
+        "name": "PickYourOwn — Okaloosa County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLpanhandle-Okaloosa.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 10,
+        "retrievedAt": "2026-07-16T01:40:28.842815+00:00",
+        "responseSha256": "137413275aa865496987f07d5f155bff09bd85ad38091b6afa133b1f54b5b1c1",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-e66e4c85f748",
+        "name": "PickYourOwn — Orange County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLeastcentral-Orange.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 4,
+        "retrievedAt": "2026-07-16T01:40:33.003608+00:00",
+        "responseSha256": "5aa24046297fccc21c5f81999e76e318450b5c6cffa6ecc5e2c9601a28a58a37",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-f94015f2e119",
+        "name": "PickYourOwn — Pasco County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLwest-Pasco.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 23,
+        "retrievedAt": "2026-07-16T01:40:34.815443+00:00",
+        "responseSha256": "a0ac1749a9ddb69a6b490f6ef6cb158c4b4c5014fd71c37e920538244191e075",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-fbe7c4655974",
+        "name": "PickYourOwn — Polk County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLcentral-Polk.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 21,
+        "retrievedAt": "2026-07-16T01:40:33.638833+00:00",
+        "responseSha256": "0866f48fd0d4226514dd3a1a271ad16e5659c408c7a9f270bdb8c0addc0a48f9",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-ff881e20ba4a",
+        "name": "PickYourOwn — Putnam County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-Putnam.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 17,
+        "retrievedAt": "2026-07-16T01:40:32.045703+00:00",
+        "responseSha256": "e1b47cbab39aee739b5910b25c397d03e3773a0da39d6c154bad3e88b516f791",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-adf3534d52f4",
+        "name": "PickYourOwn — Santa Rosa County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLpanhandle-SantaRosa.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 7,
+        "retrievedAt": "2026-07-16T01:40:28.632959+00:00",
+        "responseSha256": "ddcbcece72bdf28cbfd2c782adf12b447467cbfd03e67d088df12974ab1b9157",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-cee372da675f",
+        "name": "PickYourOwn — Sarasota County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLwest-Sarasota.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 2,
+        "retrievedAt": "2026-07-16T01:40:35.760951+00:00",
+        "responseSha256": "1ba2d536015451bf18bfa3ad4b185ca0aeeed46bdfa2963a5fbfd214394334bf",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-969ff1735103",
+        "name": "PickYourOwn — Seminole County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLeastcentral-Seminole.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 4,
+        "retrievedAt": "2026-07-16T01:40:33.209983+00:00",
+        "responseSha256": "0935bd63ae0f897f4d231c8d92d190ed62acfdb190818dd8312c916be5c76217",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-dfe8dfd88e2b",
+        "name": "PickYourOwn — Southwest Florida - Collier Hendry and Lee counties",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLsouthwest.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 8,
+        "retrievedAt": "2026-07-16T01:40:36.384886+00:00",
+        "responseSha256": "572d012de1dd184011b41ddf1b1bdd799deb8d1a20c85bb57cb7faee582d296f",
+        "notes": "County sections searched: 4; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-17f0aca9727b",
+        "name": "PickYourOwn — Sumter County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLwest-Sumter.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 7,
+        "retrievedAt": "2026-07-16T01:40:34.245903+00:00",
+        "responseSha256": "cb1dcec47b9fdf5a55aa9456cfa57ad519d39e13133aa54238296f6f916c82a8",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-ec52a42c2b51",
+        "name": "PickYourOwn — Suwannee County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLnorth-Suwanee.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 11,
+        "retrievedAt": "2026-07-16T01:40:32.251805+00:00",
+        "responseSha256": "4dae8f8ae1978707f4648364468e88c60ede384a879ebfda8142cc0ec0a1f7ed",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-4ccee88a62a5",
+        "name": "PickYourOwn — Tallahassee area: Gadsden, Leon and Wakulla County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLpanhandle-Tallahassee.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 10,
+        "retrievedAt": "2026-07-16T01:40:29.567292+00:00",
+        "responseSha256": "298a39a458e267401a28ed05d1761a0f8f82ad7d46c6615920c070fc1d7cf170",
+        "notes": "County sections searched: 3; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-3859a6e8236d",
+        "name": "PickYourOwn — Tampa area - Hillsborough and Pinellas County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLwest-HillsboroughPinellas.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 45,
+        "retrievedAt": "2026-07-16T01:40:35.154954+00:00",
+        "responseSha256": "5b03bc19bbfc5fe8a3ca34ec22b36014d1bcb4c6755c50b4f851b4949b3a813b",
+        "notes": "County sections searched: 2; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-53d7099b0708",
+        "name": "PickYourOwn — Volusia County",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/FLeastcentral-Volusia.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 4,
+        "retrievedAt": "2026-07-16T01:40:33.818918+00:00",
+        "responseSha256": "dbc85265fd56dc82805dd9ca0e8bb3f7a3d8117d272575a786d05425a8b4853c",
+        "notes": "County sections searched: 1; closure claims retained for review."
+      },
+      {
+        "sourceId": "flsrc-947db256243f",
+        "name": "US Farm Trail — Florida discovery export",
+        "pass": 3,
+        "sourceUrl": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=florida",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 1329,
+        "retrievedAt": "2026-07-16T01:40:27.928526+00:00",
+        "responseSha256": "35a0664b8cc1a4734ea3aa55b0a3f3b11577feb156aa0d21f5d7af3e09cd7ad2",
+        "notes": "State headline advertised 1330; GeoJSON exposed 1328 coordinate-bearing records and visible state cards added 1 name-only records. One headline-count record was not publicly enumerable and remains a documented source limitation."
+      }
+    ],
+    "coverage": {
+      "countyEquivalentsReviewed": 67,
+      "countyEquivalentsWithCandidates": 66,
+      "countyEquivalentsWithEligibleEntities": 53,
+      "unresolvedCountyEquivalents": []
+    }
+  },
+  "repositoryPolicy": {
+    "requiredFiles": [
+      "state.yaml",
+      "entities.csv",
+      "decisions.csv",
+      "report.md"
+    ],
+    "maxTrackedBytes": 5000000
+  },
+  "release": {
+    "canonicalBoundary": {
+      "authorityMode": "pre_cutover_workbook",
+      "allowedStates": [
+        "LA",
+        "MS"
+      ],
+      "sourceRowCount": 299
+    },
+    "id": "fl-coverage-reviewed-v1-2026-07-15",
+    "status": "coverage_reviewed",
+    "generatedAt": "2026-07-16T01:40:43.977886+00:00",
+    "promotionReady": false,
+    "promotionBlockReason": "state approval and canonical promotion remain separate gates",
+    "counts": {
+      "sourceObservations": 2049,
+      "proposedEntities": 1515,
+      "promotionEligibleEntities": 205,
+      "researchOrQaEntities": 1310,
+      "excludedObservations": 2,
+      "excludedEntityGroups": 0,
+      "identityReviewGroups": 443,
+      "countyCoverageRows": 67,
+      "countiesWithCandidates": 66,
+      "countiesWithEligibleEntities": 53,
+      "sourceDatasets": 46,
+      "manualDecisions": 0
+    },
+    "evidenceStorage": {
+      "provider": "s3-compatible",
+      "environment": "local-staging",
+      "status": "local_bundle_only",
+      "bucket": "farmfinder-source-releases",
+      "prefix": "state-expansions/FL/fl-coverage-reviewed-v1-2026-07-15/",
+      "versioningRequired": true,
+      "managedCopyRequiredBeforePromotion": true
+    },
+    "artifacts": [
+      {
+        "role": "observations",
+        "filename": "observations.csv.zst",
+        "objectKey": "state-expansions/FL/fl-coverage-reviewed-v1-2026-07-15/observations.csv.zst",
+        "sha256": "015e34adf561c505ed321225ea8659feaa82175c66eb5d9130a8e304ff5d28cd",
+        "bytes": 227910,
+        "rows": 2049,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:015e34adf561c505ed321225"
+      },
+      {
+        "role": "source_records",
+        "filename": "source-records.jsonl.zst",
+        "objectKey": "state-expansions/FL/fl-coverage-reviewed-v1-2026-07-15/source-records.jsonl.zst",
+        "sha256": "dce6338d85b605572cfb5bdb861f1a0bc3ca5c8b7d07bf142811dbbb5a3d0953",
+        "bytes": 192227,
+        "rows": 11,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:dce6338d85b605572cfb5bdb"
+      },
+      {
+        "role": "collection_log",
+        "filename": "collection-log.jsonl.zst",
+        "objectKey": "state-expansions/FL/fl-coverage-reviewed-v1-2026-07-15/collection-log.jsonl.zst",
+        "sha256": "bade7828d775c56e3792f1e74085aeff4342637c0a761704706cb1bca711c75b",
+        "bytes": 48319,
+        "rows": 829,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:bade7828d775c56e3792f1e7"
+      }
+    ],
+    "approval": {},
+    "repositoryFiles": {
+      "entities.csv": {
+        "sha256": "8366083fd1e2402bc8c1e833c2b1781936f916433af134a281f02eb16b1e6187",
+        "bytes": 1156961
+      },
+      "decisions.csv": {
+        "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
+        "bytes": 260
+      },
+      "report.md": {
+        "sha256": "8e9cb2691fdb362ccc2b37edfbdc9e2443fb53ea0493f5d97f4b784043f3f690",
+        "bytes": 5385
+      }
+    }
+  }
+}
