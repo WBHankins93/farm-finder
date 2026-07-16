@@ -1,6 +1,10 @@
 from __future__ import annotations
 
+import sys
+from pathlib import Path
 import unittest
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from cutover_common import (
     candidate_entity_count,
@@ -38,6 +42,21 @@ class CutoverCommonTests(unittest.TestCase):
         self.assertNotEqual(
             records[0]["source_record_key"], records[1]["source_record_key"]
         )
+
+    def test_duplicate_source_keys_do_not_depend_on_input_order(self) -> None:
+        rows = [
+            {"Farm Name": "Same Farm", "Source Tab": "Source A", "City": "Zeta"},
+            {"Farm Name": "Same Farm", "Source Tab": "Source A", "City": "Alpha"},
+        ]
+        forward = {
+            row["raw_data"]["City"]: row["source_record_key"]
+            for row in source_records(rows)
+        }
+        reverse = {
+            row["raw_data"]["City"]: row["source_record_key"]
+            for row in source_records(reversed(rows))
+        }
+        self.assertEqual(forward, reverse)
 
     def test_record_hash_is_order_independent(self) -> None:
         self.assertEqual(record_hash({"a": 1, "b": 2}), record_hash({"b": 2, "a": 1}))

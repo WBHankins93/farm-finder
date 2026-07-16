@@ -31,4 +31,4 @@ jobs:
       - name: Validate every committed state release
         run: python3 01-database/tools/validate_state_releases.py
       - name: Generate the consolidated state review status
-        run: python3 01-database/tools/state_release_status.py AL TX
+        run: python3 01-database/tools/state_release_status.py

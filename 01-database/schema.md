@@ -2,7 +2,7 @@
 
 > Historical schema for the original 112-farm workbook. Do not use this file to choose the current canonical dataset.
 
-**Current pre-cutover authority:** `research/local_farm_database_final.xlsx`, sheet `All Farms`, governed by `03-app/site/config/source-of-truth.json` and `03-app/site/docs/data-governance/source-of-truth.md`. Release `2026-07-15-enriched-v2` contains 311 canonical rows and 311 normalized-name entities. `local_farm_database.xlsx` remains the v1 historical workbook.
+**Current pre-cutover authority:** `research/local_farm_database_final.xlsx`, sheet `All Farms`, governed by `03-app/site/config/source-of-truth.json` and `03-app/site/docs/data-governance/source-of-truth.md`. Release `2026-07-15-enriched-v2` contains 299 canonical rows and 299 normalized-name entities. `local_farm_database.xlsx` remains the v1 historical workbook.
 
 The production PostgreSQL/PostGIS schema and index decisions now live in `03-app/site/packages/db/`. Until explicit cutover, the final research workbook is the editable authoring source; after cutover, workbooks become immutable imports/exports and PostgreSQL becomes canonical.
 

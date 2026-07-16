@@ -1,6 +1,6 @@
 # Alabama state review report
 
-> Release: `al-coverage-reviewed-v4-2026-07-15`
+> Release: `al-identity-qa-v5-2026-07-16`
 >
 > Contract: national state contract v2
 >
@@ -8,11 +8,13 @@
 
 ## Outcome
 
-Alabama has statewide discovery coverage across all 67 counties. The corrected
-release retains 810 named candidates: 799 currently meet staged field and evidence
-gates, while 11 remain visible in the research/QA queue. Alabama is not ready for
-canonical promotion because those 11 candidates still require follow-up and the
-immutable evidence bundle still requires a managed production-storage copy.
+Alabama has statewide discovery coverage across all 67 counties. This immutable
+identity/type QA revision retains 807 named candidates: 799 currently meet staged
+field and evidence gates, while eight remain visible in the research/QA queue.
+Three candidates were affirmatively excluded after current evidence established
+that they were processors or an institution, not independent farm entities.
+Alabama is not approved or canonical; the immutable evidence bundle still requires
+a managed production-storage copy.
 
 The earlier `record_verified` claim was withdrawn. It reached zero QA partly by
 excluding candidates when current corroboration or fields were missing. That
@@ -23,12 +25,12 @@ behavior violates the national retention policy.
 | Measure | Count |
 |---|---:|
 | Immutable source observations | 1,057 |
-| Retained candidate entities | 810 |
+| Retained candidate entities | 807 |
 | Promotion-eligible reviewed entities | 799 |
-| Research/QA entities | 11 |
+| Research/QA entities | 8 |
 | Affirmatively excluded observations | 6 |
-| Effective excluded entity groups | 6 |
-| Append-only decisions | 79 |
+| Effective excluded entity groups | 9 |
+| Append-only decisions | 90 |
 | Counties reviewed | 67 of 67 |
 | Counties with retained candidates | 67 |
 | Counties with promotion-eligible candidates | 67 |
@@ -50,21 +52,24 @@ for staged eligibility:
 - Rocky Hollow Patch at Angel Farm — the source explicitly says the farm property
   crosses into Alabama even though its postal address is in Georgia.
 
-Eleven restored candidates remain in QA:
+Eight retained candidates remain in QA:
 
 | Candidate | County | Follow-up required |
 |---|---|---|
 | Easterling's Big Peach | Chilton | Resolve conflicting current operating status. |
-| Camp Creek Canning | Covington | Confirm crop or livestock production. |
-| Canning with Cox Crew | Covington | Confirm crop or livestock production. |
 | Deloney Farms | Dale | Resolve the same-name identity conflict. |
 | Bertie K. Burton | DeKalb | Obtain current corroboration. |
 | Gilbert Strawberry Farm | DeKalb | Obtain current corroboration. |
 | Vic & Tillie Hummer | Houston | Obtain current corroboration. |
 | Lone Oak | Jackson | Obtain current corroboration without merging the Macon County operation. |
 | Fresh Off The Farm | Mobile | Obtain current corroboration. |
-| Rainbow Omega Eastaboga | Talladega | Confirm current producing-operation scope. |
 | George R. Carlton | Tallapoosa | Obtain current corroboration. |
+
+The three affirmative type decisions are recorded in the 2026-07-16 append-only
+batch: Camp Creek Canning and Canning with Cox Crew are prepared-food processors;
+Rainbow Omega is a nonprofit residential/vocational organization whose growing
+program does not make the organization an independent farm entity under the
+FarmFinder boundary.
 
 All eleven remain in `entities.csv`; none is treated as closed merely because a
 website, recent listing, or other field is unavailable.
@@ -96,7 +101,7 @@ in decision history but no longer affect the candidate table.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the 11 QA candidates through append-only decisions.
+1. Resolve or deliberately retain the eight QA candidates through append-only decisions.
 2. Copy the immutable evidence objects from local versioned staging to managed
    production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.

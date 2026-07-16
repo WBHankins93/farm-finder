@@ -19,7 +19,11 @@ from validate_state_releases import (
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("states", nargs="+", help="Two-letter state codes")
+    parser.add_argument(
+        "states",
+        nargs="*",
+        help="Two-letter state codes; omit to review every committed state",
+    )
     parser.add_argument("--require-local-artifacts", action="store_true")
     parser.add_argument("--require-promotable", action="store_true")
     return parser.parse_args()
@@ -27,7 +31,15 @@ def parse_args() -> argparse.Namespace:
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
-        return list(csv.DictReader(handle))
+        reader = csv.DictReader(handle)
+        rows: list[dict[str, str]] = []
+        for row in reader:
+            if None in row:
+                raise ValueError(
+                    f"{path}: row {reader.line_num} has more values than the header"
+                )
+            rows.append(row)
+        return rows
 
 
 def gate(name: str, passed: bool, detail: str, blocking: bool = True) -> dict[str, Any]:
@@ -43,7 +55,12 @@ def state_status(state: str, require_local_artifacts: bool = False) -> dict[str,
     state = state.upper()
     state_dir = STATE_ROOT / state
     validation = validate_state(state, require_local_artifacts)
-    entities = read_csv(state_dir / "entities.csv")
+    try:
+        entities = read_csv(state_dir / "entities.csv")
+    except (FileNotFoundError, ValueError):
+        # The contract gate owns the detailed parse error; keep the consolidated
+        # status command usable when a new state has malformed CSV.
+        entities = []
     qa = [row for row in entities if row.get("promotion_status") == "research_or_qa_queue"]
     if (state_dir / "state.yaml").is_file():
         document = json.loads((state_dir / "state.yaml").read_text(encoding="utf-8"))
@@ -145,7 +162,10 @@ def state_status(state: str, require_local_artifacts: bool = False) -> dict[str,
 
 def main() -> int:
     args = parse_args()
-    results = [state_status(state, args.require_local_artifacts) for state in args.states]
+    states = args.states or sorted(
+        path.name for path in STATE_ROOT.iterdir() if path.is_dir() and len(path.name) == 2
+    )
+    results = [state_status(state, args.require_local_artifacts) for state in states]
     structural_ok = all(result["gates"][0]["status"] == "passed" for result in results)
     promotable = all(result["promotable"] for result in results)
     print(json.dumps({

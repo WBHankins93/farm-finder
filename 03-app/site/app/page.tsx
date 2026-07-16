@@ -596,7 +596,7 @@ export default function Home() {
           <div className="ask-heading">
             <p className="section-number">01 / Ask the field guide</p>
             <h2 id="ask-title">Start with a question.</h2>
-            <p>Ask about a product, place, farm, season, or way to buy. Answers stay grounded in FarmFinder’s 311 directory records and clearly flag what still needs confirmation.</p>
+            <p>Ask about a product, place, farm, season, or way to buy. Answers stay grounded in FarmFinder’s 299 directory records and clearly flag what still needs confirmation.</p>
           </div>
 
           <div className="ask-workspace">
@@ -802,12 +802,12 @@ export default function Home() {
           <div className="updates-heading">
             <p className="section-number">04 / Latest directory update</p>
             <h2 id="updates-title">What changed,<br />and what comes next.</h2>
-            <p>July 2026 · The canonical workbook now contains 311 one-row-per-entity listings. Four duplicate groups were evidence-reviewed, merged, and retained in the source log.</p>
+            <p>July 2026 · The canonical workbook now contains 299 one-row-per-entity listings. Four duplicate groups were evidence-reviewed, merged, and retained in the source log.</p>
           </div>
           <div className="update-ledger">
             <article className="update-lead">
               <span>Coverage expanded</span>
-              <strong>311</strong>
+              <strong>299</strong>
               <h3>unique farms across two states</h3>
               <p>The directory now spans all Louisiana regions plus South, Central, and North Mississippi, with Louisiana remaining the densest starting market.</p>
             </article>

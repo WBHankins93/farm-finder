@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const protocol = requestHeaders.get("x-forwarded-proto") || (host.startsWith("localhost") ? "http" : "https");
   const metadataBase = new URL(`${protocol}://${host}`);
   const title = "FarmFinder — Find the farms behind your food";
-  const description = "FarmFinder is building a trusted directory of independent farms across the continental United States, beginning with 311 listings in Louisiana and Mississippi.";
+  const description = "FarmFinder is building a trusted directory of independent farms across the continental United States, beginning with 299 listings in Louisiana and Mississippi.";
 
   return {
     metadataBase,

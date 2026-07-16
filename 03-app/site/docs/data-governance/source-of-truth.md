@@ -6,7 +6,7 @@
 
 The workbook identified by `config/source-of-truth.json` is the only editable authoring source. The manifest pins its sheet, checksum, row count, candidate-entity count, required columns, allowed states, and known duplicate groups. The generated JSON is a build artifact, not another source of truth.
 
-Cutover staging began on 2026-07-15 with historical release `2026-07-13-final-v1`: its 315 raw rows are stored as a versioned object and registered in local PostgreSQL. The current manifest now pins enriched release `2026-07-15-enriched-v2`, containing 311 canonical workbook rows after evidence-based duplicate review. V2 must be staged as a new immutable object; it must not overwrite v1. Staging does not change authority. The workbook remains authoritative until reviewed canonical entities are promoted atomically and the manifest authority mode changes.
+Cutover staging began on 2026-07-15 with historical release `2026-07-13-final-v1`: its 315 raw rows are stored as a versioned object and registered in local PostgreSQL. The current manifest now pins enriched release `2026-07-15-enriched-v2`, containing 299 canonical workbook rows after evidence-based duplicate review. V2 must be staged as a new immutable object; it must not overwrite v1. Staging does not change authority. The workbook remains authoritative until reviewed canonical entities are promoted atomically and the manifest authority mode changes.
 
 ### After PostgreSQL cutover
 

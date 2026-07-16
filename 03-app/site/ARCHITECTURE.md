@@ -19,7 +19,7 @@ The page is organized in three layers:
 - Release contract: `config/source-of-truth.json` pins the workbook checksum, structure, row count, candidate count, states, and known duplicate groups.
 - Existing geocodes: recovered from `farmfinder-dashboard-v2.html` for the earlier 235-farm dataset.
 - New locations: city/state geocodes are cached in `scripts/geocode-cache.json`; no geocoding service is called by the live site.
-- Build artifact: `app/data/farms.json` contains 311 deduplicated listings. Duplicate names are merged and boolean selling options use an “any source says yes” rule.
+- Build artifact: `app/data/farms.json` contains 299 deduplicated listings. Duplicate names are merged and boolean selling options use an “any source says yes” rule.
 - Refresh path: run `scripts/generate-farms.py` after updating the workbook. Add `--geocode` only when new city/state combinations require coordinates.
 
 This static-first approach makes the directory fast, inexpensive, deployable without credentials, and resilient to third-party API downtime. The JSON record shape is already compatible with a later database migration.
@@ -49,7 +49,7 @@ Locations marked below street precision are deliberately described as approximat
 
 ## Next platform steps
 
-1. Import the pinned workbook into immutable staging/source tables and reconcile 315 rows to 311 candidate entities.
+1. Import the pinned enriched workbook into immutable staging/source tables and reconcile its 299 rows to 299 candidate entities; retain the historical 315-row release separately.
 2. Build the versioned read-only API and structured query tools against PostgreSQL.
 3. Preserve source attribution and field-level verification dates during canonical promotion.
 4. Add exact farm-gate coordinates only with farmer confirmation.

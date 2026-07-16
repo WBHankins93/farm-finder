@@ -6,7 +6,7 @@
 
 ## Context
 
-FarmFinder currently builds a static 311-listing JSON artifact from a workbook. The next production case must support trustworthy geographic and product queries, source provenance, farm claims, background imports, authorization, and eventually narrative question answering across a national dataset.
+FarmFinder currently builds a static 299-listing JSON artifact from a workbook. The next production case must support trustworthy geographic and product queries, source provenance, farm claims, background imports, authorization, and eventually narrative question answering across a national dataset.
 
 The existing application is TypeScript. The workbook ingestion script is Python. At the time of this decision, only `03-app/site` was tracked by Git; the project was consolidated into one private root repository later on 2026-07-15 while preserving the original site history.
 

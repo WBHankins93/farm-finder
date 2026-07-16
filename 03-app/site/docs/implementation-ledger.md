@@ -7,7 +7,7 @@ This ledger records each production capability, its implementation decision, cur
 | Service boundary | TypeScript modular monolith; web, API, worker deployables | Boundary documented | Versioned API with health/readiness and OpenAPI contract |
 | Authentication | Managed OIDC identity; public reads anonymous | Planned | Verified sessions, logout, account deletion path |
 | Authorization | Consumer, farm owner, curator, admin; farm-scoped claims | Schema foundation | Deny-by-default integration tests for every protected endpoint |
-| PostgreSQL | Canonical after explicit dataset cutover | Historical v1 has 315 raw rows staged locally; enriched v2 has 311 canonical workbook rows and awaits immutable staging/promotion review | Current release imported and reconciled without silent data loss |
+| PostgreSQL | Canonical after explicit dataset cutover | Historical v1 has 315 raw rows staged locally; enriched v2 has 299 canonical workbook rows and awaits immutable staging/promotion review | Current release imported and reconciled without silent data loss |
 | PostGIS | Geography points and official administrative areas | Extension and radius test passing | Production-shaped radius and bounding-box plans use GiST index |
 | Migrations | Ordered SQL initially; one forward-only history | Clean local database applies all three migrations | Production runner records and locks each migration |
 | Background processing | One worker with idempotency, timeout, backoff, and terminal failure state | Job schema foundation | Crash/retry integration tests and duplicate-side-effect test |
