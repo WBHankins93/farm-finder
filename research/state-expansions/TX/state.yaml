@@ -389,37 +389,37 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "tx-county-south-qa-v9-2026-07-16",
+    "id": "tx-county-north-qa-v10-2026-07-16",
     "status": "coverage_reviewed",
     "generatedAt": "2026-07-16T00:00:00+00:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
       "sourceObservations": 1062,
-      "proposedEntities": 869,
-      "promotionEligibleEntities": 723,
-      "researchOrQaEntities": 146,
-      "excludedObservations": 57,
-      "excludedEntityGroups": 37,
+      "proposedEntities": 868,
+      "promotionEligibleEntities": 725,
+      "researchOrQaEntities": 143,
+      "excludedObservations": 58,
+      "excludedEntityGroups": 38,
       "identityReviewGroups": 113,
       "countyCoverageRows": 254,
       "countiesWithCandidates": 179,
       "countiesWithEligibleEntities": 171,
       "sourceDatasets": 29,
-      "manualDecisions": 101
+      "manualDecisions": 106
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "cc96de68a7fbab8cf31859ef46e06ad0dd8936ab11dde5b6f96d7faa8a09bd88",
-        "bytes": 706055
+        "sha256": "6c306f76960a1beaf128d9b552e23ed5013be439462df54baa4bdc21f82822e9",
+        "bytes": 705509
       },
       "decisions.csv": {
-        "sha256": "da644fc612e8adc467a03c37ce7bc2182ae84c2d72459ce94c66a0f62d707a58",
-        "bytes": 48980
+        "sha256": "e7efbaa5b30e8fb8ced15bafe5c4dfbbe4e40547cde82dc03e62e1d8e1f73fc0",
+        "bytes": 51582
       },
       "report.md": {
-        "sha256": "7b36dd7e1908cae9e43301b07376a20bf639999a2043938a304ccb84b4770824",
-        "bytes": 6959
+        "sha256": "41788124e698c36a9119584630b9b73441a1e865266349a9da4c225865455c95",
+        "bytes": 7489
       }
     },
     "evidenceStorage": {
