@@ -352,13 +352,16 @@ class CurrentStateContractTests(unittest.TestCase):
 
     def test_eligible_handoff_keeps_qa_state_scoped(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
-            handoff = export_state("AL", Path(temporary))
-            self.assertEqual(handoff["status"], "eligible_staged")
-            self.assertEqual(handoff["eligibleCount"], 799)
-            self.assertEqual(handoff["qaCount"], 9)
-            self.assertEqual(handoff["qaPolicy"], "deferred_state_scoped_review")
-            self.assertTrue((Path(temporary) / "AL" / "eligible-entities.csv").is_file())
-            self.assertTrue((Path(temporary) / "AL" / "qa-queue.csv").is_file())
+            expected = {"LA": (964, 236), "MS": (576, 161)}
+            for state, (eligible_count, qa_count) in expected.items():
+                with self.subTest(state=state):
+                    handoff = export_state(state, Path(temporary))
+                    self.assertEqual(handoff["status"], "eligible_staged")
+                    self.assertEqual(handoff["eligibleCount"], eligible_count)
+                    self.assertEqual(handoff["qaCount"], qa_count)
+                    self.assertEqual(handoff["qaPolicy"], "deferred_state_scoped_review")
+                    self.assertTrue((Path(temporary) / state / "eligible-entities.csv").is_file())
+                    self.assertTrue((Path(temporary) / state / "qa-queue.csv").is_file())
 
     def test_release_fingerprint_changes_with_evidence_identity(self) -> None:
         state_dir = STATE_ROOT / "AL"
