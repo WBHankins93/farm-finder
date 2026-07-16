@@ -185,7 +185,7 @@ def normalized_entity_copy(source: Path, destination: Path) -> None:
     for row in rows:
         row["county_equivalent"] = row.pop("county", row.get("county_equivalent", ""))
     with destination.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -199,11 +199,13 @@ def package_v2(args: argparse.Namespace, state: str, state_dir: Path, source_dir
     coverage_path = find_file(source_dir, ["county-coverage.csv"])
     raw_path = find_file(source_dir, ["raw-source-records.json"])
     request_path = find_file(source_dir, ["request-log.json", "source-pass-log.json"])
+    report_path = find_file(source_dir, ["completion-report.md", "report.md"])
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
     if summary.get("status") not in {"coverage_reviewed", "record_verified"}:
         raise RuntimeError("only a coverage-reviewed or record-verified state may be packaged")
 
     normalized_entity_copy(entities, state_dir / "entities.csv")
+    copy_file(report_path, state_dir / "report.md")
     decisions_path = state_dir / "decisions.csv"
     if not decisions_path.is_file():
         raise FileNotFoundError("decisions.csv must exist before packaging")

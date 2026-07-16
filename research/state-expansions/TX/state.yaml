@@ -406,7 +406,7 @@
       "countiesWithCandidates": 179,
       "countiesWithEligibleEntities": 172,
       "sourceDatasets": 29,
-      "manualDecisions": 124
+      "manualDecisions": 237
     },
     "repositoryFiles": {
       "entities.csv": {
@@ -414,12 +414,12 @@
         "bytes": 693962
       },
       "decisions.csv": {
-        "sha256": "bbfb91bd43527e0ff6d315eceadd8111ab9f673fb013c36c9dfb18e81fa0313b",
-        "bytes": 58448
+        "sha256": "999949692a2859e1cc8772075d5ef5d4b0bea42381d2a3248819a05e6600502b",
+        "bytes": 139701
       },
       "report.md": {
-        "sha256": "fed0be6ed57e1f21fb898e13c6c6b93f308ffb62983dd73187dfa566c3789908",
-        "bytes": 4847
+        "sha256": "310c64235a0ad0a7ce9fd3c7aa4c8f2af2e4c748cc94843627daf0b7882d2cdb",
+        "bytes": 5037
       }
     },
     "evidenceStorage": {

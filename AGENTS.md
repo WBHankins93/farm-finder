@@ -64,6 +64,6 @@ The database is the FarmFinder product asset. Every correction or voluntary cont
 2. Continue Mississippi county-gap and candidate identity review; do not promote the 211 new candidates without evidence-based inclusion and identity checks.
 3. Stage `2026-07-15-enriched-v2` as a new immutable release without overwriting validated v1.
 4. Provision managed versioned object storage and managed PostgreSQL backups before promotion.
-5. Resolve the 11 Alabama and 167 Texas QA entities, copy each release's immutable evidence to managed storage, and record approval only after the current release fingerprint passes every promotion gate. Planned collection order after Texas is Tennessee, Florida, South Carolina, then Arkansas.
+5. Resolve the 11 Alabama and 167 Texas QA entities, copy each release's immutable evidence to managed storage, and record approval only after the current release fingerprint passes every promotion gate. The next collection order is Arkansas, Tennessee, Georgia, then Florida.
 
 Done: market brief (sourced) ✓ · 299/299 public listings mapped ✓ · source-of-truth release validation ✓ · PostgreSQL/PostGIS foundation verified ✓

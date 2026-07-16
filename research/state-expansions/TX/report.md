@@ -36,7 +36,7 @@ All original source observations remain preserved in immutable evidence.
 | Research/QA entities | 119 |
 | Affirmatively excluded observations | 73 |
 | Effective excluded entity groups | 53 |
-| Append-only decisions | 124 |
+| Append-only decisions | 237 |
 | Counties reviewed | 254 of 254 |
 | Counties with retained candidates | 179 |
 | Counties searched with none found | 75 |
@@ -61,6 +61,10 @@ The 119 QA entities remain in `entities.csv`. Blockers overlap:
 Missing geography, contact detail, or current corroboration does not imply that a
 farm is invalid or closed. The correct follow-up is enrichment from farm-owned,
 official, or independently corroborating sources.
+
+All 119 QA entities have explicit append-only `retain` decisions. These
+dispositions preserve the named candidates and document their blockers; they do
+not clear QA or authorize exclusion.
 
 ## Cleansing actions in this checkpoint
 

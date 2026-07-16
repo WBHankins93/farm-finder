@@ -1,0 +1,251 @@
+{
+  "contractVersion": 2,
+  "state": {
+    "code": "GA",
+    "name": "Georgia",
+    "countyEquivalentLabel": "county",
+    "countyEquivalentCount": 159
+  },
+  "policy": {
+    "version": "2026-07-15",
+    "missingDataDisposition": "research_or_qa_queue",
+    "affirmativeExclusionReasons": [
+      "confirmed_closed",
+      "confirmed_nonfarm",
+      "duplicate_identity",
+      "outside_jurisdiction"
+    ]
+  },
+  "collection": {
+    "requiredPasses": [
+      1,
+      2,
+      3
+    ],
+    "sources": [
+      {
+        "sourceId": "gasrc-2f3d8f051482",
+        "name": "Georgia Department of Agriculture — Georgia Grown member directory",
+        "pass": 1,
+        "sourceUrl": "https://georgiagrown.com/membership/member-directory/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 1535,
+        "retrievedAt": "2026-07-16T01:20:24.144206+00:00",
+        "responseSha256": "04db593b26f052edf7304a6ec926db0fbea739eaa3e84c668298c346ee9c137a",
+        "notes": "Traversed 154 live pages and retained every one of 1535 unique named member profiles; nonfarm member types remain QA candidates."
+      },
+      {
+        "sourceId": "gasrc-ef15942d88d1",
+        "name": "U.S. Census Bureau — county denominator",
+        "pass": 1,
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2713%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+        "repositoryPath": null,
+        "decision": "coverage_denominator",
+        "recordsParsed": 159,
+        "retrievedAt": "2026-07-16T01:10:12.508580+00:00",
+        "responseSha256": "2392f275c738d61bd30085b5d3ef3d90fc9583480498d5ea116da7428dd5c310",
+        "notes": null
+      },
+      {
+        "sourceId": "gasrc-363e53fda160",
+        "name": "EatWild Georgia directory",
+        "pass": 2,
+        "sourceUrl": "https://www.eatwild.com/products/georgia.html",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 13,
+        "retrievedAt": "2026-07-16T01:20:28.398073+00:00",
+        "responseSha256": "2ff076072f7afb7ccea76110ab38eb0fe322e64aa9651681473f8d30c5c262d8",
+        "notes": null
+      },
+      {
+        "sourceId": "gasrc-ae8ebc57c839",
+        "name": "Georgia Farm Bureau — Certified Farm Markets",
+        "pass": 2,
+        "sourceUrl": "https://www.gfb.org/connect/farm-markets/tag/All%20CFMs",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 101,
+        "retrievedAt": "2026-07-16T01:20:28.173897+00:00",
+        "responseSha256": "f2587b39c3d8f992a794d5d2000eb0583ceb7a6614722170adea4932ecbc2d93",
+        "notes": "The All CFMs map exposed 101 unique certified market detail pages; each named market was retained."
+      },
+      {
+        "sourceId": "gasrc-87c467bf720a",
+        "name": "LocalHarvest — Georgia county-seat gap search",
+        "pass": 3,
+        "sourceUrl": "https://www.localharvest.org",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 62,
+        "retrievedAt": "2026-07-16T01:20:40.257707+00:00",
+        "responseSha256": null,
+        "notes": "Searched 11 county-seat anchors; deduplicated 62 profile URLs. Failures remain explicit."
+      },
+      {
+        "sourceId": "gasrc-dc6cd7c2d2e9",
+        "name": "PickYourOwn — Augusta area",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/GAaugusta.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 10,
+        "retrievedAt": "2026-07-16T01:20:29.200185+00:00",
+        "responseSha256": "fe0ed5fbaf28c1b5c1666b526a3cd8c60bf1767f40e5d5472954dab44e26b715",
+        "notes": "County sections searched: 13; closure claims retained for review."
+      },
+      {
+        "sourceId": "gasrc-3e0d6ac67e47",
+        "name": "PickYourOwn — Coastal and southeastern Georgia",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/GAcoastal.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 34,
+        "retrievedAt": "2026-07-16T01:20:29.495519+00:00",
+        "responseSha256": "492032b842aa918f1d77c9a04377be1da4daadf90a8453da07a220872e37632a",
+        "notes": "County sections searched: 27; closure claims retained for review."
+      },
+      {
+        "sourceId": "gasrc-14430b770574",
+        "name": "PickYourOwn — Macon area",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/GAmacon.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 39,
+        "retrievedAt": "2026-07-16T01:20:29.022167+00:00",
+        "responseSha256": "f97e3ce6a9b9d087d3d11c6e0b9c393ae2545da5c72e9b362ed39f589662b47f",
+        "notes": "County sections searched: 28; closure claims retained for review."
+      },
+      {
+        "sourceId": "gasrc-e353497961df",
+        "name": "PickYourOwn — North Georgia",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/GAnorth.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 40,
+        "retrievedAt": "2026-07-16T01:20:28.726664+00:00",
+        "responseSha256": "2b6f0a502acce9af92ce825138e46d02ec3a86adeaf12f2782c3bd2aa0702292",
+        "notes": "County sections searched: 18; closure claims retained for review."
+      },
+      {
+        "sourceId": "gasrc-690e426ad578",
+        "name": "PickYourOwn — Southwestern Georgia",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/GAsouthwest.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 39,
+        "retrievedAt": "2026-07-16T01:20:29.824639+00:00",
+        "responseSha256": "85e7eaa0f1742f9dd4005e3e4594557790a25b0c732925a33c72d21a976e8864",
+        "notes": "County sections searched: 29; closure claims retained for review."
+      }
+    ],
+    "coverage": {
+      "countyEquivalentsReviewed": 159,
+      "countyEquivalentsWithCandidates": 150,
+      "countyEquivalentsWithEligibleEntities": 138,
+      "unresolvedCountyEquivalents": []
+    }
+  },
+  "repositoryPolicy": {
+    "requiredFiles": [
+      "state.yaml",
+      "entities.csv",
+      "decisions.csv",
+      "report.md"
+    ],
+    "maxTrackedBytes": 5000000
+  },
+  "release": {
+    "canonicalBoundary": {
+      "authorityMode": "pre_cutover_workbook",
+      "allowedStates": [
+        "LA",
+        "MS"
+      ],
+      "sourceRowCount": 299
+    },
+    "id": "ga-coverage-reviewed-v1-2026-07-15",
+    "status": "coverage_reviewed",
+    "generatedAt": "2026-07-16T01:20:42.265244+00:00",
+    "promotionReady": false,
+    "promotionBlockReason": "state approval and canonical promotion remain separate gates",
+    "counts": {
+      "sourceObservations": 1873,
+      "proposedEntities": 1738,
+      "promotionEligibleEntities": 554,
+      "researchOrQaEntities": 1184,
+      "excludedObservations": 20,
+      "excludedEntityGroups": 0,
+      "identityReviewGroups": 95,
+      "countyCoverageRows": 159,
+      "countiesWithCandidates": 150,
+      "countiesWithEligibleEntities": 138,
+      "sourceDatasets": 10,
+      "manualDecisions": 0
+    },
+    "evidenceStorage": {
+      "provider": "s3-compatible",
+      "environment": "local-staging",
+      "status": "local_bundle_only",
+      "bucket": "farmfinder-source-releases",
+      "prefix": "state-expansions/GA/ga-coverage-reviewed-v1-2026-07-15/",
+      "versioningRequired": true,
+      "managedCopyRequiredBeforePromotion": true
+    },
+    "artifacts": [
+      {
+        "role": "observations",
+        "filename": "observations.csv.zst",
+        "objectKey": "state-expansions/GA/ga-coverage-reviewed-v1-2026-07-15/observations.csv.zst",
+        "sha256": "3f108a70efb0a0e70788404538c637f62e13ea2aa8652ec3c70d6648b609af02",
+        "bytes": 456774,
+        "rows": 1873,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:3f108a70efb0a0e707884045"
+      },
+      {
+        "role": "source_records",
+        "filename": "source-records.jsonl.zst",
+        "objectKey": "state-expansions/GA/ga-coverage-reviewed-v1-2026-07-15/source-records.jsonl.zst",
+        "sha256": "b190ee8be568c09b008d239e310829c8c0da8488b40b109dc97b755967fff338",
+        "bytes": 346501,
+        "rows": 8,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:b190ee8be568c09b008d239e"
+      },
+      {
+        "role": "collection_log",
+        "filename": "collection-log.jsonl.zst",
+        "objectKey": "state-expansions/GA/ga-coverage-reviewed-v1-2026-07-15/collection-log.jsonl.zst",
+        "sha256": "daa63105d52054187fb65de3ee7bd8216b710685a891b5ce768eb43538680148",
+        "bytes": 128494,
+        "rows": 2186,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:daa63105d52054187fb65de3"
+      }
+    ],
+    "approval": {},
+    "repositoryFiles": {
+      "entities.csv": {
+        "sha256": "9183ba64ac2d0af2c1ed15d205247ead0c9b31ac9b6caf50e2abec18daa5c155",
+        "bytes": 1539146
+      },
+      "decisions.csv": {
+        "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
+        "bytes": 260
+      },
+      "report.md": {
+        "sha256": "a4a77c19f856097d1f3e072b9d3e40ac94876003428e143786822becf530d73a",
+        "bytes": 3529
+      }
+    }
+  }
+}
