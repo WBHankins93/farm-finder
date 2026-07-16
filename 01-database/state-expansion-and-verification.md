@@ -4,6 +4,12 @@
 > `research/local_farm_database_final.xlsx`, sheet `All Farms`, until a reviewed
 > release is promoted through `03-app/site/config/source-of-truth.json`.
 
+The scalable operating standard is documented in
+[scalable-data-pipeline.md](scalable-data-pipeline.md). In brief, eligible records
+move to final verification, verification failures return to state QA, and only
+records that pass identity, farm-scope, current-operating-evidence, and duplicate
+checks may enter an approved database release.
+
 ## Scope
 
 FarmFinder is not attempting to catalog every USDA-defined farm. That would include
@@ -66,7 +72,7 @@ in the private evidence bundle; only the four-file contract is committed under
 
 Alabama completed all three collection passes on 2026-07-15. Its corrected
 coverage-reviewed private release contains 1,057 source observations reconciled to
-810 retained entities; 799 are staged-eligible and 11 remain in explicit research/QA.
+808 retained entities; 799 are staged-eligible and 9 remain in explicit research/QA.
 All 67 counties have a final searched status and at least one eligible candidate. The
 collector is `01-database/tools/collect_alabama.py`, and the four-file release is under
 `research/state-expansions/AL/`. Alabama is not record-verified, approved, promotion-
@@ -74,7 +80,7 @@ ready, or canonical.
 
 Texas completed all three collection passes on 2026-07-15. Its corrected coverage-
 reviewed private release contains 1,062 source and curator observations reconciled to
-883 retained entities; 716 are staged-eligible and 167 remain in explicit research/QA.
+855 retained entities; 736 are staged-eligible and 119 remain in explicit research/QA.
 All 254 counties have a final searched status: 179 have candidates, 75 are
 `searched_none_found`, and 171 have at least one eligible entity. The collector is
 `01-database/tools/collect_texas.py`, and the four-file release is under

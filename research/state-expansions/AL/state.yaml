@@ -25,7 +25,7 @@
     "sources": [
       {
         "sourceId": "alsrc-4138a35a3e8c",
-        "name": "Alabama FMA — 2026 statewide farm-stand roster",
+        "name": "Alabama FMA \u2014 2026 statewide farm-stand roster",
         "pass": 1,
         "sourceUrl": "https://agi.alabama.gov/farmersmarket/wp-content/uploads/sites/9/2023/02/2026-statewide-redemption-sites.pdf",
         "repositoryPath": null,
@@ -37,7 +37,7 @@
       },
       {
         "sourceId": "alsrc-61a46a43b668",
-        "name": "Alabama Farm to School — farmer page",
+        "name": "Alabama Farm to School \u2014 farmer page",
         "pass": 1,
         "sourceUrl": "https://agi.alabama.gov/fts/farmers/",
         "repositoryPath": null,
@@ -49,7 +49,7 @@
       },
       {
         "sourceId": "alsrc-7ea2704f8d5a",
-        "name": "Alabama Farmers Market Authority — farm-stand map",
+        "name": "Alabama Farmers Market Authority \u2014 farm-stand map",
         "pass": 1,
         "sourceUrl": "https://agi.alabama.gov/farmersmarket/locations/farmers-stand-location-map/",
         "repositoryPath": null,
@@ -61,7 +61,7 @@
       },
       {
         "sourceId": "alsrc-8a4422912eb8",
-        "name": "Alabama Farmers Market Authority — u-pick map",
+        "name": "Alabama Farmers Market Authority \u2014 u-pick map",
         "pass": 1,
         "sourceUrl": "https://agi.alabama.gov/farmersmarket/locations/u-pick-location-map/",
         "repositoryPath": null,
@@ -73,7 +73,7 @@
       },
       {
         "sourceId": "alsrc-64e4231d82e8",
-        "name": "Alabama Plant Protection — Beekeepers Selling Bees",
+        "name": "Alabama Plant Protection \u2014 Beekeepers Selling Bees",
         "pass": 1,
         "sourceUrl": "https://agi.alabama.gov/plantprotection/beeks-selling-bees/",
         "repositoryPath": null,
@@ -85,7 +85,7 @@
       },
       {
         "sourceId": "alsrc-4bcf7c4f7232",
-        "name": "Sweet Grown Alabama — Farm members",
+        "name": "Sweet Grown Alabama \u2014 Farm members",
         "pass": 1,
         "sourceUrl": "https://www.sweetgrownalabama.org/find-sweet-grown",
         "repositoryPath": null,
@@ -97,7 +97,7 @@
       },
       {
         "sourceId": "alsrc-26f40816cc7d",
-        "name": "Alabama Cattlemen’s Association — Bama Beef Sales Directory",
+        "name": "Alabama Cattlemen\u2019s Association \u2014 Bama Beef Sales Directory",
         "pass": 2,
         "sourceUrl": "https://www.bamabeef.org/p/about/bama-beef-sales-directory",
         "repositoryPath": null,
@@ -109,7 +109,7 @@
       },
       {
         "sourceId": "alsrc-42267aa5f5b3",
-        "name": "Alabama FMA — farmers-market channel map",
+        "name": "Alabama FMA \u2014 farmers-market channel map",
         "pass": 2,
         "sourceUrl": "https://agi.alabama.gov/farmersmarket/locations/farmers-market-location-map/",
         "repositoryPath": null,
@@ -133,7 +133,7 @@
       },
       {
         "sourceId": "alsrc-8deac9c1f4bb",
-        "name": "PickYourOwn — Central Alabama",
+        "name": "PickYourOwn \u2014 Central Alabama",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/ALbham.htm",
         "repositoryPath": null,
@@ -145,7 +145,7 @@
       },
       {
         "sourceId": "alsrc-261098e519e5",
-        "name": "PickYourOwn — North Alabama",
+        "name": "PickYourOwn \u2014 North Alabama",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/ALhuntsv.htm",
         "repositoryPath": null,
@@ -157,7 +157,7 @@
       },
       {
         "sourceId": "alsrc-7e6164a1efef",
-        "name": "PickYourOwn — Southeast Alabama",
+        "name": "PickYourOwn \u2014 Southeast Alabama",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/ALmontg.htm",
         "repositoryPath": null,
@@ -169,7 +169,7 @@
       },
       {
         "sourceId": "alsrc-cd1f49383b21",
-        "name": "PickYourOwn — Southwest Alabama",
+        "name": "PickYourOwn \u2014 Southwest Alabama",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/ALmobile.htm",
         "repositoryPath": null,
@@ -181,7 +181,7 @@
       },
       {
         "sourceId": "alsrc-da67fa8c16db",
-        "name": "US Farm Trail — Alabama discovery page",
+        "name": "US Farm Trail \u2014 Alabama discovery page",
         "pass": 3,
         "sourceUrl": "https://www.usfarmtrail.com/states/alabama",
         "repositoryPath": null,
@@ -211,35 +211,35 @@
   "release": {
     "id": "al-coverage-reviewed-v5-qa-2026-07-15",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-15T23:30:00+00:00",
+    "generatedAt": "2026-07-15T23:30:00-05:00",
     "promotionReady": false,
-    "promotionBlockReason": "11 retained candidates require follow-up; absence-based exclusions were reversed",
+    "promotionBlockReason": "9 retained candidates require follow-up; release remains coverage-reviewed and unapproved",
     "counts": {
       "sourceObservations": 1057,
-      "proposedEntities": 810,
+      "proposedEntities": 808,
       "promotionEligibleEntities": 799,
-      "researchOrQaEntities": 11,
-      "excludedObservations": 6,
+      "researchOrQaEntities": 9,
+      "excludedObservations": 7,
       "identityReviewGroups": 162,
       "countyCoverageRows": 67,
       "countiesWithCandidates": 67,
       "countiesWithEligibleEntities": 67,
       "sourceDatasets": 14,
-      "manualDecisions": 79,
-      "excludedEntityGroups": 6
+      "manualDecisions": 81,
+      "excludedEntityGroups": 7
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "49e7109a6aefd93ee7b6317c249a33773d1ae464ef848b34e7ea8f0a1780c14b",
-        "bytes": 621394
+        "sha256": "27973b2bcb170de34fd1e838b0123f13d9a280b8668a4038d3c771be6e1bc22c",
+        "bytes": 620167
       },
       "decisions.csv": {
-        "sha256": "c365e47ed2c09de82fe9110ca50c2a5c0e4d6da3e27a39c0d1018c6d3a2b1282",
-        "bytes": 31395
+        "sha256": "3fd400d3d8f2d4aa46c46ce0ab4830533794aeb7ff86dc4ebfb51fbde1dec450",
+        "bytes": 32707
       },
       "report.md": {
-        "sha256": "bbccd224a23b53ca67892e50d3b3192447c3a30afed6156852fb347a9b9d202b",
-        "bytes": 4893
+        "sha256": "ddac104413da101174cb3c00352fd344e40b16cd9ee6faa2c6e1c143e2c257a6",
+        "bytes": 5277
       }
     },
     "evidenceStorage": {
@@ -272,7 +272,7 @@
         "rows": 15,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "local:ccefbc845b4485929bf90b5d"
+        "versionId": "local:ccefbc845b448592bf90b5d3"
       },
       {
         "role": "collection_log",
