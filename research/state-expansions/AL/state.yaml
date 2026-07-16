@@ -209,37 +209,37 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "al-coverage-reviewed-v4-2026-07-15",
+    "id": "al-coverage-reviewed-v5-qa-2026-07-15",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-15T21:35:12.179695+00:00",
+    "generatedAt": "2026-07-15T23:30:00-05:00",
     "promotionReady": false,
-    "promotionBlockReason": "11 retained candidates require follow-up; absence-based exclusions were reversed",
+    "promotionBlockReason": "9 retained candidates require follow-up; release remains coverage-reviewed and unapproved",
     "counts": {
       "sourceObservations": 1057,
-      "proposedEntities": 810,
+      "proposedEntities": 808,
       "promotionEligibleEntities": 799,
-      "researchOrQaEntities": 11,
-      "excludedObservations": 6,
+      "researchOrQaEntities": 9,
+      "excludedObservations": 7,
       "identityReviewGroups": 162,
       "countyCoverageRows": 67,
       "countiesWithCandidates": 67,
       "countiesWithEligibleEntities": 67,
       "sourceDatasets": 14,
-      "manualDecisions": 79,
-      "excludedEntityGroups": 6
+      "manualDecisions": 81,
+      "excludedEntityGroups": 7
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "49e7109a6aefd93ee7b6317c249a33773d1ae464ef848b34e7ea8f0a1780c14b",
-        "bytes": 621394
+        "sha256": "27973b2bcb170de34fd1e838b0123f13d9a280b8668a4038d3c771be6e1bc22c",
+        "bytes": 620167
       },
       "decisions.csv": {
-        "sha256": "c365e47ed2c09de82fe9110ca50c2a5c0e4d6da3e27a39c0d1018c6d3a2b1282",
-        "bytes": 31395
+        "sha256": "3fd400d3d8f2d4aa46c46ce0ab4830533794aeb7ff86dc4ebfb51fbde1dec450",
+        "bytes": 32707
       },
       "report.md": {
-        "sha256": "7857ab5324e7c9e8cb3ed619bfe41e2365db845d9284682b30029badd0072dcb",
-        "bytes": 4742
+        "sha256": "ddac104413da101174cb3c00352fd344e40b16cd9ee6faa2c6e1c143e2c257a6",
+        "bytes": 5277
       }
     },
     "evidenceStorage": {
@@ -247,7 +247,7 @@
       "environment": "local-staging",
       "status": "versioned_local_s3_staging",
       "bucket": "farmfinder-source-releases",
-      "prefix": "state-expansions/AL/al-record-verified-v3-2026-07-15/",
+      "prefix": "state-expansions/AL/al-coverage-reviewed-v5-qa-2026-07-15/",
       "versioningRequired": true,
       "managedCopyRequiredBeforePromotion": true
     },
@@ -255,35 +255,35 @@
       {
         "role": "observations",
         "filename": "observations.csv.zst",
-        "objectKey": "state-expansions/AL/al-record-verified-v3-2026-07-15/observations.csv.zst",
+        "objectKey": "state-expansions/AL/al-coverage-reviewed-v5-qa-2026-07-15/observations.csv.zst",
         "sha256": "088fa515652bf9bf8db03bb8f51d29ca561919d62e70bfdd1c2b9ff6ae781d1d",
         "bytes": 206469,
         "rows": 1057,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "6c51ecdb-303e-43dc-832d-82214a2e4e5f"
+        "versionId": "local:088fa515652bf9bf8db03bb8"
       },
       {
         "role": "source_records",
         "filename": "raw-source-records.jsonl.zst",
-        "objectKey": "state-expansions/AL/al-record-verified-v3-2026-07-15/raw-source-records.jsonl.zst",
+        "objectKey": "state-expansions/AL/al-coverage-reviewed-v5-qa-2026-07-15/raw-source-records.jsonl.zst",
         "sha256": "ccefbc845b4485929bf90b5d33f2cf35d5c8f1397137a4b16a39ccc1bd692c87",
         "bytes": 223421,
         "rows": 15,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "4f8d4955-6159-4a4d-bad0-5fd598fe42de"
+        "versionId": "local:ccefbc845b448592bf90b5d3"
       },
       {
         "role": "collection_log",
         "filename": "request-log.jsonl.zst",
-        "objectKey": "state-expansions/AL/al-record-verified-v3-2026-07-15/request-log.jsonl.zst",
+        "objectKey": "state-expansions/AL/al-coverage-reviewed-v5-qa-2026-07-15/request-log.jsonl.zst",
         "sha256": "bf6d161959ba123b5251497ac1eb969814aa3122aa651645a14198e90860aef7",
         "bytes": 3280,
         "rows": 26,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "8a2b88f9-749a-438a-940c-2b84b462ed3d"
+        "versionId": "local:bf6d161959ba123b5251497a"
       }
     ],
     "canonicalBoundary": {
