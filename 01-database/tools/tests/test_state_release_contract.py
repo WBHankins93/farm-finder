@@ -27,7 +27,12 @@ from collect_southeast import (  # noqa: E402
     apply_place_reference,
     empty_observation,
     farm_operation_signal,
+    georgia_grown_cards,
+    georgia_grown_profile,
     localharvest_profile,
+    normalized_county,
+    sanitized_email,
+    sanitized_phone,
 )
 import migrate_state_contract_v2 as migration  # noqa: E402
 import validate_state_releases as validation  # noqa: E402
@@ -49,6 +54,12 @@ class StateReleaseUrlTests(unittest.TestCase):
 
     def test_google_sites_is_a_valid_owned_site(self) -> None:
         self.assertTrue(is_valid_website("https://sites.google.com/view/example/home"))
+
+    def test_social_homepage_is_not_a_farm_profile(self) -> None:
+        _, facebook, instagram, _ = classify_public_urls(
+            "", "https://www.facebook.com/", "https://www.instagram.com/", ""
+        )
+        self.assertEqual((facebook, instagram), ("", ""))
 
 
 class CandidateRetentionPolicyTests(unittest.TestCase):
@@ -134,6 +145,57 @@ class SoutheastSourceClassificationTests(unittest.TestCase):
         self.assertFalse(farm_operation_signal(
             "Example Cookie Company", "We manufacture packaged cookies in Tennessee.", "Cookies"
         ))
+
+    def test_georgia_directory_card_is_retained_with_contact_fields(self) -> None:
+        body = '''
+        <h3 class="titleSmall">Tiny Georgia Farm</h3>
+        <p class="paragraph">We grow vegetables.</p>
+        <p class="phone-number"><strong>Phone Number:</strong> (404) 555-0100</p>
+        <p class="email-address"><strong>Email Address:</strong> farm@example.com</p>
+        <p><strong>Business Categories:</strong> Fruits &amp; Vegetables</p>
+        <a href="https://georgiagrown.com/member/tiny-georgia-farm/">View Profile</a>
+        '''
+        cards = georgia_grown_cards(body)
+        self.assertEqual(len(cards), 1)
+        self.assertEqual(cards[0]["name"], "Tiny Georgia Farm")
+        self.assertEqual(cards[0]["email"], "farm@example.com")
+
+    def test_georgia_profile_extracts_location_and_products(self) -> None:
+        card = {
+            "name": "Tiny Georgia Farm",
+            "url": "https://georgiagrown.com/member/tiny-georgia-farm/",
+            "description": "",
+            "phone": "",
+            "email": "",
+            "categories": "Fruits & Vegetables",
+        }
+        body = '''
+        <section class="bg-white primary">
+          <div class="gg_member_profile_single--description--company--info">
+            <h1 class="title">Tiny Georgia Farm</h1>
+            <p class="paragraph">Our family grows vegetables.</p>
+            <a href="https://tiny.example" class="btn">Visit Website</a>
+          </div>
+          <h3 class="cardTitle">Products or Services Offered</h3>
+          <p class="cardTitle">Fruits &amp; Vegetables</p><li>Tomatoes</li>
+          <!-- RELATED -->
+          <h3 class="largeLabel">Contact</h3><p>(404) 555-0100</p>
+          <p><a href="mailto:farm@example.com">farm@example.com</a></p>
+          <h3 class="largeLabel">Primary Location</h3>
+          <p class="paragraphSmall"><strong>Tiny Georgia Farm</strong></br>1 Farm Rd</br>Athens, GA 30601</p>
+        </section>
+        '''
+        item, _ = georgia_grown_profile("GA", STATE_CONFIG["GA"], card, body)
+        self.assertEqual((item.city, item.postal_code, item.address), ("Athens", "30601", "1 Farm Rd"))
+        self.assertIn("Tomatoes", item.products)
+        self.assertEqual(item.entity_type_review, "farm_activity_confirmed_by_current_official_profile")
+
+    def test_county_casing_and_placeholder_phone_are_normalized(self) -> None:
+        self.assertEqual(normalized_county("DeKalb County"), "DeKalb")
+        self.assertEqual(normalized_county("McDuffie County"), "McDuffie")
+        self.assertEqual(sanitized_phone("(000) 000-0000"), "")
+        self.assertEqual(sanitized_phone("."), "")
+        self.assertEqual(sanitized_email("httpswww.facebook.comprofile.php"), "")
 
 
 class CurrentStateContractTests(unittest.TestCase):

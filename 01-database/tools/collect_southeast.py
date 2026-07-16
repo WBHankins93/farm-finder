@@ -74,6 +74,11 @@ STATE_CONFIG: dict[str, dict[str, Any]] = {
             "Northeast Arkansas": "https://www.pickyourown.org/ARne.htm",
         },
         "county_seats": "https://www.arcounties.org/site/assets/files/3779/countyseats.pdf",
+        "report_passes": [
+            "the Arkansas Department of Agriculture Arkansas Grown directory",
+            "University of Arkansas direct-sale farms and EatWild",
+            "five PickYourOwn regions plus LocalHarvest searches anchored to all county seats",
+        ],
     },
     "TN": {
         "name": "Tennessee",
@@ -98,6 +103,35 @@ STATE_CONFIG: dict[str, dict[str, Any]] = {
             "Southwestern-central Tennessee": "https://www.pickyourown.org/TNswc.htm",
             "Western Tennessee": "https://www.pickyourown.org/TNwest.htm",
         },
+        "report_passes": [
+            "the Tennessee Department of Agriculture Pick Tennessee Products directory",
+            "Tennessee Century Farms, Tennessee Agritourism, and EatWild",
+            "ten PickYourOwn regions",
+        ],
+    },
+    "GA": {
+        "name": "Georgia",
+        "fips": "13",
+        "county_count": 159,
+        "official_directory": "https://georgiagrown.com/membership/member-directory/",
+        "official_root": "https://georgiagrown.com",
+        "official_aggregate_name": "Georgia Department of Agriculture — Georgia Grown member directory",
+        "farm_markets": "https://www.gfb.org/connect/farm-markets/tag/All%20CFMs",
+        "eatwild": "https://www.eatwild.com/products/georgia.html",
+        "pyo_index": "https://www.pickyourown.org/GA.htm",
+        "pyo_regions": {
+            "North Georgia": "https://www.pickyourown.org/GAnorth.htm",
+            "Macon area": "https://www.pickyourown.org/GAmacon.htm",
+            "Augusta area": "https://www.pickyourown.org/GAaugusta.htm",
+            "Coastal and southeastern Georgia": "https://www.pickyourown.org/GAcoastal.htm",
+            "Southwestern Georgia": "https://www.pickyourown.org/GAsouthwest.htm",
+        },
+        "report_passes": [
+            "the Georgia Department of Agriculture Georgia Grown member directory",
+            "Georgia Farm Bureau Certified Farm Markets and EatWild",
+            "five PickYourOwn regions plus targeted LocalHarvest searches for counties with no retained candidate",
+        ],
+        "census_place_gap_search": True,
     },
 }
 
@@ -117,11 +151,30 @@ def normalized_name(value: str) -> str:
 
 
 def normalized_county(value: str) -> str:
-    return re.sub(r"\s+County$", "", clean_text(value), flags=re.I).strip().title()
+    county = re.sub(r"\s+County$", "", clean_text(value), flags=re.I).strip().title()
+    if county.startswith("Mc") and len(county) > 2:
+        county = "Mc" + county[2].upper() + county[3:]
+    return {"Dekalb": "DeKalb"}.get(county, county)
 
 
 def normalized_city(value: str) -> str:
     return clean_text(value).title()
+
+
+def sanitized_phone(value: str) -> str:
+    phone = clean_text(value)
+    digits = re.sub(r"\D", "", phone)
+    if len(digits) < 7 and not (len(digits) >= 6 and re.search(r"[A-Za-z]", phone)):
+        return ""
+    local = digits[-10:] if len(digits) >= 10 else digits
+    if len(local) == 10 and (local[:3] == "000" or len(set(local)) == 1):
+        return ""
+    return phone
+
+
+def sanitized_email(value: str) -> str:
+    email_value = clean_text(value).removeprefix("mailto:").strip(".,;:()[]<>")
+    return email_value if re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", email_value) else ""
 
 
 def strip_tags(value: str) -> str:
@@ -499,6 +552,326 @@ def farm_operation_signal(name: str, description: str, products: str) -> bool:
     ):
         return True
     return bool(re.search(r"\b(?:you pick|pick your own|farm tours?|pumpkin patch|hay rides?|csa)\b", products, re.I))
+
+
+def georgia_grown_cards(body: str) -> list[dict[str, str]]:
+    """Parse the ten-or-fewer cards exposed on one Georgia Grown page."""
+    headings = list(re.finditer(r'<h3 class="titleSmall">(.*?)</h3>', body, re.I | re.S))
+    cards: list[dict[str, str]] = []
+    for index, match in enumerate(headings):
+        end = headings[index + 1].start() if index + 1 < len(headings) else min(len(body), match.end() + 3500)
+        segment = body[match.end():end]
+        url_match = re.search(r'href="(https://georgiagrown\.com/member/[^"?]+/)"', segment, re.I)
+        if not url_match:
+            continue
+        description_match = re.search(r'<p class="paragraph">(.*?)</p>', segment, re.I | re.S)
+        phone_match = re.search(r'<p class="phone-number">.*?</strong>\s*(.*?)</p>', segment, re.I | re.S)
+        email_match = re.search(r'<p class="email-address">.*?</strong>\s*(.*?)</p>', segment, re.I | re.S)
+        categories_match = re.search(r'<strong>Business Categories:</strong>\s*(.*?)</p>', segment, re.I | re.S)
+        cards.append({
+            "name": strip_tags(match.group(1)),
+            "url": clean_url(url_match.group(1)),
+            "description": strip_tags(description_match.group(1)) if description_match else "",
+            "phone": strip_tags(phone_match.group(1)) if phone_match else "",
+            "email": strip_tags(email_match.group(1)) if email_match else "",
+            "categories": strip_tags(categories_match.group(1)) if categories_match else "",
+        })
+    return cards
+
+
+def georgia_grown_profile(
+    state: str,
+    config: dict[str, Any],
+    card: dict[str, str],
+    body: str,
+) -> tuple[Observation, dict[str, Any]]:
+    source_name = config["official_aggregate_name"]
+    profile_match = re.search(r'<section class="bg-white primary">(.*?)</section>', body, re.I | re.S)
+    profile = profile_match.group(1) if profile_match else body
+    name_match = re.search(r'<h1 class="title">(.*?)</h1>', profile, re.I | re.S)
+    name = strip_tags(name_match.group(1)) if name_match else clean_text(card.get("name"))
+    description_match = re.search(
+        r'gg_member_profile_single--description--company--info.*?<p class="paragraph">(.*?)</p>',
+        profile,
+        re.I | re.S,
+    )
+    description = strip_tags(description_match.group(1)) if description_match else clean_text(card.get("description"))
+    products_match = re.search(r'Products or Services Offered</h3>(.*?)<!-- RELATED', profile, re.I | re.S)
+    products_html = products_match.group(1) if products_match else ""
+    product_values = [
+        strip_tags(value)
+        for value in re.findall(r'<(?:p class="cardTitle"|li)>(.*?)</(?:p|li)>', products_html, re.I | re.S)
+    ]
+    products = "; ".join(dict.fromkeys(value for value in product_values if value))
+    location_match = re.search(
+        r'<h3 class="largeLabel">Primary Location</h3>.*?<p class="paragraphSmall">(.*?)</p>',
+        profile,
+        re.I | re.S,
+    )
+    location_html = location_match.group(1) if location_match else ""
+    location_lines = [
+        strip_tags(value)
+        for value in re.split(r'<br\s*/?>|</br>', location_html, flags=re.I)
+        if strip_tags(value)
+    ]
+    city = postal = ""
+    city_index = -1
+    for index, value in enumerate(location_lines):
+        city_match = re.search(r'([^,]+),\s*GA\s+(\d{5})(?:-\d{4})?\b', value, re.I)
+        if city_match:
+            city, postal, city_index = normalized_city(city_match.group(1)), city_match.group(2), index
+            break
+    address_lines = location_lines[:city_index] if city_index >= 0 else location_lines
+    if address_lines and normalized_name(address_lines[0]) == normalized_name(name):
+        address_lines = address_lines[1:]
+    address = ", ".join(address_lines)
+    contact_match = re.search(
+        r'<h3 class="largeLabel">Contact</h3>(.*?)(?:<h3 class="largeLabel">Primary Location</h3>|</div>)',
+        profile,
+        re.I | re.S,
+    )
+    contact_html = contact_match.group(1) if contact_match else profile
+    phone_match = re.search(r'(?<!\d)(?:\+?1[-. ]?)?\(?\d{3}\)?[-./ ]\d{3}[-./ ]\d{4}(?!\d)', strip_tags(contact_html))
+    email_match = re.search(r'href="mailto:([^"?]+)', contact_html, re.I)
+    website_match = re.search(r'<a href="(https?://[^"]+)" class="btn"[^>]*>Visit Website</a>', profile, re.I)
+    links = re.findall(r'href="(https?://[^" ]+)"', profile, re.I)
+    website, facebook, instagram, tiktok = split_public_links(links, "georgiagrown.com")
+    if website_match:
+        website = clean_url(website_match.group(1))
+    confirmed = farm_operation_signal(name, description, products)
+    url = card["url"]
+    record_id = url.rstrip("/").rsplit("/", 1)[-1]
+    row = empty_observation(state, source_name, record_id, name, url, 1, "B")
+    row.update({
+        "entity_type_source": "Georgia Grown member",
+        "entity_type_review": "farm_activity_confirmed_by_current_official_profile" if confirmed else "official_agriculture_member_requires_farm_operation_review",
+        "city": city,
+        "postal_code": postal,
+        "address": address,
+        "location_precision": "official_directory_public_business_address_or_city" if (address or city) else "official_profile_no_public_location",
+        "phone": phone_match.group(0) if phone_match else clean_text(card.get("phone")),
+        "email": clean_text(email_match.group(1)) if email_match else clean_text(card.get("email")),
+        "products": products or (description[:700] if confirmed else ""),
+        "business_types": clean_text(card.get("categories")) or "Georgia Grown member",
+        "website_url": website,
+        "facebook_url": facebook,
+        "instagram_url": instagram,
+        "tiktok_url": tiktok,
+        "on_farm_sales": bool(re.search(r"direct to consumer|farm stand|u-pick|pick your own", f"{products} {description}", re.I)),
+        "online_sales": bool(website and re.search(r"online|shipping|shop", description, re.I)),
+        "u_pick": bool(re.search(r"u-pick|pick your own", f"{products} {description}", re.I)),
+        "notes": description[:1500],
+    })
+    return Observation(**row), {
+        "url": url,
+        "name": name,
+        "description": description,
+        "products": products,
+        "address": address,
+        "city": city,
+        "postal_code": postal,
+        "profile_available": bool(name_match),
+    }
+
+
+def georgia_grown(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = config["official_aggregate_name"]
+    first_body, first_log = fetch(config["official_directory"])
+    logs: list[dict[str, Any]] = []
+    page_bodies: dict[int, str] = {1: first_body}
+    page_logs: dict[int, dict[str, Any]] = {1: first_log}
+
+    def load_page(page: int) -> str:
+        if page not in page_bodies:
+            url = config["official_directory"] if page == 1 else f"{config['official_directory']}page/{page}/"
+            page_bodies[page], page_logs[page] = fetch(url)
+        return page_bodies[page]
+
+    # WordPress exposes only next-page links. Probe exponentially, then binary
+    # search the final nonempty page so the traversal does not hard-code a count.
+    lower, upper = 1, 2
+    while georgia_grown_cards(load_page(upper)):
+        lower, upper = upper, upper * 2
+    while lower + 1 < upper:
+        middle = (lower + upper) // 2
+        if georgia_grown_cards(load_page(middle)):
+            lower = middle
+        else:
+            upper = middle
+    last_page = lower
+    with ThreadPoolExecutor(max_workers=20) as executor:
+        futures = {
+            executor.submit(fetch, f"{config['official_directory']}page/{page}/"): page
+            for page in range(2, last_page + 1)
+            if page not in page_bodies
+        }
+        for future in as_completed(futures):
+            page = futures[future]
+            try:
+                page_bodies[page], page_logs[page] = future.result()
+            except Exception as exc:
+                page_bodies[page] = ""
+                page_logs[page] = {"url": f"{config['official_directory']}page/{page}/", "error": str(exc), "attempts_used": 0}
+
+    cards_by_url: dict[str, dict[str, str]] = {}
+    page_counts: dict[int, int] = {}
+    for page in range(1, last_page + 1):
+        cards = georgia_grown_cards(page_bodies.get(page, ""))
+        page_counts[page] = len(cards)
+        for card in cards:
+            cards_by_url.setdefault(card["url"], card)
+        logs.append(logged(page_logs[page], 1, f"{source_name} — directory page", len(cards), "request_component", f"Page {page} of {last_page}"))
+    for page in sorted(set(page_bodies) - set(range(1, last_page + 1))):
+        logs.append(logged(page_logs[page], 1, f"{source_name} — boundary probe", len(georgia_grown_cards(page_bodies[page])), "request_component"))
+
+    observations: list[Observation] = []
+    profiles: list[dict[str, Any]] = []
+    failed: list[dict[str, str]] = []
+    profile_logs: list[dict[str, Any]] = []
+
+    def retain(card: dict[str, str], body: str) -> bool:
+        observation, profile = georgia_grown_profile(state, config, card, body)
+        if not observation.farm_name:
+            return False
+        observations.append(observation)
+        profiles.append(profile)
+        if len(observations) % 100 == 0:
+            print(f"{state} official profiles retained: {len(observations)}/{len(cards_by_url)}", flush=True)
+        return True
+
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        futures = {executor.submit(fetch, url, 3, 35): card for url, card in cards_by_url.items()}
+        for future in as_completed(futures):
+            card = futures[future]
+            try:
+                body, request_log = future.result()
+            except Exception as exc:
+                body, request_log = "", {"url": card["url"], "error": str(exc), "attempts_used": 0}
+            kept = retain(card, body)
+            profile_logs.append(logged(request_log, 1, f"{source_name} — profile request", int(kept), "request_component"))
+            if not kept or not body:
+                failed.append(card)
+
+    # Named search cards are durable fallback evidence. A profile outage must
+    # create missing fields and QA, never an omitted farm/member name.
+    for card in failed:
+        if any(item.source_url == card["url"] for item in observations):
+            continue
+        observation, profile = georgia_grown_profile(state, config, card, "")
+        observation.notes = f"Official profile unavailable after retries; retained from current official directory card. {observation.notes}"[:1500]
+        observations.append(observation)
+        profiles.append({**profile, "official_card_fallback": True})
+    logs.extend(profile_logs)
+    aggregate = logged(
+        first_log,
+        1,
+        source_name,
+        len(observations),
+        "observations_retained",
+        f"Traversed {last_page} live pages and retained every one of {len(cards_by_url)} unique named member profiles; nonfarm member types remain QA candidates.",
+    )
+    incomplete = [page for page in range(1, last_page) if page_counts.get(page) != 10]
+    final_count = page_counts.get(last_page, 0)
+    if incomplete or not 1 <= final_count <= 10 or len(observations) != len(cards_by_url):
+        aggregate["error"] = (
+            f"Directory pages expected 10 records before final; incomplete pages {incomplete}; "
+            f"final page {final_count}; unique URLs {len(cards_by_url)}; retained {len(observations)}"
+        )
+    logs.append(aggregate)
+    return observations, logs, {"georgia_grown_profiles": profiles, "georgia_grown_page_counts": page_counts}
+
+
+def georgia_farm_markets(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "Georgia Farm Bureau — Certified Farm Markets"
+    body, landing_log = fetch(config["farm_markets"])
+    marker_matches = re.finditer(
+        r'lat:\s*([-0-9.]+),\s*lon:\s*([-0-9.]+),.*?labelURL:\s*"([^"]+)"',
+        body,
+        re.I | re.S,
+    )
+    indexed: dict[str, tuple[float, float]] = {}
+    for match in marker_matches:
+        url = urllib.parse.urljoin("https://www.gfb.org", match.group(3))
+        indexed[url] = (float(match.group(1)), float(match.group(2)))
+    observations: list[Observation] = []
+    profiles: list[dict[str, Any]] = []
+    logs: list[dict[str, Any]] = []
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        futures = {executor.submit(fetch, url): (url, coords) for url, coords in indexed.items()}
+        for future in as_completed(futures):
+            url, coords = futures[future]
+            try:
+                profile, request_log = future.result()
+            except Exception as exc:
+                profile, request_log = "", {"url": url, "error": str(exc), "attempts_used": 0}
+            main_match = re.search(r'<section class="col-md-8 col-lg-9">(.*?)</section>', profile, re.I | re.S)
+            main = main_match.group(1) if main_match else profile
+            name_match = re.search(r'<h1>(.*?)</h1>', main, re.I | re.S)
+            name = strip_tags(name_match.group(1)) if name_match else url.rstrip("/").rsplit("/", 1)[-1].replace("-", " ").title()
+            address_match = re.search(r'<address>(.*?)</address>', main, re.I | re.S)
+            address_html = address_match.group(1) if address_match else ""
+            address_lines = [strip_tags(value) for value in re.split(r'<br\s*/?>', address_html, flags=re.I) if strip_tags(value)]
+            city = postal = ""
+            city_index = -1
+            for index, value in enumerate(address_lines):
+                city_match = re.search(r'([^,]+),\s*GA\b', value, re.I)
+                zip_match = re.search(r'\b(\d{5})(?:-\d{4})?\b', value)
+                if city_match:
+                    city, city_index = normalized_city(city_match.group(1)), index
+                if zip_match:
+                    postal = zip_match.group(1)
+            address = ", ".join(address_lines[:city_index] if city_index >= 0 else address_lines)
+            if not postal:
+                zip_match = re.search(r'\b(\d{5})(?:-\d{4})?\b', strip_tags(address_html))
+                postal = zip_match.group(1) if zip_match else ""
+            phone_match = re.search(r'href="tel:([^"]+)', main, re.I)
+            email_match = re.search(r'href="mailto:([^"?]+)', main, re.I)
+            links = re.findall(r'href="(https?://[^" ]+)"', main, re.I)
+            website, facebook, instagram, tiktok = split_public_links(links, "gfb.org")
+            tags = [
+                strip_tags(value) for value in re.findall(r'/connect/farm-markets/tag/[^"?]+">(.*?)</a>', main, re.I | re.S)
+            ]
+            tags = [value for value in tags if value not in {"All CFMs", "North Georgia", "Middle Georgia", "South Georgia"}]
+            info_match = re.search(r'<h3>Market Info</h3>.*?<div class="bg-light p-3 border">(.*?)</div>', main, re.I | re.S)
+            description = strip_tags(info_match.group(1)) if info_match else ""
+            row = empty_observation(state, source_name, url.rstrip("/").rsplit("/", 1)[-1], name, url, 2, "C")
+            row.update({
+                "entity_type_source": "Certified Farm Market",
+                "entity_type_review": "farm_activity_confirmed_by_current_farm_bureau_certification",
+                "city": city,
+                "postal_code": postal,
+                "address": address,
+                "latitude": coords[0],
+                "longitude": coords[1],
+                "location_precision": "association_directory_public_business_location",
+                "phone": clean_text(phone_match.group(1)) if phone_match else "",
+                "email": clean_text(email_match.group(1)) if email_match else "",
+                "products": "; ".join(dict.fromkeys(tags)) or description or "Farm products sold direct to consumers",
+                "business_types": "Georgia Farm Bureau Certified Farm Market",
+                "website_url": website,
+                "facebook_url": facebook,
+                "instagram_url": instagram,
+                "tiktok_url": tiktok,
+                "on_farm_sales": True,
+                "online_sales": any("Online Store" == value for value in tags),
+                "u_pick": any("U-Pick" == value for value in tags),
+                "notes": description[:1500],
+            })
+            observations.append(Observation(**row))
+            profiles.append({"url": url, "name": name, "address": address_lines, "tags": tags, "description": description})
+            logs.append(logged(request_log, 2, f"{source_name} — profile request", int(bool(profile)), "request_component"))
+    aggregate = logged(
+        landing_log,
+        2,
+        source_name,
+        len(observations),
+        "observations_retained",
+        f"The All CFMs map exposed {len(indexed)} unique certified market detail pages; each named market was retained.",
+    )
+    if len(observations) != len(indexed):
+        aggregate["error"] = f"Certified market index exposed {len(indexed)} detail URLs; retained {len(observations)}"
+    logs.append(aggregate)
+    return observations, logs, {"georgia_farm_bureau_certified_markets": profiles}
 
 
 def picktn_profile_observation(
@@ -1191,6 +1564,30 @@ def localharvest_gap_search(state: str, config: dict[str, Any], seats: list[tupl
                 observations.append(localharvest_profile(state, config, card, body))
             else:
                 profile_failures.append({"url": card["url"], "error": request_log.get("error", "empty response")})
+                row = empty_observation(
+                    state,
+                    f"LocalHarvest — {config['name']} county-seat gap search",
+                    card["url"].rstrip("/").rsplit("-M", 1)[-1],
+                    card["name"],
+                    card["url"],
+                    3,
+                    "E",
+                )
+                row.update({
+                    "entity_type_source": "Family Farm",
+                    "entity_type_review": "farm_activity_confirmed_by_directory_farm_search_card",
+                    "city": card["city"],
+                    "location_precision": "public_directory_search_card_city",
+                    "products": card["summary"][:700] or "Farm products; profile unavailable",
+                    "business_types": "LocalHarvest Family Farm",
+                    "on_farm_sales": True,
+                    "notes": (
+                        f"Named official search result retained after profile request failed; missing fields remain QA. "
+                        f"Discovered through {card['searched_county']} County search ({card['search_url']}). "
+                        f"{card['summary']}"
+                    )[:1500],
+                })
+                observations.append(Observation(**row))
     aggregate_log = {
         "url": LOCALHARVEST_BASE, "attempts_used": 1, "http_status": 200, "bytes": 0, "sha256": "",
         "elapsed_seconds": 0, "error": "", "pass": 3,
@@ -1201,6 +1598,32 @@ def localharvest_gap_search(state: str, config: dict[str, Any], seats: list[tupl
     request_logs.append(aggregate_log)
     raw = {"cards": list(cards.values()), "county_search_failures": failures, "profile_failures": profile_failures}
     return observations, request_logs, {"localharvest_gap_search": raw}, searched_ok
+
+
+def census_place_gap_anchors(place_rows: list[dict[str, str]], gaps: set[str]) -> list[tuple[str, str]]:
+    """Choose one Census-recognized community as a deterministic county anchor."""
+    candidates: defaultdict[str, list[tuple[int, str]]] = defaultdict(list)
+    for row in place_rows:
+        county = normalized_county(row.get("COUNTYNAME", ""))
+        if county not in gaps:
+            continue
+        raw = clean_text(row.get("PLACENAME", ""))
+        place = re.sub(
+            r"\s+(?:city|town|village|CDP|consolidated government|unified government)\s*$",
+            "",
+            raw,
+            flags=re.I,
+        )
+        # Incorporated cities/towns are more reliable location slugs than CDPs
+        # or countywide consolidated-government labels.
+        rank = 0 if re.search(r"\s+(?:city|town|village)$", raw, re.I) else 1 if raw.endswith(" CDP") else 2
+        if place:
+            candidates[county].append((rank, place))
+    return [
+        (county, sorted(candidates[county], key=lambda item: (item[0], item[1].casefold()))[0][1])
+        for county in sorted(gaps)
+        if candidates[county]
+    ]
 
 
 def fcc_county(state: str, config: dict[str, Any], item: Observation) -> tuple[str, str, str, dict[str, Any]]:
@@ -1386,14 +1809,20 @@ def main() -> int:
     adapters: list[Callable[..., tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]]]
     if state == "AR":
         adapters = [arkansas_directory, arkansas_extension_farms, eatwild_records, pyo_records]
-    else:
+    elif state == "TN":
         adapters = [tennessee_picktn, tennessee_century_farms, tennessee_agritourism, eatwild_records, pyo_records]
+    else:
+        adapters = [georgia_grown, georgia_farm_markets, eatwild_records, pyo_records]
     for adapter in adapters:
         found, source_logs, raw = adapter(state, config)
         observations.extend(found); logs.extend(source_logs); raw_sources.update(raw)
-    for source_log in logs:
-        if source_log.get("source_decision") == "observations_retained" and source_log.get("error"):
-            critical.append(f"{source_log.get('source_name')}: {source_log['error']}")
+
+    for item in observations:
+        item.phone = sanitized_phone(item.phone)
+        item.email = sanitized_email(item.email)
+
+    apply_place_reference(state, config, observations, places)
+    geography_logs, geography_errors = enrich_geography(state, config, observations); logs.extend(geography_logs)
 
     searched_ok: set[str] = set()
     if config.get("county_seats"):
@@ -1401,9 +1830,28 @@ def main() -> int:
         if len(seats) != config["county_count"]: critical.append(f"County-seat anchors expected {config['county_count']}, received {len(seats)}")
         found, source_logs, raw, searched_ok = localharvest_gap_search(state, config, seats)
         observations.extend(found); logs.extend(source_logs); raw_sources.update(raw)
+    elif config.get("census_place_gap_search"):
+        found_counties = {
+            item.county for item in observations
+            if item.county and item.promotion_status != "excluded_outside_jurisdiction"
+        }
+        gaps = {row["county"] for row in counties} - found_counties
+        anchors = census_place_gap_anchors(place_rows, gaps)
+        raw_sources["census_place_gap_anchors"] = [
+            {"county": county, "place": place} for county, place in anchors
+        ]
+        if len(anchors) != len(gaps):
+            missing_anchors = sorted(gaps - {county for county, _ in anchors})
+            critical.append(f"Census place gap anchors missing: {', '.join(missing_anchors)}")
+        found, source_logs, raw, searched_ok = localharvest_gap_search(state, config, anchors)
+        observations.extend(found); logs.extend(source_logs); raw_sources.update(raw)
 
     apply_place_reference(state, config, observations, places)
-    geography_logs, geography_errors = enrich_geography(state, config, observations); logs.extend(geography_logs)
+    more_geography_logs, more_geography_errors = enrich_geography(state, config, observations)
+    logs.extend(more_geography_logs); geography_errors.extend(more_geography_errors)
+    for source_log in logs:
+        if source_log.get("source_decision") == "observations_retained" and source_log.get("error"):
+            critical.append(f"{source_log.get('source_name')}: {source_log['error']}")
     for item in observations:
         if item.county and not item.county_fips: item.county_fips = county_fips.get(item.county, "")
     retained_observations = [item for item in observations if item.promotion_status != "excluded_outside_jurisdiction"]
@@ -1457,6 +1905,21 @@ def main() -> int:
         "critical_errors": critical,
         "promotion_note": "Coverage-reviewed is not record-verified, approved, promotion-ready, or canonical.",
     }
+    blocker_counts = Counter(
+        blocker
+        for row in qa
+        for blocker in clean_text(row.get("issue_detail", "")).split("; ")
+        if blocker
+    )
+    source_rows = "\n".join(
+        f"| {name} | {count:,} |"
+        for name, count in sorted(summary["source_observations_by_source"].items())
+    )
+    blocker_rows = "\n".join(
+        f"| {blocker} | {count:,} |"
+        for blocker, count in blocker_counts.most_common()
+    )
+    searched_none = [row["county"] for row in coverage if row["status"] == "searched_none_found"]
     report = f"""# {config['name']} state review report
 
 > Release: `{summary['release_id']}`
@@ -1486,11 +1949,31 @@ caused deletion or exclusion.
 | Counties with retained candidates | {sum(bool(row['candidate_entities']) for row in coverage)} |
 | Counties with eligible candidates | {sum(bool(row['promotion_eligible_entities']) for row in coverage)} |
 
+## Source reconciliation
+
+| Source | Immutable observations |
+|---|---:|
+{source_rows}
+
+The source total above reconciles exactly to **{source_observations:,}** observations and all
+observation IDs are required to be unique. The statewide coverage denominator contains
+**{len(coverage)}** county equivalents. **{sum(row['status'] == 'candidates_found' for row in coverage)}**
+have retained candidates; **{len(searched_none)}** were searched without a retained result
+({', '.join(searched_none) if searched_none else 'none'}).
+
+## Open QA blockers
+
+Blocker counts overlap because one retained entity can require more than one follow-up.
+
+| Blocker | Entities |
+|---|---:|
+{blocker_rows or '| None | 0 |'}
+
 ## Source passes
 
-1. Official pass: {config['official_aggregate_name'] if state == 'TN' else 'the Arkansas Department of Agriculture Arkansas Grown directory'}.
-2. Corroboration pass: {'Tennessee Century Farms, Tennessee Agritourism, and EatWild' if state == 'TN' else 'University of Arkansas direct-sale farms and EatWild'}.
-3. Discovery pass: {'ten PickYourOwn regions' if state == 'TN' else 'five PickYourOwn regions plus LocalHarvest searches anchored to all county seats'}.
+1. Official pass: {config['report_passes'][0]}.
+2. Corroboration pass: {config['report_passes'][1]}.
+3. Discovery pass: {config['report_passes'][2]}.
 
 ## Quality boundaries
 
