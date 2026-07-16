@@ -1,6 +1,6 @@
 # Texas state review report
 
-> Release: `tx-geography-enrichment-v20-2026-07-16`
+> Release: `tx-identity-type-enrichment-v21-2026-07-16`
 >
 > Contract: national state contract v2
 >
@@ -13,8 +13,10 @@ counties. Geography Batch 14 assigned county equivalents to eight retained recor
 from published city, postal, farm-address, or service-area evidence; seven had
 geography as their only blocker and cleared the promotion gate. Geography Batch 13
 triaged 30 retained records with no city or safe public service area, bringing the
-remaining county-missing QA surface to 58. The revised release retains 855 named
-candidates, 763 currently meet staged field and evidence gates, and 92 remain
+remaining county-missing QA surface to 58. Identity/Type Batch 01 excluded two
+confirmed meat-processing operations and corroborated Buena Tierra as a farm. The
+revised release retains 853 named candidates, 764 currently meet staged field and
+evidence gates, and 89 remain
 in research/QA. Texas is not complete and must not be promoted until all county
 batches, managed evidence, approval, and canonical gates pass.
 
@@ -27,21 +29,21 @@ keeps those candidates staged.
 | Measure | Count |
 |---|---:|
 | Immutable source observations | 1,062 |
-| Retained candidate entities | 855 |
-| Promotion-eligible reviewed entities | 763 |
-| Research/QA entities | 92 |
-| Affirmatively excluded observations | 71 |
-| Effective excluded entity groups | 50 |
-| Append-only decisions | 254 |
+| Retained candidate entities | 853 |
+| Promotion-eligible reviewed entities | 764 |
+| Research/QA entities | 89 |
+| Affirmatively excluded observations | 73 |
+| Effective excluded entity groups | 52 |
+| Append-only decisions | 257 |
 | Counties reviewed | 254 of 254 |
 | Counties with retained candidates | 181 |
 | Counties searched with none found | 75 |
 | Counties with promotion-eligible candidates | 175 |
 
-Retained entity observation counts plus the 71 excluded or merged source
+Retained entity observation counts plus the 73 excluded or merged source
 observations reconcile exactly to all 1,062 observations. Multiple source
-observations can support one excluded entity group, which is why 71 observations
-correspond to 50 effective exclusions.
+observations can support one excluded entity group, which is why 73 observations
+correspond to 52 effective exclusions.
 
 ## County Batch 01 — Hidalgo
 
@@ -195,14 +197,14 @@ Point Enterprises Orchards, Six Mile Pic-N-Pac Produce, and Yoes Peach Orchard.
 
 ## QA profile
 
-The 92 QA entities are retained in `entities.csv`. Blockers overlap:
+The 89 QA entities are retained in `entities.csv`. Blockers overlap:
 
 | Blocker | Entities |
 |---|---:|
 | County-equivalent missing | 58 |
-| Single grade-E discovery listing needs corroboration | 26 |
+| Single grade-E discovery listing needs corroboration | 23 |
 | City or safe public service area missing | 58 |
-| Member/vendor candidate needs independent farm-operation evidence | 17 |
+| Member/vendor candidate needs independent farm-operation evidence | 14 |
 | Reopened assumed/parser-derived closure needs corroboration | 4 |
 
 Missing geography or contact detail does not imply that a farm is invalid or closed.
@@ -216,7 +218,7 @@ an allowed affirmative reason:
 
 | Reason | Entity groups |
 |---|---:|
-| Confirmed non-farm business or channel | 37 |
+| Confirmed non-farm business or channel | 39 |
 | Confirmed closed | 9 |
 | Outside Texas jurisdiction | 4 |
 
@@ -246,7 +248,7 @@ none of these fields remains retained.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the remaining 92 QA candidates through append-only geography-enrichment and identity/type batches.
+1. Resolve or deliberately retain the remaining 89 QA candidates through append-only geography-enrichment and identity/type batches.
 2. Copy the three immutable evidence objects to managed production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.
 4. Promote Texas atomically in a separate canonical-release change.
@@ -274,3 +276,11 @@ Twenty-eight additional retained QA records without a city or safe public servic
 area received append-only retain decisions. The source records do not support a
 defensible county assignment, so they remain visible in QA for future evidence-
 bound geography enrichment rather than receiving guessed counties.
+
+## Identity/Type Batch 01 — Meat processors and Buena Tierra
+
+Bluebonnet Meat Company and Direct Source Meats were affirmatively excluded as
+confirmed non-farm meat-processing operations based on current facility and
+company evidence. Buena Tierra was corroborated as a farm through an independent
+farm directory that names its farmers, vegetable-farm classification, and Fredonia
+address; its type and single-listing blockers were cleared.
