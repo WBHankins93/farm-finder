@@ -21,6 +21,13 @@ from state_policy import (  # noqa: E402
     effective_decisions,
 )
 from state_release_status import state_status  # noqa: E402
+from collect_alabama import Observation  # noqa: E402
+from collect_southeast import (  # noqa: E402
+    STATE_CONFIG,
+    apply_place_reference,
+    empty_observation,
+    localharvest_profile,
+)
 import migrate_state_contract_v2 as migration  # noqa: E402
 import validate_state_releases as validation  # noqa: E402
 from validate_state_releases import STATE_ROOT, release_fingerprint, validate_state  # noqa: E402
@@ -77,6 +84,47 @@ class CandidateRetentionPolicyTests(unittest.TestCase):
             ])
 
 
+class SoutheastGeographyTests(unittest.TestCase):
+    @staticmethod
+    def observation(address: str) -> Observation:
+        values = empty_observation(
+            "AR", "test", address, "Test Farm", "https://example.test", 1, "A"
+        )
+        values["address"] = address
+        return Observation(**values)
+
+    def test_state_confirmed_address_uses_unambiguous_census_place(self) -> None:
+        item = self.observation("5985 S.W. Anglin Road Bentonville Arkansas 72713")
+        apply_place_reference(
+            "AR", {"name": "Arkansas"}, [item],
+            {"bentonville": ("Bentonville", "Benton", "05007")},
+        )
+        self.assertEqual((item.city, item.county, item.county_fips, item.postal_code),
+                         ("Bentonville", "Benton", "05007", "72713"))
+
+    def test_out_of_state_address_is_not_inferred(self) -> None:
+        item = self.observation("Dallas, TX 75201")
+        apply_place_reference(
+            "AR", {"name": "Arkansas"}, [item],
+            {"dallas": ("Dallas", "Polk", "05113")},
+        )
+        self.assertEqual((item.city, item.county, item.postal_code), ("", "", ""))
+
+    def test_out_of_state_radius_result_is_preserved_as_exclusion_evidence(self) -> None:
+        body = (
+            '<strong>Location:</strong><br />1045 S. Genois St.<br /> '
+            'New Orleans, LA 70125 <div id="descDiv">Vegetable farm</div>'
+        )
+        card = {
+            "url": "https://www.localharvest.org/example-M1", "name": "Example Farm",
+            "city": "", "summary": "", "searched_county": "Pulaski",
+            "search_url": "https://example.test",
+        }
+        item = localharvest_profile("AR", STATE_CONFIG["AR"], card, body)
+        self.assertEqual(item.promotion_status, "excluded_outside_jurisdiction")
+        self.assertIn("outside AR", item.notes)
+
+
 class CurrentStateContractTests(unittest.TestCase):
     def test_alabama_contract(self) -> None:
         self.assertEqual(validate_state("AL", False)["status"], "passed")
@@ -84,8 +132,11 @@ class CurrentStateContractTests(unittest.TestCase):
     def test_texas_contract(self) -> None:
         self.assertEqual(validate_state("TX", False)["status"], "passed")
 
+    def test_arkansas_contract(self) -> None:
+        self.assertEqual(validate_state("AR", False)["status"], "passed")
+
     def test_coverage_review_is_not_promotion_approval(self) -> None:
-        for state in ("AL", "TX"):
+        for state in ("AL", "AR", "TX"):
             result = state_status(state)
             self.assertEqual(result["lifecycleStatus"], "coverage_reviewed")
             self.assertFalse(result["promotionReady"])
