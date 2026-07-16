@@ -1,6 +1,6 @@
 # Texas state review report
 
-> Release: `tx-county-west-qa-v11-2026-07-16`
+> Release: `tx-county-northeast-qa-v12-2026-07-16`
 >
 > Contract: national state contract v2
 >
@@ -9,9 +9,9 @@
 ## Outcome
 
 Texas has completed the documented three-pass discovery process across all 254
-counties. County Batch 06 reviewed Erath, Fayette, Gaines, Garza, and Gonzales
-after the North Texas checkpoint: the revised release retains 867 named
-candidates, 729 currently meet staged field and evidence gates, and 138 remain
+counties. County Batch 07 reviewed Grayson, Guadalupe, Harris, Hill, and Jasper
+after the West Texas checkpoint: the revised release retains 862 named
+candidates, 730 currently meet staged field and evidence gates, and 132 remain
 in research/QA. Texas is not complete and must not be promoted until all county
 batches, managed evidence, approval, and canonical gates pass.
 
@@ -24,21 +24,21 @@ keeps those candidates staged.
 | Measure | Count |
 |---|---:|
 | Immutable source observations | 1,062 |
-| Retained candidate entities | 867 |
-| Promotion-eligible reviewed entities | 729 |
-| Research/QA entities | 138 |
-| Affirmatively excluded observations | 59 |
-| Effective excluded entity groups | 39 |
-| Append-only decisions | 111 |
+| Retained candidate entities | 862 |
+| Promotion-eligible reviewed entities | 730 |
+| Research/QA entities | 132 |
+| Affirmatively excluded observations | 64 |
+| Effective excluded entity groups | 44 |
+| Append-only decisions | 118 |
 | Counties reviewed | 254 of 254 |
-| Counties with retained candidates | 179 |
+| Counties with retained candidates | 178 |
 | Counties searched with none found | 75 |
-| Counties with promotion-eligible candidates | 171 |
+| Counties with promotion-eligible candidates | 172 |
 
-Retained entity observation counts plus the 59 affirmatively excluded source
+Retained entity observation counts plus the 64 affirmatively excluded source
 observations reconcile exactly to all 1,062 observations. Multiple source
-observations can support one excluded entity group, which is why 59 observations
-correspond to 39 effective exclusions.
+observations can support one excluded entity group, which is why 64 observations
+correspond to 44 effective exclusions.
 
 ## County Batch 01 — Hidalgo
 
@@ -100,6 +100,19 @@ established farm-production operation. No county coverage rows changed; the
 batch reduced QA by five, added four eligible entities, and added one affirmative
 exclusion while removing the excluded entity from the retained set.
 
+## County Batch 07 — Grayson, Guadalupe, Harris, Hill, and Jasper
+
+The Northeast Texas batch processed seven QA candidates across the five counties.
+Pennell Ag Services and River Creek LTD were excluded as an agricultural-service
+carrier and a meat retailer, respectively. Boenig Pecans was excluded on current
+retirement/closure evidence. Beauty's Community Garden was excluded as a
+volunteer-led community garden rather than an independent farm operation. Tejas
+Premium Meat was excluded as a USDA-establishment custom slaughter and export
+plant. The Berry Patch was cleared through current farm-owned evidence, with its
+location corrected from a Houston-area service classification to Kountze in
+Hardin County. Brown's Berry Farm remains in QA because current corroboration was
+not found. The batch reduced QA by six and added five affirmative exclusions.
+
 ## Missing-data and closure correction
 
 Five farms were restored from closure handling:
@@ -121,14 +134,14 @@ Point Enterprises Orchards, Six Mile Pic-N-Pac Produce, and Yoes Peach Orchard.
 
 ## QA profile
 
-The 138 QA entities are retained in `entities.csv`. Blockers overlap:
+The 132 QA entities are retained in `entities.csv`. Blockers overlap:
 
 | Blocker | Entities |
 |---|---:|
 | County-equivalent missing | 90 |
-| Single grade-E discovery listing needs corroboration | 40 |
+| Single grade-E discovery listing needs corroboration | 34 |
 | City or safe public service area missing | 58 |
-| Member/vendor candidate needs independent farm-operation evidence | 31 |
+| Member/vendor candidate needs independent farm-operation evidence | 27 |
 | Reopened assumed/parser-derived closure needs corroboration | 5 |
 
 Missing geography or contact detail does not imply that a farm is invalid or closed.
@@ -142,7 +155,7 @@ an allowed affirmative reason:
 
 | Reason | Entity groups |
 |---|---:|
-| Confirmed non-farm business or channel | 27 |
+| Confirmed non-farm business or channel | 31 |
 | Confirmed closed | 8 |
 | Outside Texas jurisdiction | 4 |
 
@@ -152,9 +165,9 @@ preserved as evidence even though they are outside the farm-entity boundary.
 
 ## Reachability and contact fields
 
-- 568 retained entities have a website value.
-- 499 have at least one social profile.
-- 755 have a direct public phone or email in staging.
+- 564 retained entities have a website value.
+- 497 have at least one social profile.
+- 750 have a direct public phone or email in staging.
 
 These values describe field availability, not promotion readiness. A candidate with
 none of these fields remains retained.
@@ -164,7 +177,7 @@ none of these fields remains retained.
 - Exactly four Texas state files are committed.
 - Every retained row has a farm name and Texas entity ID.
 - Entity IDs and normalized-name/county-equivalent keys are unique.
-- All 138 QA rows contain explicit blockers.
+- All 132 QA rows contain explicit blockers.
 - No active excluded normalized name remains staged.
 - Every active exclusion uses affirmative evidence.
 - Source, retained, and excluded observation counts reconcile.
@@ -172,7 +185,7 @@ none of these fields remains retained.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the remaining 138 QA candidates through append-only county batches.
+1. Resolve or deliberately retain the remaining 132 QA candidates through append-only county batches.
 2. Copy the three immutable evidence objects to managed production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.
 4. Promote Texas atomically in a separate canonical-release change.
