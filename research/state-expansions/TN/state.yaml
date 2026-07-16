@@ -1,0 +1,311 @@
+{
+  "contractVersion": 2,
+  "state": {
+    "code": "TN",
+    "name": "Tennessee",
+    "countyEquivalentLabel": "county",
+    "countyEquivalentCount": 95
+  },
+  "policy": {
+    "version": "2026-07-15",
+    "missingDataDisposition": "research_or_qa_queue",
+    "affirmativeExclusionReasons": [
+      "confirmed_closed",
+      "confirmed_nonfarm",
+      "duplicate_identity",
+      "outside_jurisdiction"
+    ]
+  },
+  "collection": {
+    "requiredPasses": [
+      1,
+      2,
+      3
+    ],
+    "sources": [
+      {
+        "sourceId": "tnsrc-325e0612537f",
+        "name": "Tennessee Department of Agriculture — Pick Tennessee Products directory",
+        "pass": 1,
+        "sourceUrl": "https://www.picktnproducts.org/members/search-for-a-member.html",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 3121,
+        "retrievedAt": "2026-07-16T00:34:01.753373+00:00",
+        "responseSha256": "d0cae627a7be56de51d57e6b721cebd11080c89da2eb9d4ecefeb9969708a5a7",
+        "notes": "Public index advertised 3123 results: 3121 producer profiles and 2 non-profile pages. 3121 profile results were traversed across 95 county partitions plus the unassigned-county partition."
+      },
+      {
+        "sourceId": "tnsrc-0d0b8ac33c15",
+        "name": "U.S. Census Bureau — county denominator",
+        "pass": 1,
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2747%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+        "repositoryPath": null,
+        "decision": "coverage_denominator",
+        "recordsParsed": 95,
+        "retrievedAt": "2026-07-16T00:32:51.349269+00:00",
+        "responseSha256": "9945a3b6939cb2794bfa4a015802fbd09a69415cbc8534ba42d25b318532e910",
+        "notes": null
+      },
+      {
+        "sourceId": "tnsrc-422f7a329e9c",
+        "name": "EatWild Tennessee directory",
+        "pass": 2,
+        "sourceUrl": "https://www.eatwild.com/products/tennessee.html",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 12,
+        "retrievedAt": "2026-07-16T00:36:08.690961+00:00",
+        "responseSha256": "cb10480ba89a08ca2e30231cf5a9f741f47445fce94b01e0a903848f02a522d3",
+        "notes": null
+      },
+      {
+        "sourceId": "tnsrc-ed82904a8095",
+        "name": "Middle Tennessee State University — Tennessee Century Farms registry",
+        "pass": 2,
+        "sourceUrl": "https://www.tncenturyfarms.org/farms/?listpage=1&instance=1",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 2236,
+        "retrievedAt": "2026-07-16T00:35:13.630696+00:00",
+        "responseSha256": "17bad64e10aa8b6fc6de9aa5dba3a3ea68e975ce341897a747f9dce4c52cf8fe",
+        "notes": "Registry advertised 2236 records across 224 pages; all named rows retained without inventing current products or sale channels."
+      },
+      {
+        "sourceId": "tnsrc-0b4118aafe4d",
+        "name": "Tennessee Agritourism Association — active farm members",
+        "pass": 2,
+        "sourceUrl": "https://tennesseeagritourism.org/find-a-farm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 88,
+        "retrievedAt": "2026-07-16T00:36:08.459997+00:00",
+        "responseSha256": "23693f9dc530146f40b717128bfdcda0fdac0723404e2a6d79141da515000f88",
+        "notes": "Only active members were retained; associate members were not treated as Tennessee farm evidence."
+      },
+      {
+        "sourceId": "tnsrc-1aa19eac126c",
+        "name": "PickYourOwn — Clarksville area",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TNclarksville.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 24,
+        "retrievedAt": "2026-07-16T00:36:09.064043+00:00",
+        "responseSha256": "2ba3a96498fa643e76f15cead306e4b348e61c0a4b3e825f6612cc588b79f68c",
+        "notes": "County sections searched: 6; closure claims retained for review."
+      },
+      {
+        "sourceId": "tnsrc-e100968c620d",
+        "name": "PickYourOwn — Columbia area",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TNcolumbia.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 17,
+        "retrievedAt": "2026-07-16T00:36:09.382700+00:00",
+        "responseSha256": "059505edee1dbdef5acdb5978f58641a3e5c0840a86acae1360f64854a22b41c",
+        "notes": "County sections searched: 11; closure claims retained for review."
+      },
+      {
+        "sourceId": "tnsrc-869cccf567fe",
+        "name": "PickYourOwn — Eastern Tennessee",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TNeast.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 23,
+        "retrievedAt": "2026-07-16T00:36:09.685610+00:00",
+        "responseSha256": "5640693f69531766a3b866dbec21953d7c761f93087438047b49cdcf7b4da9e4",
+        "notes": "County sections searched: 10; closure claims retained for review."
+      },
+      {
+        "sourceId": "tnsrc-c1db0724eede",
+        "name": "PickYourOwn — Knoxville area",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TNknoxville.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 25,
+        "retrievedAt": "2026-07-16T00:36:10.003948+00:00",
+        "responseSha256": "37f75885ef33cd255274a86b79df784a13e2b361a505b7fc6517a942601837fd",
+        "notes": "County sections searched: 16; closure claims retained for review."
+      },
+      {
+        "sourceId": "tnsrc-0a564604d04e",
+        "name": "PickYourOwn — Middle Tennessee",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TNmiddle.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 53,
+        "retrievedAt": "2026-07-16T00:36:10.444227+00:00",
+        "responseSha256": "fe054cf8bc2d1352d426eb1d3c17f1efd6cdbb938287cec82ad81c98f9041bad",
+        "notes": "County sections searched: 7; closure claims retained for review."
+      },
+      {
+        "sourceId": "tnsrc-fd9f6d82695a",
+        "name": "PickYourOwn — North-central Tennessee",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TNnc.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 14,
+        "retrievedAt": "2026-07-16T00:36:10.660952+00:00",
+        "responseSha256": "5af8b63986f00cc4bc2e2a3172bb2b9f3cc26a4b2b777d99f871e8699ac5f86a",
+        "notes": "County sections searched: 14; closure claims retained for review."
+      },
+      {
+        "sourceId": "tnsrc-f6a066690d7a",
+        "name": "PickYourOwn — Northeastern Tennessee",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TNne.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 16,
+        "retrievedAt": "2026-07-16T00:36:10.884236+00:00",
+        "responseSha256": "a7e5a6e59c8d8a35ba53c63bd1937a09cc8b8581e832acc4a71f6d40bebedf30",
+        "notes": "County sections searched: 9; closure claims retained for review."
+      },
+      {
+        "sourceId": "tnsrc-24f61c252a39",
+        "name": "PickYourOwn — Northwestern Tennessee",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TNnw.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 10,
+        "retrievedAt": "2026-07-16T00:36:11.189886+00:00",
+        "responseSha256": "37e5bc47957993ad06a42a269c5b32affad2017b2bf83bbb9dab42e4b4b87225",
+        "notes": "County sections searched: 9; closure claims retained for review."
+      },
+      {
+        "sourceId": "tnsrc-6ee50ca09ace",
+        "name": "PickYourOwn — Southwestern-central Tennessee",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TNswc.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 7,
+        "retrievedAt": "2026-07-16T00:36:11.395222+00:00",
+        "responseSha256": "ce73314ef1c8df8c3ce5bacb9c16a46d66aa6479fc2f974a2b6f71b9fc55b395",
+        "notes": "County sections searched: 7; closure claims retained for review."
+      },
+      {
+        "sourceId": "tnsrc-ef1638e64872",
+        "name": "PickYourOwn — Western Tennessee",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/TNwest.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 10,
+        "retrievedAt": "2026-07-16T00:36:11.639732+00:00",
+        "responseSha256": "a7703b14e5dd6241773726e36b2f749f3a459fdd75e64226487f4035e95df923",
+        "notes": "County sections searched: 7; closure claims retained for review."
+      }
+    ],
+    "coverage": {
+      "countyEquivalentsReviewed": 95,
+      "countyEquivalentsWithCandidates": 95,
+      "countyEquivalentsWithEligibleEntities": 95,
+      "unresolvedCountyEquivalents": []
+    }
+  },
+  "repositoryPolicy": {
+    "requiredFiles": [
+      "state.yaml",
+      "entities.csv",
+      "decisions.csv",
+      "report.md"
+    ],
+    "maxTrackedBytes": 5000000
+  },
+  "release": {
+    "canonicalBoundary": {
+      "authorityMode": "pre_cutover_workbook",
+      "allowedStates": [
+        "LA",
+        "MS"
+      ],
+      "sourceRowCount": 299
+    },
+    "id": "tn-coverage-reviewed-v1-2026-07-15",
+    "status": "coverage_reviewed",
+    "generatedAt": "2026-07-16T00:36:12.324932+00:00",
+    "promotionReady": false,
+    "promotionBlockReason": "state approval and canonical promotion remain separate gates",
+    "counts": {
+      "sourceObservations": 5656,
+      "proposedEntities": 5425,
+      "promotionEligibleEntities": 1626,
+      "researchOrQaEntities": 3799,
+      "excludedObservations": 0,
+      "excludedEntityGroups": 0,
+      "identityReviewGroups": 370,
+      "countyCoverageRows": 95,
+      "countiesWithCandidates": 95,
+      "countiesWithEligibleEntities": 95,
+      "sourceDatasets": 15,
+      "manualDecisions": 0
+    },
+    "evidenceStorage": {
+      "provider": "s3-compatible",
+      "environment": "local-staging",
+      "status": "local_bundle_only",
+      "bucket": "farmfinder-source-releases",
+      "prefix": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-15/",
+      "versioningRequired": true,
+      "managedCopyRequiredBeforePromotion": true
+    },
+    "artifacts": [
+      {
+        "role": "observations",
+        "filename": "observations.csv.zst",
+        "objectKey": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-15/observations.csv.zst",
+        "sha256": "a099b77b7c67fb281f7acf51fb9f172d362c54975b80934df337e09aed662372",
+        "bytes": 844226,
+        "rows": 5656,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:a099b77b7c67fb281f7acf51"
+      },
+      {
+        "role": "source_records",
+        "filename": "source-records.jsonl.zst",
+        "objectKey": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-15/source-records.jsonl.zst",
+        "sha256": "fc568871bf1890eca7833a73662aa9fb371df2fcfaec0a9a0e1545df6b6300ff",
+        "bytes": 1478338,
+        "rows": 8,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:fc568871bf1890eca7833a73"
+      },
+      {
+        "role": "collection_log",
+        "filename": "collection-log.jsonl.zst",
+        "objectKey": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-15/collection-log.jsonl.zst",
+        "sha256": "6dc73324269d1f23125346cc3bbfbd798c0b456025183b9f7b0f93a224a8cae5",
+        "bytes": 171181,
+        "rows": 3546,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:6dc73324269d1f23125346cc"
+      }
+    ],
+    "approval": {},
+    "repositoryFiles": {
+      "entities.csv": {
+        "sha256": "10172b436861faa0db5232fb04079eb84db14b8d900277d057f3b85ce3cd865e",
+        "bytes": 4317836
+      },
+      "decisions.csv": {
+        "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
+        "bytes": 260
+      },
+      "report.md": {
+        "sha256": "47f839c895f37ad643dd4e4fa807be3f0d4f9229c84f3feede0738e3b76a7317",
+        "bytes": 2078
+      }
+    }
+  }
+}
