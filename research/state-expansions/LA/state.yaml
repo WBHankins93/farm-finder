@@ -31,9 +31,45 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 68,
-        "retrievedAt": "2026-07-16T04:34:11.535817+00:00",
+        "retrievedAt": "2026-07-16T05:09:47.570938+00:00",
         "responseSha256": "c1462169898b7869d18a3590e28242a32b47f1e4ff0ae0c7667b607a1f8e1f3d",
         "notes": "Only entries explicitly labeled roadside stands became farm candidates; farmers markets remain in raw evidence but were not misclassified as farms."
+      },
+      {
+        "sourceId": "lasrc-abf08b08bc99",
+        "name": "LDAF June 2026 nursery certificate holders",
+        "pass": 1,
+        "sourceUrl": "https://assets.ctfassets.net/pc5e1rlgfrov/6bRblalD03I36YRFk7xtGP/a3c8fc82041cb934b92123a77c11cf9a/Hort_Nursery_Certificate_List.pdf",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 679,
+        "retrievedAt": "2026-07-16T05:09:47.893578+00:00",
+        "responseSha256": "792e137660b252d61aeeddd22fa7e0cffbfbec732b8a7e1a56dd93ffd14cb4dc",
+        "notes": null
+      },
+      {
+        "sourceId": "lasrc-bcded48fe52f",
+        "name": "LDAF June 2026 registered apiary businesses",
+        "pass": 1,
+        "sourceUrl": "https://assets.ctfassets.net/pc5e1rlgfrov/7muuQp3Pj6scacLq7VhlHK/0af35d52af4d67654efe11e87bfbde7d/Hort_Apiary_List.pdf",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 45,
+        "retrievedAt": "2026-07-16T05:09:48.262467+00:00",
+        "responseSha256": "aca6d854cee3d2c9308721525a8bd755f0dd39bce7c2aa5fab8ad33cb1fd6902",
+        "notes": "Reviewed 757 public registrations; retained 45 names with an explicit farm, ranch, honey-business, bee-company, or apiary signal."
+      },
+      {
+        "sourceId": "lasrc-10e72c895333",
+        "name": "LDAF March 2026 licensed hemp growers",
+        "pass": 1,
+        "sourceUrl": "https://assets.ctfassets.net/pc5e1rlgfrov/3th6qHxDCGxZ3AtLR9rr5A/1001d3efbe240465b2bb67276f3fc2bf/Hemp_grower_List20260309.pdf",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 15,
+        "retrievedAt": "2026-07-16T05:09:48.022733+00:00",
+        "responseSha256": "92822bb7d9454fd086598335c738942f814516ce59a7557020061acf31106936",
+        "notes": null
       },
       {
         "sourceId": "lasrc-d34e7606b471",
@@ -43,9 +79,33 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 124,
-        "retrievedAt": "2026-07-16T04:34:12.564981+00:00",
+        "retrievedAt": "2026-07-16T05:09:49.314596+00:00",
         "responseSha256": "5295c09d01fba18aba2548c770ffff62f64c23f7e235626a6c74f2b853df69fc",
         "notes": "Historical statewide directory retained as grade-E evidence; markets and distributors were not treated as farm entities."
+      },
+      {
+        "sourceId": "lasrc-fd2311238b4e",
+        "name": "Louisiana Crawfish Promotion and Research Board — suppliers",
+        "pass": 1,
+        "sourceUrl": "https://crawfish.org/producers",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 25,
+        "retrievedAt": "2026-07-16T05:09:48.421297+00:00",
+        "responseSha256": "e63d7044a880905b11d26686bd6b0c19c27ed5b11ac636c919931b5883179bc1",
+        "notes": null
+      },
+      {
+        "sourceId": "lasrc-9fd2ed2f34d9",
+        "name": "Louisiana Strawberry Marketing Board — growers",
+        "pass": 1,
+        "sourceUrl": "https://www.louisianastrawberries.com/find-louisiana-strawberries/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 16,
+        "retrievedAt": "2026-07-16T05:09:48.731793+00:00",
+        "responseSha256": "c86eab3ff704782206d9631f0fca92a25c7d892c123ea865f8b4596197fe597b",
+        "notes": null
       },
       {
         "sourceId": "lasrc-0f2da7bcc3b2",
@@ -55,7 +115,7 @@
         "repositoryPath": null,
         "decision": "coverage_denominator",
         "recordsParsed": 64,
-        "retrievedAt": "2026-07-16T04:34:10.674575+00:00",
+        "retrievedAt": "2026-07-16T05:09:46.580615+00:00",
         "responseSha256": "d09deb41e69c2cbe0dcc277aa03f48c1926ea0dba642bf0851559005ab07856b",
         "notes": null
       },
@@ -67,7 +127,7 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 4,
-        "retrievedAt": "2026-07-16T04:34:13.174558+00:00",
+        "retrievedAt": "2026-07-16T05:09:50.076855+00:00",
         "responseSha256": "9a4d1d0203cb21c9a627d2f6e5f6c30b6dc681be31cb2bef27abb79038bc76aa",
         "notes": null
       },
@@ -79,8 +139,20 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 68,
-        "retrievedAt": "2026-07-16T04:34:12.992086+00:00",
+        "retrievedAt": "2026-07-16T05:09:49.888565+00:00",
         "responseSha256": "ded018e89dd9980d69c5c2fa2fc0197bda1f016aae67cf582f4462ca1e560510",
+        "notes": null
+      },
+      {
+        "sourceId": "lasrc-6091614f3c64",
+        "name": "Louisiana Sweet Potato Commission — shippers and processors",
+        "pass": 2,
+        "sourceUrl": "https://www.sweetpotato.org/shippers",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 5,
+        "retrievedAt": "2026-07-16T05:09:49.452294+00:00",
+        "responseSha256": "63d57d7e89361cab121ae610367596cd4f0bb02b5ba67e7098c438f6355a305b",
         "notes": null
       },
       {
@@ -90,10 +162,10 @@
         "sourceUrl": "https://www.localharvest.org",
         "repositoryPath": null,
         "decision": "observations_retained",
-        "recordsParsed": 70,
-        "retrievedAt": "2026-07-16T04:34:16.573474+00:00",
+        "recordsParsed": 137,
+        "retrievedAt": "2026-07-16T05:09:57.409585+00:00",
         "responseSha256": null,
-        "notes": "Searched 10 county-seat anchors; deduplicated 70 profile URLs. Failures remain explicit."
+        "notes": "Searched 64 county-seat anchors; deduplicated 137 profile URLs. Failures remain explicit."
       },
       {
         "sourceId": "lasrc-8ad88b76b7a9",
@@ -103,8 +175,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 2,
-        "retrievedAt": "2026-07-16T04:34:13.930864+00:00",
-        "responseSha256": "044605a187f5d09844c242ecf14e2468bfa9f8714bea77a471caf76db0b7b1e6",
+        "retrievedAt": "2026-07-16T05:09:50.846599+00:00",
+        "responseSha256": "d313231a8e7e5643d1e3807bddf882dc1e8b8af3628dd4e98688ae074ab8ead0",
         "notes": "County sections searched: 0; closure claims retained for review."
       },
       {
@@ -115,8 +187,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 2,
-        "retrievedAt": "2026-07-16T04:34:13.694265+00:00",
-        "responseSha256": "658bffc68752f6036d6b6bd4b25415d4a284cc3af0e5128baba6b060f2e0c39d",
+        "retrievedAt": "2026-07-16T05:09:50.546744+00:00",
+        "responseSha256": "f834a174643e53060f6c1ed71ead6ac1ba7b7a329060dede4451aa6ae3537073",
         "notes": "County sections searched: 0; closure claims retained for review."
       },
       {
@@ -127,8 +199,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 3,
-        "retrievedAt": "2026-07-16T04:34:14.475421+00:00",
-        "responseSha256": "6bd89ea92dff478629c170b3e1e47d08ac0fa377478eccc2d5666a3a45451aad",
+        "retrievedAt": "2026-07-16T05:09:51.414744+00:00",
+        "responseSha256": "d9e49d0ff9681190a1ac4e3cce0d916f6bef028c9702e33f6b76a5349d2f7e6b",
         "notes": "County sections searched: 0; closure claims retained for review."
       },
       {
@@ -139,15 +211,15 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 1,
-        "retrievedAt": "2026-07-16T04:34:14.209349+00:00",
-        "responseSha256": "6f9c93ffa781f8c1799c065cfd5ba1fb4108475e1e37d26ee68c24840b5bdd14",
+        "retrievedAt": "2026-07-16T05:09:51.142788+00:00",
+        "responseSha256": "787e921ee2cb7a2f1887d10ded41e2db8052f8dbcc440ffe07fcf11406869159",
         "notes": "County sections searched: 0; closure claims retained for review."
       }
     ],
     "coverage": {
       "countyEquivalentsReviewed": 64,
-      "countyEquivalentsWithCandidates": 59,
-      "countyEquivalentsWithEligibleEntities": 52,
+      "countyEquivalentsWithCandidates": 61,
+      "countyEquivalentsWithEligibleEntities": 61,
       "unresolvedCountyEquivalents": []
     }
   },
@@ -174,37 +246,49 @@
       "baselineReleaseId": "2026-07-15-enriched-v2",
       "baselineSourceRowCount": 299,
       "baselineStateRows": 220,
-      "rediscoveredRows": 118,
-      "possibleAliasRows": 5,
-      "baselineOnlyRows": 97
+      "rediscoveredRows": 130,
+      "possibleAliasRows": 6,
+      "baselineOnlyRows": 84
     },
-    "id": "la-coverage-reviewed-v1-2026-07-15",
+    "id": "la-coverage-reviewed-v1-2026-07-16",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-16T04:34:18.908600+00:00",
+    "generatedAt": "2026-07-16T05:10:03.425390+00:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
-      "sourceObservations": 562,
-      "proposedEntities": 400,
-      "promotionEligibleEntities": 198,
-      "researchOrQaEntities": 202,
-      "excludedObservations": 19,
+      "sourceObservations": 1414,
+      "proposedEntities": 1200,
+      "promotionEligibleEntities": 964,
+      "researchOrQaEntities": 236,
+      "excludedObservations": 30,
       "excludedEntityGroups": 0,
-      "identityReviewGroups": 124,
+      "identityReviewGroups": 152,
       "countyCoverageRows": 64,
-      "countiesWithCandidates": 59,
-      "countiesWithEligibleEntities": 52,
-      "sourceDatasets": 10,
+      "countiesWithCandidates": 61,
+      "countiesWithEligibleEntities": 61,
+      "sourceDatasets": 16,
       "manualDecisions": 0,
       "canonicalBaselineObservations": 220,
-      "currentSourceObservations": 342
+      "currentSourceObservations": 1194,
+      "operationStatusCounts": {
+        "likely_operating_2026": 71,
+        "currently_listed_official_2026": 775,
+        "unresolved_2026": 279,
+        "reported_closed_requires_review": 8,
+        "confirmed_operating_2026": 67
+      },
+      "supportedOperatingEntities2026": 826,
+      "additionalLikelyOperatingEntities2026": 67,
+      "operationCountUpperSupportedRange": 893,
+      "operationScopeReviewEntities": 9,
+      "operationIdentityReviewEntities": 22
     },
     "evidenceStorage": {
       "provider": "s3-compatible",
       "environment": "local-staging",
       "status": "local_bundle_only",
       "bucket": "farmfinder-source-releases",
-      "prefix": "state-expansions/LA/la-coverage-reviewed-v1-2026-07-15/",
+      "prefix": "state-expansions/LA/la-coverage-reviewed-v1-2026-07-16/",
       "versioningRequired": true,
       "managedCopyRequiredBeforePromotion": true
     },
@@ -212,50 +296,50 @@
       {
         "role": "observations",
         "filename": "observations.csv.zst",
-        "objectKey": "state-expansions/LA/la-coverage-reviewed-v1-2026-07-15/observations.csv.zst",
-        "sha256": "2aaaa4039fb7d7d8c45dc419ec449e8eaf6b936ea92b7560d154c2c53b5ac609",
-        "bytes": 86814,
-        "rows": 562,
+        "objectKey": "state-expansions/LA/la-coverage-reviewed-v1-2026-07-16/observations.csv.zst",
+        "sha256": "8c1ec8003e51ae461b543830c77dd62d746e0778ca68a246b155edff670a46b7",
+        "bytes": 158561,
+        "rows": 1414,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "local:2aaaa4039fb7d7d8c45dc419"
+        "versionId": "local:8c1ec8003e51ae461b543830"
       },
       {
         "role": "source_records",
         "filename": "source-records.jsonl.zst",
-        "objectKey": "state-expansions/LA/la-coverage-reviewed-v1-2026-07-15/source-records.jsonl.zst",
-        "sha256": "8efb3e27c9e159ff67791c41478fe05ba09738b9fbdde07794375c479534a7eb",
-        "bytes": 49178,
-        "rows": 9,
+        "objectKey": "state-expansions/LA/la-coverage-reviewed-v1-2026-07-16/source-records.jsonl.zst",
+        "sha256": "f80b13687fc0d4973c23d11602e66559022fd9faafee2dcd5bb0c2658205169c",
+        "bytes": 85725,
+        "rows": 16,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "local:8efb3e27c9e159ff67791c41"
+        "versionId": "local:f80b13687fc0d4973c23d116"
       },
       {
         "role": "collection_log",
         "filename": "collection-log.jsonl.zst",
-        "objectKey": "state-expansions/LA/la-coverage-reviewed-v1-2026-07-15/collection-log.jsonl.zst",
-        "sha256": "3848aeed57485083dc1566412a7814955eba17be929e36de11d6a5bb3840ff98",
-        "bytes": 8968,
-        "rows": 121,
+        "objectKey": "state-expansions/LA/la-coverage-reviewed-v1-2026-07-16/collection-log.jsonl.zst",
+        "sha256": "8a0dc95a6f9b517f1bb4d1cb7ca7ef787b10e6beab60e1aefbb4972eb479f687",
+        "bytes": 18009,
+        "rows": 257,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "local:3848aeed57485083dc156641"
+        "versionId": "local:8a0dc95a6f9b517f1bb4d1cb"
       }
     ],
     "approval": {},
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "41ec7349187fc3739727b2ea499e2770a014e0d6c3c1b9d6ab643878121db9b2",
-        "bytes": 331001
+        "sha256": "9169a77924d5e3508ad4304deac2c288bed242db2e17aea9f0f794ffabd46bca",
+        "bytes": 1249085
       },
       "decisions.csv": {
         "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
         "bytes": 260
       },
       "report.md": {
-        "sha256": "f3a13d1725f6afb2cb2d63e1b5e8062176669842e8822bdff7fc7cfab234d427",
-        "bytes": 4359
+        "sha256": "48c8233f97ad82cb6d9903b7c8ef517e2eacb9327c7fb08b25c853cb9018a2a5",
+        "bytes": 5319
       }
     }
   }
