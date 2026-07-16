@@ -22,7 +22,7 @@ This starter does not use `wrangler.jsonc`.
 ## Current shape
 
 - edit site code under `app/`
-- `app/data/farms.json` is the current 311-listing public build artifact
+- `app/data/farms.json` is the current 299-listing public build artifact
 - `config/source-of-truth.json` pins the pre-cutover canonical workbook release
 - `packages/db/` owns the production PostgreSQL/PostGIS migrations and index decisions
 - `infra/` owns reproducible local dependencies and the production infrastructure contract
@@ -94,7 +94,7 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 
 - `npm run dev`: start local development
 - `npm run build`: verify the vinext build output
-- `npm test`: build and verify the rendered FarmFinder shell and 311-record artifact
+- `npm test`: build and verify the rendered FarmFinder shell and 299-record artifact
 - `npm run lint`: run the application linter
 - `npm run data:setup`: create the ignored Python environment for workbook tooling
 - `npm run data:validate`: validate the canonical workbook release manifest

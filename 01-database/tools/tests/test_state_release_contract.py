@@ -103,6 +103,20 @@ class CandidateRetentionPolicyTests(unittest.TestCase):
                 {"review_id": "two", "decision": "retain", "supersedes_review_id": "missing"}
             ])
 
+    def test_supersession_cycles_are_rejected(self) -> None:
+        with self.assertRaisesRegex(ValueError, "supersession cycle"):
+            effective_decisions([
+                {"review_id": "one", "decision": "retain", "supersedes_review_id": "two"},
+                {"review_id": "two", "decision": "retain", "supersedes_review_id": "one"},
+            ])
+
+    def test_malformed_csv_shape_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / "malformed.csv"
+            path.write_text("entity_id,state\nNC-1,NC,extra\n", encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "more values than the header"):
+                validation.read_csv(path)
+
 
 class SoutheastGeographyTests(unittest.TestCase):
     @staticmethod

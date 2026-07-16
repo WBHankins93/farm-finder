@@ -57,7 +57,15 @@ def parse_args() -> argparse.Namespace:
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
-        return list(csv.DictReader(handle))
+        reader = csv.DictReader(handle)
+        rows: list[dict[str, str]] = []
+        for row in reader:
+            if None in row:
+                raise ValueError(
+                    f"{path}: row {reader.line_num} has more values than the header"
+                )
+            rows.append(row)
+        return rows
 
 
 def sha256_file(path: Path) -> str:
@@ -131,7 +139,7 @@ def _validate_v1_state(state: str, require_local_artifacts: bool) -> dict[str, A
         config = json.loads((state_dir / "state-config.json").read_text(encoding="utf-8"))
         manifest = json.loads((state_dir / "release-manifest.json").read_text(encoding="utf-8"))
         sources = json.loads((state_dir / "sources.json").read_text(encoding="utf-8"))
-    except (FileNotFoundError, json.JSONDecodeError) as exc:
+    except (FileNotFoundError, json.JSONDecodeError, ValueError) as exc:
         return {"state": state, "status": "failed", "errors": [str(exc)], "warnings": []}
 
     required_files = set(config.get("repositoryPolicy", {}).get("requiredFiles", []))
@@ -343,7 +351,7 @@ def _validate_v2_state(state: str, require_local_artifacts: bool) -> dict[str, A
         document = json.loads((state_dir / "state.yaml").read_text(encoding="utf-8"))
         entities = read_csv(state_dir / "entities.csv")
         decisions = read_csv(state_dir / "decisions.csv")
-    except (FileNotFoundError, json.JSONDecodeError) as exc:
+    except (FileNotFoundError, json.JSONDecodeError, ValueError) as exc:
         return {"state": state, "status": "failed", "errors": [str(exc)], "warnings": []}
 
     required_files = {"state.yaml", "entities.csv", "decisions.csv", "report.md"}

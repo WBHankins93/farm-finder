@@ -69,6 +69,7 @@ def effective_decisions(rows: Iterable[Mapping[str, str]]) -> list[Mapping[str, 
         raise ValueError("decision review IDs must be present and unique")
     known = set(identifiers)
     superseded: set[str] = set()
+    supersedes_by_id: dict[str, str] = {}
     for row in materialized:
         prior = row.get("supersedes_review_id", "").strip()
         if not prior:
@@ -80,4 +81,17 @@ def effective_decisions(rows: Iterable[Mapping[str, str]]) -> list[Mapping[str, 
         if prior in superseded:
             raise ValueError(f"decision {prior} is superseded more than once")
         superseded.add(prior)
+        supersedes_by_id[row.get("review_id", "")] = prior
+
+    # A cycle would make every member appear superseded and silently remove the
+    # entire chain from the effective view. Reject it as an invalid append-only
+    # history instead.
+    for identifier in identifiers:
+        seen: set[str] = set()
+        current = identifier
+        while current in supersedes_by_id:
+            if current in seen:
+                raise ValueError(f"decision supersession cycle includes {current}")
+            seen.add(current)
+            current = supersedes_by_id[current]
     return [row for row in materialized if row.get("review_id") not in superseded]
