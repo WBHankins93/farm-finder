@@ -209,37 +209,37 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "al-coverage-reviewed-v5-qa-2026-07-15",
+    "id": "al-coverage-reviewed-v6-qa-2026-07-16",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-15T23:30:00-05:00",
+    "generatedAt": "2026-07-16T00:00:00-05:00",
     "promotionReady": false,
-    "promotionBlockReason": "9 retained candidates require follow-up; release remains coverage-reviewed and unapproved",
+    "promotionBlockReason": "8 retained candidates require follow-up; release remains coverage-reviewed and unapproved",
     "counts": {
       "sourceObservations": 1057,
-      "proposedEntities": 808,
+      "proposedEntities": 807,
       "promotionEligibleEntities": 799,
-      "researchOrQaEntities": 9,
-      "excludedObservations": 7,
+      "researchOrQaEntities": 8,
+      "excludedObservations": 9,
       "identityReviewGroups": 162,
       "countyCoverageRows": 67,
       "countiesWithCandidates": 67,
       "countiesWithEligibleEntities": 67,
       "sourceDatasets": 14,
-      "manualDecisions": 81,
-      "excludedEntityGroups": 7
+      "manualDecisions": 92,
+      "excludedEntityGroups": 9
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "27973b2bcb170de34fd1e838b0123f13d9a280b8668a4038d3c771be6e1bc22c",
-        "bytes": 620167
+        "sha256": "0b91ebefcc391e20157f311be165ca3999602f381f3afcfedddbdab2bfa2befa",
+        "bytes": 619210
       },
       "decisions.csv": {
-        "sha256": "3fd400d3d8f2d4aa46c46ce0ab4830533794aeb7ff86dc4ebfb51fbde1dec450",
-        "bytes": 32707
+        "sha256": "73e9a9a40d884ecc8a40d105719355f48935a024a0e1a2ecfdfd9bb8f3679f9c",
+        "bytes": 38330
       },
       "report.md": {
-        "sha256": "ddac104413da101174cb3c00352fd344e40b16cd9ee6faa2c6e1c143e2c257a6",
-        "bytes": 5277
+        "sha256": "3b081d06d30abcfb9862279d53fa633a979c793b27c6852bea4c2434aaba11fe",
+        "bytes": 5257
       }
     },
     "evidenceStorage": {
