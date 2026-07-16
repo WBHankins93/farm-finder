@@ -21,6 +21,7 @@ from state_policy import (  # noqa: E402
     effective_decisions,
 )
 from state_release_status import state_status  # noqa: E402
+from export_state_pipeline import export_state  # noqa: E402
 from collect_alabama import Observation  # noqa: E402
 from collect_southeast import (  # noqa: E402
     STATE_CONFIG,
@@ -341,11 +342,23 @@ class CurrentStateContractTests(unittest.TestCase):
                 self.assertEqual(result["status"], "passed", result["errors"])
 
     def test_coverage_review_is_not_promotion_approval(self) -> None:
-        for state in ("AL", "AR", "TX"):
+        for state in ("AL", "AR", "FL", "GA", "TN", "TX"):
             result = state_status(state)
             self.assertEqual(result["lifecycleStatus"], "coverage_reviewed")
             self.assertFalse(result["promotionReady"])
             self.assertFalse(result["promotable"])
+            self.assertTrue(result["eligibleStagingReady"])
+            self.assertTrue(result["counts"]["qa"] > 0)
+
+    def test_eligible_handoff_keeps_qa_state_scoped(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            handoff = export_state("AL", Path(temporary))
+            self.assertEqual(handoff["status"], "eligible_staged")
+            self.assertEqual(handoff["eligibleCount"], 799)
+            self.assertEqual(handoff["qaCount"], 9)
+            self.assertEqual(handoff["qaPolicy"], "deferred_state_scoped_review")
+            self.assertTrue((Path(temporary) / "AL" / "eligible-entities.csv").is_file())
+            self.assertTrue((Path(temporary) / "AL" / "qa-queue.csv").is_file())
 
     def test_release_fingerprint_changes_with_evidence_identity(self) -> None:
         state_dir = STATE_ROOT / "AL"
