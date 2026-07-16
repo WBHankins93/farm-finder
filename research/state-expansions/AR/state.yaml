@@ -1,0 +1,263 @@
+{
+  "contractVersion": 2,
+  "state": {
+    "code": "AR",
+    "name": "Arkansas",
+    "countyEquivalentLabel": "county",
+    "countyEquivalentCount": 75
+  },
+  "policy": {
+    "version": "2026-07-15",
+    "missingDataDisposition": "research_or_qa_queue",
+    "affirmativeExclusionReasons": [
+      "confirmed_closed",
+      "confirmed_nonfarm",
+      "duplicate_identity",
+      "outside_jurisdiction"
+    ]
+  },
+  "collection": {
+    "requiredPasses": [
+      1,
+      2,
+      3
+    ],
+    "sources": [
+      {
+        "sourceId": "arsrc-fffde3ab3eb8",
+        "name": "Arkansas Department of Agriculture — Arkansas Grown directory",
+        "pass": 1,
+        "sourceUrl": "https://arkansasgrown.org/arkansas-grown/members/?category=arkansas-grown&sort=latest",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 592,
+        "retrievedAt": "2026-07-16T00:09:55.789265+00:00",
+        "responseSha256": "e6a294455deeb0f209870e850ca4156549a9a20fe9c49590561ed2bf59481d62",
+        "notes": "Public directory reported 592 Arkansas Grown profiles across 3 pages; every named profile was retained."
+      },
+      {
+        "sourceId": "arsrc-d61f5816086b",
+        "name": "U.S. Census Bureau — county denominator",
+        "pass": 1,
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2705%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+        "repositoryPath": null,
+        "decision": "coverage_denominator",
+        "recordsParsed": 75,
+        "retrievedAt": "2026-07-16T00:06:15.496450+00:00",
+        "responseSha256": "4d4b1668ad8a88995f5ed7ea9db8cfc9264ab10862c54b30444ec71c452ed471",
+        "notes": null
+      },
+      {
+        "sourceId": "arsrc-5932e32e23d0",
+        "name": "EatWild Arkansas directory",
+        "pass": 2,
+        "sourceUrl": "https://www.eatwild.com/products/arkansas.html",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 2,
+        "retrievedAt": "2026-07-16T00:09:56.349946+00:00",
+        "responseSha256": "72303737e1172ac46935b259ac9c18558c34a9542ef982d6127603c6f66bde1f",
+        "notes": null
+      },
+      {
+        "sourceId": "arsrc-c66af2ac5f00",
+        "name": "University of Arkansas Center for Arkansas Farms and Food — direct-sale farms",
+        "pass": 2,
+        "sourceUrl": "https://farmandfoodsystem.uada.edu/farms/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 21,
+        "retrievedAt": "2026-07-16T00:09:56.157907+00:00",
+        "responseSha256": "f30c00af28b15f00437d6b7998bc8cb711ba24c78c088e61cfa7577b47ff1d0d",
+        "notes": null
+      },
+      {
+        "sourceId": "arsrc-4d46ad42a405",
+        "name": "Association of Arkansas Counties — county-seat anchors",
+        "pass": 3,
+        "sourceUrl": "https://www.arcounties.org/site/assets/files/3779/countyseats.pdf",
+        "repositoryPath": null,
+        "decision": "gap_search_anchors",
+        "recordsParsed": 75,
+        "retrievedAt": "2026-07-16T00:09:57.770015+00:00",
+        "responseSha256": "9b0cdca21325c60bd01b10120bb8cdff12ca13950f1da9a09fbc1adf55bee462",
+        "notes": null
+      },
+      {
+        "sourceId": "arsrc-cefe0213bbf1",
+        "name": "LocalHarvest — Arkansas county-seat gap search",
+        "pass": 3,
+        "sourceUrl": "https://www.localharvest.org",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 151,
+        "retrievedAt": "2026-07-16T00:10:05.777493+00:00",
+        "responseSha256": null,
+        "notes": "Searched 75 county-seat anchors; deduplicated 151 profile URLs. Failures remain explicit."
+      },
+      {
+        "sourceId": "arsrc-52ed7c7818af",
+        "name": "PickYourOwn — Central Arkansas",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/ARlittlerock.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 28,
+        "retrievedAt": "2026-07-16T00:09:56.671356+00:00",
+        "responseSha256": "502a8cd8b023922c96040d13e8b5813ceadcb5c616cfd014543705822d984617",
+        "notes": "County sections searched: 8; closure claims retained for review."
+      },
+      {
+        "sourceId": "arsrc-21d267e39e60",
+        "name": "PickYourOwn — Northeast Arkansas",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/ARne.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 18,
+        "retrievedAt": "2026-07-16T00:09:57.640086+00:00",
+        "responseSha256": "d8e788526a71b1a585413709ae3e6e42cd07256cda700336905f288d66d1aa9a",
+        "notes": "County sections searched: 19; closure claims retained for review."
+      },
+      {
+        "sourceId": "arsrc-908cefa65b88",
+        "name": "PickYourOwn — Northwest Arkansas",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/ARnw.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 37,
+        "retrievedAt": "2026-07-16T00:09:57.358810+00:00",
+        "responseSha256": "1a0128c224a0991da91b2da147a0779d84e8fa15cb0478cdb4149ed571c716c9",
+        "notes": "County sections searched: 17; closure claims retained for review."
+      },
+      {
+        "sourceId": "arsrc-6624ee42e7a2",
+        "name": "PickYourOwn — Southeast Arkansas",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/ARse.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 11,
+        "retrievedAt": "2026-07-16T00:09:57.113875+00:00",
+        "responseSha256": "d1a2e6067c475d84e5fd144de723bf18d9c691d3d3b8e3c2f2d5e43ecfc1d10d",
+        "notes": "County sections searched: 12; closure claims retained for review."
+      },
+      {
+        "sourceId": "arsrc-8cd0d31d14a2",
+        "name": "PickYourOwn — Southwest Arkansas",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/ARsw.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 11,
+        "retrievedAt": "2026-07-16T00:09:56.877783+00:00",
+        "responseSha256": "8c49326c8547847750e631d8934555c8195f4fa9641a8ff26b10143bf3d23c00",
+        "notes": "County sections searched: 15; closure claims retained for review."
+      }
+    ],
+    "coverage": {
+      "countyEquivalentsReviewed": 75,
+      "countyEquivalentsWithCandidates": 75,
+      "countyEquivalentsWithEligibleEntities": 67,
+      "unresolvedCountyEquivalents": []
+    }
+  },
+  "repositoryPolicy": {
+    "requiredFiles": [
+      "state.yaml",
+      "entities.csv",
+      "decisions.csv",
+      "report.md"
+    ],
+    "maxTrackedBytes": 5000000
+  },
+  "release": {
+    "id": "ar-coverage-reviewed-v1-2026-07-15",
+    "status": "coverage_reviewed",
+    "generatedAt": "2026-07-16T00:10:09.229428+00:00",
+    "promotionReady": false,
+    "promotionBlockReason": "state approval and canonical promotion remain separate gates",
+    "counts": {
+      "sourceObservations": 871,
+      "proposedEntities": 766,
+      "promotionEligibleEntities": 524,
+      "researchOrQaEntities": 242,
+      "excludedObservations": 65,
+      "excludedEntityGroups": 0,
+      "identityReviewGroups": 38,
+      "countyCoverageRows": 75,
+      "countiesWithCandidates": 75,
+      "countiesWithEligibleEntities": 67,
+      "sourceDatasets": 11,
+      "manualDecisions": 0
+    },
+    "repositoryFiles": {
+      "entities.csv": {
+        "sha256": "fd840657d244d72d0fd60268f55c6a196264a2057d5aa350dd875e6c01e89463",
+        "bytes": 653570
+      },
+      "decisions.csv": {
+        "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
+        "bytes": 260
+      },
+      "report.md": {
+        "sha256": "963e5e75a96cebe230af64fbe43d3c50dd71af04b07589c8ce630665270e6727",
+        "bytes": 2079
+      }
+    },
+    "evidenceStorage": {
+      "provider": "s3-compatible",
+      "environment": "local-staging",
+      "status": "local_bundle_only",
+      "bucket": "farmfinder-source-releases",
+      "prefix": "state-expansions/AR/ar-coverage-reviewed-v1-2026-07-15/",
+      "versioningRequired": true,
+      "managedCopyRequiredBeforePromotion": true
+    },
+    "artifacts": [
+      {
+        "role": "observations",
+        "filename": "observations.csv.zst",
+        "objectKey": "state-expansions/AR/ar-coverage-reviewed-v1-2026-07-15/observations.csv.zst",
+        "sha256": "f9107ef1c896740fe72956935ae01b70b173c1aac49156753f6f20c7bb299f31",
+        "bytes": 212830,
+        "rows": 871,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:f9107ef1c896740fe7295693"
+      },
+      {
+        "role": "source_records",
+        "filename": "source-records.jsonl.zst",
+        "objectKey": "state-expansions/AR/ar-coverage-reviewed-v1-2026-07-15/source-records.jsonl.zst",
+        "sha256": "34314ddefc8c291d859ab109353fa394939032adf28eb2f1e63ffc2d00d82b8c",
+        "bytes": 240439,
+        "rows": 7,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:34314ddefc8c291d859ab109"
+      },
+      {
+        "role": "collection_log",
+        "filename": "collection-log.jsonl.zst",
+        "objectKey": "state-expansions/AR/ar-coverage-reviewed-v1-2026-07-15/collection-log.jsonl.zst",
+        "sha256": "5a6f6517f589a86f23700db7bfedbe1a4647ccdbe37ad95cc5c5e72393365e6b",
+        "bytes": 60414,
+        "rows": 984,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:5a6f6517f589a86f23700db7"
+      }
+    ],
+    "canonicalBoundary": {
+      "authorityMode": "pre_cutover_workbook",
+      "allowedStates": [
+        "LA",
+        "MS"
+      ],
+      "sourceRowCount": 299
+    },
+    "approval": {}
+  }
+}
