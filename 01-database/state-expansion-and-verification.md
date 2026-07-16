@@ -82,7 +82,7 @@ Texas completed all three collection passes on 2026-07-15. Its corrected coverag
 reviewed private release contains 1,062 source and curator observations reconciled to
 855 retained entities; 736 are staged-eligible and 119 remain in explicit research/QA.
 All 254 counties have a final searched status: 179 have candidates, 75 are
-`searched_none_found`, and 171 have at least one eligible entity. The collector is
+`searched_none_found`, and 172 have at least one eligible entity. The collector is
 `01-database/tools/collect_texas.py`, and the four-file release is under
 `research/state-expansions/TX/`. Texas is not record-verified, approved, promotion-
 ready, or canonical.

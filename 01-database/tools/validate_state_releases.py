@@ -19,6 +19,7 @@ from state_policy import (
     ELIGIBLE_STATUS,
     RESEARCH_STATUS,
     effective_decisions,
+    sufficient_promotion_evidence,
 )
 
 
@@ -432,6 +433,16 @@ def _validate_v2_state(state: str, require_local_artifacts: bool) -> dict[str, A
         if row.get("decision") == "exclude":
             require(row.get("exclusion_reason") in AFFIRMATIVE_EXCLUSION_REASONS,
                     f"decision {row.get('review_id')} lacks an affirmative exclusion reason", errors)
+    corroborating_grades: dict[str, set[str]] = {}
+    for row in current_decisions:
+        if row.get("decision") in {"corroborate", "correct"}:
+            corroborating_grades.setdefault(row.get("normalized_name", ""), set()).add(
+                row.get("evidence_grade", ""))
+    for row in eligible:
+        require(sufficient_promotion_evidence(
+                    row.get("evidence_grades", ""),
+                    corroborating_grades.get(row.get("normalized_name", ""), ())),
+                f"eligible {row.get('entity_id')} has insufficient evidence", errors)
     excluded_names = {row.get("normalized_name") for row in current_decisions if row.get("decision") == "exclude"}
     entity_names = {row.get("normalized_name") for row in entities}
     require(not (excluded_names & entity_names), "affirmatively excluded entity remains staged", errors)
