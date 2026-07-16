@@ -1,0 +1,65 @@
+{
+  "version": "2026-07-15",
+  "definition": "Evidence that a distinct, in-scope primary producer is operating or currently listed during 2026; missing evidence never proves closure.",
+  "statusOrder": [
+    "confirmed_operating_2026",
+    "currently_listed_official_2026",
+    "likely_operating_2026",
+    "unresolved_2026",
+    "reported_closed_requires_review"
+  ],
+  "sourceRules": {
+    "LDAF 2026 FMNP roadside-stand directory": {
+      "status": "confirmed_operating_2026",
+      "basis": "Named roadside stand in the May 2026 LDAF FMNP directory"
+    },
+    "Louisiana Strawberry Marketing Board — growers": {
+      "status": "currently_listed_official_2026",
+      "basis": "Named grower on the Louisiana Strawberry Marketing Board farm finder retrieved in 2026"
+    },
+    "Louisiana Crawfish Promotion and Research Board — suppliers": {
+      "status": "currently_listed_official_2026",
+      "basis": "Named farmer or fisherman supplier profile on the live Louisiana Crawfish Board directory retrieved in 2026"
+    },
+    "LDAF June 2026 nursery certificate holders": {
+      "status": "currently_listed_official_2026",
+      "basis": "Named grower holding an LDAF nursery certificate permit on the June 29, 2026 list"
+    },
+    "LDAF March 2026 licensed hemp growers": {
+      "status": "currently_listed_official_2026",
+      "basis": "Named licensed grower on the March 2026 LDAF industrial-hemp list"
+    },
+    "LDAF June 2026 registered apiary businesses": {
+      "status": "currently_listed_official_2026",
+      "basis": "Farm, ranch, honey business, bee company, or apiary name on the June 29, 2026 LDAF beekeeper register"
+    },
+    "MDAC Mississippi Farm Marketplace": {
+      "status": "confirmed_operating_2026",
+      "basis": "Current MDAC commodity listing with a 2026 availability period"
+    },
+    "MDAC-linked Mississippi Christmas Tree Farms": {
+      "status": "currently_listed_official_2026",
+      "basis": "Named farm in the MDAC-linked Mississippi Christmas Tree directory retrieved in 2026"
+    },
+    "MDAC 2025–2026 certified nursery growers": {
+      "status": "likely_operating_2026",
+      "basis": "Commercial or non-commercial grower in the MDAC nursery certificate directory valid through June 30, 2026"
+    },
+    "Genuine MS — Grown": {
+      "status": "currently_listed_official_2026",
+      "basis": "Named member profile in the live Genuine MS Grown directory retrieved in 2026"
+    },
+    "Genuine MS — Raised": {
+      "status": "currently_listed_official_2026",
+      "basis": "Named member profile in the live Genuine MS Raised directory retrieved in 2026"
+    },
+    "MDAC Mississippi Farmers Market agricultural vendors": {
+      "status": "currently_listed_official_2026",
+      "basis": "Named agricultural vendor in the live MDAC farmers-market vendor list retrieved in 2026"
+    },
+    "MDAC registered agritourism venues": {
+      "status": "currently_listed_official_2026",
+      "basis": "Named venue in the live MDAC registered agritourism directory retrieved in 2026"
+    }
+  }
+}

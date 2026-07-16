@@ -36,9 +36,11 @@ from collect_southeast import (  # noqa: E402
     localharvest_profile,
     next_page_data,
     normalized_county,
+    nursery_column_records,
     sanitized_email,
     sanitized_phone,
 )
+from audit_operation_evidence import dated_active_excerpt  # noqa: E402
 import migrate_state_contract_v2 as migration  # noqa: E402
 import validate_state_releases as validation  # noqa: E402
 from validate_state_releases import STATE_ROOT, release_fingerprint, validate_state  # noqa: E402
@@ -200,6 +202,28 @@ class SoutheastGeographyTests(unittest.TestCase):
 
 
 class SoutheastSourceClassificationTests(unittest.TestCase):
+    def test_current_year_requires_nearby_activity_language(self) -> None:
+        self.assertEqual(dated_active_excerpt("Copyright 2026 Example Farm"), ("", ""))
+        year, _ = dated_active_excerpt("Our 2026 blueberry season opens May 20; orders are available now.")
+        self.assertEqual(year, "2026")
+
+    def test_nursery_parser_retains_explicit_grower_classification(self) -> None:
+        rows = nursery_column_records([
+            "TINY FARM",
+            "Owner Name                              County: Example",
+            "Physical Address:                       Greenhouses: 1",
+            "1 Farm Road                             Total Sq Ft:",
+            "Town , MS 39000                         Classification: Commercial",
+            "Mailing Address:                        Sales Structure: Retail",
+            "1 Farm Road                             SOD Acres: 0.00",
+            "Town , MS 39000                         Total Acres: 2.00",
+            "                                         Stock Sold:",
+            "Phone #: (601) 555-0100                 VEGETABLE, FRUITING",
+            "Website:",
+        ])
+        self.assertEqual((rows[0]["name"], rows[0]["classification"], rows[0]["county"]),
+                         ("Tiny Farm", "Commercial", "Example"))
+
     def test_farm_named_profile_is_confirmed(self) -> None:
         self.assertTrue(farm_operation_signal("Windy Springs Farm", "", "Vegetables"))
 

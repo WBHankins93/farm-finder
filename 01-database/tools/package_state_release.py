@@ -290,6 +290,15 @@ def package_v2(args: argparse.Namespace, state: str, state_dir: Path, source_dir
             "canonicalBaselineObservations": int(summary["canonical_baseline_observations"]),
             "currentSourceObservations": int(summary["current_source_observations"]),
         })
+    if "operation_status_counts" in summary:
+        counts.update({
+            "operationStatusCounts": summary["operation_status_counts"],
+            "supportedOperatingEntities2026": int(summary["supported_operating_entities_2026"]),
+            "additionalLikelyOperatingEntities2026": int(summary["additional_likely_operating_entities_2026"]),
+            "operationCountUpperSupportedRange": int(summary["operation_count_upper_supported_range"]),
+            "operationScopeReviewEntities": int(summary["operation_scope_review_entities"]),
+            "operationIdentityReviewEntities": int(summary["operation_identity_review_entities"]),
+        })
     unresolved = [
         row.get("county", "") for row in coverage
         if row.get("status") in {"source_blocked", "follow_up_required"}

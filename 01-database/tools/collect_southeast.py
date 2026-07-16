@@ -66,10 +66,17 @@ STATE_CONFIG: dict[str, dict[str, Any]] = {
         "official_fmnp": "https://www.ldaf.la.gov/fmnp",
         "lsu_farm_food_pdf": "https://www.lsuagcenter.com/~/media/system/9/1/9/e/919ed83cfbd8ff0bd98b317a65f0604f/directory%20-%20la%20farm%20food%20during%20covidpdfpdf.pdf",
         "agritourism_pdf": "https://assets.ctfassets.net/pc5e1rlgfrov/7B8yMZqsUPa8lLZSUToUtw/19d3206a6070dea80e63683408b1552e/agritourism-directory-2023.pdf",
+        "crawfish_suppliers": "https://crawfish.org/producers",
+        "strawberry_growers": "https://www.louisianastrawberries.com/find-louisiana-strawberries/",
+        "sweet_potato_shippers": "https://www.sweetpotato.org/shippers",
+        "nursery_growers_pdf": "https://assets.ctfassets.net/pc5e1rlgfrov/6bRblalD03I36YRFk7xtGP/a3c8fc82041cb934b92123a77c11cf9a/Hort_Nursery_Certificate_List.pdf",
+        "hemp_growers_pdf": "https://assets.ctfassets.net/pc5e1rlgfrov/3th6qHxDCGxZ3AtLR9rr5A/1001d3efbe240465b2bb67276f3fc2bf/Hemp_grower_List20260309.pdf",
+        "apiary_register_pdf": "https://assets.ctfassets.net/pc5e1rlgfrov/7muuQp3Pj6scacLq7VhlHK/0af35d52af4d67654efe11e87bfbde7d/Hort_Apiary_List.pdf",
         "eatwild": "https://www.eatwild.com/products/louisiana.html",
         "pyo_index": "https://www.pickyourown.org/LA.htm",
         "pyo_discover_regions": True,
         "census_place_gap_search": True,
+        "census_place_full_search": True,
         "report_passes": [
             "the 2026 LDAF Farmers' Market Nutrition Program roadside-stand directory and the LSU AgCenter statewide farm-food directory",
             "the LDAF certified agritourism directory and EatWild",
@@ -88,6 +95,8 @@ STATE_CONFIG: dict[str, dict[str, Any]] = {
         "mdac_vendor_list": "https://agnet.mdac.ms.gov/Website/vendorlist",
         "mdac_marketplace": "https://agnet.mdac.ms.gov/MarketPortal/MarketPortal",
         "mdac_agritourism": "https://agnet.mdac.ms.gov/website/AgTourism/Venues",
+        "christmas_tree_farms": "https://mschristmastrees.com/locations/",
+        "certified_nurseries_pdf": "https://agnet.mdac.ms.gov/agManage/uploads/1415.pdf",
         "eatwild": "https://www.eatwild.com/products/mississippi.html",
         "pyo_index": "https://www.pickyourown.org/MS.htm",
         "pyo_regions": {
@@ -98,6 +107,7 @@ STATE_CONFIG: dict[str, dict[str, Any]] = {
             "Southwest Mississippi": "https://www.pickyourown.org/MSsw.htm",
         },
         "census_place_gap_search": True,
+        "census_place_full_search": True,
         "report_passes": [
             "Genuine MS Grown and Raised archives with current producer profiles",
             "MDAC farmers-market vendors, Farm Marketplace, agritourism venues, and EatWild",
@@ -627,6 +637,228 @@ def louisiana_agritourism(state: str, config: dict[str, Any]) -> tuple[list[Obse
     return observations, [logged(request_log, 2, source_name, len(records), "observations_retained")], {"ldaf_agritourism_records": records}
 
 
+def louisiana_crawfish_suppliers(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "Louisiana Crawfish Promotion and Research Board — suppliers"
+    body, request_log = fetch(config["crawfish_suppliers"])
+    observations: list[Observation] = []
+    records: list[dict[str, Any]] = []
+    for article in re.findall(r"<article\b.*?</article>", body, re.I | re.S):
+        name_match = re.search(r'post_title[^>]*>\s*<a\s+href="([^"]+)">(.*?)</a>', article, re.I | re.S)
+        if not name_match:
+            continue
+        profile_url, name_html = name_match.groups()
+        name = strip_tags(name_html)
+        values: dict[str, str] = {}
+        for key, css_class in {
+            "location": "userprofile-location", "phone": "userprofile-phone",
+            "email": "userprofile-email", "website": "userprofilewebsite-url",
+        }.items():
+            match = re.search(rf'{css_class}.*?<span\s+class="w-post-elm-value">(.*?)</span>', article, re.I | re.S)
+            values[key] = strip_tags(match.group(1)) if match else ""
+        location = values["location"]
+        zip_match = re.search(r"\b(\d{5})\b", location)
+        links = [values["website"]] if values["website"] else []
+        website, facebook, instagram, tiktok = split_public_links(links, "crawfish.org")
+        confirmed = farm_entity_confirmation(name, "Louisiana Crawfish Board farmer or fisherman supplier", "Crawfish")
+        row = empty_observation(state, source_name, profile_url.rstrip("/").rsplit("/", 1)[-1], name, profile_url, 1, "B")
+        row.update({
+            "entity_type_source": "Louisiana Crawfish Board farmer or fisherman supplier",
+            "entity_type_review": "farm_activity_confirmed_by_current_official_producer_board" if confirmed else "official_crawfish_supplier_requires_primary_producer_review",
+            "city": "",
+            "postal_code": zip_match.group(1) if zip_match else "",
+            "address": location,
+            "location_precision": "public_directory_address_or_city",
+            "phone": values["phone"], "email": values["email"],
+            "products": "Louisiana crawfish", "business_types": "Crawfish farmer or fisherman supplier",
+            "website_url": website, "facebook_url": facebook, "instagram_url": instagram, "tiktok_url": tiktok,
+            "on_farm_sales": True,
+            "notes": "Current Louisiana Crawfish Promotion and Research Board supplier profile.",
+        })
+        observations.append(Observation(**row))
+        records.append({"name": name, "profile_url": profile_url, **values})
+    return observations, [logged(request_log, 1, source_name, len(records), "observations_retained")], {"louisiana_crawfish_board_suppliers": records}
+
+
+def louisiana_strawberry_growers(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "Louisiana Strawberry Marketing Board — growers"
+    body, request_log = fetch(config["strawberry_growers"])
+    section_match = re.search(
+        r"<h2[^>]*>.*?Louisiana Growers.*?</h2>(.*?)(?:U-Pick Farms|Louisiana U-Pick Farms)",
+        body,
+        re.I | re.S,
+    )
+    section = section_match.group(1) if section_match else body
+    observations: list[Observation] = []
+    records: list[dict[str, Any]] = []
+    for index, block in enumerate(re.findall(r"<p>(.*?)</p>", section, re.I | re.S)):
+        strong = re.search(r"<strong>(.*?)</strong>", block, re.I | re.S)
+        if not strong:
+            continue
+        heading = strip_tags(strong.group(1))
+        if " - " in heading:
+            name, city = [clean_text(value) for value in heading.rsplit(" - ", 1)]
+        else:
+            name, city = heading, ""
+        if not name:
+            continue
+        text = strip_tags(block)
+        phones = re.findall(r"(?<!\d)(?:\+?1[-. ]?)?\(?\d{3}\)?[-. ]\d{3}[-. ]\d{4}(?!\d)", text)
+        email = re.search(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", text, re.I)
+        links = [html.unescape(value) for value in re.findall(r'<a\s+href="([^"]+)"', block, re.I)]
+        website, facebook, instagram, tiktok = split_public_links(links, "louisianastrawberries.com")
+        row = empty_observation(state, source_name, f"grower-{index}-{name}", name, config["strawberry_growers"], 1, "B")
+        row.update({
+            "entity_type_source": "Louisiana strawberry grower",
+            "entity_type_review": "farm_activity_confirmed_by_current_official_producer_board",
+            "city": normalized_city(city), "location_precision": "public_directory_city",
+            "phone": phones[0] if phones else "", "email": email.group(0) if email else "",
+            "products": "Louisiana-grown strawberries", "business_types": "Strawberry grower",
+            "website_url": website, "facebook_url": facebook, "instagram_url": instagram, "tiktok_url": tiktok,
+            "on_farm_sales": bool(re.search(r"u-pick|farm", text, re.I)),
+            "notes": text[:1200],
+        })
+        observations.append(Observation(**row))
+        records.append({"name": name, "city": city, "text": text, "links": links})
+    return observations, [logged(request_log, 1, source_name, len(records), "observations_retained")], {"louisiana_strawberry_board_growers": records}
+
+
+def louisiana_sweet_potato_shippers(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "Louisiana Sweet Potato Commission — shippers and processors"
+    body, request_log = fetch(config["sweet_potato_shippers"])
+    observations: list[Observation] = []
+    records: list[dict[str, Any]] = []
+    blocks = re.findall(r"<h2\b[^>]*>(.*?)</h2>", body, re.I | re.S)
+    for index, block in enumerate(blocks):
+        name_match = re.search(r"<strong>(.*?)</strong>", block, re.I | re.S)
+        if not name_match:
+            continue
+        name = strip_tags(name_match.group(1))
+        if not name or name.casefold() in {"shippers of louisiana yams", "processors of louisiana yams"}:
+            continue
+        text = strip_tags(block)
+        city_match = re.search(r"\b([A-Za-z][A-Za-z .'-]{1,40}),\s*LA\b", text, re.I)
+        phone = re.search(r"(?<!\d)(?:\+?1[-. ]?)?\(?\d{3}\)?[-. ]\d{3}[-. ]\d{4}(?!\d)", text)
+        links = [html.unescape(value) for value in re.findall(r'<a\s+href="([^"]+)"', block, re.I)]
+        website, facebook, instagram, tiktok = split_public_links(links, "sweetpotato.org")
+        confirmed = bool(re.search(r"\bfarms?\b", name, re.I))
+        row = empty_observation(state, source_name, f"shipper-{index}-{name}", name, config["sweet_potato_shippers"], 2, "C")
+        row.update({
+            "entity_type_source": "Louisiana sweet-potato shipper or processor",
+            "entity_type_review": "farm_activity_confirmed_by_official_commission_farm_name" if confirmed else "official_shipper_or_processor_requires_primary_producer_review",
+            "city": normalized_city(city_match.group(1)) if city_match else "", "location_precision": "public_directory_city",
+            "phone": phone.group(0) if phone else "", "products": "Louisiana sweet potatoes",
+            "business_types": "Sweet-potato shipper or processor", "website_url": website,
+            "facebook_url": facebook, "instagram_url": instagram, "tiktok_url": tiktok,
+            "notes": "Current public commission page has an undated shipper/processor list; primary production requires review.",
+        })
+        observations.append(Observation(**row))
+        records.append({"name": name, "text": text, "links": links})
+    return observations, [logged(request_log, 2, source_name, len(records), "observations_retained")], {"louisiana_sweet_potato_shippers_processors": records}
+
+
+def louisiana_nursery_growers(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "LDAF June 2026 nursery certificate holders"
+    text, request_log = extract_pdf_text(config["nursery_growers_pdf"])
+    records: list[dict[str, str]] = []
+    for line in text.splitlines():
+        parts = re.split(r"\s{2,}", line.strip())
+        if len(parts) < 6 or parts[0].title() not in LA_PARISHES or not re.fullmatch(r"NC[12]", parts[-1]):
+            continue
+        phone = next((value for value in parts[2:-4] if re.search(r"\d{3}.*\d{3}.*\d{4}", value)), "")
+        records.append({
+            "parish": parts[0].title(), "name": display_name_from_upper(parts[1]),
+            "contact": parts[2] if len(parts) > 6 else "", "phone": phone,
+            "address": parts[-4], "city": parts[-3], "postal_code": parts[-2], "permit": parts[-1],
+        })
+    observations: list[Observation] = []
+    for index, record in enumerate(records):
+        row = empty_observation(state, source_name, f"nursery-{index}-{record['name']}", record["name"], config["nursery_growers_pdf"], 1, "A")
+        row.update({
+            "entity_type_source": "LDAF nursery grower permit holder",
+            "entity_type_review": "farm_activity_confirmed_by_current_official_grower_permit",
+            "county": normalized_county(record["parish"]), "county_source": config["nursery_growers_pdf"],
+            "city": normalized_city(record["city"]), "postal_code": record["postal_code"],
+            "address": record["address"], "location_precision": "public_permit_address",
+            "phone": record["phone"], "products": "Nursery stock, cut flowers, or bulbs grown by the permit holder",
+            "business_types": f"Licensed nursery grower; {record['permit']}",
+            "on_farm_sales": True,
+            "notes": "LDAF states the nursery certificate permit authorizes a grower to sell nursery stock, cut flowers, and bulbs that the permit holder grows.",
+        })
+        observations.append(Observation(**row))
+    return observations, [logged(request_log, 1, source_name, len(records), "observations_retained")], {"ldaf_nursery_certificate_growers": records}
+
+
+def louisiana_hemp_growers(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "LDAF March 2026 licensed hemp growers"
+    text, request_log = extract_pdf_text(config["hemp_growers_pdf"])
+    records: list[dict[str, str]] = []
+    for line in text.splitlines()[2:]:
+        parts = re.split(r"\s{2,}", line.strip())
+        if len(parts) not in {5, 6} or not re.fullmatch(r"\d{2}_\d+", parts[-1]):
+            continue
+        if len(parts) == 6:
+            licensee, business, parish, phone, email, license_number = parts
+        else:
+            licensee, parish, phone, email, license_number = parts
+            business = ""
+        records.append({
+            "licensee": display_name_from_upper(licensee),
+            "name": display_name_from_upper(business or licensee),
+            "parish": normalized_county(parish), "phone": phone, "email": email,
+            "license_number": license_number,
+        })
+    observations: list[Observation] = []
+    for record in records:
+        row = empty_observation(state, source_name, record["license_number"], record["name"], config["hemp_growers_pdf"], 1, "A")
+        row.update({
+            "entity_type_source": "LDAF licensed industrial-hemp grower",
+            "entity_type_review": "farm_activity_confirmed_by_current_official_grower_license",
+            "county": record["parish"], "county_source": config["hemp_growers_pdf"],
+            "phone": record["phone"], "email": record["email"],
+            "products": "Industrial hemp", "business_types": "Licensed industrial-hemp grower",
+            "notes": f"LDAF March 2026 grower license {record['license_number']}; licensee {record['licensee']}.",
+        })
+        observations.append(Observation(**row))
+    return observations, [logged(request_log, 1, source_name, len(records), "observations_retained")], {"ldaf_hemp_growers": records}
+
+
+def louisiana_registered_apiary_businesses(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "LDAF June 2026 registered apiary businesses"
+    text, request_log = extract_pdf_text(config["apiary_register_pdf"])
+    business_signal = re.compile(r"\b(?:farm|farms|ranch|honey|apiar|bee|beez|acres|homestead|orchard)\b", re.I)
+    all_records: list[dict[str, str]] = []
+    retained: list[dict[str, str]] = []
+    for line in text.splitlines():
+        parts = re.split(r"\s{2,}", line.strip())
+        if len(parts) < 3 or parts[0].title() not in LA_PARISHES:
+            continue
+        record = {
+            "parish": parts[0].title(), "name": display_name_from_upper(parts[1].strip(" ,")),
+            "address": parts[2], "phone": parts[3] if len(parts) > 3 else "",
+        }
+        all_records.append(record)
+        if business_signal.search(record["name"]):
+            retained.append(record)
+    observations: list[Observation] = []
+    for index, record in enumerate(retained):
+        city_zip = re.search(r"(?:,\s*)?([A-Za-z][A-Za-z .'-]{1,40}),\s*LA\s+(\d{5})", record["address"], re.I)
+        row = empty_observation(state, source_name, f"apiary-{index}-{record['name']}", record["name"], config["apiary_register_pdf"], 1, "A")
+        row.update({
+            "entity_type_source": "LDAF registered apiary business",
+            "entity_type_review": "farm_activity_confirmed_by_current_official_apiary_registration",
+            "county": normalized_county(record["parish"]), "county_source": config["apiary_register_pdf"],
+            "city": normalized_city(city_zip.group(1)) if city_zip else "",
+            "postal_code": city_zip.group(2) if city_zip else "", "address": record["address"],
+            "location_precision": "public_registration_address", "phone": record["phone"],
+            "products": "Registered apiary or beekeeping operation; public sales require separate verification",
+            "business_types": "Registered apiary business",
+            "notes": "The public registration confirms a controlled apiary. Personal-name-only registrations remain in raw evidence and were not assumed to be public farm businesses.",
+        })
+        observations.append(Observation(**row))
+    note = f"Reviewed {len(all_records)} public registrations; retained {len(retained)} names with an explicit farm, ranch, honey-business, bee-company, or apiary signal."
+    return observations, [logged(request_log, 1, source_name, len(retained), "observations_retained", note)], {"ldaf_registered_apiary_businesses": retained, "ldaf_personal_name_apiary_registrations_reviewed": len(all_records) - len(retained)}
+
+
 def mississippi_genuine(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
     observations: list[Observation] = []
     logs: list[dict[str, Any]] = []
@@ -643,7 +875,10 @@ def mississippi_genuine(state: str, config: dict[str, Any]) -> tuple[list[Observ
             if not match:
                 continue
             location, profile_url, farm_name = map(clean_text, match.groups())
-            parsed.append({"source_name": source_name, "profile_url": profile_url, "farm_name": farm_name, "location": location})
+            parsed.append({
+                "source_name": source_name, "profile_url": profile_url, "farm_name": farm_name,
+                "location": location, "archive_description": strip_tags(article),
+            })
         cards.extend(parsed)
         logs.append(logged(request_log, 1, source_name, len(parsed), "observations_retained"))
 
@@ -667,7 +902,7 @@ def mississippi_genuine(state: str, config: dict[str, Any]) -> tuple[list[Observ
                     links.append(html.unescape(match.group(1)))
             website, facebook, instagram, tiktok = split_public_links(links, "genuinems.com")
             products = [strip_tags(value) for value in re.findall(r'<li\s+class="product-item">(.*?)</li>', body, re.I | re.S)]
-            description = meta_value(body, "description")
+            description = meta_value(body, "description") or card.get("archive_description", "")
             product_text = "; ".join(value for value in products if value) or "Mississippi-grown or -raised farm products"
             confirmed = farm_entity_confirmation(card["farm_name"], description, product_text)
             row = empty_observation(state, card["source_name"], profile_url.rsplit("/", 2)[-2], card["farm_name"], profile_url, 1, "B")
@@ -843,6 +1078,136 @@ def mississippi_agritourism(state: str, config: dict[str, Any]) -> tuple[list[Ob
         observations.append(Observation(**row))
         records.append({"id": record_id, "name": name, "county": county, "text": text})
     return observations, [logged(request_log, 2, source_name, len(records), "observations_retained")], {"mdac_agritourism_venues": records}
+
+
+def mississippi_christmas_tree_farms(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "MDAC-linked Mississippi Christmas Tree Farms"
+    body, request_log = fetch(config["christmas_tree_farms"])
+    observations: list[Observation] = []
+    records: list[dict[str, Any]] = []
+    headings = list(re.finditer(r"<h5[^>]*>(.*?)</h5>", body, re.I | re.S))
+    for index, match in enumerate(headings):
+        end = headings[index + 1].start() if index + 1 < len(headings) else len(body)
+        segment = body[match.end():end]
+        raw_name = strip_tags(match.group(1))
+        name = re.sub(r"\s*\([^)]*(?:2025|2026|trees may be sourced)[^)]*\)\s*$", "", raw_name, flags=re.I).strip()
+        if not name:
+            continue
+        text = strip_tags(segment)
+        city_zip = re.search(r"\b([A-Za-z][A-Za-z .'-]{1,40}),\s*MS\s+(\d{5})\b", text, re.I)
+        phone = re.search(r"(?<!\d)(?:\+?1[-. ]?)?\(?\d{3}\)?[-. ]\d{3}[-. ]\d{4}(?!\d)", text)
+        email = re.search(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", text, re.I)
+        links = [html.unescape(value) for value in re.findall(r'<a\s+href="([^"]+)"', segment, re.I)]
+        website, facebook, instagram, tiktok = split_public_links(links, "mschristmastrees.com")
+        row = empty_observation(state, source_name, f"tree-{index}-{name}", name, config["christmas_tree_farms"], 1, "B")
+        row.update({
+            "entity_type_source": "Mississippi Christmas tree farm",
+            "entity_type_review": "farm_activity_confirmed_by_current_official_farm_directory",
+            "city": normalized_city(city_zip.group(1)) if city_zip else "",
+            "postal_code": city_zip.group(2) if city_zip else "",
+            "address": text.split("Contact:", 1)[0].strip(), "location_precision": "public_directory_address_or_city",
+            "phone": phone.group(0) if phone else "", "email": email.group(0) if email else "",
+            "products": "Mississippi-grown Christmas trees", "business_types": "Christmas tree farm",
+            "website_url": website, "facebook_url": facebook, "instagram_url": instagram, "tiktok_url": tiktok,
+            "on_farm_sales": True,
+            "notes": raw_name + ". " + text[:1100],
+        })
+        observations.append(Observation(**row))
+        records.append({"name": name, "raw_name": raw_name, "text": text, "links": links})
+    return observations, [logged(request_log, 1, source_name, len(records), "observations_retained")], {"mississippi_christmas_tree_farms": records}
+
+
+def nursery_page_columns(page: str) -> list[list[str]]:
+    lines = page.splitlines()
+    positions = [
+        match.start()
+        for line in lines
+        for match in re.finditer(r"Physical Address:", line)
+        if match.start() > 55
+    ]
+    if not positions:
+        return []
+    split = min(positions)
+    return [
+        [line[start:end].rstrip() for line in lines]
+        for start, end in ((0, split), (split, None))
+    ]
+
+
+def nursery_column_records(lines: list[str]) -> list[dict[str, str]]:
+    starts = [
+        index for index, line in enumerate(lines[:-1])
+        if line.strip() and line.strip() == line.strip().upper()
+        and "County:" in lines[index + 1]
+        and not line.strip().startswith("PAGE ")
+    ]
+    records: list[dict[str, str]] = []
+    stock_terms = (
+        "BEDDING", "DAYLILIES OR BULBS", "FOLIAGE", "FRUITING", "GROUND COVER",
+        "NATIVE", "ORNAMENTALS", "OTHER", "VEGETABLE", "SOD ONLY",
+    )
+    for position, start in enumerate(starts):
+        block = lines[start:(starts[position + 1] if position + 1 < len(starts) else len(lines))]
+        name = block[0].strip()
+        if start and lines[start - 1].strip() and lines[start - 1].strip() == lines[start - 1].strip().upper() and "County:" not in lines[start - 1]:
+            name = clean_text(lines[start - 1] + " " + name)
+        owner_county = block[1]
+        owner, county = owner_county.split("County:", 1)
+        def field(label: str) -> str:
+            return next((line.split(label, 1)[1].strip() for line in block if label in line), "")
+        physical_index = next((i for i, line in enumerate(block) if line.strip().startswith("Physical Address:")), -1)
+        address_parts = []
+        if physical_index >= 0:
+            for line in block[physical_index + 1:physical_index + 3]:
+                value = line[:42].strip()
+                if value:
+                    address_parts.append(value)
+        address = ", ".join(address_parts)
+        city_zip = re.search(r"\b([A-Za-z][A-Za-z .'-]{1,40})\s*,\s*MS\s+(\d{5})", address, re.I)
+        phones = re.findall(r"(?<!\d)(?:\+?1[-. ]?)?\(?\d{3}\)?[-. ]\d{3}[-. ]\d{4}(?!\d)", " ".join(block))
+        website = clean_url(field("Website:"))
+        products = "; ".join(term.title() for term in stock_terms if re.search(rf"\b{re.escape(term)}\b", " ".join(block), re.I))
+        records.append({
+            "name": display_name_from_upper(name), "owner": clean_text(owner),
+            "county": normalized_county(county), "classification": field("Classification:"),
+            "sales_structure": field("Sales Structure:"), "address": address,
+            "city": normalized_city(city_zip.group(1)) if city_zip else "",
+            "postal_code": city_zip.group(2) if city_zip else "",
+            "phone": phones[0] if phones else "", "website": website,
+            "products": products or "Nursery stock grown by the certified operation",
+        })
+    return records
+
+
+def mississippi_certified_nurseries(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "MDAC 2025–2026 certified nursery growers"
+    text, request_log = extract_pdf_text(config["certified_nurseries_pdf"])
+    parsed: list[dict[str, str]] = []
+    pages = text.split("\f")
+    dealer_start = next((index for index, page in enumerate(pages) if page.lstrip().startswith("Nursery Dealers")), len(pages))
+    for page in pages[3:dealer_start]:
+        for column in nursery_page_columns(page):
+            parsed.extend(nursery_column_records(column))
+    growers = [row for row in parsed if row["classification"] in {"Commercial", "Non-Commercial"}]
+    observations: list[Observation] = []
+    for index, record in enumerate(growers):
+        website, facebook, instagram, tiktok = split_public_links([record["website"]] if record["website"] else [], "mdac.ms.gov")
+        row = empty_observation(state, source_name, f"nursery-{index}-{record['name']}", record["name"], config["certified_nurseries_pdf"], 1, "B")
+        row.update({
+            "entity_type_source": f"MDAC certified {record['classification'].lower()} nursery grower",
+            "entity_type_review": "farm_activity_confirmed_by_recent_official_grower_certification",
+            "county": record["county"], "county_source": config["certified_nurseries_pdf"],
+            "city": record["city"], "postal_code": record["postal_code"], "address": record["address"],
+            "location_precision": "public_certification_address", "phone": record["phone"],
+            "products": record["products"],
+            "business_types": f"Nursery grower; {record['classification']}; {record['sales_structure']}",
+            "website_url": website, "facebook_url": facebook, "instagram_url": instagram, "tiktok_url": tiktok,
+            "on_farm_sales": "Retail" in record["sales_structure"], "wholesale": "Wholesale" in record["sales_structure"],
+            "notes": "MDAC nursery certificate period July 1, 2025 through June 30, 2026; outlets and records without an explicit grower classification were not treated as farm candidates.",
+        })
+        observations.append(Observation(**row))
+    note = f"Parsed {len(parsed)} certified-nursery entries; retained {len(growers)} explicit commercial/non-commercial growers and did not treat outlets or unclassified entries as farms."
+    return observations, [logged(request_log, 1, source_name, len(growers), "observations_retained", note)], {"mdac_certified_nursery_growers": growers}
 
 
 def arkansas_directory(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
@@ -1096,7 +1461,7 @@ def farm_operation_signal(name: str, description: str, products: str) -> bool:
 def farm_entity_confirmation(name: str, description: str, products: str) -> bool:
     """Require farm-operation evidence and route obvious adjacent entities to QA."""
     if re.search(
-        r"\b(?:processing|processor|farm supply|peanut supply|farmers? association|coalition|museum|market and grill)\b",
+        r"\b(?:processing|processor|farm supply|peanut supply|farmers? association|coalition|museum|market and grill|wholesale)\b",
         name,
         re.I,
     ):
@@ -1105,7 +1470,8 @@ def farm_entity_confirmation(name: str, description: str, products: str) -> bool
         return True
     return bool(re.search(
         r"\b(?:produce|vegetables?|fruit|berries|melons?|cattle|beef|pork|poultry|eggs?|milk|dairy|"
-        r"honey|pecans?|nursery plants?|flowers?|christmas trees?|pumpkin patch|agritourism)\b",
+        r"honey|pecans?|nursery plants?|flowers?|christmas trees?|pumpkin patch|agritourism|"
+        r"crawfish|seafood|shrimp|oysters?|fish)\b",
         f"{description} {products}",
         re.I,
     ))
@@ -2911,9 +3277,17 @@ def main() -> int:
 
     adapters: list[Callable[..., tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]]]
     if state == "LA":
-        adapters = [louisiana_fmnp_stands, louisiana_lsu_farm_food, louisiana_agritourism, eatwild_records, pyo_records]
+        adapters = [
+            louisiana_fmnp_stands, louisiana_nursery_growers, louisiana_hemp_growers,
+            louisiana_registered_apiary_businesses, louisiana_crawfish_suppliers, louisiana_strawberry_growers,
+            louisiana_lsu_farm_food, louisiana_sweet_potato_shippers, louisiana_agritourism,
+            eatwild_records, pyo_records,
+        ]
     elif state == "MS":
-        adapters = [mississippi_genuine, mississippi_mdac_market_channels, mississippi_agritourism, eatwild_records, pyo_records]
+        adapters = [
+            mississippi_genuine, mississippi_mdac_market_channels, mississippi_christmas_tree_farms,
+            mississippi_certified_nurseries, mississippi_agritourism, eatwild_records, pyo_records,
+        ]
     elif state == "AR":
         adapters = [arkansas_directory, arkansas_extension_farms, eatwild_records, pyo_records]
     elif state == "TN":
@@ -2940,7 +3314,11 @@ def main() -> int:
             item.county for item in observations
             if item.county and item.promotion_status != "excluded_outside_jurisdiction"
         }
-        gaps = {row["county"] for row in counties} - found_counties
+        gaps = (
+            {row["county"] for row in counties}
+            if config.get("census_place_full_search")
+            else {row["county"] for row in counties} - found_counties
+        )
         anchors = census_place_gap_anchors(place_rows, gaps)
         raw_sources["census_place_gap_anchors"] = [
             {"county": county, "place": place} for county, place in anchors
