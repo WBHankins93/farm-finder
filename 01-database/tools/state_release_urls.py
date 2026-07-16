@@ -60,6 +60,10 @@ def classify_public_urls(website: str, facebook: str, instagram: str, tiktok: st
         "instagram": normalized_url(instagram),
         "tiktok": normalized_url(tiktok),
     }
+    for kind, url in list(values.items()):
+        parsed = urlparse(url)
+        if url and parsed.path in {"", "/"} and not parsed.query:
+            values[kind] = ""
     candidate = normalized_url(website)
     if candidate:
         host = (urlparse(candidate).hostname or "").casefold()
