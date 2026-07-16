@@ -34,8 +34,8 @@ test("server-renders the FarmFinder directory shell", async () => {
   assert.match(html, /<main id="top">/i);
   assert.match(html, /<section[^>]+id="ask"/i);
   assert.match(html, /<section[^>]+id="discover"/i);
-  assert.match(html, /311[^<]*<\/strong><span>unique farms mapped/i);
-  assert.match(html, /canonical workbook now contains 311 one-row-per-entity listings/i);
+  assert.match(html, /299[^<]*<\/strong><span>unique farms mapped/i);
+  assert.match(html, /canonical workbook now contains 299 one-row-per-entity listings/i);
   assert.match(html, /Four duplicate groups were evidence-reviewed/i);
   assert.doesNotMatch(html, /Your site is taking shape|Codex is working/i);
 });
@@ -45,10 +45,10 @@ test("ships one internally consistent public farm artifact", async () => {
     await readFile(new URL("../app/data/farms.json", import.meta.url), "utf8"),
   );
 
-  assert.equal(farms.length, 311);
+  assert.equal(farms.length, 299);
   assert.equal(new Set(farms.map((farm) => farm.id)).size, farms.length);
-  assert.equal(farms.filter((farm) => farm.state === "LA").length, 237);
-  assert.equal(farms.filter((farm) => farm.state === "MS").length, 74);
+  assert.equal(farms.filter((farm) => farm.state === "LA").length, 220);
+  assert.equal(farms.filter((farm) => farm.state === "MS").length, 79);
 
   for (const farm of farms) {
     assert.ok(farm.id);

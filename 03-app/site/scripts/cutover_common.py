@@ -80,24 +80,37 @@ def record_hash(record: dict[str, Any]) -> str:
 
 def source_records(rows: Iterable[dict[str, object]]) -> list[dict[str, Any]]:
     """Create stable evidence keys without treating names as canonical identities."""
-    occurrences: Counter[str] = Counter()
-    records: list[dict[str, Any]] = []
+    prepared: list[tuple[int, str, str, dict[str, Any]]] = []
     for row in rows:
         clean_row = {str(key): json_value(value) for key, value in row.items()}
         base_key = (
             f"{key_fragment(clean_row.get('Source Tab'))}:"
             f"{key_fragment(clean_row.get('Farm Name'))}"
         )
-        occurrences[base_key] += 1
-        source_key = f"{base_key}:{occurrences[base_key]:02d}"
-        records.append(
-            {
-                "source_record_key": source_key,
-                "record_hash": record_hash(clean_row),
-                "raw_data": clean_row,
-            }
-        )
-    return records
+        prepared.append((len(prepared), base_key, record_hash(clean_row), clean_row))
+
+    # Occurrence order is not evidence identity: spreadsheet row order can change
+    # between exports. Sort each name/source group by the content hash before
+    # assigning a suffix, while preserving the caller's order in the returned list.
+    grouped: dict[str, list[tuple[int, str, str, dict[str, Any]]]] = {}
+    for item in prepared:
+        grouped.setdefault(item[1], []).append(item)
+
+    source_keys: dict[int, str] = {}
+    for base_key, items in grouped.items():
+        hash_occurrences: Counter[str] = Counter()
+        for index, _, digest, _ in sorted(items, key=lambda item: (item[2], item[3])):
+            hash_occurrences[digest] += 1
+            source_keys[index] = f"{base_key}:{digest}:{hash_occurrences[digest]:02d}"
+
+    return [
+        {
+            "source_record_key": source_keys[index],
+            "record_hash": digest,
+            "raw_data": clean_row,
+        }
+        for index, _, digest, clean_row in prepared
+    ]
 
 
 def duplicate_groups(records: Iterable[dict[str, Any]]) -> list[str]:

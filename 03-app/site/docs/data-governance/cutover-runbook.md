@@ -11,7 +11,7 @@ Cutover began on 2026-07-15. Historical release `2026-07-13-final-v1` completed 
 - Verification downloaded the recorded object version, re-hashed it, and reconciled all 315 rows.
 - The release is `validated`, not `promoted`. The workbook remains the authoring authority and the public app still reads generated JSON.
 
-The current workbook/manifest is now release `2026-07-15-enriched-v2`: 311 canonical rows after evidence review of the four former duplicate groups. V2 has not yet replaced or overwritten v1 in staging. Promotion remains blocked until v2 is staged, its fields and provenance are normalized into canonical relational tables, privacy rules are reviewed, and public-artifact equivalence passes.
+The current workbook/manifest is now release `2026-07-15-enriched-v2`: 299 canonical rows after evidence review of the four former duplicate groups. V2 has not yet replaced or overwritten v1 in staging. Promotion remains blocked until v2 is staged, its fields and provenance are normalized into canonical relational tables, privacy rules are reviewed, and public-artifact equivalence passes.
 
 ## Local execution
 
@@ -79,7 +79,7 @@ Revisit indexes only after normalization queries and `EXPLAIN (ANALYZE, BUFFERS)
 1. Preserve the completed evidence-based decisions for Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens when importing v2; do not recreate name-only merges.
 2. Normalize official geography, products, sales channels, links, contacts, verification sources, identity notes, and location visibility.
 3. Preserve field-level assertions linking every selected value to its source record.
-4. Compare database-derived public output with the current 311-listing artifact.
+4. Compare database-derived public output with the current 299-listing artifact.
 5. Run public/private projection tests and structured query evals.
 6. Copy the source release to managed versioned object storage and prove restoration.
 7. Back up managed PostgreSQL and prove restoration into staging.

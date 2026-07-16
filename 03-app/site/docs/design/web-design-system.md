@@ -37,7 +37,7 @@ The page behaves like a field notebook opened over a survey map:
 │       Find growers, markets, pickup, and ordering paths near you.            │
 │       [ FIND FOOD NEAR YOU ↓ ]                                               │
 │──────────────────────────────────────────────────────────────────────────────│
-│ 311 mapped       239 Louisiana       72 Mississippi       source ledger      │
+│ 299 mapped       220 Louisiana       79 Mississippi       source ledger      │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │ ASK THE FIELD GUIDE          [ practical question________________ ] [ASK →]  │
 │                              suggested questions + grounded answer register  │
@@ -69,7 +69,7 @@ The page behaves like a field notebook opened over a survey map:
 │ FOOD.                   ○   │
 │ Find food closer to home.   │
 │ [ FIND FOOD NEAR YOU ↓ ]    │
-│ 311 mapped · 2 states       │
+│ 299 mapped · 2 states       │
 ├─────────────────────────────┤
 │ ASK                         │
 │ [ What do you need?_______] │

@@ -81,7 +81,7 @@ CI verifies the documented index inventory and critical query plans. It does not
 2. Review the four duplicate-name groups using location, source, links, contacts, and original records.
 3. Normalize states, parishes/counties, cities, products, sales channels, links, contacts, and locations.
 4. Create field assertions for every promoted value.
-5. Generate the public JSON shape from PostgreSQL and compare it with the current 311-listing artifact.
+5. Generate the public JSON shape from PostgreSQL and compare it with the current 299-listing artifact.
 6. Move the source object and database to managed services with versioning, backups, and restore tests.
 7. Promote atomically and change the source-of-truth authority mode.
 
