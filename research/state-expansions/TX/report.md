@@ -1,6 +1,6 @@
 # Texas state review report
 
-> Release: `tx-county-triage-v15-2026-07-16`
+> Release: `tx-geography-enrichment-v16-2026-07-16`
 >
 > Contract: national state contract v2
 >
@@ -9,10 +9,10 @@
 ## Outcome
 
 Texas has completed the documented three-pass discovery process across all 254
-counties. County Batch 10 completed the documented county-level QA triage for 30
-remaining named candidates across 28 counties after the Central-East checkpoint.
-The revised release retains 855 named candidates, 734 currently meet staged field
-and evidence gates, and 121 remain
+counties. Geography Batch 11 assigned county equivalents to ten retained records
+from published city, postal, or explicit county locations. The revised release
+retains 855 named candidates, 744 currently meet staged field and evidence gates,
+and 111 remain
 in research/QA. Texas is not complete and must not be promoted until all county
 batches, managed evidence, approval, and canonical gates pass.
 
@@ -26,11 +26,11 @@ keeps those candidates staged.
 |---|---:|
 | Immutable source observations | 1,062 |
 | Retained candidate entities | 855 |
-| Promotion-eligible reviewed entities | 734 |
-| Research/QA entities | 121 |
+| Promotion-eligible reviewed entities | 744 |
+| Research/QA entities | 111 |
 | Affirmatively excluded observations | 71 |
 | Effective excluded entity groups | 50 |
-| Append-only decisions | 134 |
+| Append-only decisions | 174 |
 | Counties reviewed | 254 of 254 |
 | Counties with retained candidates | 178 |
 | Counties searched with none found | 75 |
@@ -146,8 +146,20 @@ Lubbock, Mason, Moore, Parmer, Potter, Red River, Refugio, Swisher, Tarrant,
 Terry, Titus, Travis, Uvalde, Van Zandt, Wharton, Wood, and Yoakum counties.
 Each candidate received an append-only retain decision because the current record
 did not provide sufficient evidence for promotion or an affirmative exclusion.
-These candidates remain visible in QA; the next Texas pass is the separate
-geography-enrichment review for the 90 retained rows missing a county equivalent.
+These candidates remain visible in QA; the next Texas pass is the continued
+geography-enrichment review for the 80 retained rows still missing a county
+equivalent.
+
+## Geography Batch 11 — Published city and county corrections
+
+The first geography-enrichment batch assigned county equivalents to 4K River
+Ranch (Palo Pinto), Alaiyo Farm and Daniel's Farm/Ranch (Fort Bend), Broken B
+Ranch (Bexar), Dautobi Acres (Hopkins), Ficarro Farms (Nueces), Four Winds Ranch
+(Fannin), Good Flow Honey (Travis), Grow It 4 Dinner (Walker), and Happy Feet
+Farm (Midland). All ten had county geography as their only blocker and therefore
+cleared the promotion gate after correction. Eighty QA rows still require
+geography enrichment, primarily because the source contains no city or safe
+public service area.
 
 ## Missing-data and closure correction
 
@@ -170,11 +182,11 @@ Point Enterprises Orchards, Six Mile Pic-N-Pac Produce, and Yoes Peach Orchard.
 
 ## QA profile
 
-The 121 QA entities are retained in `entities.csv`. Blockers overlap:
+The 111 QA entities are retained in `entities.csv`. Blockers overlap:
 
 | Blocker | Entities |
 |---|---:|
-| County-equivalent missing | 90 |
+| County-equivalent missing | 80 |
 | Single grade-E discovery listing needs corroboration | 26 |
 | City or safe public service area missing | 58 |
 | Member/vendor candidate needs independent farm-operation evidence | 17 |
@@ -213,7 +225,7 @@ none of these fields remains retained.
 - Exactly four Texas state files are committed.
 - Every retained row has a farm name and Texas entity ID.
 - Entity IDs and normalized-name/county-equivalent keys are unique.
-- All 121 QA rows contain explicit blockers.
+- All 111 QA rows contain explicit blockers.
 - No active excluded normalized name remains staged.
 - Every active exclusion uses affirmative evidence.
 - Source, retained, and excluded observation counts reconcile.
@@ -221,7 +233,7 @@ none of these fields remains retained.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the remaining 121 QA candidates through append-only county and geography-enrichment batches.
+1. Resolve or deliberately retain the remaining 111 QA candidates through append-only geography-enrichment and identity/type batches.
 2. Copy the three immutable evidence objects to managed production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.
 4. Promote Texas atomically in a separate canonical-release change.
