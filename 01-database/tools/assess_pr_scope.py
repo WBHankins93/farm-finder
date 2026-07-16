@@ -35,6 +35,19 @@ def run(*args: str) -> str:
     return subprocess.run(args, cwd=ROOT, check=True, capture_output=True, text=True).stdout
 
 
+def stale_state_directories(merge_base: str, base: str, states, runner=run) -> list[str]:
+    """States whose committed release changed on the base branch after this
+    branch diverged. Applying a batch on top of a superseded release forks the
+    append-only history, so these must be rebased before review."""
+    stale = []
+    for state in sorted(states):
+        directory = f"research/state-expansions/{state}"
+        newer = runner("git", "rev-list", "-1", f"{merge_base}..{base}", "--", directory).strip()
+        if newer:
+            stale.append(state)
+    return stale
+
+
 def main() -> int:
     args = parse_args()
     merge_base = run("git", "merge-base", args.base, args.head).strip()
@@ -71,6 +84,11 @@ def main() -> int:
     for state, names in states.items():
         if len(names) > len(STATE_CONTRACT_FILES):
             errors.append(f"{state} changes {len(names)} state files; contract permits four")
+    for state in stale_state_directories(merge_base, args.base, states):
+        errors.append(
+            f"{state} release changed on {args.base} after this branch's merge-base; "
+            "rebase onto the latest main before opening the PR"
+        )
 
     files.sort(key=lambda row: (row["additions"], row["deletions"]), reverse=True)
     report = {

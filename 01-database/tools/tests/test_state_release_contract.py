@@ -42,6 +42,7 @@ from collect_southeast import (  # noqa: E402
     sanitized_email,
     sanitized_phone,
 )
+from assess_pr_scope import stale_state_directories  # noqa: E402
 from audit_operation_evidence import dated_active_excerpt  # noqa: E402
 import migrate_state_contract_v2 as migration  # noqa: E402
 import validate_state_releases as validation  # noqa: E402
@@ -131,6 +132,20 @@ class CandidateRetentionPolicyTests(unittest.TestCase):
             path.write_text("entity_id,state\nNC-1,NC,extra\n", encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "more values than the header"):
                 validation.read_csv(path)
+
+
+class PrScopeFreshnessTests(unittest.TestCase):
+    def test_state_changed_on_base_after_merge_base_is_stale(self) -> None:
+        def runner(*args: str) -> str:
+            return "abc123\n" if args[-1].endswith("/TX") else "\n"
+        self.assertEqual(
+            stale_state_directories("mb", "origin/main", {"TX", "AL"}, runner), ["TX"]
+        )
+
+    def test_fresh_branch_reports_no_stale_states(self) -> None:
+        self.assertEqual(
+            stale_state_directories("mb", "origin/main", {"AL", "TX"}, lambda *a: ""), []
+        )
 
 
 class SoutheastGeographyTests(unittest.TestCase):
