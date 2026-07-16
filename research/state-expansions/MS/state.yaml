@@ -1,0 +1,335 @@
+{
+  "contractVersion": 2,
+  "state": {
+    "code": "MS",
+    "name": "Mississippi",
+    "countyEquivalentLabel": "county",
+    "countyEquivalentCount": 82
+  },
+  "policy": {
+    "version": "2026-07-15",
+    "missingDataDisposition": "research_or_qa_queue",
+    "affirmativeExclusionReasons": [
+      "confirmed_closed",
+      "confirmed_nonfarm",
+      "duplicate_identity",
+      "outside_jurisdiction"
+    ],
+    "marketOnlyProducerRule": "An explicitly agricultural farmers-market vendor is an in-scope producer even when no on-farm sales, website, or other channel is documented; keep the market venue separate from the producer entity."
+  },
+  "collection": {
+    "requiredPasses": [
+      1,
+      2,
+      3
+    ],
+    "sources": [
+      {
+        "sourceId": "mssrc-96114245be73",
+        "name": "Genuine MS — Grown",
+        "pass": 1,
+        "sourceUrl": "https://genuinems.com/members/grown/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 102,
+        "retrievedAt": "2026-07-16T05:13:32.390342+00:00",
+        "responseSha256": "efbf2e90e4efd4af70f62528cd4f52b965c8cf5ba406477595935795fd6e2c57",
+        "notes": null
+      },
+      {
+        "sourceId": "mssrc-f6c1949c2183",
+        "name": "Genuine MS — Raised",
+        "pass": 1,
+        "sourceUrl": "https://genuinems.com/members/raised/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 124,
+        "retrievedAt": "2026-07-16T05:13:34.275704+00:00",
+        "responseSha256": "28a29a4e97418661ee4e71d4113d72579afcf875ae01489325020f970b2510a1",
+        "notes": null
+      },
+      {
+        "sourceId": "mssrc-56fb549ff0de",
+        "name": "MDAC 2025–2026 certified nursery growers",
+        "pass": 1,
+        "sourceUrl": "https://agnet.mdac.ms.gov/agManage/uploads/1415.pdf",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 257,
+        "retrievedAt": "2026-07-16T05:14:09.576688+00:00",
+        "responseSha256": "6ade3a9a8ccdaecccb022bf8bbe9c5126ef1950e7ef396746670dd2b079f5444",
+        "notes": "Parsed 348 certified-nursery entries; retained 257 explicit commercial/non-commercial growers and did not treat outlets or unclassified entries as farms."
+      },
+      {
+        "sourceId": "mssrc-a6901c844a34",
+        "name": "MDAC-linked Mississippi Christmas Tree Farms",
+        "pass": 1,
+        "sourceUrl": "https://mschristmastrees.com/locations/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 31,
+        "retrievedAt": "2026-07-16T05:14:08.846539+00:00",
+        "responseSha256": "def355973419fd32e7d82174811e78f4f525fe754eb12d10300cf24a14f58275",
+        "notes": null
+      },
+      {
+        "sourceId": "mssrc-31da5f6e520b",
+        "name": "U.S. Census Bureau — county denominator",
+        "pass": 1,
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2728%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+        "repositoryPath": null,
+        "decision": "coverage_denominator",
+        "recordsParsed": 82,
+        "retrievedAt": "2026-07-16T05:13:29.774972+00:00",
+        "responseSha256": "4ce46c12e51f487222524ebe36bc88f162fb75d10ed2d989061747f89179a51d",
+        "notes": null
+      },
+      {
+        "sourceId": "mssrc-96b017279711",
+        "name": "EatWild Mississippi directory",
+        "pass": 2,
+        "sourceUrl": "https://www.eatwild.com/products/mississippi.html",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 3,
+        "retrievedAt": "2026-07-16T05:14:10.349631+00:00",
+        "responseSha256": "44df1736e710bb35ff44de7e82c459715f249af4a2816d5576c91c4f0e3f0282",
+        "notes": null
+      },
+      {
+        "sourceId": "mssrc-6c27414a92c7",
+        "name": "MDAC Mississippi Farm Marketplace",
+        "pass": 2,
+        "sourceUrl": "https://agnet.mdac.ms.gov/MarketPortal/MarketPortal",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 4,
+        "retrievedAt": "2026-07-16T05:14:08.607420+00:00",
+        "responseSha256": "0b452cb5ca0d342c4dfea7f40d5245ee9f6d127b3115a0e8a9b736ece37ed504",
+        "notes": null
+      },
+      {
+        "sourceId": "mssrc-b5ae85898d93",
+        "name": "MDAC Mississippi Farmers Market agricultural vendors",
+        "pass": 2,
+        "sourceUrl": "https://agnet.mdac.ms.gov/Website/vendorlist",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 20,
+        "retrievedAt": "2026-07-16T05:14:07.802304+00:00",
+        "responseSha256": "068958d78397e1353bac07bb6a2fb5944097e8be2e194df4e363f0e2cfee3363",
+        "notes": "Arts, crafts, baked goods, and other non-producer categories were retained only in raw source evidence."
+      },
+      {
+        "sourceId": "mssrc-1de566c233d3",
+        "name": "MDAC registered agritourism venues",
+        "pass": 2,
+        "sourceUrl": "https://agnet.mdac.ms.gov/website/AgTourism/Venues",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 96,
+        "retrievedAt": "2026-07-16T05:14:10.171885+00:00",
+        "responseSha256": "864d21c28d6bf7e982a9e308fff193474a5a9a40076b640833d970c3b3f1fa44",
+        "notes": null
+      },
+      {
+        "sourceId": "mssrc-f960f0a40282",
+        "name": "LocalHarvest — Mississippi county-seat gap search",
+        "pass": 3,
+        "sourceUrl": "https://www.localharvest.org",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 151,
+        "retrievedAt": "2026-07-16T05:14:27.314648+00:00",
+        "responseSha256": null,
+        "notes": "Searched 82 county-seat anchors; deduplicated 151 profile URLs. Failures remain explicit."
+      },
+      {
+        "sourceId": "mssrc-b028595fa9b9",
+        "name": "PickYourOwn — East-central Mississippi",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/MSeast.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 18,
+        "retrievedAt": "2026-07-16T05:14:11.120549+00:00",
+        "responseSha256": "0cb83ba7c6106b3ac9fbeccbd80702a5974cb87cb43fa436d4f7d834caa8e774",
+        "notes": "County sections searched: 15; closure claims retained for review."
+      },
+      {
+        "sourceId": "mssrc-a654eddeccea",
+        "name": "PickYourOwn — Jackson and west-central Mississippi",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/MSjackson.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 5,
+        "retrievedAt": "2026-07-16T05:14:10.854799+00:00",
+        "responseSha256": "49e15c01aee241e5813b2d54b584fb2aad3c7f51e57a3d31a3642a353dc55728",
+        "notes": "County sections searched: 14; closure claims retained for review."
+      },
+      {
+        "sourceId": "mssrc-1068d410cf9e",
+        "name": "PickYourOwn — North Mississippi",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/MSnorth.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 18,
+        "retrievedAt": "2026-07-16T05:14:10.620233+00:00",
+        "responseSha256": "f22b8b5b31a9ab379176f27bb6229230390493f602eaded65836eb38f321e05b",
+        "notes": "County sections searched: 29; closure claims retained for review."
+      },
+      {
+        "sourceId": "mssrc-db18735fbd3b",
+        "name": "PickYourOwn — Southeast Mississippi",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/MSse.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 40,
+        "retrievedAt": "2026-07-16T05:14:11.476508+00:00",
+        "responseSha256": "00cf55953e144675d807558f578a8551564a235982fac2910d511485ee9d036b",
+        "notes": "County sections searched: 13; closure claims retained for review."
+      },
+      {
+        "sourceId": "mssrc-20746349942d",
+        "name": "PickYourOwn — Southwest Mississippi",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/MSsw.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 9,
+        "retrievedAt": "2026-07-16T05:14:11.669509+00:00",
+        "responseSha256": "45bd4d9d263ca8e90aaa2828f6a47b1347b32cfc49418b2f47d081bb4f838344",
+        "notes": "County sections searched: 9; closure claims retained for review."
+      }
+    ],
+    "coverage": {
+      "countyEquivalentsReviewed": 82,
+      "countyEquivalentsWithCandidates": 79,
+      "countyEquivalentsWithEligibleEntities": 79,
+      "unresolvedCountyEquivalents": []
+    }
+  },
+  "repositoryPolicy": {
+    "requiredFiles": [
+      "state.yaml",
+      "entities.csv",
+      "decisions.csv",
+      "report.md"
+    ],
+    "maxTrackedBytes": 5000000
+  },
+  "release": {
+    "canonicalBoundary": {
+      "authorityMode": "pre_cutover_workbook",
+      "allowedStates": [
+        "LA",
+        "MS"
+      ],
+      "sourceRowCount": 299
+    },
+    "canonicalRebuild": {
+      "enabled": true,
+      "baselineReleaseId": "2026-07-15-enriched-v2",
+      "baselineSourceRowCount": 299,
+      "baselineStateRows": 79,
+      "rediscoveredRows": 59,
+      "possibleAliasRows": 2,
+      "baselineOnlyRows": 18
+    },
+    "id": "ms-coverage-reviewed-v1-2026-07-16",
+    "status": "coverage_reviewed",
+    "generatedAt": "2026-07-16T05:14:33.018756+00:00",
+    "promotionReady": false,
+    "promotionBlockReason": "state approval and canonical promotion remain separate gates",
+    "counts": {
+      "sourceObservations": 957,
+      "proposedEntities": 737,
+      "promotionEligibleEntities": 576,
+      "researchOrQaEntities": 161,
+      "excludedObservations": 45,
+      "excludedEntityGroups": 0,
+      "identityReviewGroups": 135,
+      "countyCoverageRows": 82,
+      "countiesWithCandidates": 79,
+      "countiesWithEligibleEntities": 79,
+      "sourceDatasets": 15,
+      "manualDecisions": 1,
+      "canonicalBaselineObservations": 79,
+      "currentSourceObservations": 878,
+      "operationStatusCounts": {
+        "currently_listed_official_2026": 299,
+        "unresolved_2026": 123,
+        "likely_operating_2026": 271,
+        "reported_closed_requires_review": 40,
+        "confirmed_operating_2026": 4
+      },
+      "supportedOperatingEntities2026": 283,
+      "additionalLikelyOperatingEntities2026": 268,
+      "operationCountUpperSupportedRange": 551,
+      "operationScopeReviewEntities": 22,
+      "operationIdentityReviewEntities": 6
+    },
+    "evidenceStorage": {
+      "provider": "s3-compatible",
+      "environment": "local-staging",
+      "status": "local_bundle_only",
+      "bucket": "farmfinder-source-releases",
+      "prefix": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-16/",
+      "versioningRequired": true,
+      "managedCopyRequiredBeforePromotion": true
+    },
+    "artifacts": [
+      {
+        "role": "observations",
+        "filename": "observations.csv.zst",
+        "objectKey": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-16/observations.csv.zst",
+        "sha256": "a573602b233ca39bba8f9546387ab519287f5d91e38e3104f4b836713db145ad",
+        "bytes": 181360,
+        "rows": 957,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:a573602b233ca39bba8f9546"
+      },
+      {
+        "role": "source_records",
+        "filename": "source-records.jsonl.zst",
+        "objectKey": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-16/source-records.jsonl.zst",
+        "sha256": "c4aaa925d2141185e73934b5a191908aa077147a2e08c19f085a8921fe9aa288",
+        "bytes": 117106,
+        "rows": 12,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:c4aaa925d2141185e73934b5"
+      },
+      {
+        "role": "collection_log",
+        "filename": "collection-log.jsonl.zst",
+        "objectKey": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-16/collection-log.jsonl.zst",
+        "sha256": "907285afc0425f7285a1a079a622fa5eecb307b8ebfa019244364853f1c53ba9",
+        "bytes": 40314,
+        "rows": 593,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:907285afc0425f7285a1a079"
+      }
+    ],
+    "approval": {},
+    "repositoryFiles": {
+      "entities.csv": {
+        "sha256": "0b18673b72f6daf191f5f272bd0d925d60d3fd4d9ba9f994d74bd1c1a2a9377c",
+        "bytes": 773343
+      },
+      "decisions.csv": {
+        "sha256": "a6c596d2d1a4a32ef43c9ee76814cd5d225387d8ebc9a06705d5c00bd9c50057",
+        "bytes": 800
+      },
+      "report.md": {
+        "sha256": "b97001958e9d89275165e9cadeab48461a9b1118852cbbd15f5341c18069830f",
+        "bytes": 5336
+      }
+    }
+  }
+}

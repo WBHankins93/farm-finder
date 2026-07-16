@@ -29,6 +29,7 @@ from collect_southeast import (  # noqa: E402
     choose_county,
     empty_observation,
     farm_operation_signal,
+    farm_entity_confirmation,
     florida_farm_to_you_profile,
     florida_producer_cards,
     georgia_grown_cards,
@@ -36,9 +37,11 @@ from collect_southeast import (  # noqa: E402
     localharvest_profile,
     next_page_data,
     normalized_county,
+    nursery_column_records,
     sanitized_email,
     sanitized_phone,
 )
+from audit_operation_evidence import dated_active_excerpt  # noqa: E402
 import migrate_state_contract_v2 as migration  # noqa: E402
 import validate_state_releases as validation  # noqa: E402
 from validate_state_releases import STATE_ROOT, release_fingerprint, validate_state  # noqa: E402
@@ -200,12 +203,50 @@ class SoutheastGeographyTests(unittest.TestCase):
 
 
 class SoutheastSourceClassificationTests(unittest.TestCase):
+    def test_current_year_requires_nearby_activity_language(self) -> None:
+        self.assertEqual(dated_active_excerpt("Copyright 2026 Example Farm"), ("", ""))
+        year, _ = dated_active_excerpt("Our 2026 blueberry season opens May 20; orders are available now.")
+        self.assertEqual(year, "2026")
+
+    def test_nursery_parser_retains_explicit_grower_classification(self) -> None:
+        rows = nursery_column_records([
+            "TINY FARM",
+            "Owner Name                              County: Example",
+            "Physical Address:                       Greenhouses: 1",
+            "1 Farm Road                             Total Sq Ft:",
+            "Town , MS 39000                         Classification: Commercial",
+            "Mailing Address:                        Sales Structure: Retail",
+            "1 Farm Road                             SOD Acres: 0.00",
+            "Town , MS 39000                         Total Acres: 2.00",
+            "                                         Stock Sold:",
+            "Phone #: (601) 555-0100                 VEGETABLE, FRUITING",
+            "Website:",
+        ])
+        self.assertEqual((rows[0]["name"], rows[0]["classification"], rows[0]["county"]),
+                         ("Tiny Farm", "Commercial", "Example"))
+
     def test_farm_named_profile_is_confirmed(self) -> None:
         self.assertTrue(farm_operation_signal("Windy Springs Farm", "", "Vegetables"))
 
     def test_food_manufacturer_is_not_silently_promoted_as_farm(self) -> None:
         self.assertFalse(farm_operation_signal(
             "Example Cookie Company", "We manufacture packaged cookies in Tennessee.", "Cookies"
+        ))
+
+    def test_adjacent_agriculture_entities_require_scope_review(self) -> None:
+        for name in (
+            "Example Farm Supply", "Example Processing", "Example Farmers Association",
+            "Agriculture Museum", "Example Market and Grill", "Producer Coalition",
+        ):
+            with self.subTest(name=name):
+                self.assertFalse(farm_entity_confirmation(name, "Vegetables and cattle", "Produce"))
+
+    def test_product_evidence_can_confirm_a_named_producer(self) -> None:
+        self.assertTrue(farm_entity_confirmation("The Garden Patch", "", "Fruit and vegetables"))
+
+    def test_farmers_market_only_agricultural_vendor_is_in_scope(self) -> None:
+        self.assertTrue(farm_entity_confirmation(
+            "Viking Honey", "MDAC agricultural farmers-market vendor", ""
         ))
 
     def test_georgia_directory_card_is_retained_with_contact_fields(self) -> None:
@@ -293,6 +334,12 @@ class CurrentStateContractTests(unittest.TestCase):
 
     def test_arkansas_contract(self) -> None:
         self.assertEqual(validate_state("AR", False)["status"], "passed")
+
+    def test_canonical_state_rebuild_contracts(self) -> None:
+        for state in ("LA", "MS"):
+            with self.subTest(state=state):
+                result = validate_state(state, False)
+                self.assertEqual(result["status"], "passed", result["errors"])
 
     def test_coverage_review_is_not_promotion_approval(self) -> None:
         for state in ("AL", "AR", "FL", "GA", "TN", "TX"):

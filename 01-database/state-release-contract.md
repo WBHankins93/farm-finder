@@ -83,6 +83,13 @@ States progress through `researching`, `collected`, `coverage_reviewed`,
 - `approved`: validation, managed immutable evidence, and approval fingerprint pass.
 - `promoted`: the approved state release was atomically added to canonical data.
 
+When an already-canonical state is recollected, its staged release remains
+`coverage_reviewed` or `record_verified` until a new atomic promotion replaces the
+existing slice. `release.canonicalRebuild` binds that work to the current canonical
+release ID and row count, accounts for every existing state record as rediscovered,
+possible-alias, or baseline-only, and prevents a staged rebuild from falsely
+claiming that its new candidates are already canonical.
+
 The reviewer reads `report.md` and the generated status output. Any entity, decision,
 evidence checksum, object version, or policy change invalidates prior approval.
 

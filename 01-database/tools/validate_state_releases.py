@@ -492,8 +492,39 @@ def _validate_v2_state(state: str, require_local_artifacts: bool) -> dict[str, A
             "state release does not match canonical allowed states", errors)
     require(canonical.get("sourceRowCount") == boundary.get("sourceRowCount"),
             "state release does not match canonical row count", errors)
-    require((state in canonical.get("allowedStates", [])) == (release_status == "promoted"),
-            "state lifecycle and canonical boundary disagree", errors)
+    state_is_canonical = state in canonical.get("allowedStates", [])
+    canonical_rebuild = release.get("canonicalRebuild", {})
+    rebuild_enabled = canonical_rebuild.get("enabled") is True
+    if state_is_canonical and release_status != "promoted":
+        require(rebuild_enabled,
+                "unpromoted canonical state must declare a canonical rebuild", errors)
+        require(canonical_rebuild.get("baselineReleaseId") == canonical.get("id"),
+                "canonical rebuild baseline release does not match current canon", errors)
+        require(int(canonical_rebuild.get("baselineSourceRowCount", -1)) == int(canonical.get("sourceRowCount", -2)),
+                "canonical rebuild baseline row count does not match current canon", errors)
+        baseline_rows = int(canonical_rebuild.get("baselineStateRows", -1))
+        require(baseline_rows == int(counts.get("canonicalBaselineObservations", -2)),
+                "canonical rebuild state-row count does not reconcile", errors)
+        require(
+            int(canonical_rebuild.get("rediscoveredRows", -1))
+            + int(canonical_rebuild.get("possibleAliasRows", -1))
+            + int(canonical_rebuild.get("baselineOnlyRows", -1))
+            == baseline_rows,
+            "canonical rebuild outcomes do not reconcile to the baseline state rows",
+            errors,
+        )
+        require(
+            int(counts.get("canonicalBaselineObservations", -1))
+            + int(counts.get("currentSourceObservations", -1))
+            == int(counts.get("sourceObservations", -2)),
+            "canonical rebuild baseline and current observations do not reconcile",
+            errors,
+        )
+    else:
+        require(state_is_canonical == (release_status == "promoted"),
+                "state lifecycle and canonical boundary disagree", errors)
+        require(not rebuild_enabled,
+                "canonicalRebuild is only valid for an unpromoted rebuild of a canonical state", errors)
 
     for row in entities:
         if row.get("website_url"):
