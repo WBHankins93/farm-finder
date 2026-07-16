@@ -25,6 +25,7 @@
     "sources": [
       {
         "sourceId": "scsrc-01",
+        "tier": "candidate",
         "name": "Certified SC Grown — REST member directory",
         "pass": 1,
         "sourceUrl": "https://certifiedsc.com/wp-json/wp/v2/csc-member",
@@ -37,6 +38,7 @@
       },
       {
         "sourceId": "scsrc-02",
+        "tier": "candidate",
         "name": "Certified SC Grown — member profiles",
         "pass": 1,
         "sourceUrl": "https://certifiedsc.com/csc-member/",
@@ -49,6 +51,7 @@
       },
       {
         "sourceId": "scsrc-03",
+        "tier": "excluded_source",
         "name": "U.S. Census Bureau — South Carolina county denominator",
         "pass": 1,
         "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2745%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
@@ -61,6 +64,7 @@
       },
       {
         "sourceId": "scsrc-04",
+        "tier": "candidate",
         "name": "South Carolina Department of Agriculture — agritourism",
         "pass": 2,
         "sourceUrl": "https://agriculture.sc.gov/find-local/agritourism/",
@@ -73,6 +77,7 @@
       },
       {
         "sourceId": "scsrc-05",
+        "tier": "candidate",
         "name": "U.S. Farm Trail — South Carolina",
         "pass": 2,
         "sourceUrl": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=south-carolina",
@@ -85,6 +90,7 @@
       },
       {
         "sourceId": "scsrc-06",
+        "tier": "candidate",
         "name": "EatWild — South Carolina",
         "pass": 2,
         "sourceUrl": "https://www.eatwild.com/PRODUCTS/socarolina.html",
@@ -97,6 +103,7 @@
       },
       {
         "sourceId": "scsrc-07",
+        "tier": "candidate",
         "name": "PickYourOwn — South Carolina",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/SC.htm",
@@ -109,6 +116,7 @@
       },
       {
         "sourceId": "scsrc-08",
+        "tier": "candidate",
         "name": "LocalHarvest — South Carolina",
         "pass": 3,
         "sourceUrl": "https://www.localharvest.org/south-carolina/",

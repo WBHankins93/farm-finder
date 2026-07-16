@@ -25,6 +25,7 @@
     "sources": [
       {
         "sourceId": "ncsrc-01",
+        "tier": "candidate",
         "name": "NCDA&CS — N.C. Farmer/Agribusiness Listing (June 22, 2026)",
         "pass": 1,
         "sourceUrl": "https://www.ncagr.gov/divisions/marketing/nc-farmeragribusiness-listing/open",
@@ -37,6 +38,7 @@
       },
       {
         "sourceId": "ncsrc-02",
+        "tier": "excluded_source",
         "name": "U.S. Census Bureau — North Carolina county denominator",
         "pass": 1,
         "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2737%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
@@ -49,6 +51,7 @@
       },
       {
         "sourceId": "ncsrc-03",
+        "tier": "candidate",
         "name": "Visit NC Farms — Our Farms and Businesses",
         "pass": 2,
         "sourceUrl": "https://visitncfarms.com/farms/our-farms-and-businesses/",
@@ -61,6 +64,7 @@
       },
       {
         "sourceId": "ncsrc-04",
+        "tier": "candidate",
         "name": "Got to Be NC — growers and producers",
         "pass": 2,
         "sourceUrl": "https://gottobenc.com/events/flavors-attendees/find-local/growers-producers/",
@@ -73,6 +77,7 @@
       },
       {
         "sourceId": "ncsrc-05",
+        "tier": "candidate",
         "name": "U.S. Farm Trail — North Carolina",
         "pass": 3,
         "sourceUrl": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=north-carolina",
@@ -85,6 +90,7 @@
       },
       {
         "sourceId": "ncsrc-06",
+        "tier": "candidate",
         "name": "EatWild — North Carolina",
         "pass": 3,
         "sourceUrl": "https://www.eatwild.com/products/nocarolina.html",
@@ -97,6 +103,7 @@
       },
       {
         "sourceId": "ncsrc-07",
+        "tier": "candidate",
         "name": "PickYourOwn — North Carolina",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/NC.htm",
@@ -109,6 +116,7 @@
       },
       {
         "sourceId": "ncsrc-08",
+        "tier": "candidate",
         "name": "LocalHarvest — North Carolina",
         "pass": 3,
         "sourceUrl": "https://www.localharvest.org/north-carolina/",
