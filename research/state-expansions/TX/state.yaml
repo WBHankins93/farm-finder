@@ -389,7 +389,7 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "tx-geography-enrichment-v17-2026-07-16",
+    "id": "tx-geography-enrichment-v18-2026-07-16",
     "status": "coverage_reviewed",
     "generatedAt": "2026-07-16T00:00:00+00:00",
     "promotionReady": false,
@@ -406,7 +406,7 @@
       "countiesWithCandidates": 178,
       "countiesWithEligibleEntities": 172,
       "sourceDatasets": 29,
-      "manualDecisions": 188
+      "manualDecisions": 218
     },
     "repositoryFiles": {
       "entities.csv": {
@@ -414,12 +414,12 @@
         "bytes": 694747
       },
       "decisions.csv": {
-        "sha256": "62de37da593fc378fc980e3616e561e105399710f69c9eae97facd34ae07a8be",
-        "bytes": 90896
+        "sha256": "64da5cdd00dc041002f6ce00d1cc983d4539293b4ffc28c0938c0c0e2a6c1f48",
+        "bytes": 103495
       },
       "report.md": {
-        "sha256": "655f8db586573e6d16d18813cebaae4ad693cddafa197a062facebaf11b0f3c1",
-        "bytes": 12804
+        "sha256": "ebacd374f098b01231d976671ae7fd9f23c93b7eefadf8f979a0ee01d3368937",
+        "bytes": 13288
       }
     },
     "evidenceStorage": {

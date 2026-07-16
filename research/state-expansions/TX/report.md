@@ -1,6 +1,6 @@
 # Texas state review report
 
-> Release: `tx-geography-enrichment-v17-2026-07-16`
+> Release: `tx-geography-enrichment-v18-2026-07-16`
 >
 > Contract: national state contract v2
 >
@@ -9,7 +9,8 @@
 ## Outcome
 
 Texas has completed the documented three-pass discovery process across all 254
-counties. Geography Batch 12 assigned county equivalents to 14 retained records
+counties. Geography Batch 13 triaged 30 retained records with no city or safe
+public service area. Geography Batch 12 assigned county equivalents to 14 retained records
 from published city, postal, or explicit county locations. Twelve had geography
 as their only blocker and cleared the promotion gate; two retained additional
 type/corroboration blockers. The revised release retains 855 named candidates,
@@ -31,7 +32,7 @@ keeps those candidates staged.
 | Research/QA entities | 99 |
 | Affirmatively excluded observations | 71 |
 | Effective excluded entity groups | 50 |
-| Append-only decisions | 188 |
+| Append-only decisions | 218 |
 | Counties reviewed | 254 of 254 |
 | Counties with retained candidates | 178 |
 | Counties searched with none found | 75 |
@@ -249,3 +250,10 @@ none of these fields remains retained.
 2. Copy the three immutable evidence objects to managed production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.
 4. Promote Texas atomically in a separate canonical-release change.
+## Geography Batch 13 — No-city geography triage
+
+Thirty retained QA records without a city or safe public service area received
+append-only retain decisions. Their source records do not support a defensible
+county assignment, and no affirmative exclusion evidence was established. They
+remain visible in QA for evidence-bound geography enrichment rather than being
+assigned a guessed county.
