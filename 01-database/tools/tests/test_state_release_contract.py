@@ -26,6 +26,7 @@ from collect_southeast import (  # noqa: E402
     STATE_CONFIG,
     apply_place_reference,
     empty_observation,
+    farm_operation_signal,
     localharvest_profile,
 )
 import migrate_state_contract_v2 as migration  # noqa: E402
@@ -123,6 +124,16 @@ class SoutheastGeographyTests(unittest.TestCase):
         item = localharvest_profile("AR", STATE_CONFIG["AR"], card, body)
         self.assertEqual(item.promotion_status, "excluded_outside_jurisdiction")
         self.assertIn("outside AR", item.notes)
+
+
+class SoutheastSourceClassificationTests(unittest.TestCase):
+    def test_farm_named_profile_is_confirmed(self) -> None:
+        self.assertTrue(farm_operation_signal("Windy Springs Farm", "", "Vegetables"))
+
+    def test_food_manufacturer_is_not_silently_promoted_as_farm(self) -> None:
+        self.assertFalse(farm_operation_signal(
+            "Example Cookie Company", "We manufacture packaged cookies in Tennessee.", "Cookies"
+        ))
 
 
 class CurrentStateContractTests(unittest.TestCase):

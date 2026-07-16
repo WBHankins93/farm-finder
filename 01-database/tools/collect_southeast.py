@@ -16,7 +16,9 @@ import io
 import json
 import re
 import subprocess
+import time
 import urllib.parse
+import urllib.request
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import asdict
@@ -72,6 +74,30 @@ STATE_CONFIG: dict[str, dict[str, Any]] = {
             "Northeast Arkansas": "https://www.pickyourown.org/ARne.htm",
         },
         "county_seats": "https://www.arcounties.org/site/assets/files/3779/countyseats.pdf",
+    },
+    "TN": {
+        "name": "Tennessee",
+        "fips": "47",
+        "county_count": 95,
+        "official_directory": "https://www.picktnproducts.org/members/search-for-a-member.html",
+        "official_root": "https://www.picktnproducts.org",
+        "official_aggregate_name": "Tennessee Department of Agriculture — Pick Tennessee Products directory",
+        "century_farms": "https://www.tncenturyfarms.org/farms/",
+        "agritourism": "https://tennesseeagritourism.org/find-a-farm",
+        "eatwild": "https://www.eatwild.com/products/tennessee.html",
+        "pyo_index": "https://www.pickyourown.org/TN.htm",
+        "pyo_regions": {
+            "Clarksville area": "https://www.pickyourown.org/TNclarksville.htm",
+            "Columbia area": "https://www.pickyourown.org/TNcolumbia.htm",
+            "Eastern Tennessee": "https://www.pickyourown.org/TNeast.htm",
+            "Knoxville area": "https://www.pickyourown.org/TNknoxville.htm",
+            "Middle Tennessee": "https://www.pickyourown.org/TNmiddle.htm",
+            "North-central Tennessee": "https://www.pickyourown.org/TNnc.htm",
+            "Northeastern Tennessee": "https://www.pickyourown.org/TNne.htm",
+            "Northwestern Tennessee": "https://www.pickyourown.org/TNnw.htm",
+            "Southwestern-central Tennessee": "https://www.pickyourown.org/TNswc.htm",
+            "Western Tennessee": "https://www.pickyourown.org/TNwest.htm",
+        },
     },
 }
 
@@ -416,6 +442,365 @@ def arkansas_directory(state: str, config: dict[str, Any]) -> tuple[list[Observa
     return observations, logs, {"directory_profiles": profiles}
 
 
+def post_json(url: str, payload: dict[str, Any], token: str, attempts: int = 3) -> tuple[dict[str, Any], dict[str, Any]]:
+    encoded = json.dumps(payload, separators=(",", ":")).encode()
+    errors: list[str] = []
+    for attempt in range(1, attempts + 1):
+        started = time.monotonic()
+        try:
+            request = urllib.request.Request(
+                url,
+                data=encoded,
+                headers={
+                    "Authorization": f"Bearer {token}",
+                    "Content-Type": "application/json",
+                    "User-Agent": "FarmFinderDataAudit/1.0",
+                },
+            )
+            with urllib.request.urlopen(request, timeout=45) as response:
+                raw = response.read()
+                return json.loads(raw), {
+                    "url": url, "attempts_used": attempt, "http_status": response.status,
+                    "bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest(),
+                    "elapsed_seconds": round(time.monotonic() - started, 3), "error": "",
+                }
+        except Exception as exc:
+            errors.append(f"attempt {attempt}: {exc}")
+            if attempt < attempts:
+                time.sleep(attempt)
+    return {}, {
+        "url": url, "attempts_used": attempts, "http_status": 0, "bytes": 0,
+        "sha256": "", "elapsed_seconds": 0, "error": " | ".join(errors),
+    }
+
+
+def meta_value(body: str, key: str, attribute: str = "name") -> str:
+    match = re.search(
+        rf'<meta\s+[^>]*{attribute}=["\']{re.escape(key)}["\'][^>]*content=["\']([^"\']*)',
+        body,
+        re.I,
+    )
+    return clean_text(match.group(1)) if match else ""
+
+
+def farm_operation_signal(name: str, description: str, products: str) -> bool:
+    if re.search(
+        r"\b(?:farm|farms|farmstead|ranch|orchard|apiary|vineyard|dairy|creamery|cattle|"
+        r"greenhouse|nursery|grower|homestead|pasture|livestock)\b",
+        name,
+        re.I,
+    ):
+        return True
+    if re.search(
+        r"\b(?:we|our family|family[- ]owned)\s+(?:grow|grows|raise|raises|farm|produce|harvest)|"
+        r"\bour farm\b|\bfarm[- ]raised\b|\bgrown (?:here|on[- ]site|on our)\b",
+        description,
+        re.I,
+    ):
+        return True
+    return bool(re.search(r"\b(?:you pick|pick your own|farm tours?|pumpkin patch|hay rides?|csa)\b", products, re.I))
+
+
+def picktn_profile_observation(
+    state: str,
+    config: dict[str, Any],
+    indexed: dict[str, Any],
+    body: str,
+) -> tuple[Observation, dict[str, Any]]:
+    raw = indexed.get("raw") if isinstance(indexed.get("raw"), dict) else {}
+    url = clean_text(indexed.get("uri") or raw.get("uri"))
+    name = meta_value(body, "businessName") or clean_text(indexed.get("title"))
+    county = normalized_county(meta_value(body, "county") or raw.get("tn_county", ""))
+    city = normalized_city(meta_value(body, "city") or raw.get("tn_city", ""))
+    postal = meta_value(body, "zipCode")
+    product_text = meta_value(body, "productList") or clean_text(raw.get("tn_product_list"))
+    products = "; ".join(dict.fromkeys(clean_text(value) for value in product_text.split("|") if clean_text(value)))
+    description_match = re.search(
+        r"<!-- Additional Information -->\s*<p>(.*?)</p>", body, re.I | re.S
+    )
+    description = strip_tags(description_match.group(1)) if description_match else ""
+    location_match = re.search(
+        r'detailsTitle">Location\(s\)</p>.*?<td>\s*<p>(.*?)</p>', body, re.I | re.S
+    )
+    location_html = location_match.group(1) if location_match else ""
+    street = strip_tags(re.split(r"<br\s*/?>", location_html, maxsplit=1, flags=re.I)[0]) if location_html else ""
+    phone_match = re.search(r'href="tel:([^"]+)"', body, re.I)
+    email_match = re.search(r'href="mailto:([^"]+)"', body, re.I)
+    title_start = body.find('<div class="tn-pagetitle')
+    profile_end = body.find("</table>", title_start)
+    profile_html = body[title_start:profile_end] if title_start >= 0 and profile_end > title_start else ""
+    links = re.findall(r'href="(https?://[^" ]+)"', profile_html, re.I)
+    website, facebook, instagram, tiktok = split_public_links(links, "picktnproducts.org")
+    confirmed = farm_operation_signal(name, description, products)
+    record_match = re.search(r"picktn-listing\.(\d+)\.html", url)
+    record_id = record_match.group(1) if record_match else clean_text(raw.get("permanentid")) or url
+    row = empty_observation(
+        state, config["official_aggregate_name"], record_id, name, url,
+        1, "B",
+    )
+    method_match = re.search(
+        r'detailsTitle">Method of Sale</p>.*?<td>(.*?)</td>', body, re.I | re.S
+    )
+    methods = strip_tags(method_match.group(1)) if method_match else ""
+    row.update({
+        "entity_type_source": "Pick Tennessee Products member",
+        "entity_type_review": "farm_activity_confirmed_by_current_official_profile" if confirmed else "official_agriculture_member_requires_farm_operation_review",
+        "county": county, "county_source": url, "city": city, "postal_code": postal,
+        "address": street, "location_precision": "official_directory_public_business_address_or_city",
+        "contact_name": meta_value(body, "contactName"),
+        "phone": clean_text(phone_match.group(1)) if phone_match else "",
+        "email": clean_text(email_match.group(1)) if email_match else "",
+        "products": products, "business_types": "Pick Tennessee Products member",
+        "website_url": website, "facebook_url": facebook, "instagram_url": instagram, "tiktok_url": tiktok,
+        "on_farm_sales": bool(re.search(r"on farm sale|farm stand|pick your own", methods, re.I)),
+        "farmers_market_sales": bool(re.search(r"farmers market", methods, re.I)),
+        "online_sales": bool(re.search(r"online|shipping", methods, re.I)),
+        "local_delivery": bool(re.search(r"deliver", methods, re.I)),
+        "u_pick": bool(re.search(r"pick your own|you pick", f"{methods} {products}", re.I)),
+        "wholesale": bool(re.search(r"wholesale", methods, re.I)),
+        "retail_sales": bool(re.search(r"retail", methods, re.I)),
+        "restaurant_sales": bool(re.search(r"restaurant", methods, re.I)),
+        "notes": (description or "Official index record retained; profile detail was unavailable.")[:1500],
+    })
+    summary = {
+        "url": url, "name": name, "county": county, "city": city, "postal_code": postal,
+        "products": products, "description": description, "methods": methods,
+        "profile_available": bool(body),
+    }
+    return Observation(**row), summary
+
+
+def tennessee_picktn(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = config["official_aggregate_name"]
+    landing, landing_log = fetch(config["official_directory"])
+    token_match = re.search(r'accessToken:\s*"([^"]+)', landing)
+    org_match = re.search(r'organizationId:\s*"([^"]+)', landing)
+    if not token_match or not org_match:
+        return [], [logged(landing_log, 1, source_name, 0, "unreachable_after_3_attempts", "Coveo public search credentials missing")], {}
+    token, organization = token_match.group(1), org_match.group(1)
+    endpoint = f"https://platform.cloud.coveo.com/rest/search/v2?organizationId={organization}"
+    indexed_by_url: dict[str, dict[str, Any]] = {}
+    logs: list[dict[str, Any]] = []
+    facet_payload = {
+        "q": "", "aq": "@uri=*picktn-producers*", "searchHub": "PickTN",
+        "numberOfResults": 0,
+        "facets": [{
+            "facetId": "tn_county", "field": "tn_county", "type": "specific",
+            "numberOfValues": 100, "sortCriteria": "alphanumeric",
+        }],
+    }
+    facet_response, facet_log = post_json(endpoint, facet_payload, token)
+    advertised_index_results = int(facet_response.get("totalCount") or 0)
+    facets = facet_response.get("facets") if isinstance(facet_response.get("facets"), list) else []
+    county_values = facets[0].get("values", []) if facets and isinstance(facets[0].get("values"), list) else []
+    logs.append(logged(facet_log, 1, f"{source_name} — county partition index", len(county_values), "request_component", f"Advertised total {advertised_index_results}"))
+    result_occurrences = 0
+    expected_profiles = sum(int(value.get("numberOfResults") or 0) for value in county_values)
+    partition_errors: list[str] = []
+    for county_value in county_values:
+        county = clean_text(county_value.get("value"))
+        advertised_count = int(county_value.get("numberOfResults") or 0)
+        escaped_county = county.replace('"', '\\"')
+        payload = {
+            "q": "", "aq": f'@uri=*picktn-producers* AND @tn_county=="{escaped_county}"',
+            "searchHub": "PickTN", "numberOfResults": max(1, advertised_count), "firstResult": 0,
+        }
+        response, request_log = post_json(endpoint, payload, token)
+        results = response.get("results") if isinstance(response.get("results"), list) else []
+        result_occurrences += len(results)
+        logs.append(logged(request_log, 1, f"{source_name} — county index partition", len(results), "request_component", f"{county} County; advertised {advertised_count}"))
+        if len(results) != advertised_count:
+            partition_errors.append(f"{county}: advertised {advertised_count}, received {len(results)}")
+        for result in results:
+            url = clean_text(result.get("uri"))
+            if url:
+                indexed_by_url[url] = result
+
+    unassigned_payload = {
+        "q": "", "aq": '@uri=*picktn-producers* AND @tn_county==""',
+        "searchHub": "PickTN", "numberOfResults": 100, "firstResult": 0,
+    }
+    unassigned_response, unassigned_log = post_json(endpoint, unassigned_payload, token)
+    unassigned_results = unassigned_response.get("results") if isinstance(unassigned_response.get("results"), list) else []
+    valid_unassigned = [
+        result for result in unassigned_results
+        if re.search(r"/picktn-producers/picktn-listing\.\d+\.html$", clean_text(result.get("uri")))
+    ]
+    non_profile_results = len(unassigned_results) - len(valid_unassigned)
+    expected_profiles += len(valid_unassigned)
+    result_occurrences += len(valid_unassigned)
+    logs.append(logged(
+        unassigned_log, 1, f"{source_name} — unassigned-county index partition",
+        len(valid_unassigned), "request_component",
+        f"{non_profile_results} non-profile index pages ignored; named profile records retained.",
+    ))
+    for result in valid_unassigned:
+        indexed_by_url[clean_text(result.get("uri"))] = result
+
+    observations: list[Observation] = []
+    profiles: list[dict[str, Any]] = []
+    with ThreadPoolExecutor(max_workers=24) as executor:
+        futures = {executor.submit(fetch, url, 3, 35): indexed for url, indexed in indexed_by_url.items()}
+        for future in as_completed(futures):
+            indexed = futures[future]
+            url = clean_text(indexed.get("uri"))
+            try:
+                body, request_log = future.result()
+            except Exception as exc:
+                body, request_log = "", {"url": url, "error": str(exc), "attempts_used": 0}
+            observation, profile = picktn_profile_observation(state, config, indexed, body)
+            observations.append(observation); profiles.append(profile)
+            logs.append(logged(request_log, 1, f"{source_name} — profile request", int(bool(body)), "request_component"))
+            if len(observations) % 250 == 0:
+                print(f"{state} Pick Tennessee profiles retained: {len(observations)}/{len(indexed_by_url)}", flush=True)
+
+    aggregate = logged(
+        landing_log, 1, source_name, len(observations), "observations_retained",
+        f"Public index advertised {advertised_index_results} results: {expected_profiles} producer profiles and "
+        f"{non_profile_results} non-profile pages. {result_occurrences} profile results were traversed across "
+        f"{len(county_values)} county partitions plus the unassigned-county partition.",
+    )
+    if advertised_index_results != expected_profiles + non_profile_results or expected_profiles != result_occurrences or result_occurrences != len(indexed_by_url) or len(observations) != len(indexed_by_url) or partition_errors:
+        aggregate["error"] = (
+            f"Pick Tennessee index advertised {advertised_index_results}; expected {expected_profiles} profiles plus "
+            f"{non_profile_results} non-profile pages; traversed {result_occurrences} profile occurrences, "
+            f"captured {len(indexed_by_url)} unique profile URLs, retained {len(observations)} observations, "
+            f"partition errors: {partition_errors}"
+        )
+    logs.append(aggregate)
+    return observations, logs, {
+        "pick_tennessee_index": list(indexed_by_url.values()),
+        "pick_tennessee_index_summary": {
+            "advertised_index_results": advertised_index_results,
+            "expected_profile_results": expected_profiles,
+            "traversed_result_occurrences": result_occurrences,
+            "unique_profile_urls": len(indexed_by_url),
+            "county_partitions": len(county_values),
+            "non_profile_index_pages": non_profile_results,
+            "duplicate_index_entries": result_occurrences - len(indexed_by_url),
+        },
+        "pick_tennessee_profiles": profiles,
+    }
+
+
+def century_farm_rows(body: str) -> list[dict[str, str]]:
+    records: list[dict[str, str]] = []
+    for row_html in re.findall(r"<tr>(.*?)</tr>", body, re.I | re.S):
+        values: dict[str, str] = {}
+        for field in ("farm_name", "county", "date_founded", "special_recognition"):
+            match = re.search(rf'<td class="{field}-field">(.*?)</td>', row_html, re.I | re.S)
+            values[field] = strip_tags(match.group(1)) if match else ""
+        if values["farm_name"]:
+            records.append(values)
+    return records
+
+
+def tennessee_century_farms(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "Middle Tennessee State University — Tennessee Century Farms registry"
+    first_url = f"{config['century_farms']}?listpage=1&instance=1"
+    first_body, first_log = fetch(first_url)
+    last_match = re.search(r'class="lastpage".*?listpage=(\d+)', first_body, re.I | re.S)
+    pages = int(last_match.group(1)) if last_match else 1
+    page_bodies: dict[int, str] = {1: first_body}
+    logs = [logged(first_log, 2, f"{source_name} — registry page", len(century_farm_rows(first_body)), "request_component", f"Page 1 of {pages}")]
+    with ThreadPoolExecutor(max_workers=20) as executor:
+        futures = {
+            executor.submit(fetch, f"{config['century_farms']}?listpage={page}&instance=1"): page
+            for page in range(2, pages + 1)
+        }
+        for future in as_completed(futures):
+            page = futures[future]
+            try:
+                body, request_log = future.result()
+            except Exception as exc:
+                body, request_log = "", {"url": config["century_farms"], "error": str(exc), "attempts_used": 0}
+            page_bodies[page] = body
+            logs.append(logged(request_log, 2, f"{source_name} — registry page", len(century_farm_rows(body)), "request_component", f"Page {page} of {pages}"))
+    records: list[dict[str, str]] = []
+    page_counts: dict[int, int] = {}
+    for page in sorted(page_bodies):
+        page_rows = century_farm_rows(page_bodies[page])
+        page_counts[page] = len(page_rows)
+        records.extend(page_rows)
+    expected = (pages - 1) * 10 + page_counts.get(pages, 0)
+    observations: list[Observation] = []
+    for index, record in enumerate(records, start=1):
+        row = empty_observation(state, source_name, f"century-{index}", record["farm_name"], config["century_farms"], 2, "B")
+        row.update({
+            "entity_type_source": "Certified Tennessee Century Farm",
+            "entity_type_review": "farm_identity_confirmed_by_current_university_registry",
+            "county": normalized_county(record["county"]), "county_source": config["century_farms"],
+            "business_types": "Century Farm; current sales and products require research",
+            "notes": f"Certified historic farm founded {record['date_founded'] or 'date not exposed'}. {record['special_recognition']}".strip(),
+        })
+        observations.append(Observation(**row))
+    aggregate = logged(
+        first_log, 2, source_name, len(observations), "observations_retained",
+        f"Registry advertised {expected} records across {pages} pages; all named rows retained without inventing current products or sale channels.",
+    )
+    incomplete_pages = [page for page in range(1, pages) if page_counts.get(page) != 10]
+    if expected != len(observations) or incomplete_pages or not 1 <= page_counts.get(pages, 0) <= 10:
+        aggregate["error"] = (
+            f"Century Farms live pagination expected {expected}; parsed {len(observations)}; "
+            f"incomplete non-final pages: {incomplete_pages}; final-page rows: {page_counts.get(pages, 0)}"
+        )
+    logs.append(aggregate)
+    return observations, logs, {"tennessee_century_farms": records}
+
+
+def tennessee_agritourism(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = "Tennessee Agritourism Association — active farm members"
+    body, landing_log = fetch(config["agritourism"])
+    matches = list(re.finditer(r'<p class="elementor-heading-title[^>]*><a href="([^"]+)">(.*?)</a></p>', body, re.I | re.S))
+    cards: dict[str, dict[str, str]] = {}
+    for index, match in enumerate(matches):
+        url = clean_url(match.group(1)); name = strip_tags(match.group(2))
+        end = matches[index + 1].start() if index + 1 < len(matches) else min(len(body), match.end() + 2500)
+        segment = body[match.end():end]
+        city_match = re.search(r"([A-Za-z][A-Za-z .'-]{1,50}),\s*TN\b", strip_tags(segment), re.I)
+        if url and name:
+            cards[url] = {"url": url, "name": name, "city": normalized_city(city_match.group(1)) if city_match else ""}
+    observations: list[Observation] = []
+    profiles: list[dict[str, Any]] = []
+    logs: list[dict[str, Any]] = []
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        futures = {executor.submit(fetch, url): card for url, card in cards.items()}
+        for future in as_completed(futures):
+            card = futures[future]
+            try:
+                profile_body, request_log = future.result()
+            except Exception as exc:
+                profile_body, request_log = "", {"url": card["url"], "error": str(exc), "attempts_used": 0}
+            schema_match = re.search(r'<script type="application/ld\+json" class="yoast-schema-graph">(.*?)</script>', profile_body, re.I | re.S)
+            article: dict[str, Any] = {}
+            if schema_match:
+                try:
+                    graph = json.loads(html.unescape(schema_match.group(1))).get("@graph", [])
+                    article = next((item for item in graph if item.get("@type") == "Article"), {})
+                except (json.JSONDecodeError, TypeError):
+                    article = {}
+            description = meta_value(profile_body, "og:description", "property")
+            categories = [clean_text(value) for value in article.get("articleSection", [])] if isinstance(article.get("articleSection"), list) else []
+            links = re.findall(r'href="(https?://[^" ]+)"', profile_body, re.I)
+            website, facebook, instagram, tiktok = split_public_links(links, "tennesseeagritourism.org")
+            record_id = card["url"].rstrip("/").rsplit("/", 1)[-1]
+            row = empty_observation(state, source_name, record_id, card["name"], card["url"], 2, "C")
+            row.update({
+                "entity_type_source": "Active agritourism farm member",
+                "entity_type_review": "farm_activity_confirmed_by_current_association_member_profile",
+                "city": card["city"], "products": "; ".join(categories) or description,
+                "business_types": "Agritourism farm", "website_url": website,
+                "facebook_url": facebook, "instagram_url": instagram, "tiktok_url": tiktok,
+                "on_farm_sales": True, "u_pick": any("pick-your-own" in value.casefold() for value in categories),
+                "notes": description[:1500],
+            })
+            observations.append(Observation(**row))
+            profiles.append({"url": card["url"], "name": card["name"], "city": card["city"], "categories": categories, "description": description})
+            logs.append(logged(request_log, 2, f"{source_name} — profile request", int(bool(profile_body)), "request_component"))
+    logs.append(logged(landing_log, 2, source_name, len(observations), "observations_retained", "Only active members were retained; associate members were not treated as Tennessee farm evidence."))
+    return observations, logs, {"tennessee_agritourism_active_members": profiles}
+
+
 def arkansas_extension_farms(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
     source_name = "University of Arkansas Center for Arkansas Farms and Food — direct-sale farms"
     body, request_log = fetch(config["extension_farms"])
@@ -455,31 +840,51 @@ def eatwild_records(state: str, config: dict[str, Any]) -> tuple[list[Observatio
     body, request_log = fetch(config["eatwild"])
     observations: list[Observation] = []
     raw: list[dict[str, Any]] = []
-    for node in dom(body).descendants("p"):
-        if not node.has_class("bodyMargin"):
+    blocks = re.split(r"<hr\b[^>]*>", body, flags=re.I)
+    for block in blocks:
+        text = strip_tags(block)
+        state_zip = re.search(
+            rf"(?:{re.escape(state)}|{re.escape(config['name'])})\s+(\d{{5}})\b",
+            text, re.I,
+        )
+        if not state_zip:
             continue
-        text = node.text()
-        location = re.search(r"\b([A-Za-z][A-Za-z .'-]{1,40})\s*,?\s*(?:AR|Arkansas)\s+(\d{5})\b", text, re.I)
-        if not location:
+        links = re.findall(r'href=["\'](.*?)["\']', block, re.I)
+        website, facebook, instagram, tiktok = split_public_links(links, "eatwild.com")
+        email_match = re.search(r'href=["\']mailto:([^"\']+)', block, re.I)
+        email = clean_text(email_match.group(1)) if email_match else ""
+        phone_match = re.search(r"(?<!\d)(?:\+?1[-. ]?)?\(?\d{3}\)?[-./ ]\d{3}[-./ ]\d{4}(?!\d)", text)
+        contact_signals = (phone_match, email, website, facebook, instagram, tiktok)
+        if not any(contact_signals):
             continue
-        before = text[:location.start()]
-        name = re.split(r"(?<=[.!?])\s+", before)[-1].split(",", 1)[0].strip()
+        strong_values = [strip_tags(value) for value in re.findall(r"<strong[^>]*>(.*?)</strong>", block, re.I | re.S)]
+        name = strong_values[0] if strong_values else ""
+        if not name:
+            contact_paragraphs = [strip_tags(value) for value in re.findall(r'<p[^>]*class=["\'][^"\']*bodyMargin[^"\']*["\'][^>]*>(.*?)</p>', block, re.I | re.S)]
+            contact_line = next((value for value in reversed(contact_paragraphs) if state_zip.group(0) in value), "")
+            name = contact_line.split(",", 1)[0].strip()
         if not 3 <= len(name) <= 100:
             continue
-        address_match = re.search(r"(\d{1,6}\s+[^,]{2,80}),\s*$", before)
-        phone_match = re.search(r"(?<!\d)(?:\+?1[-. ]?)?\(?\d{3}\)?[-./ ]\d{3}[-./ ]\d{4}(?!\d)", text[location.end():])
-        website, facebook, instagram, email = link_values(node)
+        address_link = next(
+            (strip_tags(value) for value in re.findall(r'<a[^>]*>(.*?)</a>', block, re.I | re.S) if re.search(rf"\b(?:{re.escape(state)}|{re.escape(config['name'])})\s+\d{{5}}\b", strip_tags(value), re.I)),
+            "",
+        )
+        city_match = re.search(
+            rf",\s*([A-Za-z][A-Za-z .'-]{{1,40}}),\s*(?:{re.escape(state)}|{re.escape(config['name'])})\s+\d{{5}}\b",
+            address_link or text, re.I,
+        )
         row = empty_observation(state, source_name, str(len(raw) + 1), name, config["eatwild"], 2, "D")
         row.update({
             "entity_type_source": "Pastured-product farm",
             "entity_type_review": "farm_activity_confirmed_by_directory_farm_list",
-            "city": normalized_city(location.group(1)), "postal_code": location.group(2),
-            "address": address_match.group(1) if address_match else "",
+            "city": normalized_city(city_match.group(1)) if city_match else "", "postal_code": state_zip.group(1),
+            "address": address_link,
             "location_precision": "public_directory_address_or_city",
             "phone": phone_match.group(0) if phone_match else "", "email": email,
             "products": "Pastured livestock and/or farm products; see source listing",
             "business_types": "Pastured-product farm; direct sales",
             "website_url": website, "facebook_url": facebook, "instagram_url": instagram,
+            "tiktok_url": tiktok,
             "on_farm_sales": True, "notes": clean_text(text)[:1200],
         })
         observations.append(Observation(**row)); raw.append({"name": name, "text": clean_text(text)})
@@ -525,7 +930,11 @@ def pyo_records(state: str, config: dict[str, Any]) -> tuple[list[Observation], 
                     explicit_closed = bool(re.search(r"permanently closed|assumed permanently closed|ceased operation", text, re.I))
                     if closed_section and not explicit_closed:
                         return
-                    city_zip = re.search(r"\b([A-Za-z][A-Za-z .'-]{1,40}),\s*(?:AR|Arkansas)\s+(\d{5})\b", text, re.I)
+                    city_zip = re.search(
+                        rf"\b([A-Za-z][A-Za-z .'-]{{1,40}}),\s*(?:{re.escape(state)}|{re.escape(config['name'])})\s+(\d{{5}})\b",
+                        text,
+                        re.I,
+                    )
                     phone = re.search(r"(?<!\d)(?:\+?1[-. ]?)?\(?\d{3}\)?[-. ]\d{3}[-. ]\d{4}(?!\d)", text)
                     website, facebook, instagram, email = link_values(node)
                     row = empty_observation(state, f"PickYourOwn — {region}", str(len(records) + 1), name, url, 3, "E")
@@ -974,20 +1383,24 @@ def main() -> int:
     raw_sources["census_place_by_county_reference"] = place_rows
     if not places: critical.append(f"No unambiguous {config['name']} place reference rows were available")
 
-    adapters: list[Callable[..., tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]]] = [
-        arkansas_directory, arkansas_extension_farms, eatwild_records, pyo_records,
-    ]
+    adapters: list[Callable[..., tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]]]
+    if state == "AR":
+        adapters = [arkansas_directory, arkansas_extension_farms, eatwild_records, pyo_records]
+    else:
+        adapters = [tennessee_picktn, tennessee_century_farms, tennessee_agritourism, eatwild_records, pyo_records]
     for adapter in adapters:
         found, source_logs, raw = adapter(state, config)
         observations.extend(found); logs.extend(source_logs); raw_sources.update(raw)
-    official_aggregate = next((log for log in logs if log.get("source_name") == "Arkansas Department of Agriculture — Arkansas Grown directory"), {})
-    if official_aggregate.get("error"):
-        critical.append(str(official_aggregate["error"]))
+    for source_log in logs:
+        if source_log.get("source_decision") == "observations_retained" and source_log.get("error"):
+            critical.append(f"{source_log.get('source_name')}: {source_log['error']}")
 
-    seats, seats_log, seats_text = county_seats(state, config); logs.append(seats_log); raw_sources["county_seat_anchor_text"] = seats_text
-    if len(seats) != config["county_count"]: critical.append(f"County-seat anchors expected {config['county_count']}, received {len(seats)}")
-    found, source_logs, raw, searched_ok = localharvest_gap_search(state, config, seats)
-    observations.extend(found); logs.extend(source_logs); raw_sources.update(raw)
+    searched_ok: set[str] = set()
+    if config.get("county_seats"):
+        seats, seats_log, seats_text = county_seats(state, config); logs.append(seats_log); raw_sources["county_seat_anchor_text"] = seats_text
+        if len(seats) != config["county_count"]: critical.append(f"County-seat anchors expected {config['county_count']}, received {len(seats)}")
+        found, source_logs, raw, searched_ok = localharvest_gap_search(state, config, seats)
+        observations.extend(found); logs.extend(source_logs); raw_sources.update(raw)
 
     apply_place_reference(state, config, observations, places)
     geography_logs, geography_errors = enrich_geography(state, config, observations); logs.extend(geography_logs)
@@ -1075,17 +1488,17 @@ caused deletion or exclusion.
 
 ## Source passes
 
-1. Official pass: the Arkansas Department of Agriculture Arkansas Grown directory.
-2. Market-channel pass: University of Arkansas direct-sale farms and EatWild.
-3. Discovery pass: five PickYourOwn regions plus LocalHarvest searches anchored to all county seats.
+1. Official pass: {config['official_aggregate_name'] if state == 'TN' else 'the Arkansas Department of Agriculture Arkansas Grown directory'}.
+2. Corroboration pass: {'Tennessee Century Farms, Tennessee Agritourism, and EatWild' if state == 'TN' else 'University of Arkansas direct-sale farms and EatWild'}.
+3. Discovery pass: {'ten PickYourOwn regions' if state == 'TN' else 'five PickYourOwn regions plus LocalHarvest searches anchored to all county seats'}.
 
 ## Quality boundaries
 
-- Arkansas Grown includes markets, processors, retailers, and value-added businesses. Named
+- The official marketing directory includes producers, processors, retailers, and value-added businesses. Named
   profiles without explicit farm-operation evidence remain QA candidates rather than being discarded.
 - PickYourOwn closure claims remain retained pending an affirmative append-only curator decision.
 - County and city-or-safe-service-area gaps remain explicit blockers in `entities.csv`.
-- Outside-state radius results remain in immutable observations and `exclusions.csv`, never as Arkansas entities.
+- Outside-state radius results remain in immutable observations and `exclusions.csv`, never as {config['name']} entities.
 - Detailed observations, request logs, and raw source records remain outside Git in the evidence bundle.
 
 ## Promotion blockers
