@@ -1,6 +1,6 @@
 # Alabama state review report
 
-> Release: `al-coverage-reviewed-v4-2026-07-15`
+> Release: `al-coverage-reviewed-v5-qa-2026-07-15`
 >
 > Contract: national state contract v2
 >
@@ -66,8 +66,9 @@ Eleven restored candidates remain in QA:
 | Rainbow Omega Eastaboga | Talladega | Confirm current producing-operation scope. |
 | George R. Carlton | Tallapoosa | Obtain current corroboration. |
 
-All eleven remain in `entities.csv`; none is treated as closed merely because a
-website, recent listing, or other field is unavailable.
+All eleven remain in `entities.csv` and now have explicit append-only `retain`
+decisions for their unresolved QA disposition. None is treated as closed merely
+because a website, recent listing, or other field is unavailable.
 
 ## Affirmative exclusions retained
 
@@ -96,7 +97,8 @@ in decision history but no longer affect the candidate table.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the 11 QA candidates through append-only decisions.
+1. Resolve the documented blockers for the 11 retained QA candidates; their
+   explicit retain decisions do not clear QA or authorize exclusion.
 2. Copy the immutable evidence objects from local versioned staging to managed
    production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.
