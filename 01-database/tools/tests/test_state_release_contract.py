@@ -28,6 +28,7 @@ from collect_southeast import (  # noqa: E402
     choose_county,
     empty_observation,
     farm_operation_signal,
+    farm_entity_confirmation,
     florida_farm_to_you_profile,
     florida_producer_cards,
     georgia_grown_cards,
@@ -206,6 +207,17 @@ class SoutheastSourceClassificationTests(unittest.TestCase):
         self.assertFalse(farm_operation_signal(
             "Example Cookie Company", "We manufacture packaged cookies in Tennessee.", "Cookies"
         ))
+
+    def test_adjacent_agriculture_entities_require_scope_review(self) -> None:
+        for name in (
+            "Example Farm Supply", "Example Processing", "Example Farmers Association",
+            "Agriculture Museum", "Example Market and Grill", "Producer Coalition",
+        ):
+            with self.subTest(name=name):
+                self.assertFalse(farm_entity_confirmation(name, "Vegetables and cattle", "Produce"))
+
+    def test_product_evidence_can_confirm_a_named_producer(self) -> None:
+        self.assertTrue(farm_entity_confirmation("The Garden Patch", "", "Fruit and vegetables"))
 
     def test_georgia_directory_card_is_retained_with_contact_fields(self) -> None:
         body = '''
