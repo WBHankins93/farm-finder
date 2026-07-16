@@ -1,6 +1,6 @@
 # Texas state review report
 
-> Release: `tx-geography-enrichment-v18-2026-07-16`
+> Release: `tx-geography-enrichment-v19-2026-07-16`
 >
 > Contract: national state contract v2
 >
@@ -9,12 +9,12 @@
 ## Outcome
 
 Texas has completed the documented three-pass discovery process across all 254
-counties. Geography Batch 13 triaged 30 retained records with no city or safe
-public service area. Geography Batch 12 assigned county equivalents to 14 retained records
-from published city, postal, or explicit county locations. Twelve had geography
-as their only blocker and cleared the promotion gate; two retained additional
-type/corroboration blockers. The revised release retains 855 named candidates,
-756 currently meet staged field and evidence gates, and 99 remain
+counties. Geography Batch 14 assigned county equivalents to eight retained records
+from published city, postal, farm-address, or service-area evidence; seven had
+geography as their only blocker and cleared the promotion gate. Geography Batch 13
+triaged 30 retained records with no city or safe public service area, bringing the
+remaining county-missing QA surface to 58. The revised release retains 855 named
+candidates, 763 currently meet staged field and evidence gates, and 92 remain
 in research/QA. Texas is not complete and must not be promoted until all county
 batches, managed evidence, approval, and canonical gates pass.
 
@@ -28,15 +28,15 @@ keeps those candidates staged.
 |---|---:|
 | Immutable source observations | 1,062 |
 | Retained candidate entities | 855 |
-| Promotion-eligible reviewed entities | 756 |
-| Research/QA entities | 99 |
+| Promotion-eligible reviewed entities | 763 |
+| Research/QA entities | 92 |
 | Affirmatively excluded observations | 71 |
 | Effective excluded entity groups | 50 |
-| Append-only decisions | 218 |
+| Append-only decisions | 226 |
 | Counties reviewed | 254 of 254 |
-| Counties with retained candidates | 178 |
+| Counties with retained candidates | 181 |
 | Counties searched with none found | 75 |
-| Counties with promotion-eligible candidates | 172 |
+| Counties with promotion-eligible candidates | 175 |
 
 Retained entity observation counts plus the 71 excluded or merged source
 observations reconcile exactly to all 1,062 observations. Multiple source
@@ -195,11 +195,11 @@ Point Enterprises Orchards, Six Mile Pic-N-Pac Produce, and Yoes Peach Orchard.
 
 ## QA profile
 
-The 99 QA entities are retained in `entities.csv`. Blockers overlap:
+The 92 QA entities are retained in `entities.csv`. Blockers overlap:
 
 | Blocker | Entities |
 |---|---:|
-| County-equivalent missing | 66 |
+| County-equivalent missing | 58 |
 | Single grade-E discovery listing needs corroboration | 26 |
 | City or safe public service area missing | 58 |
 | Member/vendor candidate needs independent farm-operation evidence | 17 |
@@ -246,7 +246,7 @@ none of these fields remains retained.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the remaining 99 QA candidates through append-only geography-enrichment and identity/type batches.
+1. Resolve or deliberately retain the remaining 92 QA candidates through append-only geography-enrichment and identity/type batches.
 2. Copy the three immutable evidence objects to managed production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.
 4. Promote Texas atomically in a separate canonical-release change.
@@ -257,3 +257,13 @@ append-only retain decisions. Their source records do not support a defensible
 county assignment, and no affirmative exclusion evidence was established. They
 remain visible in QA for evidence-bound geography enrichment rather than being
 assigned a guessed county.
+
+## Geography Batch 14 — Published city and farm-location corrections
+
+Eight retained records received append-only county corrections from published
+locations: Augustus Ranch and Jim Franks Farm Direct Meat to Lavaca; Bee Space
+Apiaries to Collin; Big Oaks Ranch to Rusk; Cimarron Organics to Potter; Direct
+Source Meats to Bexar; Harmony Hollow Apiaries to Dallas; and Texas Farm Patch to
+Atascosa. Seven had geography as their only blocker and moved to the promotion-
+eligible review set. Direct Source Meats remains in QA because its producer/type
+classification and independent farm-operation evidence are unresolved.
