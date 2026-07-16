@@ -25,7 +25,7 @@
     "sources": [
       {
         "sourceId": "txsrc-f80a206e8194",
-        "name": "Texas Department of Agriculture — 2026 Certified Farmers Markets",
+        "name": "Texas Department of Agriculture \u2014 2026 Certified Farmers Markets",
         "pass": 1,
         "sourceUrl": "https://texasagriculture.gov/Grants-Services/Certified-Farmers-Markets",
         "repositoryPath": null,
@@ -37,7 +37,7 @@
       },
       {
         "sourceId": "txsrc-c89abcd70a04",
-        "name": "Texas Department of Agriculture — Farm to School vendor resource list",
+        "name": "Texas Department of Agriculture \u2014 Farm to School vendor resource list",
         "pass": 1,
         "sourceUrl": "https://www.squaremeals.org/Portals/8/files/NSLP/LFS/LFS%20Vendor%20Resource%20List%20Updated%20Nov%202024.pdf?ver=I7PGgvoElV78S-FFin0OiQ%3D%3D",
         "repositoryPath": null,
@@ -49,7 +49,7 @@
       },
       {
         "sourceId": "txsrc-85a940b4f118",
-        "name": "Texas Department of Agriculture — GO TEXAN Farm And Ranch",
+        "name": "Texas Department of Agriculture \u2014 GO TEXAN Farm And Ranch",
         "pass": 1,
         "sourceUrl": "https://bridge.texasagriculture.gov/GoTexanSearch/?resultsFormat=CommaSeparatedValues&searchType=Advanced&pageSize=2147483647&businessType=Farm+And+Ranch&pageNumber=1",
         "repositoryPath": null,
@@ -61,7 +61,7 @@
       },
       {
         "sourceId": "txsrc-415190a49185",
-        "name": "U.S. Census Bureau — Texas county denominator",
+        "name": "U.S. Census Bureau \u2014 Texas county denominator",
         "pass": 1,
         "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2748%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
         "repositoryPath": null,
@@ -85,7 +85,7 @@
       },
       {
         "sourceId": "txsrc-5bba454ff4ac",
-        "name": "Shop Texas Farms — member business directory",
+        "name": "Shop Texas Farms \u2014 member business directory",
         "pass": 2,
         "sourceUrl": "https://shoptexasfarms.com/business-directory/",
         "repositoryPath": null,
@@ -97,7 +97,7 @@
       },
       {
         "sourceId": "txsrc-013fb79193db",
-        "name": "Texas Center for Local Food — Farms & Ranches",
+        "name": "Texas Center for Local Food \u2014 Farms & Ranches",
         "pass": 2,
         "sourceUrl": "https://texaslocalfood.org/wp-json/tld-connector/v1/content",
         "repositoryPath": null,
@@ -121,7 +121,7 @@
       },
       {
         "sourceId": "txsrc-342b73f9abf2",
-        "name": "LocalHarvest — Texas county-seat gap search",
+        "name": "LocalHarvest \u2014 Texas county-seat gap search",
         "pass": 3,
         "sourceUrl": "https://www.localharvest.org",
         "repositoryPath": null,
@@ -133,7 +133,7 @@
       },
       {
         "sourceId": "txsrc-f61037e4d509",
-        "name": "PickYourOwn — Abilene",
+        "name": "PickYourOwn \u2014 Abilene",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXabilene.htm",
         "repositoryPath": null,
@@ -145,7 +145,7 @@
       },
       {
         "sourceId": "txsrc-bb2a1b446bcc",
-        "name": "PickYourOwn — Austin",
+        "name": "PickYourOwn \u2014 Austin",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXaustin.htm",
         "repositoryPath": null,
@@ -157,7 +157,7 @@
       },
       {
         "sourceId": "txsrc-194d793a3dbd",
-        "name": "PickYourOwn — Corpus Christi",
+        "name": "PickYourOwn \u2014 Corpus Christi",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXcorpus.htm",
         "repositoryPath": null,
@@ -169,7 +169,7 @@
       },
       {
         "sourceId": "txsrc-496ebb94663d",
-        "name": "PickYourOwn — Dallas / Fort Worth",
+        "name": "PickYourOwn \u2014 Dallas / Fort Worth",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXdallas.htm",
         "repositoryPath": null,
@@ -181,7 +181,7 @@
       },
       {
         "sourceId": "txsrc-5f52bd670362",
-        "name": "PickYourOwn — Far West",
+        "name": "PickYourOwn \u2014 Far West",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXfarwest.htm",
         "repositoryPath": null,
@@ -193,7 +193,7 @@
       },
       {
         "sourceId": "txsrc-e0d7e0fa26b6",
-        "name": "PickYourOwn — Houston / Southeast",
+        "name": "PickYourOwn \u2014 Houston / Southeast",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXhouston.htm",
         "repositoryPath": null,
@@ -205,7 +205,7 @@
       },
       {
         "sourceId": "txsrc-869768090acc",
-        "name": "PickYourOwn — Lubbock",
+        "name": "PickYourOwn \u2014 Lubbock",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXlubbock.htm",
         "repositoryPath": null,
@@ -217,7 +217,7 @@
       },
       {
         "sourceId": "txsrc-6250da60769c",
-        "name": "PickYourOwn — Northeast",
+        "name": "PickYourOwn \u2014 Northeast",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXnortheast.htm",
         "repositoryPath": null,
@@ -229,7 +229,7 @@
       },
       {
         "sourceId": "txsrc-e09c285fe350",
-        "name": "PickYourOwn — Panhandle",
+        "name": "PickYourOwn \u2014 Panhandle",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXpanhandle.htm",
         "repositoryPath": null,
@@ -241,7 +241,7 @@
       },
       {
         "sourceId": "txsrc-114f4f80bead",
-        "name": "PickYourOwn — San Angelo",
+        "name": "PickYourOwn \u2014 San Angelo",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXsanangelo.htm",
         "repositoryPath": null,
@@ -253,7 +253,7 @@
       },
       {
         "sourceId": "txsrc-9ecf17827e28",
-        "name": "PickYourOwn — San Antonio",
+        "name": "PickYourOwn \u2014 San Antonio",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXsanantonio.htm",
         "repositoryPath": null,
@@ -265,7 +265,7 @@
       },
       {
         "sourceId": "txsrc-34dced6be521",
-        "name": "PickYourOwn — Southern Tip",
+        "name": "PickYourOwn \u2014 Southern Tip",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXsouth.htm",
         "repositoryPath": null,
@@ -277,7 +277,7 @@
       },
       {
         "sourceId": "txsrc-c35b62b7b45d",
-        "name": "PickYourOwn — Texas regional index",
+        "name": "PickYourOwn \u2014 Texas regional index",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TX.htm",
         "repositoryPath": null,
@@ -289,7 +289,7 @@
       },
       {
         "sourceId": "txsrc-568cdbdcad63",
-        "name": "PickYourOwn — Wichita Falls",
+        "name": "PickYourOwn \u2014 Wichita Falls",
         "pass": 3,
         "sourceUrl": "https://www.pickyourown.org/TXwichitafalls.htm",
         "repositoryPath": null,
@@ -313,7 +313,7 @@
       },
       {
         "sourceId": "txsrc-12a8acee089e",
-        "name": "Texas State Library — county-seat search anchors",
+        "name": "Texas State Library \u2014 county-seat search anchors",
         "pass": 3,
         "sourceUrl": "https://www.tsl.texas.gov/ref/abouttx/countyseats.html",
         "repositoryPath": null,
@@ -325,7 +325,7 @@
       },
       {
         "sourceId": "txsrc-8eac5380f8f7",
-        "name": "U.S. Census Bureau — 2020 ZCTA-to-county relationship",
+        "name": "U.S. Census Bureau \u2014 2020 ZCTA-to-county relationship",
         "pass": 3,
         "sourceUrl": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
         "repositoryPath": null,
@@ -337,7 +337,7 @@
       },
       {
         "sourceId": "txsrc-c0ba7d2443a4",
-        "name": "U.S. Census Bureau — 2020 place-by-county reference",
+        "name": "U.S. Census Bureau \u2014 2020 place-by-county reference",
         "pass": 3,
         "sourceUrl": "https://www2.census.gov/geo/docs/reference/codes2020/national_place_by_county2020.txt",
         "repositoryPath": null,
@@ -349,7 +349,7 @@
       },
       {
         "sourceId": "txsrc-95ccd6d2f723",
-        "name": "US Farm Trail — Texas discovery page",
+        "name": "US Farm Trail \u2014 Texas discovery page",
         "pass": 3,
         "sourceUrl": "https://www.usfarmtrail.com/states/texas",
         "repositoryPath": null,
@@ -375,7 +375,7 @@
     "coverage": {
       "countyEquivalentsReviewed": 254,
       "countyEquivalentsWithCandidates": 179,
-      "countyEquivalentsWithEligibleEntities": 171,
+      "countyEquivalentsWithEligibleEntities": 172,
       "unresolvedCountyEquivalents": []
     }
   },
@@ -391,35 +391,35 @@
   "release": {
     "id": "tx-coverage-reviewed-v6-qa-2026-07-15",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-15T23:30:00+00:00",
+    "generatedAt": "2026-07-15T23:59:00-05:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
       "sourceObservations": 1062,
-      "proposedEntities": 883,
-      "promotionEligibleEntities": 716,
-      "researchOrQaEntities": 167,
-      "excludedObservations": 47,
-      "excludedEntityGroups": 27,
+      "proposedEntities": 855,
+      "promotionEligibleEntities": 736,
+      "researchOrQaEntities": 119,
+      "excludedObservations": 73,
+      "excludedEntityGroups": 53,
       "identityReviewGroups": 113,
       "countyCoverageRows": 254,
       "countiesWithCandidates": 179,
-      "countiesWithEligibleEntities": 171,
+      "countiesWithEligibleEntities": 172,
       "sourceDatasets": 29,
       "manualDecisions": 237
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "5352139011dc4d6af32b3df603a6fc7fc5a3749c79bf1e09140127177eee2641",
-        "bytes": 717073
+        "sha256": "83958e654fcd1c6a199f6a68e2a1872c99898be069d9295202daf4e52b87a2d1",
+        "bytes": 693962
       },
       "decisions.csv": {
-        "sha256": "b833e3af6f3851f9577942420452a8fc5d25cf148e0386aa2a0a5eb91cc0fde3",
-        "bytes": 150949
+        "sha256": "999949692a2859e1cc8772075d5ef5d4b0bea42381d2a3248819a05e6600502b",
+        "bytes": 139701
       },
       "report.md": {
-        "sha256": "f944f3b48cf78d15282ca06c3d5270f3fbeb444d8f0de6ae3518d7f943780f1a",
-        "bytes": 4818
+        "sha256": "310c64235a0ad0a7ce9fd3c7aa4c8f2af2e4c748cc94843627daf0b7882d2cdb",
+        "bytes": 5037
       }
     },
     "evidenceStorage": {
