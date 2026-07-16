@@ -21,7 +21,7 @@ FarmFinder currently has a working static-first public directory and a verified 
 | Canonical records | 299 one-row-per-entity workbook listings: 220 LA and 79 MS |
 | Public map | 299 mapped listings with explicit location precision |
 | Website/contact QA | 88 website flags, 85 populated URLs, 3 missing URLs; 243 direct contacts and 56 missing direct phone/email |
-| State expansion | Alabama coverage reviewed: 1,057 observations, 808 retained entities, 799 eligible / 9 QA; Texas coverage reviewed: 1,062 observations, 855 retained entities, 736 eligible / 119 QA. Both pass the four-file national contract. Eligible rows can be handed to the next pipeline stage while state-scoped QA queues remain open; neither state is approved or canonical. |
+| State expansion | Alabama coverage reviewed: 1,057 observations, 810 retained entities, 799 eligible / 11 QA; all 67 counties reviewed. Texas coverage reviewed: 1,062 observations, 883 retained entities, 716 eligible / 167 QA; all 254 counties reviewed. Both pass the four-file national contract but remain unapproved private staging outside canon. |
 | Public application | Working vinext/Next.js directory using generated JSON |
 | PostgreSQL cutover | 30-table foundation verified; historical v1 with 315 raw rows remains staged locally; enriched v2 must be staged as a new immutable release |
 | Custom indexes | 27 documented indexes tied to queries, invariants, or worker operations |
@@ -453,7 +453,7 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 **Status:** Active data work, platform integration planned
 
 - Complete the Mississippi three-pass collection and review its staged candidates.
-- Hand eligible state rows to the next pipeline stage and keep each state's QA queue explicit; resolve QA and evidence-storage gates before deliberate approval and promotion.
+- Resolve Alabama's remaining QA and evidence-storage gates, then deliberately approve and promote the current release fingerprint; do not fold it into LA/MS canon implicitly.
 - Expand state-by-state from the Gulf South until FarmFinder covers the continental United States.
 - Track completeness and freshness at state and county/parish levels.
 - Maintain operational coverage regions for foodsheds, metros, and agricultural districts.

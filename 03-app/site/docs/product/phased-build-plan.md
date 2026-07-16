@@ -39,15 +39,10 @@ The website and mobile app are clients of the same FarmFinder platform. PostgreS
 4. Reconcile identities using evidence; a name match alone never merges farms.
 5. Store field-level assertions so each proposed value points to its source.
 6. Run coverage, privacy, duplicate, geography, link, and public-projection gates.
-7. Export eligible records for the next pipeline stage while keeping unresolved
-   candidates in a state-scoped QA queue.
-8. Review exceptions and promote the complete release atomically only after
-   record verification and approval.
-9. Move the single current-release pointer only after promotion succeeds; rollback moves that pointer to the prior intact release.
+7. Review exceptions and promote the complete release atomically.
+8. Move the single current-release pointer only after promotion succeeds; rollback moves that pointer to the prior intact release.
 
-New states follow the same contract. State collection may continue state by state
-after eligible handoff, but only a governed promoted release is authoritative for
-the application.
+New states follow the same contract. State collection may continue in parallel, but only a governed promoted release is authoritative for the application.
 
 ## Index decision discipline
 
