@@ -52,6 +52,23 @@ def classify_candidate(
     return CandidateDisposition(ELIGIBLE_STATUS, ())
 
 
+def sufficient_promotion_evidence(
+    observation_grades: str,
+    decision_grades: Iterable[str] = (),
+) -> bool:
+    """Eligibility needs evidence beyond a single unresolved grade-E listing.
+
+    Grade F observations block promotion outright. Grade-E-only observation
+    evidence passes only when an append-only corroborate/correct decision
+    contributes grade A-D evidence for the same candidate.
+    """
+    observed = {grade.strip() for grade in observation_grades.split(";") if grade.strip()}
+    if "F" in observed:
+        return False
+    corroborated = {grade.strip() for grade in decision_grades if grade.strip() in {"A", "B", "C", "D"}}
+    return (observed | corroborated) != {"E"}
+
+
 def validate_exclusion_reason(reason: str) -> None:
     """Reject absence-based or undocumented exclusion decisions."""
     if reason not in AFFIRMATIVE_EXCLUSION_REASONS:

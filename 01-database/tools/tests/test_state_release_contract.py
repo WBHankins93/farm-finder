@@ -19,6 +19,7 @@ from state_policy import (  # noqa: E402
     RESEARCH_STATUS,
     classify_candidate,
     effective_decisions,
+    sufficient_promotion_evidence,
 )
 from state_release_status import state_status  # noqa: E402
 from export_state_pipeline import export_state  # noqa: E402
@@ -109,6 +110,20 @@ class CandidateRetentionPolicyTests(unittest.TestCase):
                 {"review_id": "one", "decision": "retain", "supersedes_review_id": "two"},
                 {"review_id": "two", "decision": "retain", "supersedes_review_id": "one"},
             ])
+
+    def test_grade_e_only_observations_are_insufficient_for_eligibility(self) -> None:
+        self.assertFalse(sufficient_promotion_evidence("E"))
+        self.assertFalse(sufficient_promotion_evidence("E", ["E"]))
+        self.assertTrue(sufficient_promotion_evidence("B"))
+        self.assertTrue(sufficient_promotion_evidence("B; E"))
+
+    def test_corroborating_decision_evidence_can_resolve_grade_e_only(self) -> None:
+        self.assertTrue(sufficient_promotion_evidence("E", ["C"]))
+        self.assertFalse(sufficient_promotion_evidence("E", ["F"]))
+
+    def test_grade_f_observations_block_eligibility_even_when_corroborated(self) -> None:
+        self.assertFalse(sufficient_promotion_evidence("B; F"))
+        self.assertFalse(sufficient_promotion_evidence("F", ["A"]))
 
     def test_malformed_csv_shape_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
