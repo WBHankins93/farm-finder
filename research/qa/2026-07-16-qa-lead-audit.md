@@ -1,5 +1,14 @@
 # FarmFinder QA lead audit — 2026-07-16
 
+> **Post-audit note (2026-07-16):** the committed contract figures below reflect
+> the branch state at audit time. Main has since merged the AL/TX QA
+> dispositions (#10, #15): the committed Alabama release is now
+> `al-coverage-reviewed-v5-qa-2026-07-15` (808 entities / 9 QA) and the
+> committed Texas release is `tx-coverage-reviewed-v6-qa-2026-07-15`
+> (855 entities / 119 QA). The staging-handoff mismatch described in the first
+> P1 finding has therefore been reconciled; the finding is retained as the
+> record of why that reconciliation was required.
+
 ## Scope
 
 This audit covers the current source-of-truth workbook, the committed national

@@ -99,7 +99,7 @@ def source_records(rows: Iterable[dict[str, object]]) -> list[dict[str, Any]]:
     source_keys: dict[int, str] = {}
     for base_key, items in grouped.items():
         hash_occurrences: Counter[str] = Counter()
-        for index, _, digest, _ in sorted(items, key=lambda item: (item[2], item[3])):
+        for index, _, digest, _ in sorted(items, key=lambda item: item[2]):
             hash_occurrences[digest] += 1
             source_keys[index] = f"{base_key}:{digest}:{hash_occurrences[digest]:02d}"
 
