@@ -31,8 +31,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 102,
-        "retrievedAt": "2026-07-16T04:34:13.095021+00:00",
-        "responseSha256": "9f9ca615d4697ceeee263efa37be8da45ccb7887d518378c584ae68a032e8976",
+        "retrievedAt": "2026-07-16T05:13:32.390342+00:00",
+        "responseSha256": "efbf2e90e4efd4af70f62528cd4f52b965c8cf5ba406477595935795fd6e2c57",
         "notes": null
       },
       {
@@ -43,8 +43,32 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 124,
-        "retrievedAt": "2026-07-16T04:34:14.785362+00:00",
-        "responseSha256": "ae0b01b26bcf8685db0bf2269c265d9a2232a6d12cb715a41009bbd5cb66fd80",
+        "retrievedAt": "2026-07-16T05:13:34.275704+00:00",
+        "responseSha256": "28a29a4e97418661ee4e71d4113d72579afcf875ae01489325020f970b2510a1",
+        "notes": null
+      },
+      {
+        "sourceId": "mssrc-56fb549ff0de",
+        "name": "MDAC 2025–2026 certified nursery growers",
+        "pass": 1,
+        "sourceUrl": "https://agnet.mdac.ms.gov/agManage/uploads/1415.pdf",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 257,
+        "retrievedAt": "2026-07-16T05:14:09.576688+00:00",
+        "responseSha256": "6ade3a9a8ccdaecccb022bf8bbe9c5126ef1950e7ef396746670dd2b079f5444",
+        "notes": "Parsed 348 certified-nursery entries; retained 257 explicit commercial/non-commercial growers and did not treat outlets or unclassified entries as farms."
+      },
+      {
+        "sourceId": "mssrc-a6901c844a34",
+        "name": "MDAC-linked Mississippi Christmas Tree Farms",
+        "pass": 1,
+        "sourceUrl": "https://mschristmastrees.com/locations/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 31,
+        "retrievedAt": "2026-07-16T05:14:08.846539+00:00",
+        "responseSha256": "def355973419fd32e7d82174811e78f4f525fe754eb12d10300cf24a14f58275",
         "notes": null
       },
       {
@@ -55,7 +79,7 @@
         "repositoryPath": null,
         "decision": "coverage_denominator",
         "recordsParsed": 82,
-        "retrievedAt": "2026-07-16T04:34:10.705778+00:00",
+        "retrievedAt": "2026-07-16T05:13:29.774972+00:00",
         "responseSha256": "4ce46c12e51f487222524ebe36bc88f162fb75d10ed2d989061747f89179a51d",
         "notes": null
       },
@@ -67,7 +91,7 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 3,
-        "retrievedAt": "2026-07-16T04:35:25.830252+00:00",
+        "retrievedAt": "2026-07-16T05:14:10.349631+00:00",
         "responseSha256": "44df1736e710bb35ff44de7e82c459715f249af4a2816d5576c91c4f0e3f0282",
         "notes": null
       },
@@ -79,8 +103,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 4,
-        "retrievedAt": "2026-07-16T04:35:25.022250+00:00",
-        "responseSha256": "d3818b5d8d31f46877bbc607cb8f040390e6661743b64228480734cb450690ec",
+        "retrievedAt": "2026-07-16T05:14:08.607420+00:00",
+        "responseSha256": "0b452cb5ca0d342c4dfea7f40d5245ee9f6d127b3115a0e8a9b736ece37ed504",
         "notes": null
       },
       {
@@ -91,8 +115,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 20,
-        "retrievedAt": "2026-07-16T04:35:23.758669+00:00",
-        "responseSha256": "01ef1a5529dc93544f8792ccb2e591080660d52b609788ff5a0cf0f2c1da1164",
+        "retrievedAt": "2026-07-16T05:14:07.802304+00:00",
+        "responseSha256": "068958d78397e1353bac07bb6a2fb5944097e8be2e194df4e363f0e2cfee3363",
         "notes": "Arts, crafts, baked goods, and other non-producer categories were retained only in raw source evidence."
       },
       {
@@ -103,8 +127,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 96,
-        "retrievedAt": "2026-07-16T04:35:25.655121+00:00",
-        "responseSha256": "f816437865f47a1f2c3621140789531183eb68862b33e605a1021287c2c350dd",
+        "retrievedAt": "2026-07-16T05:14:10.171885+00:00",
+        "responseSha256": "864d21c28d6bf7e982a9e308fff193474a5a9a40076b640833d970c3b3f1fa44",
         "notes": null
       },
       {
@@ -114,10 +138,10 @@
         "sourceUrl": "https://www.localharvest.org",
         "repositoryPath": null,
         "decision": "observations_retained",
-        "recordsParsed": 75,
-        "retrievedAt": "2026-07-16T04:35:35.468264+00:00",
+        "recordsParsed": 151,
+        "retrievedAt": "2026-07-16T05:14:27.314648+00:00",
         "responseSha256": null,
-        "notes": "Searched 11 county-seat anchors; deduplicated 75 profile URLs. Failures remain explicit."
+        "notes": "Searched 82 county-seat anchors; deduplicated 151 profile URLs. Failures remain explicit."
       },
       {
         "sourceId": "mssrc-b028595fa9b9",
@@ -127,8 +151,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 18,
-        "retrievedAt": "2026-07-16T04:35:26.688206+00:00",
-        "responseSha256": "2aecd9cb4cfc23bddba8d1373431b9fc2c98ed292ba4e78c8d6413c16ce95876",
+        "retrievedAt": "2026-07-16T05:14:11.120549+00:00",
+        "responseSha256": "0cb83ba7c6106b3ac9fbeccbd80702a5974cb87cb43fa436d4f7d834caa8e774",
         "notes": "County sections searched: 15; closure claims retained for review."
       },
       {
@@ -139,8 +163,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 5,
-        "retrievedAt": "2026-07-16T04:35:26.411030+00:00",
-        "responseSha256": "259e7c83d41cf11baa3492a726dc5bd804a51887e1c9219d52e864cc619e1b20",
+        "retrievedAt": "2026-07-16T05:14:10.854799+00:00",
+        "responseSha256": "49e15c01aee241e5813b2d54b584fb2aad3c7f51e57a3d31a3642a353dc55728",
         "notes": "County sections searched: 14; closure claims retained for review."
       },
       {
@@ -151,8 +175,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 18,
-        "retrievedAt": "2026-07-16T04:35:26.142817+00:00",
-        "responseSha256": "022c01fc9f4d0e234293c3efd0e593be72b142b39177b9c1a45dc5ae4b11c17e",
+        "retrievedAt": "2026-07-16T05:14:10.620233+00:00",
+        "responseSha256": "f22b8b5b31a9ab379176f27bb6229230390493f602eaded65836eb38f321e05b",
         "notes": "County sections searched: 29; closure claims retained for review."
       },
       {
@@ -163,8 +187,8 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 40,
-        "retrievedAt": "2026-07-16T04:35:27.016347+00:00",
-        "responseSha256": "d2d132c0c63dd9137a12eab71f8ae040fe373a4f2aa5db71a1aac0f310d19b27",
+        "retrievedAt": "2026-07-16T05:14:11.476508+00:00",
+        "responseSha256": "00cf55953e144675d807558f578a8551564a235982fac2910d511485ee9d036b",
         "notes": "County sections searched: 13; closure claims retained for review."
       },
       {
@@ -175,15 +199,15 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 9,
-        "retrievedAt": "2026-07-16T04:35:32.024466+00:00",
-        "responseSha256": "074eaa0fb9fd94b534f6be8c21ba11974d934ac76f1ace20234c9cde2867cd18",
+        "retrievedAt": "2026-07-16T05:14:11.669509+00:00",
+        "responseSha256": "45bd4d9d263ca8e90aaa2828f6a47b1347b32cfc49418b2f47d081bb4f838344",
         "notes": "County sections searched: 9; closure claims retained for review."
       }
     ],
     "coverage": {
       "countyEquivalentsReviewed": 82,
-      "countyEquivalentsWithCandidates": 74,
-      "countyEquivalentsWithEligibleEntities": 71,
+      "countyEquivalentsWithCandidates": 79,
+      "countyEquivalentsWithEligibleEntities": 79,
       "unresolvedCountyEquivalents": []
     }
   },
@@ -210,37 +234,49 @@
       "baselineReleaseId": "2026-07-15-enriched-v2",
       "baselineSourceRowCount": 299,
       "baselineStateRows": 79,
-      "rediscoveredRows": 58,
+      "rediscoveredRows": 59,
       "possibleAliasRows": 2,
-      "baselineOnlyRows": 19
+      "baselineOnlyRows": 18
     },
-    "id": "ms-coverage-reviewed-v1-2026-07-15",
+    "id": "ms-coverage-reviewed-v1-2026-07-16",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-16T04:35:36.668785+00:00",
+    "generatedAt": "2026-07-16T05:14:33.018756+00:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
-      "sourceObservations": 593,
-      "proposedEntities": 448,
-      "promotionEligibleEntities": 282,
-      "researchOrQaEntities": 166,
-      "excludedObservations": 12,
+      "sourceObservations": 957,
+      "proposedEntities": 737,
+      "promotionEligibleEntities": 575,
+      "researchOrQaEntities": 162,
+      "excludedObservations": 45,
       "excludedEntityGroups": 0,
-      "identityReviewGroups": 103,
+      "identityReviewGroups": 135,
       "countyCoverageRows": 82,
-      "countiesWithCandidates": 74,
-      "countiesWithEligibleEntities": 71,
-      "sourceDatasets": 13,
+      "countiesWithCandidates": 79,
+      "countiesWithEligibleEntities": 79,
+      "sourceDatasets": 15,
       "manualDecisions": 0,
       "canonicalBaselineObservations": 79,
-      "currentSourceObservations": 514
+      "currentSourceObservations": 878,
+      "operationStatusCounts": {
+        "currently_listed_official_2026": 299,
+        "unresolved_2026": 123,
+        "likely_operating_2026": 271,
+        "reported_closed_requires_review": 40,
+        "confirmed_operating_2026": 4
+      },
+      "supportedOperatingEntities2026": 282,
+      "additionalLikelyOperatingEntities2026": 268,
+      "operationCountUpperSupportedRange": 550,
+      "operationScopeReviewEntities": 23,
+      "operationIdentityReviewEntities": 6
     },
     "evidenceStorage": {
       "provider": "s3-compatible",
       "environment": "local-staging",
       "status": "local_bundle_only",
       "bucket": "farmfinder-source-releases",
-      "prefix": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-15/",
+      "prefix": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-16/",
       "versioningRequired": true,
       "managedCopyRequiredBeforePromotion": true
     },
@@ -248,50 +284,50 @@
       {
         "role": "observations",
         "filename": "observations.csv.zst",
-        "objectKey": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-15/observations.csv.zst",
-        "sha256": "6c8d67fe7870f85428f25d4d3bd938e8d70fb16eb0d39d0c383041f64cfbb465",
-        "bytes": 121333,
-        "rows": 593,
+        "objectKey": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-16/observations.csv.zst",
+        "sha256": "a573602b233ca39bba8f9546387ab519287f5d91e38e3104f4b836713db145ad",
+        "bytes": 181360,
+        "rows": 957,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "local:6c8d67fe7870f85428f25d4d"
+        "versionId": "local:a573602b233ca39bba8f9546"
       },
       {
         "role": "source_records",
         "filename": "source-records.jsonl.zst",
-        "objectKey": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-15/source-records.jsonl.zst",
-        "sha256": "cf53edb0a3661de8ba85a1496df463c6f22454c667209a73c50b625cd2dc8fc6",
-        "bytes": 80182,
-        "rows": 10,
+        "objectKey": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-16/source-records.jsonl.zst",
+        "sha256": "c4aaa925d2141185e73934b5a191908aa077147a2e08c19f085a8921fe9aa288",
+        "bytes": 117106,
+        "rows": 12,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "local:cf53edb0a3661de8ba85a149"
+        "versionId": "local:c4aaa925d2141185e73934b5"
       },
       {
         "role": "collection_log",
         "filename": "collection-log.jsonl.zst",
-        "objectKey": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-15/collection-log.jsonl.zst",
-        "sha256": "7ba72b9a697674a71f5a78e881f9d3a660d51c628713fe5be62bb0780544f820",
-        "bytes": 24710,
-        "rows": 398,
+        "objectKey": "state-expansions/MS/ms-coverage-reviewed-v1-2026-07-16/collection-log.jsonl.zst",
+        "sha256": "907285afc0425f7285a1a079a622fa5eecb307b8ebfa019244364853f1c53ba9",
+        "bytes": 40314,
+        "rows": 593,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "local:7ba72b9a697674a71f5a78e8"
+        "versionId": "local:907285afc0425f7285a1a079"
       }
     ],
     "approval": {},
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "fd4d132cd0a8add156fbe4dace7da53c061c60567c3267e391a80eeae4c31bcc",
-        "bytes": 371084
+        "sha256": "bdb2c82744159732db9207337a3981f0d2389e8c8d1ac99dc7cbe59548eda932",
+        "bytes": 773379
       },
       "decisions.csv": {
         "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
         "bytes": 260
       },
       "report.md": {
-        "sha256": "e5848b65249ea5bbed284dc71223f3a2ae65a44688f7fa9251581795e9e614ac",
-        "bytes": 4418
+        "sha256": "d91cf49fa1a959172e208d501a987e1343152e6bb49af20be5063820b9f34c2b",
+        "bytes": 5125
       }
     }
   }
