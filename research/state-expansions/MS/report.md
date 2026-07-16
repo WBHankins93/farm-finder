@@ -79,7 +79,7 @@ Blocker counts overlap because one retained entity can require more than one fol
 | county missing | 49 |
 | source reports closure and requires affirmative curator decision | 41 |
 | city or safe public service area missing | 30 |
-| directory candidate needs independent farm-operation evidence | 23 |
+| directory candidate needs independent farm-operation evidence | 22 |
 | canonical baseline farm not rediscovered in current three-pass sources | 20 |
 | same normalized name appears in multiple counties | 4 |
 
