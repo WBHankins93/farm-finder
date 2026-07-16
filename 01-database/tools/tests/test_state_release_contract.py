@@ -19,6 +19,7 @@ from state_policy import (  # noqa: E402
     RESEARCH_STATUS,
     classify_candidate,
     effective_decisions,
+    source_tier_issues,
     sufficient_promotion_evidence,
 )
 from state_release_status import state_status  # noqa: E402
@@ -132,6 +133,21 @@ class CandidateRetentionPolicyTests(unittest.TestCase):
             path.write_text("entity_id,state\nNC-1,NC,extra\n", encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "more values than the header"):
                 validation.read_csv(path)
+
+
+class SourceTierPolicyTests(unittest.TestCase):
+    def test_valid_tiers_pass_and_invalid_tiers_error(self) -> None:
+        invalid, untiered = source_tier_issues([
+            {"sourceId": "a", "tier": "candidate"},
+            {"sourceId": "b", "tier": "identity_hint"},
+            {"sourceId": "c", "tier": "primary"},
+        ])
+        self.assertEqual(invalid, ["c"])
+        self.assertEqual(untiered, [])
+
+    def test_legacy_untiered_sources_warn_not_error(self) -> None:
+        invalid, untiered = source_tier_issues([{"sourceId": "a"}])
+        self.assertEqual((invalid, untiered), ([], ["a"]))
 
 
 class PrScopeFreshnessTests(unittest.TestCase):

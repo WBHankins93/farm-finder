@@ -19,6 +19,7 @@ from state_policy import (
     ELIGIBLE_STATUS,
     RESEARCH_STATUS,
     effective_decisions,
+    source_tier_issues,
     sufficient_promotion_evidence,
 )
 
@@ -460,6 +461,14 @@ def _validate_v2_state(state: str, require_local_artifacts: bool) -> dict[str, A
     require({row.get("pass") for row in sources} == set(collection.get("requiredPasses", [])),
             "source plan does not cover every required pass", errors)
     require(len(sources) == len({row.get("sourceId") for row in sources}), "duplicate source ID", errors)
+    invalid_tiers, untiered_sources = source_tier_issues(sources)
+    require(not invalid_tiers,
+            "sources with invalid ingestion tier: " + ", ".join(invalid_tiers), errors)
+    if untiered_sources:
+        warnings.append(
+            f"{len(untiered_sources)} collection sources lack an ingestion tier; "
+            "classify them per 01-database/pipeline-enrichment-plan.md when the state is next recollected"
+        )
     coverage = collection.get("coverage", {})
     require(int(coverage.get("countyEquivalentsReviewed", -1)) == expected_counties,
             "county-equivalent coverage denominator does not reconcile", errors)
