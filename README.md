@@ -355,7 +355,25 @@ See [`03-app/site/evals/`](03-app/site/evals/) and the [implementation ledger](0
 
 ## Roadmap
 
-The phases below are dependency-driven rather than calendar promises. Data expansion and direct FarmFinder participation work may continue alongside platform development, but marketplace functionality remains intentionally last.
+The phases below are dependency-driven guidelines, not calendar promises. Detailed
+phase notes are collapsed here; see the [phased build plan](03-app/site/docs/product/phased-build-plan.md)
+for the full implementation plan.
+
+| Phase | Status | Guideline |
+|---|---|---|
+| 0. Foundation | Complete | Establish the repository, architecture, schema, governance, and tests. |
+| 1. Data cutover | In progress | Move the validated workbook into an immutable, verified database release. |
+| 2. API and search | Planned | Provide versioned APIs and structured farm discovery tools. |
+| 3. Claims and curation | Planned | Add authentication, farm claims, corrections, and review workflows. |
+| 4. Question answering | Planned | Add grounded structured, narrative, and hybrid answers. |
+| 5. Production operations | Planned | Add managed infrastructure, CI/CD, observability, backups, and rollback. |
+| 6. Pilot and validation | Planned | Test FarmFinder with farms and consumers and measure real outcomes. |
+| 7. Coverage expansion | Active | Repeat the gather → cleanse → QA → verification → promotion loop state by state. |
+| 8. Media | Deferred | Add governed farm images and media delivery when the need is demonstrated. |
+| 9. Marketplace | Deferred | Consider ordering only after coverage, participation, and demand are proven. |
+
+<details>
+<summary>Detailed phase notes</summary>
 
 ### Phase 0 — Foundation complete
 
@@ -476,6 +494,8 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 **Status:** Intentionally deferred
 
 Ordering, payment, inventory, fulfillment, and marketplace mechanics will not be built until directory coverage, farm participation, and consumer demand are demonstrated. Until then, FarmFinder should link to each farm's chosen ordering or contact method rather than impose a FarmFinder marketplace.
+
+</details>
 
 ## FarmFinder product validation
 
