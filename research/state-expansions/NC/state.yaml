@@ -1,0 +1,238 @@
+{
+  "contractVersion": 2,
+  "state": {
+    "code": "NC",
+    "name": "North Carolina",
+    "countyEquivalentLabel": "county",
+    "countyEquivalentCount": 100
+  },
+  "policy": {
+    "version": "2026-07-15",
+    "missingDataDisposition": "research_or_qa_queue",
+    "affirmativeExclusionReasons": [
+      "confirmed_closed",
+      "confirmed_nonfarm",
+      "duplicate_identity",
+      "outside_jurisdiction"
+    ]
+  },
+  "collection": {
+    "requiredPasses": [
+      1,
+      2,
+      3
+    ],
+    "sources": [
+      {
+        "sourceId": "ncsrc-01",
+        "name": "NCDA&CS — N.C. Farmer/Agribusiness Listing (June 22, 2026)",
+        "pass": 1,
+        "sourceUrl": "https://www.ncagr.gov/divisions/marketing/nc-farmeragribusiness-listing/open",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 153,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": "d41b3ec0750ee4e834cca1c64f8fa53b2d583f776c61273cb4087f2669859623",
+        "notes": "Official workbook; every named row retained."
+      },
+      {
+        "sourceId": "ncsrc-02",
+        "name": "U.S. Census Bureau — North Carolina county denominator",
+        "pass": 1,
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2737%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 100,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": null,
+        "notes": "Denominator loaded."
+      },
+      {
+        "sourceId": "ncsrc-03",
+        "name": "Visit NC Farms — Our Farms and Businesses",
+        "pass": 2,
+        "sourceUrl": "https://visitncfarms.com/farms/our-farms-and-businesses/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 1182,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": "9530b41322adabd46a4012a7a7cc3b7d3204473ea8b963c077d226415be81d48",
+        "notes": "Public farm-directory pool collected; county and identity corroboration remains QA."
+      },
+      {
+        "sourceId": "ncsrc-04",
+        "name": "Got to Be NC — growers and producers",
+        "pass": 2,
+        "sourceUrl": "https://gottobenc.com/events/flavors-attendees/find-local/growers-producers/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 1405,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": "aa1c416a6ecee65bd504039a59b3cf71a82502a508561d025280e47dbf3ef71e",
+        "notes": "Complete 59-page growers/producers directory pool collected; profile-level contact and county review remains QA."
+      },
+      {
+        "sourceId": "ncsrc-05",
+        "name": "U.S. Farm Trail — North Carolina",
+        "pass": 3,
+        "sourceUrl": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=north-carolina",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 1239,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": "2d9cd62944eed0766a85bf1640b44c181864308458a2be588a64a50bfcc19066",
+        "notes": "Complete public GeoJSON directory pool collected; county and identity corroboration remains QA."
+      },
+      {
+        "sourceId": "ncsrc-06",
+        "name": "EatWild — North Carolina",
+        "pass": 3,
+        "sourceUrl": "https://www.eatwild.com/products/nocarolina.html",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 26,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": "f9e9802a14180b0cd13ca4e36cb1e075914a8aca7b0329647d4598efbd186372",
+        "notes": "Pastured-products directory collected; county and current-operation review remains QA."
+      },
+      {
+        "sourceId": "ncsrc-07",
+        "name": "PickYourOwn — North Carolina",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/NC.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 372,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": null,
+        "notes": "Regional U-pick pages collected; current-operation review remains QA."
+      },
+      {
+        "sourceId": "ncsrc-08",
+        "name": "LocalHarvest — North Carolina",
+        "pass": 3,
+        "sourceUrl": "https://www.localharvest.org/north-carolina/",
+        "repositoryPath": null,
+        "decision": "queued_for_collection",
+        "recordsParsed": 0,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": null,
+        "notes": "Queued for a follow-up source pass."
+      }
+    ],
+    "coverage": {
+      "countyEquivalentsReviewed": 100,
+      "countyEquivalentsWithCandidates": 91,
+      "countyEquivalentsWithEligibleEntities": 90,
+      "unresolvedCountyEquivalents": [
+        "Alleghany",
+        "Bertie",
+        "Dare",
+        "Gates",
+        "Hertford",
+        "Hoke",
+        "Pasquotank",
+        "Washington",
+        "Yancey"
+      ],
+      "notes": "Captured source pools are retained; queued sources, county gaps, and record-level validation remain open."
+    }
+  },
+  "repositoryPolicy": {
+    "requiredFiles": [
+      "state.yaml",
+      "entities.csv",
+      "decisions.csv",
+      "report.md"
+    ],
+    "maxTrackedBytes": 5000000
+  },
+  "release": {
+    "id": "nc-collected-v2-2026-07-16",
+    "status": "collected",
+    "generatedAt": "2026-07-16T19:59:45+00:00",
+    "promotionReady": false,
+    "promotionBlockReason": "Independent source passes, record validation, managed evidence copy, and approval remain outstanding.",
+    "counts": {
+      "sourceObservations": 4377,
+      "proposedEntities": 3417,
+      "promotionEligibleEntities": 482,
+      "researchOrQaEntities": 2935,
+      "excludedObservations": 0,
+      "excludedEntityGroups": 0,
+      "identityReviewGroups": 3417,
+      "countyCoverageRows": 100,
+      "countiesWithCandidates": 91,
+      "countiesWithEligibleEntities": 90,
+      "sourceDatasets": 8,
+      "manualDecisions": 0
+    },
+    "repositoryFiles": {
+      "entities.csv": {
+        "sha256": "b6232615089d5fa3b32f1790048aadd94467f19e1e5b552cda9c64b186b377ef",
+        "bytes": 3427258
+      },
+      "decisions.csv": {
+        "sha256": "757312f42b17ad8921a7a2f3201d2ae839721c3d10f894f71ce4c042439b4a85",
+        "bytes": 261
+      },
+      "report.md": {
+        "sha256": "55f8b1d69e6d14a097f4fc4ea8a9d4bdeea85e86ca666b6f3140408dcfee3838",
+        "bytes": 1499
+      }
+    },
+    "evidenceStorage": {
+      "provider": "s3-compatible",
+      "environment": "local-staging",
+      "status": "local_bundle_only",
+      "bucket": "farmfinder-source-releases",
+      "prefix": "state-expansions/NC/nc-collected-v2-2026-07-16/",
+      "versioningRequired": true,
+      "managedCopyRequiredBeforePromotion": true
+    },
+    "artifacts": [
+      {
+        "role": "observations",
+        "filename": "observations.csv.zst",
+        "objectKey": "state-expansions/NC/nc-collected-v2-2026-07-16/observations.csv.zst",
+        "sha256": "f45e9329c6721a6854df24f521c06a7e7cadbf3d34ed2657755765ceab1066df",
+        "bytes": 441041,
+        "rows": 4377,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:f45e9329c6721a6854df24f5"
+      },
+      {
+        "role": "source_records",
+        "filename": "source-records.jsonl.zst",
+        "objectKey": "state-expansions/NC/nc-collected-v2-2026-07-16/source-records.jsonl.zst",
+        "sha256": "f47a01506ef0bbf16eff140dc03d0060209e06ee98b497b53c3724cd292dfd5a",
+        "bytes": 510305,
+        "rows": 4377,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:f47a01506ef0bbf16eff140d"
+      },
+      {
+        "role": "collection_log",
+        "filename": "collection-log.jsonl.zst",
+        "objectKey": "state-expansions/NC/nc-collected-v2-2026-07-16/collection-log.jsonl.zst",
+        "sha256": "fc07ea312ab51069792db3e8a3f71598f52d5ae7715bb5ff36abb375c11c1061",
+        "bytes": 1593,
+        "rows": 16,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:fc07ea312ab51069792db3e8"
+      }
+    ],
+    "canonicalBoundary": {
+      "authorityMode": "pre_cutover_workbook",
+      "allowedStates": [
+        "LA",
+        "MS"
+      ],
+      "sourceRowCount": 299
+    },
+    "approval": {}
+  }
+}
