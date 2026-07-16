@@ -1,6 +1,6 @@
 # Texas state review report
 
-> Release: `tx-coverage-reviewed-v5-2026-07-15`
+> Release: `tx-coverage-reviewed-v6-qa-2026-07-15`
 >
 > Contract: national state contract v2
 >
@@ -9,110 +9,83 @@
 ## Outcome
 
 Texas has completed the documented three-pass discovery process across all 254
-counties. The corrected release retains 883 named candidates: 716 currently meet
-staged field and evidence gates, while 167 remain in research/QA. Texas is not
-complete and must not be promoted until the QA queue, managed evidence, approval,
-and canonical gates pass.
+counties. This cleansing checkpoint retains 858 named candidates: 722 currently
+meet staged field and evidence gates, while 136 remain in research/QA. The
+working objective is to drive the QA queue to 50 or fewer before moving to the
+next state; production `record_verified` still requires QA to reach zero.
 
-The earlier `record_verified` label was invalid because missing information and
-assumed closures were being converted into exclusions. The national policy now
-keeps those candidates staged.
+This checkpoint applied 24 affirmative exclusions and seven evidence-backed
+corrections/corroborations. The exclusions remove current non-farm businesses
+(processors, retailers, distributors, and foodservice companies) and candidates
+whose current farm identity is outside Texas. The corrections resolve Augustus
+Ranch's county and corroborate Davis 20 Beef as a current Wichita Falls ranch,
+Four Winds Ranch, Hi Fi Mycology, JJJM Grass Fed Beef, Michael Neighbors, and
+Ritchie Family Farms with current Texas farm evidence and geography.
+All original source observations remain preserved in immutable evidence.
 
 ## Reconciliation
 
 | Measure | Count |
 |---|---:|
 | Immutable source observations | 1,062 |
-| Retained candidate entities | 883 |
-| Promotion-eligible reviewed entities | 716 |
-| Research/QA entities | 167 |
-| Affirmatively excluded observations | 47 |
-| Effective excluded entity groups | 27 |
-| Append-only decisions | 76 |
+| Retained candidate entities | 858 |
+| Promotion-eligible reviewed entities | 722 |
+| Research/QA entities | 136 |
+| Affirmatively excluded observations | 71 |
+| Effective excluded entity groups | 51 |
+| Append-only decisions | 108 |
 | Counties reviewed | 254 of 254 |
-| Counties with retained candidates | 179 |
+| Counties with retained candidates | 178 |
 | Counties searched with none found | 75 |
 | Counties with promotion-eligible candidates | 171 |
 
-Retained entity observation counts plus the 47 affirmatively excluded source
+Retained entity observation counts plus the 71 affirmatively excluded source
 observations reconcile exactly to all 1,062 observations. Multiple source
-observations can support one excluded entity group, which is why 47 observations
-correspond to 27 effective exclusions.
-
-## Missing-data and closure correction
-
-Six farms were restored from closure handling:
-
-- Glover Farm Vineyard
-- Moody Farms and Flowers
-- The Lazy S Citrus Grove
-- The Orchard
-- Universal Farms
-- Upicberries
-
-Five source entries explicitly described their closures as assumptions made because
-current information was unavailable. Moody Farms and Flowers was incorrectly marked
-closed because its parsed text spilled into a neighboring farm's closure notice. All
-six now remain in QA for current corroboration; none is deleted.
-
-Seven separate farms remain excluded with explicit current-source closure language:
-Barton Hill Farms, Boldheart Farms, Heart of Texas Farms, Johnson's Backyard Garden,
-Point Enterprises Orchards, Six Mile Pic-N-Pac Produce, and Yoes Peach Orchard.
+observations can support one excluded entity group.
 
 ## QA profile
 
-The 167 QA entities are retained in `entities.csv`. Blockers overlap:
+The 136 QA entities remain in `entities.csv`. Blockers overlap:
 
 | Blocker | Entities |
 |---|---:|
-| County-equivalent missing | 90 |
-| Single grade-E discovery listing needs corroboration | 64 |
-| City or safe public service area missing | 58 |
-| Member/vendor candidate needs independent farm-operation evidence | 58 |
+| County-equivalent missing | 67 |
+| Single grade-E discovery listing needs corroboration | 54 |
+| City or safe public service area missing | 42 |
+| Member/vendor candidate needs independent farm-operation evidence | 48 |
 | Reopened assumed/parser-derived closure needs corroboration | 6 |
 
-Missing geography or contact detail does not imply that a farm is invalid or closed.
-The correct follow-up is enrichment from farm-owned, official, or independently
-corroborating sources.
+Missing geography, contact detail, or current corroboration does not imply that a
+farm is invalid or closed. The correct follow-up is enrichment from farm-owned,
+official, or independently corroborating sources.
 
-## Effective exclusions
+## Cleansing actions in this checkpoint
 
-Every active exclusion has a source URL, retrieval date, append-only decision, and
-an allowed affirmative reason:
-
-| Reason | Entity groups |
-|---|---:|
-| Confirmed non-farm business or channel | 16 |
-| Confirmed closed | 7 |
-| Outside Texas jurisdiction | 4 |
-
-The four off-state operations remain valid candidates for their home states. Market,
-processor, software, legal, insurance, manufacturing, and other non-farm records are
-preserved as evidence even though they are outside the farm-entity boundary.
-
-## Reachability and contact fields
-
-- 580 retained entities have a website value.
-- 500 have at least one social profile.
-- 772 have a direct public phone or email in staging.
-
-These values describe field availability, not promotion readiness. A candidate with
-none of these fields remains retained.
-
-## Data quality checks
-
-- Exactly four Texas state files are committed.
-- Every retained row has a farm name and Texas entity ID.
-- Entity IDs and normalized-name/county-equivalent keys are unique.
-- All 167 QA rows contain explicit blockers.
-- No active excluded normalized name remains staged.
-- Every active exclusion uses affirmative evidence.
-- Source, retained, and excluded observation counts reconcile.
-- The corrected 299-row LA/MS canonical boundary is unchanged.
+- Excluded 15 current farm identities outside Texas: Acadian Family Farm,
+  Brookshire Farm, Crispin Grass-Fed Beef, Dark Water Ranch, Desert Micro,
+  Floriography NM, Hardcastle Land and Cattle, Merry Meadows, Nitschke Natural
+  Beef/Circle N Ranch, Raccoon Bend Farms, La Semilla Food Center, Nature's
+  Comeback Bison Ranch, JX Ranch Natural Beef, Kingdom Cattle Co., and Hill
+  Crest Creamery LLC.
+- Excluded nine current non-farm channel or processing records: Bluebonnet Meat
+  Company, Direct Source Meats, River City Produce, Scarmardo Foodservice,
+  Hiland Dairy, Gandy's Dairies, H-E-B, Moody's Quality Meats, and Tuttles Meat
+  Market.
+- Corroborated Augustus Ranch in Lavaca County and corrected Davis 20 Beef from
+  the source's Clay County classification to Wichita County. Also resolved Four
+  Winds Ranch, Hi Fi Mycology, JJJM Grass Fed Beef, Michael Neighbors, and
+  Ritchie Family Farms with current Texas farm evidence and geography.
+- Merged the duplicate JJJM Grass Fed Beef observation into the retained
+  Collin County entity; both source observations remain linked to that entity.
+- Preserved every excluded observation and decision append-only; no record was
+  removed solely because information was missing.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain all 167 QA candidates through append-only review.
-2. Copy the three immutable evidence objects to managed production storage.
-3. Re-run validation and bind owner approval to the resulting release fingerprint.
-4. Promote Texas atomically in a separate canonical-release change.
+1. Resolve or deliberately retain the remaining 136 QA candidates through
+   append-only review; the interim task checkpoint is 50 or fewer.
+2. For canon-level `record_verified`, reduce the QA count to zero.
+3. Copy the immutable evidence objects to managed production storage.
+4. Re-run validation and bind owner approval to the resulting release
+   fingerprint.
+5. Promote Texas atomically in a separate canonical-release change.

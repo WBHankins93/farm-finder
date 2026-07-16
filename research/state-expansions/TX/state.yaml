@@ -374,7 +374,7 @@
     ],
     "coverage": {
       "countyEquivalentsReviewed": 254,
-      "countyEquivalentsWithCandidates": 179,
+      "countyEquivalentsWithCandidates": 178,
       "countyEquivalentsWithEligibleEntities": 171,
       "unresolvedCountyEquivalents": []
     }
@@ -389,37 +389,37 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "tx-coverage-reviewed-v5-2026-07-15",
+    "id": "tx-coverage-reviewed-v6-qa-2026-07-15",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-15T22:00:00+00:00",
+    "generatedAt": "2026-07-15T23:59:00-05:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
       "sourceObservations": 1062,
-      "proposedEntities": 883,
-      "promotionEligibleEntities": 716,
-      "researchOrQaEntities": 167,
-      "excludedObservations": 47,
-      "excludedEntityGroups": 27,
+      "proposedEntities": 858,
+      "promotionEligibleEntities": 722,
+      "researchOrQaEntities": 136,
+      "excludedObservations": 71,
+      "excludedEntityGroups": 51,
       "identityReviewGroups": 113,
       "countyCoverageRows": 254,
-      "countiesWithCandidates": 179,
+      "countiesWithCandidates": 178,
       "countiesWithEligibleEntities": 171,
       "sourceDatasets": 29,
-      "manualDecisions": 76
+      "manualDecisions": 108
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "5352139011dc4d6af32b3df603a6fc7fc5a3749c79bf1e09140127177eee2641",
-        "bytes": 717073
+        "sha256": "cdee39cd95cd3ce34edc648b2c4bb59c50af155649ae736cf9b76a96bface936",
+        "bytes": 696301
       },
       "decisions.csv": {
-        "sha256": "3c34decfc708a8f02048629b777e524aac10dc76cdb972cf7ce289a7b2ce9562",
-        "bytes": 35568
+        "sha256": "0b7533e16feb06023376a47f64a3e85e04c7aabb933f064d17d4c845dbea140f",
+        "bytes": 50197
       },
       "report.md": {
-        "sha256": "344bca8111f3c1ed128c62d8facddfd54a2fb86bbd2a49b85146f24a6471df1e",
-        "bytes": 4552
+        "sha256": "55b328dfb17bc3f2b943ebb7cc348b6354c925a706d23fbdad5ba239d75326ce",
+        "bytes": 4275
       }
     },
     "evidenceStorage": {
@@ -427,7 +427,7 @@
       "environment": "local-staging",
       "status": "local_bundle_only",
       "bucket": "farmfinder-source-releases",
-      "prefix": "state-expansions/TX/tx-coverage-reviewed-v5-2026-07-15/",
+      "prefix": "state-expansions/TX/tx-coverage-reviewed-v6-qa-2026-07-15/",
       "versioningRequired": true,
       "managedCopyRequiredBeforePromotion": true
     },
@@ -435,7 +435,7 @@
       {
         "role": "observations",
         "filename": "observations.csv.zst",
-        "objectKey": "state-expansions/TX/tx-coverage-reviewed-v5-2026-07-15/observations.csv.zst",
+        "objectKey": "state-expansions/TX/tx-coverage-reviewed-v6-qa-2026-07-15/observations.csv.zst",
         "sha256": "26f83d320398c3d98b7b90bf2f42de3ab9d9a489de94462d34216538a689ce91",
         "bytes": 267302,
         "rows": 1062,
@@ -446,7 +446,7 @@
       {
         "role": "source_records",
         "filename": "source-records.jsonl.zst",
-        "objectKey": "state-expansions/TX/tx-coverage-reviewed-v5-2026-07-15/source-records.jsonl.zst",
+        "objectKey": "state-expansions/TX/tx-coverage-reviewed-v6-qa-2026-07-15/source-records.jsonl.zst",
         "sha256": "c916930558757505a3acd07286c5b597662161510635b234a697365c31a54a71",
         "bytes": 450278,
         "rows": 31,
@@ -457,7 +457,7 @@
       {
         "role": "collection_log",
         "filename": "collection-log.jsonl.zst",
-        "objectKey": "state-expansions/TX/tx-coverage-reviewed-v5-2026-07-15/collection-log.jsonl.zst",
+        "objectKey": "state-expansions/TX/tx-coverage-reviewed-v6-qa-2026-07-15/collection-log.jsonl.zst",
         "sha256": "070f367c7507f18090aeff9aa024dae5f0ed54592618f152ea30952675459ca6",
         "bytes": 66711,
         "rows": 1016,
