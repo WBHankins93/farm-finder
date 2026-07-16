@@ -374,8 +374,8 @@
     ],
     "coverage": {
       "countyEquivalentsReviewed": 254,
-      "countyEquivalentsWithCandidates": 178,
-      "countyEquivalentsWithEligibleEntities": 171,
+      "countyEquivalentsWithCandidates": 179,
+      "countyEquivalentsWithEligibleEntities": 172,
       "unresolvedCountyEquivalents": []
     }
   },
@@ -396,30 +396,30 @@
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
       "sourceObservations": 1062,
-      "proposedEntities": 858,
-      "promotionEligibleEntities": 722,
-      "researchOrQaEntities": 136,
-      "excludedObservations": 71,
-      "excludedEntityGroups": 51,
+      "proposedEntities": 856,
+      "promotionEligibleEntities": 733,
+      "researchOrQaEntities": 123,
+      "excludedObservations": 73,
+      "excludedEntityGroups": 53,
       "identityReviewGroups": 113,
       "countyCoverageRows": 254,
-      "countiesWithCandidates": 178,
-      "countiesWithEligibleEntities": 171,
+      "countiesWithCandidates": 179,
+      "countiesWithEligibleEntities": 172,
       "sourceDatasets": 29,
-      "manualDecisions": 108
+      "manualDecisions": 121
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "cdee39cd95cd3ce34edc648b2c4bb59c50af155649ae736cf9b76a96bface936",
-        "bytes": 696301
+        "sha256": "d8a2771586d18a147a31ac686265be22e72bf294474e78723df743187e7d0c0e",
+        "bytes": 694645
       },
       "decisions.csv": {
-        "sha256": "0b7533e16feb06023376a47f64a3e85e04c7aabb933f064d17d4c845dbea140f",
-        "bytes": 50197
+        "sha256": "fe7c509e57bda7dcc62f046f6c496a346ead96d7997e4d79f778dbc46a83ae43",
+        "bytes": 56683
       },
       "report.md": {
-        "sha256": "55b328dfb17bc3f2b943ebb7cc348b6354c925a706d23fbdad5ba239d75326ce",
-        "bytes": 4275
+        "sha256": "a0263910c33b65d832691101599e806142efa9b52052dd64a3092dd6ac1874ff",
+        "bytes": 4523
       }
     },
     "evidenceStorage": {
