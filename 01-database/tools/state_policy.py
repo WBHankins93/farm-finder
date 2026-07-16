@@ -22,6 +22,11 @@ AFFIRMATIVE_EXCLUSION_REASONS = frozenset({
     "duplicate_identity",
 })
 
+# Ingestion tiers classify a source before collection so low-signal registries
+# corroborate existing candidates instead of creating open-ended QA debt.
+# See 01-database/pipeline-enrichment-plan.md section 4.
+SOURCE_TIERS = frozenset({"candidate", "identity_hint", "excluded_source"})
+
 
 @dataclass(frozen=True)
 class CandidateDisposition:
@@ -67,6 +72,24 @@ def sufficient_promotion_evidence(
         return False
     corroborated = {grade.strip() for grade in decision_grades if grade.strip() in {"A", "B", "C", "D"}}
     return (observed | corroborated) != {"E"}
+
+
+def source_tier_issues(sources: Iterable[Mapping[str, object]]) -> tuple[list[str], list[str]]:
+    """Return (invalid, untiered) source IDs under the ingestion-tier policy.
+
+    Invalid tiers are contract errors. Untiered sources are legacy plans that
+    predate the policy; they warn until the state is next recollected.
+    """
+    invalid: list[str] = []
+    untiered: list[str] = []
+    for row in sources:
+        tier = row.get("tier")
+        source_id = str(row.get("sourceId"))
+        if tier is None:
+            untiered.append(source_id)
+        elif tier not in SOURCE_TIERS:
+            invalid.append(source_id)
+    return invalid, untiered
 
 
 def validate_exclusion_reason(reason: str) -> None:

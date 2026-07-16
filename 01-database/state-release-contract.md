@@ -33,6 +33,10 @@ Every state directory contains exactly:
 
 - `state.yaml` — state and county-equivalent configuration, source plan, release
   metadata, evidence pointers, counts, lifecycle, and approval fingerprint.
+  Each source in the plan should declare an ingestion `tier` (`candidate`,
+  `identity_hint`, or `excluded_source`) per the
+  [pipeline enrichment plan](pipeline-enrichment-plan.md); invalid tiers fail
+  validation and untiered legacy sources warn until the state is recollected.
 - `entities.csv` — the normalized candidate table. It includes both promotion-
   eligible rows and unresolved named candidates.
 - `decisions.csv` — append-only corrections, merges, corroborations, and affirmative
