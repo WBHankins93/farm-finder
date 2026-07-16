@@ -1,0 +1,228 @@
+{
+  "contractVersion": 2,
+  "state": {
+    "code": "SC",
+    "name": "South Carolina",
+    "countyEquivalentLabel": "county",
+    "countyEquivalentCount": 46
+  },
+  "policy": {
+    "version": "2026-07-15",
+    "missingDataDisposition": "research_or_qa_queue",
+    "affirmativeExclusionReasons": [
+      "confirmed_closed",
+      "confirmed_nonfarm",
+      "duplicate_identity",
+      "outside_jurisdiction"
+    ]
+  },
+  "collection": {
+    "requiredPasses": [
+      1,
+      2,
+      3
+    ],
+    "sources": [
+      {
+        "sourceId": "scsrc-01",
+        "name": "Certified SC Grown — REST member directory",
+        "pass": 1,
+        "sourceUrl": "https://certifiedsc.com/wp-json/wp/v2/csc-member",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 1120,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": null,
+        "notes": "Complete certified-sc-grown REST member pool; profile pages provide field enrichment."
+      },
+      {
+        "sourceId": "scsrc-02",
+        "name": "Certified SC Grown — member profiles",
+        "pass": 1,
+        "sourceUrl": "https://certifiedsc.com/csc-member/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 1120,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": null,
+        "notes": "Complete profile enrichment pass."
+      },
+      {
+        "sourceId": "scsrc-03",
+        "name": "U.S. Census Bureau — South Carolina county denominator",
+        "pass": 1,
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2745%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 46,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": null,
+        "notes": "Denominator loaded."
+      },
+      {
+        "sourceId": "scsrc-04",
+        "name": "South Carolina Department of Agriculture — agritourism",
+        "pass": 2,
+        "sourceUrl": "https://agriculture.sc.gov/find-local/agritourism/",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 105,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": "6acbd9cf5c9f9d810ad355bb51cca7b5c8edde3dbf087eb35ded94668ec06643",
+        "notes": "State agritourism page and participating-farms PDF collected."
+      },
+      {
+        "sourceId": "scsrc-05",
+        "name": "U.S. Farm Trail — South Carolina",
+        "pass": 2,
+        "sourceUrl": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=south-carolina",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 483,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": "961133a6912ff32f73316a16c60a84b49cb7d30481bbb4cf0f55c6569b30bdd6",
+        "notes": "Complete public GeoJSON directory pool collected; county and identity corroboration remains QA."
+      },
+      {
+        "sourceId": "scsrc-06",
+        "name": "EatWild — South Carolina",
+        "pass": 2,
+        "sourceUrl": "https://www.eatwild.com/PRODUCTS/socarolina.html",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 6,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": "5cea74aaa23f3df3d82cf261212a6d0e556b39b470ca5a1e2d5fc9ae1aca9516",
+        "notes": "Pastured-products directory collected; county and current-operation review remains QA."
+      },
+      {
+        "sourceId": "scsrc-07",
+        "name": "PickYourOwn — South Carolina",
+        "pass": 3,
+        "sourceUrl": "https://www.pickyourown.org/SC.htm",
+        "repositoryPath": null,
+        "decision": "observations_retained",
+        "recordsParsed": 151,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": null,
+        "notes": "Regional U-pick pages collected; current-operation review remains QA."
+      },
+      {
+        "sourceId": "scsrc-08",
+        "name": "LocalHarvest — South Carolina",
+        "pass": 3,
+        "sourceUrl": "https://www.localharvest.org/south-carolina/",
+        "repositoryPath": null,
+        "decision": "queued_for_collection",
+        "recordsParsed": 0,
+        "retrievedAt": "2026-07-16T19:59:45+00:00",
+        "responseSha256": null,
+        "notes": "Queued for a follow-up source pass."
+      }
+    ],
+    "coverage": {
+      "countyEquivalentsReviewed": 46,
+      "countyEquivalentsWithCandidates": 46,
+      "countyEquivalentsWithEligibleEntities": 46,
+      "unresolvedCountyEquivalents": [],
+      "notes": "Captured source pools are retained; queued sources, county gaps, and record-level validation remain open."
+    }
+  },
+  "repositoryPolicy": {
+    "requiredFiles": [
+      "state.yaml",
+      "entities.csv",
+      "decisions.csv",
+      "report.md"
+    ],
+    "maxTrackedBytes": 5000000
+  },
+  "release": {
+    "id": "sc-collected-v2-2026-07-16",
+    "status": "collected",
+    "generatedAt": "2026-07-16T19:59:45+00:00",
+    "promotionReady": false,
+    "promotionBlockReason": "Independent source passes, record validation, managed evidence copy, and approval remain outstanding.",
+    "counts": {
+      "sourceObservations": 1865,
+      "proposedEntities": 1603,
+      "promotionEligibleEntities": 1011,
+      "researchOrQaEntities": 592,
+      "excludedObservations": 0,
+      "excludedEntityGroups": 0,
+      "identityReviewGroups": 1603,
+      "countyCoverageRows": 46,
+      "countiesWithCandidates": 46,
+      "countiesWithEligibleEntities": 46,
+      "sourceDatasets": 8,
+      "manualDecisions": 0
+    },
+    "repositoryFiles": {
+      "entities.csv": {
+        "sha256": "9ea75db96d555a0a60a1d7bd637914c980941a3b2ea42682736af12b447c138b",
+        "bytes": 1501698
+      },
+      "decisions.csv": {
+        "sha256": "757312f42b17ad8921a7a2f3201d2ae839721c3d10f894f71ce4c042439b4a85",
+        "bytes": 261
+      },
+      "report.md": {
+        "sha256": "fdc3e6e71f0b777d0efa052e9f78be36b2005068e56dd61362490304d7528a40",
+        "bytes": 1498
+      }
+    },
+    "evidenceStorage": {
+      "provider": "s3-compatible",
+      "environment": "local-staging",
+      "status": "local_bundle_only",
+      "bucket": "farmfinder-source-releases",
+      "prefix": "state-expansions/SC/sc-collected-v2-2026-07-16/",
+      "versioningRequired": true,
+      "managedCopyRequiredBeforePromotion": true
+    },
+    "artifacts": [
+      {
+        "role": "observations",
+        "filename": "observations.csv.zst",
+        "objectKey": "state-expansions/SC/sc-collected-v2-2026-07-16/observations.csv.zst",
+        "sha256": "1f5d15f2dde74e89bafbe88a991ea7cf6770e255176f5e1381e9a7aeec25e059",
+        "bytes": 253233,
+        "rows": 1865,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:1f5d15f2dde74e89bafbe88a"
+      },
+      {
+        "role": "source_records",
+        "filename": "source-records.jsonl.zst",
+        "objectKey": "state-expansions/SC/sc-collected-v2-2026-07-16/source-records.jsonl.zst",
+        "sha256": "b419537897418b4bf80f43ee0cb3709c802bcf23e93ef28a85ae3f54c5d277a6",
+        "bytes": 380010,
+        "rows": 1865,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:b419537897418b4bf80f43ee"
+      },
+      {
+        "role": "collection_log",
+        "filename": "collection-log.jsonl.zst",
+        "objectKey": "state-expansions/SC/sc-collected-v2-2026-07-16/collection-log.jsonl.zst",
+        "sha256": "e6df46da5eaca5b4796c932e5f31dd517ea5765b6e33f740306a976d6fe44a78",
+        "bytes": 18443,
+        "rows": 1142,
+        "contentType": "application/zstd",
+        "visibility": "private",
+        "versionId": "local:e6df46da5eaca5b4796c932e"
+      }
+    ],
+    "canonicalBoundary": {
+      "authorityMode": "pre_cutover_workbook",
+      "allowedStates": [
+        "LA",
+        "MS"
+      ],
+      "sourceRowCount": 299
+    },
+    "approval": {}
+  }
+}

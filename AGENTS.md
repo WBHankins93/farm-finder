@@ -1,69 +1,96 @@
-# FarmFinder — Source of Truth
+# FarmFinder — Agent guidelines and source of truth
 
-> Last updated: 2026-07-15 · Owner: Ben Hankins · Lives at `farm-finder/`
+> Last updated: 2026-07-16 · Owner: Ben Hankins
+> This file is the operating guide for every agent session (Codex, Claude, or
+> other). Read it before changing anything.
 
-## What this is
+## What FarmFinder is
 
-FarmFinder is a two-track product initiative to make independent farms easier to find, starting in South Louisiana:
+A standalone two-track product: (1) a governed, provenance-first database of
+independent farms and local-food producers, built state-by-state across the
+continental United States; (2) a consumer directory/map application built on
+that database. Louisiana and Mississippi are the current canonical coverage
+area; six more states have coverage-reviewed staged releases.
 
-1. **Farm database** — a comprehensive database of local farms across the continental United States, built state-by-state starting with South Louisiana and then all of Louisiana. Core observation driving this: ~90% of local farms in South Louisiana have no website — **verified against our own database** (89% of 81 LA farms in `01-database/local_farm_database.xlsx`, verified 2026-07-12; dashboard: `farmfinder-dashboard.html`). Note nuance: many are on Facebook; "no website" ≠ "no online presence at all" (30% of NOLA Metro farms have zero web presence including social).
-2. **FarmFinder app** — long-term: a continental-U.S. "Google Maps / Uber for local farms" built on the database. South Louisiana + South Mississippi are the first test markets, not the product boundary; coverage scales state-by-state based on results.
+**"LA" always means Louisiana, never Los Angeles.**
 
-### Standalone product boundary
+FarmFinder must stay standalone: no other company's branding, workflow,
+customer records, or promotions may enter the product, schema, or docs.
 
-FarmFinder is its own standalone product. Its README, application, UI, architecture, database, API, roadmap, telemetry, and product documentation must not contain or depend on any separate company's branding, business-development workflow, services, customer records, revenue strategy, or promotions.
+## Sources of truth (in authority order)
 
-FarmFinder still retains source-backed website, social, online-store, map, product, market, contact-visibility, provenance, and verification facts because those fields directly support farm discovery and directory quality. Unrelated private business material must remain outside the FarmFinder product and must not become a FarmFinder schema or service dependency.
+| What | Where | Validated by |
+|---|---|---|
+| Canonical pre-cutover farm data | `research/local_farm_database_final.xlsx`, sheet `All Farms` (299 rows: 220 LA / 79 MS) | `npm run data:validate` from `03-app/site/` |
+| Machine-readable release contract | `03-app/site/config/source-of-truth.json` | same |
+| Staged state releases (contract v2) | `research/state-expansions/<ST>/` — exactly `state.yaml`, `entities.csv`, `decisions.csv`, `report.md` | `python3 01-database/tools/validate_state_releases.py` |
+| Pipeline rules | `01-database/state-release-contract.md`, `01-database/scalable-data-pipeline.md`, `01-database/pipeline-enrichment-plan.md` | contract unit tests |
+| Product/platform docs | `README.md`, `03-app/site/docs/` | — |
 
-**Note on geography:** "LA" in this project means **Louisiana**, not Los Angeles.
+Everything else (old dashboards, v1/v2 workbooks, `outputs/`, `.codex-work/`)
+is historical or local scratch — never an editable authority. Raw observations,
+request logs, and QA/identity/geography diagnostics live in versioned object
+storage referenced by checksum from `state.yaml`; they are never committed.
 
-## How the tracks feed each other
+## Current state (2026-07-16)
 
-Database coverage → verified listings + farm participation → consumer discovery → demand back to farms.
+- Canonical: 299 LA/MS rows; public site reads the generated
+  `03-app/site/app/data/farms.json`. PostgreSQL cutover is staged, not canonical.
+- Staged coverage-reviewed states (entities / eligible / QA):
+  AL 808/799/9 · AR 766/524/242 · FL 1,515/205/1,310 · GA 1,738/554/1,184 ·
+  LA 1,200/964/236 · MS 737/576/161 · TN 5,425/1,626/3,799 · TX 855/736/119.
+- The QA backlog (7,060) exceeds the eligible set (5,984). Priority is QA
+  throughput and enrichment (see `01-database/pipeline-enrichment-plan.md`),
+  not new-state collection.
+- The contract v2 validator enforces the evidence-grade gate: grade-F blocks
+  eligibility; grade-E-only observation evidence requires a corroborating
+  append-only decision at grade A–D.
 
-The database is the FarmFinder product asset. Every correction or voluntary contribution must enrich it through governed provenance and privacy rules, regardless of where the information originated.
+## Standing rules for every session
 
-## Repo layout
+1. **Branch from latest `main` the same day you open the PR.** Before touching
+   `research/state-expansions/<ST>/`, confirm your merge-base is not behind
+   main's last commit to that directory (`git log -1 origin/main -- <dir>`).
+   Stale-base state PRs fork release history and get closed.
+2. **One state-data PR in flight per state.** Never stack state-data PRs on
+   other unmerged branches.
+3. **Keep PRs small and focused.** Commit early and often. CI rejects more than
+   20 changed files or 15,000 additions without the `large-reviewed-change`
+   label; don't aim for the ceiling.
+4. **Decisions are append-only.** Corrections supersede; they never erase.
+   Every `corroborate`/`correct` decision must be reflected in its entity row
+   (observation or grades) in the same change.
+5. **Non-deletion policy.** A named candidate is durable. Missing data creates
+   a QA blocker, never an exclusion. Exclusions require affirmative, cited
+   evidence for exactly one of: `confirmed_nonfarm`, `confirmed_closed`,
+   `outside_jurisdiction`, `duplicate_identity`.
+6. **Privacy defaults.** Internal addresses/contacts stay
+   `internal_until_public_use_review`. Never publish exact private locations;
+   public coordinates use farm-confirmed or reduced-precision placement.
+7. **Eligible staging is not verification.** Never report eligible handoffs as
+   `record_verified`, approved, or canonical.
+8. **Keep counts honest everywhere.** When entity/decision counts change,
+   update `state.yaml` counts, repository-file hashes, `report.md`, and any
+   doc that cites the numbers, in the same PR.
 
-- `01-database/` — schema, collection SOP, and the farm data itself (CSV/xlsx now; migrate to real DB when the app track starts)
-- `03-app/` — public directory plus the staged production platform foundation
-- `research/` — market opportunity brief, sourced stats, and four-file state-release contracts under `research/state-expansions/<STATE>/`
+## Required checks before any PR
 
-## Current state (2026-07-15)
+```bash
+python3 01-database/tools/assess_pr_scope.py
+python3 -m unittest discover -s 01-database/tools/tests -p "test_*.py"
+python3 01-database/tools/validate_state_releases.py
+```
 
-- **Pre-cutover canonical authoring source is `research/local_farm_database_final.xlsx`, sheet `All Farms` — 299 canonical rows / 299 record IDs** (220 LA / 79 MS). The same workbook contains `Database Summary`, `Research Queue`, `QA Queue`, and `Source Log`; no separate farm database file is authoritative. The machine-readable release contract is `03-app/site/config/source-of-truth.json`; validate it with `npm run data:validate` from `03-app/site/`.
-- The public site uses `03-app/site/app/data/farms.json` with 299 mapped listings. Cutover staging began 2026-07-15 with historical release `2026-07-13-final-v1`; the corrected `2026-07-15-enriched-v2` workbook must be staged as a new immutable release before promotion. PostgreSQL is not canonical yet.
-- Older dashboards and v1/v2 workbooks remain historical snapshots, not editable authorities.
-- Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens were evidence-reviewed and merged to one canonical row each; their separate source provenance remains in `Source Tab` and `Source Log`. No exact normalized-name duplicate groups remain.
-- Current canonical workbook: 88 rows are flagged as having a website, 85 contain a website URL, and 3 flagged rows still need URL research. Direct public contacts exist for 243 listings; 56 lack a direct phone/email, including 42 with a social-only outreach path and 14 with no public outreach path.
-- Mississippi's current canonical slice contains 79 reviewed rows after five Louisiana-market records were corrected to their Mississippi home state. Mississippi is not statewide-complete: historical staging still contains 262 candidates, including 211 new candidates, and 17 county gaps that must be reconciled before statewide promotion.
-- Mississippi staging contains 262 candidates from three collection passes: 51 existing/possible canonical matches and 211 new candidates. It covers 65 of 82 counties; 17 county gaps remain explicitly queued.
-- Alabama's corrected coverage-reviewed private release contains 1,057 source observations reconciled to 808 retained entities: 799 staged-eligible and 9 in explicit research/QA. All 67 counties have a final searched status and at least one eligible candidate. Eligible rows can be exported to the next pipeline stage; Alabama remains unapproved and outside the LA/MS canon while its QA queue is open.
-- Texas's corrected coverage-reviewed private release contains 1,062 source and curator observations reconciled to 855 retained entities: 736 staged-eligible and 119 in explicit research/QA. All 254 counties have a final searched status; 179 have candidates, 75 are `searched_none_found`, and 172 have at least one eligible entity. Eligible rows can be exported to the next pipeline stage; Texas remains unapproved and outside the LA/MS canon while its QA queue is open.
-- Every new or rebuilt state follows `01-database/state-release-contract.md`: exactly four committed files, retained staged candidates, append-only decisions, and private evidence bound by version IDs and SHA-256 checksums. After coverage validation, run `python3 01-database/tools/export_state_pipeline.py` to produce private eligible-record handoffs and state-scoped QA queues. Validate all state contracts with `npm run states:validate` from `03-app/site/`.
-- Baseline stats computed: 89% of LA farms in DB lack a website; South MS is 47% online (different market dynamics between the two test states).
-- Market brief written (`research/market-opportunity-brief.md`), sourced.
+If the change touches `03-app/site/`, also run from that directory:
+`npm run data:validate`, `npm run lint`, `npm test`.
 
-## Key decisions
+## Active workstreams
 
-- **Start narrow, build national:** South Louisiana only until the database + farm-participation + consumer-discovery loop is proven. Then South MS. Then one state at a time until the continental United States is covered.
-- **Keep FarmFinder standalone:** no separate-company branding, commercial workflow, customer system, or promotion belongs in the product.
-- **Retain useful digital-presence facts:** verified website, social, store, map, and contact-visibility data remain part of the farm directory.
-- **Keep state evidence out of Git:** raw observations, request logs, and deterministic QA/identity/geography outputs live in versioned object storage; the committed release manifest is their integrity contract.
-- **Marketplace functionality comes last:** the current app work is directory, data governance, and production platform foundation; ordering waits for coverage, farm participation, and demonstrated consumer demand.
-
-## Open questions
-
-- Verify the "90% offline" claim with sourced data (USDA census, ag extension studies).
-- Database licensing/ownership if farms contribute data — terms needed before app launch.
-- What counts as a "farm" for inclusion (acreage, sales channel, licensed vs. hobby)?
-
-## Next actions
-
-1. Continue high-priority research for the 3 website flags without URLs and 56 listings without direct phone/email; work the explicit `QA Queue` and preserve evidence in `Source Log`.
-2. Continue Mississippi county-gap and candidate identity review; do not promote the 211 new candidates without evidence-based inclusion and identity checks.
-3. Stage `2026-07-15-enriched-v2` as a new immutable release without overwriting validated v1.
-4. Provision managed versioned object storage and managed PostgreSQL backups before promotion.
-5. Continue state collection using eligible handoffs; retain the Alabama and Texas QA queues for a QA engineer, copy each release's immutable evidence to managed storage, and record approval only after the current release fingerprint passes every promotion gate. The next collection order is Arkansas, Tennessee, Georgia, then Florida.
-
-Done: market brief (sourced) ✓ · 299/299 public listings mapped ✓ · source-of-truth release validation ✓ · PostgreSQL/PostGIS foundation verified ✓
+1. Re-apply the closed AL/TX QA disposition batches from current main
+   (research preserved on `codex/qa-alabama-identity`,
+   `codex/qa-texas-county-batches`, `codex/qa-texas-batch-03`).
+2. Source-tier ingestion policy, then geocoding enrichment, then automated
+   corroboration, then cross-state referrals — in that order, per
+   `01-database/pipeline-enrichment-plan.md`.
+3. PostgreSQL cutover of enriched release v2 (see
+   `03-app/site/docs/data-governance/cutover-runbook.md`).
