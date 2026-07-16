@@ -39,7 +39,7 @@ caused deletion or exclusion.
   profiles without explicit farm-operation evidence remain QA candidates rather than being discarded.
 - PickYourOwn closure claims remain retained pending an affirmative append-only curator decision.
 - County and city-or-safe-service-area gaps remain explicit blockers in `entities.csv`.
-- Outside-state radius results remain in immutable observations and `exclusions.csv`, never as Arkansas entities.
+- Outside-state radius results remain in immutable observations and `exclusions.csv`, never as Tennessee entities.
 - Detailed observations, request logs, and raw source records remain outside Git in the evidence bundle.
 
 ## Promotion blockers
