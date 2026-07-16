@@ -1,6 +1,6 @@
 # Texas state review report
 
-> Release: `tx-geography-enrichment-v19-2026-07-16`
+> Release: `tx-geography-enrichment-v20-2026-07-16`
 >
 > Contract: national state contract v2
 >
@@ -32,7 +32,7 @@ keeps those candidates staged.
 | Research/QA entities | 92 |
 | Affirmatively excluded observations | 71 |
 | Effective excluded entity groups | 50 |
-| Append-only decisions | 226 |
+| Append-only decisions | 254 |
 | Counties reviewed | 254 of 254 |
 | Counties with retained candidates | 181 |
 | Counties searched with none found | 75 |
@@ -267,3 +267,10 @@ Source Meats to Bexar; Harmony Hollow Apiaries to Dallas; and Texas Farm Patch t
 Atascosa. Seven had geography as their only blocker and moved to the promotion-
 eligible review set. Direct Source Meats remains in QA because its producer/type
 classification and independent farm-operation evidence are unresolved.
+
+## Geography Batch 15 — Remaining no-city QA triage
+
+Twenty-eight additional retained QA records without a city or safe public service
+area received append-only retain decisions. The source records do not support a
+defensible county assignment, so they remain visible in QA for future evidence-
+bound geography enrichment rather than receiving guessed counties.
