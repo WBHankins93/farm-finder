@@ -389,7 +389,7 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "tx-county-central-east-qa-v14-2026-07-16",
+    "id": "tx-county-triage-v15-2026-07-16",
     "status": "coverage_reviewed",
     "generatedAt": "2026-07-16T00:00:00+00:00",
     "promotionReady": false,
@@ -406,7 +406,7 @@
       "countiesWithCandidates": 178,
       "countiesWithEligibleEntities": 172,
       "sourceDatasets": 29,
-      "manualDecisions": 134
+      "manualDecisions": 164
     },
     "repositoryFiles": {
       "entities.csv": {
@@ -414,12 +414,12 @@
         "bytes": 694444
       },
       "decisions.csv": {
-        "sha256": "b44e996c650af524ba46718fdd8b5e49d5d20f4291286c4acf63fd8b37437723",
-        "bytes": 67203
+        "sha256": "48591394e93c59a1ce28e2c70ae1371cf0898e7122f1ed712f15cf123fdee350",
+        "bytes": 80041
       },
       "report.md": {
-        "sha256": "28d204980b952a34d422e699cf9504e33d3adb4df67089c45862d7d3424bbef1",
-        "bytes": 10644
+        "sha256": "67cfb0b589181c8cfe72ca19cdeafc12b5b1dd4654bddb3bdcffd5eb0c02367c",
+        "bytes": 11371
       }
     },
     "evidenceStorage": {

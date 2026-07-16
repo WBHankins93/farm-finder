@@ -1,6 +1,6 @@
 # Texas state review report
 
-> Release: `tx-county-central-east-qa-v14-2026-07-16`
+> Release: `tx-county-triage-v15-2026-07-16`
 >
 > Contract: national state contract v2
 >
@@ -9,10 +9,10 @@
 ## Outcome
 
 Texas has completed the documented three-pass discovery process across all 254
-counties. County Batch 09 reviewed Mason, Matagorda, McLennan, Montague, Moore,
-Nacogdoches, and Nueces after the South Plains checkpoint: the revised release
-retains 855 named candidates, 734 currently meet staged field and evidence gates,
-and 121 remain
+counties. County Batch 10 completed the documented county-level QA triage for 30
+remaining named candidates across 28 counties after the Central-East checkpoint.
+The revised release retains 855 named candidates, 734 currently meet staged field
+and evidence gates, and 121 remain
 in research/QA. Texas is not complete and must not be promoted until all county
 batches, managed evidence, approval, and canonical gates pass.
 
@@ -138,6 +138,17 @@ and meat retailer/processor. Sonlight Orchard, Wieck Farms, and Blueberry Farms
 remain in QA because current corroboration was not found. No county coverage rows
 changed; the batch reduced QA by six and added three affirmative exclusions.
 
+## County Batch 10 — Remaining county-specific QA triage
+
+The county-level triage pass reviewed the 30 remaining named QA candidates in
+Angelina, Bee, Cameron, Cherokee, Comanche, Dallas, Hidalgo, Jasper, Karnes,
+Lubbock, Mason, Moore, Parmer, Potter, Red River, Refugio, Swisher, Tarrant,
+Terry, Titus, Travis, Uvalde, Van Zandt, Wharton, Wood, and Yoakum counties.
+Each candidate received an append-only retain decision because the current record
+did not provide sufficient evidence for promotion or an affirmative exclusion.
+These candidates remain visible in QA; the next Texas pass is the separate
+geography-enrichment review for the 90 retained rows missing a county equivalent.
+
 ## Missing-data and closure correction
 
 Five farms were restored from closure handling:
@@ -210,7 +221,7 @@ none of these fields remains retained.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the remaining 121 QA candidates through append-only county batches.
+1. Resolve or deliberately retain the remaining 121 QA candidates through append-only county and geography-enrichment batches.
 2. Copy the three immutable evidence objects to managed production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.
 4. Promote Texas atomically in a separate canonical-release change.
