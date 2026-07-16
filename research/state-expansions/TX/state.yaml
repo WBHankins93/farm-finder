@@ -396,9 +396,9 @@
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
       "sourceObservations": 1062,
-      "proposedEntities": 856,
-      "promotionEligibleEntities": 733,
-      "researchOrQaEntities": 123,
+      "proposedEntities": 855,
+      "promotionEligibleEntities": 736,
+      "researchOrQaEntities": 119,
       "excludedObservations": 73,
       "excludedEntityGroups": 53,
       "identityReviewGroups": 113,
@@ -406,20 +406,20 @@
       "countiesWithCandidates": 179,
       "countiesWithEligibleEntities": 172,
       "sourceDatasets": 29,
-      "manualDecisions": 121
+      "manualDecisions": 124
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "d8a2771586d18a147a31ac686265be22e72bf294474e78723df743187e7d0c0e",
-        "bytes": 694645
+        "sha256": "83958e654fcd1c6a199f6a68e2a1872c99898be069d9295202daf4e52b87a2d1",
+        "bytes": 693962
       },
       "decisions.csv": {
-        "sha256": "fe7c509e57bda7dcc62f046f6c496a346ead96d7997e4d79f778dbc46a83ae43",
-        "bytes": 56683
+        "sha256": "bbfb91bd43527e0ff6d315eceadd8111ab9f673fb013c36c9dfb18e81fa0313b",
+        "bytes": 58448
       },
       "report.md": {
-        "sha256": "a0263910c33b65d832691101599e806142efa9b52052dd64a3092dd6ac1874ff",
-        "bytes": 4523
+        "sha256": "fed0be6ed57e1f21fb898e13c6c6b93f308ffb62983dd73187dfa566c3789908",
+        "bytes": 4847
       }
     },
     "evidenceStorage": {

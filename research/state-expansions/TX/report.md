@@ -9,12 +9,12 @@
 ## Outcome
 
 Texas has completed the documented three-pass discovery process across all 254
-counties. This cleansing checkpoint retains 856 named candidates: 733 currently
-meet staged field and evidence gates, while 123 remain in research/QA. The
+counties. This cleansing checkpoint retains 855 named candidates: 736 currently
+meet staged field and evidence gates, while 119 remain in research/QA. The
 working objective is to drive the QA queue to 50 or fewer before moving to the
 next state; production `record_verified` still requires QA to reach zero.
 
-This checkpoint applied 26 affirmative exclusions and 18 evidence-backed
+This checkpoint applied 26 affirmative exclusions and 20 evidence-backed
 corrections/corroborations. The exclusions remove current non-farm businesses
 (processors, retailers, distributors, and foodservice companies) and candidates
 whose current farm identity is outside Texas. The corrections resolve Augustus
@@ -31,12 +31,12 @@ All original source observations remain preserved in immutable evidence.
 | Measure | Count |
 |---|---:|
 | Immutable source observations | 1,062 |
-| Retained candidate entities | 856 |
-| Promotion-eligible reviewed entities | 733 |
-| Research/QA entities | 123 |
+| Retained candidate entities | 855 |
+| Promotion-eligible reviewed entities | 736 |
+| Research/QA entities | 119 |
 | Affirmatively excluded observations | 73 |
 | Effective excluded entity groups | 53 |
-| Append-only decisions | 121 |
+| Append-only decisions | 124 |
 | Counties reviewed | 254 of 254 |
 | Counties with retained candidates | 179 |
 | Counties searched with none found | 75 |
@@ -48,14 +48,14 @@ observations can support one excluded entity group.
 
 ## QA profile
 
-The 123 QA entities remain in `entities.csv`. Blockers overlap:
+The 119 QA entities remain in `entities.csv`. Blockers overlap:
 
 | Blocker | Entities |
 |---|---:|
 | County-equivalent missing | 58 |
-| Single grade-E discovery listing needs corroboration | 51 |
+| Single grade-E discovery listing needs corroboration | 50 |
 | City or safe public service area missing | 41 |
-| Member/vendor candidate needs independent farm-operation evidence | 44 |
+| Member/vendor candidate needs independent farm-operation evidence | 40 |
 | Reopened assumed/parser-derived closure needs corroboration | 6 |
 
 Missing geography, contact detail, or current corroboration does not imply that a
@@ -80,12 +80,17 @@ official, or independently corroborating sources.
   Ritchie Family Farms with current Texas farm evidence and geography.
 - Merged the duplicate JJJM Grass Fed Beef observation into the retained
   Collin County entity; both source observations remain linked to that entity.
+- Merged the duplicate Val Verde Vegetables Co observation into the retained
+  Hidalgo County grower entity; the farm-owned site confirms the combined
+  operation.
+- Classified Beauty’s Community Garden as an `educational_farm` and resolved
+  ChefPax Microgreens as a current controlled-environment farm in Travis County.
 - Preserved every excluded observation and decision append-only; no record was
   removed solely because information was missing.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the remaining 123 QA candidates through
+1. Resolve or deliberately retain the remaining 119 QA candidates through
    append-only review; the interim task checkpoint is 50 or fewer.
 2. For canon-level `record_verified`, reduce the QA count to zero.
 3. Copy the immutable evidence objects to managed production storage.
