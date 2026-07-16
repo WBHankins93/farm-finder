@@ -1,6 +1,6 @@
 # Texas state review report
 
-> Release: `tx-county-hidalgo-qa-v6-2026-07-16`
+> Release: `tx-county-central-qa-v7-2026-07-16`
 >
 > Contract: national state contract v2
 >
@@ -9,10 +9,11 @@
 ## Outcome
 
 Texas has completed the documented three-pass discovery process across all 254
-counties. County Batch 01 closed Hidalgo County: the revised release retains 875
-named candidates, 719 currently meet staged field and evidence gates, and 156
-remain in research/QA. Texas is not complete and must not be promoted until all
-county batches, managed evidence, approval, and canonical gates pass.
+counties. County Batch 02 reviewed Bastrop, Bexar, and Blanco after the Hidalgo
+checkpoint: the revised release retains 872 named candidates, 721 currently meet
+staged field and evidence gates, and 151 remain in research/QA. Texas is not
+complete and must not be promoted until all county batches, managed evidence,
+approval, and canonical gates pass.
 
 The earlier `record_verified` label was invalid because missing information and
 assumed closures were being converted into exclusions. The national policy now
@@ -23,21 +24,21 @@ keeps those candidates staged.
 | Measure | Count |
 |---|---:|
 | Immutable source observations | 1,062 |
-| Retained candidate entities | 875 |
-| Promotion-eligible reviewed entities | 719 |
-| Research/QA entities | 156 |
-| Affirmatively excluded observations | 51 |
-| Effective excluded entity groups | 31 |
-| Append-only decisions | 88 |
+| Retained candidate entities | 872 |
+| Promotion-eligible reviewed entities | 721 |
+| Research/QA entities | 151 |
+| Affirmatively excluded observations | 54 |
+| Effective excluded entity groups | 34 |
+| Append-only decisions | 93 |
 | Counties reviewed | 254 of 254 |
 | Counties with retained candidates | 179 |
 | Counties searched with none found | 75 |
 | Counties with promotion-eligible candidates | 171 |
 
-Retained entity observation counts plus the 51 affirmatively excluded source
+Retained entity observation counts plus the 54 affirmatively excluded source
 observations reconcile exactly to all 1,062 observations. Multiple source
-observations can support one excluded entity group, which is why 51 observations
-correspond to 31 effective exclusions.
+observations can support one excluded entity group, which is why 54 observations
+correspond to 34 effective exclusions.
 
 ## County Batch 01 — Hidalgo
 
@@ -49,6 +50,16 @@ Citrus Grove, and Val Verde Vegetable. Rio Fresh facility labeling and the two
 Val Verde spelling variants were merged into their retained farm entities. Only
 Wonderful Citrus remains in Hidalgo QA because its Texas production footprint and
 Mission facility scope require county-specific review.
+
+## County Batch 02 — Bastrop, Bexar, and Blanco
+
+The Central Texas batch processed all five QA candidates in the three counties.
+M&P Produce and River City Produce were affirmatively excluded as produce
+distribution businesses, and Texas Lavender Hills was excluded on current closure
+evidence. VRDNT was cleared through current farm-owned evidence, and M & J
+Lavender Farm was cleared through current directory and independent business
+corroboration. No county coverage rows changed; the batch reduced QA by two and
+added three affirmative exclusions.
 
 ## Missing-data and closure correction
 
@@ -71,14 +82,14 @@ Point Enterprises Orchards, Six Mile Pic-N-Pac Produce, and Yoes Peach Orchard.
 
 ## QA profile
 
-The 156 QA entities are retained in `entities.csv`. Blockers overlap:
+The 151 QA entities are retained in `entities.csv`. Blockers overlap:
 
 | Blocker | Entities |
 |---|---:|
 | County-equivalent missing | 90 |
-| Single grade-E discovery listing needs corroboration | 57 |
+| Single grade-E discovery listing needs corroboration | 52 |
 | City or safe public service area missing | 58 |
-| Member/vendor candidate needs independent farm-operation evidence | 48 |
+| Member/vendor candidate needs independent farm-operation evidence | 45 |
 | Reopened assumed/parser-derived closure needs corroboration | 0 |
 
 Missing geography or contact detail does not imply that a farm is invalid or closed.
@@ -92,8 +103,8 @@ an allowed affirmative reason:
 
 | Reason | Entity groups |
 |---|---:|
-| Confirmed non-farm business or channel | 16 |
-| Confirmed closed | 7 |
+| Confirmed non-farm business or channel | 22 |
+| Confirmed closed | 8 |
 | Outside Texas jurisdiction | 4 |
 
 The four off-state operations remain valid candidates for their home states. Market,
@@ -102,9 +113,9 @@ preserved as evidence even though they are outside the farm-entity boundary.
 
 ## Reachability and contact fields
 
-- 580 retained entities have a website value.
-- 500 have at least one social profile.
-- 772 have a direct public phone or email in staging.
+- 570 retained entities have a website value.
+- 499 have at least one social profile.
+- 761 have a direct public phone or email in staging.
 
 These values describe field availability, not promotion readiness. A candidate with
 none of these fields remains retained.
@@ -114,7 +125,7 @@ none of these fields remains retained.
 - Exactly four Texas state files are committed.
 - Every retained row has a farm name and Texas entity ID.
 - Entity IDs and normalized-name/county-equivalent keys are unique.
-- All 156 QA rows contain explicit blockers.
+- All 151 QA rows contain explicit blockers.
 - No active excluded normalized name remains staged.
 - Every active exclusion uses affirmative evidence.
 - Source, retained, and excluded observation counts reconcile.
@@ -122,7 +133,7 @@ none of these fields remains retained.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the remaining 156 QA candidates through append-only county batches.
+1. Resolve or deliberately retain the remaining 151 QA candidates through append-only county batches.
 2. Copy the three immutable evidence objects to managed production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.
 4. Promote Texas atomically in a separate canonical-release change.

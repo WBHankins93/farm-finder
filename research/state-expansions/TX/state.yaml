@@ -389,37 +389,37 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "tx-county-hidalgo-qa-v6-2026-07-16",
+    "id": "tx-county-central-qa-v7-2026-07-16",
     "status": "coverage_reviewed",
     "generatedAt": "2026-07-16T00:00:00+00:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
       "sourceObservations": 1062,
-      "proposedEntities": 875,
-      "promotionEligibleEntities": 719,
-      "researchOrQaEntities": 156,
-      "excludedObservations": 51,
-      "excludedEntityGroups": 31,
+      "proposedEntities": 872,
+      "promotionEligibleEntities": 721,
+      "researchOrQaEntities": 151,
+      "excludedObservations": 54,
+      "excludedEntityGroups": 34,
       "identityReviewGroups": 113,
       "countyCoverageRows": 254,
       "countiesWithCandidates": 179,
       "countiesWithEligibleEntities": 171,
       "sourceDatasets": 29,
-      "manualDecisions": 88
+      "manualDecisions": 93
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "f727f23c3b3b16fb02f4b0b271e96a8b40c6016766c78112ba74ec0545859620",
-        "bytes": 710528
+        "sha256": "65825e1be9ffb3565cf4b31e3ec431a4c27ead11b56cf37757dcfc95bfd42260",
+        "bytes": 707922
       },
       "decisions.csv": {
-        "sha256": "e364b41058e5fdf4b1cb3f3749c7328bc3214054cc393d926c3796e51e7decc4",
-        "bytes": 41820
+        "sha256": "cae6827e69fe81139f986cac6db7c4570c81fc55e60b74f16e965ce95252132e",
+        "bytes": 44451
       },
       "report.md": {
-        "sha256": "e54a4ef4e16e8b57a329faed914def48fefe2987aa5199a89b676e387ab0c89e",
-        "bytes": 5225
+        "sha256": "201caf8589f5fac0eba52ab862745f8ca5326d1450d9ea5d860e78fce993a078",
+        "bytes": 5824
       }
     },
     "evidenceStorage": {
