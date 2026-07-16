@@ -1466,6 +1466,11 @@ def farm_entity_confirmation(name: str, description: str, products: str) -> bool
         re.I,
     ):
         return False
+    # A producer may sell exclusively through a farmers market.  An official
+    # agricultural-vendor classification is therefore positive scope evidence;
+    # the market venue itself is not the farm entity, but the named vendor is.
+    if re.search(r"\bagricultural\s+farmers?-market\s+vendor\b", description, re.I):
+        return True
     if farm_operation_signal(name, description, products):
         return True
     return bool(re.search(

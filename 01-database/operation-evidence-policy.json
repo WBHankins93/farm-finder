@@ -1,6 +1,7 @@
 {
   "version": "2026-07-15",
-  "definition": "Evidence that a distinct, in-scope primary producer is operating or currently listed during 2026; missing evidence never proves closure.",
+  "definition": "Evidence that a distinct, in-scope primary producer is operating or currently listed during 2026; a producer may sell exclusively through farmers markets; missing evidence never proves closure.",
+  "marketOnlyRule": "An explicitly agricultural farmers-market vendor is an in-scope producer even when no on-farm sales, website, or other channel is documented. Keep the market venue separate from the producer entity.",
   "statusOrder": [
     "confirmed_operating_2026",
     "currently_listed_official_2026",

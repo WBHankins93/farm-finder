@@ -14,7 +14,8 @@
       "confirmed_nonfarm",
       "duplicate_identity",
       "outside_jurisdiction"
-    ]
+    ],
+    "marketOnlyProducerRule": "An explicitly agricultural farmers-market vendor is an in-scope producer even when no on-farm sales, website, or other channel is documented; keep the market venue separate from the producer entity."
   },
   "collection": {
     "requiredPasses": [
@@ -338,8 +339,8 @@
         "bytes": 260
       },
       "report.md": {
-        "sha256": "48c8233f97ad82cb6d9903b7c8ef517e2eacb9327c7fb08b25c853cb9018a2a5",
-        "bytes": 5319
+        "sha256": "b135479b6e205ba05a0af22dbad55fa8e50e26aa28c3663e0d0e18fe63ffa7a6",
+        "bytes": 5530
       }
     }
   }

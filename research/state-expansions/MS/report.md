@@ -93,6 +93,8 @@ Blocker counts overlap because one retained entity can require more than one fol
 
 - The official marketing directory includes producers, processors, retailers, and value-added businesses. Named
   profiles without explicit farm-operation evidence remain QA candidates rather than being discarded.
+- A named vendor explicitly classified as an agricultural farmers-market vendor is an in-scope producer even if
+  the record documents only market sales; the market venue is not merged with the producer entity.
 - PickYourOwn closure claims remain retained pending an affirmative append-only curator decision.
 - County and city-or-safe-service-area gaps remain explicit blockers in `entities.csv`.
 - Outside-state radius results remain in immutable observations and `exclusions.csv`, never as Mississippi entities.
@@ -100,7 +102,7 @@ Blocker counts overlap because one retained entity can require more than one fol
 
 ## Promotion blockers
 
-1. Resolve the 162 QA candidates through current farm-owned or authoritative evidence.
+1. Resolve the 161 QA candidates through current farm-owned or authoritative evidence.
 2. Copy the immutable evidence objects to managed versioned storage.
 3. Record approval against the resulting release fingerprint.
 4. Promote Mississippi atomically in a separate canonical-release change.
@@ -109,9 +111,9 @@ Blocker counts overlap because one retained entity can require more than one fol
 ## 2026 operating-evidence audit
 
 The immutable collected-name universe contains **737 retained candidate entities**. Evidence supports
-**282 distinct, in-scope operations** through an explicit 2026 program or current official producer
+**283 distinct, in-scope operations** through an explicit 2026 program or current official producer
 listing. Another **268** have weaker current evidence such as a reachable farm-owned website or a
-recently expired grower certification. The evidence-bounded operating range is therefore **282–550**.
+recently expired grower certification. The evidence-bounded operating range is therefore **283–551**.
 
 This is a public-evidence directory count, not the USDA statistical count of every agricultural operation.
 Missing evidence never proves closure, and every collected name remains preserved for follow-up.

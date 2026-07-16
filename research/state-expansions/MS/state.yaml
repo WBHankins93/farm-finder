@@ -14,7 +14,8 @@
       "confirmed_nonfarm",
       "duplicate_identity",
       "outside_jurisdiction"
-    ]
+    ],
+    "marketOnlyProducerRule": "An explicitly agricultural farmers-market vendor is an in-scope producer even when no on-farm sales, website, or other channel is documented; keep the market venue separate from the producer entity."
   },
   "collection": {
     "requiredPasses": [
@@ -246,8 +247,8 @@
     "counts": {
       "sourceObservations": 957,
       "proposedEntities": 737,
-      "promotionEligibleEntities": 575,
-      "researchOrQaEntities": 162,
+      "promotionEligibleEntities": 576,
+      "researchOrQaEntities": 161,
       "excludedObservations": 45,
       "excludedEntityGroups": 0,
       "identityReviewGroups": 135,
@@ -255,7 +256,7 @@
       "countiesWithCandidates": 79,
       "countiesWithEligibleEntities": 79,
       "sourceDatasets": 15,
-      "manualDecisions": 0,
+      "manualDecisions": 1,
       "canonicalBaselineObservations": 79,
       "currentSourceObservations": 878,
       "operationStatusCounts": {
@@ -265,10 +266,10 @@
         "reported_closed_requires_review": 40,
         "confirmed_operating_2026": 4
       },
-      "supportedOperatingEntities2026": 282,
+      "supportedOperatingEntities2026": 283,
       "additionalLikelyOperatingEntities2026": 268,
-      "operationCountUpperSupportedRange": 550,
-      "operationScopeReviewEntities": 23,
+      "operationCountUpperSupportedRange": 551,
+      "operationScopeReviewEntities": 22,
       "operationIdentityReviewEntities": 6
     },
     "evidenceStorage": {
@@ -318,16 +319,16 @@
     "approval": {},
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "bdb2c82744159732db9207337a3981f0d2389e8c8d1ac99dc7cbe59548eda932",
-        "bytes": 773379
+        "sha256": "0b18673b72f6daf191f5f272bd0d925d60d3fd4d9ba9f994d74bd1c1a2a9377c",
+        "bytes": 773343
       },
       "decisions.csv": {
-        "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
-        "bytes": 260
+        "sha256": "a6c596d2d1a4a32ef43c9ee76814cd5d225387d8ebc9a06705d5c00bd9c50057",
+        "bytes": 800
       },
       "report.md": {
-        "sha256": "d91cf49fa1a959172e208d501a987e1343152e6bb49af20be5063820b9f34c2b",
-        "bytes": 5125
+        "sha256": "7f1d2675aa6da22cafa3c4446887b430a525c536f4b00e8abea07813c97ebe0f",
+        "bytes": 5336
       }
     }
   }

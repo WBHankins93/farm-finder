@@ -94,6 +94,8 @@ Blocker counts overlap because one retained entity can require more than one fol
 
 - The official marketing directory includes producers, processors, retailers, and value-added businesses. Named
   profiles without explicit farm-operation evidence remain QA candidates rather than being discarded.
+- A named vendor explicitly classified as an agricultural farmers-market vendor is an in-scope producer even if
+  the record documents only market sales; the market venue is not merged with the producer entity.
 - PickYourOwn closure claims remain retained pending an affirmative append-only curator decision.
 - County and city-or-safe-service-area gaps remain explicit blockers in `entities.csv`.
 - Outside-state radius results remain in immutable observations and `exclusions.csv`, never as Louisiana entities.

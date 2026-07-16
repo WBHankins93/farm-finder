@@ -243,6 +243,11 @@ class SoutheastSourceClassificationTests(unittest.TestCase):
     def test_product_evidence_can_confirm_a_named_producer(self) -> None:
         self.assertTrue(farm_entity_confirmation("The Garden Patch", "", "Fruit and vegetables"))
 
+    def test_farmers_market_only_agricultural_vendor_is_in_scope(self) -> None:
+        self.assertTrue(farm_entity_confirmation(
+            "Viking Honey", "MDAC agricultural farmers-market vendor", ""
+        ))
+
     def test_georgia_directory_card_is_retained_with_contact_fields(self) -> None:
         body = '''
         <h3 class="titleSmall">Tiny Georgia Farm</h3>
