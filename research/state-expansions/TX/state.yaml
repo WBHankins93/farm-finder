@@ -389,37 +389,37 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "tx-county-south-plains-qa-v13-2026-07-16",
+    "id": "tx-county-central-east-qa-v14-2026-07-16",
     "status": "coverage_reviewed",
     "generatedAt": "2026-07-16T00:00:00+00:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
       "sourceObservations": 1062,
-      "proposedEntities": 859,
-      "promotionEligibleEntities": 732,
-      "researchOrQaEntities": 127,
-      "excludedObservations": 67,
-      "excludedEntityGroups": 47,
+      "proposedEntities": 855,
+      "promotionEligibleEntities": 734,
+      "researchOrQaEntities": 121,
+      "excludedObservations": 71,
+      "excludedEntityGroups": 50,
       "identityReviewGroups": 113,
       "countyCoverageRows": 254,
       "countiesWithCandidates": 178,
       "countiesWithEligibleEntities": 172,
       "sourceDatasets": 29,
-      "manualDecisions": 125
+      "manualDecisions": 134
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "24c098beca9d7bb71fd1aa3a6b825376e61b7efc3ddc9153d441d964f7727413",
-        "bytes": 698050
+        "sha256": "34419840d3d2b3925b53f8ab8a587a656a7811390466b994169456009f4509e6",
+        "bytes": 694444
       },
       "decisions.csv": {
-        "sha256": "e92b9b98b7182addc5ff427ba326604415c1020b7decda82cc5fc034b594129e",
-        "bytes": 62442
+        "sha256": "b44e996c650af524ba46718fdd8b5e49d5d20f4291286c4acf63fd8b37437723",
+        "bytes": 67203
       },
       "report.md": {
-        "sha256": "9ba254a0dc87d57913bab70fdc0bc099f1ed56e43bee12d6d4407dbc6768fa17",
-        "bytes": 9812
+        "sha256": "28d204980b952a34d422e699cf9504e33d3adb4df67089c45862d7d3424bbef1",
+        "bytes": 10644
       }
     },
     "evidenceStorage": {
