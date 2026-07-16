@@ -305,6 +305,12 @@ class CurrentStateContractTests(unittest.TestCase):
     def test_arkansas_contract(self) -> None:
         self.assertEqual(validate_state("AR", False)["status"], "passed")
 
+    def test_canonical_state_rebuild_contracts(self) -> None:
+        for state in ("LA", "MS"):
+            with self.subTest(state=state):
+                result = validate_state(state, False)
+                self.assertEqual(result["status"], "passed", result["errors"])
+
     def test_coverage_review_is_not_promotion_approval(self) -> None:
         for state in ("AL", "AR", "TX"):
             result = state_status(state)
