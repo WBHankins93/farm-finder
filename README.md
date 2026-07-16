@@ -626,6 +626,7 @@ When making changes:
 - [Data governance workflow](03-app/site/docs/data-governance/source-of-truth.md)
 - [State expansion and verification](01-database/state-expansion-and-verification.md)
 - [Scalable data pipeline standard](01-database/scalable-data-pipeline.md)
+- [Pipeline enrichment plan](01-database/pipeline-enrichment-plan.md)
 - [Database package](03-app/site/packages/db/README.md)
 - [Infrastructure contract](03-app/site/infra/README.md)
 - [Evaluation strategy](03-app/site/evals/README.md)
