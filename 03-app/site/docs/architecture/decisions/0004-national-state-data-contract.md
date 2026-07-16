@@ -28,6 +28,11 @@ Collection can be batched by geographic region. Review, approval, and promotion
 remain state-based. County-like geography uses the Census county-equivalent model
 and FIPS identity rather than state-specific columns.
 
+Once coverage review and county coverage pass, eligible rows may be handed to the
+next pipeline stage with a derived eligible-record export. Unresolved rows remain
+in the originating state's QA queue and in `entities.csv`; QA is deferred across
+state collection, but it is still required to reach `record_verified` and approval.
+
 ## Options considered
 
 ### Keep seven files per state
@@ -58,6 +63,7 @@ unreviewed nationwide dump but prevents systematic errors from multiplying.
 - State-specific collectors configure sources but cannot redefine retention or
   exclusion policy.
 - Missing information increases QA backlog; it never lowers candidate coverage.
+- QA backlog does not block the next state's collection or eligible-record handoff.
 - Decisions and evidence must remain traceable after merges, corrections, and
   exclusions.
 - Contract version 1 remains readable only during migration and is rejected for new

@@ -11,6 +11,51 @@ The database is the shared product asset. Better coverage and farm participation
 
 > **Geography note:** `LA` means Louisiana throughout this repository, not Los Angeles.
 
+## Start here
+
+FarmFinder is a data-governance and discovery platform. The fastest way to orient
+yourself is:
+
+| Need | Read |
+|---|---|
+| Understand the cleansing and approval loop | [Scalable data pipeline standard](01-database/scalable-data-pipeline.md) |
+| Understand state coverage and verification | [State expansion and verification](01-database/state-expansion-and-verification.md) |
+| Understand release files and promotion gates | [National state release contract](01-database/state-release-contract.md) |
+| Understand canonical data authority | [Source-of-truth workflow](03-app/site/docs/data-governance/source-of-truth.md) |
+| Run the app and checks | [Local development](#local-development) |
+| See the product and technical roadmap | [Roadmap](#roadmap) |
+
+### The data pipeline in one picture
+
+```mermaid
+flowchart LR
+    A[Gather] --> B[Cleanse and normalize]
+    B --> C[Deduplicate and reconcile]
+    C --> D{Eligible or QA?}
+    D -->|Eligible| E[Final verification]
+    D -->|QA| Q[State QA queue]
+    E -->|Pass| P[Passing release]
+    E -->|Fail| Q
+    Q --> E
+    P --> G[CI/CD release gates]
+    G --> DB[Atomic database promotion]
+```
+
+Eligible records can keep the pipeline moving, but they are not automatically
+verified or canonical. Final verification must confirm identity, farm scope,
+current operating evidence, and duplicate handling. Any failure returns to the
+originating state's QA queue.
+
+For the current derived handoff workflow:
+
+```bash
+python3 01-database/tools/export_state_pipeline.py
+```
+
+This produces private eligible-record exports and state-scoped QA queues under
+`data/exports/state-pipeline/`. The four-file state release remains the source of
+truth; the export is a reproducible downstream handoff.
+
 ## Project status
 
 FarmFinder currently has a working static-first public directory and a verified production database foundation. PostgreSQL is not yet serving the application; the canonical workbook must first pass through the importer and reconciliation workflow.
@@ -21,7 +66,7 @@ FarmFinder currently has a working static-first public directory and a verified 
 | Canonical records | 299 one-row-per-entity workbook listings: 220 LA and 79 MS |
 | Public map | 299 mapped listings with explicit location precision |
 | Website/contact QA | 88 website flags, 85 populated URLs, 3 missing URLs; 243 direct contacts and 56 missing direct phone/email |
-| State expansion | Alabama coverage reviewed: 1,057 observations, 810 retained entities, 799 eligible / 11 QA; all 67 counties reviewed. Texas coverage reviewed: 1,062 observations, 883 retained entities, 716 eligible / 167 QA; all 254 counties reviewed. Both pass the four-file national contract but remain unapproved private staging outside canon. |
+| State expansion | Louisiana and Mississippi are the current canonical coverage area. New state releases follow the gather → cleanse → QA split → final verification → approved promotion loop. Alabama, Arkansas, Florida, Georgia, Tennessee, and Texas have coverage-reviewed private releases with eligible records and state-scoped QA queues. |
 | Public application | Working vinext/Next.js directory using generated JSON |
 | PostgreSQL cutover | 30-table foundation verified; historical v1 with 315 raw rows remains staged locally; enriched v2 must be staged as a new immutable release |
 | Custom indexes | 27 documented indexes tied to queries, invariants, or worker operations |
@@ -58,7 +103,9 @@ FarmFinder now has explicit rules for:
 - Separating official geography from operational coverage regions.
 - Resolving duplicates through evidence and review.
 - Classifying exact locations and contacts as public or private.
-- Promoting a complete release atomically.
+- Moving eligible records to final verification without treating them as verified.
+- Returning verification failures to state-scoped QA queues.
+- Promoting only passing records through a complete release atomically.
 - Running state collection in three documented source passes.
 - Performing six-month source and link verification without automatically overwriting canonical data.
 
@@ -67,6 +114,7 @@ Start with:
 - [Source-of-truth workflow](03-app/site/docs/data-governance/source-of-truth.md)
 - [State expansion and verification system](01-database/state-expansion-and-verification.md)
 - [State release contract](01-database/state-release-contract.md)
+- [Scalable data pipeline standard](01-database/scalable-data-pipeline.md)
 - [Machine-readable dataset manifest](03-app/site/config/source-of-truth.json)
 
 ### PostgreSQL/PostGIS foundation
@@ -306,9 +354,32 @@ Every state receives three documented passes:
 2. Farmers markets, CSAs, food hubs, U-pick, agritourism, and producer associations.
 3. National-directory and county-by-county gap discovery.
 
-Mississippi is the next active expansion area. Staging outputs live in `research/ms-expansion/` and do not alter the canonical workbook or the validated cutover release automatically. At a collection milestone, freeze the Mississippi inputs under a new release ID and checksum, upload them as a new immutable object, and stage them without overwriting the current release.
+State expansion is state-by-state. Staging outputs live in the relevant research
+directory and do not alter the canonical workbook or validated cutover release
+automatically. At a collection milestone, freeze the inputs under a new release ID
+and checksum, upload them as a new immutable object, and stage them without
+overwriting the current release.
 
 See the [PostgreSQL cutover runbook](03-app/site/docs/data-governance/cutover-runbook.md).
+
+For every state after collection, use the standard loop: export eligible records to
+final verification, keep unresolved records in that state's QA queue, return failed
+verification to QA, and promote only passing records through an approved immutable
+release. See the [scalable data pipeline standard](01-database/scalable-data-pipeline.md).
+
+### Move eligible records to verification
+
+From the repository root:
+
+```bash
+python3 01-database/tools/state_release_status.py
+python3 01-database/tools/export_state_pipeline.py
+```
+
+The status command shows contract, coverage, record-verification, approval, and
+eligible-staging gates. The export command creates private per-state eligible and QA
+files plus a consolidated handoff manifest. The export does not change canonical
+data or bypass final verification.
 
 ### Six-month verification
 
@@ -452,8 +523,8 @@ The phases below are dependency-driven rather than calendar promises. Data expan
 
 **Status:** Active data work, platform integration planned
 
-- Complete the Mississippi three-pass collection and review its staged candidates.
-- Resolve Alabama's remaining QA and evidence-storage gates, then deliberately approve and promote the current release fingerprint; do not fold it into LA/MS canon implicitly.
+- Continue state-by-state collection and cleansing using the standard verification loop.
+- Hand eligible state rows to final verification and keep each state's QA queue explicit; resolve verification failures, evidence-storage gates, and approval requirements before promotion.
 - Expand state-by-state from the Gulf South until FarmFinder covers the continental United States.
 - Track completeness and freshness at state and county/parish levels.
 - Maintain operational coverage regions for foodsheds, metros, and agricultural districts.
@@ -534,6 +605,7 @@ When making changes:
 - [Index decision register](03-app/site/docs/architecture/index-register.md)
 - [Data governance workflow](03-app/site/docs/data-governance/source-of-truth.md)
 - [State expansion and verification](01-database/state-expansion-and-verification.md)
+- [Scalable data pipeline standard](01-database/scalable-data-pipeline.md)
 - [Database package](03-app/site/packages/db/README.md)
 - [Infrastructure contract](03-app/site/infra/README.md)
 - [Evaluation strategy](03-app/site/evals/README.md)

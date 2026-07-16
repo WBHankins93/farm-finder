@@ -51,6 +51,20 @@ are referenced by checksum and object version from `state.yaml`. QA queues,
 exclusions, identity reviews, and geography diagnostics are derived views, not
 additional sources of truth.
 
+## Eligible pipeline handoff
+
+After `coverage_reviewed` validation and complete county coverage, the pipeline may
+export rows with `promotion_status=promotion_eligible_reviewed` to a derived
+eligible-record handoff. The same run exports a state-scoped `qa-queue.csv` and a
+consolidated QA queue for follow-up. Use
+`01-database/tools/export_state_pipeline.py` to generate these private artifacts
+under `data/exports/state-pipeline/`.
+
+This handoff is not approval, canonical promotion, or `record_verified`. QA rows
+remain in `entities.csv`, remain counted in the release, and remain blockers for
+record verification and approval. Their presence does not block collection or
+eligible handoff for the next state.
+
 ## Geography
 
 The shared field is `county_equivalent`. The displayed label is configured per

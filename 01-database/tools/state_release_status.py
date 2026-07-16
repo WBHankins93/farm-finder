@@ -121,6 +121,14 @@ def state_status(state: str, require_local_artifacts: bool = False) -> dict[str,
             else "state remains isolated from the canonical release",
             blocking=False,
         ),
+        gate(
+            "eligible_staging",
+            validation["status"] == "passed" and not unresolved_counties and len(entities) > len(qa),
+            "eligible entities may be handed to the next pipeline stage while QA remains state-scoped"
+            if validation["status"] == "passed" and not unresolved_counties and len(entities) > len(qa)
+            else "eligible staging requires a valid contract, complete county coverage, and at least one eligible entity",
+            blocking=False,
+        ),
     ]
     promotable = all(row["status"] == "passed" for row in checks[:5])
     return {
@@ -129,6 +137,7 @@ def state_status(state: str, require_local_artifacts: bool = False) -> dict[str,
         "lifecycleStatus": release_status,
         "promotionReady": promotion_ready,
         "promotable": promotable,
+        "eligibleStagingReady": checks[-1]["status"] == "passed",
         "releaseFingerprint": fingerprint,
         "counts": {
             "entities": len(entities),
