@@ -25,11 +25,15 @@ from collect_alabama import Observation  # noqa: E402
 from collect_southeast import (  # noqa: E402
     STATE_CONFIG,
     apply_place_reference,
+    choose_county,
     empty_observation,
     farm_operation_signal,
+    florida_farm_to_you_profile,
+    florida_producer_cards,
     georgia_grown_cards,
     georgia_grown_profile,
     localharvest_profile,
+    next_page_data,
     normalized_county,
     sanitized_email,
     sanitized_phone,
@@ -122,6 +126,19 @@ class SoutheastGeographyTests(unittest.TestCase):
         )
         self.assertEqual((item.city, item.county, item.postal_code), ("", "", ""))
 
+    def test_unambiguous_census_place_corrects_broad_pick_your_own_region(self) -> None:
+        item = self.observation("")
+        item.city = "Lake Alfred"
+        item.county = "Columbia"
+        item.county_fips = "12023"
+        item.county_source = "https://www.pickyourown.org/FLnorth-BakerColumbiaUnion.htm"
+        apply_place_reference(
+            "FL", {"name": "Florida"}, [item],
+            {"lake alfred": ("Lake Alfred", "Polk", "12105")},
+        )
+        self.assertEqual((item.county, item.county_fips), ("Polk", "12105"))
+        self.assertIn("corrected broad PickYourOwn region county", item.notes)
+
     def test_out_of_state_radius_result_is_preserved_as_exclusion_evidence(self) -> None:
         body = (
             '<strong>Location:</strong><br />1045 S. Genois St.<br /> '
@@ -135,6 +152,50 @@ class SoutheastGeographyTests(unittest.TestCase):
         item = localharvest_profile("AR", STATE_CONFIG["AR"], card, body)
         self.assertEqual(item.promotion_status, "excluded_outside_jurisdiction")
         self.assertIn("outside AR", item.notes)
+
+    def test_same_grade_county_conflict_prefers_census_geography(self) -> None:
+        directory = self.observation("")
+        directory.county = "Columbia"
+        directory.county_source = "https://example.test/directory"
+        directory.evidence_grade = "E"
+        census = self.observation("")
+        census.county = "Polk"
+        census.county_source = "https://geo.fcc.gov/api/census/area"
+        census.evidence_grade = "E"
+        self.assertEqual(choose_county([directory, census]), "Polk")
+
+    def test_same_grade_county_conflict_recognizes_census_place_reference(self) -> None:
+        directory = self.observation("")
+        directory.county = "Columbia"
+        directory.county_source = "https://www.pickyourown.org/FLnorth-BakerColumbiaUnion.htm"
+        directory.evidence_grade = "E"
+        census = self.observation("")
+        census.county = "Polk"
+        census.county_source = "https://www2.census.gov/geo/docs/reference/codes2020/national_place_by_county2020.txt"
+        census.evidence_grade = "E"
+        self.assertEqual(choose_county([directory, census]), "Polk")
+
+    def test_authoritative_geography_outweighs_record_evidence_grade_for_county(self) -> None:
+        directory = self.observation("")
+        directory.county = "Alachua"
+        directory.county_source = "https://example.test/official-directory"
+        directory.evidence_grade = "B"
+        census = self.observation("")
+        census.county = "Lake"
+        census.county_source = "https://geo.fcc.gov/api/census/area"
+        census.evidence_grade = "E"
+        self.assertEqual(choose_county([directory, census]), "Lake")
+
+    def test_coordinate_geography_outweighs_census_mailing_place(self) -> None:
+        mailing_place = self.observation("")
+        mailing_place.county = "Duval"
+        mailing_place.county_source = "https://www2.census.gov/geo/docs/reference/codes2020/national_place_by_county2020.txt"
+        mailing_place.evidence_grade = "E"
+        coordinate = self.observation("")
+        coordinate.county = "Clay"
+        coordinate.county_source = "https://geo.fcc.gov/api/census/area"
+        coordinate.evidence_grade = "E"
+        self.assertEqual(choose_county([mailing_place, coordinate]), "Clay")
 
 
 class SoutheastSourceClassificationTests(unittest.TestCase):
@@ -190,9 +251,33 @@ class SoutheastSourceClassificationTests(unittest.TestCase):
         self.assertIn("Tomatoes", item.products)
         self.assertEqual(item.entity_type_review, "farm_activity_confirmed_by_current_official_profile")
 
+    def test_florida_archive_card_and_profile_are_parsed(self) -> None:
+        archive = '''
+        <article class="card:producer"><h3 class="card:producer::heading">
+        <a href="https://flfarmtoyou.com/producer/tiny-farm/">Tiny Farm</a></h3></article>
+        '''
+        card = florida_producer_cards(archive)[0]
+        profile = '''
+        <main class="view:producer@single"><h2 class="block:producer::heading">Tiny Farm</h2>
+        <div class="block:producer::content"><p>Our family grows vegetables.</p></div>
+        <section class="block:services"><strong>Tomatoes</strong></section>
+        <address class="card:producer@location::address">1 Farm Rd<br/>Gainesville, FL 32601</address>
+        <a href="tel:3525550100">Call</a><a href="mail:farm@example.com">Email</a>
+        </main>
+        '''
+        item, _ = florida_farm_to_you_profile("FL", STATE_CONFIG["FL"], card, profile)
+        self.assertEqual((item.farm_name, item.city, item.postal_code), ("Tiny Farm", "Gainesville", "32601"))
+        self.assertEqual(item.email, "farm@example.com")
+        self.assertIn("Tomatoes", item.products)
+
+    def test_next_page_data_returns_fdacs_page_props(self) -> None:
+        body = '<script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"childrenInfos":[1,2]}}}</script>'
+        self.assertEqual(next_page_data(body)["childrenInfos"], [1, 2])
+
     def test_county_casing_and_placeholder_phone_are_normalized(self) -> None:
         self.assertEqual(normalized_county("DeKalb County"), "DeKalb")
         self.assertEqual(normalized_county("McDuffie County"), "McDuffie")
+        self.assertEqual(normalized_county("DeSoto County"), "DeSoto")
         self.assertEqual(sanitized_phone("(000) 000-0000"), "")
         self.assertEqual(sanitized_phone("."), "")
         self.assertEqual(sanitized_email("httpswww.facebook.comprofile.php"), "")

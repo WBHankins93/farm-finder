@@ -133,6 +133,27 @@ STATE_CONFIG: dict[str, dict[str, Any]] = {
         ],
         "census_place_gap_search": True,
     },
+    "FL": {
+        "name": "Florida",
+        "fips": "12",
+        "county_count": 67,
+        "official_directory": "https://flfarmtoyou.com/producer/",
+        "official_root": "https://flfarmtoyou.com",
+        "official_aggregate_name": "Florida Department of Agriculture and Consumer Services — Florida Farm to You producer directory",
+        "fdacs_upick": "https://www.fdacs.gov/Consumer-Resources/Buy-Fresh-From-Florida/U-Pick-Farms",
+        "fdacs_csa": "https://www.fdacs.gov/Consumer-Resources/Buy-Fresh-From-Florida/Community-Supported-Agriculture-CSAs",
+        "us_farm_trail": "https://www.usfarmtrail.com/states/florida",
+        "us_farm_trail_geojson": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=florida",
+        "eatwild": "https://www.eatwild.com/products/florida.html",
+        "pyo_index": "https://www.pickyourown.org/FL.htm",
+        "pyo_discover_regions": True,
+        "report_passes": [
+            "the FDACS-created Florida Farm to You producer directory",
+            "FDACS U-pick and CSA lists plus EatWild",
+            "US Farm Trail, 39 PickYourOwn regions, and targeted LocalHarvest county-gap searches",
+        ],
+        "census_place_gap_search": True,
+    },
 }
 
 
@@ -154,7 +175,7 @@ def normalized_county(value: str) -> str:
     county = re.sub(r"\s+County$", "", clean_text(value), flags=re.I).strip().title()
     if county.startswith("Mc") and len(county) > 2:
         county = "Mc" + county[2].upper() + county[3:]
-    return {"Dekalb": "DeKalb"}.get(county, county)
+    return {"Dekalb": "DeKalb", "Desoto": "DeSoto"}.get(county, county)
 
 
 def normalized_city(value: str) -> str:
@@ -874,6 +895,334 @@ def georgia_farm_markets(state: str, config: dict[str, Any]) -> tuple[list[Obser
     return observations, logs, {"georgia_farm_bureau_certified_markets": profiles}
 
 
+def next_page_data(body: str) -> dict[str, Any]:
+    match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', body, re.I | re.S)
+    if not match:
+        return {}
+    try:
+        value = json.loads(match.group(1))
+        return value.get("props", {}).get("pageProps", {})
+    except (json.JSONDecodeError, TypeError):
+        return {}
+
+
+def florida_producer_cards(body: str) -> list[dict[str, str]]:
+    cards: list[dict[str, str]] = []
+    for article in re.findall(r'<article class="card:producer">(.*?)</article>', body, re.I | re.S):
+        match = re.search(
+            r'<h3 class="card:producer::heading">\s*<a href="(https://flfarmtoyou\.com/producer/[^"?]+/)">(.*?)</a>',
+            article,
+            re.I | re.S,
+        )
+        if not match:
+            continue
+        cards.append({"url": clean_url(match.group(1)), "name": strip_tags(match.group(2))})
+    return cards
+
+
+def florida_farm_to_you_profile(
+    state: str,
+    config: dict[str, Any],
+    card: dict[str, str],
+    body: str,
+) -> tuple[Observation, dict[str, Any]]:
+    source_name = config["official_aggregate_name"]
+    main_match = re.search(r'<main class="view:producer@single">(.*?)</main>', body, re.I | re.S)
+    main = main_match.group(1) if main_match else body
+    name_match = re.search(r'<h2 class="block:producer::heading">(.*?)</h2>', main, re.I | re.S)
+    name = strip_tags(name_match.group(1)) if name_match else card["name"]
+    description_match = re.search(r'<div class="block:producer::content">(.*?)</div>', main, re.I | re.S)
+    description = strip_tags(description_match.group(1)) if description_match else ""
+    service_match = re.search(r'<section class="block:services">(.*?)</section>', main, re.I | re.S)
+    service_html = service_match.group(1) if service_match else ""
+    product_values = [strip_tags(value) for value in re.findall(r'<strong>(.*?)</strong>', service_html, re.I | re.S)]
+    if not product_values:
+        product_values = [strip_tags(value) for value in re.findall(r'<h4 class="card:service::heading">(.*?)</h4>', service_html, re.I | re.S)]
+    products = "; ".join(dict.fromkeys(value for value in product_values if value))
+    address_match = re.search(r'<address class="card:producer@location::address">(.*?)</address>', main, re.I | re.S)
+    address_html = address_match.group(1) if address_match else ""
+    address_lines = [strip_tags(value) for value in re.split(r'<br\s*/?>', address_html, flags=re.I) if strip_tags(value)]
+    city = postal = ""
+    city_index = -1
+    for index, value in enumerate(address_lines):
+        city_match = re.search(r'([^,]+),\s*FL\s+(\d{5})(?:-\d{4})?\b', value, re.I)
+        if city_match:
+            city, postal, city_index = normalized_city(city_match.group(1)), city_match.group(2), index
+            break
+    address = ", ".join(address_lines[:city_index] if city_index >= 0 else address_lines)
+    phone_match = re.search(r'href="tel:([^"]+)', main, re.I)
+    email_match = re.search(r'href="(?:mailto?|mail):([^"?]+)', main, re.I)
+    action_match = re.search(r'<div class="block:producer::actions">(.*?)</div>', main, re.I | re.S)
+    action_html = action_match.group(1) if action_match else ""
+    links = re.findall(r'href="(https?://[^" ]+)"', action_html, re.I)
+    website, facebook, instagram, tiktok = split_public_links(links, "flfarmtoyou.com")
+    confirmed = farm_operation_signal(name, description, products)
+    url = card["url"]
+    row = empty_observation(state, source_name, url.rstrip("/").rsplit("/", 1)[-1], name, url, 1, "B")
+    row.update({
+        "entity_type_source": "Florida Farm to You producer",
+        "entity_type_review": "farm_activity_confirmed_by_current_official_profile" if confirmed else "official_producer_profile_requires_farm_operation_review",
+        "city": city,
+        "postal_code": postal,
+        "address": address,
+        "location_precision": "official_directory_public_business_address_or_city" if (address or city) else "official_profile_no_public_location",
+        "phone": clean_text(phone_match.group(1)) if phone_match else "",
+        "email": clean_text(email_match.group(1)) if email_match else "",
+        "products": products or (description[:700] if confirmed else ""),
+        "business_types": "Florida producer profile",
+        "website_url": website,
+        "facebook_url": facebook,
+        "instagram_url": instagram,
+        "tiktok_url": tiktok,
+        "on_farm_sales": bool(re.search(r"direct to consumer|farm stand|u-pick|pick your own", f"{service_html} {description}", re.I)),
+        "online_sales": bool(action_html),
+        "u_pick": bool(re.search(r"u-pick|pick your own", f"{products} {description}", re.I)),
+        "notes": description[:1500],
+    })
+    return Observation(**row), {
+        "url": url,
+        "name": name,
+        "description": description,
+        "products": products,
+        "address": address,
+        "city": city,
+        "postal_code": postal,
+        "profile_available": bool(name_match),
+    }
+
+
+def florida_farm_to_you(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = config["official_aggregate_name"]
+    first_body, first_log = fetch(config["official_directory"])
+    pages = max([1] + [int(value) for value in re.findall(r'/producer/page/(\d+)/', first_body)])
+    page_bodies: dict[int, str] = {1: first_body}
+    page_logs: dict[int, dict[str, Any]] = {1: first_log}
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        futures = {
+            executor.submit(fetch, f"{config['official_directory']}page/{page}/"): page
+            for page in range(2, pages + 1)
+        }
+        for future in as_completed(futures):
+            page = futures[future]
+            try:
+                page_bodies[page], page_logs[page] = future.result()
+            except Exception as exc:
+                page_bodies[page], page_logs[page] = "", {"url": config["official_directory"], "error": str(exc), "attempts_used": 0}
+    cards: dict[str, dict[str, str]] = {}
+    logs: list[dict[str, Any]] = []
+    page_counts: dict[int, int] = {}
+    for page in range(1, pages + 1):
+        found = florida_producer_cards(page_bodies.get(page, ""))
+        page_counts[page] = len(found)
+        for card in found:
+            cards.setdefault(card["url"], card)
+        logs.append(logged(page_logs[page], 1, f"{source_name} — directory page", len(found), "request_component", f"Page {page} of {pages}"))
+    observations: list[Observation] = []
+    profiles: list[dict[str, Any]] = []
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        futures = {executor.submit(fetch, url): card for url, card in cards.items()}
+        for future in as_completed(futures):
+            card = futures[future]
+            try:
+                body, request_log = future.result()
+            except Exception as exc:
+                body, request_log = "", {"url": card["url"], "error": str(exc), "attempts_used": 0}
+            observation, profile = florida_farm_to_you_profile(state, config, card, body)
+            if not body:
+                observation.notes = "Official profile unavailable after retries; named archive card retained with missing fields in QA."
+                profile["official_card_fallback"] = True
+            observations.append(observation); profiles.append(profile)
+            logs.append(logged(request_log, 1, f"{source_name} — profile request", int(bool(body)), "request_component"))
+    aggregate = logged(
+        first_log,
+        1,
+        source_name,
+        len(observations),
+        "observations_retained",
+        f"Traversed {pages} live archive pages and retained {len(cards)} unique named producer profiles.",
+    )
+    nonfinal = [page for page in range(1, pages) if page_counts.get(page) != 9]
+    if nonfinal or not 1 <= page_counts.get(pages, 0) <= 9 or len(observations) != len(cards):
+        aggregate["error"] = (
+            f"Expected nine records on nonfinal pages; incomplete {nonfinal}; final {page_counts.get(pages, 0)}; "
+            f"unique profiles {len(cards)}; retained {len(observations)}"
+        )
+    logs.append(aggregate)
+    return observations, logs, {"florida_farm_to_you_profiles": profiles, "florida_farm_to_you_page_counts": page_counts}
+
+
+def florida_fdacs_lists(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    observations: list[Observation] = []
+    logs: list[dict[str, Any]] = []
+    raw: dict[str, Any] = {}
+
+    upick_name = "Florida Department of Agriculture and Consumer Services — U-pick farm locator"
+    upick_body, upick_log = fetch(config["fdacs_upick"])
+    upick_data = next_page_data(upick_body)
+    children = upick_data.get("childrenInfos") if isinstance(upick_data.get("childrenInfos"), list) else []
+    cards = {
+        clean_url(item.get("props", {}).get("url")): {
+            "url": clean_url(item.get("props", {}).get("url")),
+            "name": clean_text(item.get("props", {}).get("name")),
+            "content_id": clean_text(item.get("contentId")),
+        }
+        for item in children
+        if clean_url(item.get("props", {}).get("url")) and clean_text(item.get("props", {}).get("name"))
+    }
+    upick_profiles: list[dict[str, Any]] = []
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        futures = {executor.submit(fetch, url): card for url, card in cards.items()}
+        for future in as_completed(futures):
+            card = futures[future]
+            try:
+                body, request_log = future.result()
+            except Exception as exc:
+                body, request_log = "", {"url": card["url"], "error": str(exc), "attempts_used": 0}
+            page = next_page_data(body).get("pageData", {}) if body else {}
+            name = clean_text(page.get("locationName") or page.get("_name") or card["name"])
+            website, facebook, instagram, tiktok = split_public_links([clean_text(page.get("website"))], "fdacs.gov")
+            row = empty_observation(state, upick_name, card["content_id"] or card["url"], name, card["url"], 2, "B")
+            row.update({
+                "entity_type_source": "FDACS-listed U-pick farm",
+                "entity_type_review": "farm_activity_confirmed_by_current_official_u_pick_list",
+                "county": normalized_county(page.get("county", "")),
+                "county_source": card["url"] if page.get("county") else "",
+                "city": normalized_city(page.get("city", "")),
+                "postal_code": clean_text(page.get("zip")),
+                "address": clean_text(page.get("address")),
+                "latitude": page.get("geolocation", {}).get("latitude") if isinstance(page.get("geolocation"), dict) else None,
+                "longitude": page.get("geolocation", {}).get("longitude") if isinstance(page.get("geolocation"), dict) else None,
+                "location_precision": "official_directory_public_business_address_or_city",
+                "phone": clean_text(page.get("phone")),
+                "email": clean_text(page.get("email")),
+                "products": "U-pick crops; agritourism",
+                "business_types": "FDACS U-pick farm",
+                "website_url": website,
+                "facebook_url": facebook,
+                "instagram_url": instagram,
+                "tiktok_url": tiktok,
+                "on_farm_sales": True,
+                "u_pick": True,
+                "notes": strip_tags(page.get("additionalInformation", {}).get("html5", ""))[:1500] if isinstance(page.get("additionalInformation"), dict) else "",
+            })
+            observations.append(Observation(**row))
+            upick_profiles.append({"url": card["url"], "name": name, "page_data": page})
+            logs.append(logged(request_log, 2, f"{upick_name} — profile request", int(bool(page)), "request_component"))
+    upick_aggregate = logged(
+        upick_log,
+        2,
+        upick_name,
+        len(cards),
+        "observations_retained",
+        f"The live FDACS page exposed {len(children)} child profiles; every unique named profile was retained.",
+    )
+    if len(children) != len(cards) or sum(item.source_name == upick_name for item in observations) != len(cards):
+        upick_aggregate["error"] = f"FDACS children {len(children)}; unique named profiles {len(cards)}; retained {sum(item.source_name == upick_name for item in observations)}"
+    logs.append(upick_aggregate); raw["fdacs_u_pick_profiles"] = upick_profiles
+
+    csa_name = "Florida Department of Agriculture and Consumer Services — CSA locator"
+    csa_body, csa_log = fetch(config["fdacs_csa"])
+    csa_page = next_page_data(csa_body).get("pageData", {})
+    description = csa_page.get("description", {}).get("html5", "") if isinstance(csa_page.get("description"), dict) else ""
+    headings = list(re.finditer(r'<h3[^>]*>(.*?)</h3>\s*<ul[^>]*>(.*?)</ul>', description, re.I | re.S))
+    csa_records: list[dict[str, Any]] = []
+    for heading in headings:
+        county = normalized_county(strip_tags(heading.group(1)))
+        for item_html in re.findall(r'<li[^>]*>(.*?)</li>', heading.group(2), re.I | re.S):
+            text_value = strip_tags(item_html)
+            link_match = re.search(r'<a href="([^"]+)"[^>]*>(.*?)</a>', item_html, re.I | re.S)
+            name = strip_tags(link_match.group(2)) if link_match else text_value.split(",", 1)[0]
+            rest = text_value[len(name):].lstrip(" ,")
+            phone_match = re.search(r'(?<!\d)(?:\+?1[-. ]?)?\(?\d{3}\)?[-./ ]\d{3}[-./ ]\d{4}(?!\d)', text_value)
+            city = rest.split(",", 1)[0].strip() if rest else ""
+            link = clean_url(link_match.group(1)) if link_match else ""
+            website, facebook, instagram, tiktok = split_public_links([link], "fdacs.gov")
+            row = empty_observation(state, csa_name, f"{slug(county)}-{len(csa_records) + 1}", name, config["fdacs_csa"], 2, "B")
+            row.update({
+                "entity_type_source": "FDACS-listed community-supported agriculture operation",
+                "entity_type_review": "farm_activity_confirmed_by_current_official_csa_list",
+                "county": county,
+                "county_source": config["fdacs_csa"],
+                "city": normalized_city(city),
+                "location_precision": "official_directory_county_and_city",
+                "phone": phone_match.group(0) if phone_match else "",
+                "products": "Community-supported agriculture farm share",
+                "business_types": "CSA; direct-to-consumer farm",
+                "website_url": website,
+                "facebook_url": facebook,
+                "instagram_url": instagram,
+                "tiktok_url": tiktok,
+                "on_farm_sales": True,
+                "notes": text_value[:1500],
+            })
+            observations.append(Observation(**row)); csa_records.append({"name": name, "county": county, "city": city, "text": text_value, "link": link})
+    logs.append(logged(csa_log, 2, csa_name, len(csa_records), "observations_retained", "Every named row under the live county headings was retained."))
+    raw["fdacs_csa_records"] = csa_records
+    return observations, logs, raw
+
+
+def us_farm_trail_records(state: str, config: dict[str, Any]) -> tuple[list[Observation], list[dict[str, Any]], dict[str, Any]]:
+    source_name = f"US Farm Trail — {config['name']} discovery export"
+    state_body, state_log = fetch(config["us_farm_trail"])
+    geo_body, geo_log = fetch(config["us_farm_trail_geojson"])
+    advertised_match = re.search(r'([\d,]+) farms selling direct to consumers', strip_tags(state_body), re.I)
+    advertised = int(advertised_match.group(1).replace(",", "")) if advertised_match else 0
+    try:
+        features = json.loads(geo_body).get("features", [])
+    except json.JSONDecodeError:
+        features = []
+    rows: dict[str, dict[str, Any]] = {}
+    for feature in features:
+        props = feature.get("properties") if isinstance(feature.get("properties"), dict) else {}
+        geometry = feature.get("geometry") if isinstance(feature.get("geometry"), dict) else {}
+        slug_value = clean_text(props.get("slug"))
+        if slug_value and clean_text(props.get("name")):
+            rows[slug_value] = {"properties": props, "coordinates": geometry.get("coordinates", [])}
+    # The public state card list can expose named records without coordinates,
+    # which the map GeoJSON omits. Preserve those names as missing-location QA.
+    for match in re.finditer(r'<a[^>]*href="/farms/([^"?#]+)"[^>]*>\s*<h3[^>]*>(.*?)</h3>\s*<p[^>]*>(.*?)</p>', state_body, re.I | re.S):
+        slug_value, name, city = match.group(1), strip_tags(match.group(2)), strip_tags(match.group(3))
+        rows.setdefault(slug_value, {"properties": {"id": slug_value, "slug": slug_value, "name": name, "city": city, "types": "", "verified": False}, "coordinates": []})
+    confirmed_types = {
+        "produce", "farm-stand", "organic", "u-pick", "csa", "honey", "meat", "livestock",
+        "nursery", "pumpkin-patch", "poultry", "eggs", "orchard", "dairy", "corn-maze", "christmas-trees",
+    }
+    observations: list[Observation] = []
+    raw_rows: list[dict[str, Any]] = []
+    for slug_value, value in sorted(rows.items()):
+        props = value["properties"]; coordinates = value["coordinates"]
+        types = {clean_text(item) for item in clean_text(props.get("types")).split(",") if clean_text(item)}
+        name = clean_text(props.get("name")); city = normalized_city(props.get("city", ""))
+        confirmed = bool(types & confirmed_types) or farm_operation_signal(name, "", "; ".join(types))
+        url = f"https://www.usfarmtrail.com/farms/{slug_value}"
+        row = empty_observation(state, source_name, clean_text(props.get("id")) or slug_value, name, url, 3, "C" if props.get("verified") else "E")
+        row.update({
+            "entity_type_source": "US Farm Trail directory record",
+            "entity_type_review": "farm_activity_confirmed_by_directory_type" if confirmed else "discovery_directory_record_requires_farm_operation_review",
+            "city": city,
+            "latitude": float(coordinates[1]) if isinstance(coordinates, list) and len(coordinates) >= 2 else None,
+            "longitude": float(coordinates[0]) if isinstance(coordinates, list) and len(coordinates) >= 2 else None,
+            "location_precision": "directory_coordinate_and_city" if len(coordinates) >= 2 else "directory_city_or_missing_location",
+            "products": "; ".join(sorted(types)),
+            "business_types": "US Farm Trail discovery record",
+            "on_farm_sales": "farm-stand" in types,
+            "u_pick": "u-pick" in types,
+            "notes": "Directory states that most listings are compiled from public sources; unverified records require corroboration." if not props.get("verified") else "Directory record is marked verified by the listing manager.",
+        })
+        observations.append(Observation(**row)); raw_rows.append({"slug": slug_value, **value})
+    aggregate = logged(
+        geo_log,
+        3,
+        source_name,
+        len(observations),
+        "observations_retained",
+        f"State headline advertised {advertised}; GeoJSON exposed {len(features)} coordinate-bearing records and visible state cards added {len(rows) - len(features)} name-only records. One headline-count record was not publicly enumerable and remains a documented source limitation.",
+    )
+    if not features or len(observations) < len(features):
+        aggregate["error"] = f"GeoJSON features {len(features)}; retained {len(observations)}"
+    return observations, [logged(state_log, 3, f"{source_name} — state index", advertised, "request_component"), aggregate], {"us_farm_trail_records": raw_rows, "us_farm_trail_advertised": advertised}
+
+
 def picktn_profile_observation(
     state: str,
     config: dict[str, Any],
@@ -1268,7 +1617,35 @@ def pyo_records(state: str, config: dict[str, Any]) -> tuple[list[Observation], 
     observations: list[Observation] = []
     logs: list[dict[str, Any]] = []
     raw: dict[str, Any] = {}
-    for region, url in config["pyo_regions"].items():
+    regions = config.get("pyo_regions", {})
+    if config.get("pyo_discover_regions"):
+        index_body, index_log = fetch(config["pyo_index"])
+        section_match = re.search(
+            rf'{re.escape(config["name"])} U-Pick Farms and Orchards</h2>(.*?)(?:<h2\b|<area\b)',
+            index_body,
+            re.I | re.S,
+        )
+        section = section_match.group(1) if section_match else ""
+        discovered: dict[str, str] = {}
+        for href, label in re.findall(
+            rf'<a\s+href\s*=\s*["\']?((?:https://www\.pickyourown\.org/)?{state}[^"\' >]+\.htm)["\']?[^>]*>(.*?)</a>',
+            section,
+            re.I | re.S,
+        ):
+            url = urllib.parse.urljoin(config["pyo_index"], html.unescape(href))
+            name = strip_tags(label) or url.rsplit("/", 1)[-1].removesuffix(".htm")
+            discovered[name] = url
+        regions = discovered
+        logs.append(logged(
+            index_log,
+            3,
+            f"PickYourOwn — {config['name']} region index",
+            len(regions),
+            "request_component",
+            "Region pages were discovered from the live state index rather than hard-coded.",
+        ))
+        raw["region_index"] = [{"region": name, "url": url} for name, url in regions.items()]
+    for region, url in regions.items():
         body, request_log = fetch(url)
         active = False
         closed_section = False
@@ -1431,8 +1808,19 @@ def apply_place_reference(
                     if matched:
                         item.city = places[matched][0]
         city_key = normalized_name(item.city)
-        if city_key in places and not item.county:
+        if city_key in places and (
+            not item.county
+            or (
+                item.county != places[city_key][1]
+                and "pickyourown.org" in item.county_source.casefold()
+            )
+        ):
             _, county, county_fips = places[city_key]
+            if item.county and item.county != county:
+                item.notes = (
+                    f"Census place reference corrected broad PickYourOwn region county "
+                    f"from {item.county} to {county}. {item.notes}"
+                )[:1500]
             item.county = county
             item.county_fips = county_fips
             item.county_source = CENSUS_PLACE_COUNTY_URL
@@ -1637,6 +2025,7 @@ def fcc_county(state: str, config: dict[str, Any], item: Observation) -> tuple[s
         elif result:
             item.promotion_status = "excluded_outside_jurisdiction"
             error = f"Coordinates resolve outside {config['name']}"
+            item.notes = f"FCC Census geography confirms the source coordinates resolve outside {state}; retained as exclusion evidence. {item.notes}"[:1500]
         elif not error: error = f"No {config['name']} county returned"
     except (json.JSONDecodeError, TypeError):
         if not error: error = "Invalid FCC response"
@@ -1663,7 +2052,11 @@ def census_address_county(state: str, config: dict[str, Any], item: Observation)
 def enrich_geography(state: str, config: dict[str, Any], observations: list[Observation]) -> tuple[list[dict[str, Any]], list[dict[str, str]]]:
     logs: list[dict[str, Any]] = []
     errors: list[dict[str, str]] = []
-    targets = [item for item in observations if not item.county and item.latitude is not None and item.longitude is not None]
+    targets = [
+        item for item in observations
+        if item.promotion_status != "excluded_outside_jurisdiction"
+        and not item.county and item.latitude is not None and item.longitude is not None
+    ]
     with ThreadPoolExecutor(max_workers=14) as executor:
         futures = {executor.submit(fcc_county, state, config, item): item for item in targets}
         for future in as_completed(futures):
@@ -1671,7 +2064,11 @@ def enrich_geography(state: str, config: dict[str, Any], observations: list[Obse
             county, fips, url, request_log = future.result(); logs.append(request_log)
             if county: item.county, item.county_fips, item.county_source = county, fips, url
             else: errors.append({"observation_id": item.observation_id, "farm_name": item.farm_name, "error": request_log.get("error", "County not returned")})
-    address_targets = [item for item in observations if not item.county and item.address and item.city and item.postal_code]
+    address_targets = [
+        item for item in observations
+        if item.promotion_status != "excluded_outside_jurisdiction"
+        and not item.county and item.address and item.city and item.postal_code
+    ]
     with ThreadPoolExecutor(max_workers=10) as executor:
         futures = {executor.submit(census_address_county, state, config, item): item for item in address_targets}
         for future in as_completed(futures):
@@ -1690,6 +2087,26 @@ def read_current_names() -> dict[str, str]:
 def choose(items: list[Observation], field: str) -> Any:
     ordered = sorted(items, key=lambda item: (GRADE_RANK.get(item.evidence_grade, 9), -len(clean_text(getattr(item, field)))))
     return next((getattr(item, field) for item in ordered if getattr(item, field) not in {None, ""}), "")
+
+
+def choose_county(items: list[Observation]) -> str:
+    located = [item for item in items if item.county]
+    def geography_rank(item: Observation) -> int:
+        source = item.county_source.casefold()
+        if "geo.fcc.gov" in source or "census.gov/geocoder" in source:
+            return 0
+        if "census.gov/" in source:
+            return 1
+        return 2
+    ordered = sorted(
+        located,
+        key=lambda item: (
+            geography_rank(item),
+            GRADE_RANK.get(item.evidence_grade, 9),
+            -len(item.county),
+        ),
+    )
+    return ordered[0].county if ordered else ""
 
 
 def unique_values(items: list[Observation], field: str) -> str:
@@ -1721,7 +2138,7 @@ def reconcile(state: str, observations: list[Observation]) -> tuple[list[dict[st
         if conflict and not merge_cross:
             for item in all_items: county_groups[item.county or f"unknown-{item.observation_id}"].append(item)
         else:
-            preferred = choose([item for item in all_items if item.county], "county") if any(item.county for item in all_items) else ""
+            preferred = choose_county(all_items)
             county_groups[preferred or "unknown"].extend(all_items)
         if len(all_items) > 1:
             reviews.append({
@@ -1811,8 +2228,10 @@ def main() -> int:
         adapters = [arkansas_directory, arkansas_extension_farms, eatwild_records, pyo_records]
     elif state == "TN":
         adapters = [tennessee_picktn, tennessee_century_farms, tennessee_agritourism, eatwild_records, pyo_records]
-    else:
+    elif state == "GA":
         adapters = [georgia_grown, georgia_farm_markets, eatwild_records, pyo_records]
+    else:
+        adapters = [florida_farm_to_you, florida_fdacs_lists, eatwild_records, us_farm_trail_records, pyo_records]
     for adapter in adapters:
         found, source_logs, raw = adapter(state, config)
         observations.extend(found); logs.extend(source_logs); raw_sources.update(raw)
