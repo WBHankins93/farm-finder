@@ -45,7 +45,14 @@ from collect_southeast import (  # noqa: E402
     sanitized_email,
     sanitized_phone,
 )
-from assess_pr_scope import stale_state_directories  # noqa: E402
+from assess_pr_scope import (  # noqa: E402
+    QA_INTAKE_CAP,
+    committed_qa_total,
+    new_state_directories,
+    stale_state_directories,
+)
+from qa_triage import route as qa_route  # noqa: E402
+from qa_triage import triage_state  # noqa: E402
 from audit_operation_evidence import dated_active_excerpt  # noqa: E402
 import migrate_state_contract_v2 as migration  # noqa: E402
 import validate_state_releases as validation  # noqa: E402
@@ -280,6 +287,40 @@ class SourceTierPolicyTests(unittest.TestCase):
         )
         self.assertEqual([item.source_name for item in reconciled], ["Candidate directory"])
         self.assertEqual([item.source_name for item in unrepresented], ["Historic registry"])
+
+
+class QaTriageTests(unittest.TestCase):
+    def test_primary_strategy_follows_priority_order(self) -> None:
+        primary, matched = qa_route(
+            "county requires geography review; no public outreach path captured"
+        )
+        self.assertEqual(primary, "geography")
+        self.assertIn("contact_outreach", matched)
+
+    def test_unrecognized_blocker_text_is_unrouted(self) -> None:
+        self.assertEqual(qa_route("mystery condition"), ("unrouted", ["unrouted"]))
+
+    def test_every_committed_qa_row_is_routable(self) -> None:
+        for state_dir in sorted(STATE_ROOT.iterdir()):
+            if not (state_dir / "entities.csv").is_file():
+                continue
+            with self.subTest(state=state_dir.name):
+                result = triage_state(state_dir.name)
+                self.assertEqual(result["unrouted"], 0,
+                                 f"{state_dir.name} has unrouted QA blocker text")
+
+
+class QaBackpressureTests(unittest.TestCase):
+    def test_new_state_detection_uses_merge_base_tree(self) -> None:
+        def runner(*args: str) -> str:
+            return "" if args[-1].endswith("/NE") else "research/state-expansions/AL\n"
+        self.assertEqual(new_state_directories("mb", {"NE", "AL"}, runner), ["NE"])
+
+    def test_committed_qa_total_excludes_the_new_state(self) -> None:
+        total = committed_qa_total()
+        without_nc = committed_qa_total(exclude={"NC"})
+        self.assertGreater(total, without_nc)
+        self.assertGreater(QA_INTAKE_CAP, 0)
 
 
 class PrScopeFreshnessTests(unittest.TestCase):
