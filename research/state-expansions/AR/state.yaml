@@ -173,9 +173,9 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "ar-coverage-reviewed-v2-qa-2026-07-17",
+    "id": "ar-coverage-reviewed-v3-qa-2026-07-17",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-17T17:28:32+00:00",
+    "generatedAt": "2026-07-17T19:49:45+00:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
@@ -202,8 +202,8 @@
         "bytes": 2480
       },
       "report.md": {
-        "sha256": "1269a2bd853d99ae3169fdd17b8665e95ac41e9ce7827520d9d2dd7e32ebcd50",
-        "bytes": 3638
+        "sha256": "0b818708b573be0ddb4043200c1bb9bebed778bc15de375c88aee4d445cfea43",
+        "bytes": 4399
       }
     },
     "evidenceStorage": {
