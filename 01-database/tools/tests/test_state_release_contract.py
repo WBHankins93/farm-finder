@@ -178,7 +178,7 @@ class ReferralInputTests(unittest.TestCase):
 
     def test_retroactive_generation_covers_all_current_outside_decisions(self) -> None:
         referrals = referrals_from_committed_decisions()
-        self.assertEqual(len(referrals), 20)
+        self.assertEqual(len(referrals), 52)
         self.assertIn("Ganus Farms", {row["farm_name"] for row in referrals})
         self.assertEqual(
             {row["home_state"] for row in referrals if row["farm_name"] == "Ganus Farms"},

@@ -1,83 +1,71 @@
 # Texas state review report
 
-> Release: `tx-coverage-reviewed-v6-qa-2026-07-15`
+> Release: tx-coverage-reviewed-v6-qa-2026-07-15
 >
 > Contract: national state contract v2
 >
-> Lifecycle: `coverage_reviewed` — not record-verified, approved, or canonical
+> Lifecycle: coverage_reviewed — not record-verified, approved, or canonical
 
 ## Outcome
 
-Texas has completed the documented three-pass discovery process across all 254
-counties. This rebased QA checkpoint retains 835 named candidates:
-769 currently meet staged field and evidence gates, while 66
-remain in research/QA. Production `record_verified` still requires QA to reach zero.
+Texas completed the documented three-pass discovery process across all 254
+counties. This QA checkpoint retains 803 named candidates:
+800 currently meet staged field and evidence gates,
+while 3 remain in research/QA.
 
-The reapplication preserves main's existing append-only history, appends 53
-non-duplicate current QA dispositions, and repairs four duplicate entity groups.
-It adds 13 affirmative exclusions and promotes 31 candidates
-from QA to promotion-eligible review. All original source observations remain
-preserved in immutable evidence.
+The 2026-07-17 batch applied 63 append-only decisions: 32
+affirmative outside-jurisdiction exclusions, 9 geography corrections, and
+22 current-operation corroborations. Three status/current-operation
+rows remain QA because available directory language is an assumption or lacks
+current operating confirmation; no absence-based exclusion was applied.
 
 ## Reconciliation
 
 | Measure | Count |
 |---|---:|
-| Immutable source observations | 1,063 |
-| Retained candidate entities | 835 |
-| Promotion-eligible reviewed entities | 769 |
-| Research/QA entities | 66 |
-| Affirmatively excluded observations | 89 |
-| Effective excluded entity groups | 69 |
-| Append-only decisions | 290 |
+| Immutable source observations | 1063 |
+| Retained candidate entities | 803 |
+| Promotion-eligible reviewed entities | 800 |
+| Research/QA entities | 3 |
+| Affirmatively excluded observations | 121 |
+| Effective excluded entity groups | 101 |
+| Append-only decisions | 357 |
 | Counties reviewed | 254 of 254 |
 | Counties with retained candidates | 178 |
-| Counties searched with none found | 76 |
-| Counties with promotion-eligible candidates | 173 |
+| Counties with promotion-eligible candidates | 176 |
 
-Retained entity observation counts plus the 89 affirmatively
-excluded source observations reconcile exactly to all 1063 observations.
-Multiple source observations can support one excluded entity group.
+Retained entity observation counts plus affirmatively excluded source
+observations reconcile to the immutable source total. Named candidates remain
+durable in immutable evidence even when excluded from this state release.
 
 ## QA profile
 
-The 66 QA entities remain in `entities.csv`. Blockers overlap:
+The 3 QA entities remain in entities.csv:
 
 | Blocker | Entities |
 |---|---:|
-| County-equivalent missing | 41 |
-| Single grade-E discovery listing needs corroboration | 21 |
-| City or safe public service area missing | 41 |
-| Member/vendor candidate needs independent farm-operation evidence | 11 |
+| Current first-party operating-status or affirmative closure evidence missing | 3 |
 
-Missing geography, contact detail, or current corroboration does not imply that a
-farm is invalid or closed. The correct follow-up is enrichment from farm-owned,
-official, or independently corroborating sources.
+The unresolved rows are Universal Farms, Upicberries, and Shoestring Cattle
+Co.; their directory pages explicitly lack affirmative current closure or
+operating confirmation. They remain QA under the non-deletion policy.
 
-## Reapplied actions
+## Applied actions
 
-- Preserved main's existing affirmative exclusions and promotions; stale branch
-  retain decisions that would regress current main were not reintroduced.
-- Added current evidence-backed exclusions for non-farm channels, processors,
-  distributors, and confirmed closures, with each new decision superseding the
-  prior current disposition for that candidate.
-- Promoted current farms with new geography or farm-operation corroboration,
-  including Rio Fresh, Buena Tierra, Mid-Valley Ag, and Texas Tribal Buffalo
-  Project.
-- Consolidated Rio Fresh, South Tex Organics, Barnard Beef, and Val Verde
-  duplicate labels while retaining all source observation IDs.
-- Reflected curator verification for Davis 20 Beef as a second observation;
-  its entity row now has `obs=2` and evidence grades `C; E`.
+- Excluded 32 current profiles whose cited current locations are outside Texas,
+  each with outside_jurisdiction evidence.
+- Corrected 9 Texas city/county records using current operation or authoritative
+  local-food sources.
+- Corroborated 22 current Texas operations, including farm, orchard, dairy,
+  produce, and ranch operations, and cleared their QA blockers.
+- Ran resolve_geography.py and corroboration_assistant.py before the row-by-row
+  review; no automatic geography proposal was accepted and the assistant
+  produced no accepted proposal in this batch.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the remaining 66 QA candidates through
-   append-only review; the interim task checkpoint is 50 or fewer.
-2. For canon-level `record_verified`, reduce the QA count to zero.
-3. Copy the immutable evidence objects to managed production storage.
-4. Re-run validation and bind owner approval to the resulting release fingerprint.
-5. Promote Texas atomically in a separate canonical-release change.
-
-## Judgment-only QA residue — 2026-07-17
-
-This append-only batch added **4** evidence decisions and made no exclusions. The current contract counts are **835 entities**, **769 promotion-eligible reviewed**, and **66 research/QA**. The remaining judgment-only residue is **2** rows: **0** canonical-baseline research items and **2** unresolved status cases without affirmative current closure evidence. Missing evidence remains a routed research blocker.
+1. Resolve the three remaining rows with current first-party operating-status
+   evidence or affirmative cited closure evidence.
+2. After QA reaches zero, update lifecycle to record_verified.
+3. Managed evidence copy, approval, and canonical promotion remain separate
+   gates.

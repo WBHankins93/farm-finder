@@ -393,35 +393,35 @@
   "release": {
     "id": "tx-coverage-reviewed-v6-qa-2026-07-15",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-15T23:59:00-05:00",
+    "generatedAt": "2026-07-17T17:30:00-05:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
       "sourceObservations": 1063,
-      "proposedEntities": 835,
-      "promotionEligibleEntities": 769,
-      "researchOrQaEntities": 66,
-      "excludedObservations": 89,
-      "excludedEntityGroups": 69,
+      "proposedEntities": 803,
+      "promotionEligibleEntities": 800,
+      "researchOrQaEntities": 3,
+      "excludedObservations": 121,
+      "excludedEntityGroups": 101,
       "identityReviewGroups": 113,
       "countyCoverageRows": 254,
       "countiesWithCandidates": 178,
-      "countiesWithEligibleEntities": 173,
+      "countiesWithEligibleEntities": 176,
       "sourceDatasets": 29,
-      "manualDecisions": 294
+      "manualDecisions": 357
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "4ed031fcff9ff7324f465a3fbaa403b0ee02e4c6f5b39c4b1f03826ad64fe7bc",
-        "bytes": 679894
+        "sha256": "06cd2b1251977c956edfb39adb7c4712193eec042261802a0aeaca891976ea39",
+        "bytes": 651614
       },
       "decisions.csv": {
-        "sha256": "c18d011b567976879b438c53590c530d0b26074f12dd3fe4cec25771d18a0fe4",
-        "bytes": 170248
+        "sha256": "f7748f87ffe4fa951b1ca6437a2006c89ec03e291da1afbd00b50bd1f7b60ebf",
+        "bytes": 208866
       },
       "report.md": {
-        "sha256": "645031bfa6553993132baa87aedf07bcd67bb78134b2e48b6fbbf99edb3b3ed8",
-        "bytes": 3824
+        "sha256": "a23d32ef6333cd96ce3d85ae266b4ab110a768387f99ef8c9681215b8a88411c",
+        "bytes": 2752
       }
     },
     "evidenceStorage": {
