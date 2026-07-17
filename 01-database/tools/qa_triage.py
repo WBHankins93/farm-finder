@@ -36,7 +36,7 @@ STRATEGIES: list[tuple[str, re.Pattern[str]]] = [
         r"production scope|farm-production evidence|"
         r"products or farm activity missing|confirm farm or agricultural-producer", re.I)),
     ("baseline", re.compile(r"baseline farm not rediscovered", re.I)),
-    ("identity", re.compile(r"same normalized name|identity", re.I)),
+    ("identity", re.compile(r"same normalized name|identity|contact conflict", re.I)),
     ("status_conflict", re.compile(r"operating status|closure|closed", re.I)),
     ("contact_outreach", re.compile(r"no public outreach path", re.I)),
 ]
