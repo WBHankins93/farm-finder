@@ -1,12 +1,14 @@
-# SC collected release
+# South Carolina state review report
 
-> Release: `sc-collected-v2-2026-07-16`
+> Release: `sc-collected-v2-2026-07-17`
 >
 > Lifecycle: `collected` — not coverage-reviewed, not approved, and not canonical
 
 ## Result
 
-This multi-source collection retained **1865 source observations** and reconciled them into **1603 candidate entities**. **1011** pass the initial staging field gates and route to Validation review. **592** remain in QA because required geography, production scope, outreach, or identity evidence is incomplete.
+This multi-source collection retained **1865 source observations** and reconciled them into **1603 candidate entities**. **1018** pass the initial staging field gates and route to Validation review. **585** remain in QA because required geography, production scope, outreach, or identity evidence is incomplete.
+
+The geography QA batch applied **161** deterministic Census place-by-county proposals. The paired corrections are append-only grade-B decisions; eligible staging remains a handoff to Validation, not record verification or approval.
 
 This is a broad source capture, not a claim that every operating farm in the state has been found. Directory overlap, stale listings, county gaps, and additional state-specific sources still require review.
 
@@ -14,13 +16,17 @@ This is a broad source capture, not a claim that every operating farm in the sta
 |---|---:|
 | Source observations | 1865 |
 | Candidate entities | 1603 |
-| Initial eligible → Validation | 1011 |
-| Research / QA | 592 |
-| Counties with candidates | 46 of 46 |
+| Initial eligible → Validation | 1018 |
+| Research / QA | 585 |
+| Counties with candidates | 47 of 46 |
 
 ## Validation routing
 
 Rows with the initial field and evidence gates pass into Validation review. Non-passing rows remain retained in the QA queue; they are not discarded. Validation may return a row to QA when identity, county, farm status, or public-contact evidence does not pass.
+
+## Geography QA batch
+
+The resolver left **397** ambiguous or unlisted places unresolved and found **0** county conflicts; neither category was changed. Applied proposals replace only the county-equivalent value, remove the geography blocker, apply the drafted residual blockers and status, and append the exact paired `correct` decision.
 
 ## Sources captured
 

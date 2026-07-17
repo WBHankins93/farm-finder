@@ -130,7 +130,7 @@
     ],
     "coverage": {
       "countyEquivalentsReviewed": 46,
-      "countyEquivalentsWithCandidates": 46,
+      "countyEquivalentsWithCandidates": 47,
       "countyEquivalentsWithEligibleEntities": 46,
       "unresolvedCountyEquivalents": [],
       "notes": "Captured source pools are retained; queued sources, county gaps, and record-level validation remain open."
@@ -146,37 +146,37 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "sc-collected-v2-2026-07-16",
+    "id": "sc-collected-v2-2026-07-17",
     "status": "collected",
-    "generatedAt": "2026-07-16T19:59:45+00:00",
+    "generatedAt": "2026-07-17T03:34:00.954692+00:00",
     "promotionReady": false,
     "promotionBlockReason": "Independent source passes, record validation, managed evidence copy, and approval remain outstanding.",
     "counts": {
       "sourceObservations": 1865,
       "proposedEntities": 1603,
-      "promotionEligibleEntities": 1011,
-      "researchOrQaEntities": 592,
+      "promotionEligibleEntities": 1018,
+      "researchOrQaEntities": 585,
       "excludedObservations": 0,
       "excludedEntityGroups": 0,
       "identityReviewGroups": 1603,
       "countyCoverageRows": 46,
-      "countiesWithCandidates": 46,
+      "countiesWithCandidates": 47,
       "countiesWithEligibleEntities": 46,
       "sourceDatasets": 8,
-      "manualDecisions": 0
+      "manualDecisions": 161
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "9ea75db96d555a0a60a1d7bd637914c980941a3b2ea42682736af12b447c138b",
-        "bytes": 1501698
+        "sha256": "a4818a1264e980a4a814abffd5e7382c4a61670336fb671e0517f59e3069f3ee",
+        "bytes": 1497551
       },
       "decisions.csv": {
-        "sha256": "757312f42b17ad8921a7a2f3201d2ae839721c3d10f894f71ce4c042439b4a85",
-        "bytes": 261
+        "sha256": "10a7e1cfaff2050285d98968b216bad2e9bd5a6b0a49c132165121d7583f5b1f",
+        "bytes": 89386
       },
       "report.md": {
-        "sha256": "fdc3e6e71f0b777d0efa052e9f78be36b2005068e56dd61362490304d7528a40",
-        "bytes": 1498
+        "sha256": "e72e5d6e879c68055c813208fc91b736a75c741022fec2ebf87df4e5578775bb",
+        "bytes": 2085
       }
     },
     "evidenceStorage": {
