@@ -10,7 +10,7 @@
 
 Texas has completed the documented three-pass discovery process across all 254
 counties. This rebased QA checkpoint retains 835 named candidates:
-767 currently meet staged field and evidence gates, while 68
+769 currently meet staged field and evidence gates, while 66
 remain in research/QA. Production `record_verified` still requires QA to reach zero.
 
 The reapplication preserves main's existing append-only history, appends 53
@@ -25,8 +25,8 @@ preserved in immutable evidence.
 |---|---:|
 | Immutable source observations | 1,063 |
 | Retained candidate entities | 835 |
-| Promotion-eligible reviewed entities | 767 |
-| Research/QA entities | 68 |
+| Promotion-eligible reviewed entities | 769 |
+| Research/QA entities | 66 |
 | Affirmatively excluded observations | 89 |
 | Effective excluded entity groups | 69 |
 | Append-only decisions | 290 |
@@ -41,7 +41,7 @@ Multiple source observations can support one excluded entity group.
 
 ## QA profile
 
-The 68 QA entities remain in `entities.csv`. Blockers overlap:
+The 66 QA entities remain in `entities.csv`. Blockers overlap:
 
 | Blocker | Entities |
 |---|---:|
@@ -71,9 +71,13 @@ official, or independently corroborating sources.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the remaining 68 QA candidates through
+1. Resolve or deliberately retain the remaining 66 QA candidates through
    append-only review; the interim task checkpoint is 50 or fewer.
 2. For canon-level `record_verified`, reduce the QA count to zero.
 3. Copy the immutable evidence objects to managed production storage.
 4. Re-run validation and bind owner approval to the resulting release fingerprint.
 5. Promote Texas atomically in a separate canonical-release change.
+
+## Judgment-only QA residue — 2026-07-17
+
+This append-only batch added **4** evidence decisions and made no exclusions. The current contract counts are **835 entities**, **769 promotion-eligible reviewed**, and **66 research/QA**. The remaining judgment-only residue is **2** rows: **0** canonical-baseline research items and **2** unresolved status cases without affirmative current closure evidence. Missing evidence remains a routed research blocker.
