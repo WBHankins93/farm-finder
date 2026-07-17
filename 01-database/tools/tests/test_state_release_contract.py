@@ -28,6 +28,7 @@ from collect_alabama import Observation  # noqa: E402
 from collect_southeast import (  # noqa: E402
     STATE_CONFIG,
     apply_place_reference,
+    apply_source_tier_policy,
     choose_county,
     empty_observation,
     farm_operation_signal,
@@ -40,6 +41,7 @@ from collect_southeast import (  # noqa: E402
     next_page_data,
     normalized_county,
     nursery_column_records,
+    reconcile,
     sanitized_email,
     sanitized_phone,
 )
@@ -148,6 +150,48 @@ class SourceTierPolicyTests(unittest.TestCase):
     def test_legacy_untiered_sources_warn_not_error(self) -> None:
         invalid, untiered = source_tier_issues([{"sourceId": "a"}])
         self.assertEqual((invalid, untiered), ([], ["a"]))
+
+    @staticmethod
+    def observation(source_name: str, farm_name: str = "Hint Farm", source_pass: int = 2) -> Observation:
+        row = empty_observation(
+            "TN", source_name, farm_name, farm_name, "https://example.test", source_pass, "B"
+        )
+        return Observation(**row)
+
+    def test_identity_hint_attaches_to_candidate_without_becoming_a_new_entity(self) -> None:
+        candidate = self.observation("Candidate directory")
+        hint = self.observation("Historic registry")
+        reconciled, unrepresented = apply_source_tier_policy(
+            [candidate, hint],
+            {"Candidate directory": "candidate", "Historic registry": "identity_hint"},
+        )
+        entities, _, qa = reconcile("TN", reconciled)
+        self.assertEqual(len(unrepresented), 0)
+        self.assertEqual(len(entities), 1)
+        self.assertEqual(entities[0]["source_observation_count"], 2)
+        self.assertEqual(len(qa), 1)
+
+    def test_unmatched_identity_hint_is_preserved_but_creates_no_entity_or_qa(self) -> None:
+        hint = self.observation("Historic registry", "Historic-only farm")
+        reconciled, unrepresented = apply_source_tier_policy(
+            [hint], {"Historic registry": "identity_hint"}
+        )
+        entities, _, qa = reconcile("TN", reconciled)
+        self.assertEqual(len(reconciled) + len(unrepresented), 1)
+        self.assertEqual(unrepresented[0].observation_id, hint.observation_id)
+        self.assertEqual((entities, qa), ([], []))
+
+    def test_same_name_in_a_different_county_does_not_attach_identity_hint(self) -> None:
+        candidate = self.observation("Candidate directory", "Same Farm")
+        candidate.county = "Candidate County"
+        hint = self.observation("Historic registry", "Same Farm")
+        hint.county = "Different County"
+        reconciled, unrepresented = apply_source_tier_policy(
+            [candidate, hint],
+            {"Candidate directory": "candidate", "Historic registry": "identity_hint"},
+        )
+        self.assertEqual([item.source_name for item in reconciled], ["Candidate directory"])
+        self.assertEqual([item.source_name for item in unrepresented], ["Historic registry"])
 
 
 class PrScopeFreshnessTests(unittest.TestCase):
