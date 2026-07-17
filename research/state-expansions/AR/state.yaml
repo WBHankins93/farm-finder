@@ -173,16 +173,16 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "ar-coverage-reviewed-v1-2026-07-15",
+    "id": "ar-coverage-reviewed-v2-qa-2026-07-17",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-16T00:10:09.229428+00:00",
+    "generatedAt": "2026-07-17T17:28:32+00:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
-      "sourceObservations": 871,
+      "sourceObservations": 875,
       "proposedEntities": 766,
-      "promotionEligibleEntities": 524,
-      "researchOrQaEntities": 242,
+      "promotionEligibleEntities": 528,
+      "researchOrQaEntities": 238,
       "excludedObservations": 65,
       "excludedEntityGroups": 0,
       "identityReviewGroups": 38,
@@ -190,20 +190,20 @@
       "countiesWithCandidates": 75,
       "countiesWithEligibleEntities": 67,
       "sourceDatasets": 11,
-      "manualDecisions": 0
+      "manualDecisions": 4
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "fd840657d244d72d0fd60268f55c6a196264a2057d5aa350dd875e6c01e89463",
-        "bytes": 653570
+        "sha256": "5e5ebc02053b1ac568caeabc13458928b47239c0cbaa4fbbe1857b8e483845f9",
+        "bytes": 654313
       },
       "decisions.csv": {
-        "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
-        "bytes": 260
+        "sha256": "6da14c3a2b6a8143603fccc25fc074118152489f6589763f984645132a90026b",
+        "bytes": 2480
       },
       "report.md": {
-        "sha256": "963e5e75a96cebe230af64fbe43d3c50dd71af04b07589c8ce630665270e6727",
-        "bytes": 2079
+        "sha256": "1269a2bd853d99ae3169fdd17b8665e95ac41e9ce7827520d9d2dd7e32ebcd50",
+        "bytes": 3638
       }
     },
     "evidenceStorage": {
@@ -222,7 +222,7 @@
         "objectKey": "state-expansions/AR/ar-coverage-reviewed-v1-2026-07-15/observations.csv.zst",
         "sha256": "f9107ef1c896740fe72956935ae01b70b173c1aac49156753f6f20c7bb299f31",
         "bytes": 212830,
-        "rows": 871,
+        "rows": 875,
         "contentType": "application/zstd",
         "visibility": "private",
         "versionId": "local:f9107ef1c896740fe7295693"
