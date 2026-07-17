@@ -1,6 +1,6 @@
 # Florida state review report
 
-> Release: `fl-coverage-reviewed-v1-2026-07-15`
+> Release: `fl-coverage-reviewed-v2-qa-2026-07-17`
 >
 > Contract: national state contract v2
 >
@@ -9,18 +9,25 @@
 ## Outcome
 
 The three documented collection passes retained **1,515 named candidates** from
-**2,049 immutable observations**. **205** currently meet staged
-field and evidence gates; **1,310** remain in explicit research/QA. Missing data never
+**2,056 immutable observations**. **210** currently meet staged
+field and evidence gates; **1,305** remain in explicit research/QA. Missing data never
 caused deletion or exclusion.
+
+The corroboration QA batch reviewed all **11** assistant proposals, accepted
+**7** farm-owned website observations, and rejected **4** cross-directory
+matches. Five accepted rows cleared all blockers and moved to eligible staging;
+two accepted rows and one conflict-only row remain in QA under named geography
+conflicts. Eligible staging remains a reviewed handoff, not verification,
+approval, or canonical promotion.
 
 ## Reconciliation
 
 | Measure | Count |
 |---|---:|
-| Immutable source observations | 2,049 |
+| Immutable source observations | 2,056 |
 | Retained candidate entities | 1,515 |
-| Promotion-eligible reviewed entities | 205 |
-| Research/QA entities | 1,310 |
+| Promotion-eligible reviewed entities | 210 |
+| Research/QA entities | 1,305 |
 | Affirmatively excluded observations | 2 |
 | Identity review groups | 443 |
 | Counties reviewed | 67 of 67 |
@@ -76,8 +83,9 @@ caused deletion or exclusion.
 | PickYourOwn — Volusia County | 4 |
 | US Farm Trail — Florida discovery export | 1,329 |
 
-The source total above reconciles exactly to **2,049** observations and all
-observation IDs are required to be unique. The statewide coverage denominator contains
+The source total above reconciles exactly to **2,049** collected observations;
+the seven accepted curator observations bring the release total to **2,056**.
+All observation IDs are required to be unique. The statewide coverage denominator contains
 **67** county equivalents. **66**
 have retained candidates; **1** were searched without a retained result
 (Lafayette).
@@ -88,13 +96,37 @@ Blocker counts overlap because one retained entity can require more than one fol
 
 | Blocker | Entities |
 |---|---:|
-| single grade-E discovery listing needs corroboration | 1,206 |
+| single grade-E discovery listing needs corroboration | 1,199 |
 | directory candidate needs independent farm-operation evidence | 459 |
 | city or safe public service area missing | 346 |
 | products or farm activity missing | 246 |
 | source reports closure and requires affirmative curator decision | 63 |
 | county missing | 61 |
 | same normalized name appears in multiple counties | 31 |
+| county requires geography review due cross-directory conflict | 3 |
+
+## Corroboration QA batch
+
+The assistant considered 354 exact-blocker rows and generated 11 proposals for
+9 unique entities, a **2.54% unique-entity hit rate**. Curator review accepted
+7 of 11 proposals (**63.64% proposal acceptance rate**) after checking the
+cited SHA-256 fetch hashes and excerpts.
+
+Accepted website observations: Amazing Grace Crop Maze, Ever After Farms
+U-Pick Peach Farm, Bluebird Family Farm, Jennings Road Farm, Lithia Berry
+Farms, Amber Brooke Farms, and Amazing Grace Family Farms — Home of Amazing
+Grace Crop Maze.
+
+Rejected proposals:
+
+- `coroobs_237319f24ec124ad1928` — both records are PickYourOwn listings, so the second regional page is not an independent source.
+- `coroobs_aa7bbfb9bc4a8907eada` — the cited source names the Blueberry Farm, not the target Peach Farm.
+- `coroobs_25e123d31a7be71ee2c1` — the cited source names Kentner Pond, not the target Duke Field location.
+- `coroobs_860a5d92eef99f055a3e` — the cited source names Kentner Pond, not the target Range Road 212 location.
+
+The five assistant geography conflicts are consolidated onto three target rows
+with routable `county requires geography review` blockers naming every peer;
+no conflict item received a corroborate decision.
 
 ## Source passes
 
@@ -113,7 +145,7 @@ Blocker counts overlap because one retained entity can require more than one fol
 
 ## Promotion blockers
 
-1. Resolve the 1,310 QA candidates through current farm-owned or authoritative evidence.
+1. Resolve the 1,305 QA candidates through current farm-owned or authoritative evidence.
 2. Copy the immutable evidence objects to managed versioned storage.
 3. Record approval against the resulting release fingerprint.
 4. Promote Florida atomically in a separate canonical-release change.
