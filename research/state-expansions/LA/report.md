@@ -9,8 +9,8 @@
 ## Outcome
 
 The three documented collection passes retained **1,200 named candidates** from
-**1,414 immutable observations**. **964** currently meet staged
-field and evidence gates; **236** remain in explicit research/QA. Missing data never
+**1,414 immutable observations**. **993** currently meet staged
+field and evidence gates; **207** remain in explicit research/QA. Missing data never
 caused deletion or exclusion. The observation total includes **220**
 canonical identity anchors that preserve the existing cleaned LA canon without counting it
 as a current collection pass.
@@ -21,8 +21,8 @@ as a current collection pass.
 |---|---:|
 | Immutable source observations | 1,414 |
 | Retained candidate entities | 1,200 |
-| Promotion-eligible reviewed entities | 964 |
-| Research/QA entities | 236 |
+| Promotion-eligible reviewed entities | 993 |
+| Research/QA entities | 207 |
 | Affirmatively excluded observations | 30 |
 | Identity review groups | 152 |
 | Counties reviewed | 64 of 64 |
@@ -118,3 +118,7 @@ recently expired grower certification. The evidence-bounded operating range is t
 
 This is a public-evidence directory count, not the USDA statistical count of every agricultural operation.
 Missing evidence never proves closure, and every collected name remains preserved for follow-up.
+
+## Judgment-only QA residue — 2026-07-17
+
+This append-only batch added **46** evidence decisions and made no exclusions. The current contract counts are **1,200 entities**, **993 promotion-eligible reviewed**, and **207 research/QA**. The remaining judgment-only residue is **17** rows: **17** canonical-baseline research items and **0** status items without affirmative current closure/operation evidence. Missing evidence remains a routed research blocker.
