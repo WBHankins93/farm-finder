@@ -4,13 +4,13 @@
 >
 > Contract: national state contract v2
 >
-> Lifecycle: `coverage_reviewed` — not approved and not canonical
+> Lifecycle: `record_verified` — record-level QA complete; not approved and not canonical
 
 ## Outcome
 
 Alabama has statewide discovery coverage across all 67 counties. This identity
 and type QA revision retains 807 named candidates: 800 currently meet staged
-field and evidence gates, while seven remain visible in the research/QA queue.
+field and evidence gates, and no candidates remain in the research/QA queue.
 Camp Creek Canning and Canning with Cox Crew were affirmatively excluded after
 current evidence identified prepared-food processors rather than independent
 farm operations. Rainbow Omega's earlier exclusion was superseded by stronger
@@ -27,11 +27,11 @@ behavior violates the national retention policy.
 |---|---:|
 | Immutable source observations | 1,057 |
 | Retained candidate entities | 807 |
-| Promotion-eligible reviewed entities | 800 |
-| Research/QA entities | 7 |
+| Promotion-eligible reviewed entities | 807 |
+| Research/QA entities | 0 |
 | Affirmatively excluded observations | 9 |
 | Effective excluded entity groups | 9 |
-| Append-only decisions | 94 |
+| Append-only decisions | 101 |
 | Counties reviewed | 67 of 67 |
 | Counties with retained candidates | 67 |
 | Counties with promotion-eligible candidates | 67 |
@@ -41,20 +41,10 @@ reconcile exactly to all 1,057 observations.
 
 ## Current QA queue
 
-The current release retains seven candidates in QA. Missing, stale, or
-conflicting details remain research work rather than deletion:
-
-| Candidate | County | Follow-up required |
-|---|---|---|
-| Bertie K. Burton | DeKalb | Obtain current corroboration. |
-| Gilbert Strawberry Farm | DeKalb | Obtain independent corroboration. |
-| Vic & Tillie Hummer | Houston | Obtain direct corroboration. |
-| Lone Oak | Jackson | Confirm the county-distinct operation without merging the Macon County operation. |
-| Fresh Off The Farm | Mobile | Obtain direct corroboration. |
-| George R. Carlton | Tallapoosa | Obtain direct operational corroboration. |
-
-All seven remain in `entities.csv`; none is treated as closed merely because a
-website, recent listing, or other field is unavailable.
+The current release has no remaining research/QA candidates. All seven retained
+residue rows were reviewed row-by-row against current 2026 directory or official
+program evidence and received append-only corroboration decisions; no candidate
+was excluded.
 
 ## Append-only QA batch
 
@@ -110,4 +100,9 @@ exclusions remain in decision history but no longer affect the candidate table.
 
 ## Judgment-only QA residue — 2026-07-17
 
-This append-only batch added **2** evidence decisions and made no exclusions. The current contract counts are **807 entities**, **800 promotion-eligible reviewed**, and **7 research/QA**. The remaining judgment-only residue is **0** rows: **0** canonical-baseline research items and **0** status items without affirmative current closure/operation evidence. Missing evidence remains a routed research blocker.
+This QA-zero batch added **7** append-only corroboration decisions and made no exclusions. The current contract counts are **807 entities**, **807 promotion-eligible reviewed**, and **0 research/QA**. The remaining judgment-only residue is **0** rows. Alabama is now `record_verified`; managed evidence storage and explicit approval remain separate promotion gates.
+
+
+## QA-zero batch — 2026-07-17
+
+This ordered QA batch ran triage, the geography resolver (zero applicable rows), and the corroboration assistant before row-by-row review. Current evidence corroborated Deloney Farms, Bertie K. Burton, Gilbert Strawberry Farm, Vic & Tillie Hummer, Fresh Off The Farm, and George R. Carlton through current 2026 directory listings. Lone Oak was corroborated through the current Alabama Farmers Market Authority U-pick record, while the Jackson County entity remained distinct from the Macon County Lone Oak. No exclusions were made.
