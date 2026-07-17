@@ -163,9 +163,9 @@
     "promotionBlockReason": "Independent source passes, record validation, managed evidence copy, and approval remain outstanding.",
     "counts": {
       "sourceObservations": 4377,
-      "proposedEntities": 3417,
+      "proposedEntities": 3415,
       "promotionEligibleEntities": 1139,
-      "researchOrQaEntities": 2278,
+      "researchOrQaEntities": 2276,
       "excludedObservations": 0,
       "excludedEntityGroups": 0,
       "identityReviewGroups": 3417,
@@ -173,20 +173,20 @@
       "countiesWithCandidates": 99,
       "countiesWithEligibleEntities": 96,
       "sourceDatasets": 8,
-      "manualDecisions": 1770
+      "manualDecisions": 1772
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "9f5f7a35ebb2d17462a8709ac8528bd26f01aa8a5db13893df2b7a45fea997b3",
-        "bytes": 3381982
+        "sha256": "56f4fd18951101eac81ac70beb0b5e05dfa96b23535cd69654e6095ff20db40d",
+        "bytes": 3381348
       },
       "decisions.csv": {
-        "sha256": "e21202122c0c41ab9bd221b4b9fcecd88e264fe924ef42b0241c263af7752e1b",
-        "bytes": 1191667
+        "sha256": "0b263c0ceba8ecdf6f3b07fb836342b96904f2caf28961b969e7327d04b2173f",
+        "bytes": 1192802
       },
       "report.md": {
-        "sha256": "702376d08bf7dd02c9d99d77e77e6c4864f76fc6b7041599d22452f94fcb2b21",
-        "bytes": 2266
+        "sha256": "9ffdd180f7235ccfadb96dfa33f4c930300685c3565147e11e8a99f30e302eac",
+        "bytes": 2729
       }
     },
     "evidenceStorage": {
