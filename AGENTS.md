@@ -38,8 +38,8 @@ storage referenced by checksum from `state.yaml`; they are never committed.
   `03-app/site/app/data/farms.json`. PostgreSQL cutover is staged, not canonical.
 - Staged coverage-reviewed states (entities / eligible / QA):
   AL 808/799/9 · AR 766/524/242 · FL 1,515/205/1,310 · GA 1,738/554/1,184 ·
-  LA 1,200/964/236 · MS 737/576/161 · TN 5,425/1,626/3,799 · TX 855/736/119.
-- The QA backlog (7,060) exceeds the eligible set (5,984). Priority is QA
+  LA 1,200/964/236 · MS 737/576/161 · TN 3,121/1,589/1,532 · TX 855/736/119.
+- The QA backlog (4,793) is below the eligible set (5,947). Priority remains QA
   throughput and enrichment (see `01-database/pipeline-enrichment-plan.md`),
   not new-state collection.
 - The contract v2 validator enforces the evidence-grade gate: grade-F blocks

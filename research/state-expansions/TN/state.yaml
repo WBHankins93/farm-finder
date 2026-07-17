@@ -30,10 +30,11 @@
         "sourceUrl": "https://www.picktnproducts.org/members/search-for-a-member.html",
         "repositoryPath": null,
         "decision": "observations_retained",
-        "recordsParsed": 3121,
-        "retrievedAt": "2026-07-16T00:34:01.753373+00:00",
-        "responseSha256": "d0cae627a7be56de51d57e6b721cebd11080c89da2eb9d4ecefeb9969708a5a7",
-        "notes": "Public index advertised 3123 results: 3121 producer profiles and 2 non-profile pages. 3121 profile results were traversed across 95 county partitions plus the unassigned-county partition."
+        "recordsParsed": 3016,
+        "retrievedAt": "2026-07-17T00:06:01.989875+00:00",
+        "responseSha256": "5a17aae347bbcdcb34ddca7eb14b597ab25987732698e4cbc2e7deef6a4f47bb",
+        "notes": "Public index advertised 3018 results: 3016 producer profiles and 2 non-profile pages. 3016 profile results were traversed across 95 county partitions plus the unassigned-county partition.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-0d0b8ac33c15",
@@ -43,9 +44,10 @@
         "repositoryPath": null,
         "decision": "coverage_denominator",
         "recordsParsed": 95,
-        "retrievedAt": "2026-07-16T00:32:51.349269+00:00",
+        "retrievedAt": "2026-07-17T00:05:09.493925+00:00",
         "responseSha256": "9945a3b6939cb2794bfa4a015802fbd09a69415cbc8534ba42d25b318532e910",
-        "notes": null
+        "notes": null,
+        "tier": "excluded_source"
       },
       {
         "sourceId": "tnsrc-422f7a329e9c",
@@ -55,9 +57,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 12,
-        "retrievedAt": "2026-07-16T00:36:08.690961+00:00",
+        "retrievedAt": "2026-07-17T00:07:27.468965+00:00",
         "responseSha256": "cb10480ba89a08ca2e30231cf5a9f741f47445fce94b01e0a903848f02a522d3",
-        "notes": null
+        "notes": null,
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-ed82904a8095",
@@ -67,9 +70,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 2236,
-        "retrievedAt": "2026-07-16T00:35:13.630696+00:00",
-        "responseSha256": "17bad64e10aa8b6fc6de9aa5dba3a3ea68e975ce341897a747f9dce4c52cf8fe",
-        "notes": "Registry advertised 2236 records across 224 pages; all named rows retained without inventing current products or sale channels."
+        "retrievedAt": "2026-07-17T00:06:29.292999+00:00",
+        "responseSha256": "766bad1a2f62713685b0e2d237a52d7c30be60d5052505ee34f6ee2b3cca3d3e",
+        "notes": "Registry advertised 2236 records across 224 pages; all named rows retained without inventing current products or sale channels.",
+        "tier": "identity_hint"
       },
       {
         "sourceId": "tnsrc-0b4118aafe4d",
@@ -79,9 +83,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 88,
-        "retrievedAt": "2026-07-16T00:36:08.459997+00:00",
-        "responseSha256": "23693f9dc530146f40b717128bfdcda0fdac0723404e2a6d79141da515000f88",
-        "notes": "Only active members were retained; associate members were not treated as Tennessee farm evidence."
+        "retrievedAt": "2026-07-17T00:07:27.164535+00:00",
+        "responseSha256": "ac2e990f7672b1297ebe7143bddc30028df6b325ff6d5bd6b3740fe627640a24",
+        "notes": "Only active members were retained; associate members were not treated as Tennessee farm evidence.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-1aa19eac126c",
@@ -91,9 +96,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 24,
-        "retrievedAt": "2026-07-16T00:36:09.064043+00:00",
-        "responseSha256": "2ba3a96498fa643e76f15cead306e4b348e61c0a4b3e825f6612cc588b79f68c",
-        "notes": "County sections searched: 6; closure claims retained for review."
+        "retrievedAt": "2026-07-17T00:07:27.802506+00:00",
+        "responseSha256": "f9f4073f8ce3aed5cae448cd93c8cfc19ac6822639b0cca5e8c6f3fc8c762414",
+        "notes": "County sections searched: 6; closure claims retained for review.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-e100968c620d",
@@ -103,9 +109,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 17,
-        "retrievedAt": "2026-07-16T00:36:09.382700+00:00",
-        "responseSha256": "059505edee1dbdef5acdb5978f58641a3e5c0840a86acae1360f64854a22b41c",
-        "notes": "County sections searched: 11; closure claims retained for review."
+        "retrievedAt": "2026-07-17T00:07:28.109638+00:00",
+        "responseSha256": "5bdc64eb3ee0b94f4eb0815ab9f7957d52d13ece1c86881f490ea12af8685307",
+        "notes": "County sections searched: 11; closure claims retained for review.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-869cccf567fe",
@@ -115,9 +122,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 23,
-        "retrievedAt": "2026-07-16T00:36:09.685610+00:00",
-        "responseSha256": "5640693f69531766a3b866dbec21953d7c761f93087438047b49cdcf7b4da9e4",
-        "notes": "County sections searched: 10; closure claims retained for review."
+        "retrievedAt": "2026-07-17T00:07:28.401234+00:00",
+        "responseSha256": "f2d66be510ea490f26e764e28002346faa91441663068bc4dd845871376db334",
+        "notes": "County sections searched: 10; closure claims retained for review.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-c1db0724eede",
@@ -127,9 +135,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 25,
-        "retrievedAt": "2026-07-16T00:36:10.003948+00:00",
-        "responseSha256": "37f75885ef33cd255274a86b79df784a13e2b361a505b7fc6517a942601837fd",
-        "notes": "County sections searched: 16; closure claims retained for review."
+        "retrievedAt": "2026-07-17T00:07:28.786753+00:00",
+        "responseSha256": "0493b9989a3702811e3312b665091955f42a84b0db3b7c0b8394d5256befba59",
+        "notes": "County sections searched: 16; closure claims retained for review.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-0a564604d04e",
@@ -139,9 +148,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 53,
-        "retrievedAt": "2026-07-16T00:36:10.444227+00:00",
-        "responseSha256": "fe054cf8bc2d1352d426eb1d3c17f1efd6cdbb938287cec82ad81c98f9041bad",
-        "notes": "County sections searched: 7; closure claims retained for review."
+        "retrievedAt": "2026-07-17T00:07:29.265603+00:00",
+        "responseSha256": "d727c38d9d095a1729eb66494d5b47fd08c4b4ce20a54232035b95e7eab3676d",
+        "notes": "County sections searched: 7; closure claims retained for review.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-fd9f6d82695a",
@@ -151,9 +161,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 14,
-        "retrievedAt": "2026-07-16T00:36:10.660952+00:00",
-        "responseSha256": "5af8b63986f00cc4bc2e2a3172bb2b9f3cc26a4b2b777d99f871e8699ac5f86a",
-        "notes": "County sections searched: 14; closure claims retained for review."
+        "retrievedAt": "2026-07-17T00:07:29.501278+00:00",
+        "responseSha256": "ed56e4d1c6467a9daf3c923afc22556017f7117ab964d3e64b7bf99c677eee46",
+        "notes": "County sections searched: 14; closure claims retained for review.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-f6a066690d7a",
@@ -163,9 +174,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 16,
-        "retrievedAt": "2026-07-16T00:36:10.884236+00:00",
-        "responseSha256": "a7e5a6e59c8d8a35ba53c63bd1937a09cc8b8581e832acc4a71f6d40bebedf30",
-        "notes": "County sections searched: 9; closure claims retained for review."
+        "retrievedAt": "2026-07-17T00:07:29.714559+00:00",
+        "responseSha256": "5b629401131629be9e16092ae41ccdd3600c680395938065ad471e959735a4d8",
+        "notes": "County sections searched: 9; closure claims retained for review.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-24f61c252a39",
@@ -175,9 +187,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 10,
-        "retrievedAt": "2026-07-16T00:36:11.189886+00:00",
-        "responseSha256": "37e5bc47957993ad06a42a269c5b32affad2017b2bf83bbb9dab42e4b4b87225",
-        "notes": "County sections searched: 9; closure claims retained for review."
+        "retrievedAt": "2026-07-17T00:07:29.973883+00:00",
+        "responseSha256": "d27bd71191dc265bd787c19e60efdbf01ba0cb27f260261f6d89a413bec0d7de",
+        "notes": "County sections searched: 9; closure claims retained for review.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-6ee50ca09ace",
@@ -187,9 +200,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 7,
-        "retrievedAt": "2026-07-16T00:36:11.395222+00:00",
-        "responseSha256": "ce73314ef1c8df8c3ce5bacb9c16a46d66aa6479fc2f974a2b6f71b9fc55b395",
-        "notes": "County sections searched: 7; closure claims retained for review."
+        "retrievedAt": "2026-07-17T00:07:30.215296+00:00",
+        "responseSha256": "a3f1deb7fb5ad64f50d6f93937d10aa66ffcd4f5e55604cbe80717c4dcb3a24f",
+        "notes": "County sections searched: 7; closure claims retained for review.",
+        "tier": "candidate"
       },
       {
         "sourceId": "tnsrc-ef1638e64872",
@@ -199,9 +213,10 @@
         "repositoryPath": null,
         "decision": "observations_retained",
         "recordsParsed": 10,
-        "retrievedAt": "2026-07-16T00:36:11.639732+00:00",
-        "responseSha256": "a7703b14e5dd6241773726e36b2f749f3a459fdd75e64226487f4035e95df923",
-        "notes": "County sections searched: 7; closure claims retained for review."
+        "retrievedAt": "2026-07-17T00:07:30.492772+00:00",
+        "responseSha256": "54e3dfa8fb41a62698993e630175ef0390aea00f7bbcb43ed9e2d57ae509a1f6",
+        "notes": "County sections searched: 7; closure claims retained for review.",
+        "tier": "candidate"
       }
     ],
     "coverage": {
@@ -229,31 +244,34 @@
       ],
       "sourceRowCount": 299
     },
-    "id": "tn-coverage-reviewed-v1-2026-07-15",
+    "id": "tn-coverage-reviewed-v1-2026-07-16",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-16T00:36:12.324932+00:00",
+    "generatedAt": "2026-07-17T00:07:31.355865+00:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
-      "sourceObservations": 5656,
-      "proposedEntities": 5425,
-      "promotionEligibleEntities": 1626,
-      "researchOrQaEntities": 3799,
+      "sourceObservations": 5551,
+      "proposedEntities": 3121,
+      "promotionEligibleEntities": 1589,
+      "researchOrQaEntities": 1532,
       "excludedObservations": 0,
+      "unmatchedIdentityHintObservations": 2217,
       "excludedEntityGroups": 0,
-      "identityReviewGroups": 370,
+      "identityReviewGroups": 194,
       "countyCoverageRows": 95,
       "countiesWithCandidates": 95,
       "countiesWithEligibleEntities": 95,
       "sourceDatasets": 15,
-      "manualDecisions": 0
+      "manualDecisions": 0,
+      "canonicalBaselineObservations": 0,
+      "currentSourceObservations": 5551
     },
     "evidenceStorage": {
       "provider": "s3-compatible",
       "environment": "local-staging",
       "status": "local_bundle_only",
       "bucket": "farmfinder-source-releases",
-      "prefix": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-15/",
+      "prefix": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-16/",
       "versioningRequired": true,
       "managedCopyRequiredBeforePromotion": true
     },
@@ -261,50 +279,50 @@
       {
         "role": "observations",
         "filename": "observations.csv.zst",
-        "objectKey": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-15/observations.csv.zst",
-        "sha256": "a099b77b7c67fb281f7acf51fb9f172d362c54975b80934df337e09aed662372",
-        "bytes": 844226,
-        "rows": 5656,
+        "objectKey": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-16/observations.csv.zst",
+        "sha256": "5937033299eadbc1cd79dd8b8cf628392697700663fad1572e07222c0cdd7049",
+        "bytes": 823434,
+        "rows": 5551,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "local:a099b77b7c67fb281f7acf51"
+        "versionId": "local:5937033299eadbc1cd79dd8b"
       },
       {
         "role": "source_records",
         "filename": "source-records.jsonl.zst",
-        "objectKey": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-15/source-records.jsonl.zst",
-        "sha256": "fc568871bf1890eca7833a73662aa9fb371df2fcfaec0a9a0e1545df6b6300ff",
-        "bytes": 1478338,
-        "rows": 8,
+        "objectKey": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-16/source-records.jsonl.zst",
+        "sha256": "66a4c99a58c25322ba711200d9740fd7b00a04a4795180b0365852527bcfa4d0",
+        "bytes": 1427130,
+        "rows": 9,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "local:fc568871bf1890eca7833a73"
+        "versionId": "local:66a4c99a58c25322ba711200"
       },
       {
         "role": "collection_log",
         "filename": "collection-log.jsonl.zst",
-        "objectKey": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-15/collection-log.jsonl.zst",
-        "sha256": "6dc73324269d1f23125346cc3bbfbd798c0b456025183b9f7b0f93a224a8cae5",
-        "bytes": 171181,
-        "rows": 3546,
+        "objectKey": "state-expansions/TN/tn-coverage-reviewed-v1-2026-07-16/collection-log.jsonl.zst",
+        "sha256": "a65872aadb91f3fb2681a17d97fec4fe9531c95ce0e0cbe35fa166ac6aaa506f",
+        "bytes": 165979,
+        "rows": 3441,
         "contentType": "application/zstd",
         "visibility": "private",
-        "versionId": "local:6dc73324269d1f23125346cc"
+        "versionId": "local:a65872aadb91f3fb2681a17d"
       }
     ],
     "approval": {},
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "10172b436861faa0db5232fb04079eb84db14b8d900277d057f3b85ce3cd865e",
-        "bytes": 4317836
+        "sha256": "4e2aed7d221e85936609217056e0b76d513f3551eeacd338b6908a9d3dfdb27f",
+        "bytes": 2684505
       },
       "decisions.csv": {
         "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
         "bytes": 260
       },
       "report.md": {
-        "sha256": "fbcc6ad2cd57630b1120a4a6359c86d26d03d0e39f8ba47f08e896afd27f1c80",
-        "bytes": 2079
+        "sha256": "85ee1aaf13237b57227d9910bcb99b55fce329bc52ca1c2d6754e5256bbb49ad",
+        "bytes": 4493
       }
     }
   }

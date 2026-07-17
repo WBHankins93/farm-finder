@@ -172,6 +172,23 @@ STATE_CONFIG: dict[str, dict[str, Any]] = {
             "Tennessee Century Farms, Tennessee Agritourism, and EatWild",
             "ten PickYourOwn regions",
         ],
+        "source_tiers": {
+            "Tennessee Department of Agriculture — Pick Tennessee Products directory": "candidate",
+            "U.S. Census Bureau — county denominator": "excluded_source",
+            "EatWild Tennessee directory": "candidate",
+            "Middle Tennessee State University — Tennessee Century Farms registry": "identity_hint",
+            "Tennessee Agritourism Association — active farm members": "candidate",
+            "PickYourOwn — Clarksville area": "candidate",
+            "PickYourOwn — Columbia area": "candidate",
+            "PickYourOwn — Eastern Tennessee": "candidate",
+            "PickYourOwn — Knoxville area": "candidate",
+            "PickYourOwn — Middle Tennessee": "candidate",
+            "PickYourOwn — North-central Tennessee": "candidate",
+            "PickYourOwn — Northeastern Tennessee": "candidate",
+            "PickYourOwn — Northwestern Tennessee": "candidate",
+            "PickYourOwn — Southwestern-central Tennessee": "candidate",
+            "PickYourOwn — Western Tennessee": "candidate",
+        },
     },
     "GA": {
         "name": "Georgia",
@@ -395,6 +412,51 @@ def logged(log: dict[str, Any], pass_number: int, name: str, records: int, decis
         "source_decision": decision,
         "note": note,
     }
+
+
+def source_tier_for_observation(item: Observation, source_tiers: dict[str, str]) -> str:
+    """Return the configured ingestion tier, retaining legacy behavior elsewhere."""
+    if item.source_pass == 0 or not source_tiers:
+        return "candidate"
+    return source_tiers.get(item.source_name, "candidate")
+
+
+def apply_source_tier_policy(
+    observations: list[Observation], source_tiers: dict[str, str]
+) -> tuple[list[Observation], list[Observation]]:
+    """Keep identity hints only when a candidate-tier observation created the key.
+
+    All observations stay in the immutable observation stream. The second return
+    value contains observations that are intentionally not represented by an
+    entity because they cannot create candidates under the source-tier policy.
+    """
+    candidate_locations: defaultdict[str, set[str]] = defaultdict(set)
+    for item in observations:
+        if (
+            item.source_pass > 0
+            and item.candidate_key
+            and source_tier_for_observation(item, source_tiers) == "candidate"
+        ):
+            candidate_locations[item.candidate_key].add(item.county)
+
+    def has_candidate_match(item: Observation) -> bool:
+        locations = candidate_locations.get(item.candidate_key, set())
+        return bool(
+            locations
+            and (not item.county or "" in locations or item.county in locations)
+        )
+
+    reconciled: list[Observation] = []
+    unrepresented: list[Observation] = []
+    for item in observations:
+        tier = source_tier_for_observation(item, source_tiers)
+        if tier == "candidate" or item.source_pass == 0:
+            reconciled.append(item)
+        elif tier == "identity_hint" and has_candidate_match(item):
+            reconciled.append(item)
+        else:
+            unrepresented.append(item)
+    return reconciled, unrepresented
 
 
 def split_public_links(values: list[str], source_host: str) -> tuple[str, str, str, str]:
@@ -3408,7 +3470,13 @@ def main() -> int:
     ]
     for item in observations:
         if item.county and not item.county_fips: item.county_fips = county_fips.get(item.county, "")
-    retained_observations = [item for item in observations if item.promotion_status != "excluded_outside_jurisdiction"]
+    tiered_observations, unrepresented_observations = apply_source_tier_policy(
+        observations, config.get("source_tiers", {})
+    )
+    retained_observations = [
+        item for item in tiered_observations
+        if item.promotion_status != "excluded_outside_jurisdiction"
+    ]
     excluded_observations = [item for item in observations if item.promotion_status == "excluded_outside_jurisdiction"]
     if excluded_observations:
         stage_referrals(
@@ -3457,6 +3525,12 @@ def main() -> int:
         "collection_passes_started": [1, 2, 3], "collection_passes_completed": [1, 2, 3] if not critical else [],
         "source_datasets_evaluated": sum(log.get("source_decision") not in {"request_component", "county_enrichment"} for log in logs),
         "source_observations": source_observations, "source_observations_by_source": dict(sorted(Counter(item.source_name for item in observations).items())),
+        "source_observations_by_tier": dict(sorted(Counter(source_tier_for_observation(item, config.get("source_tiers", {})) for item in observations).items())),
+        "unmatched_identity_hint_observations": sum(
+            source_tier_for_observation(item, config.get("source_tiers", {})) == "identity_hint"
+            and item.promotion_status != "excluded_outside_jurisdiction"
+            for item in unrepresented_observations
+        ),
         "excluded_or_grade_f_observations": len(excluded_observations), "proposed_entities": len(entities), "manual_verification_decisions": 0,
         "promotion_eligible_entities": len(eligible), "research_or_qa_entities": len(entities) - len(eligible),
         "identity_review_groups": len(identity_review), "current_la_ms_name_collisions": sum(bool(item.current_release_name_collision) for item in retained_observations if item.source_pass > 0),
@@ -3543,7 +3617,9 @@ silently.
 {source_rows}
 
 The source total above reconciles exactly to **{source_observations:,}** observations and all
-observation IDs are required to be unique. The statewide coverage denominator contains
+observation IDs are required to be unique. **{summary['unmatched_identity_hint_observations']:,}**
+unmatched identity-hint observations remain immutable evidence but do not create entities or
+QA rows under the source-tier policy. The statewide coverage denominator contains
 **{len(coverage)}** county equivalents. **{sum(row['status'] == 'candidates_found' for row in coverage)}**
 have retained candidates; **{len(searched_none)}** were searched without a retained result
 ({', '.join(searched_none) if searched_none else 'none'}).

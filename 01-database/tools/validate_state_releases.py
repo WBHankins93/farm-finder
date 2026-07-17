@@ -276,8 +276,9 @@ def _validate_v1_state(state: str, require_local_artifacts: bool) -> dict[str, A
         require(by_role["exclusions"].get("rows") == counts.get("excludedObservations"),
                 "exclusion artifact count does not reconcile", errors)
         require(sum(int(row.get("source_observation_count", 0)) for row in entities) +
-                int(by_role["exclusions"].get("rows", 0)) == counts.get("sourceObservations"),
-                "entity observation totals plus exclusions do not reconcile", errors)
+                int(by_role["exclusions"].get("rows", 0)) +
+                int(counts.get("unmatchedIdentityHintObservations", 0)) == counts.get("sourceObservations"),
+                "entity observation totals plus exclusions and unmatched identity hints do not reconcile", errors)
 
     local_dir = LOCAL_RELEASE_ROOT / state / str(manifest.get("releaseId"))
     local_observations: list[dict[str, str]] | None = None
@@ -451,8 +452,9 @@ def _validate_v2_state(state: str, require_local_artifacts: bool) -> dict[str, A
     require(len(decisions) == int(counts.get("manualDecisions", -1)), "decision count does not reconcile", errors)
     require(sum(int(row.get("source_observation_count", 0)) for row in entities)
             + int(counts.get("excludedObservations", 0))
+            + int(counts.get("unmatchedIdentityHintObservations", 0))
             == int(counts.get("sourceObservations", -1)),
-            "retained and affirmatively excluded observations do not reconcile", errors)
+            "retained, affirmatively excluded, and unmatched identity-hint observations do not reconcile", errors)
     require(sum(row.get("decision") == "exclude" for row in current_decisions)
             == int(counts.get("excludedEntityGroups", -1)),
             "affirmatively excluded entity groups do not reconcile", errors)

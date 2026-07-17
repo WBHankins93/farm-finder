@@ -20,6 +20,7 @@ from pathlib import Path
 from typing import Any
 
 from state_policy import effective_decisions
+from collect_southeast import STATE_CONFIG
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -160,6 +161,9 @@ def source_catalog(state: str, logs: list[dict[str, Any]]) -> dict[str, Any]:
             "responseSha256": row.get("sha256") or None,
             "notes": row.get("note") or None,
         })
+        tier = STATE_CONFIG.get(state, {}).get("source_tiers", {}).get(name)
+        if tier:
+            datasets[-1]["tier"] = tier
     datasets.sort(key=lambda row: (row["pass"], row["name"], row["sourceId"]))
     return {"contractVersion": 1, "state": state, "datasets": datasets}
 
@@ -277,6 +281,7 @@ def package_v2(args: argparse.Namespace, state: str, state_dir: Path, source_dir
         "promotionEligibleEntities": int(summary["promotion_eligible_entities"]),
         "researchOrQaEntities": int(summary["research_or_qa_entities"]),
         "excludedObservations": int(summary["excluded_or_grade_f_observations"]),
+        "unmatchedIdentityHintObservations": int(summary.get("unmatched_identity_hint_observations", 0)),
         "excludedEntityGroups": excluded_groups,
         "identityReviewGroups": int(summary["identity_review_groups"]),
         "countyCoverageRows": len(coverage),
