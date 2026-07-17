@@ -1,6 +1,6 @@
 # FarmFinder — Agent guidelines and source of truth
 
-> Last updated: 2026-07-16 · Owner: Ben Hankins
+> Last updated: 2026-07-17 · Owner: Ben Hankins
 > This file is the operating guide for every agent session (Codex, Claude, or
 > other). Read it before changing anything.
 
@@ -10,7 +10,7 @@ A standalone two-track product: (1) a governed, provenance-first database of
 independent farms and local-food producers, built state-by-state across the
 continental United States; (2) a consumer directory/map application built on
 that database. Louisiana and Mississippi are the current canonical coverage
-area; six more states have coverage-reviewed staged releases.
+area; eight more states have coverage-reviewed staged releases.
 
 **"LA" always means Louisiana, never Los Angeles.**
 
@@ -37,16 +37,17 @@ storage referenced by checksum from `state.yaml`; they are never committed.
 - Canonical: 299 LA/MS rows; public site reads the generated
   `03-app/site/app/data/farms.json`. PostgreSQL cutover is staged, not canonical.
 - Staged coverage-reviewed states (entities / eligible / QA):
-  AL 807/799/8 · AR 766/524/242 · FL 1,515/205/1,310 · GA 1,738/554/1,184 ·
-  LA 1,200/964/236 · MS 737/576/161 · NC 3,417/482/2,935 · SC 1,603/1,011/592 ·
-  TN 3,121/1,589/1,532 · TX 835/767/68.
-- **QA is the standing priority.** The queue (8,268) exceeds the eligible set
-  (7,471). No new-state collection until the QA queue is materially reduced;
-  work the strategies in priority order (see Active workstreams). The 2026-07-17
-  blocker analysis: ~3,886 rows are deterministic geography resolution (mostly
-  NC/SC county review), 2,511 need farm-operation evidence (TN/GA member
-  directories), 1,743 need single-grade-E corroboration (mostly FL), and only
-  ~82 are true case-by-case human QA.
+  AL 807/800/7 · AR 766/524/242 · FL 1,515/208/1,307 · GA 1,738/558/1,180 ·
+  LA 1,200/993/207 · MS 737/581/156 · NC 3,415/1,139/2,276 · SC 1,601/1,018/583 ·
+  TN 3,121/1,602/1,519 · TX 835/769/66.
+- **QA is the standing priority.** The post-burn-down queue is 7,543 rows
+  against 8,192 eligible handoff rows; no new-state collection until the QA
+  queue is materially reduced. Current routed totals are 2,587 geography,
+  2,323 operation-evidence, 1,410 corroboration, 1,199 outreach, and a
+  24-row judgment-only floor: 21 canonical-baseline research items plus 3
+  unresolved status cases. The 2026-07-17 residue batch applied 86
+  append-only identity, status, and baseline decisions; missing evidence did
+  not create any exclusion.
 - The contract v2 validator enforces the evidence-grade gate: grade-F blocks
   eligibility; grade-E-only observation evidence requires a corroborating
   append-only decision at grade A–D.
@@ -109,8 +110,12 @@ QA queue exceeds the intake cap.
 3. **Farm-operation evidence batches** — TN (1,372) and GA (985)
    member/vendor-directory candidates; use the assistant's cross-directory
    pass plus targeted research.
-4. **True human QA tail** (~82 rows: identity conflicts, closure conflicts,
-   LA/MS baseline-not-rediscovered) — case-by-case with evidence.
+4. **True human QA tail** (24 remaining rows after the 2026-07-17 batch: 21
+   LA/MS baseline-not-rediscovered research items and 3 unresolved status
+   cases) — case-by-case with evidence. The completed batch resolved the 34
+   identity rows, 11 status rows, and 17 baseline rows that had sufficient
+   current evidence; the 3 retained status items remain QA rather than being
+   treated as closed.
 5. After QA: PostgreSQL cutover of enriched release v2 (see
    `03-app/site/docs/data-governance/cutover-runbook.md`).
 

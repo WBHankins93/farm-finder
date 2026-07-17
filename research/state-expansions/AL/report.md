@@ -9,8 +9,8 @@
 ## Outcome
 
 Alabama has statewide discovery coverage across all 67 counties. This identity
-and type QA revision retains 807 named candidates: 799 currently meet staged
-field and evidence gates, while eight remain visible in the research/QA queue.
+and type QA revision retains 807 named candidates: 800 currently meet staged
+field and evidence gates, while seven remain visible in the research/QA queue.
 Camp Creek Canning and Canning with Cox Crew were affirmatively excluded after
 current evidence identified prepared-food processors rather than independent
 farm operations. Rainbow Omega's earlier exclusion was superseded by stronger
@@ -27,11 +27,11 @@ behavior violates the national retention policy.
 |---|---:|
 | Immutable source observations | 1,057 |
 | Retained candidate entities | 807 |
-| Promotion-eligible reviewed entities | 799 |
-| Research/QA entities | 8 |
+| Promotion-eligible reviewed entities | 800 |
+| Research/QA entities | 7 |
 | Affirmatively excluded observations | 9 |
 | Effective excluded entity groups | 9 |
-| Append-only decisions | 92 |
+| Append-only decisions | 94 |
 | Counties reviewed | 67 of 67 |
 | Counties with retained candidates | 67 |
 | Counties with promotion-eligible candidates | 67 |
@@ -41,13 +41,11 @@ reconcile exactly to all 1,057 observations.
 
 ## Current QA queue
 
-The current release retains eight candidates in QA. Missing, stale, or
+The current release retains seven candidates in QA. Missing, stale, or
 conflicting details remain research work rather than deletion:
 
 | Candidate | County | Follow-up required |
 |---|---|---|
-| Easterling's Big Peach | Chilton | Resolve conflicting current operating status. |
-| Deloney Farms | Dale | Resolve the same-name identity conflict. |
 | Bertie K. Burton | DeKalb | Obtain current corroboration. |
 | Gilbert Strawberry Farm | DeKalb | Obtain independent corroboration. |
 | Vic & Tillie Hummer | Houston | Obtain direct corroboration. |
@@ -55,7 +53,7 @@ conflicting details remain research work rather than deletion:
 | Fresh Off The Farm | Mobile | Obtain direct corroboration. |
 | George R. Carlton | Tallapoosa | Obtain direct operational corroboration. |
 
-All eight remain in `entities.csv`; none is treated as closed merely because a
+All seven remain in `entities.csv`; none is treated as closed merely because a
 website, recent listing, or other field is unavailable.
 
 ## Append-only QA batch
@@ -63,7 +61,7 @@ website, recent listing, or other field is unavailable.
 The `alreview_20260716_080`–`090` batch contains 11 researched dispositions.
 Two current QA candidates were affirmatively excluded as prepared-food
 processors. Rainbow Omega's prior exclusion was corroborated with grade-B
-current member and organization evidence. The remaining eight dispositions
+current member and organization evidence. The remaining seven dispositions
 retain named candidates in QA, including a county-distinct Jackson County Lone
 Oak row separate from the Macon County operations.
 
@@ -104,8 +102,12 @@ exclusions remain in decision history but no longer affect the candidate table.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the 8 QA candidates through append-only decisions.
+1. Resolve or deliberately retain the 7 QA candidates through append-only decisions.
 2. Copy the immutable evidence objects from local versioned staging to managed
    production storage.
 3. Re-run validation and bind owner approval to the resulting release fingerprint.
 4. Promote Alabama atomically in a separate canonical-release change.
+
+## Judgment-only QA residue — 2026-07-17
+
+This append-only batch added **2** evidence decisions and made no exclusions. The current contract counts are **807 entities**, **800 promotion-eligible reviewed**, and **7 research/QA**. The remaining judgment-only residue is **0** rows: **0** canonical-baseline research items and **0** status items without affirmative current closure/operation evidence. Missing evidence remains a routed research blocker.

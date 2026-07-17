@@ -7,10 +7,13 @@
 ## Purpose
 
 QA is a pipeline stage with capacity, routing, and backpressure — not a
-holding pen. The 2026-07 backlog (8,268 rows, larger than the eligible set)
-happened because collection was unbounded, rows entered QA without a
-resolution route, and automation ran after humans instead of before. This
-standard makes the queue flow continuously and keeps it from backing up again.
+holding pen. The 2026-07 backlog reached 8,268 rows; after the automated
+burn-down, 7,604 remained because collection was unbounded, rows entered QA
+without a resolution route, and automation ran after humans instead of before.
+The 2026-07-17 judgment batch applied 86 append-only decisions and
+reduced the queue to 7,543 rows; the remaining judgment-only floor is 24 rows
+(21 baseline research items and 3 unresolved status cases). This standard
+makes the queue flow continuously and keeps it from backing up again.
 
 The governing rule:
 
@@ -26,7 +29,10 @@ The governing rule:
   new source is tiered before collection.
 - **Intake budget**: a PR that adds a *new* state fails the scope gate while
   the committed QA total (excluding the new state) exceeds the intake cap in
-  `assess_pr_scope.py` (`QA_INTAKE_CAP`, currently 2,000). The
+  `assess_pr_scope.py` (`QA_INTAKE_CAP`, currently 36). The cap is roughly
+  1.5× the post-burn-down judgment-only floor: `ceil(1.5 × 24) = 36`; it does
+  not treat the larger automated geography, operation-evidence,
+  corroboration, or outreach queues as human intake capacity. The
   `large-reviewed-change` label remains the explicitly reviewed exception.
 - **Referrals, not dead ends**: `outside_jurisdiction` exclusions emit
   home-state referrals instead of silently shedding candidates.

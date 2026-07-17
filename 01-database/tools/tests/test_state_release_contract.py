@@ -587,8 +587,8 @@ class CurrentStateContractTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             handoff = export_state("AL", Path(temporary))
             self.assertEqual(handoff["status"], "eligible_staged")
-            self.assertEqual(handoff["eligibleCount"], 799)
-            self.assertEqual(handoff["qaCount"], 8)
+            self.assertEqual(handoff["eligibleCount"], 800)
+            self.assertEqual(handoff["qaCount"], 7)
             self.assertEqual(handoff["qaPolicy"], "deferred_state_scoped_review")
             self.assertTrue((Path(temporary) / "AL" / "eligible-entities.csv").is_file())
             self.assertTrue((Path(temporary) / "AL" / "qa-queue.csv").is_file())

@@ -23,7 +23,11 @@ PROHIBITED_STATE_NAMES = {
 # New-state collection pauses while the committed QA queue is over budget.
 # See 01-database/qa-operations.md; the reviewed exception is the existing
 # large-reviewed-change label, which skips this gate entirely in CI.
-QA_INTAKE_CAP = 2000
+# Post-burn-down judgment-only residue is 24 rows: 21 canonical-baseline
+# research items and 3 unresolved status cases. Keep intake at 1.5x that
+# human-review floor (ceil(1.5 * 24) = 36); automated queues are tracked
+# separately.
+QA_INTAKE_CAP = 36
 
 
 def parse_args() -> argparse.Namespace:
