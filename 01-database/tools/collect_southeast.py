@@ -4,6 +4,12 @@
 Source adapters are state-specific because public directories differ, while
 retention, reconciliation, geography, QA, evidence, and output rules are shared.
 The collector writes detailed evidence only under data/source-releases/work/.
+
+IMPORTANT PRE-CLASSIFICATION BOUNDARY: every new state collector MUST run the
+place-reference geography pass and the cross-directory corroboration pass before
+reconciliation/classification. NC/SC accumulated roughly 3,500 QA rows because
+a collector skipped these two passes. This collector intentionally does not run
+website-liveness fetching; that remains a post-hoc assistant pass.
 """
 
 from __future__ import annotations
@@ -25,7 +31,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import asdict
 from datetime import date, datetime, timezone
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any, Callable, Iterable, Mapping
 
 from collect_alabama import (
     Node,
@@ -41,6 +47,13 @@ from collect_alabama import (
 )
 from state_policy import classify_candidate
 from state_release_urls import classify_public_urls
+from corroboration_assistant import (
+    contact_matches,
+    geography_comparison,
+    name_similarity,
+    normalize_email,
+    normalize_phone,
+)
 from referrals import (
     read_referrals,
     referral_from_observation,
@@ -63,6 +76,7 @@ CENSUS_PLACE_COUNTY_URL = (
     "https://www2.census.gov/geo/docs/reference/codes2020/national_place_by_county2020.txt"
 )
 GRADE_RANK = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5}
+CORROBORATION_NAME_THRESHOLD = 0.45
 
 STATE_CONFIG: dict[str, dict[str, Any]] = {
     "LA": {
@@ -2832,6 +2846,183 @@ def apply_place_reference(
             item.county_source = CENSUS_PLACE_COUNTY_URL
 
 
+def _corroboration_contacts(item: Observation) -> dict[str, str]:
+    return {"phone_internal": item.phone, "email_internal": item.email}
+
+
+def _corroboration_geography(item: Observation) -> dict[str, str]:
+    return {
+        "county_equivalent": item.county,
+        "city": item.city,
+        "postal_code": item.postal_code,
+    }
+
+
+def _contact_conflicts(left: Observation, right: Observation) -> list[str]:
+    conflicts: list[str] = []
+    normalizers = {
+        "phone_internal": normalize_phone,
+        "email_internal": normalize_email,
+    }
+    for field, normalizer in normalizers.items():
+        left_value = normalizer(_corroboration_contacts(left).get(field, ""))
+        right_value = normalizer(_corroboration_contacts(right).get(field, ""))
+        if left_value and right_value and left_value != right_value:
+            conflicts.append(field)
+    return conflicts
+
+
+def _independent_source(left: Observation, right: Observation) -> bool:
+    return bool(
+        left.source_pass > 0
+        and right.source_pass > 0
+        and left.source_name
+        and right.source_name
+        and left.source_name != right.source_name
+    )
+
+
+def _conflict_group_key(item: Observation, conflict_kind: str) -> str:
+    suffix = hashlib.sha256(
+        f"{item.observation_id}|{conflict_kind}".encode("utf-8")
+    ).hexdigest()[:10]
+    return f"{item.candidate_key}__corroboration_conflict_{suffix}"
+
+
+def cross_directory_corroboration(
+    observations: list[Observation],
+) -> dict[str, Any]:
+    """Merge deterministic same-run directory matches before classification.
+
+    Matching deliberately stays narrower than identity review: observations
+    must come from independent current sources, clear the assistant's name
+    similarity threshold, share at least one normalized contact value, and
+    have consistent place-reference geography. Any contact or geography
+    conflict is isolated and returned as a routable QA blocker instead.
+    """
+    pairs: list[dict[str, Any]] = []
+    for index, left in enumerate(observations):
+        if left.promotion_status == "excluded_outside_jurisdiction":
+            continue
+        for right in observations[index + 1:]:
+            if right.promotion_status == "excluded_outside_jurisdiction" or not _independent_source(left, right):
+                continue
+            similarity = name_similarity(left.farm_name, right.farm_name)
+            if similarity < CORROBORATION_NAME_THRESHOLD:
+                continue
+            contacts = contact_matches(_corroboration_contacts(left), _corroboration_contacts(right))
+            contact_conflicts = _contact_conflicts(left, right)
+            if not contacts and not contact_conflicts:
+                continue
+            geography = geography_comparison(
+                _corroboration_geography(left), _corroboration_geography(right)
+            )
+            conflict_types: list[str] = []
+            if contact_conflicts:
+                conflict_types.append("contact")
+            if geography["conflicts"]:
+                conflict_types.append("geography")
+            pairs.append({
+                "left": left,
+                "right": right,
+                "name_similarity": round(similarity, 3),
+                "contact_matches": contacts,
+                "contact_conflicts": contact_conflicts,
+                "geography": geography,
+                "conflict_types": conflict_types,
+            })
+
+    conflict_pairs = [pair for pair in pairs if pair["conflict_types"]]
+    conflicted_ids = {
+        item.observation_id
+        for pair in conflict_pairs
+        for item in (pair["left"], pair["right"])
+    }
+    merged_pairs = [
+        pair for pair in pairs
+        if not pair["conflict_types"]
+        and pair["contact_matches"]
+        and pair["geography"]["consistent"]
+    ]
+
+    # A conflict wins over a possible merge involving the same observation.
+    # This keeps ambiguous identities separate instead of allowing a second
+    # clean pair to hide the conflicting source.
+    merge_components: list[set[str]] = []
+    for pair in merged_pairs:
+        left_id = pair["left"].observation_id
+        right_id = pair["right"].observation_id
+        if left_id in conflicted_ids or right_id in conflicted_ids:
+            continue
+        matching = [
+            group for group in merge_components
+            if left_id in group or right_id in group
+        ]
+        if not matching:
+            merge_components.append({left_id, right_id})
+            continue
+        component = matching[0]
+        component.update((left_id, right_id))
+        for other in matching[1:]:
+            component.update(other)
+            merge_components.remove(other)
+
+    by_id = {item.observation_id: item for item in observations}
+    for component in merge_components:
+        items = [by_id[observation_id] for observation_id in component]
+        canonical_items = [item for item in items if item.current_release_name_collision]
+        preferred = sorted(
+            canonical_items or items,
+            key=lambda item: (
+                GRADE_RANK.get(item.evidence_grade, 9),
+                item.candidate_key,
+                item.observation_id,
+            ),
+        )[0]
+        for item in items:
+            item.candidate_key = preferred.candidate_key
+            item.identity_review_status = "cross_directory_corroborated_identity"
+
+    blockers_by_candidate_key: defaultdict[str, set[str]] = defaultdict(set)
+    conflict_items: list[dict[str, Any]] = []
+    for pair in conflict_pairs:
+        blockers: list[str] = []
+        if "geography" in pair["conflict_types"]:
+            blockers.append("cross-directory geography conflict; county requires geography review")
+        if "contact" in pair["conflict_types"]:
+            blockers.append("cross-directory contact conflict; identity continuity review required")
+        for item in (pair["left"], pair["right"]):
+            item.candidate_key = _conflict_group_key(item, ",".join(pair["conflict_types"]))
+            item.identity_review_status = "cross_directory_conflict_requires_review"
+            blockers_by_candidate_key[item.candidate_key].update(blockers)
+        conflict_items.append({
+            "observation_ids": [pair["left"].observation_id, pair["right"].observation_id],
+            "farm_names": [pair["left"].farm_name, pair["right"].farm_name],
+            "conflict_types": pair["conflict_types"],
+            "contact_conflicts": pair["contact_conflicts"],
+            "geography_conflicts": pair["geography"]["conflicts"],
+            "blockers": blockers,
+        })
+
+    return {
+        "merged_pairs": [
+            {
+                "observation_ids": [pair["left"].observation_id, pair["right"].observation_id],
+                "name_similarity": pair["name_similarity"],
+                "contact_matches": pair["contact_matches"],
+                "matching_geography": pair["geography"]["matching_fields"],
+            }
+            for pair in merged_pairs
+            if pair["left"].observation_id not in conflicted_ids
+            and pair["right"].observation_id not in conflicted_ids
+        ],
+        "conflict_items": conflict_items,
+        "blockers_by_candidate_key": {
+            key: sorted(value) for key, value in blockers_by_candidate_key.items()
+        },
+    }
+
+
 def county_seats(state: str, config: dict[str, Any]) -> tuple[list[tuple[str, str]], dict[str, Any], str]:
     raw, request_log = fetch_bytes(config["county_seats"])
     text = ""
@@ -3274,7 +3465,11 @@ def identity_tokens(item: Observation) -> set[str]:
     return {re.sub(r"[^a-z0-9]", "", clean_text(value).casefold()) for value in values if clean_text(value)}
 
 
-def reconcile(state: str, observations: list[Observation]) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+def reconcile(
+    state: str,
+    observations: list[Observation],
+    corroboration_blockers: Mapping[str, Iterable[str]] | None = None,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     groups: defaultdict[str, list[Observation]] = defaultdict(list)
     for item in observations:
         if item.candidate_key: groups[item.candidate_key].append(item)
@@ -3311,6 +3506,7 @@ def reconcile(state: str, observations: list[Observation]) -> tuple[list[dict[st
             canonical_items = [item for item in items if item.source_pass == 0]
             current_items = [item for item in items if item.source_pass > 0]
             blockers: list[str] = []
+            blockers.extend(corroboration_blockers.get(key, ()) if corroboration_blockers else ())
             if conflict and not merge_cross: blockers.append("same normalized name appears in multiple counties")
             if not county: blockers.append("county missing")
             if not city: blockers.append("city or safe public service area missing")
@@ -3470,6 +3666,26 @@ def main() -> int:
     ]
     for item in observations:
         if item.county and not item.county_fips: item.county_fips = county_fips.get(item.county, "")
+    corroboration = cross_directory_corroboration(observations)
+    logs.append({
+        "url": "",
+        "attempts_used": 0,
+        "http_status": 0,
+        "bytes": 0,
+        "sha256": "",
+        "elapsed_seconds": 0,
+        "error": "",
+        "pass": 3,
+        "source_name": "FarmFinder pre-classification cross-directory corroboration",
+        "records_parsed": len(corroboration["merged_pairs"]),
+        "retrieved_at": now_iso(),
+        "source_decision": "preclassification_merge_and_conflict_route",
+        "note": (
+            f"Merged {len(corroboration['merged_pairs'])} independent source pairs; "
+            f"routed {len(corroboration['conflict_items'])} conflict pairs to QA. "
+            "No website-liveness fetches run in collection."
+        ),
+    })
     tiered_observations, unrepresented_observations = apply_source_tier_policy(
         observations, config.get("source_tiers", {})
     )
@@ -3488,7 +3704,11 @@ def main() -> int:
     observations.sort(key=lambda item: (item.candidate_key, item.source_name, item.source_record_id))
     retained_observations.sort(key=lambda item: (item.candidate_key, item.source_name, item.source_record_id))
     excluded_observations.sort(key=lambda item: (item.candidate_key, item.source_name, item.source_record_id))
-    entities, identity_review, qa = reconcile(state, retained_observations)
+    entities, identity_review, qa = reconcile(
+        state,
+        retained_observations,
+        corroboration["blockers_by_candidate_key"],
+    )
     canonical_reconciliation = canonical_reconciliation_rows(state, canonical_rows, retained_observations, entities)
     missing_canonical = [row for row in canonical_reconciliation if not row["matched_entity_ids"]]
     if missing_canonical:

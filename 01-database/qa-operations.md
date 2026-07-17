@@ -44,7 +44,7 @@ vocabulary so the row is workable without re-reading it.
 | 2 | `corroboration` | single grade-E … needs corroboration | `corroboration_assistant.py`, then curator apply-batch |
 | 3 | `operation_evidence` | farm-operation evidence; directory/member/vendor candidate; production scope | Assistant cross-directory pass + targeted research |
 | 4 | `baseline` | canonical baseline farm not rediscovered | Human recollection review (LA/MS rebuilds) |
-| 5 | `identity` | same normalized name; identity continuity | Human, evidence-based |
+| 5 | `identity` | same normalized name; identity continuity; contact conflict | Human, evidence-based |
 | 6 | `status_conflict` | operating status conflicts; reopened closure | Human, evidence-based |
 | 7 | `contact_outreach` | no public outreach path captured | Research/outreach; often co-occurs and resolves last |
 | — | `unrouted` | anything else | Fix the blocker text; a growing unrouted bucket is a process bug |

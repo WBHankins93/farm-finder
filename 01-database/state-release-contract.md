@@ -75,6 +75,17 @@ The shared field is `county_equivalent`. The displayed label is configured per
 state: county, parish, borough, census area, or independent city. Census/FIPS codes
 provide the stable national identity.
 
+### Collector pre-classification boundary
+
+Every new state collector must run its Census place-reference geography pass and
+its same-run cross-directory corroboration pass after collection and before
+reconciliation or `classify_candidate`. The corroboration pass may merge only
+independent observations that agree on identity, contact, and geography; contact
+or geography conflicts remain separate and carry a routable QA blocker. This is
+mandatory pipeline sequencing: the NC/SC backlog of roughly 3,500 QA rows came
+from a collector that skipped these two passes. Website-liveness fetching remains
+a post-hoc assistant operation and is not part of collection.
+
 ## Lifecycle and review
 
 States progress through `researching`, `collected`, `coverage_reviewed`,
