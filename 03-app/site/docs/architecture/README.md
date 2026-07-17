@@ -45,4 +45,4 @@ Source-backed website, social, online-store, map, market, product, contact-visib
 - Private contact details and non-public exact locations never enter public API responses or logs.
 - Indexes are added from an observed or planned query shape and reviewed after production query statistics exist.
 
-See the [implementation ledger](../implementation-ledger.md), [platform ADR](decisions/0001-platform-foundation.md), [index register](index-register.md), and [source-of-truth workflow](../data-governance/source-of-truth.md).
+See the [implementation ledger](../implementation-ledger.md), [platform ADR](decisions/0001-platform-foundation.md), [pipeline architecture decision memo](pipeline-architecture-decision.docx), [index register](index-register.md), and [source-of-truth workflow](../data-governance/source-of-truth.md).
