@@ -259,28 +259,28 @@
     "counts": {
       "sourceObservations": 1414,
       "proposedEntities": 1200,
-      "promotionEligibleEntities": 964,
-      "researchOrQaEntities": 236,
+      "promotionEligibleEntities": 993,
+      "researchOrQaEntities": 207,
       "excludedObservations": 30,
       "excludedEntityGroups": 0,
       "identityReviewGroups": 152,
       "countyCoverageRows": 64,
-      "countiesWithCandidates": 61,
+      "countiesWithCandidates": 64,
       "countiesWithEligibleEntities": 61,
       "sourceDatasets": 16,
-      "manualDecisions": 0,
+      "manualDecisions": 46,
       "canonicalBaselineObservations": 220,
       "currentSourceObservations": 1194,
       "operationStatusCounts": {
-        "likely_operating_2026": 71,
+        "confirmed_operating_2026": 67,
         "currently_listed_official_2026": 775,
-        "unresolved_2026": 279,
-        "reported_closed_requires_review": 8,
-        "confirmed_operating_2026": 67
+        "likely_operating_2026": 73,
+        "reported_closed_requires_review": 6,
+        "unresolved_2026": 279
       },
       "supportedOperatingEntities2026": 826,
-      "additionalLikelyOperatingEntities2026": 67,
-      "operationCountUpperSupportedRange": 893,
+      "additionalLikelyOperatingEntities2026": 69,
+      "operationCountUpperSupportedRange": 895,
       "operationScopeReviewEntities": 9,
       "operationIdentityReviewEntities": 22
     },
@@ -331,16 +331,16 @@
     "approval": {},
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "9169a77924d5e3508ad4304deac2c288bed242db2e17aea9f0f794ffabd46bca",
-        "bytes": 1249085
+        "sha256": "66270d6eab8caf44cdbf6c03d6485166313d757b7a0c0f29d6c70abde75b3e38",
+        "bytes": 1247679
       },
       "decisions.csv": {
-        "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
-        "bytes": 260
+        "sha256": "1d006845f5b0ed6662a3ec0a11f08c792a24229e79148c834e54b7b27986852c",
+        "bytes": 30283
       },
       "report.md": {
-        "sha256": "b135479b6e205ba05a0af22dbad55fa8e50e26aa28c3663e0d0e18fe63ffa7a6",
-        "bytes": 5530
+        "sha256": "a84162594b49a91114c47a66fff221ae80f720cbfc8aafb7264dfa88789a1684",
+        "bytes": 5992
       }
     }
   }
