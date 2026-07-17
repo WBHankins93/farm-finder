@@ -9,8 +9,8 @@
 ## Outcome
 
 The three documented collection passes retained **737 named candidates** from
-**957 immutable observations**. **575** currently meet staged
-field and evidence gates; **162** remain in explicit research/QA. Missing data never
+**957 immutable observations**. **581** currently meet staged
+field and evidence gates; **156** remain in explicit research/QA. Missing data never
 caused deletion or exclusion. The observation total includes **79**
 canonical identity anchors that preserve the existing cleaned MS canon without counting it
 as a current collection pass.
@@ -21,8 +21,8 @@ as a current collection pass.
 |---|---:|
 | Immutable source observations | 957 |
 | Retained candidate entities | 737 |
-| Promotion-eligible reviewed entities | 575 |
-| Research/QA entities | 162 |
+| Promotion-eligible reviewed entities | 581 |
+| Research/QA entities | 156 |
 | Affirmatively excluded observations | 45 |
 | Identity review groups | 135 |
 | Counties reviewed | 82 of 82 |
@@ -102,7 +102,7 @@ Blocker counts overlap because one retained entity can require more than one fol
 
 ## Promotion blockers
 
-1. Resolve the 161 QA candidates through current farm-owned or authoritative evidence.
+1. Resolve the 156 QA candidates through current farm-owned or authoritative evidence.
 2. Copy the immutable evidence objects to managed versioned storage.
 3. Record approval against the resulting release fingerprint.
 4. Promote Mississippi atomically in a separate canonical-release change.
@@ -117,3 +117,7 @@ recently expired grower certification. The evidence-bounded operating range is t
 
 This is a public-evidence directory count, not the USDA statistical count of every agricultural operation.
 Missing evidence never proves closure, and every collected name remains preserved for follow-up.
+
+## Judgment-only QA residue — 2026-07-17
+
+This append-only batch added **10** evidence decisions and made no exclusions. The current contract counts are **737 entities**, **581 promotion-eligible reviewed**, and **156 research/QA**. The remaining judgment-only residue is **5** rows: **4** canonical-baseline research items and **1** unresolved status case without affirmative current closure evidence. Missing evidence remains a routed research blocker.
