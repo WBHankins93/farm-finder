@@ -20,6 +20,10 @@ PROHIBITED_STATE_NAMES = {
     "qa-queue.csv", "identity-review.csv", "excluded-observations.csv",
     "county-lookup-errors.json", "geography-conflicts.csv",
 }
+# New-state collection pauses while the committed QA queue is over budget.
+# See 01-database/qa-operations.md; the reviewed exception is the existing
+# large-reviewed-change label, which skips this gate entirely in CI.
+QA_INTAKE_CAP = 2000
 
 
 def parse_args() -> argparse.Namespace:
@@ -46,6 +50,28 @@ def stale_state_directories(merge_base: str, base: str, states, runner=run) -> l
         if newer:
             stale.append(state)
     return stale
+
+
+def new_state_directories(merge_base: str, states, runner=run) -> list[str]:
+    """States in this PR that did not exist at the merge-base."""
+    added = []
+    for state in sorted(states):
+        existing = runner("git", "ls-tree", merge_base, "--name-only",
+                          f"research/state-expansions/{state}").strip()
+        if not existing:
+            added.append(state)
+    return added
+
+
+def committed_qa_total(exclude=(), root: Path = ROOT) -> int:
+    """Sum researchOrQaEntities across committed contract-v2 states."""
+    total = 0
+    for path in sorted((root / "research" / "state-expansions").glob("*/state.yaml")):
+        if path.parent.name in exclude:
+            continue
+        document = json.loads(path.read_text(encoding="utf-8"))
+        total += int(document.get("release", {}).get("counts", {}).get("researchOrQaEntities", 0))
+    return total
 
 
 def main() -> int:
@@ -89,6 +115,15 @@ def main() -> int:
             f"{state} release changed on {args.base} after this branch's merge-base; "
             "rebase onto the latest main before opening the PR"
         )
+    added_states = new_state_directories(merge_base, states)
+    if added_states:
+        backlog = committed_qa_total(exclude=set(added_states))
+        if backlog > QA_INTAKE_CAP:
+            errors.append(
+                f"new-state collection ({', '.join(added_states)}) is paused: the committed QA "
+                f"queue is {backlog}, above the {QA_INTAKE_CAP} intake cap (qa-operations.md); "
+                "reduce QA first or request the large-reviewed-change exception"
+            )
 
     files.sort(key=lambda row: (row["additions"], row["deletions"]), reverse=True)
     report = {

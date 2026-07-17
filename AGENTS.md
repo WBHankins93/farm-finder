@@ -24,7 +24,7 @@ customer records, or promotions may enter the product, schema, or docs.
 | Canonical pre-cutover farm data | `research/local_farm_database_final.xlsx`, sheet `All Farms` (299 rows: 220 LA / 79 MS) | `npm run data:validate` from `03-app/site/` |
 | Machine-readable release contract | `03-app/site/config/source-of-truth.json` | same |
 | Staged state releases (contract v2) | `research/state-expansions/<ST>/` — exactly `state.yaml`, `entities.csv`, `decisions.csv`, `report.md` | `python3 01-database/tools/validate_state_releases.py` |
-| Pipeline rules | `01-database/state-release-contract.md`, `01-database/scalable-data-pipeline.md`, `01-database/pipeline-enrichment-plan.md` | contract unit tests |
+| Pipeline rules | `01-database/state-release-contract.md`, `01-database/scalable-data-pipeline.md`, `01-database/pipeline-enrichment-plan.md`, `01-database/qa-operations.md` | contract unit tests |
 | Product/platform docs | `README.md`, `03-app/site/docs/` | — |
 
 Everything else (old dashboards, v1/v2 workbooks, `outputs/`, `.codex-work/`)
@@ -90,6 +90,12 @@ If the change touches `03-app/site/`, also run from that directory:
 `npm run data:validate`, `npm run lint`, `npm test`.
 
 ## Active workstreams (QA-first, in order)
+
+The QA process itself is governed by `01-database/qa-operations.md`: every QA
+row must carry routable blocker text (`python3 01-database/tools/qa_triage.py`
+must report zero unrouted rows), automation drains queues before human
+batches, and new-state collection PRs fail the scope gate while the committed
+QA queue exceeds the intake cap.
 
 1. **Geography QA batches** — resolve `county requires geography review` rows
    (NC ~2,935, SC ~470, plus ~359 city/county-missing rows in other states)
