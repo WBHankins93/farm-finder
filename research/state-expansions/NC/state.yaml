@@ -130,8 +130,8 @@
     ],
     "coverage": {
       "countyEquivalentsReviewed": 100,
-      "countyEquivalentsWithCandidates": 91,
-      "countyEquivalentsWithEligibleEntities": 90,
+      "countyEquivalentsWithCandidates": 99,
+      "countyEquivalentsWithEligibleEntities": 96,
       "unresolvedCountyEquivalents": [
         "Alleghany",
         "Bertie",
@@ -156,37 +156,37 @@
     "maxTrackedBytes": 5000000
   },
   "release": {
-    "id": "nc-collected-v2-2026-07-16",
+    "id": "nc-collected-v2-2026-07-17",
     "status": "collected",
-    "generatedAt": "2026-07-16T19:59:45+00:00",
+    "generatedAt": "2026-07-17T03:28:29.917746+00:00",
     "promotionReady": false,
     "promotionBlockReason": "Independent source passes, record validation, managed evidence copy, and approval remain outstanding.",
     "counts": {
       "sourceObservations": 4377,
       "proposedEntities": 3417,
-      "promotionEligibleEntities": 482,
-      "researchOrQaEntities": 2935,
+      "promotionEligibleEntities": 1139,
+      "researchOrQaEntities": 2278,
       "excludedObservations": 0,
       "excludedEntityGroups": 0,
       "identityReviewGroups": 3417,
       "countyCoverageRows": 100,
-      "countiesWithCandidates": 91,
-      "countiesWithEligibleEntities": 90,
+      "countiesWithCandidates": 99,
+      "countiesWithEligibleEntities": 96,
       "sourceDatasets": 8,
-      "manualDecisions": 0
+      "manualDecisions": 1770
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "b6232615089d5fa3b32f1790048aadd94467f19e1e5b552cda9c64b186b377ef",
-        "bytes": 3427258
+        "sha256": "9f5f7a35ebb2d17462a8709ac8528bd26f01aa8a5db13893df2b7a45fea997b3",
+        "bytes": 3381982
       },
       "decisions.csv": {
-        "sha256": "757312f42b17ad8921a7a2f3201d2ae839721c3d10f894f71ce4c042439b4a85",
-        "bytes": 261
+        "sha256": "e21202122c0c41ab9bd221b4b9fcecd88e264fe924ef42b0241c263af7752e1b",
+        "bytes": 1191667
       },
       "report.md": {
-        "sha256": "55f8b1d69e6d14a097f4fc4ea8a9d4bdeea85e86ca666b6f3140408dcfee3838",
-        "bytes": 1499
+        "sha256": "702376d08bf7dd02c9d99d77e77e6c4864f76fc6b7041599d22452f94fcb2b21",
+        "bytes": 2266
       }
     },
     "evidenceStorage": {
