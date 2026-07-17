@@ -9,95 +9,71 @@
 ## Outcome
 
 Texas has completed the documented three-pass discovery process across all 254
-counties. This cleansing checkpoint retains 855 named candidates: 736 currently
-meet staged field and evidence gates, while 119 remain in research/QA. The
-working objective is to drive the QA queue to 50 or fewer before moving to the
-next state; production `record_verified` still requires QA to reach zero.
+counties. This rebased QA checkpoint retains 835 named candidates:
+767 currently meet staged field and evidence gates, while 68
+remain in research/QA. Production `record_verified` still requires QA to reach zero.
 
-This checkpoint applied 26 affirmative exclusions and 20 evidence-backed
-corrections/corroborations. The exclusions remove current non-farm businesses
-(processors, retailers, distributors, and foodservice companies) and candidates
-whose current farm identity is outside Texas. The corrections resolve Augustus
-Ranch's county and corroborate Davis 20 Beef as a current Wichita Falls ranch,
-Four Winds Ranch, Hi Fi Mycology, JJJM Grass Fed Beef, Michael Neighbors,
-Ritchie Family Farms, Alaiyo Farm, Broken B Ranch, Ficarro Farms, Happy Feet
-Farm, Hudson Plains Raw Dairy, South Texas Mushrooms, Synergic Farms, Wild Herd
-Cattle & Kitchen, High Steaks Beef Company, Barnard Beef, and Conundrum Farms
-with current Texas farm evidence and geography.
-All original source observations remain preserved in immutable evidence.
+The reapplication preserves main's existing append-only history, appends 53
+non-duplicate current QA dispositions, and repairs four duplicate entity groups.
+It adds 13 affirmative exclusions and promotes 31 candidates
+from QA to promotion-eligible review. All original source observations remain
+preserved in immutable evidence.
 
 ## Reconciliation
 
 | Measure | Count |
 |---|---:|
-| Immutable source observations | 1,062 |
-| Retained candidate entities | 855 |
-| Promotion-eligible reviewed entities | 736 |
-| Research/QA entities | 119 |
-| Affirmatively excluded observations | 73 |
-| Effective excluded entity groups | 53 |
-| Append-only decisions | 237 |
+| Immutable source observations | 1,063 |
+| Retained candidate entities | 835 |
+| Promotion-eligible reviewed entities | 767 |
+| Research/QA entities | 68 |
+| Affirmatively excluded observations | 89 |
+| Effective excluded entity groups | 69 |
+| Append-only decisions | 290 |
 | Counties reviewed | 254 of 254 |
-| Counties with retained candidates | 179 |
-| Counties searched with none found | 75 |
-| Counties with promotion-eligible candidates | 172 |
+| Counties with retained candidates | 178 |
+| Counties searched with none found | 76 |
+| Counties with promotion-eligible candidates | 173 |
 
-Retained entity observation counts plus the 73 affirmatively excluded source
-observations reconcile exactly to all 1,062 observations. Multiple source
-observations can support one excluded entity group.
+Retained entity observation counts plus the 89 affirmatively
+excluded source observations reconcile exactly to all 1063 observations.
+Multiple source observations can support one excluded entity group.
 
 ## QA profile
 
-The 119 QA entities remain in `entities.csv`. Blockers overlap:
+The 68 QA entities remain in `entities.csv`. Blockers overlap:
 
 | Blocker | Entities |
 |---|---:|
-| County-equivalent missing | 58 |
-| Single grade-E discovery listing needs corroboration | 50 |
+| County-equivalent missing | 41 |
+| Single grade-E discovery listing needs corroboration | 21 |
 | City or safe public service area missing | 41 |
-| Member/vendor candidate needs independent farm-operation evidence | 40 |
-| Reopened assumed/parser-derived closure needs corroboration | 6 |
+| Member/vendor candidate needs independent farm-operation evidence | 11 |
 
 Missing geography, contact detail, or current corroboration does not imply that a
 farm is invalid or closed. The correct follow-up is enrichment from farm-owned,
 official, or independently corroborating sources.
 
-All 119 QA entities have explicit append-only `retain` decisions. These
-dispositions preserve the named candidates and document their blockers; they do
-not clear QA or authorize exclusion.
+## Reapplied actions
 
-## Cleansing actions in this checkpoint
-
-- Excluded 15 current farm identities outside Texas: Acadian Family Farm,
-  Brookshire Farm, Crispin Grass-Fed Beef, Dark Water Ranch, Desert Micro,
-  Floriography NM, Hardcastle Land and Cattle, Merry Meadows, Nitschke Natural
-  Beef/Circle N Ranch, Raccoon Bend Farms, La Semilla Food Center, Nature's
-  Comeback Bison Ranch, JX Ranch Natural Beef, Kingdom Cattle Co., and Hill
-  Crest Creamery LLC.
-- Excluded 11 current non-farm channel, processing, or retail records: Bluebonnet Meat
-  Company, Direct Source Meats, River City Produce, Scarmardo Foodservice,
-  Hiland Dairy, Gandy's Dairies, H-E-B, Moody's Quality Meats, and Tuttles Meat
-  Market, LCF Ranch, and Red River Beef Co.
-- Corroborated Augustus Ranch in Lavaca County and corrected Davis 20 Beef from
-  the source's Clay County classification to Wichita County. Also resolved Four
-  Winds Ranch, Hi Fi Mycology, JJJM Grass Fed Beef, Michael Neighbors, and
-  Ritchie Family Farms with current Texas farm evidence and geography.
-- Merged the duplicate JJJM Grass Fed Beef observation into the retained
-  Collin County entity; both source observations remain linked to that entity.
-- Merged the duplicate Val Verde Vegetables Co observation into the retained
-  Hidalgo County grower entity; the farm-owned site confirms the combined
-  operation.
-- Classified Beauty’s Community Garden as an `educational_farm` and resolved
-  ChefPax Microgreens as a current controlled-environment farm in Travis County.
-- Preserved every excluded observation and decision append-only; no record was
-  removed solely because information was missing.
+- Preserved main's existing affirmative exclusions and promotions; stale branch
+  retain decisions that would regress current main were not reintroduced.
+- Added current evidence-backed exclusions for non-farm channels, processors,
+  distributors, and confirmed closures, with each new decision superseding the
+  prior current disposition for that candidate.
+- Promoted current farms with new geography or farm-operation corroboration,
+  including Rio Fresh, Buena Tierra, Mid-Valley Ag, and Texas Tribal Buffalo
+  Project.
+- Consolidated Rio Fresh, South Tex Organics, Barnard Beef, and Val Verde
+  duplicate labels while retaining all source observation IDs.
+- Reflected curator verification for Davis 20 Beef as a second observation;
+  its entity row now has `obs=2` and evidence grades `C; E`.
 
 ## Promotion blockers
 
-1. Resolve or deliberately retain the remaining 119 QA candidates through
+1. Resolve or deliberately retain the remaining 68 QA candidates through
    append-only review; the interim task checkpoint is 50 or fewer.
 2. For canon-level `record_verified`, reduce the QA count to zero.
 3. Copy the immutable evidence objects to managed production storage.
-4. Re-run validation and bind owner approval to the resulting release
-   fingerprint.
+4. Re-run validation and bind owner approval to the resulting release fingerprint.
 5. Promote Texas atomically in a separate canonical-release change.
