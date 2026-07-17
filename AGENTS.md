@@ -37,11 +37,16 @@ storage referenced by checksum from `state.yaml`; they are never committed.
 - Canonical: 299 LA/MS rows; public site reads the generated
   `03-app/site/app/data/farms.json`. PostgreSQL cutover is staged, not canonical.
 - Staged coverage-reviewed states (entities / eligible / QA):
-  AL 808/799/9 · AR 766/524/242 · FL 1,515/205/1,310 · GA 1,738/554/1,184 ·
-  LA 1,200/964/236 · MS 737/576/161 · TN 3,121/1,589/1,532 · TX 855/736/119.
-- The QA backlog (4,793) is below the eligible set (5,947). Priority remains QA
-  throughput and enrichment (see `01-database/pipeline-enrichment-plan.md`),
-  not new-state collection.
+  AL 807/799/8 · AR 766/524/242 · FL 1,515/205/1,310 · GA 1,738/554/1,184 ·
+  LA 1,200/964/236 · MS 737/576/161 · NC 3,417/482/2,935 · SC 1,603/1,011/592 ·
+  TN 3,121/1,589/1,532 · TX 835/767/68.
+- **QA is the standing priority.** The queue (8,268) exceeds the eligible set
+  (7,471). No new-state collection until the QA queue is materially reduced;
+  work the strategies in priority order (see Active workstreams). The 2026-07-17
+  blocker analysis: ~3,886 rows are deterministic geography resolution (mostly
+  NC/SC county review), 2,511 need farm-operation evidence (TN/GA member
+  directories), 1,743 need single-grade-E corroboration (mostly FL), and only
+  ~82 are true case-by-case human QA.
 - The contract v2 validator enforces the evidence-grade gate: grade-F blocks
   eligibility; grade-E-only observation evidence requires a corroborating
   append-only decision at grade A–D.
@@ -84,13 +89,23 @@ python3 01-database/tools/validate_state_releases.py
 If the change touches `03-app/site/`, also run from that directory:
 `npm run data:validate`, `npm run lint`, `npm test`.
 
-## Active workstreams
+## Active workstreams (QA-first, in order)
 
-1. Re-apply the closed AL/TX QA disposition batches from current main
-   (research preserved on `codex/qa-alabama-identity`,
-   `codex/qa-texas-county-batches`, `codex/qa-texas-batch-03`).
-2. Source-tier ingestion policy, then geocoding enrichment, then automated
-   corroboration, then cross-state referrals — in that order, per
-   `01-database/pipeline-enrichment-plan.md`.
-3. PostgreSQL cutover of enriched release v2 (see
+1. **Geography QA batches** — resolve `county requires geography review` rows
+   (NC ~2,935, SC ~470, plus ~359 city/county-missing rows in other states)
+   with the Census place-reference and TIGERweb machinery already in
+   `collect_southeast.py` / `geocode_eligible.py`. Deterministic; append
+   `correct` decisions citing the Census source.
+2. **Corroboration batches** — run
+   `01-database/tools/corroboration_assistant.py` per state (FL first: 1,206
+   single-grade-E rows), then apply human-approved proposals as append-only
+   decisions with paired entity patches.
+3. **Farm-operation evidence batches** — TN (1,372) and GA (985)
+   member/vendor-directory candidates; use the assistant's cross-directory
+   pass plus targeted research.
+4. **True human QA tail** (~82 rows: identity conflicts, closure conflicts,
+   LA/MS baseline-not-rediscovered) — case-by-case with evidence.
+5. After QA: PostgreSQL cutover of enriched release v2 (see
    `03-app/site/docs/data-governance/cutover-runbook.md`).
+
+New-state collection is paused until the QA queue is materially reduced.
