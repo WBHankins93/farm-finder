@@ -27,6 +27,13 @@ from typing import Any
 
 from state_release_urls import classify_public_urls
 from state_policy import classify_candidate, validate_exclusion_reason
+from referrals import (
+    read_referrals,
+    referral_from_decision,
+    referral_observation as referral_candidate,
+    stage_referrals,
+    state_name,
+)
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from collect_alabama import (  # Reuse the tested transport and small HTML DOM.
@@ -137,6 +144,31 @@ def empty_observation(source_name: str, source_record_id: str, farm_name: str, s
         "evidence_grade": grade, "retrieved_date": TODAY, "promotion_status": "staged_pending_rules",
         "notes": "",
     }
+
+
+def referral_observations() -> list[Observation]:
+    """Turn open Texas referrals into explicit QA candidates."""
+    observations: list[Observation] = []
+    for referral in read_referrals("TX"):
+        candidate = referral_candidate(referral, "TX")
+        item = empty_observation(
+            candidate["source_name"], candidate["source_record_id"], candidate["farm_name"],
+            candidate["source_url"], 1, "E",
+        )
+        item.update({
+            "entity_type_source": "Cross-state referral",
+            "entity_type_review": "referral_requires_home_state_farm_operation_review",
+            "products": candidate["products"],
+            "business_types": candidate["business_types"],
+            "retrieved_date": candidate["retrieved_date"],
+            "notes": (
+                f"{candidate['evidence']} Observed market/channel in "
+                f"{referral['observed_market_state']}: {candidate['observed_market_channel']}. "
+                "Referral evidence confirms cross-state presence, not home-state operation or eligibility."
+            )[:1500],
+        })
+        observations.append(Observation(**item))
+    return observations
 
 
 def manual_verification_observations() -> tuple[list[Observation], set[str], list[dict[str, str]]]:
@@ -793,6 +825,17 @@ def main() -> int:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     STATE_DIR.mkdir(parents=True, exist_ok=True)
     logs = []; raw_sources: dict[str, Any] = {}; observations: list[Observation] = []; critical = []
+    queued_referrals = referral_observations()
+    observations.extend(queued_referrals)
+    if queued_referrals:
+        logs.append({
+            "url": str(ROOT / "research" / "collection-inputs" / "TX" / "referrals.csv"),
+            "attempts_used": 0, "http_status": 0, "bytes": 0, "sha256": "", "elapsed_seconds": 0,
+            "error": "", "pass": 1, "source_name": f"Cross-state referral queue — {state_name('TX')}",
+            "records_parsed": len(queued_referrals), "retrieved_at": now_iso(),
+            "source_decision": "referral_inputs_consumed",
+            "note": "Open referrals are staged as QA candidates for home-state collection.",
+        })
 
     county_body, log = fetch(USDA_COUNTIES_URL)
     try: county_rows = census_county_list(county_body) if county_body else []
@@ -977,6 +1020,11 @@ def main() -> int:
     raw_sources["youpicktexas_evaluation"] = {"accepted": 0, "reason": "Fictitious 555 contact and unclear provenance."}
 
     manual_observations, manual_excluded_keys, manual_records = manual_verification_observations()
+    stage_referrals(
+        referral_from_decision(record, "TX")
+        for record in manual_records
+        if clean_text(record.get("exclusion_reason")) == "outside_jurisdiction"
+    )
     observations.extend(manual_observations)
     raw_sources["manual_verification_decisions"] = manual_records
     logs.append({"url": str(MANUAL_VERIFICATION_DECISIONS), "attempts_used": 1, "http_status": 200,

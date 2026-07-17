@@ -3,6 +3,7 @@
 - `local_farm_database_final.xlsx` — the only current pre-cutover canonical authoring workbook: 299 corrected canonical rows (220 LA / 79 MS). Its `Database Summary`, `Research Queue`, `QA Queue`, and `Source Log` sheets keep the operational review system in the same file. Its release is pinned by `../03-app/site/config/source-of-truth.json`.
 - `market-opportunity-brief.md` — DONE (v1, 2026-07-12). Sourced brief incl. corrected "90% offline" framing.
 - `state-expansions/` — the enforced four-file contract for every coverage-reviewed state. Detailed evidence is private, compressed, checksum-pinned, and stored outside Git.
+- `collection-inputs/<ST>/referrals.csv` — additive cross-state collection inputs generated from `outside_jurisdiction` evidence. These are not a fifth state-release contract file; the home-state collector consumes open referrals as QA candidates.
 
 Older workbook and dashboard files are historical snapshots. Do not promote one by renaming it; update the source-of-truth manifest and pass its validator.
 

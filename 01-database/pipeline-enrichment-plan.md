@@ -35,6 +35,9 @@ display concern with privacy rules, not a trust gate.
 
 ## 2. Cross-state market presence and referrals
 
+Implementation status: staged referral generation and home-state pickup landed
+2026-07-16 in `01-database/tools/referrals.py`.
+
 Farms operate across state lines: a Mississippi farm may sell at a Louisiana
 farmers market, an expo, or a fair. Today the collector records an
 `outside_jurisdiction` exclusion in the collecting state (correct — states are the
@@ -54,6 +57,13 @@ state's research queue.
   tables in the PostgreSQL schema.
 - **Non-deletion unchanged:** the exclusion in the collecting state remains
   append-only and evidence-cited; the referral is additive.
+
+The committed input shape is `research/collection-inputs/<ST>/referrals.csv`.
+It is intentionally outside the four-file state-release contract. The referral
+tool retroactively reads every committed `outside_jurisdiction` decision and
+merges new collector or QA referrals idempotently. Collectors load open inputs
+as QA candidates on their next run; referral evidence is never treated as
+home-state operation verification or eligibility.
 
 ## 3. Automated corroboration
 
