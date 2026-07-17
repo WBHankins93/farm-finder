@@ -9,8 +9,8 @@
 ## Outcome
 
 The three documented collection passes retained **1,738 named candidates** from
-**1,873 immutable observations**. **554** currently meet staged
-field and evidence gates; **1,184** remain in explicit research/QA. Missing data never
+**1,873 immutable observations**. **558** currently meet staged
+field and evidence gates; **1,180** remain in explicit research/QA. Missing data never
 caused deletion or exclusion.
 
 ## Reconciliation
@@ -19,8 +19,8 @@ caused deletion or exclusion.
 |---|---:|
 | Immutable source observations | 1,873 |
 | Retained candidate entities | 1,738 |
-| Promotion-eligible reviewed entities | 554 |
-| Research/QA entities | 1,184 |
+| Promotion-eligible reviewed entities | 558 |
+| Research/QA entities | 1,180 |
 | Affirmatively excluded observations | 20 |
 | Identity review groups | 95 |
 | Counties reviewed | 159 of 159 |
@@ -81,3 +81,7 @@ Blocker counts overlap because one retained entity can require more than one fol
 2. Copy the immutable evidence objects to managed versioned storage.
 3. Record approval against the resulting release fingerprint.
 4. Promote Georgia atomically in a separate canonical-release change.
+
+## Judgment-only QA residue — 2026-07-17
+
+This append-only batch added **4** evidence decisions and made no exclusions. The current contract counts are **1,738 entities**, **558 promotion-eligible reviewed**, and **1,180 research/QA**. The remaining judgment-only residue is **0** rows: **0** canonical-baseline research items and **0** status items without affirmative current closure/operation evidence. Missing evidence remains a routed research blocker.
