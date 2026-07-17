@@ -8,7 +8,7 @@
 
 This multi-source collection retained **4377 source observations** and reconciled them into **3417 candidate entities**. **1139** pass the initial staging field gates and route to Validation review. **2278** remain in QA because required geography, production scope, outreach, or identity evidence is incomplete.
 
-The geography QA batch applied **1772** deterministic Census place-by-county proposals. The paired corrections are append-only grade-B decisions; eligible staging remains a handoff to Validation, not record verification or approval.
+The geography QA batch applied **1770** deterministic Census place-by-county proposals; two additional proposals were withheld because the resolved county collided with an existing same-name entity (`NC-868FE01B26`, `NC-50F76C606B`) and now await identity review. The paired corrections are append-only grade-B decisions; eligible staging remains a handoff to Validation, not record verification or approval.
 
 This is a broad source capture, not a claim that every operating farm in the state has been found. Directory overlap, stale listings, county gaps, and additional state-specific sources still require review.
 

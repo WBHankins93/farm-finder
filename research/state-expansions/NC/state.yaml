@@ -173,20 +173,20 @@
       "countiesWithCandidates": 99,
       "countiesWithEligibleEntities": 96,
       "sourceDatasets": 8,
-      "manualDecisions": 1772
+      "manualDecisions": 1770
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "af823cbb67de5373b6282124708ba3c57bfb18ee8ce9ff063ca5bcc7031d539e",
-        "bytes": 3385218
+        "sha256": "9f5f7a35ebb2d17462a8709ac8528bd26f01aa8a5db13893df2b7a45fea997b3",
+        "bytes": 3381982
       },
       "decisions.csv": {
-        "sha256": "74fb269cedd24bbadf5399d4d8dca49d5fc161ea15f014746df3bc4e564449d9",
-        "bytes": 1194474
+        "sha256": "e21202122c0c41ab9bd221b4b9fcecd88e264fe924ef42b0241c263af7752e1b",
+        "bytes": 1191667
       },
       "report.md": {
-        "sha256": "eb3b25fb13ded71078003bffeada8c5c6c36734cf1ecb0dd43d0f1706356a658",
-        "bytes": 2090
+        "sha256": "702376d08bf7dd02c9d99d77e77e6c4864f76fc6b7041599d22452f94fcb2b21",
+        "bytes": 2266
       }
     },
     "evidenceStorage": {
