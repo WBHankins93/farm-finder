@@ -9,8 +9,8 @@
 ## Outcome
 
 The three documented collection passes retained **737 named candidates** from
-**957 immutable observations**. **581** currently meet staged
-field and evidence gates; **156** remain in explicit research/QA. Missing data never
+**957 immutable observations**. **600** currently meet staged
+field and evidence gates; **137** remain in explicit research/QA. Missing data never
 caused deletion or exclusion. The observation total includes **79**
 canonical identity anchors that preserve the existing cleaned MS canon without counting it
 as a current collection pass.
@@ -21,8 +21,8 @@ as a current collection pass.
 |---|---:|
 | Immutable source observations | 957 |
 | Retained candidate entities | 737 |
-| Promotion-eligible reviewed entities | 581 |
-| Research/QA entities | 156 |
+| Promotion-eligible reviewed entities | 600 |
+| Research/QA entities | 137 |
 | Affirmatively excluded observations | 45 |
 | Identity review groups | 135 |
 | Counties reviewed | 82 of 82 |
@@ -76,12 +76,12 @@ Blocker counts overlap because one retained entity can require more than one fol
 | Blocker | Entities |
 |---|---:|
 | single grade-E discovery listing needs corroboration | 89 |
-| county missing | 49 |
+| county missing | 48 |
 | source reports closure and requires affirmative curator decision | 41 |
-| city or safe public service area missing | 30 |
-| directory candidate needs independent farm-operation evidence | 22 |
-| canonical baseline farm not rediscovered in current three-pass sources | 20 |
-| same normalized name appears in multiple counties | 4 |
+| city or safe public service area missing | 29 |
+| canonical baseline farm not rediscovered in current three-pass sources | 17 |
+| directory candidate needs independent farm-operation evidence | 3 |
+| same normalized name appears in multiple counties | 2 |
 
 ## Source passes
 
@@ -102,7 +102,7 @@ Blocker counts overlap because one retained entity can require more than one fol
 
 ## Promotion blockers
 
-1. Resolve the 156 QA candidates through current farm-owned or authoritative evidence.
+1. Resolve the 137 QA candidates through current farm-owned or authoritative evidence.
 2. Copy the immutable evidence objects to managed versioned storage.
 3. Record approval against the resulting release fingerprint.
 4. Promote Mississippi atomically in a separate canonical-release change.
