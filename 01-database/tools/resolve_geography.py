@@ -106,6 +106,12 @@ def resolve_state(
     conflicts: list[dict[str, Any]] = []
     unresolved: list[dict[str, Any]] = []
     targets = 0
+    occupied: dict[tuple[str, str], str] = {}
+    for row in entities:
+        occupied.setdefault(
+            (row.get("normalized_name", ""), row.get("county_equivalent", "")),
+            row.get("entity_id", ""),
+        )
     for row in entities:
         if row.get("promotion_status") != QA_STATUS:
             continue
@@ -124,6 +130,19 @@ def resolve_state(
             })
             continue
         _, county, county_fips = match
+        peer = occupied.get((row.get("normalized_name", ""), county), "")
+        if peer and peer != row.get("entity_id"):
+            # Resolving the county would collide with a same-name entity from
+            # another source — a duplicate-identity signal, not a geography fix.
+            conflicts.append({
+                "entity_id": row.get("entity_id"),
+                "city": city,
+                "existing_county": "",
+                "census_county": county,
+                "colliding_entity_id": peer,
+                "recommended_action": "route_to_human_identity_qa",
+            })
+            continue
         existing = (row.get("county_equivalent") or "").strip()
         if existing and normalized_county(existing) != county:
             conflicts.append({

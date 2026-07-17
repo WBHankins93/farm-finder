@@ -93,6 +93,20 @@ class ResolveStateTests(unittest.TestCase):
         self.assertIn("city missing", reasons)
         self.assertIn("unambiguous", reasons)
 
+    def test_same_name_entity_in_resolved_county_is_an_identity_conflict(self) -> None:
+        peer = qa_row(
+            entity_id="NC-PEER00001",
+            county_equivalent="Buncombe",
+            promotion_status="promotion_eligible_reviewed",
+            promotion_blockers="",
+        )
+        bundle = resolve_state("NC", [peer, qa_row()], self.reference)
+        self.assertEqual(bundle["resolved"], 0)
+        self.assertEqual(bundle["conflicts"], 1)
+        self.assertEqual(bundle["conflict_items"][0]["colliding_entity_id"], "NC-PEER00001")
+        self.assertEqual(bundle["conflict_items"][0]["recommended_action"],
+                         "route_to_human_identity_qa")
+
     def test_remaining_blockers_only_strips_geography_clauses(self) -> None:
         self.assertEqual(
             remaining_blockers("county missing; single grade-E discovery listing needs corroboration"),
