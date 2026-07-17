@@ -72,7 +72,8 @@ The farm page should answer “Is this the farm I want, and how do I buy from it
 5. Contact actions: call, website, social/store links, and map/directions where public and available.
 6. Before you go: freshness disclaimer and any source-backed schedule or access notes.
 7. Trust: last reviewed/verified date, source/provenance link or summary, location precision, and correction entry point.
-8. Personal layer: saved state and private note affordance.
+8. Market-circuit listings should eventually carry a **“find them at local markets”** badge. Their venue/service area is a discovery aid, not a fixed farm-gate address.
+9. Personal layer: saved state and private note affordance.
 
 Hours are not currently present in `app/data/farms.json` or the canonical farm model. Do not render fabricated hours or a blank “hours” section. Add structured, source-backed hours before making hours a committed UI requirement:
 

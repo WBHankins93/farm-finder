@@ -38,7 +38,8 @@ Every state directory contains exactly:
   [pipeline enrichment plan](pipeline-enrichment-plan.md); invalid tiers fail
   validation and untiered legacy sources warn until the state is recollected.
 - `entities.csv` — the normalized candidate table. It includes both promotion-
-  eligible rows and unresolved named candidates.
+  eligible rows and unresolved named candidates. New or touched rows also carry
+  the operating-model and public-location classifications defined below.
 - `decisions.csv` — append-only corrections, merges, corroborations, and affirmative
   exclusions with evidence references. Corrections supersede earlier decisions;
   they do not erase them.
@@ -74,6 +75,37 @@ eligible handoff for the next state.
 The shared field is `county_equivalent`. The displayed label is configured per
 state: county, parish, borough, census area, or independent city. Census/FIPS codes
 provide the stable national identity.
+
+### Operating model and public location
+
+Every new or touched entity should carry an `operating_model` classification:
+
+- `fixed_location_farm` — a farm or producer with a stable production or
+  customer-facing location that can be represented as its own public service
+  area.
+- `market_circuit` — a farm or small producer whose customer-facing operation
+  is conducted through recurring farmers markets, fairs, events, or other
+  shared/mobile venues rather than a fixed public farm gate.
+
+`market_circuit` is a positive operating-model classification, not an entity
+type, evidence grade, or promotion status. Its public location must use
+`public_location_classification: market_circuit_service_area`. The public city,
+county-equivalent, and any reduced-precision coordinate identify the documented
+venue/service area; they must not imply that the venue is the producer or expose
+the producer's private address. Venue contact and location may be the legitimate
+public path for this model, and venue-based contact/location is never an
+exclusion reason or a QA penalty by itself.
+
+The classification changes sorting and display only. It does not waive current
+operation, producer-type, product, corroboration, identity, or status evidence
+gates. A market-circuit row may therefore retain QA blockers for those other
+issues, but a venue-based contact/location gap alone must be resolved through
+the documented market/service-area evidence rather than treated as a defect.
+
+Legacy staged rows that predate this field remain valid until their next state
+rewrite; consumers should treat a missing value as `fixed_location_farm` only
+for backward compatibility, never as evidence that a fixed public farm gate
+exists.
 
 ### Collector pre-classification boundary
 

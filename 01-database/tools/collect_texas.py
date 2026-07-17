@@ -784,6 +784,7 @@ def reconcile(observations: list[Observation], excluded_candidate_keys: set[str]
             entity = {
                 "entity_id": entity_id, "farm_name": name, "normalized_name": key,
                 "entity_type": "producer_requires_type_review" if unconfirmed_member_or_vendor else "farm",
+                "operating_model": "fixed_location_farm",
                 "identity_decision": "merged_cross_county_identity_reviewed" if merge_cross else
                                      "split_due_county_conflict" if conflict else "merged_exact_name_reviewed" if len(items) > 1 else "unique_source_name_reviewed",
                 "state": "TX", "county": county, "city": city, "postal_code": choose(active, "postal_code"),

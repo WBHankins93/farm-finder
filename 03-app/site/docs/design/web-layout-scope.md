@@ -66,9 +66,10 @@ These are the most important constraints for the next implementation pass.
 4. Map failure must produce a clear retry action and preserve the list. Do not replace the whole explorer with a generic error screen.
 5. Empty, stale, and release-mismatch states are visible and truthful. Never silently show an older or different dataset release as if it were current.
 6. Approximate/city/region location precision is shown in profile and map context. Do not imply an exact farm-gate location where the source does not support it.
-7. “Near me” on the website uses foreground browser geolocation only after an explicit user action. A denied permission falls back to normal search and state filters.
-8. Map pins and clusters never imply live inventory, current opening hours, or product availability.
-9. The current site may continue using the static JSON adapter while API work is separate, but the UI contract should already include release metadata, stable IDs, precision, and freshness fields.
+7. Market-circuit listings are a distinct operating model from fixed-location farms. When the release supplies `operating_model: market_circuit` and `public_location_classification: market_circuit_service_area`, the eventual result/profile treatment should badge the listing **“find them at local markets”** and describe the map point as a venue/service area, not a farm gate.
+8. “Near me” on the website uses foreground browser geolocation only after an explicit user action. A denied permission falls back to normal search and state filters.
+9. Map pins and clusters never imply live inventory, current opening hours, or product availability.
+10. The current site may continue using the static JSON adapter while API work is separate, but the UI contract should already include release metadata, stable IDs, operating model, location classification, precision, and freshness fields.
 
 ## Wireframe states included
 
@@ -88,6 +89,7 @@ The website can safely wireframe and display the fields currently represented in
 - Farm name, category, state, city, parish/county, region.
 - Products and product text.
 - Public website, social presence, online store, contact visibility, and sales paths.
+- Operating model and public location classification, including market-circuit service areas.
 - Public map coordinates plus `geoPrecision`.
 - Source/provenance and verification/freshness metadata when available.
 

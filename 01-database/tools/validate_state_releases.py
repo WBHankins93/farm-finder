@@ -40,6 +40,8 @@ ALLOWED_COVERAGE_STATUSES = {
 ALLOWED_RELEASE_STATUSES = {
     "researching", "collected", "coverage_reviewed", "record_verified", "approved", "promoted",
 }
+OPERATING_MODELS = {"fixed_location_farm", "market_circuit"}
+MARKET_CIRCUIT_LOCATION = "market_circuit_service_area"
 ELIGIBLE_REQUIRED_FIELDS = [
     "entity_id", "farm_name", "entity_type", "identity_decision", "state",
     "county", "city", "products", "public_location_classification",
@@ -406,6 +408,21 @@ def _validate_v2_state(state: str, require_local_artifacts: bool) -> dict[str, A
     require(all(row.get("state") == state for row in entities), "entity has wrong state", errors)
     require(all(row.get("entity_id", "").startswith(state + "-") for row in entities),
             "entity ID has wrong state prefix", errors)
+    for row in entities:
+        operating_model = (row.get("operating_model") or "").strip()
+        location_classification = (row.get("public_location_classification") or "").strip()
+        if operating_model:
+            require(operating_model in OPERATING_MODELS,
+                    f"entity {row.get('entity_id')} has invalid operating_model", errors)
+            if operating_model == "market_circuit":
+                require(location_classification == MARKET_CIRCUIT_LOCATION,
+                        f"market-circuit entity {row.get('entity_id')} must use {MARKET_CIRCUIT_LOCATION}", errors)
+            else:
+                require(location_classification != MARKET_CIRCUIT_LOCATION,
+                        f"fixed-location entity {row.get('entity_id')} cannot use {MARKET_CIRCUIT_LOCATION}", errors)
+        elif location_classification == MARKET_CIRCUIT_LOCATION:
+            require(False,
+                    f"entity {row.get('entity_id')} has market-circuit location without operating_model", errors)
     eligible_fields = [
         "entity_id", "farm_name", "entity_type", "identity_decision", "state",
         "county_equivalent", "city", "products", "public_location_classification",
