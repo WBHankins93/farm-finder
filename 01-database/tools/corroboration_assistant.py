@@ -90,6 +90,12 @@ def split_values(value: str) -> list[str]:
     return [item.strip() for item in str(value or "").split(" | ") if item.strip()]
 
 
+def split_evidence_grades(value: str) -> list[str]:
+    """Read both legacy pipe-delimited and current semicolon-delimited grades."""
+
+    return [item.strip() for item in re.split(r"\s*(?:\||;)\s*", str(value or "")) if item.strip()]
+
+
 def normalize_text(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", str(value or "").casefold())
 
@@ -135,6 +141,12 @@ def source_plan_hosts(state_document: Mapping[str, Any]) -> set[str]:
 
 def is_farm_owned_website(url: str, directory_hosts: set[str]) -> tuple[bool, str]:
     if not is_valid_website(url):
+        return False, "invalid or shared website URL"
+    try:
+        parsed_host = urlparse(url).hostname or ""
+    except ValueError:
+        return False, "invalid or shared website URL"
+    if "%" in parsed_host:
         return False, "invalid or shared website URL"
     if host_matches(url, directory_hosts):
         return False, "directory or profile-platform host"
@@ -247,7 +259,7 @@ def make_observation(
 
 
 def entity_patch(entity: Mapping[str, str], observation: Mapping[str, Any]) -> dict[str, Any]:
-    old_grades = split_values(entity.get("evidence_grades", ""))
+    old_grades = split_evidence_grades(entity.get("evidence_grades", ""))
     new_grades = sorted(set(old_grades + [str(observation["evidence_grade"])]), key="ABCDEF".index)
     old_ids = split_values(entity.get("source_observation_ids", ""))
     old_sources = split_values(entity.get("source_names", ""))

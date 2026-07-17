@@ -29,11 +29,13 @@ The governing rule:
   new source is tiered before collection.
 - **Intake budget**: a PR that adds a *new* state fails the scope gate while
   the committed QA total (excluding the new state) exceeds the intake cap in
-  `assess_pr_scope.py` (`QA_INTAKE_CAP`, currently 36). The cap is roughly
-  1.5× the post-burn-down judgment-only floor: `ceil(1.5 × 24) = 36`; it does
-  not treat the larger automated geography, operation-evidence,
-  corroboration, or outreach queues as human intake capacity. The
-  `large-reviewed-change` label remains the explicitly reviewed exception.
+  `assess_pr_scope.py` (`QA_INTAKE_CAP`, currently 36). This total counts only
+  rows whose primary `qa_triage.py` route is a judgment strategy (`baseline`,
+  `identity`, or `status_conflict`). The cap is roughly 1.5× the
+  post-burn-down judgment-only floor: `ceil(1.5 × 24) = 36`; it does not treat
+  the larger automated geography, operation-evidence, corroboration, or
+  outreach queues as human intake capacity. The `large-reviewed-change` label
+  remains the explicitly reviewed exception.
 - **Referrals, not dead ends**: `outside_jurisdiction` exclusions emit
   home-state referrals instead of silently shedding candidates.
 
