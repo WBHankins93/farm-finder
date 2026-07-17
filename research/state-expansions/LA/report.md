@@ -9,8 +9,8 @@
 ## Outcome
 
 The three documented collection passes retained **1,200 named candidates** from
-**1,414 immutable observations**. **993** currently meet staged
-field and evidence gates; **207** remain in explicit research/QA. Missing data never
+**1,414 immutable observations**. **996** currently meet staged
+field and evidence gates; **204** remain in explicit research/QA. Missing data never
 caused deletion or exclusion. The observation total includes **220**
 canonical identity anchors that preserve the existing cleaned LA canon without counting it
 as a current collection pass.
@@ -21,8 +21,8 @@ as a current collection pass.
 |---|---:|
 | Immutable source observations | 1,414 |
 | Retained candidate entities | 1,200 |
-| Promotion-eligible reviewed entities | 993 |
-| Research/QA entities | 207 |
+| Promotion-eligible reviewed entities | 996 |
+| Research/QA entities | 204 |
 | Affirmatively excluded observations | 30 |
 | Identity review groups | 152 |
 | Counties reviewed | 64 of 64 |
@@ -77,12 +77,11 @@ Blocker counts overlap because one retained entity can require more than one fol
 | Blocker | Entities |
 |---|---:|
 | single grade-E discovery listing needs corroboration | 129 |
-| canonical baseline farm not rediscovered in current three-pass sources | 93 |
+| canonical baseline farm not rediscovered in current three-pass sources | 79 |
 | county missing | 44 |
 | city or safe public service area missing | 44 |
-| same normalized name appears in multiple counties | 16 |
-| directory candidate needs independent farm-operation evidence | 9 |
-| source reports closure and requires affirmative curator decision | 8 |
+| directory candidate needs independent farm-operation evidence | 6 |
+| source reports closure and requires affirmative curator decision | 6 |
 
 ## Source passes
 
@@ -103,7 +102,7 @@ Blocker counts overlap because one retained entity can require more than one fol
 
 ## Promotion blockers
 
-1. Resolve the 236 QA candidates through current farm-owned or authoritative evidence.
+1. Resolve the 204 QA candidates through current farm-owned or authoritative evidence.
 2. Copy the immutable evidence objects to managed versioned storage.
 3. Record approval against the resulting release fingerprint.
 4. Promote Louisiana atomically in a separate canonical-release change.

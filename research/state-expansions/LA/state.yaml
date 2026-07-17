@@ -259,8 +259,8 @@
     "counts": {
       "sourceObservations": 1414,
       "proposedEntities": 1200,
-      "promotionEligibleEntities": 993,
-      "researchOrQaEntities": 207,
+      "promotionEligibleEntities": 996,
+      "researchOrQaEntities": 204,
       "excludedObservations": 30,
       "excludedEntityGroups": 0,
       "identityReviewGroups": 152,
@@ -268,7 +268,7 @@
       "countiesWithCandidates": 64,
       "countiesWithEligibleEntities": 61,
       "sourceDatasets": 16,
-      "manualDecisions": 46,
+      "manualDecisions": 49,
       "canonicalBaselineObservations": 220,
       "currentSourceObservations": 1194,
       "operationStatusCounts": {
@@ -278,10 +278,10 @@
         "reported_closed_requires_review": 6,
         "unresolved_2026": 279
       },
-      "supportedOperatingEntities2026": 826,
-      "additionalLikelyOperatingEntities2026": 69,
-      "operationCountUpperSupportedRange": 895,
-      "operationScopeReviewEntities": 9,
+      "supportedOperatingEntities2026": 828,
+      "additionalLikelyOperatingEntities2026": 70,
+      "operationCountUpperSupportedRange": 898,
+      "operationScopeReviewEntities": 6,
       "operationIdentityReviewEntities": 22
     },
     "evidenceStorage": {
@@ -331,16 +331,16 @@
     "approval": {},
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "66270d6eab8caf44cdbf6c03d6485166313d757b7a0c0f29d6c70abde75b3e38",
-        "bytes": 1247679
+        "sha256": "463013ea93613917524c08fba67ba114bb1777b9eae3fc4e05ac13b33f21d96e",
+        "bytes": 1247436
       },
       "decisions.csv": {
-        "sha256": "1d006845f5b0ed6662a3ec0a11f08c792a24229e79148c834e54b7b27986852c",
-        "bytes": 30283
+        "sha256": "5ca0e6263fb53d579a5e93de1d3b50c4c199fd03723855edd682cc1424744f13",
+        "bytes": 33393
       },
       "report.md": {
-        "sha256": "a84162594b49a91114c47a66fff221ae80f720cbfc8aafb7264dfa88789a1684",
-        "bytes": 5992
+        "sha256": "bd20fb62175a5231ae5fa309384668e6dcccd54db375a2861790527c20bb5d87",
+        "bytes": 5933
       }
     }
   }
