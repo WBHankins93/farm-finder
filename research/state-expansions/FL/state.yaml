@@ -601,16 +601,16 @@
       ],
       "sourceRowCount": 299
     },
-    "id": "fl-coverage-reviewed-v1-2026-07-15",
+    "id": "fl-coverage-reviewed-v3-qa-2026-07-17",
     "status": "coverage_reviewed",
-    "generatedAt": "2026-07-16T01:40:43.977886+00:00",
+    "generatedAt": "2026-07-17T19:45:15+00:00",
     "promotionReady": false,
     "promotionBlockReason": "state approval and canonical promotion remain separate gates",
     "counts": {
-      "sourceObservations": 2049,
+      "sourceObservations": 2082,
       "proposedEntities": 1515,
-      "promotionEligibleEntities": 205,
-      "researchOrQaEntities": 1310,
+      "promotionEligibleEntities": 237,
+      "researchOrQaEntities": 1278,
       "excludedObservations": 2,
       "excludedEntityGroups": 0,
       "identityReviewGroups": 443,
@@ -618,7 +618,7 @@
       "countiesWithCandidates": 66,
       "countiesWithEligibleEntities": 53,
       "sourceDatasets": 46,
-      "manualDecisions": 0
+      "manualDecisions": 36
     },
     "evidenceStorage": {
       "provider": "s3-compatible",
@@ -636,7 +636,7 @@
         "objectKey": "state-expansions/FL/fl-coverage-reviewed-v1-2026-07-15/observations.csv.zst",
         "sha256": "015e34adf561c505ed321225ea8659feaa82175c66eb5d9130a8e304ff5d28cd",
         "bytes": 227910,
-        "rows": 2049,
+        "rows": 2082,
         "contentType": "application/zstd",
         "visibility": "private",
         "versionId": "local:015e34adf561c505ed321225"
@@ -667,16 +667,16 @@
     "approval": {},
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "8366083fd1e2402bc8c1e833c2b1781936f916433af134a281f02eb16b1e6187",
-        "bytes": 1156961
+        "sha256": "df40a9300e8a7459c92083320c872b720d69a99bf9a0739eb8f1e40e9446281f",
+        "bytes": 1162155
       },
       "decisions.csv": {
-        "sha256": "351c986bd0abaf978950a07447f73daa0f7704d9d53e2aaf079affb83181b3de",
-        "bytes": 260
+        "sha256": "ce663e9cad7bc547a92e3aac79cf1974da926c2572b56738f314ed312e8b99ad",
+        "bytes": 22443
       },
       "report.md": {
-        "sha256": "8e9cb2691fdb362ccc2b37edfbdc9e2443fb53ea0493f5d97f4b784043f3f690",
-        "bytes": 5385
+        "sha256": "733e07b9ef8d96ce954ddf58f4f15941aa9a4dfc75ce2f5518ba7644505f854d",
+        "bytes": 9413
       }
     }
   }
