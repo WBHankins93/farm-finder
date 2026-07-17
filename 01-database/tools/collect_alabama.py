@@ -30,6 +30,12 @@ from typing import Any, Iterable
 
 from state_release_urls import classify_public_urls
 from state_policy import classify_candidate
+from referrals import (
+    read_referrals,
+    referral_from_observation,
+    referral_observation as referral_candidate,
+    stage_referrals,
+)
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -293,6 +299,31 @@ def empty_observation(source_name: str, source_record_id: str, farm_name: str, s
     }
 
 
+def referral_observations() -> list[Observation]:
+    """Turn open Alabama referrals into explicit QA candidates."""
+    observations: list[Observation] = []
+    for referral in read_referrals("AL"):
+        candidate = referral_candidate(referral, "AL")
+        item = empty_observation(
+            candidate["source_name"], candidate["source_record_id"], candidate["farm_name"],
+            candidate["source_url"], 1, "E",
+        )
+        item.update({
+            "entity_type_source": "Cross-state referral",
+            "entity_type_review": "referral_requires_home_state_farm_operation_review",
+            "products": candidate["products"],
+            "business_types": candidate["business_types"],
+            "retrieved_date": candidate["retrieved_date"],
+            "notes": (
+                f"{candidate['evidence']} Observed market/channel in "
+                f"{referral['observed_market_state']}: {candidate['observed_market_channel']}. "
+                "Referral evidence confirms cross-state presence, not home-state operation or eligibility."
+            )[:1500],
+        })
+        observations.append(Observation(**item))
+    return observations
+
+
 def sweet_observation(member: dict[str, Any]) -> Observation:
     name = clean_text(member.get("name"))
     row = empty_observation("Sweet Grown Alabama — Farm members", clean_text(member.get("id")),
@@ -313,9 +344,15 @@ def sweet_observation(member: dict[str, Any]) -> Observation:
         "u_pick": bool(member.get("purchase_pick_your_own")), "wholesale": bool(member.get("purchase_wholesale")),
         "farm_to_school": bool(member.get("purchase_farm_to_school")), "retail_sales": bool(member.get("purchase_retail")),
         "restaurant_sales": bool(member.get("purchase_restaurant")), "hours_or_season": clean_text(member.get("hours_of_operation")),
-        "notes": clean_text(member.get("bio")),
+        "notes": _joined_notes(member),
     })
     return Observation(**row)
+
+
+def _joined_notes(member: dict[str, Any]) -> str:
+    source_state = clean_text(member.get("state") or member.get("state_name"))
+    notes = clean_text(member.get("bio"))
+    return "; ".join(value for value in (f"Source state: {source_state}" if source_state else "", notes) if value)
 
 
 def fma_observation(record: dict[str, Any], kind: str, url: str) -> Observation:
@@ -785,6 +822,7 @@ def main() -> int:
     raw_sources: dict[str, Any] = {}
     observations: list[Observation] = []
     critical_errors: list[str] = []
+    observations.extend(referral_observations())
 
     sweet_body, log = fetch(SWEET_GROWN_URL)
     try: sweet = extract_sweet_grown_members(sweet_body) if sweet_body else []
@@ -913,8 +951,12 @@ def main() -> int:
     for item in observations:
         if not item.county and item.source_name.startswith("Sweet Grown") and item.postal_code and not item.postal_code.startswith(("35", "36")):
             item.evidence_grade = "F"
-            item.promotion_status = "excluded_wrong_state_geography"
+            item.promotion_status = "excluded_outside_jurisdiction"
             item.notes = clean_text(item.notes + " Source address/coordinates resolve outside Alabama; retained as a boundary exception.")
+
+    outside_observations = [item for item in observations if item.promotion_status == "excluded_outside_jurisdiction"]
+    if outside_observations:
+        stage_referrals((referral_from_observation(asdict(item), "AL") for item in outside_observations))
 
     address_targets = [item for item in observations if not item.county and item.evidence_grade != "F" and item.city and item.postal_code]
     with ThreadPoolExecutor(max_workers=6) as executor:

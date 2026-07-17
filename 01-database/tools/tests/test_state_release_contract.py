@@ -48,6 +48,16 @@ from audit_operation_evidence import dated_active_excerpt  # noqa: E402
 import migrate_state_contract_v2 as migration  # noqa: E402
 import validate_state_releases as validation  # noqa: E402
 from validate_state_releases import STATE_ROOT, release_fingerprint, validate_state  # noqa: E402
+from referrals import (  # noqa: E402
+    REFERRAL_FIELDS,
+    infer_home_state,
+    read_referrals,
+    referral_from_decision,
+    referral_from_observation,
+    referrals_from_committed_decisions,
+    stage_referrals,
+    validate_referral_inputs,
+)
 
 
 class StateReleaseUrlTests(unittest.TestCase):
@@ -126,6 +136,84 @@ class CandidateRetentionPolicyTests(unittest.TestCase):
     def test_grade_f_observations_block_eligibility_even_when_corroborated(self) -> None:
         self.assertFalse(sufficient_promotion_evidence("B; F"))
         self.assertFalse(sufficient_promotion_evidence("F", ["A"]))
+
+
+class ReferralInputTests(unittest.TestCase):
+    def test_home_state_inference_discards_collecting_state(self) -> None:
+        self.assertEqual(
+            infer_home_state(
+                "The operation is in a New Mexico community and serves Texas buyers.",
+                collecting_state="TX",
+            ),
+            "NM",
+        )
+
+    def test_decision_becomes_home_state_referral_with_market_presence(self) -> None:
+        row = referral_from_decision({
+            "review_id": "tx-1",
+            "farm_name": "Example Farm",
+            "exclusion_reason": "outside_jurisdiction",
+            "decision_basis": "The farm-owned site places the operation in Louisiana, outside Texas.",
+            "notes": "The Texas directory was the collecting source.",
+            "source_url": "https://example.test/evidence",
+            "retrieved_date": "2026-07-15",
+            "business_types": "Farmers market; direct sales",
+            "products": "Vegetables",
+            "evidence_grade": "C",
+            "verified_entity_type": "farm",
+        }, "TX")
+        self.assertEqual(row["home_state"], "LA")
+        self.assertEqual(row["observed_market_state"], "TX")
+        self.assertIn("Farmers market", row["observed_market_channel"])
+        self.assertEqual(row["source_decision_id"], "tx-1")
+
+    def test_retroactive_generation_covers_all_current_outside_decisions(self) -> None:
+        referrals = referrals_from_committed_decisions()
+        self.assertEqual(len(referrals), 20)
+        self.assertIn("Ganus Farms", {row["farm_name"] for row in referrals})
+        self.assertEqual(
+            {row["home_state"] for row in referrals if row["farm_name"] == "Ganus Farms"},
+            {"MS"},
+        )
+
+    def test_staging_is_idempotent_and_is_not_a_state_contract_file(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            row = referral_from_decision({
+                "review_id": "al-1",
+                "farm_name": "Ganus Farms",
+                "exclusion_reason": "outside_jurisdiction",
+                "decision_basis": "The farm is in Mississippi, outside Alabama.",
+                "source_url": "https://example.test/ganus",
+                "retrieved_date": "2026-07-15",
+            }, "AL")
+            stage_referrals([row], root=root)
+            stage_referrals([row], root=root)
+            path = root / "research" / "collection-inputs" / "MS" / "referrals.csv"
+            self.assertEqual(path.read_text(encoding="utf-8").count("Ganus Farms"), 1)
+            self.assertEqual(read_referrals("MS", root=root)[0]["collecting_state"], "AL")
+            self.assertEqual(validate_referral_inputs(root=root)["status"], "passed")
+            self.assertNotIn("referrals.csv", {item.name for item in (root / "research" / "state-expansions" / "MS").glob("*")} if (root / "research" / "state-expansions" / "MS").exists() else set())
+
+    def test_referral_input_header_is_explicit(self) -> None:
+        self.assertEqual(REFERRAL_FIELDS[0], "referral_id")
+        self.assertIn("observed_market_channel", REFERRAL_FIELDS)
+
+    def test_collector_observation_becomes_referral(self) -> None:
+        row = referral_from_observation({
+            "observation_id": "arobs-1",
+            "farm_name": "Example Farm",
+            "source_name": "LocalHarvest — Arkansas",
+            "source_url": "https://example.test/profile",
+            "retrieved_date": "2026-07-16",
+            "business_types": "Farmers market vendor",
+            "products": "Vegetables",
+            "evidence_grade": "E",
+            "notes": "Source location is Louisiana, outside AR; retained as exclusion evidence.",
+        }, "AR")
+        self.assertEqual((row["home_state"], row["collecting_state"]), ("LA", "AR"))
+        self.assertEqual(row["source_record_id"], "arobs-1")
+        self.assertIn("Farmers market", row["observed_market_channel"])
 
     def test_malformed_csv_shape_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

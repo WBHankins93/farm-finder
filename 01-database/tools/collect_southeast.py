@@ -41,6 +41,13 @@ from collect_alabama import (
 )
 from state_policy import classify_candidate
 from state_release_urls import classify_public_urls
+from referrals import (
+    read_referrals,
+    referral_from_observation,
+    referral_observation as referral_candidate,
+    state_name,
+    stage_referrals,
+)
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -346,6 +353,36 @@ def empty_observation(
         "promotion_status": "staged_pending_rules",
         "notes": "",
     }
+
+
+def referral_observations(state: str) -> list[Observation]:
+    """Turn open home-state referrals into explicit QA candidates."""
+    observations: list[Observation] = []
+    for referral in read_referrals(state):
+        candidate = referral_candidate(referral, state)
+        item = empty_observation(
+            state,
+            candidate["source_name"],
+            candidate["source_record_id"],
+            candidate["farm_name"],
+            candidate["source_url"],
+            1,
+            "E",
+        )
+        item.update({
+            "entity_type_source": "Cross-state referral",
+            "entity_type_review": "referral_requires_home_state_farm_operation_review",
+            "products": candidate["products"],
+            "business_types": candidate["business_types"],
+            "retrieved_date": candidate["retrieved_date"],
+            "notes": (
+                f"{candidate['evidence']} Observed market/channel in "
+                f"{referral['observed_market_state']}: {candidate['observed_market_channel']}. "
+                "Referral evidence confirms cross-state presence, not home-state operation or eligibility."
+            )[:1500],
+        })
+        observations.append(Observation(**item))
+    return observations
 
 
 def logged(log: dict[str, Any], pass_number: int, name: str, records: int, decision: str, note: str = "") -> dict[str, Any]:
@@ -3272,6 +3309,17 @@ def main() -> int:
     output = ROOT / "data" / "source-releases" / "work" / state
     output.mkdir(parents=True, exist_ok=True)
     observations: list[Observation] = []; logs: list[dict[str, Any]] = []; raw_sources: dict[str, Any] = {}; critical: list[str] = []
+    queued_referrals = referral_observations(state)
+    observations.extend(queued_referrals)
+    if queued_referrals:
+        logs.append({
+            "url": str(ROOT / "research" / "collection-inputs" / state / "referrals.csv"),
+            "attempts_used": 0, "http_status": 0, "bytes": 0, "sha256": "", "elapsed_seconds": 0,
+            "error": "", "pass": 1, "source_name": f"Cross-state referral queue — {state_name(state)}",
+            "records_parsed": len(queued_referrals), "retrieved_at": now_iso(),
+            "source_decision": "referral_inputs_consumed",
+            "note": "Open referrals are staged as QA candidates for home-state collection.",
+        })
 
     counties, county_log = county_denominator(state, config); logs.append(county_log)
     if len(counties) != config["county_count"]: critical.append(f"County denominator expected {config['county_count']}, received {len(counties)}")
@@ -3362,6 +3410,10 @@ def main() -> int:
         if item.county and not item.county_fips: item.county_fips = county_fips.get(item.county, "")
     retained_observations = [item for item in observations if item.promotion_status != "excluded_outside_jurisdiction"]
     excluded_observations = [item for item in observations if item.promotion_status == "excluded_outside_jurisdiction"]
+    if excluded_observations:
+        stage_referrals(
+            (referral_from_observation(asdict(item), state) for item in excluded_observations)
+        )
     name_counts = Counter(item.candidate_key for item in retained_observations if item.candidate_key)
     for item in retained_observations:
         if name_counts[item.candidate_key] > 1: item.identity_review_status = "exact_normalized_name_group_requires_reconciliation"

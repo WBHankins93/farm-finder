@@ -22,6 +22,7 @@ from state_policy import (
     source_tier_issues,
     sufficient_promotion_evidence,
 )
+from referrals import validate_referral_inputs
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -599,8 +600,9 @@ def main() -> int:
         path.name for path in STATE_ROOT.iterdir() if path.is_dir() and len(path.name) == 2
     )
     results = [validate_state(state, args.require_local_artifacts) for state in states]
-    status = "passed" if all(row["status"] == "passed" for row in results) else "failed"
-    print(json.dumps({"status": status, "contractVersion": 2, "states": results}, indent=2))
+    referrals = validate_referral_inputs(root=ROOT)
+    status = "passed" if all(row["status"] == "passed" for row in results) and referrals["status"] == "passed" else "failed"
+    print(json.dumps({"status": status, "contractVersion": 2, "states": results, "referrals": referrals}, indent=2))
     return 0 if status == "passed" else 1
 
 
