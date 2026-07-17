@@ -131,11 +131,11 @@ class CorroborationAssistantTests(unittest.TestCase):
         self.assertEqual(result["qa_review_items"][0]["conflict_fields"][0]["field"], "county_equivalent")
         self.assertEqual(result["draft_decisions"], [])
 
-    def test_arkansas_pilot_selector_is_exactly_sixty_seven_rows(self) -> None:
+    def test_arkansas_selector_has_sixty_one_rows_after_first_apply_batch(self) -> None:
         path = Path(__file__).resolve().parents[3] / "research/state-expansions/AR/entities.csv"
         rows = assistant.read_csv(path)
         selected = assistant.target_rows(rows, [assistant.QA_BLOCKER])
-        self.assertEqual(len(selected), 67)
+        self.assertEqual(len(selected), 61)
         self.assertTrue(all(row["promotion_status"] == assistant.QA_STATUS for row in selected))
 
 
