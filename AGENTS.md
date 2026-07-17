@@ -32,18 +32,18 @@ is historical or local scratch — never an editable authority. Raw observations
 request logs, and QA/identity/geography diagnostics live in versioned object
 storage referenced by checksum from `state.yaml`; they are never committed.
 
-## Current state (2026-07-16)
+## Current state (2026-07-17)
 
 - Canonical: 299 LA/MS rows; public site reads the generated
   `03-app/site/app/data/farms.json`. PostgreSQL cutover is staged, not canonical.
-- Staged coverage-reviewed states (entities / eligible / QA):
-  AL 807/800/7 · AR 766/524/242 · FL 1,515/208/1,307 · GA 1,738/558/1,180 ·
-  LA 1,200/993/207 · MS 737/581/156 · NC 3,415/1,139/2,276 · SC 1,601/1,018/583 ·
+- Staged states (entities / eligible / QA):
+  AL 807/800/7 · AR 766/553/213 · FL 1,515/237/1,278 · GA 1,738/558/1,180 ·
+  LA 1,200/993/207 · MS 737/581/156 · NC 3,415/2,208/1,207 · SC 1,601/1,148/453 ·
   TN 3,121/1,602/1,519 · TX 835/769/66.
-- **QA is the standing priority.** The post-burn-down queue is 7,543 rows
-  against 8,192 eligible handoff rows; no new-state collection until the QA
-  queue is materially reduced. Current routed totals are 2,587 geography,
-  2,323 operation-evidence, 1,410 corroboration, 1,199 outreach, and a
+- **QA is the standing priority.** The current committed queue is 6,286 rows
+  against 9,449 eligible handoff rows; no new-state collection until the QA
+  queue is materially reduced. Current routed totals are 2,597 geography,
+  2,298 operation-evidence, 1,367 corroboration, and a
   24-row judgment-only floor: 21 canonical-baseline research items plus 3
   unresolved status cases. The 2026-07-17 residue batch applied 86
   append-only identity, status, and baseline decisions; missing evidence did
@@ -99,15 +99,15 @@ batches, and new-state collection PRs fail the scope gate while the committed
 QA queue exceeds the intake cap.
 
 1. **Geography QA batches** — resolve `county requires geography review` rows
-   (NC ~2,935, SC ~470, plus ~359 city/county-missing rows in other states)
+   (NC 1,142, SC 397, plus 1,058 city/county-missing rows in other states)
    with the Census place-reference and TIGERweb machinery already in
    `collect_southeast.py` / `geocode_eligible.py`. Deterministic; append
    `correct` decisions citing the Census source.
 2. **Corroboration batches** — run
-   `01-database/tools/corroboration_assistant.py` per state (FL first: 1,206
+   `01-database/tools/corroboration_assistant.py` per state (FL first: 874
    single-grade-E rows), then apply human-approved proposals as append-only
    decisions with paired entity patches.
-3. **Farm-operation evidence batches** — TN (1,372) and GA (985)
+3. **Farm-operation evidence batches** — TN (1,407) and GA (692)
    member/vendor-directory candidates; use the assistant's cross-directory
    pass plus targeted research.
 4. **True human QA tail** (24 remaining rows after the 2026-07-17 batch: 21
