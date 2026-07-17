@@ -9,8 +9,8 @@
 ## Outcome
 
 The three documented collection passes retained **766 named candidates** from
-**875 immutable observations**. **528** currently meet staged
-field and evidence gates; **238** remain in explicit research/QA. Missing data never
+**875 immutable observations**. **553** currently meet staged
+field and evidence gates; **213** remain in explicit research/QA. Missing data never
 caused deletion or exclusion.
 
 The corroboration QA batch screened the full **79-row** primary corroboration
@@ -26,8 +26,8 @@ verification, approval, or canonical promotion.
 |---|---:|
 | Immutable source observations | 875 |
 | Retained candidate entities | 766 |
-| Promotion-eligible reviewed entities | 528 |
-| Research/QA entities | 238 |
+| Promotion-eligible reviewed entities | 553 |
+| Research/QA entities | 213 |
 | Affirmatively excluded observations | 65 |
 | Identity review groups | 38 |
 | Counties reviewed | 75 of 75 |
@@ -85,7 +85,7 @@ staging moved from **524 to 528**, and unrouted QA remained **0**.
 
 ## Promotion blockers
 
-1. Resolve the 238 QA candidates through current farm-owned or authoritative evidence.
+1. Resolve the 213 QA candidates through current farm-owned or authoritative evidence.
 2. Copy the immutable evidence objects to managed versioned storage.
 3. Record approval against the resulting release fingerprint.
 4. Promote Arkansas atomically in a separate canonical-release change.

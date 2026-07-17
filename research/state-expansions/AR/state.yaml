@@ -181,8 +181,8 @@
     "counts": {
       "sourceObservations": 875,
       "proposedEntities": 766,
-      "promotionEligibleEntities": 528,
-      "researchOrQaEntities": 238,
+      "promotionEligibleEntities": 553,
+      "researchOrQaEntities": 213,
       "excludedObservations": 65,
       "excludedEntityGroups": 0,
       "identityReviewGroups": 38,
@@ -190,19 +190,19 @@
       "countiesWithCandidates": 75,
       "countiesWithEligibleEntities": 67,
       "sourceDatasets": 11,
-      "manualDecisions": 4
+      "manualDecisions": 37
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "5e5ebc02053b1ac568caeabc13458928b47239c0cbaa4fbbe1857b8e483845f9",
-        "bytes": 654313
+        "sha256": "0cde544d216cac5c5315cfa24a68c96a2ddcc7bb3af4ada97b5a44183199637c",
+        "bytes": 651634
       },
       "decisions.csv": {
-        "sha256": "6da14c3a2b6a8143603fccc25fc074118152489f6589763f984645132a90026b",
-        "bytes": 2480
+        "sha256": "322c26c03d33b63a4ef1fc73c4f920910b57bbed4969e57d1a2bfb6f0b51e35d",
+        "bytes": 34856
       },
       "report.md": {
-        "sha256": "0b818708b573be0ddb4043200c1bb9bebed778bc15de375c88aee4d445cfea43",
+        "sha256": "db53534e3c863fb362a79c40216299701167a2e752d81640727e588f7dfd2a0f",
         "bytes": 4399
       }
     },
