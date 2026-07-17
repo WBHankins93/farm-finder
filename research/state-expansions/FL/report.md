@@ -9,8 +9,8 @@
 ## Outcome
 
 The three documented collection passes retained **1,515 named candidates** from
-**2,056 immutable observations**. **210** currently meet staged
-field and evidence gates; **1,305** remain in explicit research/QA. Missing data never
+**2,056 immutable observations**. **213** currently meet staged
+field and evidence gates; **1,302** remain in explicit research/QA. Missing data never
 caused deletion or exclusion.
 
 The corroboration QA batch reviewed all **11** assistant proposals, accepted
@@ -26,8 +26,8 @@ approval, or canonical promotion.
 |---|---:|
 | Immutable source observations | 2,056 |
 | Retained candidate entities | 1,515 |
-| Promotion-eligible reviewed entities | 210 |
-| Research/QA entities | 1,305 |
+| Promotion-eligible reviewed entities | 213 |
+| Research/QA entities | 1,302 |
 | Affirmatively excluded observations | 2 |
 | Identity review groups | 443 |
 | Counties reviewed | 67 of 67 |
@@ -100,7 +100,7 @@ Blocker counts overlap because one retained entity can require more than one fol
 | directory candidate needs independent farm-operation evidence | 459 |
 | city or safe public service area missing | 346 |
 | products or farm activity missing | 246 |
-| source reports closure and requires affirmative curator decision | 63 |
+| source reports closure and requires affirmative curator decision | 61 |
 | county missing | 61 |
 | same normalized name appears in multiple counties | 31 |
 | county requires geography review due cross-directory conflict | 3 |
@@ -149,3 +149,7 @@ no conflict item received a corroborate decision.
 2. Copy the immutable evidence objects to managed versioned storage.
 3. Record approval against the resulting release fingerprint.
 4. Promote Florida atomically in a separate canonical-release change.
+
+## Judgment-only QA residue — 2026-07-17
+
+This append-only batch added **3** evidence decisions and made no exclusions. The current contract counts are **1,515 entities**, **213 promotion-eligible reviewed**, and **1,302 research/QA**. The remaining judgment-only residue is **0** rows: **0** canonical-baseline research items and **0** status items without affirmative current closure/operation evidence. Missing evidence remains a routed research blocker.
