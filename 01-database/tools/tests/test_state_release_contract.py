@@ -575,7 +575,7 @@ class CurrentStateContractTests(unittest.TestCase):
                 self.assertEqual(result["status"], "passed", result["errors"])
 
     def test_coverage_review_is_not_promotion_approval(self) -> None:
-        for state in ("AL", "AR", "FL", "GA", "TN", "TX"):
+        for state in ("AR", "FL", "GA", "TN", "TX"):
             result = state_status(state)
             self.assertEqual(result["lifecycleStatus"], "coverage_reviewed")
             self.assertFalse(result["promotionReady"])
@@ -583,12 +583,19 @@ class CurrentStateContractTests(unittest.TestCase):
             self.assertTrue(result["eligibleStagingReady"])
             self.assertTrue(result["counts"]["qa"] > 0)
 
+        al = state_status("AL")
+        self.assertEqual(al["lifecycleStatus"], "record_verified")
+        self.assertFalse(al["promotionReady"])
+        self.assertFalse(al["promotable"])
+        self.assertTrue(al["eligibleStagingReady"])
+        self.assertEqual(al["counts"]["qa"], 0)
+
     def test_eligible_handoff_keeps_qa_state_scoped(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             handoff = export_state("AL", Path(temporary))
             self.assertEqual(handoff["status"], "eligible_staged")
-            self.assertEqual(handoff["eligibleCount"], 800)
-            self.assertEqual(handoff["qaCount"], 7)
+            self.assertEqual(handoff["eligibleCount"], 807)
+            self.assertEqual(handoff["qaCount"], 0)
             self.assertEqual(handoff["qaPolicy"], "deferred_state_scoped_review")
             self.assertTrue((Path(temporary) / "AL" / "eligible-entities.csv").is_file())
             self.assertTrue((Path(temporary) / "AL" / "qa-queue.csv").is_file())
