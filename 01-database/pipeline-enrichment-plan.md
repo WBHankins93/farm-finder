@@ -26,7 +26,9 @@ display concern with privacy rules, not a trust gate.
 - **Privacy:** internal addresses (`address_internal`) may be geocoded only to
   produce *reduced-precision* public coordinates, consistent with
   `public_location_classification`. Never emit exact coordinates for
-  internal-only addresses.
+  internal-only addresses. `market_circuit_service_area` rows use the
+  documented venue/service area and must never be geocoded from the producer's
+  internal address as if it were a fixed farm location.
 - **Mechanics:** reuse the FCC/Census geocoder paths already in
   `collect_southeast.py` and the cache pattern in
   `03-app/site/scripts/geocode-cache.json`; three attempts, cached results,
