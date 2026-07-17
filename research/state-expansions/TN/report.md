@@ -9,8 +9,8 @@
 ## Outcome
 
 The three documented collection passes retained **3,121 named candidates** from
-**5,551 immutable observations**. **1,589** currently meet staged
-field and evidence gates; **1,532** remain in explicit research/QA. Missing data never
+**5,551 immutable observations**. **1,602** currently meet staged
+field and evidence gates; **1,519** remain in explicit research/QA. Missing data never
 caused deletion or exclusion. The observation total includes **0**
 canonical identity anchors that preserve the existing cleaned TN canon without counting it
 as a current collection pass.
@@ -21,8 +21,8 @@ as a current collection pass.
 |---|---:|
 | Immutable source observations | 5,551 |
 | Retained candidate entities | 3,121 |
-| Promotion-eligible reviewed entities | 1,589 |
-| Research/QA entities | 1,532 |
+| Promotion-eligible reviewed entities | 1,602 |
+| Research/QA entities | 1,519 |
 | Affirmatively excluded observations | 0 |
 | Identity review groups | 194 |
 | Counties reviewed | 95 of 95 |
@@ -105,3 +105,7 @@ Blocker counts overlap because one retained entity can require more than one fol
 2. Copy the immutable evidence objects to managed versioned storage.
 3. Record approval against the resulting release fingerprint.
 4. Promote Tennessee atomically in a separate canonical-release change.
+
+## Judgment-only QA residue — 2026-07-17
+
+This append-only batch added **13** evidence decisions and made no exclusions. The current contract counts are **3,121 entities**, **1,602 promotion-eligible reviewed**, and **1,519 research/QA**. The remaining judgment-only residue is **0** rows: **0** canonical-baseline research items and **0** status items without affirmative current closure/operation evidence. Missing evidence remains a routed research blocker.
