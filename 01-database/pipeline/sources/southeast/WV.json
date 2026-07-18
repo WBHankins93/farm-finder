@@ -1,13 +1,43 @@
 {
   "state": "WV",
+  "name": "West Virginia",
   "region": "southeast",
+  "countyEquivalentLabel": "county",
   "sources": [
     {
-      "id": "wvg-2025-seed",
+      "id": "wvsrc-wvgrown-seed",
       "name": "West Virginia Grown 2025 directory — reviewed capture (EP/MOV/NC/NP)",
       "adapter": "seed",
       "path": "seeds/WV.json",
-      "notes": "164 members hand-parsed from the four downloadable WV Grown 2025 regional PDFs (agriculture.wv.gov). The generic pdf_list adapter under-reads the two-column magazine layout, so the reviewed capture is committed as a seed and re-emitted idempotently. The SW and SE regions ship only as JavaScript flipbooks with no downloadable PDF — not yet captured (needs a browser-rendered pass). Regenerate: python3 run.py --state WV."
+      "notes": "164 members hand-parsed from the four downloadable WV Grown 2025 regional PDFs (agriculture.wv.gov); the generic pdf_list adapter under-reads the two-column magazine layout. The SW and SE regions ship only as JavaScript flipbooks (no PDF) and remain uncaptured — a browser-rendered pass would add them to this seed."
+    },
+    {
+      "id": "wvsrc-usfarmtrail",
+      "name": "U.S. Farm Trail — West Virginia",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=west-virginia",
+      "adapter": "api",
+      "notes": "Public GeoJSON farm directory (~232). County and identity corroboration remains QA."
+    },
+    {
+      "id": "wvsrc-eatwild",
+      "name": "EatWild — West Virginia",
+      "url": "https://www.eatwild.com/products/westvirginia.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory; county and current-operation review remains QA."
+    },
+    {
+      "id": "wvsrc-pickyourown",
+      "name": "PickYourOwn — West Virginia",
+      "url": "https://www.pickyourown.org/WV.htm",
+      "adapter": "html_table",
+      "notes": "Regional U-pick pages; current-operation review remains QA."
+    },
+    {
+      "id": "wvsrc-localharvest",
+      "name": "LocalHarvest — West Virginia",
+      "url": "https://www.localharvest.org/west-virginia/",
+      "adapter": "html_table",
+      "notes": "Rate-limited/bot-blocked; fetched best-effort and skipped gracefully when unavailable."
     }
   ]
 }

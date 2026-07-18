@@ -44,7 +44,10 @@ class TestHtmlTableAdapter(unittest.TestCase):
         with patch.object(adapter_module.urllib.request, "urlopen", return_value=response) as fetch:
             farms = list(adapter_module.html_table(source, CollectContext("LA", "southeast")))
 
-        fetch.assert_called_once_with(source["url"], timeout=30)
+        self.assertEqual(fetch.call_count, 1)
+        request = fetch.call_args.args[0]
+        self.assertEqual(request.full_url, source["url"])
+        self.assertTrue(any("Mozilla" in v for v in request.headers.values()))
         self.assertTrue(response.closed)
         self.assertEqual(len(farms), 1)
         farm = farms[0]
