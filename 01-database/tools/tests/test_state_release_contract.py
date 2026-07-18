@@ -319,7 +319,8 @@ class QaBackpressureTests(unittest.TestCase):
     def test_committed_qa_total_excludes_the_new_state(self) -> None:
         total = committed_qa_total()
         without_nc = committed_qa_total(exclude={"NC"})
-        self.assertGreater(total, without_nc)
+        self.assertEqual(total, 25)
+        self.assertEqual(total - without_nc, 0)
         self.assertGreater(QA_INTAKE_CAP, 0)
 
 

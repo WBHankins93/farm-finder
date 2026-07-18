@@ -4,9 +4,12 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import subprocess
 from pathlib import Path
+
+from qa_triage import QA_STATUS, route
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -23,11 +26,13 @@ PROHIBITED_STATE_NAMES = {
 # New-state collection pauses while the committed QA queue is over budget.
 # See 01-database/qa-operations.md; the reviewed exception is the existing
 # large-reviewed-change label, which skips this gate entirely in CI.
-# Post-burn-down judgment-only residue is 24 rows: 21 canonical-baseline
-# research items and 3 unresolved status cases. Keep intake at 1.5x that
-# human-review floor (ceil(1.5 * 24) = 36); automated queues are tracked
-# separately.
+# Judgment-only residue is currently 25 rows: 21 canonical-baseline research
+# items and 4 unresolved status cases. The 36-row cap is held from the original
+# ~1.5x sizing of the human-review floor (ceil(1.5 * 24) = 36). Count only QA
+# rows whose primary qa_triage route is baseline, identity, or status_conflict;
+# automated queues are tracked separately.
 QA_INTAKE_CAP = 36
+JUDGMENT_STRATEGIES = {"baseline", "identity", "status_conflict"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -68,13 +73,17 @@ def new_state_directories(merge_base: str, states, runner=run) -> list[str]:
 
 
 def committed_qa_total(exclude=(), root: Path = ROOT) -> int:
-    """Sum researchOrQaEntities across committed contract-v2 states."""
+    """Count committed QA rows routed to a human judgment strategy."""
     total = 0
-    for path in sorted((root / "research" / "state-expansions").glob("*/state.yaml")):
+    for path in sorted((root / "research" / "state-expansions").glob("*/entities.csv")):
         if path.parent.name in exclude:
             continue
-        document = json.loads(path.read_text(encoding="utf-8"))
-        total += int(document.get("release", {}).get("counts", {}).get("researchOrQaEntities", 0))
+        with path.open(newline="", encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                if row.get("promotion_status") != QA_STATUS:
+                    continue
+                primary, _ = route(row.get("promotion_blockers", ""))
+                total += primary in JUDGMENT_STRATEGIES
     return total
 
 

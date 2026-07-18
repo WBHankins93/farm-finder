@@ -15,8 +15,8 @@ reduced the queue to 7,543 rows. The official-directory farm-scope batch then
 applied 2,228 append-only decisions; 1,739 entities moved to eligible staging,
 and the contact-policy batch moved 1,199 otherwise-eligible rows out of QA.
 Current triage reports 6,286 QA rows after rows with independent residual
-blockers were retained. The remaining judgment-only floor is 24 rows (21
-baseline research items and 3 unresolved status cases). This standard makes the
+blockers were retained. The remaining judgment-only floor is 25 rows (21
+baseline research items and 4 unresolved status cases). This standard makes the
 queue flow continuously and keeps it from backing up again.
 
 The governing rule:
@@ -41,11 +41,13 @@ an otherwise eligible row in QA.
   new source is tiered before collection.
 - **Intake budget**: a PR that adds a *new* state fails the scope gate while
   the committed QA total (excluding the new state) exceeds the intake cap in
-  `assess_pr_scope.py` (`QA_INTAKE_CAP`, currently 36). The cap is roughly
-  1.5× the post-burn-down judgment-only floor: `ceil(1.5 × 24) = 36`; it does
-  not treat the larger automated geography, operation-evidence,
-  corroboration queues as human intake capacity. The
-  `large-reviewed-change` label remains the explicitly reviewed exception.
+  `assess_pr_scope.py` (`QA_INTAKE_CAP`, currently 36). This total counts only
+  rows whose primary `qa_triage.py` route is a judgment strategy (`baseline`,
+  `identity`, or `status_conflict`). The 36-row cap is held from the original
+  ~1.5× sizing of the judgment-only floor (`ceil(1.5 × 24) = 36`); it does not
+  treat the larger automated geography, operation-evidence, corroboration, or
+  outreach queues as human intake capacity. The `large-reviewed-change` label
+  remains the explicitly reviewed exception.
 - **Referrals, not dead ends**: `outside_jurisdiction` exclusions emit
   home-state referrals instead of silently shedding candidates.
 

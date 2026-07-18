@@ -91,6 +91,26 @@ class CorroborationAssistantTests(unittest.TestCase):
         self.assertFalse(result["website_liveness"][0]["eligible_for_fetch"])
         self.assertIsNone(result["website_liveness"][0]["proposal"])
 
+    def test_malformed_encoded_host_is_not_fetched(self) -> None:
+        row = self.entity(website_url="http://Welcome%20to%20The%20Produce%20Porch!%20Fresh.example")
+        calls: list[str] = []
+        result = assistant.run_assistant(
+            "AR", [row], {"collection": {"sources": []}}, fetcher=lambda url: calls.append(url) or self.active_fetch(url)
+        )
+        self.assertEqual(calls, [])
+        self.assertFalse(result["website_liveness"][0]["eligible_for_fetch"])
+        self.assertEqual(result["website_liveness"][0]["skip_reason"], "invalid or shared website URL")
+
+    def test_entity_patch_accepts_semicolon_delimited_grades(self) -> None:
+        observation = {
+            "observation_id": "coroobs_test",
+            "source_name": "Test source",
+            "source_url": "https://tinyfarm.example",
+            "evidence_grade": "C",
+        }
+        patch = assistant.entity_patch(self.entity(evidence_grades="B; E"), observation)
+        self.assertEqual(patch["base_evidence_grades"], ["B", "E"])
+
     def test_cross_directory_hit_needs_contact_and_consistent_geography(self) -> None:
         target = self.entity(website_url="", phone_internal="501-555-0100")
         peer = self.entity(
