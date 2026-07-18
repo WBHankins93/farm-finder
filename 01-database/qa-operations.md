@@ -14,7 +14,7 @@ The 2026-07-17 judgment batch applied 86 append-only decisions and
 reduced the queue to 7,543 rows. The official-directory farm-scope batch then
 applied 2,228 append-only decisions; 1,739 entities moved to eligible staging,
 and the contact-policy batch moved 1,199 otherwise-eligible rows out of QA.
-Current triage reports 6,286 QA rows after rows with independent residual
+Current triage reports 6,204 QA rows after rows with independent residual
 blockers were retained. The remaining judgment-only floor is 25 rows (21
 baseline research items and 4 unresolved status cases). This standard makes the
 queue flow continuously and keeps it from backing up again.

@@ -37,14 +37,14 @@ storage referenced by checksum from `state.yaml`; they are never committed.
 - Canonical: 299 LA/MS rows; public site reads the generated
   `03-app/site/app/data/farms.json`. PostgreSQL cutover is staged, not canonical.
 - Staged states (entities / eligible / QA):
-  AL 807/800/7 · AR 766/553/213 · FL 1,515/237/1,278 · GA 1,738/558/1,180 ·
-  LA 1,200/993/207 · MS 737/581/156 · NC 3,415/2,208/1,207 · SC 1,601/1,148/453 ·
-  TN 3,121/1,602/1,519 · TX 835/769/66.
-- **QA is the standing priority.** The current committed queue is 6,286 rows
-  against 9,449 eligible handoff rows; no new-state collection until the QA
-  queue is materially reduced. Current routed totals are 2,597 geography,
-  2,298 operation-evidence, 1,367 corroboration, and a
-  24-row judgment-only floor: 21 canonical-baseline research items plus 3
+  AL 807/807/0 · AR 766/553/213 · FL 1,515/237/1,278 · GA 1,738/558/1,180 ·
+  LA 1,200/996/204 · MS 737/590/147 · NC 3,415/2,208/1,207 · SC 1,601/1,148/453 ·
+  TN 3,121/1,602/1,519 · TX 803/800/3.
+- **QA is the standing priority.** The current committed queue is 6,204 rows
+  against 9,499 eligible handoff rows; no new-state collection until the QA
+  queue is materially reduced. Current routed totals are 2,547 geography,
+  2,293 operation-evidence, 1,339 corroboration, and a
+  25-row judgment-only floor: 21 canonical-baseline research items plus 4
   unresolved status cases. The 2026-07-17 residue batch applied 86
   append-only identity, status, and baseline decisions; missing evidence did
   not create any exclusion.
@@ -160,7 +160,7 @@ batches, and new-state collection PRs fail the scope gate while the committed
 QA queue exceeds the intake cap.
 
 1. **Geography QA batches** — resolve `county requires geography review` rows
-   (NC 1,142, SC 397, plus 1,058 city/county-missing rows in other states)
+   (NC 1,142, SC 397, plus 1,008 city/county-missing rows in other states)
    with the Census place-reference and TIGERweb machinery already in
    `collect_southeast.py` / `geocode_eligible.py`. Deterministic; append
    `correct` decisions citing the Census source.
@@ -171,11 +171,11 @@ QA queue exceeds the intake cap.
 3. **Farm-operation evidence batches** — TN (1,407) and GA (692)
    member/vendor-directory candidates; use the assistant's cross-directory
    pass plus targeted research.
-4. **True human QA tail** (24 remaining rows after the 2026-07-17 batch: 21
-   LA/MS baseline-not-rediscovered research items and 3 unresolved status
-   cases) — case-by-case with evidence. The completed batch resolved the 34
-   identity rows, 11 status rows, and 17 baseline rows that had sufficient
-   current evidence; the 3 retained status items remain QA rather than being
+4. **True human QA tail** (25 remaining rows: 21 LA/MS baseline-not-rediscovered
+   research items and 4 unresolved status cases — MS 1, TX 3) — case-by-case
+   with evidence. The 2026-07-17 judgment batch resolved 34 identity, 11 status,
+   and 17 baseline rows that had sufficient current evidence; status cases that
+   lack affirmative operating or closure evidence remain QA rather than being
    treated as closed.
 5. After QA: PostgreSQL cutover of enriched release v2 (see
    `03-app/site/docs/data-governance/cutover-runbook.md`).
