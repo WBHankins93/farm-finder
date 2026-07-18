@@ -20,6 +20,17 @@ output the session must paste into the PR body.
 | [stream-c-geocode-backfill.md](stream-c-geocode-backfill.md) | Fills missing coordinates on a collected state; clears geography residue | **live — dispatch now** | none |
 | [stream-b-wire-sources.md](stream-b-wire-sources.md) | Points a state's config at live source adapters so the engine collects real data | **live — dispatch now** | none (orchestrator merged) |
 
+## Loop automations
+
+Different shape from the Codex PR runbooks above: a **loop** is one re-firing
+prompt that advances a queue unattended (no PR per unit). See the mold before
+building a new one.
+
+| Doc | Does |
+|---|---|
+| [LOOP-PATTERN.md](LOOP-PATTERN.md) | **The reusable mold** — how to structure any loop automation (read first) |
+| [LOOP-region-publish.md](LOOP-region-publish.md) | First instance: collect → validate → load Postgres, region by region |
+
 ## Rules that apply to every runbook
 
 - **One state = one session = one PR.** Never two sessions on the same state.

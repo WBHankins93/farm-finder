@@ -5,6 +5,8 @@ import csv
 import io
 import re
 import urllib.request
+
+import httpget
 from datetime import date
 from typing import Iterable
 
@@ -240,7 +242,7 @@ def _decode(payload: bytes, response: object) -> str:
 @adapter("csv_download")
 def csv_download(source: dict, ctx: CollectContext) -> Iterable[Farm]:
     """Fetch a configured CSV directory and yield raw producer records."""
-    response = urllib.request.urlopen(source["url"], timeout=30)
+    response = httpget.urlopen(source["url"], timeout=30)
     try:
         text = _decode(response.read(), response)
     finally:

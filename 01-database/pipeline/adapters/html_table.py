@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import re
 import urllib.request
+
+import httpget
 from dataclasses import dataclass, field
 from datetime import date
 from html.parser import HTMLParser
@@ -380,7 +382,7 @@ def _decode(payload: bytes, response: object) -> str:
 @adapter("html_table")
 def html_table(source: dict, ctx: CollectContext) -> Iterable[Farm]:
     """Fetch a configured HTML table and yield raw producer records."""
-    response = urllib.request.urlopen(source["url"], timeout=30)
+    response = httpget.urlopen(source["url"], timeout=30)
     try:
         payload = response.read()
         html = _decode(payload, response)

@@ -5,6 +5,8 @@ import json
 import re
 import urllib.parse
 import urllib.request
+
+import httpget
 from datetime import date
 from typing import Any, Iterable
 
@@ -329,7 +331,7 @@ def _decode(payload: bytes, response: object) -> str:
 
 
 def _fetch(url: str) -> Any:
-    response = urllib.request.urlopen(url, timeout=30)
+    response = httpget.urlopen(url, timeout=30)
     try:
         return json.loads(_decode(response.read(), response))
     finally:

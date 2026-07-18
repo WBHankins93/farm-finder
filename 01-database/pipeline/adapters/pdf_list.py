@@ -11,6 +11,8 @@ import base64
 import binascii
 import re
 import urllib.request
+
+import httpget
 import zlib
 from dataclasses import dataclass
 from datetime import date
@@ -530,7 +532,7 @@ def _unique(records: Iterable[Farm]) -> Iterable[Farm]:
 @adapter("pdf_list")
 def pdf_list(source: dict, ctx: CollectContext) -> Iterable[Farm]:
     """Fetch a configured PDF list and yield raw producer records."""
-    response = urllib.request.urlopen(source["url"], timeout=30)
+    response = httpget.urlopen(source["url"], timeout=30)
     try:
         payload = response.read()
     finally:

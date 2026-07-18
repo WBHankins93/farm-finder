@@ -53,7 +53,10 @@ class TestApiAdapter(unittest.TestCase):
         with patch.object(adapter_module.urllib.request, "urlopen", return_value=response) as fetch:
             farms = list(adapter_module.api(source, CollectContext("LA", "southeast")))
 
-        fetch.assert_called_once_with(source["url"], timeout=30)
+        self.assertEqual(fetch.call_count, 1)
+        request = fetch.call_args.args[0]
+        self.assertEqual(request.full_url, source["url"])
+        self.assertTrue(any("Mozilla" in v for v in request.headers.values()))
         self.assertTrue(response.closed)
         self.assertEqual(len(farms), 1)
         farm = farms[0]
@@ -84,7 +87,7 @@ class TestApiAdapter(unittest.TestCase):
 
         self.assertEqual([farm.name for farm in farms], ["First Farm", "Second Farm"])
         self.assertEqual(
-            [call.args[0] for call in fetch.call_args_list],
+            [call.args[0].full_url for call in fetch.call_args_list],
             list(pages),
         )
         self.assertTrue(all(response.closed for response in responses))
