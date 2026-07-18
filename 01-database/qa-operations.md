@@ -11,14 +11,26 @@ holding pen. The 2026-07 backlog reached 8,268 rows; after the automated
 burn-down, 7,604 remained because collection was unbounded, rows entered QA
 without a resolution route, and automation ran after humans instead of before.
 The 2026-07-17 judgment batch applied 86 append-only decisions and
-reduced the queue to 7,543 rows; the remaining judgment-only floor is 24 rows
-(21 baseline research items and 3 unresolved status cases). This standard
-makes the queue flow continuously and keeps it from backing up again.
+reduced the queue to 7,543 rows. The official-directory farm-scope batch then
+applied 2,228 append-only decisions; 1,739 entities moved to eligible staging,
+and the contact-policy batch moved 1,199 otherwise-eligible rows out of QA.
+Current triage reports 6,286 QA rows after rows with independent residual
+blockers were retained. The remaining judgment-only floor is 24 rows (21
+baseline research items and 3 unresolved status cases). This standard makes the
+queue flow continuously and keeps it from backing up again.
 
 The governing rule:
 
 > Nothing enters QA without a routable blocker. Automation drains every queue
 > before a human touches it. Collection slows down when QA is over budget.
+
+Missing public contact is a display fact, not a promotion blocker. A candidate
+may move to eligible staging when its required fields and evidence gate pass
+even when no direct phone, email, or social contact is available. Preserve the
+`contact_visibility` data flag; when it indicates that no direct contact is
+published, the consumer UI should show **“contact via listing source.”** Contact
+details may be enriched during later QA, but contact enrichment must not retain
+an otherwise eligible row in QA.
 
 ## The four controls
 
@@ -32,7 +44,7 @@ The governing rule:
   `assess_pr_scope.py` (`QA_INTAKE_CAP`, currently 36). The cap is roughly
   1.5× the post-burn-down judgment-only floor: `ceil(1.5 × 24) = 36`; it does
   not treat the larger automated geography, operation-evidence,
-  corroboration, or outreach queues as human intake capacity. The
+  corroboration queues as human intake capacity. The
   `large-reviewed-change` label remains the explicitly reviewed exception.
 - **Referrals, not dead ends**: `outside_jurisdiction` exclusions emit
   home-state referrals instead of silently shedding candidates.
@@ -52,11 +64,23 @@ vocabulary so the row is workable without re-reading it.
 | 4 | `baseline` | canonical baseline farm not rediscovered | Human recollection review (LA/MS rebuilds) |
 | 5 | `identity` | same normalized name; identity continuity; contact conflict | Human, evidence-based |
 | 6 | `status_conflict` | operating status conflicts; reopened closure | Human, evidence-based |
-| 7 | `contact_outreach` | no public outreach path captured | Research/outreach; often co-occurs and resolves last |
 | — | `unrouted` | anything else | Fix the blocker text; a growing unrouted bucket is a process bug |
 
 A row may match several strategies; it is worked under its primary one and
-its residual blockers keep it in QA until all are cleared.
+its residual blockers keep it in QA until all are cleared. Missing public
+contact is not a residual blocker; it remains represented by `contact_visibility`
+for display and later enrichment.
+
+#### Official-directory farm-scope shortcut
+
+The owner-ratified national rule applies uniformly to all states: a current-year,
+`candidate`-tier listing in an official state department of agriculture directory
+that classifies the operation as a farm, grower, or producer is grade-B farm-scope
+evidence. Apply it with an append-only `corroborate` decision citing the policy and
+the directory profile URL, and clear the farm-operation-evidence blocker. This does
+not clear missing products, geography, identity, status, privacy, or any other
+required-field blocker. Association, LocalHarvest, US Farm Trail, and other
+non-official member directories remain in the corroboration lane.
 
 ### 3. Drain — automation before humans
 

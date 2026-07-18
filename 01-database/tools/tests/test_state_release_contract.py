@@ -292,10 +292,10 @@ class SourceTierPolicyTests(unittest.TestCase):
 class QaTriageTests(unittest.TestCase):
     def test_primary_strategy_follows_priority_order(self) -> None:
         primary, matched = qa_route(
-            "county requires geography review; no public outreach path captured"
+            "county requires geography review; identity continuity review required"
         )
         self.assertEqual(primary, "geography")
-        self.assertIn("contact_outreach", matched)
+        self.assertEqual(matched, ["geography", "identity"])
 
     def test_unrecognized_blocker_text_is_unrouted(self) -> None:
         self.assertEqual(qa_route("mystery condition"), ("unrouted", ["unrouted"]))

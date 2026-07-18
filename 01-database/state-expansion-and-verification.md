@@ -101,6 +101,22 @@ creates a newer assertion that can supersede it after review.
 | E | Search result or single older secondary listing | 90 days to verify |
 | F | Conflicting, closed, unreachable, or older than threshold | Do not promote |
 
+### National official-directory farm-scope rule
+
+The owner-ratified rule is uniform across every state: a current-year,
+`candidate`-tier listing in an official state department of agriculture
+directory that classifies the operation as a farm, grower, or producer is
+sufficient farm-scope evidence at grade **B**. Curators must append a
+`corroborate` decision that names this policy and cites the current directory
+profile URL, then remove only the farm-operation-evidence blocker. Geography,
+products or farm activity, identity, privacy, and every other required
+promotion field remain independent gates. Missing public contact is a display
+fact rather than a promotion blocker; preserve `contact_visibility` so the UI
+can show “contact via listing source” and continue contact enrichment later.
+Association, LocalHarvest,
+US Farm Trail, and other non-official member directories are not covered by
+this rule and remain in the corroboration lane.
+
 Fields are reviewed independently. An official profile can verify identity and city
 without proving that every product or sales channel is current.
 

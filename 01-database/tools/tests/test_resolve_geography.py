@@ -80,10 +80,10 @@ class ResolveStateTests(unittest.TestCase):
         self.assertIn("census.gov", proposal["decision"]["source_url"])
 
     def test_residual_blockers_keep_the_row_in_qa(self) -> None:
-        row = qa_row(promotion_blockers="county requires geography review; no public outreach path captured")
+        row = qa_row(promotion_blockers="county requires geography review; single grade-E discovery listing needs corroboration")
         bundle = resolve_state("NC", [row], self.reference)
         patch = bundle["proposals"][0]["entity_patch"]
-        self.assertEqual(patch["proposed_promotion_blockers"], "no public outreach path captured")
+        self.assertEqual(patch["proposed_promotion_blockers"], "single grade-E discovery listing needs corroboration")
         self.assertEqual(patch["proposed_promotion_status"], "research_or_qa_queue")
 
     def test_grade_e_only_rows_stay_in_qa_even_when_geography_clears(self) -> None:
