@@ -2,6 +2,7 @@
 
     python3 -m unittest discover -s 01-database/pipeline/tests -p "test_*.py"
 """
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -250,6 +251,66 @@ class TestQA(unittest.TestCase):
         summary = run_qa([f], rules=[])
         self.assertEqual(summary["residue"], 1)
         self.assertFalse(f.eligible)
+
+
+class TestOrchestrator(unittest.TestCase):
+    """End-to-end run.py: a fake adapter + temp config, no network."""
+
+    def setUp(self):
+        import collect
+        self.pipeline = Path(__file__).resolve().parents[1]
+        self.cfg_dir = self.pipeline / "sources" / "_test"
+        self.cfg_dir.mkdir(parents=True, exist_ok=True)
+        self.cfg = self.cfg_dir / "ZZ.json"
+        self.cfg.write_text('{"state":"ZZ","name":"Testland","region":"_test",'
+                            '"sources":[{"id":"s1","name":"Fake","url":"","adapter":"faketest"}]}')
+        self.data = self.pipeline / "data" / "ZZ.json"
+
+        collect._adapters_loaded = True  # skip disk discovery; register inline
+
+        @collect.adapter("faketest")
+        def _fake(source, ctx):
+            return [
+                Farm(id="", name="Good Farm", state="ZZ", county="Test", city="Town",
+                     products_text="honey", provenance=Provenance(source="Fake")),
+                Farm(id="", name="No Place Farm", state="ZZ", county="", city="",
+                     provenance=Provenance(source="Fake")),  # missing geography -> residue
+            ]
+
+    def tearDown(self):
+        import collect
+        collect.ADAPTERS.pop("faketest", None)
+        collect._adapters_loaded = False
+        for p in (self.cfg, self.data, self.pipeline / "build" / "qa-residue-ZZ.csv"):
+            if p.exists():
+                p.unlink()
+        if self.cfg_dir.exists():
+            self.cfg_dir.rmdir()
+
+    def test_run_state_collects_and_persists(self):
+        import run
+        stats = run.run_state("ZZ")
+        self.assertEqual(stats["count"], 2)
+        self.assertEqual(stats["bridged"], 0)  # ZZ has no entities.csv
+        self.assertTrue(self.data.exists())
+        rows = json.loads(self.data.read_text())
+        self.assertEqual(len(rows), 2)
+
+    def test_run_state_decides_fresh_eligibility(self):
+        import run
+        run.run_state("ZZ")
+        rows = {r["name"]: r for r in json.loads(self.data.read_text())}
+        # Fresh live rows get decided: placed+sourced is eligible, no-geography is residue.
+        self.assertTrue(rows["Good Farm"]["eligible"])
+        self.assertFalse(rows["No Place Farm"]["eligible"])
+        self.assertIn("geography", rows["No Place Farm"]["qa_reason"])
+
+    def test_publish_prefers_live_data_over_bridge(self):
+        import run
+        run.run_state("ZZ")
+        stats = run.publish_all()
+        self.assertIn("ZZ", stats["live_states"])
+        self.assertGreater(stats["written"], 0)
 
 
 if __name__ == "__main__":

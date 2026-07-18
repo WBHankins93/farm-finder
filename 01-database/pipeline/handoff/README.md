@@ -18,7 +18,7 @@ output the session must paste into the PR body.
 | Runbook | Does | Status | Prerequisite |
 |---|---|---|---|
 | [stream-c-geocode-backfill.md](stream-c-geocode-backfill.md) | Fills missing coordinates on a collected state; clears geography residue | **live — dispatch now** | none |
-| [stream-b-wire-sources.md](stream-b-wire-sources.md) | Points a state's config at live source adapters so the engine collects real data | **blocked** | orchestrator `run.py` must be merged |
+| [stream-b-wire-sources.md](stream-b-wire-sources.md) | Points a state's config at live source adapters so the engine collects real data | **live — dispatch now** | none (orchestrator merged) |
 
 ## Rules that apply to every runbook
 
