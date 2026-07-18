@@ -1,0 +1,13 @@
+{
+  "state": "WV",
+  "region": "southeast",
+  "sources": [
+    {
+      "id": "wvg-2025-seed",
+      "name": "West Virginia Grown 2025 directory — reviewed capture (EP/MOV/NC/NP)",
+      "adapter": "seed",
+      "path": "seeds/WV.json",
+      "notes": "164 members hand-parsed from the four downloadable WV Grown 2025 regional PDFs (agriculture.wv.gov). The generic pdf_list adapter under-reads the two-column magazine layout, so the reviewed capture is committed as a seed and re-emitted idempotently. The SW and SE regions ship only as JavaScript flipbooks with no downloadable PDF — not yet captured (needs a browser-rendered pass). Regenerate: python3 run.py --state WV."
+    }
+  ]
+}
