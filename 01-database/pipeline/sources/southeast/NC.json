@@ -1,0 +1,71 @@
+{
+  "state": "NC",
+  "name": "North Carolina",
+  "region": "southeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "staged-bridge",
+      "name": "Migrated canonical rows (bridge)",
+      "url": "",
+      "adapter": "staged",
+      "notes": "Remove once live adapters cover this state."
+    },
+    {
+      "id": "ncsrc-01",
+      "name": "NCDA&CS — N.C. Farmer/Agribusiness Listing (June 22, 2026)",
+      "url": "https://www.ncagr.gov/divisions/marketing/nc-farmeragribusiness-listing/open",
+      "adapter": "html_table",
+      "notes": "Official workbook; every named row retained."
+    },
+    {
+      "id": "ncsrc-02",
+      "name": "U.S. Census Bureau — North Carolina county denominator",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2737%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+      "adapter": "api",
+      "notes": "Denominator loaded."
+    },
+    {
+      "id": "ncsrc-03",
+      "name": "Visit NC Farms — Our Farms and Businesses",
+      "url": "https://visitncfarms.com/farms/our-farms-and-businesses/",
+      "adapter": "html_table",
+      "notes": "Public farm-directory pool collected; county and identity corroboration remains QA."
+    },
+    {
+      "id": "ncsrc-04",
+      "name": "Got to Be NC — growers and producers",
+      "url": "https://gottobenc.com/events/flavors-attendees/find-local/growers-producers/",
+      "adapter": "html_table",
+      "notes": "Complete 59-page growers/producers directory pool collected; profile-level contact and county review remains QA."
+    },
+    {
+      "id": "ncsrc-05",
+      "name": "U.S. Farm Trail — North Carolina",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=north-carolina",
+      "adapter": "api",
+      "notes": "Complete public GeoJSON directory pool collected; county and identity corroboration remains QA."
+    },
+    {
+      "id": "ncsrc-06",
+      "name": "EatWild — North Carolina",
+      "url": "https://www.eatwild.com/products/nocarolina.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory collected; county and current-operation review remains QA."
+    },
+    {
+      "id": "ncsrc-07",
+      "name": "PickYourOwn — North Carolina",
+      "url": "https://www.pickyourown.org/NC.htm",
+      "adapter": "html_table",
+      "notes": "Regional U-pick pages collected; current-operation review remains QA."
+    },
+    {
+      "id": "ncsrc-08",
+      "name": "LocalHarvest — North Carolina",
+      "url": "https://www.localharvest.org/north-carolina/",
+      "adapter": "html_table",
+      "notes": "Queued for a follow-up source pass."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "state": "AR",
+  "name": "Arkansas",
+  "region": "southeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "staged-bridge",
+      "name": "Migrated canonical rows (bridge)",
+      "url": "",
+      "adapter": "staged",
+      "notes": "Remove once live adapters cover this state."
+    },
+    {
+      "id": "arsrc-fffde3ab3eb8",
+      "name": "Arkansas Department of Agriculture — Arkansas Grown directory",
+      "url": "https://arkansasgrown.org/arkansas-grown/members/?category=arkansas-grown&sort=latest",
+      "adapter": "html_table",
+      "notes": "Public directory reported 592 Arkansas Grown profiles across 3 pages; every named profile was retained."
+    },
+    {
+      "id": "arsrc-d61f5816086b",
+      "name": "U.S. Census Bureau — county denominator",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2705%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+      "adapter": "api",
+      "notes": ""
+    },
+    {
+      "id": "arsrc-5932e32e23d0",
+      "name": "EatWild Arkansas directory",
+      "url": "https://www.eatwild.com/products/arkansas.html",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "arsrc-c66af2ac5f00",
+      "name": "University of Arkansas Center for Arkansas Farms and Food — direct-sale farms",
+      "url": "https://farmandfoodsystem.uada.edu/farms/",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "arsrc-4d46ad42a405",
+      "name": "Association of Arkansas Counties — county-seat anchors",
+      "url": "https://www.arcounties.org/site/assets/files/3779/countyseats.pdf",
+      "adapter": "pdf_list",
+      "notes": ""
+    },
+    {
+      "id": "arsrc-cefe0213bbf1",
+      "name": "LocalHarvest — Arkansas county-seat gap search",
+      "url": "https://www.localharvest.org",
+      "adapter": "html_table",
+      "notes": "Searched 75 county-seat anchors; deduplicated 151 profile URLs. Failures remain explicit."
+    },
+    {
+      "id": "arsrc-52ed7c7818af",
+      "name": "PickYourOwn — Central Arkansas",
+      "url": "https://www.pickyourown.org/ARlittlerock.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 8; closure claims retained for review."
+    },
+    {
+      "id": "arsrc-21d267e39e60",
+      "name": "PickYourOwn — Northeast Arkansas",
+      "url": "https://www.pickyourown.org/ARne.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 19; closure claims retained for review."
+    },
+    {
+      "id": "arsrc-908cefa65b88",
+      "name": "PickYourOwn — Northwest Arkansas",
+      "url": "https://www.pickyourown.org/ARnw.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 17; closure claims retained for review."
+    },
+    {
+      "id": "arsrc-6624ee42e7a2",
+      "name": "PickYourOwn — Southeast Arkansas",
+      "url": "https://www.pickyourown.org/ARse.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 12; closure claims retained for review."
+    },
+    {
+      "id": "arsrc-8cd0d31d14a2",
+      "name": "PickYourOwn — Southwest Arkansas",
+      "url": "https://www.pickyourown.org/ARsw.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 15; closure claims retained for review."
+    }
+  ]
+}

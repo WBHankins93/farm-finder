@@ -1,0 +1,71 @@
+{
+  "state": "SC",
+  "name": "South Carolina",
+  "region": "southeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "staged-bridge",
+      "name": "Migrated canonical rows (bridge)",
+      "url": "",
+      "adapter": "staged",
+      "notes": "Remove once live adapters cover this state."
+    },
+    {
+      "id": "scsrc-01",
+      "name": "Certified SC Grown — REST member directory",
+      "url": "https://certifiedsc.com/wp-json/wp/v2/csc-member",
+      "adapter": "api",
+      "notes": "Complete certified-sc-grown REST member pool; profile pages provide field enrichment."
+    },
+    {
+      "id": "scsrc-02",
+      "name": "Certified SC Grown — member profiles",
+      "url": "https://certifiedsc.com/csc-member/",
+      "adapter": "html_table",
+      "notes": "Complete profile enrichment pass."
+    },
+    {
+      "id": "scsrc-03",
+      "name": "U.S. Census Bureau — South Carolina county denominator",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2745%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+      "adapter": "api",
+      "notes": "Denominator loaded."
+    },
+    {
+      "id": "scsrc-04",
+      "name": "South Carolina Department of Agriculture — agritourism",
+      "url": "https://agriculture.sc.gov/find-local/agritourism/",
+      "adapter": "html_table",
+      "notes": "State agritourism page and participating-farms PDF collected."
+    },
+    {
+      "id": "scsrc-05",
+      "name": "U.S. Farm Trail — South Carolina",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=south-carolina",
+      "adapter": "api",
+      "notes": "Complete public GeoJSON directory pool collected; county and identity corroboration remains QA."
+    },
+    {
+      "id": "scsrc-06",
+      "name": "EatWild — South Carolina",
+      "url": "https://www.eatwild.com/PRODUCTS/socarolina.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory collected; county and current-operation review remains QA."
+    },
+    {
+      "id": "scsrc-07",
+      "name": "PickYourOwn — South Carolina",
+      "url": "https://www.pickyourown.org/SC.htm",
+      "adapter": "html_table",
+      "notes": "Regional U-pick pages collected; current-operation review remains QA."
+    },
+    {
+      "id": "scsrc-08",
+      "name": "LocalHarvest — South Carolina",
+      "url": "https://www.localharvest.org/south-carolina/",
+      "adapter": "html_table",
+      "notes": "Queued for a follow-up source pass."
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "state": "TX",
+  "name": "Texas",
+  "region": "southwest",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "staged-bridge",
+      "name": "Migrated canonical rows (bridge)",
+      "url": "",
+      "adapter": "staged",
+      "notes": "Remove once live adapters cover this state."
+    },
+    {
+      "id": "txsrc-f80a206e8194",
+      "name": "Texas Department of Agriculture — 2026 Certified Farmers Markets",
+      "url": "https://texasagriculture.gov/Grants-Services/Certified-Farmers-Markets",
+      "adapter": "html_table",
+      "notes": "Certified market map reviewed; markets are channels, not farm entities."
+    },
+    {
+      "id": "txsrc-c89abcd70a04",
+      "name": "Texas Department of Agriculture — Farm to School vendor resource list",
+      "url": "https://www.squaremeals.org/Portals/8/files/NSLP/LFS/LFS%20Vendor%20Resource%20List%20Updated%20Nov%202024.pdf?ver=I7PGgvoElV78S-FFin0OiQ%3D%3D",
+      "adapter": "pdf_list",
+      "notes": "110 parsed vendors; distributors retained only in raw evidence, not as farm observations."
+    },
+    {
+      "id": "txsrc-85a940b4f118",
+      "name": "Texas Department of Agriculture — GO TEXAN Farm And Ranch",
+      "url": "https://bridge.texasagriculture.gov/GoTexanSearch/?resultsFormat=CommaSeparatedValues&searchType=Advanced&pageSize=2147483647&businessType=Farm+And+Ranch&pageNumber=1",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "txsrc-415190a49185",
+      "name": "U.S. Census Bureau — Texas county denominator",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2748%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+      "adapter": "api",
+      "notes": ""
+    },
+    {
+      "id": "txsrc-bcfb8f95eca8",
+      "name": "EatWild Texas directory",
+      "url": "https://www.eatwild.com/products/texas.html",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "txsrc-5bba454ff4ac",
+      "name": "Shop Texas Farms — member business directory",
+      "url": "https://shoptexasfarms.com/business-directory/",
+      "adapter": "html_table",
+      "notes": "56 unique member profiles found across all three directory pages; business-type review remains explicit."
+    },
+    {
+      "id": "txsrc-013fb79193db",
+      "name": "Texas Center for Local Food — Farms & Ranches",
+      "url": "https://texaslocalfood.org/wp-json/tld-connector/v1/content",
+      "adapter": "api",
+      "notes": "254 farm-tagged summaries; 254 detailed profiles; 0 failures."
+    },
+    {
+      "id": "txsrc-6ab07a8eedfe",
+      "name": "FarmFinder curator verification decisions",
+      "url": "",
+      "adapter": "staged",
+      "notes": "Farm-owned or authoritative evidence reviewed manually; original source assertions remain immutable."
+    },
+    {
+      "id": "txsrc-342b73f9abf2",
+      "name": "LocalHarvest — Texas county-seat gap search",
+      "url": "https://www.localharvest.org",
+      "adapter": "html_table",
+      "notes": "All 254 official county seats searched; 2887 card observations deduplicated to 302 farm profiles."
+    },
+    {
+      "id": "txsrc-f61037e4d509",
+      "name": "PickYourOwn — Abilene",
+      "url": "https://www.pickyourown.org/TXabilene.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 15; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-bb2a1b446bcc",
+      "name": "PickYourOwn — Austin",
+      "url": "https://www.pickyourown.org/TXaustin.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 18; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-194d793a3dbd",
+      "name": "PickYourOwn — Corpus Christi",
+      "url": "https://www.pickyourown.org/TXcorpus.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 14; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-496ebb94663d",
+      "name": "PickYourOwn — Dallas / Fort Worth",
+      "url": "https://www.pickyourown.org/TXdallas.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 25; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-5f52bd670362",
+      "name": "PickYourOwn — Far West",
+      "url": "https://www.pickyourown.org/TXfarwest.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 15; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-e0d7e0fa26b6",
+      "name": "PickYourOwn — Houston / Southeast",
+      "url": "https://www.pickyourown.org/TXhouston.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 25; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-869768090acc",
+      "name": "PickYourOwn — Lubbock",
+      "url": "https://www.pickyourown.org/TXlubbock.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 28; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-6250da60769c",
+      "name": "PickYourOwn — Northeast",
+      "url": "https://www.pickyourown.org/TXnortheast.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 29; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-e09c285fe350",
+      "name": "PickYourOwn — Panhandle",
+      "url": "https://www.pickyourown.org/TXpanhandle.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 26; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-114f4f80bead",
+      "name": "PickYourOwn — San Angelo",
+      "url": "https://www.pickyourown.org/TXsanangelo.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 15; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-9ecf17827e28",
+      "name": "PickYourOwn — San Antonio",
+      "url": "https://www.pickyourown.org/TXsanantonio.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 14; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-34dced6be521",
+      "name": "PickYourOwn — Southern Tip",
+      "url": "https://www.pickyourown.org/TXsouth.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 15; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-c35b62b7b45d",
+      "name": "PickYourOwn — Texas regional index",
+      "url": "https://www.pickyourown.org/TX.htm",
+      "adapter": "html_table",
+      "notes": "All 13 published Texas regions were collected separately."
+    },
+    {
+      "id": "txsrc-568cdbdcad63",
+      "name": "PickYourOwn — Wichita Falls",
+      "url": "https://www.pickyourown.org/TXwichitafalls.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 12; explicit closures retained as grade-F exclusions."
+    },
+    {
+      "id": "txsrc-78d7312df9b8",
+      "name": "Texas Open Farms / YouPickTexas",
+      "url": "https://www.youpicktexas.com/",
+      "adapter": "html_table",
+      "notes": "Directory displayed a fictitious 555 contact number and unsupported network branding; retained as an issue, not evidence."
+    },
+    {
+      "id": "txsrc-12a8acee089e",
+      "name": "Texas State Library — county-seat search anchors",
+      "url": "https://www.tsl.texas.gov/ref/abouttx/countyseats.html",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "txsrc-8eac5380f8f7",
+      "name": "U.S. Census Bureau — 2020 ZCTA-to-county relationship",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+      "adapter": "html_table",
+      "notes": "Only 1306 Texas ZCTAs wholly contained in one county are eligible for fallback assignment."
+    },
+    {
+      "id": "txsrc-c0ba7d2443a4",
+      "name": "U.S. Census Bureau — 2020 place-by-county reference",
+      "url": "https://www2.census.gov/geo/docs/reference/codes2020/national_place_by_county2020.txt",
+      "adapter": "html_table",
+      "notes": "Only 1659 Texas places occurring in one county are eligible for locality fallback assignment."
+    },
+    {
+      "id": "txsrc-95ccd6d2f723",
+      "name": "US Farm Trail — Texas discovery page",
+      "url": "https://www.usfarmtrail.com/states/texas",
+      "adapter": "html_table",
+      "notes": "240 rendered farm-link occurrences; source mixes markets, duplicates, and weak-provenance records."
+    },
+    {
+      "id": "txsrc-a1e874e0cdd5",
+      "name": "USDA AMS Local Food Directories",
+      "url": "https://www.ams.usda.gov/services/local-regional/food-directories-listings",
+      "adapter": "html_table",
+      "notes": "Official page says a developer API will be available in the future; interface reviewed but not scraped as a hidden data service."
+    }
+  ]
+}

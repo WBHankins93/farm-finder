@@ -1,0 +1,127 @@
+{
+  "state": "LA",
+  "name": "Louisiana",
+  "region": "southeast",
+  "countyEquivalentLabel": "parish",
+  "sources": [
+    {
+      "id": "staged-bridge",
+      "name": "Migrated canonical rows (bridge)",
+      "url": "",
+      "adapter": "staged",
+      "notes": "Remove once live adapters cover this state."
+    },
+    {
+      "id": "lasrc-679f5b108b7e",
+      "name": "LDAF 2026 FMNP roadside-stand directory",
+      "url": "https://www.ldaf.la.gov/fmnp",
+      "adapter": "html_table",
+      "notes": "Only entries explicitly labeled roadside stands became farm candidates; farmers markets remain in raw evidence but were not misclassified as farms."
+    },
+    {
+      "id": "lasrc-abf08b08bc99",
+      "name": "LDAF June 2026 nursery certificate holders",
+      "url": "https://assets.ctfassets.net/pc5e1rlgfrov/6bRblalD03I36YRFk7xtGP/a3c8fc82041cb934b92123a77c11cf9a/Hort_Nursery_Certificate_List.pdf",
+      "adapter": "pdf_list",
+      "notes": ""
+    },
+    {
+      "id": "lasrc-bcded48fe52f",
+      "name": "LDAF June 2026 registered apiary businesses",
+      "url": "https://assets.ctfassets.net/pc5e1rlgfrov/7muuQp3Pj6scacLq7VhlHK/0af35d52af4d67654efe11e87bfbde7d/Hort_Apiary_List.pdf",
+      "adapter": "pdf_list",
+      "notes": "Reviewed 757 public registrations; retained 45 names with an explicit farm, ranch, honey-business, bee-company, or apiary signal."
+    },
+    {
+      "id": "lasrc-10e72c895333",
+      "name": "LDAF March 2026 licensed hemp growers",
+      "url": "https://assets.ctfassets.net/pc5e1rlgfrov/3th6qHxDCGxZ3AtLR9rr5A/1001d3efbe240465b2bb67276f3fc2bf/Hemp_grower_List20260309.pdf",
+      "adapter": "pdf_list",
+      "notes": ""
+    },
+    {
+      "id": "lasrc-d34e7606b471",
+      "name": "LSU AgCenter statewide farm-food directory",
+      "url": "https://www.lsuagcenter.com/~/media/system/9/1/9/e/919ed83cfbd8ff0bd98b317a65f0604f/directory%20-%20la%20farm%20food%20during%20covidpdfpdf.pdf",
+      "adapter": "pdf_list",
+      "notes": "Historical statewide directory retained as grade-E evidence; markets and distributors were not treated as farm entities."
+    },
+    {
+      "id": "lasrc-fd2311238b4e",
+      "name": "Louisiana Crawfish Promotion and Research Board — suppliers",
+      "url": "https://crawfish.org/producers",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "lasrc-9fd2ed2f34d9",
+      "name": "Louisiana Strawberry Marketing Board — growers",
+      "url": "https://www.louisianastrawberries.com/find-louisiana-strawberries/",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "lasrc-0f2da7bcc3b2",
+      "name": "U.S. Census Bureau — county denominator",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2722%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+      "adapter": "api",
+      "notes": ""
+    },
+    {
+      "id": "lasrc-2cfb7bb17677",
+      "name": "EatWild Louisiana directory",
+      "url": "https://www.eatwild.com/products/louisiana.html",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "lasrc-f2efc6c33201",
+      "name": "LDAF certified agritourism operations",
+      "url": "https://assets.ctfassets.net/pc5e1rlgfrov/7B8yMZqsUPa8lLZSUToUtw/19d3206a6070dea80e63683408b1552e/agritourism-directory-2023.pdf",
+      "adapter": "pdf_list",
+      "notes": ""
+    },
+    {
+      "id": "lasrc-6091614f3c64",
+      "name": "Louisiana Sweet Potato Commission — shippers and processors",
+      "url": "https://www.sweetpotato.org/shippers",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "lasrc-8dce8a49e6ec",
+      "name": "LocalHarvest — Louisiana county-seat gap search",
+      "url": "https://www.localharvest.org",
+      "adapter": "html_table",
+      "notes": "Searched 64 county-seat anchors; deduplicated 137 profile URLs. Failures remain explicit."
+    },
+    {
+      "id": "lasrc-8ad88b76b7a9",
+      "name": "PickYourOwn — Baton Rouge and south-central Louisiana",
+      "url": "https://www.pickyourown.org/LAbatonrouge.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 0; closure claims retained for review."
+    },
+    {
+      "id": "lasrc-cfea944ba7b7",
+      "name": "PickYourOwn — New Orleans and Southeast Louisiana",
+      "url": "https://www.pickyourown.org/LAneworleans.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 0; closure claims retained for review."
+    },
+    {
+      "id": "lasrc-d304f04eed2e",
+      "name": "PickYourOwn — Northern Louisiana",
+      "url": "https://www.pickyourown.org/LAnorth.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 0; closure claims retained for review."
+    },
+    {
+      "id": "lasrc-b3afbe7c66b3",
+      "name": "PickYourOwn — Southwestern Louisiana",
+      "url": "https://www.pickyourown.org/LAsw.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 0; closure claims retained for review."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "state": "TN",
+  "name": "Tennessee",
+  "region": "southeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "staged-bridge",
+      "name": "Migrated canonical rows (bridge)",
+      "url": "",
+      "adapter": "staged",
+      "notes": "Remove once live adapters cover this state."
+    },
+    {
+      "id": "tnsrc-325e0612537f",
+      "name": "Tennessee Department of Agriculture — Pick Tennessee Products directory",
+      "url": "https://www.picktnproducts.org/members/search-for-a-member.html",
+      "adapter": "html_table",
+      "notes": "Public index advertised 3018 results: 3016 producer profiles and 2 non-profile pages. 3016 profile results were traversed across 95 county partitions plus the unassigned-county partition."
+    },
+    {
+      "id": "tnsrc-0d0b8ac33c15",
+      "name": "U.S. Census Bureau — county denominator",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2747%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+      "adapter": "api",
+      "notes": ""
+    },
+    {
+      "id": "tnsrc-422f7a329e9c",
+      "name": "EatWild Tennessee directory",
+      "url": "https://www.eatwild.com/products/tennessee.html",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "tnsrc-ed82904a8095",
+      "name": "Middle Tennessee State University — Tennessee Century Farms registry",
+      "url": "https://www.tncenturyfarms.org/farms/?listpage=1&instance=1",
+      "adapter": "html_table",
+      "notes": "Registry advertised 2236 records across 224 pages; all named rows retained without inventing current products or sale channels."
+    },
+    {
+      "id": "tnsrc-0b4118aafe4d",
+      "name": "Tennessee Agritourism Association — active farm members",
+      "url": "https://tennesseeagritourism.org/find-a-farm",
+      "adapter": "html_table",
+      "notes": "Only active members were retained; associate members were not treated as Tennessee farm evidence."
+    },
+    {
+      "id": "tnsrc-1aa19eac126c",
+      "name": "PickYourOwn — Clarksville area",
+      "url": "https://www.pickyourown.org/TNclarksville.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 6; closure claims retained for review."
+    },
+    {
+      "id": "tnsrc-e100968c620d",
+      "name": "PickYourOwn — Columbia area",
+      "url": "https://www.pickyourown.org/TNcolumbia.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 11; closure claims retained for review."
+    },
+    {
+      "id": "tnsrc-869cccf567fe",
+      "name": "PickYourOwn — Eastern Tennessee",
+      "url": "https://www.pickyourown.org/TNeast.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 10; closure claims retained for review."
+    },
+    {
+      "id": "tnsrc-c1db0724eede",
+      "name": "PickYourOwn — Knoxville area",
+      "url": "https://www.pickyourown.org/TNknoxville.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 16; closure claims retained for review."
+    },
+    {
+      "id": "tnsrc-0a564604d04e",
+      "name": "PickYourOwn — Middle Tennessee",
+      "url": "https://www.pickyourown.org/TNmiddle.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 7; closure claims retained for review."
+    },
+    {
+      "id": "tnsrc-fd9f6d82695a",
+      "name": "PickYourOwn — North-central Tennessee",
+      "url": "https://www.pickyourown.org/TNnc.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 14; closure claims retained for review."
+    },
+    {
+      "id": "tnsrc-f6a066690d7a",
+      "name": "PickYourOwn — Northeastern Tennessee",
+      "url": "https://www.pickyourown.org/TNne.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 9; closure claims retained for review."
+    },
+    {
+      "id": "tnsrc-24f61c252a39",
+      "name": "PickYourOwn — Northwestern Tennessee",
+      "url": "https://www.pickyourown.org/TNnw.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 9; closure claims retained for review."
+    },
+    {
+      "id": "tnsrc-6ee50ca09ace",
+      "name": "PickYourOwn — Southwestern-central Tennessee",
+      "url": "https://www.pickyourown.org/TNswc.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 7; closure claims retained for review."
+    },
+    {
+      "id": "tnsrc-ef1638e64872",
+      "name": "PickYourOwn — Western Tennessee",
+      "url": "https://www.pickyourown.org/TNwest.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 7; closure claims retained for review."
+    }
+  ]
+}

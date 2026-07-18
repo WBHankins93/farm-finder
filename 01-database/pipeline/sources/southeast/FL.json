@@ -1,0 +1,337 @@
+{
+  "state": "FL",
+  "name": "Florida",
+  "region": "southeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "staged-bridge",
+      "name": "Migrated canonical rows (bridge)",
+      "url": "",
+      "adapter": "staged",
+      "notes": "Remove once live adapters cover this state."
+    },
+    {
+      "id": "flsrc-a00ddfc6ad0e",
+      "name": "Florida Department of Agriculture and Consumer Services — Florida Farm to You producer directory",
+      "url": "https://flfarmtoyou.com/producer/",
+      "adapter": "html_table",
+      "notes": "Traversed 19 live archive pages and retained 171 unique named producer profiles."
+    },
+    {
+      "id": "flsrc-8b0daa4d7be6",
+      "name": "U.S. Census Bureau — county denominator",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2712%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+      "adapter": "api",
+      "notes": ""
+    },
+    {
+      "id": "flsrc-7915a2a1a274",
+      "name": "EatWild Florida directory",
+      "url": "https://www.eatwild.com/products/florida.html",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "flsrc-62cde9dd6326",
+      "name": "Florida Department of Agriculture and Consumer Services — CSA locator",
+      "url": "https://www.fdacs.gov/Consumer-Resources/Buy-Fresh-From-Florida/Community-Supported-Agriculture-CSAs",
+      "adapter": "html_table",
+      "notes": "Every named row under the live county headings was retained."
+    },
+    {
+      "id": "flsrc-3e4e5708e5aa",
+      "name": "Florida Department of Agriculture and Consumer Services — U-pick farm locator",
+      "url": "https://www.fdacs.gov/Consumer-Resources/Buy-Fresh-From-Florida/U-Pick-Farms",
+      "adapter": "html_table",
+      "notes": "The live FDACS page exposed 100 child profiles; every unique named profile was retained."
+    },
+    {
+      "id": "flsrc-80b6f7526644",
+      "name": "LocalHarvest — Florida county-seat gap search",
+      "url": "https://www.localharvest.org",
+      "adapter": "html_table",
+      "notes": "Searched 1 county-seat anchors; deduplicated 12 profile URLs. Failures remain explicit."
+    },
+    {
+      "id": "flsrc-0fea8e111ded",
+      "name": "PickYourOwn — Alachua County",
+      "url": "https://www.pickyourown.org/FLnorth-Alachua.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-1a1f050fc23c",
+      "name": "PickYourOwn — Baker, Columbia and Union Counties",
+      "url": "https://www.pickyourown.org/FLnorth-BakerColumbiaUnion.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 3; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-0dbde5f23a6d",
+      "name": "PickYourOwn — Bay, Holmes, Walton and Washington County, mid-Panhandle",
+      "url": "https://www.pickyourown.org/FLpanhandle-WaltonBay.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 4; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-ac828c1d7c2d",
+      "name": "PickYourOwn — Bradford and Clay counties",
+      "url": "https://www.pickyourown.org/FLnorth-BradfordClay.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 2; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-b43fb524f9fb",
+      "name": "PickYourOwn — Brevard County and Osceola County",
+      "url": "https://www.pickyourown.org/FLeastcentral-Brevard.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 2; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-b97048e2cf1c",
+      "name": "PickYourOwn — Broward County",
+      "url": "https://www.pickyourown.org/FLsoutheastBroward.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-935a07dc2d42",
+      "name": "PickYourOwn — Charlotte and Glades County",
+      "url": "https://www.pickyourown.org/FLwest-CharlotteGlades.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 2; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-bd825b97deb7",
+      "name": "PickYourOwn — Citrus County",
+      "url": "https://www.pickyourown.org/FLwest-Citrus.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-3b3a8cc9212e",
+      "name": "PickYourOwn — Desoto and Hardee County",
+      "url": "https://www.pickyourown.org/FLwest-DesotoHardee.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 2; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-9f417451c18f",
+      "name": "PickYourOwn — Dixie and Lafayette counties",
+      "url": "https://www.pickyourown.org/FLnorth-DixieLafayette.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 2; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-7b9fb8364e21",
+      "name": "PickYourOwn — Eastern Florida Panhandle: Jefferson, Madison and Taylor County",
+      "url": "https://www.pickyourown.org/FLpanhandle-East.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 3; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-be95a5a721ba",
+      "name": "PickYourOwn — Escambia County (Pensacola area)",
+      "url": "https://www.pickyourown.org/FLpanhandle-Escambia.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-7d3976976d81",
+      "name": "PickYourOwn — Flagler and St. John's counties",
+      "url": "https://www.pickyourown.org/FLnorth-StJohnsFlagler.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 2; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-23e7bbc4950d",
+      "name": "PickYourOwn — Gilcrist and Levy counties",
+      "url": "https://www.pickyourown.org/FLnorth-GilcrestLevy.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 2; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-e163994e054c",
+      "name": "PickYourOwn — Hamilton County",
+      "url": "https://www.pickyourown.org/FLnorth-Hamilton.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-860a9a8e36ac",
+      "name": "PickYourOwn — Hernando County",
+      "url": "https://www.pickyourown.org/FLwest-Hernando.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-74694018b86d",
+      "name": "PickYourOwn — Highlands County",
+      "url": "https://www.pickyourown.org/FLwest-Highlands.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-1e8106b8cbb9",
+      "name": "PickYourOwn — Indian River County, Okeechobee County, St. Lucie County",
+      "url": "https://www.pickyourown.org/FLeastcentral-StLucie.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 3; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-0faee41edd2a",
+      "name": "PickYourOwn — Jackson County, Calhoun County, Franklin, Gulf, Liberty counties",
+      "url": "https://www.pickyourown.org/FLpanhandle-Jackson.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 5; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-0f54b90df9c2",
+      "name": "PickYourOwn — Jacksonville area; Duval and Nassau Counties",
+      "url": "https://www.pickyourown.org/FLnorth-Jacksonville.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 2; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-4c05de6e8e5d",
+      "name": "PickYourOwn — Lake County Orlando area",
+      "url": "https://www.pickyourown.org/FLeastcentral-Lake.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 0; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-c44fa8afefa7",
+      "name": "PickYourOwn — Manatee County",
+      "url": "https://www.pickyourown.org/FLwest-Manatee.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-b5688ff925d8",
+      "name": "PickYourOwn — Marion County",
+      "url": "https://www.pickyourown.org/FLnorth-Marion.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-515e58289b39",
+      "name": "PickYourOwn — Martin County or Palm Beach County,",
+      "url": "https://www.pickyourown.org/FLsoutheastPalmbeach.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 2; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-b2fb6400ac82",
+      "name": "PickYourOwn — Miami-Dade County",
+      "url": "https://www.pickyourown.org/FLsoutheast.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-0c5745c907ce",
+      "name": "PickYourOwn — Okaloosa County",
+      "url": "https://www.pickyourown.org/FLpanhandle-Okaloosa.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-e66e4c85f748",
+      "name": "PickYourOwn — Orange County",
+      "url": "https://www.pickyourown.org/FLeastcentral-Orange.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-f94015f2e119",
+      "name": "PickYourOwn — Pasco County",
+      "url": "https://www.pickyourown.org/FLwest-Pasco.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-fbe7c4655974",
+      "name": "PickYourOwn — Polk County",
+      "url": "https://www.pickyourown.org/FLcentral-Polk.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-ff881e20ba4a",
+      "name": "PickYourOwn — Putnam County",
+      "url": "https://www.pickyourown.org/FLnorth-Putnam.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-adf3534d52f4",
+      "name": "PickYourOwn — Santa Rosa County",
+      "url": "https://www.pickyourown.org/FLpanhandle-SantaRosa.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-cee372da675f",
+      "name": "PickYourOwn — Sarasota County",
+      "url": "https://www.pickyourown.org/FLwest-Sarasota.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-969ff1735103",
+      "name": "PickYourOwn — Seminole County",
+      "url": "https://www.pickyourown.org/FLeastcentral-Seminole.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-dfe8dfd88e2b",
+      "name": "PickYourOwn — Southwest Florida - Collier Hendry and Lee counties",
+      "url": "https://www.pickyourown.org/FLsouthwest.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 4; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-17f0aca9727b",
+      "name": "PickYourOwn — Sumter County",
+      "url": "https://www.pickyourown.org/FLwest-Sumter.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-ec52a42c2b51",
+      "name": "PickYourOwn — Suwannee County",
+      "url": "https://www.pickyourown.org/FLnorth-Suwanee.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-4ccee88a62a5",
+      "name": "PickYourOwn — Tallahassee area: Gadsden, Leon and Wakulla County",
+      "url": "https://www.pickyourown.org/FLpanhandle-Tallahassee.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 3; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-3859a6e8236d",
+      "name": "PickYourOwn — Tampa area - Hillsborough and Pinellas County",
+      "url": "https://www.pickyourown.org/FLwest-HillsboroughPinellas.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 2; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-53d7099b0708",
+      "name": "PickYourOwn — Volusia County",
+      "url": "https://www.pickyourown.org/FLeastcentral-Volusia.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 1; closure claims retained for review."
+    },
+    {
+      "id": "flsrc-947db256243f",
+      "name": "US Farm Trail — Florida discovery export",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=florida",
+      "adapter": "api",
+      "notes": "State headline advertised 1330; GeoJSON exposed 1328 coordinate-bearing records and visible state cards added 1 name-only records. One headline-count record was not publicly enumerable and remains a d"
+    }
+  ]
+}
