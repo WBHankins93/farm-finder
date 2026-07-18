@@ -30,7 +30,7 @@ from geo import apply_geo_fallback  # noqa: E402
 from model import Contact, Farm, Geo, Provenance, normalized_name, slugify  # noqa: E402
 from privacy import apply_privacy  # noqa: E402
 from publish import write_app_json  # noqa: E402
-from qa import run_qa  # noqa: E402
+from qa import rule_reclear_now_geocoded, run_qa  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 EXPANSIONS = ROOT / "research" / "state-expansions"
@@ -77,6 +77,12 @@ def map_row(row: dict, region: str) -> Farm:
     channel_text = f"{products_text} {business_types}".lower()
     eligible = row.get("promotion_status", "") == ELIGIBLE_STATUS
     blockers = (row.get("promotion_blockers", "") or "").strip()
+    # Privacy: rows classified county-only must never publish a precise
+    # coordinate (it may derive from a private address). Drop the coords so the
+    # geo fallback places them at a reduced-precision county centroid instead.
+    county_only = row.get("public_location_classification", "") == "county_only_no_public_address"
+    lat = None if county_only else _float(row.get("latitude", ""))
+    lng = None if county_only else _float(row.get("longitude", ""))
     return Farm(
         id="",  # assigned globally after dedupe to guarantee uniqueness
         name=row.get("farm_name", "").strip(),
@@ -103,9 +109,9 @@ def map_row(row: dict, region: str) -> Farm:
             public=False,
         ),
         geo=Geo(
-            latitude=_float(row.get("latitude", "")),
-            longitude=_float(row.get("longitude", "")),
-            precision="city" if _float(row.get("latitude", "")) is not None else "ungeocoded",
+            latitude=lat,
+            longitude=lng,
+            precision="city" if lat is not None else "ungeocoded",
         ),
         notes=_clean_note(row.get("notes", "")),
         provenance=Provenance(
@@ -196,7 +202,9 @@ def run() -> dict:
     privacy_stats = apply_privacy(farms)
 
     BUILD.mkdir(parents=True, exist_ok=True)
-    qa_stats = run_qa(farms, residue_path=BUILD / "qa-residue.csv", rules=[])
+    # Preserve prior human QA except for the one agreed automation: rows blocked
+    # purely on geography auto-clear once a real geocode places them (stream C).
+    qa_stats = run_qa(farms, residue_path=BUILD / "qa-residue.csv", rules=[rule_reclear_now_geocoded])
     app_stats = write_app_json(farms, BUILD / "app-farms.json", eligible_only=True)
     (BUILD / "canonical.json").write_text(
         json.dumps([f.to_record() for f in farms], indent=2, ensure_ascii=False) + "\n"

@@ -200,16 +200,48 @@ class TestAdapterDiscovery(unittest.TestCase):
 
 
 class TestQA(unittest.TestCase):
-    def test_geography_blocked_row_auto_clears_once_mapped(self):
+    def test_geography_blocked_row_auto_clears_with_real_geocode(self):
         f = farm(county="", city="", provenance=Provenance(source="LDAF"))
         f.eligible, f.qa_reason = decide_eligibility(f)
         self.assertFalse(f.eligible)
-        # Now it has coordinates (e.g. geocode backfill placed it).
-        f.geo = Geo(30.0, -92.0, "county-approx")
+        # A real geocode (city precision) placed it.
+        f.geo = Geo(30.0, -92.0, "city")
         f.county = "Acadia"
         cleared = rule_reclear_now_geocoded([f])
         self.assertEqual(cleared, 1)
         self.assertTrue(f.eligible)
+
+    def test_county_approx_centroid_never_clears_geography(self):
+        # The centroid derives from the doubted county — circular, must not clear.
+        f = farm(qa_reason="county requires geography review",
+                 geo=Geo(30.0, -92.0, "county-approx"))
+        f.eligible = False
+        self.assertEqual(rule_reclear_now_geocoded([f]), 0)
+        self.assertFalse(f.eligible)
+
+    def test_migrated_geography_reason_clears_with_real_geocode(self):
+        f = farm(qa_reason="county requires geography review",
+                 geo=Geo(35.5, -80.0, "city"))
+        f.eligible = False
+        self.assertEqual(rule_reclear_now_geocoded([f]), 1)
+        self.assertTrue(f.eligible)
+
+    def test_no_county_but_real_coord_clears(self):
+        # A geocoded point resolves a "county requires review" blocker even when
+        # the county field itself is still blank — the point implies the county.
+        f = farm(county="", qa_reason="county requires geography review",
+                 geo=Geo(35.5, -80.0, "city"))
+        f.eligible = False
+        self.assertEqual(rule_reclear_now_geocoded([f]), 1)
+        self.assertTrue(f.eligible)
+
+    def test_mixed_blockers_stay_residue(self):
+        # Geography plus a non-geography blocker must NOT auto-clear.
+        f = farm(qa_reason="county requires geography review; needs corroboration",
+                 geo=Geo(35.5, -80.0, "city"))
+        f.eligible = False
+        self.assertEqual(rule_reclear_now_geocoded([f]), 0)
+        self.assertFalse(f.eligible)
 
     def test_migration_mode_preserves_prior_qa(self):
         # rules=[] must not promote a flagged row even if it now looks eligible.

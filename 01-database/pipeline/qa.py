@@ -21,12 +21,36 @@ from model import Farm
 AutoRule = Callable[[list[Farm]], int]
 
 
+# Legacy blocker texts (from migrated rows) that are purely about geography.
+_GEOGRAPHY_BLOCKERS = {
+    "county requires geography review",
+    "city or safe public service area requires review",
+}
+# Precisions that represent a real, independently-derived placement. A
+# county-approx centroid must never clear a geography blocker — the centroid is
+# derived from the very county assignment the blocker doubts.
+_REAL_PRECISION = {"point", "address", "city"}
+
+
+def _geography_only(reason: str) -> bool:
+    parts = [p.strip().lower() for p in reason.split(";") if p.strip()]
+    return bool(parts) and all(
+        p in _GEOGRAPHY_BLOCKERS or p.startswith("missing geography") for p in parts
+    )
+
+
 def rule_reclear_now_geocoded(farms: list[Farm]) -> int:
-    """Rows blocked only on geography become eligible once the geo stage has
-    placed them (mappable), since a listing with a location is publishable."""
+    """Rows blocked *only* on geography become eligible once a real geocode has
+    placed them. A real-precision coordinate (point/address/city, never a
+    county-approx centroid) is independent evidence of location that resolves a
+    "county requires review" blocker — the county can be derived from the point.
+    Every ';'-separated blocker must be geography-flavored, so a row that also
+    needs corroboration or entity-type review stays residue."""
     cleared = 0
     for f in farms:
-        if not f.eligible and f.qa_reason.startswith("missing geography") and f.geo.mappable:
+        if f.eligible or not _geography_only(f.qa_reason):
+            continue
+        if f.geo.latitude is not None and f.geo.precision in _REAL_PRECISION:
             f.eligible, f.qa_reason = True, ""
             cleared += 1
     return cleared
