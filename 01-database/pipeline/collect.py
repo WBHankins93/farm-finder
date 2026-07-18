@@ -36,6 +36,24 @@ ADAPTERS: dict[str, SourceAdapter] = {}
 # a typo and hard-fails.
 PLANNED_ADAPTERS = {"csv_download", "html_table", "pdf_list", "api"}
 
+_adapters_loaded = False
+
+
+def load_adapters() -> list[str]:
+    """Import every module in pipeline/adapters/ so their @adapter decorators
+    register. Lazy and idempotent — called by collect_state() on first use, so
+    an adapter PR is exactly one new file with no engine edits."""
+    global _adapters_loaded
+    if _adapters_loaded:
+        return sorted(ADAPTERS)
+    _adapters_loaded = True
+    try:
+        import adapters
+    except ImportError:  # package absent (e.g. minimal checkout) — built-ins only
+        return sorted(ADAPTERS)
+    adapters.load_all()
+    return sorted(ADAPTERS)
+
 
 def adapter(name: str) -> Callable[[SourceAdapter], SourceAdapter]:
     def register(fn: SourceAdapter) -> SourceAdapter:
@@ -76,6 +94,7 @@ def collect_state(config: dict, ctx: CollectContext) -> list[Farm]:
     """Run every source in a state's config through its adapter and concatenate.
     Unknown adapters are skipped with a clear error rather than crashing the run —
     a half-configured state should still collect its working sources."""
+    load_adapters()
     out: list[Farm] = []
     for source in config.get("sources", []):
         kind = source.get("adapter", "staged")

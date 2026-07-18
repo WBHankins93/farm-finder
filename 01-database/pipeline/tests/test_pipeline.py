@@ -8,6 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+import collect  # noqa: E402
 from cleanse import classify_category, dedupe, decide_eligibility, parse_bool, parse_products  # noqa: E402
 from geo import apply_geo_fallback  # noqa: E402
 from model import CATEGORIES, Contact, Farm, Geo, Provenance, normalized_name, slugify  # noqa: E402
@@ -155,6 +156,47 @@ class TestPrivacy(unittest.TestCase):
         f = farm(contact=Contact(phone="555-1212"))
         self.assertFalse(clear_public_contact(f))
         self.assertEqual(f.contact.public_string(), "")
+
+
+class TestAdapterDiscovery(unittest.TestCase):
+    def test_load_adapters_registers_dropped_in_module(self):
+        """A new file in pipeline/adapters/ must register with zero engine edits."""
+        adapters_dir = Path(__file__).resolve().parents[1] / "adapters"
+        probe = adapters_dir / "zz_probe.py"
+        probe.write_text(
+            "from collect import adapter\n"
+            "@adapter('zz_probe')\n"
+            "def zz_probe(source, ctx):\n"
+            "    return []\n"
+        )
+        try:
+            collect._adapters_loaded = False  # force a re-scan
+            names = collect.load_adapters()
+            self.assertIn("zz_probe", names)
+            self.assertIn("staged", names)
+        finally:
+            probe.unlink()
+            for pyc in (adapters_dir / "__pycache__").glob("zz_probe*"):
+                pyc.unlink()
+            collect.ADAPTERS.pop("zz_probe", None)
+
+    def test_underscore_modules_are_skipped(self):
+        adapters_dir = Path(__file__).resolve().parents[1] / "adapters"
+        scratch = adapters_dir / "_scratch.py"
+        scratch.write_text("raise RuntimeError('must never be imported')\n")
+        try:
+            collect._adapters_loaded = False
+            collect.load_adapters()  # must not raise
+        finally:
+            scratch.unlink()
+
+    def test_collect_state_triggers_discovery(self):
+        collect._adapters_loaded = False
+        collect.collect_state(
+            {"state": "XX", "region": "test", "sources": []},
+            collect.CollectContext(state="XX", region="test"),
+        )
+        self.assertTrue(collect._adapters_loaded)
 
 
 class TestQA(unittest.TestCase):

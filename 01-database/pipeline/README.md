@@ -79,11 +79,15 @@ Follow the two-lane discipline in AGENTS.md: **do not** edit `model.py`,
 the tooling lane and it's frozen for you. Each task below is one exclusive claim.
 
 ### A. Source adapters — one PR each, no shared files
-Implement each planned adapter in a **new file** `pipeline/adapters/<kind>.py` and
-register it with `@adapter("<kind>")`. Signature: `(source: dict, ctx) -> Iterable[Farm]`.
-Build order (highest coverage first): `pdf_list`, `html_table`, `csv_download`, `api`.
-Each returns raw `Farm`s; the engine handles cleanse/geo/qa/publish. The engine
-already skips unbuilt adapters with a warning, so partial progress never breaks a run.
+Implement each planned adapter as a **single new file** `pipeline/adapters/<kind>.py`
+decorated with `@adapter("<kind>")` — the engine auto-discovers every module in
+`adapters/` on first use (`collect.load_adapters()`), so an adapter PR touches
+exactly one new file plus its own test file, never the engine. Signature:
+`(source: dict, ctx) -> Iterable[Farm]`; a template lives in
+`adapters/__init__.py`. Build order (highest coverage first): `pdf_list`,
+`html_table`, `csv_download`, `api`. Each returns raw `Farm`s; the engine
+handles cleanse/geo/qa/publish and skips unbuilt adapters with a warning, so
+partial progress never breaks a run.
 
 ### B. State configs — one PR per state
 - Existing 10 states: `scaffold_sources.py` already generated their configs from
