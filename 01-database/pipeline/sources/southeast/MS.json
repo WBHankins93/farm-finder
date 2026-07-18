@@ -1,0 +1,120 @@
+{
+  "state": "MS",
+  "name": "Mississippi",
+  "region": "southeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "staged-bridge",
+      "name": "Migrated canonical rows (bridge)",
+      "url": "",
+      "adapter": "staged",
+      "notes": "Remove once live adapters cover this state."
+    },
+    {
+      "id": "mssrc-96114245be73",
+      "name": "Genuine MS — Grown",
+      "url": "https://genuinems.com/members/grown/",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "mssrc-f6c1949c2183",
+      "name": "Genuine MS — Raised",
+      "url": "https://genuinems.com/members/raised/",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "mssrc-56fb549ff0de",
+      "name": "MDAC 2025–2026 certified nursery growers",
+      "url": "https://agnet.mdac.ms.gov/agManage/uploads/1415.pdf",
+      "adapter": "pdf_list",
+      "notes": "Parsed 348 certified-nursery entries; retained 257 explicit commercial/non-commercial growers and did not treat outlets or unclassified entries as farms."
+    },
+    {
+      "id": "mssrc-a6901c844a34",
+      "name": "MDAC-linked Mississippi Christmas Tree Farms",
+      "url": "https://mschristmastrees.com/locations/",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "mssrc-31da5f6e520b",
+      "name": "U.S. Census Bureau — county denominator",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=STATE%3D%2728%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=false&f=json",
+      "adapter": "api",
+      "notes": ""
+    },
+    {
+      "id": "mssrc-96b017279711",
+      "name": "EatWild Mississippi directory",
+      "url": "https://www.eatwild.com/products/mississippi.html",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "mssrc-6c27414a92c7",
+      "name": "MDAC Mississippi Farm Marketplace",
+      "url": "https://agnet.mdac.ms.gov/MarketPortal/MarketPortal",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "mssrc-b5ae85898d93",
+      "name": "MDAC Mississippi Farmers Market agricultural vendors",
+      "url": "https://agnet.mdac.ms.gov/Website/vendorlist",
+      "adapter": "html_table",
+      "notes": "Arts, crafts, baked goods, and other non-producer categories were retained only in raw source evidence."
+    },
+    {
+      "id": "mssrc-1de566c233d3",
+      "name": "MDAC registered agritourism venues",
+      "url": "https://agnet.mdac.ms.gov/website/AgTourism/Venues",
+      "adapter": "html_table",
+      "notes": ""
+    },
+    {
+      "id": "mssrc-f960f0a40282",
+      "name": "LocalHarvest — Mississippi county-seat gap search",
+      "url": "https://www.localharvest.org",
+      "adapter": "html_table",
+      "notes": "Searched 82 county-seat anchors; deduplicated 151 profile URLs. Failures remain explicit."
+    },
+    {
+      "id": "mssrc-b028595fa9b9",
+      "name": "PickYourOwn — East-central Mississippi",
+      "url": "https://www.pickyourown.org/MSeast.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 15; closure claims retained for review."
+    },
+    {
+      "id": "mssrc-a654eddeccea",
+      "name": "PickYourOwn — Jackson and west-central Mississippi",
+      "url": "https://www.pickyourown.org/MSjackson.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 14; closure claims retained for review."
+    },
+    {
+      "id": "mssrc-1068d410cf9e",
+      "name": "PickYourOwn — North Mississippi",
+      "url": "https://www.pickyourown.org/MSnorth.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 29; closure claims retained for review."
+    },
+    {
+      "id": "mssrc-db18735fbd3b",
+      "name": "PickYourOwn — Southeast Mississippi",
+      "url": "https://www.pickyourown.org/MSse.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 13; closure claims retained for review."
+    },
+    {
+      "id": "mssrc-20746349942d",
+      "name": "PickYourOwn — Southwest Mississippi",
+      "url": "https://www.pickyourown.org/MSsw.htm",
+      "adapter": "html_table",
+      "notes": "County sections searched: 9; closure claims retained for review."
+    }
+  ]
+}
