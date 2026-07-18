@@ -22,6 +22,16 @@ west, non-contiguous.
   don't publish — the eligible rows still load. No human S3 sign-off.
 - **The loop does not `git commit` or push.** It writes `data/<ST>.json` in the
   working tree and loads Postgres. Persisting to git is yours to do afterward.
+- **Quality bar — every state collects at the same breadth.** A state's coverage
+  is its `sources/<region>/<ST>.json` config, and `run.py --state` unions *all* of
+  its sources in one firing. Author each config to the pattern the established
+  states use: the state's own directory (a live adapter, or a committed `seed`
+  when it's a PDF / JS flipbook / login-gated portal) **plus** the national
+  directories every state shares — U.S. Farm Trail (`api`), EatWild, PickYourOwn,
+  LocalHarvest (`html_table`). All adapters fetch through `httpget` (browser
+  User-Agent); without it the national sources answer `403` and a state silently
+  under-collects. A single-source config is under-collected, not "done."
+  `blocked` means *no config at all* — a thin config is a quality bug to fix.
 
 ---
 
