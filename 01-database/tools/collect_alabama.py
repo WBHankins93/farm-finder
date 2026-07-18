@@ -771,6 +771,7 @@ def reconcile(observations: list[Observation]) -> tuple[list[dict[str, Any]], li
             entity = {
                 "entity_id": entity_id, "farm_name": name, "normalized_name": key,
                 "entity_type": "producer_requires_type_review" if bee_only else "farm",
+                "operating_model": "fixed_location_farm",
                 "identity_decision": identity_status, "state": "AL", "county": county,
                 "city": city, "postal_code": choose(source_items, "postal_code"),
                 "address_internal": choose(source_items, "address"),

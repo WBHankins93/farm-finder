@@ -18,6 +18,13 @@ No spreadsheet may be edited and reintroduced as an authoritative replacement af
 
 FarmFinder retains governed, source-backed website, social, online-store, map, market, product, contact, and verification information because those facts directly support farm discovery and directory quality.
 
+Market-circuit producers are a first-class operating model. When a producer's
+customer-facing operation is conducted through farmers markets, fairs, events,
+or shared/mobile venues, the release records `operating_model: market_circuit`
+and `public_location_classification: market_circuit_service_area`. The venue or
+service area is a legitimate public discovery path, distinct from a fixed farm
+location; it does not create an intake exemption or a QA penalty.
+
 - Every fact retains its provenance, confidence, verification, consent, and public/private visibility rules.
 - Private contacts and non-public locations never become public fields and are never returned through public APIs, exports, logs, analytics, or model prompts.
 - A correction enters FarmFinder only as a sourced assertion or curator action with appropriate consent and visibility.

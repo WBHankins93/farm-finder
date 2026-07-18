@@ -210,36 +210,36 @@
   },
   "release": {
     "id": "al-coverage-reviewed-v6-qa-2026-07-16",
-    "status": "coverage_reviewed",
+    "status": "record_verified",
     "generatedAt": "2026-07-16T00:00:00-05:00",
     "promotionReady": false,
-    "promotionBlockReason": "7 retained candidates require follow-up; release remains coverage-reviewed and unapproved",
+    "promotionBlockReason": "record-level QA is complete; managed evidence storage and explicit approval remain required",
     "counts": {
       "sourceObservations": 1057,
       "proposedEntities": 807,
-      "promotionEligibleEntities": 800,
-      "researchOrQaEntities": 7,
+      "promotionEligibleEntities": 807,
+      "researchOrQaEntities": 0,
       "excludedObservations": 9,
       "identityReviewGroups": 162,
       "countyCoverageRows": 67,
       "countiesWithCandidates": 67,
       "countiesWithEligibleEntities": 67,
       "sourceDatasets": 14,
-      "manualDecisions": 94,
+      "manualDecisions": 101,
       "excludedEntityGroups": 9
     },
     "repositoryFiles": {
       "entities.csv": {
-        "sha256": "18f6a4648a6219aba7302bcd5a92019939a000a47a8f26776d5b53f08dd632a5",
-        "bytes": 619136
+        "sha256": "efedca864c1f9328f6225bd2802f17efe2c02f7c2aad89c41e3108b04c7ad213",
+        "bytes": 618740
       },
       "decisions.csv": {
-        "sha256": "0478b8ac0a796a797096b655d2d733a2d6306da9921b8290aefa934326ca969f",
-        "bytes": 39505
+        "sha256": "995db9043134d38fb9e49127fea3717ceacce19c509303d25e853add09219270",
+        "bytes": 43668
       },
       "report.md": {
-        "sha256": "da384622b49fe994144a559381a2e6622543e591f7712ea7dff9995a991eb487",
-        "bytes": 5559
+        "sha256": "e8b9fc8dff812cdd944496e9e75d7e753f0ed7aaa59f3997b32d5c1245a64219",
+        "bytes": 5583
       }
     },
     "evidenceStorage": {

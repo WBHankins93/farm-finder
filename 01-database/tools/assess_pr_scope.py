@@ -26,11 +26,11 @@ PROHIBITED_STATE_NAMES = {
 # New-state collection pauses while the committed QA queue is over budget.
 # See 01-database/qa-operations.md; the reviewed exception is the existing
 # large-reviewed-change label, which skips this gate entirely in CI.
-# Post-burn-down judgment-only residue is 24 rows: 21 canonical-baseline
-# research items and 3 unresolved status cases. Keep intake at 1.5x that
-# human-review floor (ceil(1.5 * 24) = 36). Count only QA rows whose primary
-# qa_triage route is baseline, identity, or status_conflict; automated queues
-# are tracked separately.
+# Judgment-only residue is currently 25 rows: 21 canonical-baseline research
+# items and 4 unresolved status cases. The 36-row cap is held from the original
+# ~1.5x sizing of the human-review floor (ceil(1.5 * 24) = 36). Count only QA
+# rows whose primary qa_triage route is baseline, identity, or status_conflict;
+# automated queues are tracked separately.
 QA_INTAKE_CAP = 36
 JUDGMENT_STRATEGIES = {"baseline", "identity", "status_conflict"}
 

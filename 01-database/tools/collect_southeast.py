@@ -3465,6 +3465,22 @@ def identity_tokens(item: Observation) -> set[str]:
     return {re.sub(r"[^a-z0-9]", "", clean_text(value).casefold()) for value in values if clean_text(value)}
 
 
+def operating_model(items: list[Observation]) -> str:
+    """Classify explicit venue-only producers without weakening evidence gates."""
+
+    has_market_evidence = any(
+        re.search(
+            r"farmers?'? market|farm market|fair|festival|event",
+            " ".join((item.source_name, item.business_types, item.notes)),
+            re.I,
+        )
+        for item in items
+    )
+    has_fixed_sales = any(item.on_farm_sales is True for item in items)
+    has_market_sales = any(item.farmers_market_sales is True for item in items)
+    return "market_circuit" if has_market_evidence and has_market_sales and not has_fixed_sales else "fixed_location_farm"
+
+
 def reconcile(
     state: str,
     observations: list[Observation],
@@ -3519,13 +3535,15 @@ def reconcile(
             website, facebook, instagram, tiktok = classify_public_urls(
                 choose(items, "website_url"), choose(items, "facebook_url"), choose(items, "instagram_url"), choose(items, "tiktok_url")
             )
+            model = operating_model(items)
             disposition = classify_candidate(name, blockers)
             entity = {
                 "entity_id": entity_id, "farm_name": name, "normalized_name": key,
                 "entity_type": "farm" if type_confirmed else "producer_requires_type_review",
+                "operating_model": model,
                 "identity_decision": "merged_cross_county_identity_reviewed" if merge_cross else "split_due_county_conflict" if conflict else "merged_exact_name_reviewed" if len(items) > 1 else "unique_source_name_reviewed",
                 "state": state, "county": county, "city": city, "postal_code": choose(items, "postal_code"),
-                "address_internal": choose(items, "address"), "public_location_classification": "public_business_address_reviewed_for_future_reduced_precision",
+                "address_internal": choose(items, "address"), "public_location_classification": "market_circuit_service_area" if model == "market_circuit" else "public_business_address_reviewed_for_future_reduced_precision",
                 "latitude": choose(items, "latitude"), "longitude": choose(items, "longitude"),
                 "products": products, "business_types": unique_values(items, "business_types"),
                 "phone_internal": choose(items, "phone"), "email_internal": choose(items, "email"),

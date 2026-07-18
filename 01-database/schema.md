@@ -8,6 +8,23 @@ The production PostgreSQL/PostGIS schema and index decisions now live in `03-app
 
 The canonical workbook now includes stable record IDs, record/website/contact statuses, direct social URLs, last-verified date, verification sources, and identity notes. The `Database Summary`, `Research Queue`, `QA Queue`, and `Source Log` sheets are part of the same workbook; they are not separate databases. **Geocoding added 2026-07-12:** the historical v1 sheets include `Latitude`, `Longitude`, `Geo Precision`, and `Geo Source`. Region-precision rows use a representative-city proxy; upgrade them to farm-confirmed public locations during outreach. The xlsx's `Web Presence Score` (0–10) remains a useful prioritization field.
 
+## State-release classification fields
+
+The current state-release entity contract adds two normalized fields used by
+sorting, privacy-safe location handling, and future API/display work:
+
+| Field | Allowed value | Meaning |
+|---|---|---|
+| `operating_model` | `fixed_location_farm` | Stable farm or producer location; the public location belongs to the entity. |
+| `operating_model` | `market_circuit` | Customer-facing operation runs through recurring markets, fairs, events, or shared/mobile venues. This is distinct from a fixed-location farm. |
+| `public_location_classification` | `market_circuit_service_area` | Public city/county or reduced-precision map area for the market/venue circuit; never an exact private farm location. |
+
+For `market_circuit`, the venue/service area is a valid public contact and
+location path. It is not a missing-data defect and does not bypass the normal
+operation, identity, product, corroboration, or status gates. Older staged rows
+without `operating_model` are read as legacy data only; new or touched rows must
+set it explicitly.
+
 **Baseline stats (computed 2026-07-12):** NOLA Metro: 56 farms, 7% with website; South Louisiana: 26 farms, 19%; combined LA: 89% without a website. South Mississippi: 30 farms, 47% with website — a materially more-online market.
 
 ## Fields

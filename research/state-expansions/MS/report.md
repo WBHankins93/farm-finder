@@ -9,8 +9,8 @@
 ## Outcome
 
 The three documented collection passes retained **737 named candidates** from
-**957 immutable observations**. **581** currently meet staged
-field and evidence gates; **156** remain in explicit research/QA. Missing data never
+**957 immutable observations**. **590** currently meet staged
+field and evidence gates; **147** remain in explicit research/QA. Missing data never
 caused deletion or exclusion. The observation total includes **79**
 canonical identity anchors that preserve the existing cleaned MS canon without counting it
 as a current collection pass.
@@ -21,8 +21,8 @@ as a current collection pass.
 |---|---:|
 | Immutable source observations | 957 |
 | Retained candidate entities | 737 |
-| Promotion-eligible reviewed entities | 581 |
-| Research/QA entities | 156 |
+| Promotion-eligible reviewed entities | 590 |
+| Research/QA entities | 147 |
 | Affirmatively excluded observations | 45 |
 | Identity review groups | 135 |
 | Counties reviewed | 82 of 82 |
@@ -76,9 +76,9 @@ Blocker counts overlap because one retained entity can require more than one fol
 | Blocker | Entities |
 |---|---:|
 | single grade-E discovery listing needs corroboration | 89 |
-| county missing | 49 |
+| county missing | 40 |
 | source reports closure and requires affirmative curator decision | 41 |
-| city or safe public service area missing | 30 |
+| city or safe public service area missing | 21 |
 | directory candidate needs independent farm-operation evidence | 22 |
 | canonical baseline farm not rediscovered in current three-pass sources | 20 |
 | same normalized name appears in multiple counties | 4 |
@@ -95,14 +95,19 @@ Blocker counts overlap because one retained entity can require more than one fol
   profiles without explicit farm-operation evidence remain QA candidates rather than being discarded.
 - A named vendor explicitly classified as an agricultural farmers-market vendor is an in-scope producer even if
   the record documents only market sales; the market venue is not merged with the producer entity.
+- Nine agricultural vendors whose only blockers were venue-based county/service-area gaps are classified as
+  `market_circuit` with `market_circuit_service_area` in the append-only 2026-07-17 batch. This is a sorting and
+  display classification, not an intake-gate exemption; the public service area is the Mississippi Farmers Market
+  venue in Jackson, not a fixed farm-gate location.
 - PickYourOwn closure claims remain retained pending an affirmative append-only curator decision.
-- County and city-or-safe-service-area gaps remain explicit blockers in `entities.csv`.
+- County and city-or-safe-service-area gaps remain explicit blockers in `entities.csv` unless a documented venue
+  service area resolves them under the market-circuit rule.
 - Outside-state radius results remain in immutable observations and `exclusions.csv`, never as Mississippi entities.
 - Detailed observations, request logs, and raw source records remain outside Git in the evidence bundle.
 
 ## Promotion blockers
 
-1. Resolve the 156 QA candidates through current farm-owned or authoritative evidence.
+1. Resolve the 147 QA candidates through current farm-owned or authoritative evidence.
 2. Copy the immutable evidence objects to managed versioned storage.
 3. Record approval against the resulting release fingerprint.
 4. Promote Mississippi atomically in a separate canonical-release change.
@@ -118,6 +123,14 @@ recently expired grower certification. The evidence-bounded operating range is t
 This is a public-evidence directory count, not the USDA statistical count of every agricultural operation.
 Missing evidence never proves closure, and every collected name remains preserved for follow-up.
 
+## Market-circuit classification batch — 2026-07-17
+
+This append-only batch added **9** `correct` decisions and made no exclusions. The
+nine named agricultural vendors remain distinct producer entities, but their
+public location is the Mississippi Farmers Market service area in Jackson. Their
+prior venue-based county/city blockers were cleared; no operation, product,
+identity, corroboration, or status gate was waived.
+
 ## Judgment-only QA residue — 2026-07-17
 
-This append-only batch added **10** evidence decisions and made no exclusions. The current contract counts are **737 entities**, **581 promotion-eligible reviewed**, and **156 research/QA**. The remaining judgment-only residue is **5** rows: **4** canonical-baseline research items and **1** unresolved status case without affirmative current closure evidence. Missing evidence remains a routed research blocker.
+This append-only batch added **10** evidence decisions and made no exclusions. The current contract counts are **737 entities**, **590 promotion-eligible reviewed**, and **147 research/QA**. The remaining judgment-only residue is **5** rows: **4** canonical-baseline research items and **1** unresolved status case without affirmative current closure evidence. Missing evidence remains a routed research blocker.

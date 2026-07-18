@@ -178,7 +178,7 @@ class ReferralInputTests(unittest.TestCase):
 
     def test_retroactive_generation_covers_all_current_outside_decisions(self) -> None:
         referrals = referrals_from_committed_decisions()
-        self.assertEqual(len(referrals), 20)
+        self.assertEqual(len(referrals), 52)
         self.assertIn("Ganus Farms", {row["farm_name"] for row in referrals})
         self.assertEqual(
             {row["home_state"] for row in referrals if row["farm_name"] == "Ganus Farms"},
@@ -292,10 +292,10 @@ class SourceTierPolicyTests(unittest.TestCase):
 class QaTriageTests(unittest.TestCase):
     def test_primary_strategy_follows_priority_order(self) -> None:
         primary, matched = qa_route(
-            "county requires geography review; no public outreach path captured"
+            "county requires geography review; identity continuity review required"
         )
         self.assertEqual(primary, "geography")
-        self.assertIn("contact_outreach", matched)
+        self.assertEqual(matched, ["geography", "identity"])
 
     def test_unrecognized_blocker_text_is_unrouted(self) -> None:
         self.assertEqual(qa_route("mystery condition"), ("unrouted", ["unrouted"]))
@@ -319,7 +319,7 @@ class QaBackpressureTests(unittest.TestCase):
     def test_committed_qa_total_excludes_the_new_state(self) -> None:
         total = committed_qa_total()
         without_nc = committed_qa_total(exclude={"NC"})
-        self.assertEqual(total, 24)
+        self.assertEqual(total, 25)
         self.assertEqual(total - without_nc, 0)
         self.assertGreater(QA_INTAKE_CAP, 0)
 
@@ -576,7 +576,7 @@ class CurrentStateContractTests(unittest.TestCase):
                 self.assertEqual(result["status"], "passed", result["errors"])
 
     def test_coverage_review_is_not_promotion_approval(self) -> None:
-        for state in ("AL", "AR", "FL", "GA", "TN", "TX"):
+        for state in ("AR", "FL", "GA", "TN", "TX"):
             result = state_status(state)
             self.assertEqual(result["lifecycleStatus"], "coverage_reviewed")
             self.assertFalse(result["promotionReady"])
@@ -584,12 +584,19 @@ class CurrentStateContractTests(unittest.TestCase):
             self.assertTrue(result["eligibleStagingReady"])
             self.assertTrue(result["counts"]["qa"] > 0)
 
+        al = state_status("AL")
+        self.assertEqual(al["lifecycleStatus"], "record_verified")
+        self.assertFalse(al["promotionReady"])
+        self.assertFalse(al["promotable"])
+        self.assertTrue(al["eligibleStagingReady"])
+        self.assertEqual(al["counts"]["qa"], 0)
+
     def test_eligible_handoff_keeps_qa_state_scoped(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             handoff = export_state("AL", Path(temporary))
             self.assertEqual(handoff["status"], "eligible_staged")
-            self.assertEqual(handoff["eligibleCount"], 800)
-            self.assertEqual(handoff["qaCount"], 7)
+            self.assertEqual(handoff["eligibleCount"], 807)
+            self.assertEqual(handoff["qaCount"], 0)
             self.assertEqual(handoff["qaPolicy"], "deferred_state_scoped_review")
             self.assertTrue((Path(temporary) / "AL" / "eligible-entities.csv").is_file())
             self.assertTrue((Path(temporary) / "AL" / "qa-queue.csv").is_file())
