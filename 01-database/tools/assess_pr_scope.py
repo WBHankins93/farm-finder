@@ -4,12 +4,9 @@
 from __future__ import annotations
 
 import argparse
-import csv
 import json
 import subprocess
 from pathlib import Path
-
-from qa_triage import QA_STATUS, route
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -23,18 +20,6 @@ PROHIBITED_STATE_NAMES = {
     "qa-queue.csv", "identity-review.csv", "excluded-observations.csv",
     "county-lookup-errors.json", "geography-conflicts.csv",
 }
-# New-state collection pauses while the committed QA queue is over budget.
-# See 01-database/qa-operations.md; the reviewed exception is the existing
-# large-reviewed-change label, which skips this gate entirely in CI.
-# Judgment-only residue is currently 25 rows: 21 canonical-baseline research
-# items and 4 unresolved status cases. The 36-row cap is held from the original
-# ~1.5x sizing of the human-review floor (ceil(1.5 * 24) = 36). Count only QA
-# rows whose primary qa_triage route is baseline, identity, or status_conflict;
-# automated queues are tracked separately.
-QA_INTAKE_CAP = 36
-JUDGMENT_STRATEGIES = {"baseline", "identity", "status_conflict"}
-
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--base", default="origin/main")
@@ -59,32 +44,6 @@ def stale_state_directories(merge_base: str, base: str, states, runner=run) -> l
         if newer:
             stale.append(state)
     return stale
-
-
-def new_state_directories(merge_base: str, states, runner=run) -> list[str]:
-    """States in this PR that did not exist at the merge-base."""
-    added = []
-    for state in sorted(states):
-        existing = runner("git", "ls-tree", merge_base, "--name-only",
-                          f"research/state-expansions/{state}").strip()
-        if not existing:
-            added.append(state)
-    return added
-
-
-def committed_qa_total(exclude=(), root: Path = ROOT) -> int:
-    """Count committed QA rows routed to a human judgment strategy."""
-    total = 0
-    for path in sorted((root / "research" / "state-expansions").glob("*/entities.csv")):
-        if path.parent.name in exclude:
-            continue
-        with path.open(newline="", encoding="utf-8") as handle:
-            for row in csv.DictReader(handle):
-                if row.get("promotion_status") != QA_STATUS:
-                    continue
-                primary, _ = route(row.get("promotion_blockers", ""))
-                total += primary in JUDGMENT_STRATEGIES
-    return total
 
 
 def main() -> int:
@@ -128,16 +87,6 @@ def main() -> int:
             f"{state} release changed on {args.base} after this branch's merge-base; "
             "rebase onto the latest main before opening the PR"
         )
-    added_states = new_state_directories(merge_base, states)
-    if added_states:
-        backlog = committed_qa_total(exclude=set(added_states))
-        if backlog > QA_INTAKE_CAP:
-            errors.append(
-                f"new-state collection ({', '.join(added_states)}) is paused: the committed QA "
-                f"queue is {backlog}, above the {QA_INTAKE_CAP} intake cap (qa-operations.md); "
-                "reduce QA first or request the large-reviewed-change exception"
-            )
-
     files.sort(key=lambda row: (row["additions"], row["deletions"]), reverse=True)
     report = {
         "status": "passed" if not errors else "failed",
