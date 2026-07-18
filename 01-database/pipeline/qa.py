@@ -1,0 +1,91 @@
+"""QA stage — automation first, humans only on the residue.
+
+The old pipeline gated canonical status on a human judgment for every row and
+grew a routing taxonomy plus an intake cap to cope. Here QA is code that runs to
+exhaustion: automated rules re-clear whatever they can, then whatever remains is
+exported as the *residue* — the only thing a human ever looks at.
+
+Add an automated rule by appending to `AUTO_RULES`. Each rule takes the full
+list and returns how many rows it newly cleared.
+"""
+from __future__ import annotations
+
+import csv
+from collections import Counter
+from pathlib import Path
+from typing import Callable
+
+from cleanse import decide_eligibility
+from model import Farm
+
+AutoRule = Callable[[list[Farm]], int]
+
+
+def rule_reclear_now_geocoded(farms: list[Farm]) -> int:
+    """Rows blocked only on geography become eligible once the geo stage has
+    placed them (mappable), since a listing with a location is publishable."""
+    cleared = 0
+    for f in farms:
+        if not f.eligible and f.qa_reason.startswith("missing geography") and f.geo.mappable:
+            f.eligible, f.qa_reason = True, ""
+            cleared += 1
+    return cleared
+
+
+def rule_recompute(farms: list[Farm]) -> int:
+    """Re-run the eligibility decision after upstream stages enriched records
+    (dedupe merges, geo fills). Flips rows whose blocker no longer holds."""
+    cleared = 0
+    for f in farms:
+        if not f.eligible:
+            ok, reason = decide_eligibility(f)
+            if ok:
+                f.eligible, f.qa_reason = True, ""
+                cleared += 1
+            else:
+                f.qa_reason = reason
+    return cleared
+
+
+AUTO_RULES: list[AutoRule] = [rule_reclear_now_geocoded, rule_recompute]
+
+
+def geography_only_residue(farms: list[Farm]) -> int:
+    """Diagnostic: residue rows blocked solely on geography — the population a
+    geocode backfill plus `rule_reclear_now_geocoded` can auto-clear. Reported,
+    not acted on, so the migration never over-promotes on this basis."""
+    return sum(1 for f in farms if not f.eligible and "geograph" in f.qa_reason.lower())
+
+
+def run_qa(farms: list[Farm], residue_path: Path | None = None, rules: list[AutoRule] | None = None) -> dict:
+    """Drain what automation can, export the residue, return a summary.
+
+    `rules` defaults to `AUTO_RULES` (go-forward collection). The one-time
+    migration passes `rules=[]` to *preserve prior human QA* — it partitions and
+    exports the residue without auto-promoting rows a human already flagged."""
+    active = AUTO_RULES if rules is None else rules
+    auto_cleared = 0
+    for rule in active:
+        auto_cleared += rule(farms)
+
+    residue = [f for f in farms if not f.eligible]
+    reasons = Counter(f.qa_reason for f in residue)
+
+    if residue_path is not None:
+        residue_path.parent.mkdir(parents=True, exist_ok=True)
+        with residue_path.open("w", newline="") as fh:
+            w = csv.writer(fh)
+            w.writerow(["id", "name", "state", "county", "city", "qa_reason", "source"])
+            for f in residue:
+                w.writerow([f.id, f.name, f.state, f.county, f.city, f.qa_reason, f.provenance.source])
+
+    eligible = len(farms) - len(residue)
+    return {
+        "total": len(farms),
+        "auto_cleared": auto_cleared,
+        "eligible": eligible,
+        "residue": len(residue),
+        "auto_clear_rate": round(eligible / len(farms), 3) if farms else 0.0,
+        "geography_only_residue": geography_only_residue(farms),
+        "residue_reasons": dict(reasons.most_common(12)),
+    }

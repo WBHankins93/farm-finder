@@ -1,0 +1,3 @@
+# Generated pipeline artifacts — reproducible from `migrate.py`, never canonical.
+build/
+__pycache__/
