@@ -59,7 +59,9 @@ storage referenced by checksum from `state.yaml`; they are never committed.
    main's last commit to that directory (`git log -1 origin/main -- <dir>`).
    Stale-base state PRs fork release history and get closed.
 2. **One state-data PR in flight per state.** Never stack state-data PRs on
-   other unmerged branches.
+   other unmerged branches. Before dispatching parallel sessions, read
+   *Dispatching parallel sessions* below — most cross-PR conflicts come from
+   ignoring it.
 3. **Keep PRs small and focused.** Commit early and often. CI rejects more than
    20 changed files or 15,000 additions without the `large-reviewed-change`
    label; don't aim for the ceiling.
@@ -78,6 +80,65 @@ storage referenced by checksum from `state.yaml`; they are never committed.
 8. **Keep counts honest everywhere.** When entity/decision counts change,
    update `state.yaml` counts, repository-file hashes, `report.md`, and any
    doc that cites the numbers, in the same PR.
+
+## Dispatching parallel sessions (Codex hand-off)
+
+Parallel Codex/Claude sessions are fine **only when their scopes cannot touch
+the same files.** GitHub reports "mergeable" against the current `main` only, so
+two overlapping PRs both look clean until the first one lands and staleness
+(Rule 8) or a conflict surfaces in the second. Prevent it up front:
+
+### Two lanes — never run them concurrently
+
+- **Tooling/policy lane** — anything that edits shared code or rules:
+  `01-database/tools/*`, `01-database/tools/tests/*`, `qa_triage.py`,
+  `schema.md`, `state-release-contract.md`, `qa-operations.md`, collectors, or
+  any doc that states pipeline rules. Run these **one at a time, serially, and
+  merge them first.** They change the ground every other session builds on.
+- **Data lane** — edits **only** `research/state-expansions/<ST>/` for a single
+  state. Fan these out in parallel **after** the tooling lane is quiet, one
+  session per state.
+
+Do not mix lanes in one session, and do not open a data PR while a tooling PR
+that changes routing/counting/contract rules is still open — rebase onto it
+after it merges instead.
+
+### Allocate exclusive scope before dispatch
+
+Every session gets an exclusive claim; two sessions never share a state or a
+shared file.
+
+- One state = one session. Never assign two sessions to the same state (this is
+  what produced the MS #60/#64 collision).
+- No session in the data lane may edit a cross-cutting file
+  (`test_state_release_contract.py`, `qa-operations.md`, any tool). If a data
+  change needs a contract-test edit, that belongs in a tooling-lane PR.
+- Track live claims however is convenient (PR labels like `state:MS` /
+  `lane:tooling`, or a scratch checklist) — the point is that a claim exists
+  before the session starts.
+
+### Never stack on another unmerged branch
+
+Always branch from `main` (Rule 1/2). A PR based on another open PR's branch
+gets **auto-closed** when that base is squash-merged and its branch deleted —
+recovering it means recreating the base branch, reopening, and retargeting to
+`main`. Not worth it; wait for the dependency to merge, then branch from `main`.
+
+### Hand-off prompt template
+
+Give each dispatched session:
+
+```
+Scope: <exactly one of> state:<ST>  |  lane:tooling area:<file/dir>
+You MAY edit: <the claimed dir/files only>
+You MUST NOT edit: any file outside that scope — especially
+  test_state_release_contract.py, qa-operations.md, and 01-database/tools/*
+  (unless this is a tooling-lane session that claimed them).
+Base: branch from origin/main at its current tip; do not stack on any open PR.
+Before marking ready: re-fetch main; if it moved, rebase, re-run the required
+  checks, and regenerate counts/hashes (Rule 8). Leave the PR as a draft only
+  if blocked; otherwise mark it ready with a one-line before/after.
+```
 
 ## Required checks before any PR
 
