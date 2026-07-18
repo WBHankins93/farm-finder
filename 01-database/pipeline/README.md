@@ -74,6 +74,13 @@ Complete, tested, and stable to build against:
 
 ## Handoff to Codex (data lane — mass, parallel, scoped)
 
+**Dispatch via runbooks.** Each stream below has a strict work order in
+[`handoff/`](handoff/README.md); hand a session one short prompt pointing at the
+runbook for one state, then verify against the runbook's acceptance criteria.
+
+- Stream C → [`handoff/stream-c-geocode-backfill.md`](handoff/stream-c-geocode-backfill.md) — **live now**
+- Stream B → [`handoff/stream-b-wire-sources.md`](handoff/stream-b-wire-sources.md) — **blocked on the orchestrator `run.py`**
+
 Follow the two-lane discipline in AGENTS.md: **do not** edit `model.py`,
 `cleanse.py`, `geo.py`, `privacy.py`, `qa.py`, `collect.py`, or the tests — that's
 the tooling lane and it's frozen for you. Each task below is one exclusive claim.
