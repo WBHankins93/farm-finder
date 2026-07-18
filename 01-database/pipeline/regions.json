@@ -1,0 +1,29 @@
+{
+  "_note": "Region -> states. The release unit is the region: a region ships when every state in it has cleared cleanse and its QA residue is empty. States collected state-by-state, validated region-by-region. JSON (not YAML) because the repo has no pyyaml and state.yaml is already JSON content.",
+  "regions": {
+    "southeast": {
+      "label": "Southeast",
+      "states": ["LA", "MS", "AL", "AR", "FL", "GA", "NC", "SC", "TN", "KY", "VA", "WV"]
+    },
+    "southwest": {
+      "label": "Southwest",
+      "states": ["TX", "OK", "NM", "AZ"]
+    },
+    "northeast": {
+      "label": "Northeast",
+      "states": ["NY", "NJ", "PA", "CT", "RI", "MA", "VT", "NH", "ME", "MD", "DE"]
+    },
+    "midwest": {
+      "label": "Midwest",
+      "states": ["OH", "IN", "IL", "MI", "WI", "MN", "IA", "MO", "ND", "SD", "NE", "KS"]
+    },
+    "west": {
+      "label": "West",
+      "states": ["WA", "OR", "ID", "MT", "WY", "NV", "UT", "CO", "CA"]
+    },
+    "noncontiguous": {
+      "label": "Non-contiguous",
+      "states": ["HI", "AK"]
+    }
+  }
+}

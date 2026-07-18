@@ -1,0 +1,13 @@
+{
+  "_note": "National sources that apply to every state, merged in by the engine ahead of per-state sources. Adapters to be built by Codex; kept here so a national directory is configured once, not per state.",
+  "region": "national",
+  "sources": [
+    {
+      "id": "usda-local-food-directories",
+      "name": "USDA Local Food Directories (farmers markets, CSA, on-farm markets, food hubs)",
+      "url": "https://www.usdalocalfoodportal.com/",
+      "adapter": "api",
+      "notes": "Filter to the target state; de-dupe against state sources by normalized name + county."
+    }
+  ]
+}
