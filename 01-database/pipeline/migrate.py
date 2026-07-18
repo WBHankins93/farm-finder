@@ -182,22 +182,32 @@ def integrity_demote(farms: list[Farm]) -> int:
     return demoted
 
 
+def build_state_canonical(state_code: str, region_map: dict | None = None) -> list[Farm]:
+    """Map one state's entities.csv into pre-geo/pre-qa canonical Farm rows
+    (mapped, deduped, id'd, integrity-checked). Shared by the full migration and
+    by the orchestrator's staged bridge, so both speak the same canonical."""
+    region_map = region_map or load_region_map()
+    region = region_map.get(state_code, "unassigned")
+    path = EXPANSIONS / state_code / "entities.csv"
+    farms = [map_row(r, region) for r in csv.DictReader(path.open())]
+    farms, _ = dedupe_preserving_qa(farms)
+    assign_ids(farms)
+    integrity_demote(farms)
+    return farms
+
+
 def run() -> dict:
     region_map = load_region_map()
     farms: list[Farm] = []
     per_state: dict[str, int] = {}
     for csv_path in sorted(EXPANSIONS.glob("*/entities.csv")):
         st = csv_path.parent.name
-        region = region_map.get(st, "unassigned")
-        rows = list(csv.DictReader(csv_path.open()))
-        for r in rows:
-            farms.append(map_row(r, region))
-        per_state[st] = len(rows)
+        per_state[st] = sum(1 for _ in csv.DictReader(csv_path.open()))
+        farms.extend(build_state_canonical(st, region_map))
 
-    ingested = len(farms)
-    farms, merged = dedupe_preserving_qa(farms)
-    assign_ids(farms)
-    demoted = integrity_demote(farms)
+    ingested = sum(per_state.values())
+    merged = ingested - len(farms)
+    demoted = sum(1 for f in farms if not f.eligible and f.qa_reason.startswith("integrity:"))
     geo_stats = apply_geo_fallback(farms)
     privacy_stats = apply_privacy(farms)
 

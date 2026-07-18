@@ -17,17 +17,31 @@ the repo has no PyYAML and `state.yaml` is already JSON content.
 ├── geo.py              # county-centroid fallback (in-repo, no network)
 ├── privacy.py          # internal_until_public_use_review enforcement
 ├── qa.py               # automated residue rules + export
-├── collect.py          # config-driven engine + adapter registry
+├── collect.py          # config-driven engine + adapter registry (per-source isolation)
+├── adapters/           # one module per source type (pdf_list, html_table, csv_download, api)
 ├── publish.py          # -> app farms.json  (Postgres sink stubbed)
-├── migrate.py          # fold the 15,703 staged rows into the model
+├── run.py              # ORCHESTRATOR: collect a state via live engine -> data/<ST>.json; --publish
+├── migrate.py          # one-time bridge: fold the 15,703 staged rows into the model
 ├── scaffold_sources.py # generate source configs from existing state.yaml
 ├── regions.json        # region -> states (the release unit)
+├── data/               # committed canonical store, data/<ST>.json (live-collected states)
 ├── sources/
 │   ├── SCHEMA.md       # the source-config spec Codex authors against
 │   ├── _common.json    # national sources
 │   └── <region>/<ST>.json
-└── tests/              # 27 stdlib unit tests
+└── tests/              # stdlib unit tests
 ```
+
+## Run the pipeline
+
+```bash
+python3 01-database/pipeline/run.py --state KY   # collect one state via live adapters -> data/KY.json
+python3 01-database/pipeline/run.py --all        # every state that has a source config
+python3 01-database/pipeline/run.py --publish    # aggregate all states -> build/app-farms.json
+```
+
+`migrate.py` remains the one-time entities.csv bridge; `run.py --publish` prefers
+a committed `data/<ST>.json` and falls back to that bridge per state.
 
 ## Run
 

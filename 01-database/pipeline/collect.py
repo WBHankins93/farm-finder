@@ -108,5 +108,12 @@ def collect_state(config: dict, ctx: CollectContext) -> list[Farm]:
                 f"[{config['state']}] unknown adapter type {kind!r} (source: {label}). "
                 f"Expected one of {sorted(set(ADAPTERS) | PLANNED_ADAPTERS)}."
             )
-        out.extend(fn(source, ctx))
+        # Isolate each source: a network error, HTTP 4xx/5xx, or parse failure in
+        # one source must not lose the other sources (especially the staged
+        # bridge). Record it and move on — a failed fetch is a data-lane fix, not
+        # a crash. A typo'd adapter (NotImplementedError above) still hard-fails.
+        try:
+            out.extend(fn(source, ctx))
+        except Exception as exc:  # noqa: BLE001 — deliberately broad; sources are untrusted I/O
+            ctx.warnings.append(f"[{config['state']}] source failed ({type(exc).__name__}): {label} — {exc}")
     return out

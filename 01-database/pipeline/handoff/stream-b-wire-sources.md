@@ -4,12 +4,12 @@
 the engine, instead of the placeholder `staged-bridge`.
 **One session handles exactly one state.** Work top to bottom.
 
-> ## ⛔ PREREQUISITE — do not dispatch until this is true
-> The orchestrator `01-database/pipeline/run.py` must exist on `main`
-> (it runs a state config through collect → cleanse → geo → qa → publish and
-> persists the result). Until that PR is merged, adapters can be *named* in a
-> config but there is nothing to *run* them, so this runbook cannot be
-> completed. Confirm `run.py` is present before starting.
+> ## ✅ Ready to dispatch
+> The orchestrator `01-database/pipeline/run.py` is live. It runs a state config
+> through collect → cleanse → geo → qa and persists the result to
+> `data/<ST>.json`; `run.py --publish` aggregates all states into the app feed.
+> The engine isolates per-source failures, so a source that 403s or fails to
+> parse becomes a warning, not a crash — fix or drop those sources as you go.
 
 ## Why this exists
 
