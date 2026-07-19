@@ -786,9 +786,14 @@
     "region": "northeast",
     "county": "",
     "city": "Pittstown",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Blueberries",
+      "Sweet Potatoes"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Blueberries, Sweet Potatoes",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -799,9 +804,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(908) 627-4052",
       "email": "",
-      "address": "",
+      "address": "552 Pittstown Rd., Pittstown, New Jersey, 08867",
       "public": false
     },
     "geo": {
@@ -864,10 +869,13 @@
     "region": "northeast",
     "county": "",
     "city": "Williamstown",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Produce",
+    "products": [
+      "Other: grain",
+      "vegetables"
+    ],
+    "products_text": "Other: grain, vegetables",
+    "website": "www.savoieorganicfarm.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -879,7 +887,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "990 East Malaga Road, Williamstown, New Jersey, 08094",
       "public": false
     },
     "geo": {
@@ -903,10 +911,14 @@
     "region": "northeast",
     "county": "",
     "city": "Chester",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: beans",
+      "herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: beans, herbs, vegetables",
+    "website": "www.alstedefarms.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -918,7 +930,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "1 Alstede Farms Lane, Chester, New Jersey, 07930",
       "public": false
     },
     "geo": {
@@ -8704,9 +8716,12 @@
     "county": "",
     "city": "Lawrence Township",
     "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "products": [
+      "Other: hay",
+      "pasture"
+    ],
+    "products_text": "Other: hay, pasture",
+    "website": "www.cherrygrovefarm.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -8718,7 +8733,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "3200 Lawrenceville Road, Lawrenceville, New Jersey, 08648",
       "public": false
     },
     "geo": {
@@ -8976,10 +8991,13 @@
     "region": "northeast",
     "county": "",
     "city": "Newton",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Produce",
+    "products": [
+      "Fruit - Berries: Blueberries",
+      "Field/Forageable: Hay"
+    ],
+    "products_text": "Fruit - Berries: Blueberries; Field/Forageable: Hay",
+    "website": "www.rockywoodfarm.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -8991,7 +9009,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "77 Madison Street, Newton, New Jersey, 07860",
       "public": false
     },
     "geo": {
@@ -13267,9 +13285,13 @@
     "county": "",
     "city": "Winslow Township",
     "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "products": [
+      "Other: blueberries",
+      "blackberries",
+      "fallow"
+    ],
+    "products_text": "Other: blueberries, blackberries, fallow",
+    "website": "https://rosedaleblueberryfarm.com/",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -13281,7 +13303,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "145 Laurel Ave., Hammonton, New Jersey, 08037",
       "public": false
     },
     "geo": {
@@ -14202,10 +14224,16 @@
     "region": "northeast",
     "county": "",
     "city": "Lambertville",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Produce",
+    "products": [
+      "Other: berries",
+      "fallow",
+      "fruit",
+      "hay",
+      "vegetables"
+    ],
+    "products_text": "Other: berries, fallow, fruit, hay, vegetables",
+    "website": "www.northslopefarm.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -14217,7 +14245,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "386 Rock Road East, Lambertville, New Jersey, 08530",
       "public": false
     },
     "geo": {
@@ -14943,9 +14971,11 @@
     "region": "northeast",
     "county": "",
     "city": "Emerson",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Produce",
+    "products": [
+      "Other: vegetables"
+    ],
+    "products_text": "Other: vegetables",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -14958,7 +14988,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "650 Old Hook Road, Emerson, New Jersey, 07630",
       "public": false
     },
     "geo": {
@@ -19078,8 +19108,11 @@
     "county": "",
     "city": "Vineland",
     "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "products": [
+      "Other: Blueberries",
+      "Sweet potatoes"
+    ],
+    "products_text": "Other: Blueberries, Sweet potatoes",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -19090,9 +19123,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "609-457-8303 (Rebecca)",
       "email": "",
-      "address": "",
+      "address": "3460 Oak Road, Vineland, New Jersey, 08360",
       "public": false
     },
     "geo": {
@@ -21183,10 +21216,16 @@
     "region": "northeast",
     "county": "",
     "city": "Pennington",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Produce",
+    "products": [
+      "Other: berries",
+      "fallow",
+      "fruit",
+      "grain",
+      "vegetables"
+    ],
+    "products_text": "Other: berries, fallow, fruit, grain, vegetables",
+    "website": "www.chickadeecreekfarm.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -21198,7 +21237,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "80 Titus Mill Road, Pennington, New Jersey, 08534",
       "public": false
     },
     "geo": {
@@ -21339,10 +21378,13 @@
     "region": "northeast",
     "county": "",
     "city": "Warren Township",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Produce",
+    "products": [
+      "Other: cover crop",
+      "vegetables"
+    ],
+    "products_text": "Other: cover crop, vegetables",
+    "website": "www.windsongorganicfarm.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -21354,7 +21396,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "31 King George Road, Warren, New Jersey, 07059",
       "public": false
     },
     "geo": {
@@ -21417,10 +21459,14 @@
     "region": "northeast",
     "county": "",
     "city": "Stockton",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Produce",
+    "products": [
+      "Fruit - Berries: Strawberries",
+      "Field/Forageable: Hay",
+      "Other: vegetables"
+    ],
+    "products_text": "Fruit - Berries: Strawberries; Field/Forageable: Hay; Other: vegetables",
+    "website": "https://www.sandbrookmeadowfarm.com/",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -21432,7 +21478,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "51 Sandbrook Headquarters Road, Stockton, New Jersey, 08559",
       "public": false
     },
     "geo": {
@@ -21807,10 +21853,13 @@
     "region": "northeast",
     "county": "",
     "city": "Princeton",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: herbs, vegetables",
+    "website": "www.terhuneorchards.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -21822,7 +21871,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "330 Cold Soil Road, Princeton, New Jersey, 08540",
       "public": false
     },
     "geo": {
@@ -21846,10 +21895,13 @@
     "region": "northeast",
     "county": "",
     "city": "Pennington",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Produce",
+    "products": [
+      "Other: berries",
+      "vegetables"
+    ],
+    "products_text": "Other: berries, vegetables",
+    "website": "www.honeybrookorganicfarm.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -21861,7 +21913,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "260 Wargo Road, Pennington, New Jersey, 08534",
       "public": false
     },
     "geo": {
@@ -22146,6 +22198,3525 @@
     "provenance": {
       "source": "U.S. Farm Trail — New Jersey",
       "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=new-jersey",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "salem-botanicals-corp-nj",
+    "name": "Salem Botanicals Corp.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Carney's Point",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Herbs"
+    ],
+    "products_text": "Other: Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "856-299-3331",
+      "email": "",
+      "address": "100 Central Schoolhouse Rd, Carney's Point, New Jersey, 08069",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.70933751,
+      "longitude": -75.42831006,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "orchard-farm-organics-nj",
+    "name": "Orchard Farm Organics",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Princeton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Beans",
+      "Berries",
+      "fruit",
+      "herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: Beans, Berries, fruit, herbs, vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1052 Cherry Hill Road, Princeton, New Jersey, 08540",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.4005384,
+      "longitude": -74.68247894,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "santa-sweets-inc-nj",
+    "name": "Santa Sweets, Inc.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Cedarville",
+    "category": "Mixed",
+    "products": [
+      "Other: Squash",
+      "Yellow",
+      "Squash",
+      "Zucchini",
+      "Tomato Grape"
+    ],
+    "products_text": "Other: Squash, Yellow, Squash, Zucchini, Tomato Grape",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "20 Duffield Ave, Cedarville, New Jersey, 08311",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.33112138,
+      "longitude": -75.17972925,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mushroom-king-farm-nj",
+    "name": "Mushroom King Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Manalapan",
+    "category": "Seafood",
+    "products": [
+      "Fungi: Mushrooms (Oyster Mushrooms)",
+      "Mushrooms (Shiitake Mushrooms)"
+    ],
+    "products_text": "Fungi: Mushrooms (Oyster Mushrooms), Mushrooms (Shiitake Mushrooms)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "joshua.ho@mushroomkingfarm.com",
+      "address": "2 High Bridge Road, Manalapan, New Jersey, 07726",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.29214267,
+      "longitude": -74.36173497,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-naked-botanical-llc-nj",
+    "name": "The Naked Botanical LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Mendham",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Fruits",
+      "Herbs",
+      "Flowers"
+    ],
+    "products_text": "Other: Vegetables, Fruits, Herbs, Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(973)-348-9057",
+      "email": "",
+      "address": "2 Spring Meadow Lane, Mendham, New Jersey, 07945",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.76906565,
+      "longitude": -74.60415096,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "edible-garden-corp-nj",
+    "name": "Edible Garden Corp.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Belvidere",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Greens",
+      "Herbs"
+    ],
+    "products_text": "Other: Greens, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(844)-344-3727",
+      "email": "",
+      "address": "283 Country Road 519, Belvidere, New Jersey, 07823",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.81296212,
+      "longitude": -75.06113119,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stoney-creek-blueberries-llc-nj",
+    "name": "Stoney Creek Blueberries, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hammonton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "951 Route 54, Hammonton, New Jersey, 08037",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.61217617,
+      "longitude": -74.83134826,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stone-hill-farm-nj",
+    "name": "Stone Hill Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Colts Neck",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: fallow",
+      "hay",
+      "Vegetables",
+      "Berries",
+      "Hay / Straw",
+      "Herbs",
+      "and Flowers"
+    ],
+    "products_text": "Other: fallow, hay, Vegetables, Vegetables, Berries, Hay / Straw, Herbs, and Flowers.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "145 Muhlenbrink Road, Colts Neck, New Jersey, 07722",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.31014435,
+      "longitude": -74.16477439,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stephens-farm-nj",
+    "name": "Stephens Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Sussex",
+    "category": "Produce",
+    "products": [
+      "Other: Berries",
+      "hay"
+    ],
+    "products_text": "Other: Berries, hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "467 Route 284, Sussex, New Jersey, 07461",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.28497365,
+      "longitude": -74.54974789,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dogwood-farms-nj",
+    "name": "Dogwood Farms",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hillsborough",
+    "category": "Meat",
+    "products": [
+      "Other: Vegetables",
+      "Berries",
+      "Herbs",
+      "Flowers",
+      "Broiler Chickens",
+      "and Eggs"
+    ],
+    "products_text": "Other: Vegetables, Berries, Herbs, Flowers, Broiler Chickens, and Eggs",
+    "website": "www.dogwoodfarmsnj.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "406 New Center Road, Hillsborough, New Jersey, 08844",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.528557,
+      "longitude": -74.667996,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stockton-village-farm-nj",
+    "name": "Stockton Village Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Stockton",
+    "category": "Mixed",
+    "products": [
+      "Other: fallow"
+    ],
+    "products_text": "Other: fallow",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "94 Worman Road, Stockton, New Jersey, 08559",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.42348256,
+      "longitude": -74.96901684,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "profeta-farms-llc-nj",
+    "name": "Profeta Farms, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Neshanic Station",
+    "category": "Produce",
+    "products": [
+      "Tuber/Root Vegetables: Carrots (Carrots)",
+      "Leeks (Leeks)",
+      "Onions (Onions)",
+      "Potatoes (Potatoes)",
+      "Radishes (Radishes)",
+      "Sweet Potatoes (Sweet Potatoes)",
+      "Nuts: Candlenuts (Candlenuts)",
+      "Nursery/Starts/Flowers/Trees: Flowers (Flowers)",
+      "Leaf Vegetables: Brussels"
+    ],
+    "products_text": "Tuber/Root Vegetables: Carrots (Carrots), Leeks (Leeks), Onions (Onions), Potatoes (Potatoes), Radishes (Radishes), Sweet Potatoes (Sweet Potatoes); Nuts: Candlenuts (Candlenuts); Nursery/Starts/Flowers/Trees: Flowers (Flowers); Leaf Vegetables: Brussels",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(908) 453-3985",
+      "email": "tenorganicfarms@earthlink.net",
+      "address": "803 U.S. Hwy 202, Neshanic Station, New Jersey, 08853",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.53307447,
+      "longitude": -74.77787181,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "neshanic-pastures-llc-nj",
+    "name": "Neshanic Pastures, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Ringoes",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay"
+    ],
+    "products_text": "Other: Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "drjrheckman@comcast.net",
+      "address": "112 Manners Road, Ringoes, New Jersey, 08551",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.47215404,
+      "longitude": -74.81550275,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "snapping-turtle-farm-nj",
+    "name": "Snapping Turtle Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Cranbury",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://snappingturtlefarm.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "199 Plainsboro Road, Cranbury, New Jersey, 08512",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.3239211,
+      "longitude": -74.55235627,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "m-s-conver-inc-nj",
+    "name": "M.S. Conver Inc.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Princeton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: fallow",
+      "herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: fallow, herbs, vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "11 Carter Road, Princeton, New Jersey, 08540",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.31083858,
+      "longitude": -74.71251268,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kimball-s-farm-nj",
+    "name": "Kimball's Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "White Township",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Fruit",
+      "Herbs",
+      "Hay",
+      "Oats",
+      "Rye",
+      "Soybeans",
+      "Wheat"
+    ],
+    "products_text": "Other: Vegetables, Fruit, Herbs, Hay, Oats, Rye, Soybeans, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(908) 475-4447",
+      "email": "",
+      "address": "110 Sarepta Road, White Township, New Jersey, 07823",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.85168359,
+      "longitude": -75.03624477,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bodhi-tree-farm-nj",
+    "name": "Bodhi Tree Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "New Lisbon",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Fruit",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Fruit, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(201) 401-5865",
+      "email": "",
+      "address": "15 Sprinfield Rd, New Lisbon, New Jersey, 08064",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.01965486,
+      "longitude": -70.14385168,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dunwald-farms-nj",
+    "name": "Dunwald Farms",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hopewell",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: berries",
+      "fruit",
+      "grains",
+      "hay",
+      "herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: berries, fruit, grains, hay, herbs, vegetables",
+    "website": "www.dunwald.farm",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "14 Dunwald Lane, Hopewell, New Jersey, 08525",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.40763536,
+      "longitude": -74.76843396,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "snyder-research-farm-nj",
+    "name": "Snyder Research Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Pittstown",
+    "category": "Produce",
+    "products": [
+      "Other: vegetables"
+    ],
+    "products_text": "Other: vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "140 Locust Grove Road, Pittstown, New Jersey, 08867",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.55720444,
+      "longitude": -74.95494209,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "circle-brook-farm-nj",
+    "name": "Circle Brook Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Andover",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: herbs"
+    ],
+    "products_text": "Other: herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "141 Brighton Road, Andover, New Jersey, 07821",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.988308,
+      "longitude": -74.76396181,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "barsuglia-farms-llc-nj",
+    "name": "Barsuglia Farms, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Vineland",
+    "category": "Produce",
+    "products": [
+      "Nursery/Starts/Flowers/Trees: Transplants (Transplants)",
+      "Fruit Vegetables: Eggplants (Eggplants)",
+      "Peppers (Peppers)"
+    ],
+    "products_text": "Nursery/Starts/Flowers/Trees: Transplants (Transplants); Fruit Vegetables: Eggplants (Eggplants), Peppers (Peppers)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "302-757-6913",
+      "email": "kellypritchett1270@gmail.com",
+      "address": "1466 Panther Road, Vineland, New Jersey, 08361",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.46150079,
+      "longitude": -74.94555541,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "rutgers-ag-research-experiment-nj",
+    "name": "Rutgers Ag Research & Experiment",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Bridgeton",
+    "category": "Produce",
+    "products": [
+      "Other: beans",
+      "fallow",
+      "grain",
+      "vegetables"
+    ],
+    "products_text": "Other: beans, fallow, grain, vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "121 Northville Road, Bridgeton, New Jersey, 08302",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.51596764,
+      "longitude": -75.20517134,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "danlynn-farms-nj",
+    "name": "Danlynn Farms",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Pedricktown",
+    "category": "Produce",
+    "products": [
+      "Other: berries",
+      "vegetables"
+    ],
+    "products_text": "Other: berries, vegetables",
+    "website": "www.danlynnfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "145 Perkintown Road, Pedricktown, New Jersey, 08067",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.73793097,
+      "longitude": -75.42954849,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ethos-health-llc-nj",
+    "name": "Ethos Health LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Long Valley",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Flowers",
+      "Fruit",
+      "Herbs",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Flowers, Fruit, Herbs, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(908)-867-0060",
+      "email": "",
+      "address": "177 West Mill Road, Long Valley, New Jersey, 07853",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.773204,
+      "longitude": -74.7927405,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "r-r-flaim-next-generation-produce-nj",
+    "name": "R&R Flaim Next Generation Produce",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Vineland",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: vegetables",
+      "herbs"
+    ],
+    "products_text": "Other: vegetables, herbs",
+    "website": "www.rrflaimproduce.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1770 Panther Road, Vineland, New Jersey, 08361",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.45669284,
+      "longitude": -74.94594594,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "j-d-organic-blueberries-nj",
+    "name": "J&D Organic Blueberries",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Pittstown",
+    "category": "Mixed",
+    "products": [
+      "Other: blueberries"
+    ],
+    "products_text": "Other: blueberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "18 Upper Kingtown Road, Pittstown, New Jersey, 08867",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.59104791,
+      "longitude": -74.93992578,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "muth-family-farm-nj",
+    "name": "Muth Family Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Williamstown",
+    "category": "Produce",
+    "products": [
+      "Other: fruit",
+      "vegetables and grain"
+    ],
+    "products_text": "Other: fruit, vegetables and grain",
+    "website": "www.muthfamilyfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1639 Pitman-Downer Road, Williamstown, New Jersey, 08094",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.70293159,
+      "longitude": -75.05893024,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-farm-at-glenwood-mountain-nj",
+    "name": "the farm at Glenwood Mountain",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Sussex",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Flowers",
+      "Fruit",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Flowers, Fruit, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "973-446-0020",
+      "email": "",
+      "address": "1801 Country Rd. 565, Sussex, New Jersey, 07461",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.24775961,
+      "longitude": -74.49840937,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pure-berry-co-llc-nj",
+    "name": "Pure Berry Co., LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Vineland",
+    "category": "Produce",
+    "products": [
+      "Fruit - Berries: Blackberries"
+    ],
+    "products_text": "Fruit - Berries: Blackberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1825 Pennsylvania Avenue, Vineland, New Jersey, 08361",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.42937626,
+      "longitude": -74.99630207,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "misty-acres-farm-nj",
+    "name": "Misty Acres Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Flemington",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Flowers",
+      "Herbs",
+      "Fruit",
+      "Chestnuts",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Flowers, Herbs, Fruit, Chestnuts, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(908) 782-7346",
+      "email": "",
+      "address": "155 Hillcrest Rd, Flemington, New Jersey, 08822",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.55892832,
+      "longitude": -74.77101121,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "let-it-grow-farm-nj",
+    "name": "Let It Grow Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Chester",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.letitgrownj.com/index.php",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2 West Main Street, Chester, New Jersey, 07930",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.27114186,
+      "longitude": -73.00058716,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tiffany-bohlin-nj",
+    "name": "Tiffany Bohlin",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Lacey Township",
+    "category": "Produce",
+    "products": [
+      "Fruit - Berries: Blueberries"
+    ],
+    "products_text": "Fruit - Berries: Blueberries",
+    "website": "fullblue360.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "908-583-6758",
+      "email": "tiffany@fullblue365.com",
+      "address": "2215 Lacey Road, Lacey Township, New Jersey, 08731",
+      "public": true
+    },
+    "geo": {
+      "latitude": 39.88957438,
+      "longitude": -74.30229749,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-philly-chile-company-nj",
+    "name": "The Philly Chile Company",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Monroeville",
+    "category": "Mixed",
+    "products": [
+      "Other: fallow"
+    ],
+    "products_text": "Other: fallow",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "235 Swedesboro Road, Monroeville, New Jersey, 08343",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.64695574,
+      "longitude": -75.21541198,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-alhambra-organic-farm-nj",
+    "name": "The Alhambra Organic Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Atco",
+    "category": "Produce",
+    "products": [
+      "Other: Fruits",
+      "vegetables"
+    ],
+    "products_text": "Other: Fruits, vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "250 Vineyard Road, Atco, New Jersey, 08004",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.74442012,
+      "longitude": -74.88439727,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "zeng-farm-nj",
+    "name": "Zeng Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Flemington",
+    "category": "Mixed",
+    "products": [
+      "Other: fallow",
+      "grain",
+      "hay"
+    ],
+    "products_text": "Other: fallow, grain, hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "286 Reaville Road, Flemington, New Jersey, 08822",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.47628925,
+      "longitude": -74.82998562,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "a-pagnini-farms-greenhouses-llc-nj",
+    "name": "A. Pagnini Farms & Greenhouses, LLC.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Vineland",
+    "category": "Produce",
+    "products": [
+      "Fruit Vegetables: Peppers (Peppers)"
+    ],
+    "products_text": "Fruit Vegetables: Peppers (Peppers)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "856-207-1258",
+      "email": "apagfarms@comcast.net",
+      "address": "2575 Dante Avenue, Vineland, New Jersey, 08361",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.45560525,
+      "longitude": -74.97938036,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "d-ottavio-farms-nj",
+    "name": "D'Ottavio Farms",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Vineland",
+    "category": "Mixed",
+    "products": [
+      "Other: Blackberries",
+      "raspberries"
+    ],
+    "products_text": "Other: Blackberries, raspberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "609-5-457-8303",
+      "email": "",
+      "address": "3259 Maple Ave, Vineland, New Jersey, 08360",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.49057454,
+      "longitude": -74.96481195,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "summer-wind-farms-llc-nj",
+    "name": "Summer Wind Farms, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Newfield",
+    "category": "Produce",
+    "products": [
+      "Other: Fruits",
+      "Vegetables"
+    ],
+    "products_text": "Other: Fruits, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "856-207-7861",
+      "email": "",
+      "address": "3366 Victoria Ave., Newfield, New Jersey, 08344",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.58035449,
+      "longitude": -74.93430687,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "jeff-s-organic-produce-nj",
+    "name": "Jeff's Organic Produce",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Keansburg",
+    "category": "Produce",
+    "products": [
+      "Other: vegetables"
+    ],
+    "products_text": "Other: vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "30 East Shore Street, Keansburg, New Jersey, 07734",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.45077626,
+      "longitude": -74.133798,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dk-america-food-corp-nj",
+    "name": "DK America Food Corp.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Pilesgrove",
+    "category": "Mixed",
+    "products": [
+      "Fungi: Mushrooms (Mushrooms",
+      "Shiitake)"
+    ],
+    "products_text": "Fungi: Mushrooms (Mushrooms, Shiitake)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(610) 637 8303",
+      "email": "roger.shen@dkmushroom.com",
+      "address": "296 Lincoln Rd., Pilesgrove, New Jersey, 08098",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.68568412,
+      "longitude": -75.30643399,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "south-jersey-organic-llc-nj",
+    "name": "South Jersey Organic, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Bridgeton",
+    "category": "Produce",
+    "products": [
+      "Other: Fruit",
+      "Vegetables"
+    ],
+    "products_text": "Other: Fruit, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "856-300-4414",
+      "email": "",
+      "address": "300 Gouldtown Woodruff Rd., Bridgeton, New Jersey, 08302",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.42969612,
+      "longitude": -75.18095536,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "clifford-family-farm-nj",
+    "name": "Clifford Family Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Milford",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: herbs and vegetables"
+    ],
+    "products_text": "Other: herbs and vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "34 McEntee Road, Milford, New Jersey, 08848",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.58851829,
+      "longitude": -75.11841268,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "vannini-farms-inc-nj",
+    "name": "Vannini Farms, Inc.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Vineland",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Herbs"
+    ],
+    "products_text": "Other: Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "856-207-4633",
+      "email": "",
+      "address": "3530 Oak Road, Vineland, New Jersey, 08347",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.49716346,
+      "longitude": -74.94876872,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "big-buck-farms-nj",
+    "name": "Big Buck Farms",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hammonton",
+    "category": "Mixed",
+    "products": [
+      "Other: blueberries"
+    ],
+    "products_text": "Other: blueberries",
+    "website": "www.littlebuckorganics.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "345 Columbia Road, Hammonton, New Jersey, 08037",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.66054504,
+      "longitude": -74.75862183,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "greenflash-farm-nj",
+    "name": "Greenflash Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Skillman",
+    "category": "Produce",
+    "products": [
+      "Nursery/Starts/Flowers/Trees: Flowers",
+      "Fruit Vegetables: vegetables"
+    ],
+    "products_text": "Nursery/Starts/Flowers/Trees: Flowers; Fruit Vegetables: vegetables",
+    "website": "www.greenflashfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "330 Mountain View Road, Skillman, New Jersey, 08558",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.40362737,
+      "longitude": -74.69381577,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "marolda-farm-inc-nj",
+    "name": "Marolda Farm Inc.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Vineland",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: cover crop",
+      "herbs",
+      "vegetables",
+      "Vegetables and Herbs to including: Arugula",
+      "Beets (Red & Gold)",
+      "Broccoli Rabe",
+      "Cilantro",
+      "Dandelion",
+      "Dill",
+      "Kale (Green & Red)",
+      "Lacinato /Tuscan Kale",
+      "Parsley (Italian & Curly)",
+      "Pepper",
+      "Spinach",
+      "Swiss Chard (Green & R"
+    ],
+    "products_text": "Other: cover crop, herbs, vegetables, Vegetables and Herbs to including: Arugula, Beets (Red & Gold), Broccoli Rabe, Cilantro, Dandelion, Dill, Kale (Green & Red), Lacinato /Tuscan Kale, Parsley (Italian & Curly), Pepper, Spinach, Swiss Chard (Green & R",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "3024 Vine Road, Vineland, New Jersey, 08360",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.50434449,
+      "longitude": -74.94684713,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "1895-organic-farm-nj",
+    "name": "1895 Organic Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Lumberton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: beans",
+      "berries",
+      "herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: beans, berries, herbs, vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "303 Landing Street, Lumberton, New Jersey, 08048",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.94750535,
+      "longitude": -74.78359578,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "silver-bell-farms-nj",
+    "name": "Silver Bell Farms",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Franklinville",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Hay"
+    ],
+    "products_text": "Field/Forageable: Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "3034 Delsea Drive, Franklinville, New Jersey, 08322",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.63103044,
+      "longitude": -75.08446875,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "d-v-organics-llc-nj",
+    "name": "D&V Organics, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Swedesboro",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vetegables",
+      "Herbs"
+    ],
+    "products_text": "Other: Vetegables, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "304 Franklinville Rd., Swedesboro, New Jersey, 08085",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.73613381,
+      "longitude": -75.28560466,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "jeff-dalponte-produce-inc-nj",
+    "name": "Jeff Dalponte Produce, Inc.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Newfield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "609-774-0103",
+      "email": "",
+      "address": "359 Cedar Lake Rd, Newfield, New Jersey, 08344",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.54814723,
+      "longitude": -74.93297338,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "harrison-brook-farm-nj",
+    "name": "Harrison Brook Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Liberty Corner",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "hay and straw",
+      "herbs and vegetables"
+    ],
+    "products_text": "Other: Flowers, hay and straw, herbs and vegetables",
+    "website": "www.harrisonbrookfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "3601 Valley Road, Liberty Corner, New Jersey, 07938",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.66151132,
+      "longitude": -74.57793715,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "english-farm-nj",
+    "name": "English Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Liberty Corner",
+    "category": "Produce",
+    "products": [
+      "Fruit Vegetables: vegetables",
+      "Field/Forageable: fallow",
+      "Hay",
+      "pasture"
+    ],
+    "products_text": "Fruit Vegetables: vegetables; Field/Forageable: fallow, Hay, pasture",
+    "website": "www.englishfarm.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "3625 Valley Road, Liberty Corner, New Jersey, 07938",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.66334874,
+      "longitude": -74.57786715,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "jah-s-creation-nj",
+    "name": "Jah's Creation",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Egg Harbor Township",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: herbs, vegetables",
+    "website": "www.jahscreation.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "4045 Spruce Ave, Egg Harbor Township, New Jersey, 08234",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.40285092,
+      "longitude": -74.59084934,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pleasantdale-farms-inc-nj",
+    "name": "Pleasantdale Farms, Inc.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hammonton",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables"
+    ],
+    "products_text": "Other: Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "536 Pleasant Mills Road, Hammonton, New Jersey, 08037",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.63644647,
+      "longitude": -74.74852219,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lakeside-blueberries-of-magnolia-road-nj",
+    "name": "Lakeside Blueberries Of Magnolia Road",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Pemberton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Herbs/Spices: herbs",
+      "Fruit Vegetables: root",
+      "leaf and fruit vegetables",
+      "vegetables",
+      "Fruit - Berries: Blueberries",
+      "raspberries",
+      "Flower Vegetables: Flowers",
+      "Field/Forageable: Hay",
+      "Hay",
+      "Pasture"
+    ],
+    "products_text": "Herbs/Spices: herbs; Fruit Vegetables: root, leaf and fruit vegetables, vegetables, vegetables; Fruit - Berries: Blueberries, raspberries; Flower Vegetables: Flowers; Field/Forageable: Hay, Hay, Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "537 Magnolia Road, Pemberton, New Jersey, 08068",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.92155227,
+      "longitude": -74.63996899,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bluebird-farms-llc-nj",
+    "name": "Bluebird Farms LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hammonton",
+    "category": "Mixed",
+    "products": [
+      "Other: Blueberries"
+    ],
+    "products_text": "Other: Blueberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(609) 377-6719",
+      "email": "",
+      "address": "503 Fleming Pike, Hammonton, New Jersey, 08037",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.67958951,
+      "longitude": -74.82854602,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "martenette-farms-llc-nj",
+    "name": "Martenette Farms LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hillsborough",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Fruit",
+      "Flowers",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Fruit, Flowers, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(818) 568-3106",
+      "email": "",
+      "address": "49 Westerville Rd., Unit B, Hillsborough, New Jersey, 08844",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.8990888,
+      "longitude": -71.49061639,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lockatong-organic-herb-farm-nj",
+    "name": "Lockatong Organic Herb Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Frenchtown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: hay",
+      "herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: hay, herbs, vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "477 Byram Kingwood Road, Frenchtown, New Jersey, 08825",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.4627971,
+      "longitude": -75.02394659,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "summit-city-farms-nj",
+    "name": "Summit City Farms",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Glassboro",
+    "category": "Produce",
+    "products": [
+      "Fruit - Pome: Apples"
+    ],
+    "products_text": "Fruit - Pome: Apples",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "500 University Boulevard, Glassboro, New Jersey, 08028",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.70818857,
+      "longitude": -75.13190215,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "l-d-ottavio-nuseries-llc-nj",
+    "name": "L. D'ottavio Nuseries, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Vineland",
+    "category": "Honey/Specialty",
+    "products": [
+      "Nursery/Starts/Flowers/Trees: Nursery Starts (Nursery Starts/Mixed Produce)",
+      "Herbs/Spices: Herbs (Herbs)"
+    ],
+    "products_text": "Nursery/Starts/Flowers/Trees: Nursery Starts (Nursery Starts/Mixed Produce); Herbs/Spices: Herbs (Herbs)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "856-691-7843",
+      "email": "larry@ldottavionurseries.com",
+      "address": "5559 Chestnut Avenue, Vineland, New Jersey, 08361",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.47281356,
+      "longitude": -74.90013337,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "three-sisters-farm-nj",
+    "name": "Three Sisters Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Stanhope",
+    "category": "Produce",
+    "products": [
+      "Fruit Vegetables: vegetables",
+      "Fruit - Berries: fruit"
+    ],
+    "products_text": "Fruit Vegetables: vegetables; Fruit - Berries: fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "525 Waterloo Road, Stanhope, New Jersey, 07874",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.91612786,
+      "longitude": -74.75235342,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "marus-farms-nj",
+    "name": "Marus Farms",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Egg Harbor City",
+    "category": "Mixed",
+    "products": [
+      "Other: Blueberries"
+    ],
+    "products_text": "Other: Blueberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(609)-402-7938",
+      "email": "",
+      "address": "5601 Duerer St., Egg Harbor City, New Jersey, 08215",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.55333975,
+      "longitude": -74.65870628,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "jersey-legacy-farms-llc-nj",
+    "name": "Jersey Legacy Farms, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Cedarville",
+    "category": "Produce",
+    "products": [
+      "Other: cover crops",
+      "fallow",
+      "vegetables"
+    ],
+    "products_text": "Other: cover crops, fallow, vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "562 Sayres Neck Road, Cedarville, New Jersey, 08311",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.33174906,
+      "longitude": -75.2418695,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "greg-clark-farms-llc-nj",
+    "name": "Greg Clark Farms LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hammonton",
+    "category": "Mixed",
+    "products": [
+      "Other: Blueberries"
+    ],
+    "products_text": "Other: Blueberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "700 13th Street, Hammonton, New Jersey, 08037",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.628535,
+      "longitude": -74.82387263,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hs-farms-inc-nj",
+    "name": "HS Farms Inc",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Toms River",
+    "category": "Mixed",
+    "products": [
+      "Other: Arugula",
+      "Greens",
+      "Kale",
+      "Lettuce",
+      "Pepper",
+      "Spinach",
+      "Tomato"
+    ],
+    "products_text": "Other: Arugula, Greens, Kale, Lettuce, Pepper, Spinach, Tomato",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(848) 992-0591",
+      "email": "mike@hsfarmsnj.com",
+      "address": "706 Cedar Point Court, Toms River, New Jersey, 08753",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.96627314,
+      "longitude": -74.17593687,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "qihe-food-corp-nj",
+    "name": "Qihe Food Corp.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Cedarville",
+    "category": "Mixed",
+    "products": [
+      "Fungi: Mushrooms (Mushrooms: Shiitake)"
+    ],
+    "products_text": "Fungi: Mushrooms (Mushrooms: Shiitake)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "646-350-9407",
+      "email": "nickz368@yahoo.com",
+      "address": "685 Main Street, Cedarville, New Jersey, 08311",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.31213986,
+      "longitude": -75.17310437,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "school-lunch-organic-farm-nj",
+    "name": "School Lunch Organic Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hackettstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: beans",
+      "berries",
+      "fallow",
+      "fruit",
+      "herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: beans, berries, fallow, fruit, herbs, vegetables",
+    "website": "www.schoollunchfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "908-451-0051",
+      "email": "margaretmnoon@gmail.com",
+      "address": "69 Stephens State Park Road, Hackettstown, New Jersey, 07840",
+      "public": true
+    },
+    "geo": {
+      "latitude": 40.86120894,
+      "longitude": -74.78032675,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "regina-s-certified-organic-vegetable-farm-nj",
+    "name": "Regina's Certified Organic Vegetable Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Howell",
+    "category": "Produce",
+    "products": [
+      "Other: fallow",
+      "transplants",
+      "vegetables"
+    ],
+    "products_text": "Other: fallow, transplants, vegetables",
+    "website": "www.njorganicfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "692 Lakewood-Farmingdale Road, Howell, New Jersey, 07731",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.14490321,
+      "longitude": -74.1694251,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "our-father-s-farm-nj",
+    "name": "Our Father's Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Tarbenacle",
+    "category": "Produce",
+    "products": [
+      "Fruit - Berries: Blueberries (Blueberries)"
+    ],
+    "products_text": "Fruit - Berries: Blueberries (Blueberries)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "ourfathersfarm2018@gmail.com",
+      "address": "67 Moores Meadow Road, Tarbenacle, New Jersey, 08088",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.80467714,
+      "longitude": -74.65433923,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "homestead-acres-nj",
+    "name": "Homestead Acres",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hammonton",
+    "category": "Produce",
+    "products": [
+      "Fruit - Berries: Blueberries (Blueberries)"
+    ],
+    "products_text": "Fruit - Berries: Blueberries (Blueberries)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "francesrepici@comcast.net",
+      "address": "615 East Fleming Pike, Hammonton, New Jersey, 08037",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.6841019,
+      "longitude": -74.81949172,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "atlantic-blueberry-company-nj",
+    "name": "Atlantic Blueberry Company",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hammonton",
+    "category": "Produce",
+    "products": [
+      "Fruit - Berries: Blueberries"
+    ],
+    "products_text": "Fruit - Berries: Blueberries",
+    "website": "https://www.atlanticblueberry.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "7201 Weymouth Road, Hammonton, New Jersey, 08037",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.56788345,
+      "longitude": -74.78428349,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fields-without-fences-llc-nj",
+    "name": "Fields Without Fences, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Frenchtown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: berries",
+      "fruit",
+      "herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: berries, fruit, herbs, vegetables",
+    "website": "www.fieldswithoutfences.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "73 Barbertown-Idell Road, Frenchtown, New Jersey, 08825",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.46215017,
+      "longitude": -75.03856056,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cecil-creek-farm-llc-nj",
+    "name": "Cecil Creek Farm, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Mickleton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Fruit",
+      "Vegetables",
+      "Herbs",
+      "Flowers",
+      "Transplants (all listed crops)"
+    ],
+    "products_text": "Other: Fruit, Vegetables, Herbs, Flowers, Transplants (all listed crops)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "856-207-7792",
+      "email": "",
+      "address": "73 Democrat Rd., Mickleton, New Jersey, 08056",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.79529125,
+      "longitude": -75.24607661,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brookeberry-farms-llc-nj",
+    "name": "Brookeberry Farms, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hammonton",
+    "category": "Mixed",
+    "products": [
+      "Other: raspberries",
+      "blueberries"
+    ],
+    "products_text": "Other: raspberries, blueberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "802 Wiltsey's Mills Road, Hammonton, New Jersey, 08037",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.66511994,
+      "longitude": -74.82302214,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "two-river-gourmet-mushrooms-nj",
+    "name": "Two River Gourmet Mushrooms",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Tinton Falls",
+    "category": "Seafood",
+    "products": [
+      "Other: Mushrooms (Big Pioppino",
+      "Chestnuts",
+      "Lions Mane",
+      "Oysters",
+      "Shiitake)"
+    ],
+    "products_text": "Other: Mushrooms (Big Pioppino, Chestnuts, Lions Mane, Oysters, Shiitake)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(732) 216-1859",
+      "email": "",
+      "address": "798 Sycamore Ave., Tinton Falls, New Jersey, 07701",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.32139904,
+      "longitude": -74.08104669,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "comeback-farm-nj",
+    "name": "Comeback Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Asbury",
+    "category": "Produce",
+    "products": [
+      "Other: fruit",
+      "hay",
+      "vegetables"
+    ],
+    "products_text": "Other: fruit, hay, vegetables",
+    "website": "www.comebackfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "8 DeBoer Farm Lane, Asbury, New Jersey, 08802",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.68425136,
+      "longitude": -75.01893017,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stony-hill-gardens-nj",
+    "name": "Stony Hill Gardens",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Chester",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables",
+      "berries",
+      "hay / straw"
+    ],
+    "products_text": "Other: Vegetables, berries, hay / straw",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "8 Route 24, Chester, New Jersey, 07930",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.781097,
+      "longitude": -74.731203,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "meadows-and-more-nj",
+    "name": "Meadows and More",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Hopewell",
+    "category": "Mixed",
+    "products": [
+      "Other: Various Native and Cultivated Crops including Nettle",
+      "Lambsquarter",
+      "Sunchokes",
+      "Mugwart",
+      "Mustards",
+      "Daikon",
+      "and Galiksoga"
+    ],
+    "products_text": "Other: Various Native and Cultivated Crops including Nettle, Lambsquarter, Sunchokes, Mugwart, Mustards, Daikon, and Galiksoga",
+    "website": "www.meadowsandmore.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "89 Hopewell Pennington Road, Hopewell, New Jersey, 08525",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.362615,
+      "longitude": -74.7944235,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "n-j-mushroom-inc-nj",
+    "name": "N.J. Mushroom, Inc.",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Cedarville",
+    "category": "Seafood",
+    "products": [
+      "Fungi: Mushrooms (Shiitake Mushrooms)",
+      "Mushrooms (Oyster Mushrooms)"
+    ],
+    "products_text": "Fungi: Mushrooms (Shiitake Mushrooms), Mushrooms (Oyster Mushrooms)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "646-350-9407",
+      "email": "njmushrooms@gmail.com",
+      "address": "735 Main Street, Cedarville, New Jersey, 08311",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.53210256,
+      "longitude": -120.1718474,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kittatinny-mountain-farm-nj",
+    "name": "Kittatinny Mountain Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Wantage",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: berries",
+      "flowers",
+      "herbs",
+      "vegetables"
+    ],
+    "products_text": "Other: berries, flowers, herbs, vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "74 A Wantage School Rd, Wantage, New Jersey, 07461",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.24332329,
+      "longitude": -74.60206064,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pleasant-run-farm-llc-nj",
+    "name": "Pleasant Run Farm, LLC",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Lambertville",
+    "category": "Mixed",
+    "products": [
+      "Other: Grass",
+      "other",
+      "Hay"
+    ],
+    "products_text": "Other: Grass, other, Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "609-954-8751",
+      "email": "bioorgwinefolk@gmail.com",
+      "address": "74 Barry Rd., Lambertville, New Jersey, 08530",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.34761483,
+      "longitude": -74.88621197,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "merrick-farm-nj",
+    "name": "Merrick Farm",
+    "state": "NJ",
+    "region": "northeast",
+    "county": "",
+    "city": "Farmingdale",
+    "category": "Produce",
+    "products": [
+      "Fungi: Mushrooms",
+      "Fruit Vegetables: vegetables",
+      "Other: fallow"
+    ],
+    "products_text": "Fungi: Mushrooms; Fruit Vegetables: vegetables; Other: fallow",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "98 Merrick Road, Farmingdale, New Jersey, 07727",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.21056949,
+      "longitude": -74.20487838,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Jersey certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Jersey%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
       "retrieved": "2026-07-19"
     },
     "eligible": true,
