@@ -1,0 +1,7211 @@
+[
+  {
+    "id": "kenyon-s-grist-mill-ri",
+    "name": "Kenyon's Grist Mill",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5041295,
+      "longitude": -71.6084454,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "wild-harmony-farm-ri",
+    "name": "Wild Harmony Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Exeter",
+    "category": "Produce",
+    "products": [
+      "Fruit - Pome: Apples",
+      "Field/Forageable: Corn",
+      "Pasture",
+      "Peas",
+      "Other: Mixed Vegetables",
+      "Flowers"
+    ],
+    "products_text": "Fruit - Pome: Apples; Field/Forageable: Corn, Pasture, Peas; Other: Mixed Vegetables, Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-268-4555",
+      "email": "",
+      "address": "366 C Victory Hwy, Exeter, Rhode Island, 02822",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.574,
+      "longitude": -71.6076,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gray-rock-farm-ri",
+    "name": "Gray Rock Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Tiverton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.6338,
+      "longitude": -71.1808,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pawtucket-farmers-market-ri",
+    "name": "Pawtucket Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Pawtucket",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.8729,
+      "longitude": -71.3907,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "woonsocket-farmers-market-ri",
+    "name": "Woonsocket Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Woonsocket",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.007654,
+      "longitude": -71.504321,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "south-kingstown-farmers-market-at-marina-park-ri",
+    "name": "South Kingstown Farmers Market at Marina Park",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Wakefield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.428192,
+      "longitude": -71.49696,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brandon-family-farm-ri",
+    "name": "Brandon Family Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "South Kingstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Melons",
+      "Strawberries",
+      "Hemp",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Melons, Strawberries, Hemp, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-932-6481",
+      "email": "",
+      "address": "592 Fairgrounds Rd, South Kingstown, Rhode Island, 02892",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4915282,
+      "longitude": -71.5526245,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "round-the-bend-farm-ri",
+    "name": "Round the Bend Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5308048,
+      "longitude": -71.0106482,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "love-farms-ri",
+    "name": "Love Farms",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.6668594,
+      "longitude": -70.1596972,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "roots-farm-ri",
+    "name": "Roots Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Tiverton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Melons",
+      "Ginger",
+      "Peaches",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Melons, Ginger, Peaches, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "217 East Rd, Tiverton, Rhode Island, 02878",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5723381,
+      "longitude": -71.1788711,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bodhi-s-bees-ri",
+    "name": "Bodhi's Bees",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.172137,
+      "longitude": -71.5576045,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "high-supply-farms-cc-ri",
+    "name": "High Supply Farms CC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.6786875,
+      "longitude": -70.1074375,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "nana-s-mystic-ri",
+    "name": "Nana's Mystic",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.3492752,
+      "longitude": -71.9590162,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "plimoth-grist-mill-ri",
+    "name": "Plimoth Grist Mill",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.9535604,
+      "longitude": -70.6652416,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "central-falls-farmers-market-ri",
+    "name": "Central Falls Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.8858529,
+      "longitude": -71.395733,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-king-farm-ri",
+    "name": "The King Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5895785,
+      "longitude": -70.9790762,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dave-s-greens-ri",
+    "name": "Dave's Greens",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.9817382,
+      "longitude": -70.0573153,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stone-acres-farm-ri",
+    "name": "Stone Acres Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.3535794,
+      "longitude": -71.903402,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "twin-rooster-farm-ri",
+    "name": "Twin Rooster Farm.",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Cumberland",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.9484,
+      "longitude": -71.4154,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "blackbird-farm-rhode-island-raised-beef-pork-and-chicken-ri",
+    "name": "Blackbird Farm - Rhode Island Raised Beef, Pork and Chicken",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Smithfield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.8964,
+      "longitude": -71.5207,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "seawind-meadows-llc-ri",
+    "name": "Seawind Meadows, LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.786359,
+      "longitude": -69.995089,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tilly-s-net-ri",
+    "name": "Tilly's Net",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.6293481,
+      "longitude": -70.3896327,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sweet-berry-farm-ri",
+    "name": "Sweet Berry Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5198,
+      "longitude": -71.2731,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "queen-v-s-honey-ri",
+    "name": "Queen V's Honey",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Chepachet",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.9155,
+      "longitude": -71.6795,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "papa-roger-s-honey-farm-ri",
+    "name": "Papa Roger's Honey Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Warwick",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.7026,
+      "longitude": -71.4476,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gleaner-apiary-ri",
+    "name": "Gleaner Apiary",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Scituate",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.8439,
+      "longitude": -71.6242,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-honey-shop-ri",
+    "name": "The Honey Shop",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Woonsocket",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.9846,
+      "longitude": -71.5194,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hope-farms-ri",
+    "name": "Hope Farms",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.7376459,
+      "longitude": -71.763741,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "oakdale-farm-ri",
+    "name": "Oakdale Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.798253,
+      "longitude": -71.2911309,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brix-bounty-farm-ri",
+    "name": "Brix Bounty Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.589738,
+      "longitude": -70.9776749,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lakeville-farm-ri",
+    "name": "Lakeville Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.8707873,
+      "longitude": -70.917676,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "elliot-farm-ri",
+    "name": "Elliot Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.8520337,
+      "longitude": -70.941708,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "aquidneck-honey-ri",
+    "name": "Aquidneck Honey",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.6136215,
+      "longitude": -71.1454265,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cape-cod-lavender-farm-ri",
+    "name": "Cape Cod Lavender Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.6920543,
+      "longitude": -70.0815276,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "rooted-in-west-kingston-farmstand-ri",
+    "name": "Rooted in West Kingston Farmstand",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4906149,
+      "longitude": -71.568106,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "riverside-farm-ri",
+    "name": "Riverside Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Charlestown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.416975004,
+      "longitude": -71.725960985,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mount-hope-year-round-farmers-market-ri",
+    "name": "Mount Hope Year-Round Farmers' Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Bristol",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.666459991,
+      "longitude": -71.257516177,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pawtucket-wintertime-farmers-market-ri",
+    "name": "Pawtucket Wintertime Farmers' Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Pawtucket",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.862843513,
+      "longitude": -71.399238201,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "providence-downtown-farmers-market-ri",
+    "name": "Providence / Downtown Farmers' Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.825599141,
+      "longitude": -71.410250769,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sankofa-market-ri",
+    "name": "Sankofa Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.805305674,
+      "longitude": -71.425241042,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tiverton-farmer-s-market-ri",
+    "name": "Tiverton Farmer\\'s Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Tiverton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.62783158,
+      "longitude": -71.157515129,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ekonk-hill-turkey-farm-llc-ri",
+    "name": "Ekonk Hill Turkey Farm, LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.6738032,
+      "longitude": -71.8516277,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hill-orchard-ri",
+    "name": "Hill Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.859693371,
+      "longitude": -71.542504315,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "macomber-s-blueberry-farm-ri",
+    "name": "Macomber's Blueberry farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Coventry",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.708386998,
+      "longitude": -71.74925597,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pippin-orchard-nurseries-and-farm-ri",
+    "name": "Pippin Orchard Nurseries and Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Cranston",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.765433015,
+      "longitude": -71.525034025,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mellos-farm-and-flower-center-ri",
+    "name": "Mellos Farm and Flower Center",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Portsmouth",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.629920021,
+      "longitude": -71.246856009,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "steere-orchard-ri",
+    "name": "Steere Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Greenville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.884888002,
+      "longitude": -71.570725959,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sunset-orchards-ri",
+    "name": "Sunset Orchards",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Scituate",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.838934395,
+      "longitude": -71.638223389,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dame-farm-and-orchards-ri",
+    "name": "Dame Farm and Orchards",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Johnston",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.844415982,
+      "longitude": -71.541216966,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "elwood-orchard-ri",
+    "name": "Elwood Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Glocester",
+    "category": "Produce",
+    "products": [
+      "Other: Apple Cider",
+      "Fruit",
+      "Mushroom",
+      "Vegetables"
+    ],
+    "products_text": "Other: Apple Cider, Fruit, Mushroom, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(401) 949-0390",
+      "email": "",
+      "address": "58 Snake Hill Rd., North Scituate, Rhode Island, 02857",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.863325011,
+      "longitude": -71.580996975,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "appleland-orchard-ri",
+    "name": "Appleland Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Smithfield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.864053985,
+      "longitude": -71.574834013,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "goodwin-brothers-ri",
+    "name": "Goodwin Brothers",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "N. Smithfield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.954390994,
+      "longitude": -71.548856986,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "rocky-brook-orchard-ri",
+    "name": "Rocky Brook Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.524117017,
+      "longitude": -71.249657996,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "old-stone-orchard-ri",
+    "name": "Old Stone Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Little Compton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.553525008,
+      "longitude": -71.134645963,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "leach-farm-and-orchard-ri",
+    "name": "Leach Farm and Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Greenville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.885286016,
+      "longitude": -71.570340978,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hyde-s-christmas-tree-farm-ri",
+    "name": "Hyde's Christmas Tree Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Smithfield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.904809983,
+      "longitude": -71.572537036,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ramblin-brook-blueberries-ri",
+    "name": "Ramblin' Brook Blueberries",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Foster",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.814278011,
+      "longitude": -71.758657029,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cataldo-family-orchard-ri",
+    "name": "Cataldo Family Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Glocester",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.891845652,
+      "longitude": -71.776146625,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bascombe-farms-orchard-ri",
+    "name": "Bascombe Farms Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Cumberland",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.987778001,
+      "longitude": -71.459704969,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "revive-the-roots-ri",
+    "name": "Revive The Roots",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Smithfield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.92002955,
+      "longitude": -71.549373479,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cucumber-hill-farm-ri",
+    "name": "Cucumber Hill Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Foster",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.753339982,
+      "longitude": -71.766910018,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "clark-farms-matunuck-ri",
+    "name": "Clark Farms-Matunuck",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Wakefield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.440975,
+      "longitude": -71.49552,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "four-town-farm-ri",
+    "name": "Four Town Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Barrington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.775906287,
+      "longitude": -71.313826745,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "delvecchio-s-farm-ri",
+    "name": "Delvecchio's Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Kingstown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.622748003,
+      "longitude": -71.442345964,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "jaswell-farm-ri",
+    "name": "Jaswell Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Greenville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.889824021,
+      "longitude": -71.550199013,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "narrow-lane-farm-ri",
+    "name": "Narrow Lane Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Kingstown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.600465007,
+      "longitude": -71.51897701,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "primrose-valley-gardens-ri",
+    "name": "Primrose Valley Gardens",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Smithfield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.991249794,
+      "longitude": -71.573041352,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "quonset-view-farms-ri",
+    "name": "Quonset View Farms",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Portsmouth",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.567918999,
+      "longitude": -71.261017989,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "smith-s-berry-farm-ri",
+    "name": "Smith's Berry Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Kingstown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.52021302,
+      "longitude": -71.474216977,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-foster-farm-of-ashaway-ri",
+    "name": "The Foster Farm of Ashaway",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hopkinton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.411749013,
+      "longitude": -71.754158964,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "westerbee-a-bee-mindful-company-ri",
+    "name": "WesterBee- A Bee Mindful Company",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Bradford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.391345994,
+      "longitude": -71.738886969,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "young-family-farm-ri",
+    "name": "Young Family Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Little Compton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.523293998,
+      "longitude": -71.184584001,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pezza-farms-ri",
+    "name": "Pezza Farms",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Johnston",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.784675625,
+      "longitude": -71.58309909,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "escobar-farm-corn-maze-ri",
+    "name": "Escobar Farm Corn Maze",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Portsmouth",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.582898005,
+      "longitude": -71.258218014,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "salisbury-farm-ri",
+    "name": "Salisbury Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Johnston",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.78946286,
+      "longitude": -71.520659594,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "frerichs-farms-ri",
+    "name": "Frerichs Farms",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Warren",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.736786017,
+      "longitude": -71.259671017,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "knight-s-farm-ri",
+    "name": "Knight's Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Glocester",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.863841001,
+      "longitude": -71.576227002,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "spring-hill-sugar-house-ri",
+    "name": "Spring Hill Sugar House",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.559831007,
+      "longitude": -71.622323027,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "northwest-farmers-market-ri",
+    "name": "Northwest Farmers' Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Chepachet",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.896174964,
+      "longitude": -71.61585565,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "providence-broad-street-farmers-market-ri",
+    "name": "Providence / Broad Street Farmers' Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.802159752,
+      "longitude": -71.418659098,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "providence-hope-street-farmers-market-ri",
+    "name": "Providence / Hope Street Farmers' Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.855816784,
+      "longitude": -71.39164997,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "providence-neutaconkanut-hill-farmers-market-ri",
+    "name": "Providence / Neutaconkanut Hill Farmers' Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.811405285,
+      "longitude": -71.461890048,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "liberty-farm-ri",
+    "name": "Liberty Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Burrillville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.9963748,
+      "longitude": -71.6404738,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "earth-care-farm-ri",
+    "name": "Earth Care Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Charlestown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.438045231,
+      "longitude": -71.604844982,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "morris-farm-ri",
+    "name": "Morris Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Warwick",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.703574989,
+      "longitude": -71.392135011,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "rocky-point-farm-ri",
+    "name": "Rocky Point Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Warwick",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.688753349,
+      "longitude": -71.376273576,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "white-oak-farm-ri",
+    "name": "White Oak Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Glocester",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.862439002,
+      "longitude": -71.594017004,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "festival-farm-ri",
+    "name": "Festival Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hope Valley",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.484253021,
+      "longitude": -71.744054999,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pachet-brook-tree-farm-ri",
+    "name": "Pachet Brook Tree Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Tiverton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.551032021,
+      "longitude": -71.189463023,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmer-s-daughter-ri",
+    "name": "Farmer's Daughter",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "South Kingstown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.436355155,
+      "longitude": -71.518280289,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "adam-s-farm-ri",
+    "name": "Adam's Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Cumberland",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.013630011,
+      "longitude": -71.386110015,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "scary-acres-ri",
+    "name": "Scary Acres",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.765865982,
+      "longitude": -71.545136008,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pinecrest-farm-ri",
+    "name": "Pinecrest Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.471007979,
+      "longitude": -71.652541967,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "harmony-farms-ri",
+    "name": "Harmony Farms",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Glocester",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.866830993,
+      "longitude": -71.606893033,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "coggeshall-farm-museum-ri",
+    "name": "Coggeshall Farm Museum",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Bristol",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.671768013,
+      "longitude": -71.30058996,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-good-earth-organic-farm-gardening-center-ri",
+    "name": "The GOOD EARTH ORGANIC FARM & GARDENING CENTER",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hope",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Raspberries",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Raspberries, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-826-3130",
+      "email": "",
+      "address": "1800 Scituate Ave, Hope, Rhode Island, 02831",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.771238992,
+      "longitude": -71.535577034,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "alpacas-of-harkney-hill-ri",
+    "name": "Alpacas of Harkney Hill",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Coventry",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.678422993,
+      "longitude": -71.644375982,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "phantom-farms-ri",
+    "name": "Phantom Farms",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Cumberland",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.968594003,
+      "longitude": -71.405487969,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "harley-farm-ri",
+    "name": "Harley Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Glocester",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.891160374,
+      "longitude": -71.603810601,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "snowhurst-farm-ri",
+    "name": "Snowhurst Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Glocester",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.877703998,
+      "longitude": -71.672587959,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hope-alpaca-farm-ri",
+    "name": "Hope Alpaca Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Little Compton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.50012801,
+      "longitude": -71.152730003,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farm-fresh-rhode-island-ri",
+    "name": "Farm Fresh Rhode Island",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.825194631,
+      "longitude": -71.433039893,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hope-main-ri",
+    "name": "Hope & Main",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Warren",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.725237012,
+      "longitude": -71.281854981,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pippin-apple-orchard-ri",
+    "name": "Pippin Apple Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Cranston",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.773904982,
+      "longitude": -71.538309032,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "round-top-orchard-ri",
+    "name": "Round Top Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Harrisville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.986967009,
+      "longitude": -71.694447962,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "christiansen-orchard-and-farm-stand-ri",
+    "name": "Christiansen Orchard and Farm Stand",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Slatersville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.005421945,
+      "longitude": -71.58687749,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "armory-farmers-market-ri",
+    "name": "Armory Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.814767,
+      "longitude": -71.4316,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brown-university-farmers-market-ri",
+    "name": "Brown University Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.826418,
+      "longitude": -71.400031,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "scituate-rotary-farmers-market-ri",
+    "name": "Scituate Rotary Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Scituate",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.848902,
+      "longitude": -71.579083,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hope-street-farmers-market-ri",
+    "name": "Hope Street Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.799956,
+      "longitude": -71.356584,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hope-main-s-schoolyard-market-ri",
+    "name": "Hope & Main's Schoolyard Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Warren",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.725289,
+      "longitude": -71.28193,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tilted-barn-brewery-s-farmers-market-ri",
+    "name": "Tilted Barn Brewery's Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Exeter",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5695166,
+      "longitude": -71.5202252,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "aquidneck-growers-market-saturday-summer-ri",
+    "name": "Aquidneck Growers Market- Saturday Summer",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5211838,
+      "longitude": -71.290557,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "wakefield-riverfire-and-farmers-market-ri",
+    "name": "Wakefield RiverFire and Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Wakefield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4402383,
+      "longitude": -71.4967676,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ri-grown-farmers-market-at-fishermen-s-memorial-state-park-and-campground-ri",
+    "name": "RI Grown Farmers Market at Fishermen's Memorial State Park and Campground",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Narragansett",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.3803054,
+      "longitude": -71.4898661,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sakonnet-green-market-ri",
+    "name": "Sakonnet Green Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Little Compton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5314632,
+      "longitude": -71.1894566,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "browning-homestead-farm-ri",
+    "name": "Browning Homestead Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Matunuck",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.386896,
+      "longitude": -71.555699,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-good-earth-organic-farm-ri",
+    "name": "The Good Earth Organic Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hope",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.77151,
+      "longitude": -71.535465,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "water-way-farm-ri",
+    "name": "Water Way Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Barrington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.7261109,
+      "longitude": -71.3117224,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "carpenters-farm-ri",
+    "name": "Carpenters Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Wakefield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.382520982,
+      "longitude": -71.549241967,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "manfredi-farms-ri",
+    "name": "Manfredi Farms",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Westerly",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.36440002,
+      "longitude": -71.772738039,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-good-earth-organic-csa-ri",
+    "name": "The Good Earth Organic CSA",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hope",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.770909,
+      "longitude": -71.5346415,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "arcadian-fields-organic-farm-ri",
+    "name": "Arcadian Fields Organic Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hope Valley",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.54161315,
+      "longitude": -71.709921626,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stonyledge-farm-ri",
+    "name": "Stonyledge Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hopkinton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.476892033,
+      "longitude": -71.794411126,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "coastal-growers-market-ri",
+    "name": "Coastal Growers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Saunderstown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.512,
+      "longitude": -71.423632,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "broad-st-farmers-market-ri",
+    "name": "Broad St. Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.801869,
+      "longitude": -71.41892,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "neutaconkanut-farmers-market-ri",
+    "name": "Neutaconkanut Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.8118,
+      "longitude": -71.461775,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "west-warwick-farmers-market-ri",
+    "name": "West Warwick Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "West Warwick",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.713691,
+      "longitude": -71.516856,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sankofa-world-market-ri",
+    "name": "Sankofa World Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.811066,
+      "longitude": -71.42853,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fisherman-s-memorial-park-farmers-market-ri",
+    "name": "Fisherman's Memorial Park Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Narragansett",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.380339,
+      "longitude": -71.488239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pawtuxet-village-farmers-market-ri",
+    "name": "Pawtuxet Village Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Cranston",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.767977,
+      "longitude": -71.391872,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "aquidneck-growers-market-wednesday-ri",
+    "name": "Aquidneck Growers Market - Wednesday",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Newport",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.483658,
+      "longitude": -71.305831,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "goddard-memorial-state-park-farmers-market-ri",
+    "name": "Goddard Memorial State Park Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Warwick",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.649602,
+      "longitude": -71.444335,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "westerly-land-trust-farmers-market-ri",
+    "name": "Westerly Land Trust Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Westerly",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.375089,
+      "longitude": -71.83172,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "weaver-library-farmers-market-ri",
+    "name": "Weaver Library Farmers' Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "East Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.818333,
+      "longitude": -71.37757,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "burrillville-farmers-market-ri",
+    "name": "Burrillville Farmers' Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Burrillville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.964117,
+      "longitude": -71.6744609,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "charlestown-land-trust-farmers-market-ri",
+    "name": "Charlestown Land Trust Farmers Market",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Charlestown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.3848631,
+      "longitude": -71.6300207,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ri-grown-farmers-market-at-goddard-memorial-state-park-ri",
+    "name": "RI Grown Farmers Market at Goddard Memorial State Park",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Warwick",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.6507101,
+      "longitude": -71.4468376,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "quaintly-farm-ri",
+    "name": "Quaintly Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.851344,
+      "longitude": -71.415495,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "beaver-brook-farm-ri",
+    "name": "Beaver Brook Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hope Valley",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.474503987,
+      "longitude": -71.757299999,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gardner-farm-ri",
+    "name": "Gardner Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Exeter",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.504449007,
+      "longitude": -71.530654007,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "highland-farm-ri",
+    "name": "Highland Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Wakefield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.463724985,
+      "longitude": -71.465591999,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "meadowbrook-gardens-ri",
+    "name": "Meadowbrook Gardens",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Wyoming",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.504290002,
+      "longitude": -71.680014996,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "north-rd-tree-farm-ri",
+    "name": "North Rd Tree Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Foster",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.780664987,
+      "longitude": -71.762922998,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "natural-harvest-farm-ri",
+    "name": "Natural Harvest Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Harrisville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.9902453,
+      "longitude": -71.6841833,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "casey-farm-ri",
+    "name": "Casey Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Saunderstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Melons",
+      "Blueberries",
+      "Strawberries",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Melons, Blueberries, Strawberries, Transplants",
+    "website": "http://www.historicnewengland.org/historic-properties/homes/casey-farm",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-295-1030",
+      "email": "caseyfarm@historicnewengland.org",
+      "address": "2325 Boston Neck Rd, Saunderstown, Rhode Island, 02874",
+      "public": true
+    },
+    "geo": {
+      "latitude": 41.512415545,
+      "longitude": -71.423152495,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-local-patch-ri",
+    "name": "The Local Patch",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Portsmouth",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.528649699,
+      "longitude": -71.244261223,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "schartner-farms-ri",
+    "name": "Schartner Farms",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Exeter",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.521252972,
+      "longitude": -71.553940218,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brown-market-shares-program-ri",
+    "name": "Brown Market Shares Program",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.8267718,
+      "longitude": -71.402548,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "american-mussel-harvesters-inc-ri",
+    "name": "American Mussel Harvesters, Inc.",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Kingstown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.6182,
+      "longitude": -71.410561,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "barden-family-orchard-ri",
+    "name": "Barden Family Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Scituate",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.859113021,
+      "longitude": -71.588254027,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sunset-orchard-ri",
+    "name": "Sunset Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Scituate",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.843442005,
+      "longitude": -71.639786973,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "confreda-greenhouses-farms-ri",
+    "name": "Confreda Greenhouses Farms",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hope",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.765865982,
+      "longitude": -71.545136008,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fraser-christmas-tree-farm-and-orchard-ri",
+    "name": "Fraser Christmas Tree Farm and Orchard",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Coventry",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.707258631,
+      "longitude": -71.714172805,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "big-john-leydens-christmas-tree-farm-ri",
+    "name": "Big John Leydens Christmas Tree Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "West Greenwich",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.646157988,
+      "longitude": -71.707709977,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Rhode Island",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farming-turtles-inc-ri",
+    "name": "Farming Turtles Inc.",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Exeter",
+    "category": "Urban Farm",
+    "products": [
+      "Other: Microgreens"
+    ],
+    "products_text": "Other: Microgreens",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(401) 294-5203",
+      "email": "",
+      "address": "174 South Rd., Exeter, Rhode Island, 02822",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.90972603,
+      "longitude": -70.95476009,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ri-mushroom-company-llc-ri",
+    "name": "RI Mushroom Company LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "West Kingston",
+    "category": "Mixed",
+    "products": [
+      "Other: Mushrooms"
+    ],
+    "products_text": "Other: Mushrooms",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-250-3999",
+      "email": "",
+      "address": "141 Fairgrounds Road, West Kingston, Rhode Island, 02892",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.48289499,
+      "longitude": -71.56518425,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cluck-and-trowel-ri",
+    "name": "Cluck And Trowel",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Little Compton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(508)-542-0434",
+      "email": "",
+      "address": "119 Pottersville Road, Little Compton, Rhode Island, 02837",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.52188438,
+      "longitude": -71.14632398,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "little-river-farm-llc-ri",
+    "name": "Little River Farm LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Exeter",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Strawberries",
+      "Microgreens",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Strawberries, Microgreens, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-360-4311",
+      "email": "",
+      "address": "101 William Reynolds Rd, Exeter, Rhode Island, 02822",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.56186115,
+      "longitude": -71.54283549,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "big-train-farm-ri",
+    "name": "Big Train Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Scituate",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-243-4212",
+      "email": "",
+      "address": "1012 Snake Hill Rd, North Scituate, Rhode Island, 02857",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.87584467,
+      "longitude": -71.65869064,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cedar-edge-farm-llc-ri",
+    "name": "Cedar Edge Farm, LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Saunderstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Melons",
+      "Blueberries",
+      "Strawberries",
+      "Raspberries",
+      "Apples",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Melons, Blueberries, Strawberries, Raspberries, Apples, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-294-6306",
+      "email": "",
+      "address": "11 Indian Corner Rd, Saunderstown, Rhode Island, 02874",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.53937249,
+      "longitude": -71.49022032,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mintwater-brook-farm-ri",
+    "name": "Mintwater Brook Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Portsmouth",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "184 Glen Rd, Portsmouth, Rhode Island, 02871",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.56186543,
+      "longitude": -71.24756312,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "canterbury-farm-ri",
+    "name": "Canterbury Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Wakefield",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Lavender",
+      "Blueberries",
+      "Figs"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Lavender, Blueberries, Figs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1754 Mooresfield Rd, Wakefield, Rhode Island, 02879",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4816636,
+      "longitude": -71.51119688,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "matunuck-vegetable-farm-ri",
+    "name": "Matunuck Vegetable Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "South Kingstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Melons",
+      "Raspberries",
+      "Strawberries",
+      "Microgreens"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Melons, Raspberries, Strawberries, Microgreens",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-783-4202",
+      "email": "",
+      "address": "2236 Comd Oliver Hazzard Perry Hwy, South Kingstown, Rhode Island, 02879",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4009893,
+      "longitude": -71.53702328,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "garman-farm-ri",
+    "name": "Garman Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-256-3600",
+      "email": "",
+      "address": "20-56 Elizabeth Lane, Middletown, Rhode Island, 02842",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.50787351,
+      "longitude": -71.2525293,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bear-tree-farm-ri",
+    "name": "Bear Tree Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Foster",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Hay"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-647-5248",
+      "email": "",
+      "address": "21A Plainfield Pike, Foster, Rhode Island, 02825",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.77607964,
+      "longitude": -71.68344569,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "west-farm-organics-ri",
+    "name": "West Farm Organics",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Westerly",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Flowers",
+      "Herbs",
+      "Fruit",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Flowers, Herbs, Fruit, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "26 Springbrook Road, Westerly, Rhode Island, 02891",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.40177356,
+      "longitude": -71.83411765,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "wishing-stone-farm-ri",
+    "name": "Wishing Stone Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Little Compton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Strawberries",
+      "Ginger",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Strawberries, Ginger, Transplants",
+    "website": "www.wishingstonefarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-592-0285",
+      "email": "wishingstonefarm@gmail.com",
+      "address": "25 Shaw Rd, Little Compton, Rhode Island, 02837",
+      "public": true
+    },
+    "geo": {
+      "latitude": 41.49186983,
+      "longitude": -71.15008155,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "poblano-farm-inc-ri",
+    "name": "Poblano Farm Inc.",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "South Kingstown",
+    "category": "Produce",
+    "products": [
+      "Fruit Vegetables: Peppers"
+    ],
+    "products_text": "Fruit Vegetables: Peppers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-261-5716",
+      "email": "poblanofarm@gmail.com",
+      "address": "283 Tuckertown Rd, South Kingstown, Rhode Island, 02879",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.43360963,
+      "longitude": -71.52669069,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ri-farm-incubator-501c3-ri",
+    "name": "RI Farm Incubator 501C3",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Mushrooms"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Mushrooms",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "297 Oxford Street, Providence, Rhode Island, 02905",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.80082937,
+      "longitude": -71.41618793,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "eastover-farm-ri",
+    "name": "Eastover Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Portsmouth",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(401)-374-2703",
+      "email": "",
+      "address": "340 Wapping Road, Portsmouth, Rhode Island, 02871",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.54045767,
+      "longitude": -71.24708351,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-farm-llc-ri",
+    "name": "The Farm LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Chepachet",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Raspberries",
+      "Strawberries"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Raspberries, Strawberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-222-9908",
+      "email": "thefarminri@gmail.com",
+      "address": "463B Tourtellot Hill Rd, Chepachet, Rhode Island, 02814",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.88110178,
+      "longitude": -71.64309136,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "university-of-rhode-island-gardner-crops-research-center-ri",
+    "name": "University Of Rhode Island, Gardner Crops Research Center",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Kingston",
+    "category": "Produce",
+    "products": [
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Other: Mixed Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-874-9027",
+      "email": "jr_taylor@uri.edu",
+      "address": "7 Thirty Acre Pond Rd, Kingston, Rhode Island, 02881",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.48977888,
+      "longitude": -71.5420611,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hillandale-farm-ri",
+    "name": "Hillandale Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Westerly",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Melons",
+      "Flowers",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Melons, Flowers, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-322-1055",
+      "email": "",
+      "address": "6 Haversham Rd, Westerly, Rhode Island, 02891",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.34265988,
+      "longitude": -71.75042296,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "endless-farm-llc-ri",
+    "name": "Endless Farm LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Johnston",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "endlessfarmri@gmail.com",
+      "address": "90 Brown Ave, Johnston, Rhode Island, 02919",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.84283328,
+      "longitude": -71.544936,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "greenview-farm-ri",
+    "name": "Greenview Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Wakefield",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Melons",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Melons, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-788-0900",
+      "email": "",
+      "address": "900 Tuckertown Rd, Wakefield, Rhode Island, 02878",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.42796175,
+      "longitude": -71.54591476,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "saunderstown-farm-ri",
+    "name": "Saunderstown Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Saunderstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Pasture"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-347-7038",
+      "email": "",
+      "address": "843 Mooresfield Rd, Saunderstown, Rhode Island, 02874",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.49068375,
+      "longitude": -71.48777937,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "skinny-dip-farm-ri",
+    "name": "Skinny Dip Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Little Compton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Fruit",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Fruit, Herbs, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(401) 592-0237",
+      "email": "",
+      "address": "85 Willow Avenue, Little Compton, Rhode Island, 02837",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5220277,
+      "longitude": -71.1709548,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tower-street-school-community-center-ri",
+    "name": "Tower Street School Community Center",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Westerly",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Melons"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Melons",
+    "website": "westerly.k12.ri.us/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-348-2281",
+      "email": "jserra@westerly.k12.ri.us",
+      "address": "93 Tower St, Westerly, Rhode Island, 02891",
+      "public": true
+    },
+    "geo": {
+      "latitude": 41.37941002,
+      "longitude": -71.81466555,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "arcadian-fields-ri",
+    "name": "Arcadian Fields",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hope Valley",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Fruits",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Fruits, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-539-7043",
+      "email": "",
+      "address": "94 Blitzkrieg Trail, Hope Valley, Rhode Island, 02832",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.54134205,
+      "longitude": -71.71240372,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "charlotte-uwimpuhwe-ri",
+    "name": "Charlotte Uwimpuhwe",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "N. Kingstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs"
+    ],
+    "products_text": "Other: Vegetables, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(401)-441-8830",
+      "email": "",
+      "address": "140 Exeter Rd., N. Kingstown, Rhode Island, 2852",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5456388,
+      "longitude": -71.5278309,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  }
+]
