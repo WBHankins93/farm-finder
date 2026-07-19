@@ -45,9 +45,16 @@
     "region": "northeast",
     "county": "",
     "city": "Exeter",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Produce",
+    "products": [
+      "Fruit - Pome: Apples",
+      "Field/Forageable: Corn",
+      "Pasture",
+      "Peas",
+      "Other: Mixed Vegetables",
+      "Flowers"
+    ],
+    "products_text": "Fruit - Pome: Apples; Field/Forageable: Corn, Pasture, Peas; Other: Mixed Vegetables, Flowers",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -58,9 +65,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "401-268-4555",
       "email": "",
-      "address": "",
+      "address": "366 C Victory Hwy, Exeter, Rhode Island, 02822",
       "public": false
     },
     "geo": {
@@ -239,10 +246,18 @@
     "state": "RI",
     "region": "northeast",
     "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "city": "South Kingstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Melons",
+      "Strawberries",
+      "Hemp",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Melons, Strawberries, Hemp, Transplants",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -253,9 +268,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "401-932-6481",
       "email": "",
-      "address": "",
+      "address": "592 Fairgrounds Rd, South Kingstown, Rhode Island, 02892",
       "public": false
     },
     "geo": {
@@ -356,10 +371,17 @@
     "state": "RI",
     "region": "northeast",
     "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "city": "Tiverton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Melons",
+      "Ginger",
+      "Peaches",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Melons, Ginger, Peaches, Transplants",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -372,7 +394,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "217 East Rd, Tiverton, Rhode Island, 02878",
       "public": false
     },
     "geo": {
@@ -1917,9 +1939,14 @@
     "region": "northeast",
     "county": "",
     "city": "Glocester",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Produce",
+    "products": [
+      "Other: Apple Cider",
+      "Fruit",
+      "Mushroom",
+      "Vegetables"
+    ],
+    "products_text": "Other: Apple Cider, Fruit, Mushroom, Vegetables",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -1930,9 +1957,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(401) 949-0390",
       "email": "",
-      "address": "",
+      "address": "58 Snake Hill Rd., North Scituate, Rhode Island, 02857",
       "public": false
     },
     "geo": {
@@ -3711,9 +3738,15 @@
     "region": "northeast",
     "county": "",
     "city": "Hope",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Raspberries",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Raspberries, Transplants",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -3724,9 +3757,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "401-826-3130",
       "email": "",
-      "address": "",
+      "address": "1800 Scituate Ave, Hope, Rhode Island, 02831",
       "public": false
     },
     "geo": {
@@ -5661,10 +5694,18 @@
     "region": "northeast",
     "county": "",
     "city": "Saunderstown",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Melons",
+      "Blueberries",
+      "Strawberries",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Melons, Blueberries, Strawberries, Transplants",
+    "website": "http://www.historicnewengland.org/historic-properties/homes/casey-farm",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -5674,10 +5715,10 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
+      "phone": "401-295-1030",
+      "email": "caseyfarm@historicnewengland.org",
+      "address": "2325 Boston Neck Rd, Saunderstown, Rhode Island, 02874",
+      "public": true
     },
     "geo": {
       "latitude": 41.512415545,
@@ -6039,6 +6080,1129 @@
     "provenance": {
       "source": "U.S. Farm Trail — Rhode Island",
       "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farming-turtles-inc-ri",
+    "name": "Farming Turtles Inc.",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Exeter",
+    "category": "Urban Farm",
+    "products": [
+      "Other: Microgreens"
+    ],
+    "products_text": "Other: Microgreens",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(401) 294-5203",
+      "email": "",
+      "address": "174 South Rd., Exeter, Rhode Island, 02822",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.90972603,
+      "longitude": -70.95476009,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ri-mushroom-company-llc-ri",
+    "name": "RI Mushroom Company LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "West Kingston",
+    "category": "Mixed",
+    "products": [
+      "Other: Mushrooms"
+    ],
+    "products_text": "Other: Mushrooms",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-250-3999",
+      "email": "",
+      "address": "141 Fairgrounds Road, West Kingston, Rhode Island, 02892",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.48289499,
+      "longitude": -71.56518425,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cluck-and-trowel-ri",
+    "name": "Cluck And Trowel",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Little Compton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(508)-542-0434",
+      "email": "",
+      "address": "119 Pottersville Road, Little Compton, Rhode Island, 02837",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.52188438,
+      "longitude": -71.14632398,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "little-river-farm-llc-ri",
+    "name": "Little River Farm LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Exeter",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Strawberries",
+      "Microgreens",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Strawberries, Microgreens, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-360-4311",
+      "email": "",
+      "address": "101 William Reynolds Rd, Exeter, Rhode Island, 02822",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.56186115,
+      "longitude": -71.54283549,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "big-train-farm-ri",
+    "name": "Big Train Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "North Scituate",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-243-4212",
+      "email": "",
+      "address": "1012 Snake Hill Rd, North Scituate, Rhode Island, 02857",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.87584467,
+      "longitude": -71.65869064,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cedar-edge-farm-llc-ri",
+    "name": "Cedar Edge Farm, LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Saunderstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Melons",
+      "Blueberries",
+      "Strawberries",
+      "Raspberries",
+      "Apples",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Melons, Blueberries, Strawberries, Raspberries, Apples, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-294-6306",
+      "email": "",
+      "address": "11 Indian Corner Rd, Saunderstown, Rhode Island, 02874",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.53937249,
+      "longitude": -71.49022032,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mintwater-brook-farm-ri",
+    "name": "Mintwater Brook Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Portsmouth",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "184 Glen Rd, Portsmouth, Rhode Island, 02871",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.56186543,
+      "longitude": -71.24756312,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "canterbury-farm-ri",
+    "name": "Canterbury Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Wakefield",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Lavender",
+      "Blueberries",
+      "Figs"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Lavender, Blueberries, Figs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1754 Mooresfield Rd, Wakefield, Rhode Island, 02879",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4816636,
+      "longitude": -71.51119688,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "matunuck-vegetable-farm-ri",
+    "name": "Matunuck Vegetable Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "South Kingstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Melons",
+      "Raspberries",
+      "Strawberries",
+      "Microgreens"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Melons, Raspberries, Strawberries, Microgreens",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-783-4202",
+      "email": "",
+      "address": "2236 Comd Oliver Hazzard Perry Hwy, South Kingstown, Rhode Island, 02879",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4009893,
+      "longitude": -71.53702328,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "garman-farm-ri",
+    "name": "Garman Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-256-3600",
+      "email": "",
+      "address": "20-56 Elizabeth Lane, Middletown, Rhode Island, 02842",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.50787351,
+      "longitude": -71.2525293,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bear-tree-farm-ri",
+    "name": "Bear Tree Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Foster",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Hay"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-647-5248",
+      "email": "",
+      "address": "21A Plainfield Pike, Foster, Rhode Island, 02825",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.77607964,
+      "longitude": -71.68344569,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "west-farm-organics-ri",
+    "name": "West Farm Organics",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Westerly",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Flowers",
+      "Herbs",
+      "Fruit",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Flowers, Herbs, Fruit, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "26 Springbrook Road, Westerly, Rhode Island, 02891",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.40177356,
+      "longitude": -71.83411765,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "wishing-stone-farm-ri",
+    "name": "Wishing Stone Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Little Compton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Strawberries",
+      "Ginger",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Strawberries, Ginger, Transplants",
+    "website": "www.wishingstonefarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-592-0285",
+      "email": "wishingstonefarm@gmail.com",
+      "address": "25 Shaw Rd, Little Compton, Rhode Island, 02837",
+      "public": true
+    },
+    "geo": {
+      "latitude": 41.49186983,
+      "longitude": -71.15008155,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "poblano-farm-inc-ri",
+    "name": "Poblano Farm Inc.",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "South Kingstown",
+    "category": "Produce",
+    "products": [
+      "Fruit Vegetables: Peppers"
+    ],
+    "products_text": "Fruit Vegetables: Peppers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-261-5716",
+      "email": "poblanofarm@gmail.com",
+      "address": "283 Tuckertown Rd, South Kingstown, Rhode Island, 02879",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.43360963,
+      "longitude": -71.52669069,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ri-farm-incubator-501c3-ri",
+    "name": "RI Farm Incubator 501C3",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Providence",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Mushrooms"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Mushrooms",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "297 Oxford Street, Providence, Rhode Island, 02905",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.80082937,
+      "longitude": -71.41618793,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "eastover-farm-ri",
+    "name": "Eastover Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Portsmouth",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(401)-374-2703",
+      "email": "",
+      "address": "340 Wapping Road, Portsmouth, Rhode Island, 02871",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.54045767,
+      "longitude": -71.24708351,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-farm-llc-ri",
+    "name": "The Farm LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Chepachet",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Raspberries",
+      "Strawberries"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Raspberries, Strawberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-222-9908",
+      "email": "thefarminri@gmail.com",
+      "address": "463B Tourtellot Hill Rd, Chepachet, Rhode Island, 02814",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.88110178,
+      "longitude": -71.64309136,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "university-of-rhode-island-gardner-crops-research-center-ri",
+    "name": "University Of Rhode Island, Gardner Crops Research Center",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Kingston",
+    "category": "Produce",
+    "products": [
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Other: Mixed Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-874-9027",
+      "email": "jr_taylor@uri.edu",
+      "address": "7 Thirty Acre Pond Rd, Kingston, Rhode Island, 02881",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.48977888,
+      "longitude": -71.5420611,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hillandale-farm-ri",
+    "name": "Hillandale Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Westerly",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Melons",
+      "Flowers",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Melons, Flowers, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-322-1055",
+      "email": "",
+      "address": "6 Haversham Rd, Westerly, Rhode Island, 02891",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.34265988,
+      "longitude": -71.75042296,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "endless-farm-llc-ri",
+    "name": "Endless Farm LLC",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Johnston",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "endlessfarmri@gmail.com",
+      "address": "90 Brown Ave, Johnston, Rhode Island, 02919",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.84283328,
+      "longitude": -71.544936,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "greenview-farm-ri",
+    "name": "Greenview Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Wakefield",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Melons",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Melons, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-788-0900",
+      "email": "",
+      "address": "900 Tuckertown Rd, Wakefield, Rhode Island, 02878",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.42796175,
+      "longitude": -71.54591476,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "saunderstown-farm-ri",
+    "name": "Saunderstown Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Saunderstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Pasture"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-347-7038",
+      "email": "",
+      "address": "843 Mooresfield Rd, Saunderstown, Rhode Island, 02874",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.49068375,
+      "longitude": -71.48777937,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "skinny-dip-farm-ri",
+    "name": "Skinny Dip Farm",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Little Compton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Fruit",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Fruit, Herbs, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(401) 592-0237",
+      "email": "",
+      "address": "85 Willow Avenue, Little Compton, Rhode Island, 02837",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5220277,
+      "longitude": -71.1709548,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tower-street-school-community-center-ri",
+    "name": "Tower Street School Community Center",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Westerly",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers",
+      "Melons"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers, Melons",
+    "website": "westerly.k12.ri.us/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-348-2281",
+      "email": "jserra@westerly.k12.ri.us",
+      "address": "93 Tower St, Westerly, Rhode Island, 02891",
+      "public": true
+    },
+    "geo": {
+      "latitude": 41.37941002,
+      "longitude": -71.81466555,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "arcadian-fields-ri",
+    "name": "Arcadian Fields",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "Hope Valley",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Fruits",
+      "Transplants"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Fruits, Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "401-539-7043",
+      "email": "",
+      "address": "94 Blitzkrieg Trail, Hope Valley, Rhode Island, 02832",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.54134205,
+      "longitude": -71.71240372,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "charlotte-uwimpuhwe-ri",
+    "name": "Charlotte Uwimpuhwe",
+    "state": "RI",
+    "region": "northeast",
+    "county": "",
+    "city": "N. Kingstown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs"
+    ],
+    "products_text": "Other: Vegetables, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(401)-441-8830",
+      "email": "",
+      "address": "140 Exeter Rd., N. Kingstown, Rhode Island, 2852",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5456388,
+      "longitude": -71.5278309,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Rhode Island certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Rhode+Island%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
       "retrieved": "2026-07-19"
     },
     "eligible": true,
