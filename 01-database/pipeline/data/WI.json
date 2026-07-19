@@ -5015,7 +5015,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Kenosha",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -5045,8 +5045,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "cattail-organics-wi",
@@ -5468,7 +5468,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Milwaukee",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -5498,8 +5498,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "misfits-homegrown-llc-wi",
@@ -5780,7 +5780,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Mineral Point",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -5810,8 +5810,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "ortega-s-garden-wi",
@@ -5897,7 +5897,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Milladore",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -5927,8 +5927,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "vindicator-brand-farms-wi",
@@ -6131,7 +6131,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Mount Horeb",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -6161,8 +6161,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "silver-moon-springs-wi",
@@ -6248,7 +6248,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Iola",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -6278,8 +6278,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "firefly-hill-flower-farm-wi",
@@ -6287,7 +6287,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Bloomer",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -6317,8 +6317,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "farmcraft-farm-wi",
@@ -6537,7 +6537,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Coon Valley",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -6732,7 +6732,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Eldorado",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -6762,8 +6762,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "greenbush-growing-cooperative-wi",
@@ -6849,7 +6849,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Eau Claire",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -6879,8 +6879,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "king-berry-nursery-produce-wi",
@@ -6888,7 +6888,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Waupaca",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -6918,8 +6918,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "four-winds-farm-wi",
@@ -7328,7 +7328,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Menomonee Falls",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7358,8 +7358,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "bite-the-farm-food-truck-take-n-bake-cafe-wi",
@@ -7367,7 +7367,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Luxemburg",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7397,8 +7397,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "the-beez-kneez-llc-wi",
@@ -7406,7 +7406,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Grantsburg",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7436,8 +7436,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "blue-barrel-produce-wi",
@@ -7445,7 +7445,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Cuba City",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7475,8 +7475,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "blue-roof-orchard-wi",
@@ -7523,7 +7523,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Laona",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7553,8 +7553,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "bula-s-pleasant-valley-farm-llc-wi",
@@ -7562,7 +7562,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Baraboo",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7592,8 +7592,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "cedar-hill-greenhouse-farm-wi",
@@ -7640,7 +7640,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Milwaukee",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7670,8 +7670,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "cultivating-the-commons-wi",
@@ -7679,7 +7679,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Amery",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7709,8 +7709,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "dear-wildflower-acres-orchard-wi",
@@ -7718,7 +7718,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Strickland",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7748,8 +7748,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "deer-creek-angus-farm-wi",
@@ -7757,7 +7757,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Phillips",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7787,8 +7787,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "derks-meats-wi",
@@ -7796,7 +7796,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Boyd",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7826,8 +7826,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "door-s-fleurs-orchard-wi",
@@ -7835,7 +7835,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Brussels",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7865,8 +7865,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "double-state-farm-s-llc-wi",
@@ -7874,7 +7874,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Merrill",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7904,8 +7904,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "fruit-circus-wi",
@@ -7913,7 +7913,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Avoca",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -7943,8 +7943,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "full-circle-community-farm-wi",
@@ -7991,7 +7991,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Greenleaf",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8021,8 +8021,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "good-trouble-grove-wi",
@@ -8030,7 +8030,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Green Lake",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8060,8 +8060,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "grassfed-beef-farm-llc-wi",
@@ -8069,7 +8069,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Bruce",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8099,8 +8099,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "green-horizon-farm-wi",
@@ -8108,7 +8108,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Elk Mound",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8138,8 +8138,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "greengold-gardens-llc-wi",
@@ -8147,7 +8147,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Wausau",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8177,8 +8177,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "high-meadow-farm-wi",
@@ -8238,7 +8238,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Brule",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8268,8 +8268,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "irish-acres-farm-market-glampground-wi",
@@ -8277,7 +8277,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "New London",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8307,8 +8307,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "knl-organics-wi",
@@ -8316,7 +8316,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "South Wayne",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8346,8 +8346,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "laxey-creek-sheep-ranch-wi",
@@ -8355,7 +8355,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Mineral Point",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8385,8 +8385,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "liberty-prairie-farm-wi",
@@ -8394,7 +8394,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Deerfield",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8424,8 +8424,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "little-society-farm-wi",
@@ -8433,7 +8433,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Baraboo",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8463,8 +8463,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "mary-dirty-face-farm-wi",
@@ -8527,7 +8527,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Milwaukee",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8557,8 +8557,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "oak-springs-farm-wi",
@@ -8566,7 +8566,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Argyle",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8596,8 +8596,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "pinestick-acres-wi",
@@ -8605,7 +8605,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Ashland",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8635,8 +8635,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "prairie-folk-farm-wi",
@@ -8644,7 +8644,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Chilton",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8674,8 +8674,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "produce-point-llc-wi",
@@ -8683,7 +8683,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Stevens Point",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8713,8 +8713,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "red-door-family-farm-wi",
@@ -8870,7 +8870,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Verona",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8900,8 +8900,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "singing-trees-farm-wi",
@@ -8909,7 +8909,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Viola",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -8939,8 +8939,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "siverling-centennial-farm-wi",
@@ -8993,7 +8993,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Sauk City",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9023,8 +9023,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "still-point-flower-farm-wi",
@@ -9032,7 +9032,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Brooklyn",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9062,8 +9062,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "stubborn-oak-farmstead-wi",
@@ -9071,7 +9071,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "New Richmond",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9101,8 +9101,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "suri-fina-alpaca-farm-wi",
@@ -9110,7 +9110,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Washburn",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9149,7 +9149,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Deer Park",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9179,8 +9179,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "tapped-maple-syrup-wi",
@@ -9188,7 +9188,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Stevens Point",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9218,8 +9218,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "turner-road-farm-wi",
@@ -9227,7 +9227,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Bayfield",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9257,8 +9257,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "twisted-oak-farm-and-woolen-mill-wi",
@@ -9266,7 +9266,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Spooner",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9296,8 +9296,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "valley-springs-farm-fresh-beef-wi",
@@ -9305,7 +9305,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Reedsburg",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9335,8 +9335,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "vivandu-farm-wi",
@@ -9344,7 +9344,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Osceola",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9374,8 +9374,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "wanish-sugar-bush-wi",
@@ -9383,7 +9383,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Colfax",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9413,8 +9413,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "field-notes-farm-wi",
@@ -9500,7 +9500,7 @@
     "state": "WI",
     "region": "midwest",
     "county": "",
-    "city": "",
+    "city": "Ripon",
     "category": "Mixed",
     "products": [],
     "products_text": "",
@@ -9530,8 +9530,8 @@
       "source_url": "https://farmfreshatlas.org/search/?&et=farm",
       "retrieved": "2026-07-19"
     },
-    "eligible": false,
-    "qa_reason": "missing geography: no county or city"
+    "eligible": true,
+    "qa_reason": ""
   },
   {
     "id": "schmidt-century-farm-wi",
