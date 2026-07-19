@@ -6,10 +6,10 @@
   "sources": [
     {
       "id": "iasrc-iowa-local-food",
-      "name": "Iowa Department of Agriculture — Local food producer resources",
-      "url": "https://iowaagriculture.gov/agricultural-diversification-market-development-bureau/local-foods",
+      "name": "Iowa Department of Agriculture — Licensed businesses and agricultural directories",
+      "url": "https://iowaagriculture.gov/administrative/licensed-businesses-ag-directories",
       "adapter": "html_table",
-      "notes": "Official local-food resource hub; captured best-effort where public producer rows are parseable."
+      "notes": "Official hub for Iowa farmers-market, farm-stand, and agricultural directories; captured best-effort where public producer rows are parseable."
     },
     {
       "id": "iasrc-usfarmtrail",
