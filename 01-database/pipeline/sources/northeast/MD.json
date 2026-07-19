@@ -12,11 +12,86 @@
       "notes": "Official statewide farm and seafood producer directory."
     },
     {
+      "id": "mdsrc-marylands-best-annapolis",
+      "name": "Maryland Department of Agriculture — Maryland's Best producer search (central/eastern)",
+      "url": "https://marylandsbest.maryland.gov/wp-admin/admin-ajax.php?action=store_search&lat=38.9764&lng=-76.4896&max_results=100&search_radius=130&filter=4228%2C4231%2C4241%2C4252%2C4260%2C4233%2C4230%2C4234%2C4242%2C4279",
+      "adapter": "api",
+      "field_map": {
+        "store": "name",
+        "description": "products_text",
+        "url": "website",
+        "lat": "latitude",
+        "lng": "longitude"
+      },
+      "notes": "Farm-oriented categories only: farm stands, CSA, organic, orchards, aquaculture, trees, flowers, U-pick, turkeys, and seafood producers."
+    },
+    {
+      "id": "mdsrc-marylands-best-frederick",
+      "name": "Maryland Department of Agriculture — Maryland's Best producer search (north/central)",
+      "url": "https://marylandsbest.maryland.gov/wp-admin/admin-ajax.php?action=store_search&lat=39.4143&lng=-77.4105&max_results=100&search_radius=130&filter=4228%2C4231%2C4241%2C4252%2C4260%2C4233%2C4230%2C4234%2C4242%2C4279",
+      "adapter": "api",
+      "field_map": {
+        "store": "name",
+        "description": "products_text",
+        "url": "website",
+        "lat": "latitude",
+        "lng": "longitude"
+      },
+      "notes": "Farm-oriented categories only; regional query prevents the official search result cap from hiding western producers."
+    },
+    {
+      "id": "mdsrc-marylands-best-salisbury",
+      "name": "Maryland Department of Agriculture — Maryland's Best producer search (Eastern Shore)",
+      "url": "https://marylandsbest.maryland.gov/wp-admin/admin-ajax.php?action=store_search&lat=38.3607&lng=-75.5994&max_results=100&search_radius=130&filter=4228%2C4231%2C4241%2C4252%2C4260%2C4233%2C4230%2C4234%2C4242%2C4279",
+      "adapter": "api",
+      "field_map": {
+        "store": "name",
+        "description": "products_text",
+        "url": "website",
+        "lat": "latitude",
+        "lng": "longitude"
+      },
+      "notes": "Farm-oriented categories only; Eastern Shore regional capture."
+    },
+    {
+      "id": "mdsrc-marylands-best-oakland",
+      "name": "Maryland Department of Agriculture — Maryland's Best producer search (western)",
+      "url": "https://marylandsbest.maryland.gov/wp-admin/admin-ajax.php?action=store_search&lat=39.4079&lng=-79.4067&max_results=100&search_radius=130&filter=4228%2C4231%2C4241%2C4252%2C4260%2C4233%2C4230%2C4234%2C4242%2C4279",
+      "adapter": "api",
+      "field_map": {
+        "store": "name",
+        "description": "products_text",
+        "url": "website",
+        "lat": "latitude",
+        "lng": "longitude"
+      },
+      "notes": "Farm-oriented categories only; western Maryland regional capture."
+    },
+    {
       "id": "mdsrc-usfarmtrail",
       "name": "U.S. Farm Trail — Maryland",
       "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=maryland",
       "adapter": "api",
       "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "mdsrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — Maryland certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Maryland%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "api",
+      "field_map": {
+        "properties.Operation_": "id",
+        "properties.Operation1": "name",
+        "properties.Physical_2": "city",
+        "properties.Physical_3": "state",
+        "properties.Address": "address",
+        "properties.Certified_": "products_text",
+        "properties.Certified1": "products_text",
+        "properties.Website_UR": "website",
+        "properties.Lat": "latitude",
+        "properties.Long": "longitude"
+      },
+      "notes": "Certified crop, livestock, or wild-crop operations from the USDA-derived Organic Integrity snapshot; retained as durable secondary discovery evidence."
     },
     {
       "id": "mdsrc-eatwild",
