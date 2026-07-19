@@ -1,0 +1,43 @@
+{
+  "state": "CT",
+  "name": "Connecticut",
+  "region": "northeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "ctsrc-ct-grown",
+      "name": "Connecticut Department of Agriculture — CT Grown",
+      "url": "https://ctgrown.org/",
+      "adapter": "html_table",
+      "notes": "Official statewide farm and producer discovery program."
+    },
+    {
+      "id": "ctsrc-usfarmtrail",
+      "name": "U.S. Farm Trail — Connecticut",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=connecticut",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "ctsrc-eatwild",
+      "name": "EatWild — Connecticut",
+      "url": "https://www.eatwild.com/products/connecticut.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory."
+    },
+    {
+      "id": "ctsrc-pickyourown",
+      "name": "PickYourOwn — Connecticut",
+      "url": "https://www.pickyourown.org/CT.htm",
+      "adapter": "html_table",
+      "notes": "Statewide U-pick discovery index."
+    },
+    {
+      "id": "ctsrc-localharvest",
+      "name": "LocalHarvest — Connecticut",
+      "url": "https://www.localharvest.org/connecticut/",
+      "adapter": "html_table",
+      "notes": "Best-effort collection; skipped gracefully if rate-limited."
+    }
+  ]
+}
