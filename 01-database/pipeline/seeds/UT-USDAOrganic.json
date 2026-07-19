@@ -1,0 +1,2125 @@
+[
+  {
+    "id": "494",
+    "name": "Earthspring Organics",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Smithfield",
+    "category": "Feature",
+    "products": [
+      "Leaf Vegetables: Lettuce (Baby Romaine Lettuce",
+      "Baby Spinach",
+      "Bergam's Lettuce",
+      "Butterhead Lettuce",
+      "Green Romaine Lettuce",
+      "Green Salad Bowl Lettuce",
+      "Red Romaine Lettuce",
+      "Romaine Lettuce",
+      "Spinach",
+      "Tropicana Lettuce",
+      "Astro Arugula Microgreen",
+      "Black Oil Sun"
+    ],
+    "products_text": "Leaf Vegetables: Lettuce (Baby Romaine Lettuce, Baby Spinach, Bergam's Lettuce, Butterhead Lettuce, Green Romaine Lettuce, Green Salad Bowl Lettuce, Red Romaine Lettuce, Romaine Lettuce, Spinach, Tropicana Lettuce, Astro Arugula Microgreen, Black Oil Sun",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-752-5181",
+      "email": "ira@earthspringorganics.com",
+      "address": "1177 S Main, Smithfield, Utah, 84335",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.81379734,
+      "longitude": -111.8332272,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "533",
+    "name": "Ritewood Eggs Oakdell Farms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Lewiston",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-258-2407",
+      "email": "dcall@oakdell.com",
+      "address": "2500 South 1600 West, Lewiston, Utah, 84320",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.93031701,
+      "longitude": -111.8948879,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "542",
+    "name": "Fassio Egg Farms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "West Valley City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-884-0184",
+      "email": "vfassio@fassioeggfarms.com",
+      "address": "3664 South 5200 West, West Valley City, Utah, 84120",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.69246061,
+      "longitude": -112.0153142,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1831",
+    "name": "Liquadry, Inc.",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Abraham",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa",
+      "Barley",
+      "Fallow",
+      "Wheat"
+    ],
+    "products_text": "Other: Alfalfa, Barley, Fallow, Wheat",
+    "website": "http://www.liquadry.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(435) 864-5400",
+      "email": "ray@liquadry.com",
+      "address": "3000 North 7500 West, Abraham, Utah, 84635",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.39839117,
+      "longitude": -112.7182576,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1873",
+    "name": "Reynolds Industries",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "West Valley City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "801-949-8556",
+      "email": "lescott58@comcast.net",
+      "address": "2119 W Alexander Street, West Valley City, Utah, 84120",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.71840377,
+      "longitude": -111.9469448,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2025",
+    "name": "Olympus Organics LLC",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Cedar City",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa",
+      "Alfalfa Leaf Juice Powder",
+      "Alfalfa Leaf Nectar Powder",
+      "Alfalfa Leaf Powder",
+      "Barley",
+      "Barley Grass Juice Powder",
+      "Barley Grass Nectar Powder",
+      "Barley Grass Powder",
+      "Fallow",
+      "Forage",
+      "Kamut Grass Juice Powder",
+      "Kamut Grass Nectar Powder",
+      "Kamut Gra"
+    ],
+    "products_text": "Other: Alfalfa, Alfalfa Leaf Juice Powder, Alfalfa Leaf Nectar Powder, Alfalfa Leaf Powder, Barley, Barley Grass Juice Powder, Barley Grass Nectar Powder, Barley Grass Powder, Fallow, Forage, Kamut Grass Juice Powder, Kamut Grass Nectar Powder, Kamut Gra",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(435) 559-3700",
+      "email": "wayne@olympusorganics.com",
+      "address": "815 E 11000 N, Cedar City, Utah, 84721",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.87879492,
+      "longitude": -113.0487189,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2139",
+    "name": "Mountain View Mushrooms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Fillmore",
+    "category": "Feature",
+    "products": [
+      "Fungi: Mushrooms (Crimini Mushroom",
+      "Portabello Mushroom",
+      "White Mushroom)"
+    ],
+    "products_text": "Fungi: Mushrooms (Crimini Mushroom, Portabello Mushroom, White Mushroom)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-743-6817",
+      "email": "danny@mountainviewmushrooms.com",
+      "address": "550 S 1100 W, Fillmore, Utah, 84631",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.95506602,
+      "longitude": -112.3535762,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13923",
+    "name": "Wangsgard Willow Dairy",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Logan",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa",
+      "Grass Hay",
+      "Hay",
+      "Pasture",
+      "Sudan Grass",
+      "Triticale"
+    ],
+    "products_text": "Other: Alfalfa, Grass Hay, Hay, Pasture, Sudan Grass, Triticale",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(435) 753-3445",
+      "email": "bmwangsgard@aol.com",
+      "address": "351 S 3200 W, Logan, Utah, 84321",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.72762206,
+      "longitude": -111.9111949,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14972",
+    "name": "Eakle Enterprises Inc",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Tremonton",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa",
+      "Barley",
+      "Corn",
+      "Grass",
+      "Pasture"
+    ],
+    "products_text": "Other: Alfalfa, Barley, Corn, Grass, Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(435) 257-5415",
+      "email": "eaklefarm@yahoo.com",
+      "address": "8017 W. 11200 N., Tremonton, Utah, 84337",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.71062291,
+      "longitude": -112.2112492,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17154",
+    "name": "CJ Ranch",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Other: Winter Wheat"
+    ],
+    "products_text": "Other: Winter Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1263 N CR Rd. 313, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8685342,
+      "longitude": -109.3362004,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17220",
+    "name": "Rocking HR Ranches LLC",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Huntsville",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay (Alfalfa Hay",
+      "Grass/Clover Hay)"
+    ],
+    "products_text": "Field/Forageable: Hay (Alfalfa Hay, Grass/Clover Hay)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "801-389-2006",
+      "email": "53pacer@gmail.com",
+      "address": "1250 S 9500 E, Huntsville, Utah, 84317",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.240511,
+      "longitude": -111.710349,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17343",
+    "name": "Spencer Frost Farm",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Safflower (Safflower)",
+      "Wheat (Hard White Wheat",
+      "Hard Red Wheat)"
+    ],
+    "products_text": "Field/Forageable: Safflower (Safflower), Wheat (Hard White Wheat, Hard Red Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-587-2079",
+      "email": "jayner1@frontiernet.net",
+      "address": "132 West Center Street, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8726865,
+      "longitude": -109.3453197,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17479",
+    "name": "First Frost Farm",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Nibley",
+    "category": "Feature",
+    "products": [
+      "Leaf Vegetables: Leafy Greens (Asian Greens)",
+      "Herbs/Spices: Alexanders (Alexanders)"
+    ],
+    "products_text": "Leaf Vegetables: Leafy Greens (Asian Greens); Herbs/Spices: Alexanders (Alexanders)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-770-5644",
+      "email": "firstfrostfarm@gmail.com",
+      "address": "136 West 3200 South, Nibley, Utah, 84321",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.67468365,
+      "longitude": -111.8364469,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17685",
+    "name": "Fullmer Farms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-459-1216",
+      "email": "fullmerfarms@gmail.com",
+      "address": "14 Miles East of Hwy 491, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8685342,
+      "longitude": -109.3362004,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17787",
+    "name": "Sugarloaf Holdings LLC",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Lehi",
+    "category": "Feature",
+    "products": [
+      "Seed/Pod Vegetables: Chickpeas (Chickpeas)",
+      "Field/Forageable: Wheat (Wheat)"
+    ],
+    "products_text": "Seed/Pod Vegetables: Chickpeas (Chickpeas); Field/Forageable: Wheat (Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "801-691-3370",
+      "email": "dgray@grayholdingscorp.com",
+      "address": "1471 N 900 W, Lehi, Utah, 84043",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.40545737,
+      "longitude": -111.8649226,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17805",
+    "name": "BKN Farms LLC",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Safflower (Safflower)",
+      "Wheat (Hard Red Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Safflower (Safflower), Wheat (Hard Red Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-459-4956",
+      "email": "blaine.nebeker@gmail.com",
+      "address": "148 S Mountain View Drive, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.870218,
+      "longitude": -109.3511848,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18598",
+    "name": "Boulder Mountain Farms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Boulder",
+    "category": "Feature",
+    "products": [
+      "Tuber/Root Vegetables: Garlic (Garlic)",
+      "Field/Forageable: Hay (Alfalfa Hay",
+      "Grass Hay)"
+    ],
+    "products_text": "Tuber/Root Vegetables: Garlic (Garlic); Field/Forageable: Hay (Alfalfa Hay, Grass Hay)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-335-7618",
+      "email": "dan@rsrutah.com",
+      "address": "1570 South Lower Boulder Road, Boulder, Utah, 84716",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.87975588,
+      "longitude": -111.4137262,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19113",
+    "name": "Taylor Organics",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Tremonton",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay",
+      "Seeds (Alfalfa)"
+    ],
+    "products_text": "Field/Forageable: Hay, Seeds (Alfalfa)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-257-3976",
+      "email": "taylorfarms2@frontiernet.net",
+      "address": "2108 W Main, Tremonton, Utah, 84337",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.71100351,
+      "longitude": -112.1973403,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19114",
+    "name": "Taylor Franks Inc",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Tremonton",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa (Seed)",
+      "Hay",
+      "Wheat (Hard red spring)"
+    ],
+    "products_text": "Field/Forageable: Alfalfa (Seed), Hay, Wheat (Hard red spring)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-257-3976",
+      "email": "taylorfarms2@frontiernet.net",
+      "address": "2108 West Main, Tremonton, Utah, 84337",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.71100351,
+      "longitude": -112.1973403,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19419",
+    "name": "ND&R Grover Partnership",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Snowville",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Pasture",
+      "Seeds (Siberian Wheatgrass)",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Pasture, Seeds (Siberian Wheatgrass), Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-723-6778",
+      "email": "groverhome@msn.com",
+      "address": "22400 Locomotive Springs Rd, Snowville, Utah, 84336",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.94810555,
+      "longitude": -112.7279744,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19729",
+    "name": "D And B Farms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Snowville",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard Red Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard Red Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-279-7082",
+      "email": "davids946@gmail.com",
+      "address": "23185 Locomotive Springs Road, Snowville, Utah, 84336",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.95214441,
+      "longitude": -112.7259308,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19834",
+    "name": "Green Mountain Grain, L.C.",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Snowville",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Fallow (Fallow Acreage)",
+      "Pasture (Pasture)",
+      "Wheat (Hard Red Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Fallow (Fallow Acreage), Pasture (Pasture), Wheat (Hard Red Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-265-8483",
+      "email": "deakin.justin955@gmail.com",
+      "address": "20000 North 30000 West, Snowville, Utah, 84336",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.85448433,
+      "longitude": -112.7461384,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20237",
+    "name": "Lyman Farms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Blanding",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-979-2234",
+      "email": "",
+      "address": "241 North Shirttail Way, Blanding, Utah, 84511",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.57814402,
+      "longitude": -109.4854082,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20312",
+    "name": "Halls Farm",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-587-2832",
+      "email": "hallsranches@gmail.com",
+      "address": "246 West 300 North, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8746067,
+      "longitude": -109.3482417,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21710",
+    "name": "Thayne & Cari Tagge's Famous Fruit LLC",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Perry",
+    "category": "Feature",
+    "products": [
+      "Fruit - Berries: Blackberries"
+    ],
+    "products_text": "Fruit - Berries: Blackberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "801-755-8031",
+      "email": "tagge@xmission.com",
+      "address": "3431 South Highway 89, Perry, Utah, 84382",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.44772659,
+      "longitude": -112.0377393,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22173",
+    "name": "Pamaw's Organic Farm",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Daniel",
+    "category": "Feature",
+    "products": [
+      "Tuber/Root Vegetables: Leafy Greens (Beets",
+      "Carrots",
+      "Corn",
+      "Cucumbers",
+      "Eggplant",
+      "Garlic",
+      "Leeks",
+      "Lettuce",
+      "Onions",
+      "Oregano",
+      "Melon (crenshaw)",
+      "Pea",
+      "Peppers",
+      "Radish",
+      "Spinach",
+      "Swiss Chard",
+      "Thyme",
+      "Tomato)"
+    ],
+    "products_text": "Tuber/Root Vegetables: Leafy Greens (Beets, Carrots, Corn, Cucumbers, Eggplant, Garlic, Leeks, Lettuce, Onions, Oregano, Melon (crenshaw), Pea, Peppers, Radish, Spinach, Swiss Chard, Thyme, Tomato)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "801-554-6971",
+      "email": "papakevan@gmail.com",
+      "address": "3638 Big Hollow Road, Daniel, Utah, 84032",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.46302101,
+      "longitude": -111.4278061,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22681",
+    "name": "Agri-Tech, L.L.C.",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Washington",
+    "category": "Feature",
+    "products": [
+      "Other: Fallow",
+      "Wheat"
+    ],
+    "products_text": "Other: Fallow, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(435) 668-4274",
+      "email": "cheersflowers@gmail.com",
+      "address": "357 West Millcreek Circle, Washington, Utah, 84780",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.132443,
+      "longitude": -113.515992,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22735",
+    "name": "Scott Johnson",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa (Alfalfa)",
+      "Safflower (Safflower)",
+      "Wheat (Hard Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Alfalfa (Alfalfa), Safflower (Safflower), Wheat (Hard Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-587-2833",
+      "email": "farmerjohnsons@citlink.com",
+      "address": "361 North Sage, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8685342,
+      "longitude": -109.3362004,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23066",
+    "name": "Taylor Natural Farms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Emery",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Pasture"
+    ],
+    "products_text": "Field/Forageable: Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-286-2222",
+      "email": "russt@liveearth.com",
+      "address": "536 North 100 E, Emery, Utah, 84522",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.93101066,
+      "longitude": -111.2470237,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23163",
+    "name": "USU Greenville Organic Farm And Kaysville Organic Farm",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Logan",
+    "category": "Feature",
+    "products": [
+      "Leaf Vegetables: Leafy Greens (Arugula",
+      "Basil",
+      "Bean",
+      "Beet",
+      "Broccoli",
+      "Brussel Sprouts",
+      "Buckwheat",
+      "Cabbage",
+      "Carrot",
+      "Celery",
+      "Chard",
+      "Cilantro",
+      "Corn",
+      "Cucumber",
+      "Dill",
+      "Eggplant",
+      "Fescue",
+      "Flower",
+      "Green Bean",
+      "Hard Red Winter Wheat",
+      "Herbs",
+      "Kale",
+      "Kohlrabi",
+      "Leek",
+      "Let"
+    ],
+    "products_text": "Leaf Vegetables: Leafy Greens (Arugula, Basil, Bean, Beet, Broccoli, Brussel Sprouts, Buckwheat, Cabbage, Carrot, Celery, Chard, Cilantro, Corn, Cucumber, Dill, Eggplant, Fescue, Flower, Green Bean, Hard Red Winter Wheat, Herbs, Kale, Kohlrabi, Leek, Let",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-797-3192",
+      "email": "jennifer.reeve@usu.edu",
+      "address": "4820 Old Main Hill, Logan, Utah, 84322",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.74079948,
+      "longitude": -111.8146786,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23231",
+    "name": "Millerberg Limosin",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Draper",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "801-673-9911",
+      "email": "bmillerberg@crestfinancial.com",
+      "address": "491 East 12000 South, Draper, Utah, 84020",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.53252651,
+      "longitude": -111.877236,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23504",
+    "name": "Shad Roundy",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Cache Junction",
+    "category": "Feature",
+    "products": [
+      "Other: Mustard",
+      "Wheat"
+    ],
+    "products_text": "Other: Mustard, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "4625 North 6600 West, Cache Junction, Utah, 84304-9712",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.81603995,
+      "longitude": -111.9946942,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23645",
+    "name": "Ramsay Farms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard Red Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard Red Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-857-2950",
+      "email": "rramsay@frontiernet.net",
+      "address": "48 North 300 West, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.87325008,
+      "longitude": -109.3482957,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23941",
+    "name": "Blaine Carter Farms, LLC",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Park Valley",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard Red Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard Red Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-452-2085",
+      "email": "blainejcarter@yahoo.com",
+      "address": "54585 W 17000 N, Park Valley, Utah, 84329",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.80573832,
+      "longitude": -113.3419719,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24114",
+    "name": "Lewis Farm",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa (Alfalfa)",
+      "Safflower (Safflower)",
+      "Wheat (Wheat)"
+    ],
+    "products_text": "Field/Forageable: Alfalfa (Alfalfa), Safflower (Safflower), Wheat (Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-459-1722",
+      "email": "cade9660@gmail.com",
+      "address": "6771 South Highway 191, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.81533081,
+      "longitude": -109.336993,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24277",
+    "name": "Johnson Farms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Hay, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-587-2889",
+      "email": "char21@hotmail.com",
+      "address": "6901 S Hwy 191, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.83275036,
+      "longitude": -109.3369333,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24524",
+    "name": "Cherry Hill Farms Inc",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Santaquin",
+    "category": "Feature",
+    "products": [
+      "Fruit - Stone: Cherries (Tart Cherries)"
+    ],
+    "products_text": "Fruit - Stone: Cherries (Tart Cherries)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "801-367-1037",
+      "email": "rayrow11@gmail.com",
+      "address": "6092 W Lark Road, Santaquin, Utah, 84655",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.98286833,
+      "longitude": -111.7977163,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24569",
+    "name": "Barry Farms Inc",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Safflower (Safflower)",
+      "Sunflowers (Sunflower)",
+      "Wheat (Hard Red Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Safflower (Safflower), Sunflowers (Sunflower), Wheat (Hard Red Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-587-2724",
+      "email": "farmerforhire@yahoo.com",
+      "address": "616 Circle Drive, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8685342,
+      "longitude": -109.3362004,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24661",
+    "name": "M Dunford Weston Family Partnership",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Logan",
+    "category": "Feature",
+    "products": [
+      "Seed/Pod Vegetables: Mustard (Centennial Brown Mustard Seed)",
+      "Field/Forageable: Alfalfa (Alfalfa)",
+      "Safflower (Safflower)",
+      "Wheat (Hard Red Winter Wheat",
+      "Spring Wheat",
+      "Wheat Straw",
+      "Soft White Winter Wheat",
+      "Kamut Wheat)"
+    ],
+    "products_text": "Seed/Pod Vegetables: Mustard (Centennial Brown Mustard Seed); Field/Forageable: Alfalfa (Alfalfa), Safflower (Safflower), Wheat (Hard Red Winter Wheat, Spring Wheat, Wheat Straw, Soft White Winter Wheat, Kamut Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-752-6732",
+      "email": "robweston@comcast.net",
+      "address": "716 South 600 East, Logan, Utah, 84321",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.71907233,
+      "longitude": -111.8200596,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24880",
+    "name": "Healthy Mountain Farms, LLC",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monroe",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hemp (Hemp)"
+    ],
+    "products_text": "Field/Forageable: Hemp (Hemp)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "904-534-2130",
+      "email": "greg@hmpbrands.com",
+      "address": "575 South 1350 West, Monroe, Utah, 84754",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.62221998,
+      "longitude": -112.1503028,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25196",
+    "name": "Little America Orchard",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "New Harmony",
+    "category": "Feature",
+    "products": [
+      "Fruit - Pome: Apples (Apples)",
+      "Fruit - Berries: Raspberries (Raspberries)",
+      "Field/Forageable: Hay (Hay)"
+    ],
+    "products_text": "Fruit - Pome: Apples (Apples); Fruit - Berries: Raspberries (Raspberries); Field/Forageable: Hay (Hay)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-867-4532",
+      "email": "littleamericaorchard@hotmail.com",
+      "address": "748 North 175 East, New Harmony, Utah, 84757",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.49148,
+      "longitude": -113.3039815,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25564",
+    "name": "T & J Land And Livestock",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Elwood",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard Red Wheat)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard Red Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-279-4415",
+      "email": "",
+      "address": "7796 North 4600 West, Elwood, Utah, 84337",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.65186016,
+      "longitude": -112.1268307,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25916",
+    "name": "Smith Farm & Livestock",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Lehi",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Hay, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "801-768-8388",
+      "email": "stevenkaysmith@gmail.com",
+      "address": "9200 W 8570 N, Lehi, Utah, 84043",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.38726293,
+      "longitude": -111.8803923,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25943",
+    "name": "Jared Ashby",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Smithfield",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa",
+      "Barley",
+      "Rangeland Pasture"
+    ],
+    "products_text": "Other: Alfalfa, Barley, Rangeland Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(435) 563-3965",
+      "email": "j8cashby@gmail.com",
+      "address": "8275 North-4800 West, Smithfield, Utah, 84335",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.88172481,
+      "longitude": -111.9516667,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26212",
+    "name": "Snyder Farm",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-459-1071",
+      "email": "f_jsnyder@hotmail.com",
+      "address": "HC 63 Box 118, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8685342,
+      "longitude": -109.3362004,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26213",
+    "name": "Blake And Byron Peterson",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Safflower (Safflower)",
+      "Wheat (Hard Winter Wheat)"
+    ],
+    "products_text": "Field/Forageable: Safflower (Safflower), Wheat (Hard Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-587-2386",
+      "email": "wilfredpeterson@icloud.com",
+      "address": "HC 63 Box 88, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8685342,
+      "longitude": -109.3362004,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26217",
+    "name": "Professor Valley Ranch",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Moab",
+    "category": "Feature",
+    "products": [
+      "Other: Hay"
+    ],
+    "products_text": "Other: Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Highway 128, Mile Marker 18.2, Moab, Utah, 84532",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.67570551,
+      "longitude": -109.4894045,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26282",
+    "name": "S&G Farms",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Monticello",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Fallow (Fallow)",
+      "Safflower (Safflower)",
+      "Wheat (Wheat)"
+    ],
+    "products_text": "Field/Forageable: Fallow (Fallow), Safflower (Safflower), Wheat (Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "435-678-2183",
+      "email": "fort_snyder@yahoo.com",
+      "address": "UT 355 25 E - 8,18, Monticello, Utah, 84535",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8685342,
+      "longitude": -109.3362004,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26580",
+    "name": "Wangsgard Farms LLC",
+    "state": "UT",
+    "region": "west",
+    "county": "",
+    "city": "Trenton",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa",
+      "Corn",
+      "Grass",
+      "Triticale"
+    ],
+    "products_text": "Other: Alfalfa, Corn, Grass, Triticale",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(435) 232-3992",
+      "email": "wangsgardfarms@gmail.com",
+      "address": "969 North 400 West, Trenton, Utah, 84338",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.93549719,
+      "longitude": -111.953458,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Utah certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

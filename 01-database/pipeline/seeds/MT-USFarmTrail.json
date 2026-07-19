@@ -1,0 +1,8114 @@
+[
+  {
+    "id": "4648",
+    "name": "Farm Kid & Co.",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.3152116,
+      "longitude": -114.1482718,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4649",
+    "name": "B Bar Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.1514547,
+      "longitude": -111.0012704,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4652",
+    "name": "Mannix Family Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.8741842,
+      "longitude": -112.9273324,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8038",
+    "name": "Anaconda Community Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Anaconda",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.099059,
+      "longitude": -113.1391,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2455",
+    "name": "Lolo Trail Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Lolo",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.7585,
+      "longitude": -114.1097,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2461",
+    "name": "Lolo Trail Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Lolo",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.7585,
+      "longitude": -114.1097,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2467",
+    "name": "Baxter Creek Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6681,
+      "longitude": -111.2404,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2469",
+    "name": "Dahl Ranch inc.",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Clancy",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.4652,
+      "longitude": -111.9864,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2474",
+    "name": "Mulvey Gulch Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Boulder",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.2306,
+      "longitude": -112.1138,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2476",
+    "name": "Stovall Ranches LLC",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Billings",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.7745,
+      "longitude": -108.5005,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2482",
+    "name": "Ring of Horns",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Hot Springs",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.5914,
+      "longitude": -114.6597,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4639",
+    "name": "Coulee Creek Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.2697926,
+      "longitude": -108.9570412,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24927",
+    "name": "The Maize At Grandpas Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Billings",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.784060008,
+      "longitude": -108.663129978,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2465",
+    "name": "McCafferty Ranch Beef",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Belt",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.3821,
+      "longitude": -110.9081,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2466",
+    "name": "B Bar Ranch Beef Shop",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Big Timber",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.921925,
+      "longitude": -110.454353,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2468",
+    "name": "Mission Ranch Beef",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Livingston",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6546,
+      "longitude": -110.5609,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2470",
+    "name": "MM Beef Company",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Billings",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.7753,
+      "longitude": -108.6519,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5135",
+    "name": "Kwee-Jack Fish Co.",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.7579149,
+      "longitude": -108.555383,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2471",
+    "name": "Big Sky Natural Beef Inc",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Clinton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.7673,
+      "longitude": -113.7038,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2472",
+    "name": "Central Avenue Meats",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Great Falls",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.5098,
+      "longitude": -111.2734,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2475",
+    "name": "Cut Flower Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Livingston",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6546,
+      "longitude": -110.5609,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2478",
+    "name": "Cut Flower Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Livingston",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6546,
+      "longitude": -110.5609,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5230",
+    "name": "Tatooine Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.5204982,
+      "longitude": -109.4429444,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5429",
+    "name": "Sych Homestead",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 53.1660703,
+      "longitude": -113.0496972,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside MT review bounds"
+  },
+  {
+    "id": "2479",
+    "name": "Smoot Honey Co",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Power",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.6798,
+      "longitude": -111.7169,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5572",
+    "name": "Wickens Ranch - Bozeman's Online Beef Shop",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6674885,
+      "longitude": -111.1510294,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5575",
+    "name": "Three Hearts Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.7224451,
+      "longitude": -111.1447394,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5705",
+    "name": "Witching Hour Tallow",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6865073,
+      "longitude": -111.0508203,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6278",
+    "name": "Montana Milling",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.554924,
+      "longitude": -111.2554664,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6789",
+    "name": "Groundworks Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.501725,
+      "longitude": -111.807338,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6791",
+    "name": "Faltree Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.9197298,
+      "longitude": -110.5250786,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7088",
+    "name": "Little Creek Feed",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.3166778,
+      "longitude": -111.5190582,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7778",
+    "name": "Old Salt Co-op",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.5902926,
+      "longitude": -112.0372004,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7857",
+    "name": "Big Sandy Organics",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.1814444,
+      "longitude": -110.1135933,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7863",
+    "name": "Conservation Grains",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.8127837,
+      "longitude": -112.1846205,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5066",
+    "name": "Darlington Ranch Co",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.1788692,
+      "longitude": -110.1135412,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5134",
+    "name": "Alaskan Seafood Guys",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.7410158,
+      "longitude": -108.5973058,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5214",
+    "name": "Bar BW Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 52.6203458,
+      "longitude": -106.6526038,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside MT review bounds"
+  },
+  {
+    "id": "2453",
+    "name": "Mission Mountain Organic Eggs",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Ronan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.5525,
+      "longitude": -114.1054,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2454",
+    "name": "Foodstead",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Ronan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.5525,
+      "longitude": -114.1054,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2456",
+    "name": "Oxbow Cattle Company",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Missoula",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.8224,
+      "longitude": -114.0265,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2459",
+    "name": "Mission Mountain Organic Eggs",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Ronan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.5525,
+      "longitude": -114.1054,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2460",
+    "name": "Foodstead",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Ronan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.5525,
+      "longitude": -114.1054,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2462",
+    "name": "Oxbow Cattle Company",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Missoula",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.8224,
+      "longitude": -114.0265,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5223",
+    "name": "Cattlemen's Standard",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.5582636,
+      "longitude": -105.475484,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5286",
+    "name": "Tangled H Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.5357973,
+      "longitude": -107.9333983,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside MT review bounds"
+  },
+  {
+    "id": "4882",
+    "name": "Stettler",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 52.3235109,
+      "longitude": -112.7191736,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside MT review bounds"
+  },
+  {
+    "id": "5248",
+    "name": "Mountain Meat Shares",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.1625441,
+      "longitude": -114.0847398,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5623",
+    "name": "Living River Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.5099225,
+      "longitude": -114.0931588,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5571",
+    "name": "Gallatin Valley Botanical at Rocky Creek Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6661652,
+      "longitude": -110.9540612,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5574",
+    "name": "Chance Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6492793,
+      "longitude": -111.1228694,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2457",
+    "name": "Gallatin Valley Botanical",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6693,
+      "longitude": -111.0431,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2463",
+    "name": "Gallatin Valley Botanical",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6693,
+      "longitude": -111.0431,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2458",
+    "name": "Wickens Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6681,
+      "longitude": -111.2404,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2464",
+    "name": "Wickens Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6681,
+      "longitude": -111.2404,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2473",
+    "name": "Little Creek Lamb & Beef",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Townsend",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.3346,
+      "longitude": -111.4919,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2477",
+    "name": "Wilcox Family Farms, Montana Egg LLC",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Great Falls",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.495,
+      "longitude": -111.2502,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2480",
+    "name": "Amaltheia Cheese",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Belgrade",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.7801,
+      "longitude": -111.1439,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2481",
+    "name": "Foster Creek Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Belgrade",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.7801,
+      "longitude": -111.1439,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2483",
+    "name": "Foodworks",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Livingston",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6546,
+      "longitude": -110.5609,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6277",
+    "name": "Montana Flour & Grains",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.8343315,
+      "longitude": -110.6950302,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6792",
+    "name": "Great Falls Original Farmer’s Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.5048674,
+      "longitude": -111.3069615,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7286",
+    "name": "Madison Valley Farm & Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.444367,
+      "longitude": -111.7314823,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7697",
+    "name": "Gecko Mountain Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.2777227,
+      "longitude": -114.2393632,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7709",
+    "name": "Havre Egg Wrangler",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.554991,
+      "longitude": -110.4221659,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7858",
+    "name": "Flocking Good Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.2063129,
+      "longitude": -110.3962613,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7859",
+    "name": "Pearson’s Big Sandy Cantaloupe",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.1754352,
+      "longitude": -110.1065031,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4638",
+    "name": "Bar 77 Montana Grassfed Beef",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6770087,
+      "longitude": -111.0429154,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4641",
+    "name": "Montana Brooks Beef",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.3846376,
+      "longitude": -114.2915753,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4647",
+    "name": "Wild Bison Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.2148903,
+      "longitude": -108.9499102,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4704",
+    "name": "Feddes Family Meats",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.757772,
+      "longitude": -111.3199137,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5576",
+    "name": "Montana Wagyu Cattle Company",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.9675432,
+      "longitude": -111.157093,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5590",
+    "name": "Montana Honey Bee Company",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6788534,
+      "longitude": -111.0374714,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5830",
+    "name": "Confluence Cattle Co",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.544242,
+      "longitude": -112.3258017,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27842",
+    "name": "A Land of Grass",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Conrad",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.208324797,
+      "longitude": -112.114964506,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11819",
+    "name": "Annual Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Absarokee",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.516101374,
+      "longitude": -109.446566633,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11821",
+    "name": "Bogert Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.675976898,
+      "longitude": -111.030300844,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11823",
+    "name": "Circle Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Circle",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.422195681,
+      "longitude": -105.582179896,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11825",
+    "name": "Columbia Falls Community Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Columbia Falls",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.371402485,
+      "longitude": -114.182509629,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11827",
+    "name": "Dillon Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Dillon",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.210395544,
+      "longitude": -112.643041851,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11829",
+    "name": "Glasgow Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Glasgow",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.193501924,
+      "longitude": -106.632320655,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11831",
+    "name": "Glendive Saturday Farmers Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.104456579,
+      "longitude": -104.716771354,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11832",
+    "name": "Hardin Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Hardin",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.736908228,
+      "longitude": -107.605993338,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11836",
+    "name": "Kalispell Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Kalispell",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.225898755,
+      "longitude": -114.329548969,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11838",
+    "name": "Missoula Winter Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.880889838,
+      "longitude": -114.024489959,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11839",
+    "name": "Missouri River Landing Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Fort Benton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.816630535,
+      "longitude": -110.668245739,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11841",
+    "name": "Polson Bay Farmers Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.692312951,
+      "longitude": -114.14744861,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11842",
+    "name": "Polson Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Polson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.693385743,
+      "longitude": -114.163514774,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11844",
+    "name": "Target Range Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.848744823,
+      "longitude": -114.080928158,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6568",
+    "name": "Meats of Montana",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.8357501,
+      "longitude": -109.9536729,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25219",
+    "name": "Common Ground Farm Arlee",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Arlee",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.156018096,
+      "longitude": -114.03903701,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6632",
+    "name": "Just Ducky Eggs",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 52.9687964,
+      "longitude": -113.3659284,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside MT review bounds"
+  },
+  {
+    "id": "6790",
+    "name": "Treasure State Honey",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.5036309,
+      "longitude": -111.8107215,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21601",
+    "name": "Getman's Cherry Red Orchard",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bigfork",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.00289,
+      "longitude": -114.05098,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15481",
+    "name": "Roaming Bison Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Saint Ignatius",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.330413,
+      "longitude": -114.06981,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23040",
+    "name": "Fat Robin Orchard & Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Polson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.726879944,
+      "longitude": -114.040428542,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15632",
+    "name": "Hidden Lake Colony",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Cut Bank",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.5990318,
+      "longitude": -112.605584,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24384",
+    "name": "Johnson's Pumpkin Patch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Helena",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.641060064,
+      "longitude": -112.031981244,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16860",
+    "name": "Brigadoon Orchards-That's My Tree",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bigfork",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.885907976,
+      "longitude": -114.028406904,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16865",
+    "name": "Johnson Nursery and Gardens",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Helena",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.659803976,
+      "longitude": -112.031620728,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25806",
+    "name": "Farmer Boy Eggs",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Drummond",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.66885,
+      "longitude": -113.150695,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28206",
+    "name": "The Orchard at Flathead Lake, LLP",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bigfork",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.971944784,
+      "longitude": -114.041335572,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30270",
+    "name": "Pine Glen Cherry Orchard",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.748467222,
+      "longitude": -114.023924754,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31542",
+    "name": "Montana Blueberries",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Plains",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.469290801,
+      "longitude": -114.920473832,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19897",
+    "name": "T and Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Laurel",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.643757216,
+      "longitude": -108.802303266,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20231",
+    "name": "White Dove Carriage Company",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Belgrade",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.794645126,
+      "longitude": -111.071157706,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21350",
+    "name": "Eller's Blueberry Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.928506568,
+      "longitude": -115.690365217,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21535",
+    "name": "Fritz Corn Maze",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Kalispell",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.291048416,
+      "longitude": -114.249500091,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21813",
+    "name": "Healing Waters Ranch LLC",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Libby",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.472965368,
+      "longitude": -115.586204564,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22175",
+    "name": "KT-Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Stevensville",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.537055195,
+      "longitude": -114.053929045,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22218",
+    "name": "T and C Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Laurel",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.643675072,
+      "longitude": -108.802497366,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22835",
+    "name": "Sunrise Pack Station",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.705829704,
+      "longitude": -111.041148595,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24574",
+    "name": "Field of Screams",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Victor",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.353857134,
+      "longitude": -114.148811099,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25391",
+    "name": "ABC acres - Permaculture Preserve and Farm Stay",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Hamilton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.180605668,
+      "longitude": -114.160913142,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26057",
+    "name": "Parsons Pony Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Florence",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.65712869,
+      "longitude": -114.100997679,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26292",
+    "name": "Black Dog Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Livingston",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.66211,
+      "longitude": -110.56172,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27004",
+    "name": "Johnson Nursery and Gardens",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Helena",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.641060064,
+      "longitude": -112.031981244,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27249",
+    "name": "Rocky Creek Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6763,
+      "longitude": -111.045945,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27274",
+    "name": "McCafferty Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Belt",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.208876762,
+      "longitude": -110.998632969,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27529",
+    "name": "Spotted Bear Vineyards & Lavender Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Polson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.69388,
+      "longitude": -114.16339,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27778",
+    "name": "AlpacaLand Montana",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Roberts",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.24224969,
+      "longitude": -109.207993168,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11820",
+    "name": "Bigfork Farmer's Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.074466133,
+      "longitude": -114.078859742,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11822",
+    "name": "Bozeman Winter Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.678066912,
+      "longitude": -111.040130416,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11824",
+    "name": "Clark Fork Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.868713655,
+      "longitude": -113.994411889,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11828",
+    "name": "Downtown Whitefish Farmers Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.41241425,
+      "longitude": -114.336749775,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11830",
+    "name": "Glendive Farmers' & Flea Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Glendive",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.103939153,
+      "longitude": -104.713814629,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11833",
+    "name": "Harvest Valley Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Stevensville",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.510961357,
+      "longitude": -114.093192754,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11834",
+    "name": "Havre Hi-Line Farmers Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.552223861,
+      "longitude": -109.675007893,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11835",
+    "name": "Helena Farmers Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.591994564,
+      "longitude": -112.038683194,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11837",
+    "name": "Laurel Downtown Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Laurel",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.670293543,
+      "longitude": -108.771685184,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11843",
+    "name": "Richland County Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Sidney",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.703380777,
+      "longitude": -104.165724443,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11845",
+    "name": "Troy Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Troy",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.454695611,
+      "longitude": -115.889207387,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14208",
+    "name": "Carbonado Farm LLC",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Joliet",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.46455,
+      "longitude": -109.009,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16859",
+    "name": "3 Fiddles Farm Roadside Stand",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.751838799,
+      "longitude": -110.893796566,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16867",
+    "name": "Wooly Locust farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Stevensville",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.580505556,
+      "longitude": -113.995800463,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20040",
+    "name": "Montana Corn Maze",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Manhattan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.744308161,
+      "longitude": -111.28003609,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20834",
+    "name": "Bozeman Maze",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.699986261,
+      "longitude": -111.049831226,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21312",
+    "name": "Dude's Montana Peaches",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Plains",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.466168249,
+      "longitude": -114.917185192,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21419",
+    "name": "Farmers O'Dell, Inc.",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bigfork",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.999651116,
+      "longitude": -114.049115361,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21678",
+    "name": "Green Bench Orchard",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Missoula",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.848762704,
+      "longitude": -114.007943784,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21709",
+    "name": "Beaverhead Maze & Pumpkin Patch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Dillon",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.257106938,
+      "longitude": -112.571818713,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23116",
+    "name": "MissoulaMaze",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Missoula",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.861698794,
+      "longitude": -114.080394401,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22422",
+    "name": "Meadowlark Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Hamilton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.210761702,
+      "longitude": -114.138969152,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23799",
+    "name": "Brigadoon Orchards-That's My Tree",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bigfork",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.0629392,
+      "longitude": -114.0768187,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27457",
+    "name": "Red Hen Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Missoula",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.859679766,
+      "longitude": -114.060553311,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27565",
+    "name": "Sweet Pickin's Pumpkin Patch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.239669091,
+      "longitude": -114.198233231,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28188",
+    "name": "Farm to Table Store",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Glendive",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.101595191,
+      "longitude": -104.715918016,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28220",
+    "name": "C&C Alpacas",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Park City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.627796145,
+      "longitude": -108.852339121,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28295",
+    "name": "Hawley Mountain Guest Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "McLeod",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.348763762,
+      "longitude": -110.223705485,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28474",
+    "name": "Montana Bunkhouses Working Ranch Vacations LLC",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Big Timber",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.769392515,
+      "longitude": -110.178715871,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28475",
+    "name": "Montana Emu Ranch & Laid In Montana Emu Products",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Kalispell",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.20311,
+      "longitude": -114.3303138,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28477",
+    "name": "Montana ExpoPark",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Great Falls",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.5064147,
+      "longitude": -111.303775,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28476",
+    "name": "Montana Grasslands Beef",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Livingston",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.700720547,
+      "longitude": -110.520558716,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28549",
+    "name": "On Thyme Gourmet",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bridger",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.174741362,
+      "longitude": -108.984748923,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28551",
+    "name": "Bozeman Alpaca Traders LLC",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Manhattan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.651506202,
+      "longitude": -111.36970393,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28564",
+    "name": "Painted Rocks Winery",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Victor",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.342345512,
+      "longitude": -114.150271059,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28722",
+    "name": "Spanish Peaks Alpacas",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Manhattan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.785232971,
+      "longitude": -111.266266299,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28825",
+    "name": "Tongue River Winery",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Miles City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.380757553,
+      "longitude": -105.839548682,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28875",
+    "name": "The Wald Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Lodge Grass",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.3158244,
+      "longitude": -107.369536,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28903",
+    "name": "Wild Rose Emu Ranch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Hamilton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.222917138,
+      "longitude": -114.133140796,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28941",
+    "name": "Camp 21 LLC",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Miles City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.46985392,
+      "longitude": -105.766290357,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29228",
+    "name": "Boja Farm Orchard and events.",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bridger",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.175325882,
+      "longitude": -108.966617235,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29598",
+    "name": "Flathead Fresh Orchard",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Polson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.746180015,
+      "longitude": -114.081975316,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29732",
+    "name": "Purdy's Pumkin Patch",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Eureka",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.902532039,
+      "longitude": -115.03279913,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30132",
+    "name": "Rainbow Carriage Services, Inc.",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Kalispell",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.198597221,
+      "longitude": -114.249399888,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30149",
+    "name": "Hansen Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Polson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.732783038,
+      "longitude": -114.065715899,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30189",
+    "name": "J & K Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Laurel",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.609753931,
+      "longitude": -108.792273984,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30694",
+    "name": "Beartooth Wagon & Sleigh Rides",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Red Lodge",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.185335,
+      "longitude": -109.248375,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30765",
+    "name": "Townsend Maze",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.393196013,
+      "longitude": -111.579159652,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30823",
+    "name": "Barney Creek Livestock",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Livingston",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.49005721,
+      "longitude": -110.577335633,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31097",
+    "name": "SpiritWorks Herb Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Whitefish",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.341599027,
+      "longitude": -114.343059442,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "32065",
+    "name": "Montana Food Hub",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Great Falls",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.525430735,
+      "longitude": -111.309322962,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "32066",
+    "name": "Central Montana Food Hub",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Martinsdale",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.542361911,
+      "longitude": -110.444417496,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11826",
+    "name": "Deer Lodge Community Garden Pick-Your-Own Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Deer Lodge",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.402333078,
+      "longitude": -112.732204318,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11840",
+    "name": "Orchard Homes' Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.866904249,
+      "longitude": -114.040539523,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26967",
+    "name": "Hockaday Orchards",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Lakeside",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.986369486,
+      "longitude": -114.176491748,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27889",
+    "name": "Amaltheia Dairy LLC",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Belgrade",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.805059232,
+      "longitude": -111.103232164,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30812",
+    "name": "Applestem Corn Maze/pumpkin patch/sunflowers",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Craig",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.077215881,
+      "longitude": -111.95433891,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4713",
+    "name": "Milligan Canyon Meats",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.903271,
+      "longitude": -111.7841179,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24980",
+    "name": "Sterling Cattle Corn Maze",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Vaughn",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.554278041,
+      "longitude": -111.56202986,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7898",
+    "name": "Butte Farmers Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Butte",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.01269,
+      "longitude": -112.5364,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13757",
+    "name": "Farmers Market at Libby",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Libby",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.3885037,
+      "longitude": -115.556531,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14144",
+    "name": "Northern Rocky Mountain Alpacas",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.636763,
+      "longitude": -110.93765,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14274",
+    "name": "Cranky Carl's Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Eureka",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.909427,
+      "longitude": -114.99831,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16863",
+    "name": "Flathean Fresh Orchard",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Polson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.746246584,
+      "longitude": -114.083393343,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16866",
+    "name": "Sky View Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Arlee",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.199882351,
+      "longitude": -114.077879998,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18294",
+    "name": "Denley Homestead",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Plains",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.4614078,
+      "longitude": -114.8366088,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18480",
+    "name": "Kate's Garden",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Billings",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.8366255,
+      "longitude": -108.4847763,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18481",
+    "name": "Running Strike Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bozeman",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6560745,
+      "longitude": -111.0801449,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18816",
+    "name": "Loyal to Local",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Hamilton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.31176,
+      "longitude": -114.161756,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7899",
+    "name": "Boulder Farmers and Artisan's Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Boulder",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.239153,
+      "longitude": -112.11759,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7956",
+    "name": "Miles City Farmers Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Miles City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.408215,
+      "longitude": -105.84009,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8046",
+    "name": "Twin Bridges ALL YEAR Farmers' Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Twin Bridges",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.542747,
+      "longitude": -112.33373,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13942",
+    "name": "Livingston Farmers Market",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Livingston",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.6545073,
+      "longitude": -110.556074,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14298",
+    "name": "Going to the Sun Fiber Mill LLC",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Kalispell",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.193398,
+      "longitude": -114.44623,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14394",
+    "name": "Starvation Flats Boer Goats",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Baker",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.368428,
+      "longitude": -104.1773,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15151",
+    "name": "Mill Crick Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Hamilton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.312555,
+      "longitude": -114.16,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15188",
+    "name": "Cherry Creek Gardens & Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Kalispell",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.114591,
+      "longitude": -114.24033,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15330",
+    "name": "Kyhl Farms",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Melstone",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.6918687,
+      "longitude": -107.794,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16862",
+    "name": "Farmers O'Dell, Inc.",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bigfork",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.072839218,
+      "longitude": -114.07842491,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19204",
+    "name": "Harlequin Produce",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Arlee",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.157969231,
+      "longitude": -114.04276896,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18959",
+    "name": "Western Montana Growers Cooperative",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Missoula",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.8856495,
+      "longitude": -114.0148676,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31792",
+    "name": "Montana Co-op",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Polson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.6921422,
+      "longitude": -114.16277,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31937",
+    "name": "Yellowstone Valley Food Hub",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Billings",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.7600099,
+      "longitude": -108.57009,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16861",
+    "name": "Dude's Organic U-Pick Farm",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Plains",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.466168249,
+      "longitude": -114.917185192,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14053",
+    "name": "Spindrift Orchard & Vineyard",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Polson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 47.7456671,
+      "longitude": -114.08936,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16864",
+    "name": "Getman's Cherry Red Orchard",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Bigfork",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 48.024368991,
+      "longitude": -114.069563516,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15508",
+    "name": "Uncommon Beef LLC",
+    "state": "MT",
+    "region": "west",
+    "county": "",
+    "city": "Big Timber",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.834528,
+      "longitude": -109.94808,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Montana",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=montana",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

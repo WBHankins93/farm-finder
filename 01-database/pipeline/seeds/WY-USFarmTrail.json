@@ -1,0 +1,5930 @@
+[
+  {
+    "id": "5666",
+    "name": "Wyoming Food for Thought Project",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.8503523,
+      "longitude": -106.3299155,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5668",
+    "name": "Melissahof Hatchery",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.833014,
+      "longitude": -108.7306725,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5889",
+    "name": "PachaMor Family Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.5840349,
+      "longitude": -107.3170379,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside WY review bounds"
+  },
+  {
+    "id": "4591",
+    "name": "Wyoming Legacy Meats",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cody",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.5231,
+      "longitude": -109.0756,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4593",
+    "name": "Sommers Ranch Grass Fed Beef",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Pinedale",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.8543,
+      "longitude": -109.8561,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4597",
+    "name": "Wyoming Heritage Grains",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Powell",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.7561,
+      "longitude": -108.7773,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4599",
+    "name": "Big Hollow Food Co-Op",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.439,
+      "longitude": -105.801,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4601",
+    "name": "Haderlie Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Thayne",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.933,
+      "longitude": -111.0114,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4603",
+    "name": "Second Street Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Lander",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.9208,
+      "longitude": -108.5913,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4605",
+    "name": "Sheila Bird Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.439,
+      "longitude": -105.801,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4607",
+    "name": "Big Hollow Food Co-Op",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.439,
+      "longitude": -105.801,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4612",
+    "name": "Elk Mountain Herbs Inc.",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.439,
+      "longitude": -105.801,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4621",
+    "name": "Shiloh Valley Family Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.7068753,
+      "longitude": -106.8569397,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4624",
+    "name": "The Black Market Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.2221198,
+      "longitude": -106.0788109,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4629",
+    "name": "Our Wyoming Life Ranch & Farm Store",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.1749299,
+      "longitude": -105.6327596,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4633",
+    "name": "Eat Wyoming",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.8358882,
+      "longitude": -106.3363306,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4711",
+    "name": "My Health Forward",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.7971939,
+      "longitude": -106.9561791,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4723",
+    "name": "Fort Farm LLC Tours",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.2332174,
+      "longitude": -105.5487107,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4797",
+    "name": "Little Acres Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.8076388,
+      "longitude": -108.4795239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8227",
+    "name": "Torrington WY Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Torrington",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.064541,
+      "longitude": -104.18407,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4592",
+    "name": "Fort Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Gillette",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.9282,
+      "longitude": -105.5492,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4594",
+    "name": "Meadow Maid Foods",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Yoder",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.912,
+      "longitude": -104.3535,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4600",
+    "name": "HodgePodge Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Casper",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.8261,
+      "longitude": -106.3896,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4604",
+    "name": "Shoshone River Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cody",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.5231,
+      "longitude": -109.0756,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4595",
+    "name": "Rabou Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Albin",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4342,
+      "longitude": -104.1505,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4602",
+    "name": "WY fresh",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cheyenne",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.1084,
+      "longitude": -104.8107,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4608",
+    "name": "Laramie Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.439,
+      "longitude": -105.801,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4609",
+    "name": "Lander Valley Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Lander",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.9208,
+      "longitude": -108.5913,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4611",
+    "name": "Rock River Processing LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Rock River",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.7461,
+      "longitude": -105.9746,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4622",
+    "name": "Prairie Monarch Bison",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.3577966,
+      "longitude": -105.615612,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4614",
+    "name": "Wyoming Ranch Foods",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cheyenne",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.1437,
+      "longitude": -104.7962,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4630",
+    "name": "Killpecker Creek Cattle Co.",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.8104354,
+      "longitude": -110.2155999,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4625",
+    "name": "Meadow Maid Foods, llc",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.91492,
+      "longitude": -104.531891,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4628",
+    "name": "Taste of the Wind",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4115688,
+      "longitude": -105.6327129,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4908",
+    "name": "Middle Fork Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.2324164,
+      "longitude": -106.0865884,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5149",
+    "name": "Snake River Processing",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.034445,
+      "longitude": -107.655157,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5457",
+    "name": "Golden Crest Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.3325413,
+      "longitude": -103.6918161,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside WY review bounds"
+  },
+  {
+    "id": "5460",
+    "name": "AJ Farms 605",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.694502,
+      "longitude": -103.7399244,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside WY review bounds"
+  },
+  {
+    "id": "5492",
+    "name": "The Milkhouse Farmer's Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.8482587,
+      "longitude": -106.3934962,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5493",
+    "name": "Casper Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.859268,
+      "longitude": -106.32017,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5661",
+    "name": "Wyomatoes Organic",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.5382753,
+      "longitude": -110.114325,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5667",
+    "name": "Coyote Track Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.7979846,
+      "longitude": -106.6291304,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6187",
+    "name": "307 Prairie Pantry",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.740989,
+      "longitude": -105.385872,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6567",
+    "name": "Pure Montana Meats",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.4445718,
+      "longitude": -105.8058943,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside WY review bounds"
+  },
+  {
+    "id": "6112",
+    "name": "The Hufeisen-Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.721766,
+      "longitude": -105.399502,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5157",
+    "name": "Whitt's End Ranch and Farmstand",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.154745,
+      "longitude": -105.0502005,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5453",
+    "name": "Cycle Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.5092894,
+      "longitude": -103.8717159,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5455",
+    "name": "Serendipity Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.3845714,
+      "longitude": -103.5093159,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside WY review bounds"
+  },
+  {
+    "id": "5456",
+    "name": "Owl Creek Organics & Natural Products",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.7200235,
+      "longitude": -103.6237865,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside WY review bounds"
+  },
+  {
+    "id": "4596",
+    "name": "Michaud Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Pine Bluffs",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.1788,
+      "longitude": -104.0666,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4610",
+    "name": "Lynn's Superfoods Dubois",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Dubois",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.5451,
+      "longitude": -109.6492,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5491",
+    "name": "Washakie County Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.0165443,
+      "longitude": -107.9561691,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7727",
+    "name": "Real Red Meat",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.1120397,
+      "longitude": -109.4427035,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5660",
+    "name": "The Lodge & Spa at Brush Creek Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.3321297,
+      "longitude": -106.6066217,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5799",
+    "name": "dHb Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.0370878,
+      "longitude": -107.4467239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5811",
+    "name": "Garlic Fete",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.7538103,
+      "longitude": -111.0368866,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6345",
+    "name": "Mosher Products",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.1399814,
+      "longitude": -104.8202462,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4598",
+    "name": "Centennial Valley Grass Finished Beef",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.439,
+      "longitude": -105.801,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4606",
+    "name": "Sweet Cheeks Meats",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Jackson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.4528,
+      "longitude": -110.7393,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4613",
+    "name": "The Butcher Block LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.439,
+      "longitude": -105.801,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4620",
+    "name": "Wyoming Pure Natural Beef",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.8714924,
+      "longitude": -104.7532679,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4626",
+    "name": "Wyoming Legacy Meats Custom",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.5440175,
+      "longitude": -109.0574115,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4631",
+    "name": "Touchstone Angus",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.0624646,
+      "longitude": -104.1843942,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4632",
+    "name": "Truly Beef",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.8003124,
+      "longitude": -106.9279798,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4637",
+    "name": "LOHOF BEEF Grass-Finished",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.1006438,
+      "longitude": -106.106694,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5227",
+    "name": "Diamond S Ranch and Raw Milk Dairy",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.2645835,
+      "longitude": -107.5791346,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5461",
+    "name": "Black Hills Honey Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.5507658,
+      "longitude": -103.9080235,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5662",
+    "name": "Brattis Meat Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.8483776,
+      "longitude": -106.3132762,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5669",
+    "name": "Lost Wells Cattle Company",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.024673,
+      "longitude": -108.3806054,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13649",
+    "name": "Basin Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.381110004,
+      "longitude": -108.038959991,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13650",
+    "name": "Big Horn Basin Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cody",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.518824297,
+      "longitude": -109.057001603,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13653",
+    "name": "Casper Downtown Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.847563513,
+      "longitude": -106.320183841,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13655",
+    "name": "Centennial Arts and Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.297222002,
+      "longitude": -106.138799821,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13657",
+    "name": "Cody - Big Horn County Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.518824297,
+      "longitude": -109.057001603,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13659",
+    "name": "Downtown Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Casper",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.847563513,
+      "longitude": -106.320183841,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13660",
+    "name": "Dubois Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.533466779,
+      "longitude": -109.630841207,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13662",
+    "name": "Food for Thought Markets",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.84801704,
+      "longitude": -106.320261893,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13663",
+    "name": "Gillette Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Gillette",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.263024079,
+      "longitude": -105.50961573,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13665",
+    "name": "Goshen County Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.065464654,
+      "longitude": -104.184374129,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13667",
+    "name": "Green River Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Railroad Avenue Green River",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.601690436,
+      "longitude": -109.959861197,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13669",
+    "name": "Harvest Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Sundance",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.50095528,
+      "longitude": -104.224756439,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13670",
+    "name": "Jackalope Square Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.758729789,
+      "longitude": -105.384114583,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13672",
+    "name": "Jackson Hole People's Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Jackson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.473388627,
+      "longitude": -110.76383873,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13674",
+    "name": "Lander Valley Farmers Market - Tuesday",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.840628979,
+      "longitude": -108.747710003,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13675",
+    "name": "Laramie Local Community Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.304270006,
+      "longitude": -105.591690021,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13677",
+    "name": "Laramie Winter Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.309248983,
+      "longitude": -105.587830993,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13680",
+    "name": "Natrona County Master Gardeners Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.828549474,
+      "longitude": -106.363246593,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13682",
+    "name": "Pine Bluffs Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.178760017,
+      "longitude": -104.068260009,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13684",
+    "name": "Pinedale Winter Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.870881992,
+      "longitude": -109.859747994,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13685",
+    "name": "Platte County Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.054527237,
+      "longitude": -104.953250239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13687",
+    "name": "Riverton Wednesday Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Riverton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.024653328,
+      "longitude": -108.385935423,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13689",
+    "name": "Rock Springs Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.587173991,
+      "longitude": -109.219509982,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13690",
+    "name": "Sheridan Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.798786182,
+      "longitude": -106.951750939,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13692",
+    "name": "State Fair Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.75957728,
+      "longitude": -105.382758011,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13694",
+    "name": "Thursday Afternoon Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.07984365,
+      "longitude": -104.224789512,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13696",
+    "name": "Tuesday Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.130645385,
+      "longitude": -104.820979712,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13697",
+    "name": "Washakie Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.0168276,
+      "longitude": -107.958029731,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13699",
+    "name": "White Mountain Mall Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Rock Springs",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.579829568,
+      "longitude": -109.262704813,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22009",
+    "name": "Jacketts Pumpkins on the HS Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Casper",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.785597586,
+      "longitude": -106.450972511,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15345",
+    "name": "Case Custom Meats",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Yoder",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.915028,
+      "longitude": -104.28372,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15584",
+    "name": "Papa Joe\\'s Produce",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Sheridan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.721929,
+      "longitude": -106.980139,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15609",
+    "name": "Arrowhead Alpacas",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Powell",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.7508097,
+      "longitude": -109.0362231,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19792",
+    "name": "Bookworm Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Buffalo",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.391095994,
+      "longitude": -106.741355968,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24020",
+    "name": "Circle J Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Ten Sleep",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.03400269,
+      "longitude": -107.447935174,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24422",
+    "name": "Lungren Girls Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Worland",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.986169279,
+      "longitude": -107.968481517,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26925",
+    "name": "Harvest Home",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Lingle",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.143105982,
+      "longitude": -104.376305008,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13651",
+    "name": "Buffalo Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Buffalo",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.347886858,
+      "longitude": -106.699011608,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13652",
+    "name": "Buffalo Mainstreet Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Airport Road and Main St. Buffalo",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.362690018,
+      "longitude": -106.697100022,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13654",
+    "name": "Casper Summer Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Casper",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.847563513,
+      "longitude": -106.320183841,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13656",
+    "name": "Cheyenne Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.130645385,
+      "longitude": -104.820979712,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13658",
+    "name": "Cody Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cody",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.518824297,
+      "longitude": -109.057001603,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13661",
+    "name": "Farmers Market on the Town Square",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "N Cache St and E Deloney Ave Jackson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.48034002,
+      "longitude": -110.762370001,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13664",
+    "name": "Gillette Tuesday Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Gillette",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.293194855,
+      "longitude": -105.503735008,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13666",
+    "name": "GPS Year Round Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.495131908,
+      "longitude": -108.057343846,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13668",
+    "name": "Greybull Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Greybull",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.485114786,
+      "longitude": -108.055268448,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13671",
+    "name": "Jackson Hole Farmers Market on the Town Square",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.479589112,
+      "longitude": -110.761316096,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13673",
+    "name": "Kemmerer Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Kemmerer",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.794656522,
+      "longitude": -110.537379824,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13676",
+    "name": "Laramie Thursday Local Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.304129987,
+      "longitude": -105.589100013,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13678",
+    "name": "Lovell Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.837520071,
+      "longitude": -108.38798791,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13679",
+    "name": "Main Street Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Rock Springs",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.587597838,
+      "longitude": -109.218182026,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13681",
+    "name": "Old Town Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.091343199,
+      "longitude": -104.613733066,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13683",
+    "name": "Pinedale Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "S Tyler Ave and E Pine St. Pinedale",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.866609987,
+      "longitude": -109.861290012,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13686",
+    "name": "Riverton Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.014672996,
+      "longitude": -108.38123199,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13688",
+    "name": "Riverton/Lander Winter Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Main and Broadway Riverton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.024650017,
+      "longitude": -108.386319973,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13691",
+    "name": "Star Valley Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.162452495,
+      "longitude": -111.020285873,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13693",
+    "name": "Thermopolis Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.646160007,
+      "longitude": -108.211970016,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13695",
+    "name": "Torrington Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Torrington",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.07984365,
+      "longitude": -104.224789512,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13698",
+    "name": "Wheatland Farmers' Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Wheatland",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.054527237,
+      "longitude": -104.953250239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13700",
+    "name": "Wyoming Women's Expo Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.868237501,
+      "longitude": -106.332763753,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19908",
+    "name": "MA Homestead",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Thayne",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.93920498,
+      "longitude": -111.003219965,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21561",
+    "name": "Gallagher's Corn Maze and Pumpkin Patch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Powell",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.753525,
+      "longitude": -108.759005,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21706",
+    "name": "Koltiska Pumpkin Patch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Sheridan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.804916002,
+      "longitude": -106.859429994,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23672",
+    "name": "Straw Igloo Garden",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Powell",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.756653752,
+      "longitude": -108.593363735,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27194",
+    "name": "Just Chilies",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Sheridan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.743002991,
+      "longitude": -106.967743964,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27450",
+    "name": "Raspberry deLight Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Shoshoni",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.183943016,
+      "longitude": -108.205085037,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29643",
+    "name": "Vye's Backyard Beeyard",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cheyenne",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.176634995,
+      "longitude": -104.825475023,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31119",
+    "name": "TA Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Buffalo",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.146783845,
+      "longitude": -106.703893847,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "32151",
+    "name": "Satanka Food and Community Innovation Hub",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.320646717,
+      "longitude": -105.584627727,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29955",
+    "name": "Pope Farm & Apple Orchard",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Lingle",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.154626442,
+      "longitude": -104.389480539,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19410",
+    "name": "The Hufeisen-Ranch (WYO Wagyu)",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Weston",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.724067224,
+      "longitude": -105.393889093,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28138",
+    "name": "Double Rafter Cattle Drives",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Ranchester",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.907355,
+      "longitude": -107.16809,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31128",
+    "name": "Terry Bison Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cheyenne",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.002093009,
+      "longitude": -104.903556977,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8608",
+    "name": "Newcastle Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Newcastle",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.849469,
+      "longitude": -104.18498,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18272",
+    "name": "Circle J Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Ten Sleep",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.160923028,
+      "longitude": -107.147819351,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18276",
+    "name": "SonHarvest Seasons Inc",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Riverton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.111865019,
+      "longitude": -108.34210996,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15510",
+    "name": "Reed Livestock LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Douglas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.290296,
+      "longitude": -105.1378,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18273",
+    "name": "Ellis' Harvest Home",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Lingle",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.143105982,
+      "longitude": -104.376305008,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18275",
+    "name": "Marie's Gardens",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Riverton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.079386988,
+      "longitude": -108.384706959,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18274",
+    "name": "Landon's Greenhouse Nursery",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Sheridan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.760509014,
+      "longitude": -106.947816995,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18751",
+    "name": "Bright Agrotech CSA",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.3113669,
+      "longitude": -105.5911007,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30801",
+    "name": "Mini Greens Co.",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Sheridan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.7777962,
+      "longitude": -106.9326046,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8135",
+    "name": "Landon's Greenhouse Farmers Market",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Sheridan",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.760524,
+      "longitude": -106.94832,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Wyoming",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wyoming",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]
