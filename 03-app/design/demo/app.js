@@ -30,6 +30,7 @@ let farms = [];
 let map = null, miniMap = null, mapReady = false;
 let activeGuide = "All";
 let selectedId = null;
+let clusterIds = null; // farm ids inside a clicked cluster ("this area" filter)
 let saved = new Set(JSON.parse(localStorage.getItem("ff-saved") || "[]"));
 
 const matchesGuide = (farm, guideId) => {
@@ -256,10 +257,19 @@ function initMap() {
       paint: { "circle-color": catMatch, "circle-radius": 11, "circle-stroke-width": 4, "circle-stroke-color": "#14301e" },
     });
     map.on("click", "points", (e) => selectFarm(e.features[0].properties.id, { fly: false }));
-    map.on("click", "clusters", (e) => {
-      map.getSource("farms").getClusterExpansionZoom(e.features[0].properties.cluster_id).then((zoom) =>
-        map.easeTo({ center: e.features[0].geometry.coordinates, zoom }));
+    map.on("click", "clusters", async (e) => {
+      const src = map.getSource("farms");
+      const clusterId = e.features[0].properties.cluster_id;
+      const leaves = await src.getClusterLeaves(clusterId, 300, 0);
+      clusterIds = new Set(leaves.map((l) => l.properties.id));
+      renderCarousel();
+      updateAreaChip();
+      $("#map-reset").hidden = false;
+      const zoom = await src.getClusterExpansionZoom(clusterId);
+      map.easeTo({ center: e.features[0].geometry.coordinates, zoom });
     });
+    map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
+    map.on("mouseleave", "clusters", () => (map.getCanvas().style.cursor = ""));
     map.on("mouseenter", "points", () => (map.getCanvas().style.cursor = "pointer"));
     map.on("mouseleave", "points", () => (map.getCanvas().style.cursor = ""));
     renderCarousel();
