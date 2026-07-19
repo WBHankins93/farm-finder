@@ -1,5 +1,4589 @@
 [
   {
+    "id": "agape-organic-farm-mi",
+    "name": "Agape Organic Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Dansville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=55",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "517-604-0739",
+      "email": "",
+      "address": "Dansville, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.5505,
+      "longitude": -84.2939,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=55",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "arnold-farms-mi",
+    "name": "Arnold Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Wexford Ave. Midland",
+    "category": "Mixed",
+    "products": [
+      "Other: Corn",
+      "Soybeans"
+    ],
+    "products_text": "Other: Corn, Soybeans",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=1",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "989-898-1592",
+      "email": "",
+      "address": "400 Wexford Ave. Midland MI 48640",
+      "public": true
+    },
+    "geo": {
+      "latitude": 43.48041096,
+      "longitude": -83.51304541,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=1",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "backus-farm-mi",
+    "name": "Backus Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Bay",
+    "city": "Standish",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=57",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "989-324-7326",
+      "email": "",
+      "address": "3084 Grove St Rd, Standish MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=57",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "baese-family-farm-mi",
+    "name": "Baese Family Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Elsie",
+    "category": "Produce",
+    "products": [
+      "Seed/Pod Vegetables: Soybeans",
+      "Field/Forageable: Alfalfa",
+      "Corn (Yellow)",
+      "Hay",
+      "Pasture",
+      "Sudan Grass",
+      "Triticale",
+      "Wheat (Soft red winter)"
+    ],
+    "products_text": "Seed/Pod Vegetables: Soybeans; Field/Forageable: Alfalfa, Corn (Yellow), Hay, Pasture, Sudan Grass, Triticale, Wheat (Soft red winter)",
+    "website": "https://baesefamilyfarm.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "989-666-3637",
+      "email": "baeseangus@msn.com",
+      "address": "4639 E Ridge Rd, Elsie, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 43.09624843,
+      "longitude": -84.47553194,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=56",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "birdsong-farm-mi",
+    "name": "Birdsong Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Bangor",
+    "category": "Produce",
+    "products": [
+      "Field/Forageable: Pasture",
+      "Other: Greenhouse production of transplants for on-farm use",
+      "In-ground greenhouse production of vegetables",
+      "Land",
+      "Mushrooms: shiitakes",
+      "Vegetables: artichoke",
+      "asparagus",
+      "basil",
+      "beans",
+      "beets",
+      "broccoli",
+      "burdock",
+      "Brussels sprouts"
+    ],
+    "products_text": "Field/Forageable: Pasture; Other: Greenhouse production of transplants for on-farm use, In-ground greenhouse production of vegetables, Land, Mushrooms: shiitakes, Vegetables: artichoke, asparagus, basil, beans, beets, broccoli, burdock, Brussels sprouts,",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=110",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-366-8782",
+      "email": "",
+      "address": "ValleyHub, Birdsong Farm",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.32572854,
+      "longitude": -86.10932131,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=110",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "blake-s-orchard-cider-mill-mi",
+    "name": "Blake's Orchard & Cider Mill",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Armada",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=2",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "586-784-5343",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.8409,
+      "longitude": -82.8899,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=2",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "blue-patch-farms-mi",
+    "name": "Blue Patch Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Grand Traverse",
+    "city": "Kingsley",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.bluepatchfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-392-2552",
+      "email": "",
+      "address": "4012 Marsh Rd, Kingsley MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=3",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bluebird-farm-and-gardens-mi",
+    "name": "Bluebird Farm and Gardens",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Leelanau",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=4",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "248-892-6402",
+      "email": "",
+      "address": "Grand Traverse, Leelanau, Benzie",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=4",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bluestem-farm-mi",
+    "name": "Bluestem Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "East Jordan",
+    "category": "Produce",
+    "products": [
+      "Other: mixed vegetables",
+      "mixed vegetables & seedlings",
+      "pasture",
+      "woods"
+    ],
+    "products_text": "Other: mixed vegetables, mixed vegetables & seedlings, pasture, woods",
+    "website": "https://bluestemfarm.net",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-459-8182",
+      "email": "aaronbrower@yahoo.com",
+      "address": "4218 M-32, East Jordan, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 45.1539,
+      "longitude": -85.1387,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=58",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "boersma-family-roots-mi",
+    "name": "Boersma Family Roots",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Houghton",
+    "city": "N Cloverland Rd Calumet",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=5",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "906-370-1003",
+      "email": "",
+      "address": "55829 N Cloverland RD Calumet, MI 49913",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=5",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bowerman-blueberries-farm-market-mi",
+    "name": "Bowerman Blueberries Farm Market",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Ottawa",
+    "city": "James St. Holland",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.realblueberries.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-227-3601",
+      "email": "",
+      "address": "15793 James St. Holland, MI 49424",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=59",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bristol-haven-farm-mi",
+    "name": "Bristol Haven Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Barry",
+    "city": "Delton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://bristolhavenfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-312-8170",
+      "email": "",
+      "address": "1300 W. Bristol Rd., Delton, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=60",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brookside-farms-llc-mi",
+    "name": "Brookside Farms, LLC",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Bloomingdale",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay",
+      "Oats",
+      "Pasture",
+      "Squash",
+      "Triticale"
+    ],
+    "products_text": "Other: Hay, Oats, Pasture, Squash, Triticale;",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=6",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-330-0748",
+      "email": "",
+      "address": "\"Paw Paw Location; 34448 44th Ave, Paw Paw, MI 49079\", \"Martin/Otsego Location; 1475 M222, Otsego, MI 49078\" \"Gobles Location; 37988 CR 388, Bloomingdale, MI 49026\"",
+      "public": true
+    },
+    "geo": {
+      "latitude": 43.424739,
+      "longitude": -85.8926475,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=6",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brookwood-fruit-farm-mi",
+    "name": "Brookwood Fruit Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Almont",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=61",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "810-798-8312",
+      "email": "",
+      "address": "7845 Bordman Road, Almont, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.926,
+      "longitude": -83.0362,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=61",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "buchanan-oasis-farmstead-mi",
+    "name": "Buchanan Oasis Farmstead",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Washtenaw",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=107",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "313-731-2667",
+      "email": "",
+      "address": "Farm Stand and Arranged Public Pick-Up Locations",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=107",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bw-orchards-mi",
+    "name": "BW Orchards",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Oceana",
+    "city": "Shelby",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.facebook.com/bworchards",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-499-0918",
+      "email": "",
+      "address": "Shelby, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=62",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "calvin-lutz-farms-mi",
+    "name": "Calvin Lutz Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Kaleva",
+    "category": "Produce",
+    "products": [
+      "Fruit - Stone: Cherries (Tart)"
+    ],
+    "products_text": "Fruit - Stone: Cherries (Tart)",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=63",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-642-6017",
+      "email": "fhaven@t-one.net",
+      "address": "8576 Chief Rd, Kaleva, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 44.361339555,
+      "longitude": -86.101626006,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=63",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "clarkston-family-farm-mi",
+    "name": "Clarkston Family Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Clarkston",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=64",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "248-302-6426",
+      "email": "",
+      "address": "6800 Hubbard Rd., Clarkston, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.762114016,
+      "longitude": -83.420868974,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=64",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cooper-family-spreads-mi",
+    "name": "Cooper Family Spreads",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Manistee",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=7",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231 735 6363",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=7",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "corey-lake-orchards-mi",
+    "name": "Corey Lake Orchards",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Three Rivers",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=8",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-244-5690",
+      "email": "",
+      "address": "Three Rivers",
+      "public": true
+    },
+    "geo": {
+      "latitude": 41.891296763,
+      "longitude": -85.760146237,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=8",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "coveyou-scenic-farm-mi",
+    "name": "Coveyou Scenic Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Emmet",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=53",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-347-4056",
+      "email": "",
+      "address": "At our farm in Petoskey",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=53",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "crisp-country-acres-mi",
+    "name": "Crisp Country Acres",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=9",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-218-5760",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.8762788,
+      "longitude": -86.0795059,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=9",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dancing-crane-farm-mi",
+    "name": "Dancing Crane Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Marquette",
+    "city": "Skandia",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=65",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "906-241-4083",
+      "email": "",
+      "address": "348 Lawson Rd, Skandia, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=65",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "danu-hof-llc-mi",
+    "name": "Danu Hof LLC",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Antrim",
+    "city": "Doerr Rd Mancelona",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=10",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "517-581-1055",
+      "email": "",
+      "address": "3775 Doerr Rd Mancelona MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=10",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "debacker-family-farm-dairy-mi",
+    "name": "DeBacker Family Farm & Dairy",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Menominee",
+    "city": "Daggett",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=66",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "906-753-6455",
+      "email": "",
+      "address": "N9145 Badish Road L1, Daggett, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=66",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "deeply-rooted-produce-mi",
+    "name": "Deeply Rooted Produce",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wayne",
+    "city": "Hivon Rd. Carleton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=11",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "313-949-3226",
+      "email": "",
+      "address": "Detroit, MI 48205; Hivon rd. Carleton, MI 48117",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=11",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dennis-farms-mi",
+    "name": "Dennis Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Laingsburg",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=67",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "517-763-1206",
+      "email": "",
+      "address": "8715 Alward Rd, Laingsburg, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 45.339597983,
+      "longitude": -85.003471032,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=67",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dutchman-orchards-mi",
+    "name": "Dutchman Orchards",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Allegan",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=12",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-806-8154",
+      "email": "",
+      "address": "location 1 - Allegan County",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=12",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "eagle-creek-fish-company-mi",
+    "name": "Eagle Creek Fish Company",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Jackson",
+    "city": "W. Michigan Ave. Jackson",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=113",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "248-381-4044",
+      "email": "",
+      "address": "5883 W. Michigan Ave. Jackson, MI 49201",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=113",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmlink-mi",
+    "name": "FarmLink",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Kent",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=13",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-318-7395",
+      "email": "",
+      "address": "Grand Rapids x 3",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=13",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ferry-farms-mi",
+    "name": "Ferry Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Hillsdale",
+    "city": "Litchfield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=68",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "517-214-3298",
+      "email": "",
+      "address": "9211 W Litchfield Rd, Litchfield, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=68",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "flint-fresh-mi",
+    "name": "Flint Fresh",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Genesee",
+    "city": "Flint",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=14",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "810-620-1902",
+      "email": "",
+      "address": "3325 E Court St, Flint, MI 48506",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=14",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "flourish-farms-mi",
+    "name": "Flourish Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Allegan",
+    "city": "Th Street Plainwell",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=15",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "708-846-8222",
+      "email": "",
+      "address": "905 11th Street Plainwell, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=15",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "food-agriculture-research-and-manufacturing-accelerator-mi",
+    "name": "Food, Agriculture, Research, and Manufacturing accelerator",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Muskegon",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.canr.msu.edu/productcenter/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-740-5615",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=16",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fruit-haven-orchards-llc-mi",
+    "name": "FRUIT HAVEN ORCHARDS LLC",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Van Buren",
+    "city": "Lawrence",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=116",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-330-3297",
+      "email": "",
+      "address": "65034 50th Street, Lawrence Mi",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=116",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gavin-orchards-mi",
+    "name": "Gavin Orchards",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Ottawa",
+    "city": "Th Ave Coopersville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=17",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-837-0197",
+      "email": "",
+      "address": "16321 40th Ave Coopersville, MI 49404",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=17",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ghost-house-farm-mi",
+    "name": "Ghost House Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=18",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "906-231-2645",
+      "email": "",
+      "address": "On farm walk-in cooler.",
+      "public": true
+    },
+    "geo": {
+      "latitude": 47.1268714,
+      "longitude": -88.5809563,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=18",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "golden-stock-farms-llc-mi",
+    "name": "Golden Stock Farms, LLC",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Oceana",
+    "city": "Mears",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.goldenstockfarms.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-769-8622",
+      "email": "",
+      "address": "Golden Stock Farms 3772 N 48th Ave, Mears, MI 49436",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=52",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "good-stead-farm-mi",
+    "name": "Good Stead Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Hope",
+    "category": "Urban Farm",
+    "products": [
+      "Field/Forageable: Pasture",
+      "Other: Greenhouse production of microgreens and transplants for on-farm use and for sale",
+      "Microgreens",
+      "In-ground greenhouse production of vegetables",
+      "Vegetables: arugula",
+      "Asian greens",
+      "asparagus",
+      "beans",
+      "beets",
+      "broccoli",
+      "Brusse"
+    ],
+    "products_text": "Field/Forageable: Pasture; Other: Greenhouse production of microgreens and transplants for on-farm use and for sale; Microgreens., In-ground greenhouse production of vegetables, Vegetables: arugula, Asian greens, asparagus, beans, beets, broccoli, Brusse",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=19",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "989-492-4125",
+      "email": "",
+      "address": "Midland Area Farmer's Market, Good Stead Farm",
+      "public": true
+    },
+    "geo": {
+      "latitude": 43.7889134,
+      "longitude": -84.36713983,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=19",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "granor-farm-mi",
+    "name": "Granor Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Three Oaks",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: corn",
+      "kemza",
+      "mixed vegetables & herbs",
+      "mixed vegetables",
+      "berries & rhubarb",
+      "rye",
+      "seedlings",
+      "soybeans",
+      "spelt",
+      "wheat"
+    ],
+    "products_text": "Other: corn, kemza, mixed vegetables & herbs, mixed vegetables, berries & rhubarb, rye, seedlings, soybeans, spelt, wheat",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=20",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(269)-944-6456",
+      "email": "sarah@granorfarm.com",
+      "address": "3480 Warren Woods Road, Three Oaks, Michigan 8am-4pm",
+      "public": true
+    },
+    "geo": {
+      "latitude": 41.84174953,
+      "longitude": -86.5372185,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=20",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "green-boots-veteran-community-horticultural-gardens-and-marketplace-mi",
+    "name": "Green Boots Veteran Community Horticultural Gardens and Marketplace",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wayne",
+    "city": "Southfield Rd Detroit",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=69",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "313-631-0900",
+      "email": "",
+      "address": "13500 Southfield Rd Detroit, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=69",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "green-wagon-farm-mi",
+    "name": "Green Wagon Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=21",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-283-2842",
+      "email": "",
+      "address": "Fulton Street Farmers Market, Green Wagon Farm",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.875022,
+      "longitude": -85.4466659,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=21",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hillcrest-farms-mi",
+    "name": "Hillcrest Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Eaton",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=22",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "517-455-6580",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=22",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "idyll-farms-mi",
+    "name": "Idyll Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "E Peterson Park Rd Northport",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=70",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-386-7823",
+      "email": "",
+      "address": "10901 E Peterson Park Rd Northport, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 45.1157,
+      "longitude": -85.6173,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=70",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "jakes-country-meats-mi",
+    "name": "Jakes Country Meats",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Cass",
+    "city": "Decatur Rdcassopolis",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=71",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-445-3020",
+      "email": "",
+      "address": "55721 Decatur RdCassopolis, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=71",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "jenkins-family-farms-mi",
+    "name": "Jenkins Family Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Kalkaska",
+    "city": "Saunders Road Se Kalkaska",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=72",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-258-9509",
+      "email": "",
+      "address": "2413 Saunders Road SE Kalkaska, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=72",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kamphuis-blueberries-mi",
+    "name": "Kamphuis Blueberries",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Ottawa",
+    "city": "Th Ave. Holland",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://skamphuisblueberries.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-399-9545",
+      "email": "",
+      "address": "4140 148th Ave. Holland, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=74",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "king-orchards-central-lake-mi",
+    "name": "King Orchards - Central Lake",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Antrim",
+    "city": "Central Lake",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=75",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-544-6479",
+      "email": "",
+      "address": "4620 N M-88Central Lake, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=75",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "king-orchards-kewadin-mi",
+    "name": "King Orchards - Kewadin",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Antrim",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=76",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-264-0715",
+      "email": "",
+      "address": "986 US-31 S Kewadin, Michigan",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=76",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kurtzhals-farms-mi",
+    "name": "Kurtzhals' Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wayne",
+    "city": "Sibley Rd Romulus",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.facebook.com/KurtzhalsFarms/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "734-941-2081",
+      "email": "",
+      "address": "27098 Sibley Rd Romulus, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=77",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lake-effect-farm-mi",
+    "name": "Lake effect farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Keweenaw",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=23",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-660-1120",
+      "email": "",
+      "address": "At farm At farm stand offsite",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=23",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lakeview-hill-farm-mi",
+    "name": "Lakeview Hill Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "E Lakeview Hills Rd Traverse City",
+    "category": "Urban Farm",
+    "products": [
+      "Other: Mixed Vegetables",
+      "including: Basil",
+      "Chard",
+      "Chives",
+      "Kale",
+      "Lettuce",
+      "Microgreens",
+      "including: Amaranth",
+      "Arugula",
+      "Basil",
+      "Cabbage",
+      "and Radish",
+      "Mung Beans",
+      "Peppers",
+      "Radishes",
+      "Soybeans",
+      "Squash",
+      "Tomatoes",
+      "Turnips",
+      "Greenhouse production of transplants for s"
+    ],
+    "products_text": "Other: Mixed Vegetables, including: Basil, Chard, Chives, Kale, Lettuce, Microgreens, including: Amaranth, Arugula, Basil, Cabbage, and Radish; Mung Beans, Peppers, Radishes, Soybeans, Squash, Tomatoes, Turnips; Greenhouse production of transplants for s",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=78",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-463-8218",
+      "email": "",
+      "address": "8236 E Lakeview Hills Rd Traverse City, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 44.85178271,
+      "longitude": -85.68165783,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=78",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lemon-creek-winery-and-fruit-farm-mi",
+    "name": "Lemon Creek Winery and Fruit Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Berrien",
+    "city": "E Lemon Creek Rd Berrien Springs",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.lemoncreekwinery.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-471-1321",
+      "email": "",
+      "address": "533 E Lemon Creek Rd Berrien Springs, MI 49103",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=24",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "little-parsley-farm-mi",
+    "name": "Little Parsley Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Marquette",
+    "city": "Little Lake Rd. Marquette",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=25",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "906-228-2553",
+      "email": "",
+      "address": "300 Little Lake Rd. Marquette, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=25",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "loma-farm-mi",
+    "name": "Loma Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Traverse City",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://lomafarm.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "970-217-5904",
+      "email": "",
+      "address": "7606 E Birch Point Rd, Traverse City, MI 49684",
+      "public": true
+    },
+    "geo": {
+      "latitude": 44.8447868,
+      "longitude": -85.7013244,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=80",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lost-lake-farm-mi",
+    "name": "Lost Lake Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Benzie",
+    "city": "Fewins Rd Honor",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=79",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-709-7203",
+      "email": "",
+      "address": "11664 Fewins Rd Honor, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=79",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "made-by-a-farmer-organic-produce-mi",
+    "name": "Made by a Farmer Organic Produce",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Washtenaw",
+    "city": "Scio Church Rd.Ann Arbor",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=81",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "734-262-7510",
+      "email": "",
+      "address": "8275 Scio Church Rd.Ann Arbor, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=81",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "many-hands-community-garden-mi",
+    "name": "Many Hands Community Garden",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wayne",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=26",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "313-533-5692",
+      "email": "",
+      "address": "19015 West McNichols",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=26",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "marsh-haven-farms-mi",
+    "name": "Marsh Haven Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Genesee",
+    "city": "N. Henderson Rd. Davison",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.facebook.com/marshhavenfarms",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "810-658-2289",
+      "email": "",
+      "address": "2267 N. Henderson Rd. Davison, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=82",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mccauley-family-farms-llc-mi",
+    "name": "McCauley Family Farms LLC",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wayne",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=27",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "734-404-8866",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=27",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mi-farm-co-op-mi",
+    "name": "MI Farm Co-op",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Traverse City",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=28",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-357-9389",
+      "email": "",
+      "address": "2889 Aero-Park Dr, Traverse City, MI 49686",
+      "public": true
+    },
+    "geo": {
+      "latitude": 44.744150473,
+      "longitude": -85.562562498,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=28",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mid-thumb-produce-mi",
+    "name": "Mid-Thumb Produce",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Sanilac",
+    "city": "Babcock Rd Lexington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.facebook.com/grownwhereyoulive/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "810-304-3480",
+      "email": "",
+      "address": "7882 Babcock Rd Lexington, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=83",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "miedema-produce-mi",
+    "name": "Miedema Produce",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Ottawa",
+    "city": "Th Ave Hudsonville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=84",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-206-5984",
+      "email": "",
+      "address": "5005 40th Ave Hudsonville, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=84",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mitchell-s-patch-of-blue-mi",
+    "name": "Mitchell's Patch of Blue",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Van Buren",
+    "city": "Bangor",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=85",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-304-9506",
+      "email": "",
+      "address": "65220 County Rd 380 Bangor, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=85",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "montrose-orchards-mi",
+    "name": "Montrose Orchards",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Montrose",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=29",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "810-639-6971",
+      "email": "",
+      "address": "Montrose Orchards, Inc12473 Seymour RdMontrose 48457",
+      "public": true
+    },
+    "geo": {
+      "latitude": 43.192212388,
+      "longitude": -83.880623533,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=29",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "moss-funnel-farms-llc-joe-s-blues-mi",
+    "name": "Moss Funnel Farms, LLC (Joe's Blues)",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Van Buren",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.joesblueberries.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "847-293-1690",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=112",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mother-farmer-mi",
+    "name": "Mother Farmer",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Ontonagon",
+    "city": "Ewen",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=86",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "708-214-3046",
+      "email": "",
+      "address": "23771 Old M28 Ewen, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=86",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "motor-city-micro-farm-mi",
+    "name": "Motor City Micro Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wayne",
+    "city": "W Chicago Detroit",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=87",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "248-660-8023",
+      "email": "",
+      "address": "10090 W Chicago Detroit, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=87",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mycopia-mushrooms-mi",
+    "name": "Mycopia Mushrooms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Mason",
+    "city": "East State Street Scottville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=88",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "707-823-1743",
+      "email": "",
+      "address": "506 East State Street Scottville, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=88",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "nanbop-farm-mi",
+    "name": "NanBop Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wexford",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=30",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "989-388-7834",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=30",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "nemeth-orchard-mi",
+    "name": "Nemeth Orchard",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Washtenaw",
+    "city": "Bolla Rd Ypsilanti",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.facebook.com/nemethorchard#",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "734-368-5055",
+      "email": "",
+      "address": "4935 Bolla Rd Ypsilanti, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=89",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "norconk-farm-mi",
+    "name": "Norconk Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Benzie",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=31",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-326-3540",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=31",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "north-bay-produce-mi",
+    "name": "North Bay Produce",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Grand Traverse",
+    "city": "Mcrae Hill Rd Traverse City",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=90",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-946-1941",
+      "email": "",
+      "address": "1868 McRae Hill Rd Traverse City, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=90",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "north-harvest-csa-mi",
+    "name": "North Harvest CSA",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Houghton",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=32",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "906-370-2007",
+      "email": "",
+      "address": "Pick up at the farm",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=32",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "norwood-centennial-farm-mi",
+    "name": "Norwood Centennial Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Charlevoix",
+    "city": "Barnard Rd. Charlevoix",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=91",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "844-630-1974",
+      "email": "",
+      "address": "1498 Barnard Rd. Charlevoix, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=91",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "oomen-farms-crystal-valley-organics-mi",
+    "name": "Oomen farms / Crystal Valley Organics",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Oceana",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=33",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-425-6600",
+      "email": "",
+      "address": "Hart, Michigan",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=33",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "peach-ridge-farms-gr-mi",
+    "name": "Peach Ridge Farms GR",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Kent",
+    "city": "Peach Ridge Ave Grand Rapids",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=92",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-589-1599",
+      "email": "",
+      "address": "4350 Peach Ridge Ave Grand Rapids, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=92",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "peckham-farms-mi",
+    "name": "Peckham Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "West Grand River Ave Lansing",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=93",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "517-316-4050",
+      "email": "",
+      "address": "5408 West Grand River Ave Lansing, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.777257,
+      "longitude": -84.628209,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=93",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "planted-detroit-mi",
+    "name": "Planted Detroit",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wayne",
+    "city": "Mt Elliott St Detroit",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=94",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "734-612-3741",
+      "email": "",
+      "address": "1000 Mt Elliott St Detroit, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=94",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "providence-organic-farm-mi",
+    "name": "Providence Organic Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Central Lake",
+    "category": "Produce",
+    "products": [
+      "Other: asparagus",
+      "hay",
+      "Land Eligible for Organic Production",
+      "mixed vegetable seedlings",
+      "mixed vegetables",
+      "Pasture",
+      "strawberries",
+      "winter squash"
+    ],
+    "products_text": "Other: asparagus, hay, Land Eligible for Organic Production, mixed vegetable seedlings, mixed vegetables, Pasture, strawberries, winter squash",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=95",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-599-2020",
+      "email": "providencecsa@yahoo.com",
+      "address": "5695 North M-88 Central Lake, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 45.105881,
+      "longitude": -85.3319635,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=95",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "revolution-farms-by-peckham-mi",
+    "name": "Revolution Farms by Peckham",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Clinton,Kent",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=96",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-560-7782",
+      "email": "",
+      "address": "2901 76th Street SECaledonia, Michigan",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=96",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "robinette-s-mi",
+    "name": "Robinette's",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Kent",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=34",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-821-1051",
+      "email": "",
+      "address": "3142 4 Mile Rd NE Grand Rapids",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=34",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "round-lake-produce-distributing-llc-mi",
+    "name": "Round Lake Produce & Distributing LLC",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Clinton",
+    "city": "Our Facility In Dewitt",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=114",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "517-624-2131",
+      "email": "",
+      "address": "Our facility in DeWitt, MI - connect for hours",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=114",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "schomaker-farms-mi",
+    "name": "Schomaker Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Saginaw",
+    "city": "Leddy Road Saginaw",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=97",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "989-274-5557",
+      "email": "",
+      "address": "1103 Leddy Road Saginaw, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=97",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "schultz-fruitridge-farms-mi",
+    "name": "Schultz Fruitridge Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Mattawan",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.schultzfruitridgefarms.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-599-1219",
+      "email": "",
+      "address": "60139 CR 652, Mattawan, MI 49071",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.28202581,
+      "longitude": -85.795444947,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=54",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "second-spring-farm-mi",
+    "name": "Second Spring Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "E. Hoxie Road Cedar",
+    "category": "Produce",
+    "products": [
+      "Other: asparagus/rhubarb",
+      "hay",
+      "Land Eligible for Organic Production",
+      "Mixed Vegetables",
+      "mixed vegetables & berries",
+      "seedlings"
+    ],
+    "products_text": "Other: asparagus/rhubarb, hay, Land Eligible for Organic Production, Mixed Vegetables, mixed vegetables, mixed vegetables & berries, seedlings",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=99",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-944-8946",
+      "email": "secondspringfarm@gmail.com",
+      "address": "7155 E. Hoxie Road Cedar, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": 44.79347852,
+      "longitude": -85.71190038,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=99",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "seffernick-farms-mi",
+    "name": "Seffernick Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Jackson",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=35",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "517-945-2508",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=35",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "shady-side-farm-mi",
+    "name": "Shady Side Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Holland",
+    "category": "Meat",
+    "products": [
+      "Seed/Pod Vegetables: Beans (Black turtle",
+      "Calypso",
+      "Valentine",
+      "Flageolet",
+      "Hidatsa red",
+      "Hutterite soup",
+      "Jacob's cattle",
+      "Jacob's cattle gold",
+      "Marrow",
+      "Painted lady",
+      "Yellow indian woman",
+      "Zebra",
+      "Tiger eye",
+      "Spanish tolosana",
+      "Black garbanzo",
+      "Dapple Grey",
+      "Fort Po"
+    ],
+    "products_text": "Seed/Pod Vegetables: Beans (Black turtle, Calypso, Valentine, Flageolet, Hidatsa red, Hutterite soup, Jacob's cattle, Jacob's cattle gold, Marrow, Painted lady, Yellow indian woman, Zebra, Tiger eye, Spanish tolosana, Black garbanzo, Dapple Grey, Fort Po",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=37",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-786-3827",
+      "email": "mike@shadysidefarm.net",
+      "address": "13275 Blair Street, Holland--appointment needed",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.892902,
+      "longitude": -86.111787,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=37",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sheets-farm-mi",
+    "name": "Sheets Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Kalamazoo",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=108",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-209-5212",
+      "email": "",
+      "address": "Sheets Farm",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=108",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "silly-goose-acres-mi",
+    "name": "Silly Goose Acres",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Allegan",
+    "city": "Th St. Plainwell",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=111",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "317-682-7772",
+      "email": "",
+      "address": "Silly Goose Acres (371 8th St. Plainwell MI 49080)",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=111",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sol-microgreens-mi",
+    "name": "Sol Microgreens",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Jackson",
+    "city": "Jackson",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.solmicrogreensmi.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "517-960-9755",
+      "email": "",
+      "address": "Michigan Ave, Jackson MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=100",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "southeast-michigan-producers-association-sempa-mi",
+    "name": "SouthEast Michigan Producers Association (SEMPA)",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Berrien,Monroe,Washtenaw,Wayne",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=36",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "734-931-0890",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=36",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "square-roots-grow-inc-mi",
+    "name": "Square Roots Grow, Inc.",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Kent",
+    "city": "Wyoming",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=38",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "320- 291-9771",
+      "email": "",
+      "address": "Square Roots Grow 1300 Gezon Pkwy SW, Wyoming, MI 49509",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=38",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stocchiero-farms-mi",
+    "name": "Stocchiero Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Van Buren",
+    "city": "Bangor",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=101",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-767-5848",
+      "email": "",
+      "address": "54824 M-43 Bangor, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=101",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "superbloom-farms-mi",
+    "name": "Superbloom Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Kent",
+    "city": "Oakdale St Grand Rapids",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=39",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-292-5624",
+      "email": "",
+      "address": "524 Oakdale St Grand Rapids, MI 49507",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=39",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "superior-sales-mi",
+    "name": "Superior Sales",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Ottawa",
+    "city": "Corporate Grove Dr Hudsonville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=102",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-896-6500",
+      "email": "",
+      "address": "2929 Corporate Grove Dr Hudsonville, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=102",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sysco-food-service-mi",
+    "name": "Sysco Food Service",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Kent,Wayne",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=51",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "734-397-7481",
+      "email": "",
+      "address": "",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=51",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "szymanski-seed-grain-mi",
+    "name": "Szymanski Seed & Grain",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Huron",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=40",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "989-550-9006",
+      "email": "",
+      "address": "Port Austin",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=40",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tango-foxtrot-farms-llc-mi",
+    "name": "Tango Foxtrot Farms LLC",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Muskegon",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=41",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-670-4637",
+      "email": "",
+      "address": "4763 Putnam Rd. Muskegon Michigan 49445",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=41",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-grubbank-mi",
+    "name": "The Grubbank",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wayne",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=42",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "313-471-4245",
+      "email": "",
+      "address": "7707 W. Outer Drive",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=42",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "third-coast-fruits-wunsch-farms-mi",
+    "name": "Third Coast Fruits/ Wunsch Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Grand Traverse",
+    "city": "Wunsch Rd Traverse City",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=103",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-313-1471",
+      "email": "",
+      "address": "16888 Wunsch Rd Traverse City, MI 49686",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=103",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tom-maceri-sons-produce-mi",
+    "name": "Tom Maceri & Sons Produce",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Macomb",
+    "city": "W Industrial St Clair Shores",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=43",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "810-241-7705",
+      "email": "",
+      "address": "23000 W Industrial St Clair Shores MI 48080",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=43",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tri-city-mushrooms-mi",
+    "name": "Tri-City Mushrooms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Bay",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://tricitymushrooms.square.site/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "989-778-1159",
+      "email": "",
+      "address": "\"1020 Ledyard Rd Essexville 48732\" \"1020 Baker St Midland 48640\"",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=44",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ugami-mi",
+    "name": "UGAMI",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wayne",
+    "city": "Fernwood Detroit",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=104",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "313-782-3470",
+      "email": "",
+      "address": "4893 Fernwood Detroit, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=104",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "urban-youth-agriculture-mi",
+    "name": "Urban Youth Agriculture",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Wayne",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=45",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "313-808-9323",
+      "email": "",
+      "address": "14455 Wilshire",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=45",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "valleyhub-mi",
+    "name": "ValleyHUB",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Kalamazoo",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=46",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-548-3308",
+      "email": "",
+      "address": "224 E Crosstown Parkway, Kalamazoo MI 49001",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.2808544,
+      "longitude": -85.579661,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=46",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "visser-farms-mi",
+    "name": "Visser farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "Blair St Zeeland",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=47",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "616-875-8559",
+      "email": "",
+      "address": "10791 Blair st Zeeland mi 49464",
+      "public": true
+    },
+    "geo": {
+      "latitude": 42.892284357,
+      "longitude": -86.037060569,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=47",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "waishkey-bay-farm-bay-mills-community-college-mi",
+    "name": "WAISHKEY BAY FARM (BAY MILLS COMMUNITY COLLEGE)",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Chippewa",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://bmcc.edu/about-bmcc/community-services/waishkey-bay-farm",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "906-248-1102",
+      "email": "",
+      "address": "At Waishkey Bay Farm",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=48",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "white-produce-mi",
+    "name": "white produce",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Newaygo",
+    "city": "Nd St. Femont",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=115",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-924-6499",
+      "email": "",
+      "address": "5785 w72nd st. femont mi 49412",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=115",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "wild-coyote-farm-mi",
+    "name": "Wild Coyote Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "",
+    "city": "E Lemon Creek Rd Berrien Springs",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Mixed Produce",
+      "Herbs and Flowers including: Arugula",
+      "Basil",
+      "Blackberries",
+      "Broccoli",
+      "Broccoli Leaf",
+      "Cabbage",
+      "Cantaloupe",
+      "Carrots",
+      "Cauliflower",
+      "Chamomile",
+      "Cherry Tomatoes",
+      "Chives",
+      "Cilantro",
+      "Collards",
+      "Cucumbers",
+      "Cut Flowers",
+      "Dandelion",
+      "Dill",
+      "European"
+    ],
+    "products_text": "Other: Mixed Produce, Herbs and Flowers including: Arugula, Basil, Blackberries, Broccoli, Broccoli Leaf, Cabbage, Cantaloupe, Carrots, Cauliflower, Chamomile, Cherry Tomatoes, Chives, Cilantro, Collards, Cucumbers, Cut Flowers, Dandelion, Dill, European",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=49",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "269-277-3621",
+      "email": "",
+      "address": "2224 e lemon creek rd Berrien springs, Mi",
+      "public": true
+    },
+    "geo": {
+      "latitude": 41.97227528,
+      "longitude": -86.40502218,
+      "precision": "point"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=49",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "willowbrook-farms-mi",
+    "name": "Willowbrook Farms",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Cass",
+    "city": "Bulhand St. Cassopolis",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=109",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "574-386-7550",
+      "email": "",
+      "address": "On Site at Farm 19555 Bulhand St. Cassopolis Mi",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=109",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "witt-family-farm-mi",
+    "name": "Witt Family Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Antrim",
+    "city": "N Derenzy Rd Central Lake",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=105",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "231-544-2149",
+      "email": "",
+      "address": "493 N Derenzy Rd Central Lake, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=105",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "yooper-produce-llc-mi",
+    "name": "Yooper Produce LLC",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Delta",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=50",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "906-280-5434",
+      "email": "",
+      "address": "at the farm during market hours.",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=50",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "z-n-farm-mi",
+    "name": "Z&N Farm",
+    "state": "MI",
+    "region": "midwest",
+    "county": "Manistee",
+    "city": "Chief Rd Bear Lake",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=106",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "707-672-5118",
+      "email": "",
+      "address": "9740 Chief Rd Bear Lake, MI",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current public supplier of Michigan-grown products in the Michigan Department of Education Farm to Program directory.",
+    "provenance": {
+      "source": "Michigan Department of Education — Farm to Program suppliers",
+      "source_url": "https://mdoe.state.mi.us/GEMS/Public/FTPSupplierProfile.aspx?id=106",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
     "id": "westwind-farm-mi",
     "name": "Westwind Farm",
     "state": "MI",
@@ -663,45 +5247,6 @@
     "qa_reason": ""
   },
   {
-    "id": "idyll-farms-mi",
-    "name": "Idyll Farms",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Northport",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 45.1157,
-      "longitude": -85.6173,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "resonance-center-farm-mi",
     "name": "Resonance Center Farm",
     "state": "MI",
@@ -1002,45 +5547,6 @@
     "geo": {
       "latitude": 42.84,
       "longitude": -83.0388,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "brookwood-fruit-farm-mi",
-    "name": "Brookwood Fruit Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Almont",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.926,
-      "longitude": -83.0362,
       "precision": "point"
     },
     "notes": "",
@@ -1743,45 +6249,6 @@
     "geo": {
       "latitude": 42.5796,
       "longitude": -84.4561,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "agape-organic-farms-mi",
-    "name": "Agape Organic Farms",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Dansville",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.5505,
-      "longitude": -84.2939,
       "precision": "point"
     },
     "notes": "",
@@ -4780,45 +9247,6 @@
     "qa_reason": ""
   },
   {
-    "id": "loma-farm-mi",
-    "name": "LOMA FARM",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 44.8447868,
-      "longitude": -85.7013244,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "mclaughlin-farm-ltd-mi",
     "name": "McLaughlin Farm Ltd",
     "state": "MI",
@@ -6034,50 +10462,6 @@
     "qa_reason": ""
   },
   {
-    "id": "bluestem-farm-mi",
-    "name": "Bluestem Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "East Jordan",
-    "category": "Produce",
-    "products": [
-      "Other: mixed vegetables",
-      "mixed vegetables & seedlings",
-      "pasture",
-      "woods"
-    ],
-    "products_text": "Other: mixed vegetables, mixed vegetables & seedlings, pasture, woods",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "(231)-459-8182",
-      "email": "aaronbrower@yahoo.com",
-      "address": "4218 M-32, East Jordan, Michigan, 49727",
-      "public": false
-    },
-    "geo": {
-      "latitude": 45.1539,
-      "longitude": -85.1387,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "fulton-street-market-mi",
     "name": "Fulton Street Market",
     "state": "MI",
@@ -6222,45 +10606,6 @@
     "geo": {
       "latitude": 42.7682,
       "longitude": -83.0395,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "blake-s-orchard-cider-mill-mi",
-    "name": "Blake's Orchard & Cider Mill",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Armada",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.8409,
-      "longitude": -82.8899,
       "precision": "point"
     },
     "notes": "",
@@ -6807,45 +11152,6 @@
     "geo": {
       "latitude": 38.4255657,
       "longitude": -75.6329698,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "ghost-house-farm-mi",
-    "name": "Ghost House Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 47.1268714,
-      "longitude": -88.5809563,
       "precision": "point"
     },
     "notes": "",
@@ -8577,45 +12883,6 @@
     "qa_reason": ""
   },
   {
-    "id": "crisp-country-acres-mi",
-    "name": "Crisp Country Acres",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.8762788,
-      "longitude": -86.0795059,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "dennis-farms-fresh-mi",
     "name": "Dennis Farms Fresh",
     "state": "MI",
@@ -8643,45 +12910,6 @@
     "geo": {
       "latitude": 42.8935798,
       "longitude": -84.3871811,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "green-wagon-farm-mi",
-    "name": "Green Wagon Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.875022,
-      "longitude": -85.4466659,
       "precision": "point"
     },
     "notes": "",
@@ -17664,45 +21892,6 @@
     "qa_reason": ""
   },
   {
-    "id": "montrose-orchards-inc-mi",
-    "name": "Montrose Orchards, Inc.",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Montrose",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 43.192212388,
-      "longitude": -83.880623533,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "peaceful-produce-mi",
     "name": "Peaceful Produce",
     "state": "MI",
@@ -17730,45 +21919,6 @@
     "geo": {
       "latitude": 45.709447,
       "longitude": -84.843103,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "corey-lake-orchards-mi",
-    "name": "Corey Lake Orchards",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Three Rivers",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 41.891296763,
-      "longitude": -85.760146237,
       "precision": "point"
     },
     "notes": "",
@@ -25710,45 +29860,6 @@
     "qa_reason": ""
   },
   {
-    "id": "visser-farms-mi",
-    "name": "Visser Farms",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Zeeland",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.892284357,
-      "longitude": -86.037060569,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "wellington-farm-park-mi",
     "name": "Wellington Farm Park",
     "state": "MI",
@@ -26322,47 +30433,6 @@
     "geo": {
       "latitude": 42.532701996,
       "longitude": -84.414502021,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "calvin-lutz-farms-mi",
-    "name": "Calvin Lutz Farms",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Kaleva",
-    "category": "Produce",
-    "products": [
-      "Fruit - Stone: Cherries (Tart)"
-    ],
-    "products_text": "Fruit - Stone: Cherries (Tart)",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "231-889-5594",
-      "email": "fhaven@t-one.net",
-      "address": "8576 Chief Rd, Kaleva, Michigan, 49645",
-      "public": false
-    },
-    "geo": {
-      "latitude": 44.361339555,
-      "longitude": -86.101626006,
       "precision": "point"
     },
     "notes": "",
@@ -27962,45 +32032,6 @@
     "geo": {
       "latitude": 43.035640997,
       "longitude": -83.072357989,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "schultz-fruitridge-farms-inc-mi",
-    "name": "Schultz Fruitridge Farms, Inc.",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Mattawan",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.28202581,
-      "longitude": -85.795444947,
       "precision": "point"
     },
     "notes": "",
@@ -38517,45 +42548,6 @@
     "qa_reason": ""
   },
   {
-    "id": "dennis-farms-mi",
-    "name": "Dennis Farms",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Petoskey",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 45.339597983,
-      "longitude": -85.003471032,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "the-phunny-pharm-mi",
     "name": "The Phunny Pharm",
     "state": "MI",
@@ -40974,45 +44966,6 @@
     "qa_reason": ""
   },
   {
-    "id": "clarkston-family-farm-mi",
-    "name": "Clarkston Family Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Village of Clarkston",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.762114016,
-      "longitude": -83.420868974,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "community-action-house-mi",
     "name": "Community Action House",
     "state": "MI",
@@ -41430,45 +45383,6 @@
     "geo": {
       "latitude": 44.805148013,
       "longitude": -85.932091021,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "mi-farm-co-op-mi",
-    "name": "MI Farm Co-op",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 44.744150473,
-      "longitude": -85.562562498,
       "precision": "point"
     },
     "notes": "",
@@ -48585,63 +52499,6 @@
     "qa_reason": ""
   },
   {
-    "id": "shady-side-farm-mi",
-    "name": "Shady Side Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Holland",
-    "category": "Meat",
-    "products": [
-      "Seed/Pod Vegetables: Beans (Black turtle",
-      "Calypso",
-      "Valentine",
-      "Flageolet",
-      "Hidatsa red",
-      "Hutterite soup",
-      "Jacob's cattle",
-      "Jacob's cattle gold",
-      "Marrow",
-      "Painted lady",
-      "Yellow indian woman",
-      "Zebra",
-      "Tiger eye",
-      "Spanish tolosana",
-      "Black garbanzo",
-      "Dapple Grey",
-      "Fort Po"
-    ],
-    "products_text": "Seed/Pod Vegetables: Beans (Black turtle, Calypso, Valentine, Flageolet, Hidatsa red, Hutterite soup, Jacob's cattle, Jacob's cattle gold, Marrow, Painted lady, Yellow indian woman, Zebra, Tiger eye, Spanish tolosana, Black garbanzo, Dapple Grey, Fort Po",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "616-786-3827",
-      "email": "mike@shadysidefarm.net",
-      "address": "13275 Blair St, Holland, Michigan, 49424",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.892902,
-      "longitude": -86.111787,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "piggott-s-farm-market-bakery-mi",
     "name": "Piggott's Farm Market & Bakery",
     "state": "MI",
@@ -49254,45 +53111,6 @@
     "geo": {
       "latitude": 44.99875,
       "longitude": -85.241874,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "peckham-farms-mi",
-    "name": "Peckham Farms",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Lansing",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.777257,
-      "longitude": -84.628209,
       "precision": "point"
     },
     "notes": "",
@@ -50190,54 +54008,6 @@
     "geo": {
       "latitude": 42.9853479,
       "longitude": -85.6541229,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "providence-organic-farm-mi",
-    "name": "Providence Organic Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Central Lake",
-    "category": "Produce",
-    "products": [
-      "Other: asparagus",
-      "hay",
-      "Land Eligible for Organic Production",
-      "mixed vegetable seedlings",
-      "mixed vegetables",
-      "Pasture",
-      "strawberries",
-      "winter squash"
-    ],
-    "products_text": "Other: asparagus, hay, Land Eligible for Organic Production, mixed vegetable seedlings, mixed vegetables, Pasture, strawberries, winter squash",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "(231)-350-3366",
-      "email": "providencecsa@yahoo.com",
-      "address": "5691 North M-88, Central Lake, Michigan, 49622",
-      "public": false
-    },
-    "geo": {
-      "latitude": 45.105881,
-      "longitude": -85.3319635,
       "precision": "point"
     },
     "notes": "",
@@ -51330,45 +55100,6 @@
     "geo": {
       "latitude": 42.3491815,
       "longitude": -83.041969,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "U.S. Farm Trail — Michigan",
-      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "valleyhub-mi",
-    "name": "ValleyHUB",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Kalamazoo",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.2808544,
-      "longitude": -85.579661,
       "precision": "point"
     },
     "notes": "",
@@ -52949,54 +56680,6 @@
     "geo": {
       "latitude": 43.29422157,
       "longitude": -83.03992739,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "USDA Organic Integrity Database — Michigan certified producers",
-      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Michigan%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "baese-family-farm-llc-mi",
-    "name": "Baese Family Farm LLC",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Elsie",
-    "category": "Produce",
-    "products": [
-      "Seed/Pod Vegetables: Soybeans",
-      "Field/Forageable: Alfalfa",
-      "Corn (Yellow)",
-      "Hay",
-      "Pasture",
-      "Sudan Grass",
-      "Triticale",
-      "Wheat (Soft red winter)"
-    ],
-    "products_text": "Seed/Pod Vegetables: Soybeans; Field/Forageable: Alfalfa, Corn (Yellow), Hay, Pasture, Sudan Grass, Triticale, Wheat (Soft red winter)",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "989-862-5770",
-      "email": "baeseangus@msn.com",
-      "address": "4639 E Ridge Rd, Elsie, Michigan, 48831",
-      "public": false
-    },
-    "geo": {
-      "latitude": 43.09624843,
-      "longitude": -84.47553194,
       "precision": "point"
     },
     "notes": "",
@@ -58318,51 +62001,6 @@
     "qa_reason": ""
   },
   {
-    "id": "brookside-farm-mi",
-    "name": "Brookside Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Newaygo",
-    "category": "Mixed",
-    "products": [
-      "Other: Hay",
-      "Oats",
-      "Pasture",
-      "Squash",
-      "Triticale"
-    ],
-    "products_text": "Other: Hay, Oats, Pasture, Squash, Triticale;",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "3701 West 72nd Street, Newaygo, Michigan, 49337",
-      "public": false
-    },
-    "geo": {
-      "latitude": 43.424739,
-      "longitude": -85.8926475,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "USDA Organic Integrity Database — Michigan certified producers",
-      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Michigan%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "thumb-meadow-farm-mi",
     "name": "Thumb Meadow Farm",
     "state": "MI",
@@ -58583,57 +62221,6 @@
     "geo": {
       "latitude": 41.91705794,
       "longitude": -85.86209546,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "USDA Organic Integrity Database — Michigan certified producers",
-      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Michigan%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "good-stead-farm-mi",
-    "name": "Good Stead Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Hope",
-    "category": "Urban Farm",
-    "products": [
-      "Field/Forageable: Pasture",
-      "Other: Greenhouse production of microgreens and transplants for on-farm use and for sale",
-      "Microgreens",
-      "In-ground greenhouse production of vegetables",
-      "Vegetables: arugula",
-      "Asian greens",
-      "asparagus",
-      "beans",
-      "beets",
-      "broccoli",
-      "Brusse"
-    ],
-    "products_text": "Field/Forageable: Pasture; Other: Greenhouse production of microgreens and transplants for on-farm use and for sale; Microgreens., In-ground greenhouse production of vegetables, Vegetables: arugula, Asian greens, asparagus, beans, beets, broccoli, Brusse",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "6099 North Meridian Road, Hope, Michigan, 48628",
-      "public": false
-    },
-    "geo": {
-      "latitude": 43.7889134,
-      "longitude": -84.36713983,
       "precision": "point"
     },
     "notes": "",
@@ -60643,66 +64230,6 @@
     "geo": {
       "latitude": 44.80384448,
       "longitude": -85.81868015,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "USDA Organic Integrity Database — Michigan certified producers",
-      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Michigan%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "lakeview-hill-farm-mi",
-    "name": "Lakeview Hill Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Traverse City",
-    "category": "Urban Farm",
-    "products": [
-      "Other: Mixed Vegetables",
-      "including: Basil",
-      "Chard",
-      "Chives",
-      "Kale",
-      "Lettuce",
-      "Microgreens",
-      "including: Amaranth",
-      "Arugula",
-      "Basil",
-      "Cabbage",
-      "and Radish",
-      "Mung Beans",
-      "Peppers",
-      "Radishes",
-      "Soybeans",
-      "Squash",
-      "Tomatoes",
-      "Turnips",
-      "Greenhouse production of transplants for s"
-    ],
-    "products_text": "Other: Mixed Vegetables, including: Basil, Chard, Chives, Kale, Lettuce, Microgreens, including: Amaranth, Arugula, Basil, Cabbage, and Radish; Mung Beans, Peppers, Radishes, Soybeans, Squash, Tomatoes, Turnips; Greenhouse production of transplants for s",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "8608 East Lakeview Hills Road, Traverse City, Michigan, 49684",
-      "public": false
-    },
-    "geo": {
-      "latitude": 44.85178271,
-      "longitude": -85.68165783,
       "precision": "point"
     },
     "notes": "",
@@ -64124,66 +67651,6 @@
     "qa_reason": ""
   },
   {
-    "id": "wild-coyote-farm-mi",
-    "name": "Wild Coyote Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Berrien Springs",
-    "category": "Honey/Specialty",
-    "products": [
-      "Other: Mixed Produce",
-      "Herbs and Flowers including: Arugula",
-      "Basil",
-      "Blackberries",
-      "Broccoli",
-      "Broccoli Leaf",
-      "Cabbage",
-      "Cantaloupe",
-      "Carrots",
-      "Cauliflower",
-      "Chamomile",
-      "Cherry Tomatoes",
-      "Chives",
-      "Cilantro",
-      "Collards",
-      "Cucumbers",
-      "Cut Flowers",
-      "Dandelion",
-      "Dill",
-      "European"
-    ],
-    "products_text": "Other: Mixed Produce, Herbs and Flowers including: Arugula, Basil, Blackberries, Broccoli, Broccoli Leaf, Cabbage, Cantaloupe, Carrots, Cauliflower, Chamomile, Cherry Tomatoes, Chives, Cilantro, Collards, Cucumbers, Cut Flowers, Dandelion, Dill, European",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "2175 East Hinchman Road, Berrien Springs, Michigan, 49103",
-      "public": false
-    },
-    "geo": {
-      "latitude": 41.97227528,
-      "longitude": -86.40502218,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "USDA Organic Integrity Database — Michigan certified producers",
-      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Michigan%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "ashmore-acres-mi",
     "name": "Ashmore Acres",
     "state": "MI",
@@ -65536,59 +69003,6 @@
     "geo": {
       "latitude": 43.33109851,
       "longitude": -82.92907859,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "USDA Organic Integrity Database — Michigan certified producers",
-      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Michigan%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "birdsong-farm-mi",
-    "name": "Birdsong Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Bangor",
-    "category": "Produce",
-    "products": [
-      "Field/Forageable: Pasture",
-      "Other: Greenhouse production of transplants for on-farm use",
-      "In-ground greenhouse production of vegetables",
-      "Land",
-      "Mushrooms: shiitakes",
-      "Vegetables: artichoke",
-      "asparagus",
-      "basil",
-      "beans",
-      "beets",
-      "broccoli",
-      "burdock",
-      "Brussels sprouts"
-    ],
-    "products_text": "Field/Forageable: Pasture; Other: Greenhouse production of transplants for on-farm use, In-ground greenhouse production of vegetables, Land, Mushrooms: shiitakes, Vegetables: artichoke, asparagus, basil, beans, beets, broccoli, burdock, Brussels sprouts,",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "26041 County Road 681, Bangor, Michigan, 49013",
-      "public": false
-    },
-    "geo": {
-      "latitude": 42.32572854,
-      "longitude": -86.10932131,
       "precision": "point"
     },
     "notes": "",
@@ -67242,56 +70656,6 @@
     "qa_reason": ""
   },
   {
-    "id": "granor-farm-mi",
-    "name": "Granor Farm",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Three Oaks",
-    "category": "Honey/Specialty",
-    "products": [
-      "Other: corn",
-      "kemza",
-      "mixed vegetables & herbs",
-      "mixed vegetables",
-      "berries & rhubarb",
-      "rye",
-      "seedlings",
-      "soybeans",
-      "spelt",
-      "wheat"
-    ],
-    "products_text": "Other: corn, kemza, mixed vegetables & herbs, mixed vegetables, berries & rhubarb, rye, seedlings, soybeans, spelt, wheat",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "(269)-944-6456",
-      "email": "sarah@granorfarm.com",
-      "address": "3480 Warren Woods Road, Three Oaks, Michigan, 49128",
-      "public": false
-    },
-    "geo": {
-      "latitude": 41.84174953,
-      "longitude": -86.5372185,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "USDA Organic Integrity Database — Michigan certified producers",
-      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Michigan%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
     "id": "complete-organic-farming-mi",
     "name": "Complete Organic Farming",
     "state": "MI",
@@ -68815,48 +72179,6 @@
     "geo": {
       "latitude": 43.96230892,
       "longitude": -84.00675616,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "USDA Organic Integrity Database — Michigan certified producers",
-      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Michigan%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "arnold-farms-mi",
-    "name": "Arnold Farms",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Caro",
-    "category": "Mixed",
-    "products": [
-      "Other: Corn",
-      "Soybeans"
-    ],
-    "products_text": "Other: Corn, Soybeans",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "",
-      "email": "",
-      "address": "4256 Van Geisen Rd, Caro, Michigan, 48723-9651",
-      "public": false
-    },
-    "geo": {
-      "latitude": 43.48041096,
-      "longitude": -83.51304541,
       "precision": "point"
     },
     "notes": "",
@@ -73397,52 +76719,6 @@
     "geo": {
       "latitude": 43.64917454,
       "longitude": -83.29450979,
-      "precision": "point"
-    },
-    "notes": "",
-    "provenance": {
-      "source": "USDA Organic Integrity Database — Michigan certified producers",
-      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Michigan%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
-      "retrieved": "2026-07-19"
-    },
-    "eligible": true,
-    "qa_reason": ""
-  },
-  {
-    "id": "second-spring-farm-llc-mi",
-    "name": "Second Spring Farm LLC",
-    "state": "MI",
-    "region": "midwest",
-    "county": "",
-    "city": "Cedar",
-    "category": "Produce",
-    "products": [
-      "Other: asparagus/rhubarb",
-      "hay",
-      "Land Eligible for Organic Production",
-      "Mixed Vegetables",
-      "mixed vegetables & berries",
-      "seedlings"
-    ],
-    "products_text": "Other: asparagus/rhubarb, hay, Land Eligible for Organic Production, Mixed Vegetables, mixed vegetables, mixed vegetables & berries, seedlings",
-    "website": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "on_farm": false,
-    "farmers_market": false,
-    "csa": false,
-    "online_store": false,
-    "ships": false,
-    "u_pick": false,
-    "contact": {
-      "phone": "(231)-944-8946",
-      "email": "secondspringfarm@gmail.com",
-      "address": "7155 E. Hoxie Rd., Cedar, Michigan, 49621",
-      "public": false
-    },
-    "geo": {
-      "latitude": 44.79347852,
-      "longitude": -85.71190038,
       "precision": "point"
     },
     "notes": "",
