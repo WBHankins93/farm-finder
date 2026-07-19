@@ -12,6 +12,13 @@
       "notes": "Official hub for Michigan producer and local-food directories; captured best-effort where public rows are parseable."
     },
     {
+      "id": "misrc-mde-farm-to-program-seed",
+      "name": "Michigan Department of Education — Farm to Program suppliers",
+      "adapter": "seed",
+      "path": "seeds/MI.json",
+      "notes": "114 current public supplier profiles captured across all three result pages on 2026-07-19; existing identities retain their prior county key for deterministic deduplication."
+    },
+    {
       "id": "misrc-usfarmtrail",
       "name": "U.S. Farm Trail — Michigan",
       "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=michigan",
