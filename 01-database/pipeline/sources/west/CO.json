@@ -1,0 +1,22 @@
+{
+  "state": "CO",
+  "name": "Colorado",
+  "region": "west",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {"id": "cosrc-farm-fresh-directory", "name": "Colorado Department of Agriculture — 2025 Farm Fresh Directory", "url": "https://drive.google.com/uc?export=download&id=1JZtlH5seZWd03l7CQurvOUlMYAG-l0LV", "adapter": "pdf_list", "notes": "Official directory of farms, ranches, roadside stands, U-picks, and CSAs; non-producer entries remain named QA candidates."},
+    {"id": "cosrc-usfarmtrail", "name": "U.S. Farm Trail — Colorado", "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=colorado", "adapter": "seed", "path": "seeds/CO-USFarmTrail.json", "notes": "Reviewed 2026-07-19 capture; out-of-state coordinates remain QA residue."},
+    {
+      "id": "cosrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — Colorado certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Colorado%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "seed",
+      "path": "seeds/CO-USDAOrganic.json",
+      "field_map": {"properties.Operation_": "id", "properties.Operation1": "name", "properties.Physical_2": "city", "properties.Physical_3": "state", "properties.Address": "address", "properties.Certified_": "products_text", "properties.Certified1": "products_text", "properties.Website_UR": "website", "properties.Lat": "latitude", "properties.Long": "longitude"},
+      "notes": "Certified crop, livestock, or wild-crop operations."
+    },
+    {"id": "cosrc-eatwild", "name": "EatWild — Colorado", "url": "https://www.eatwild.com/products/colorado.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "cosrc-pickyourown", "name": "PickYourOwn — Colorado", "url": "https://www.pickyourown.org/CO.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "cosrc-localharvest", "name": "LocalHarvest — Colorado", "url": "https://www.localharvest.org/colorado/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
+  ]
+}

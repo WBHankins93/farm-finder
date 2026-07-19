@@ -1,0 +1,28 @@
+{
+  "state": "OR",
+  "name": "Oregon",
+  "region": "west",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "orsrc-farm-direct-directory",
+      "name": "Oregon Health Authority — Farm Direct Nutrition Program directory",
+      "url": "https://www.oregon.gov/oha/ph/healthypeoplefamilies/wic/fdnp/pages/index.aspx?page=1",
+      "adapter": "html_table",
+      "notes": "Official farm-stand and market locations authorized for the state Farm Direct Nutrition Program."
+    },
+    {"id": "orsrc-usfarmtrail", "name": "U.S. Farm Trail — Oregon", "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=oregon", "adapter": "seed", "path": "seeds/OR-USFarmTrail.json", "notes": "Reviewed 2026-07-19 capture; out-of-state coordinates remain QA residue."},
+    {
+      "id": "orsrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — Oregon certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oregon%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "seed",
+      "path": "seeds/OR-USDAOrganic.json",
+      "field_map": {"properties.Operation_": "id", "properties.Operation1": "name", "properties.Physical_2": "city", "properties.Physical_3": "state", "properties.Address": "address", "properties.Certified_": "products_text", "properties.Certified1": "products_text", "properties.Website_UR": "website", "properties.Lat": "latitude", "properties.Long": "longitude"},
+      "notes": "Certified crop, livestock, or wild-crop operations."
+    },
+    {"id": "orsrc-eatwild", "name": "EatWild — Oregon", "url": "https://www.eatwild.com/products/oregon.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "orsrc-pickyourown", "name": "PickYourOwn — Oregon", "url": "https://www.pickyourown.org/OR.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "orsrc-localharvest", "name": "LocalHarvest — Oregon", "url": "https://www.localharvest.org/oregon/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
+  ]
+}

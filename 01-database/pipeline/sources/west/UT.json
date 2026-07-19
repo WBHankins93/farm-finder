@@ -1,0 +1,22 @@
+{
+  "state": "UT",
+  "name": "Utah",
+  "region": "west",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {"id": "utsrc-utahs-own-seed", "name": "Utah Department of Agriculture and Food — Utah's Own farms and ranches", "adapter": "seed", "path": "seeds/UT.json", "notes": "Farm, ranch, CSA, agritourism, and produce-farm members captured from the public Utah's Own REST directory on 2026-07-19."},
+    {"id": "utsrc-usfarmtrail", "name": "U.S. Farm Trail — Utah", "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=utah", "adapter": "seed", "path": "seeds/UT-USFarmTrail.json", "notes": "Reviewed 2026-07-19 capture; out-of-state coordinates remain QA residue."},
+    {
+      "id": "utsrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — Utah certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Utah%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "seed",
+      "path": "seeds/UT-USDAOrganic.json",
+      "field_map": {"properties.Operation_": "id", "properties.Operation1": "name", "properties.Physical_2": "city", "properties.Physical_3": "state", "properties.Address": "address", "properties.Certified_": "products_text", "properties.Certified1": "products_text", "properties.Website_UR": "website", "properties.Lat": "latitude", "properties.Long": "longitude"},
+      "notes": "Certified crop, livestock, or wild-crop operations."
+    },
+    {"id": "utsrc-eatwild", "name": "EatWild — Utah", "url": "https://www.eatwild.com/products/utah.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "utsrc-pickyourown", "name": "PickYourOwn — Utah", "url": "https://www.pickyourown.org/UT.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "utsrc-localharvest", "name": "LocalHarvest — Utah", "url": "https://www.localharvest.org/utah/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
+  ]
+}

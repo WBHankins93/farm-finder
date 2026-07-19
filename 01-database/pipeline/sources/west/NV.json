@@ -1,0 +1,22 @@
+{
+  "state": "NV",
+  "name": "Nevada",
+  "region": "west",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {"id": "nvsrc-producer-certification", "name": "Nevada Department of Agriculture — Producer Certification directory", "adapter": "seed", "path": "seeds/NV.json", "notes": "262 unique farms captured from all 397 public certificate rows on 2026-07-19; repeated certificates for the same farm were collapsed."},
+    {"id": "nvsrc-usfarmtrail", "name": "U.S. Farm Trail — Nevada", "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada", "adapter": "seed", "path": "seeds/NV-USFarmTrail.json", "notes": "Reviewed 2026-07-19 capture; out-of-state coordinates remain QA residue."},
+    {
+      "id": "nvsrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — Nevada certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "seed",
+      "path": "seeds/NV-USDAOrganic.json",
+      "field_map": {"properties.Operation_": "id", "properties.Operation1": "name", "properties.Physical_2": "city", "properties.Physical_3": "state", "properties.Address": "address", "properties.Certified_": "products_text", "properties.Certified1": "products_text", "properties.Website_UR": "website", "properties.Lat": "latitude", "properties.Long": "longitude"},
+      "notes": "Certified crop, livestock, or wild-crop operations."
+    },
+    {"id": "nvsrc-eatwild", "name": "EatWild — Nevada", "url": "https://www.eatwild.com/products/nevada.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "nvsrc-pickyourown", "name": "PickYourOwn — Nevada", "url": "https://www.pickyourown.org/NV.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "nvsrc-localharvest", "name": "LocalHarvest — Nevada", "url": "https://www.localharvest.org/nevada/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
+  ]
+}

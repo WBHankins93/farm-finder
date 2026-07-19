@@ -1,0 +1,46 @@
+{
+  "state": "WA",
+  "name": "Washington",
+  "region": "west",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "wasrc-eat-local-first-seed",
+      "name": "Washington Food & Farm Finder — farm listings",
+      "adapter": "seed",
+      "path": "seeds/WA.json",
+      "notes": "Farm-classified listings captured from the WSDA-supported Eat Local First public REST directory on 2026-07-19."
+    },
+    {
+      "id": "wasrc-usfarmtrail",
+      "name": "U.S. Farm Trail — Washington",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=washington",
+      "adapter": "seed",
+      "path": "seeds/WA-USFarmTrail.json",
+      "notes": "Reviewed 2026-07-19 capture; coordinates outside Washington are retained as out-of-jurisdiction QA residue."
+    },
+    {
+      "id": "wasrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — Washington certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Washington%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "seed",
+      "path": "seeds/WA-USDAOrganic.json",
+      "field_map": {
+        "properties.Operation_": "id",
+        "properties.Operation1": "name",
+        "properties.Physical_2": "city",
+        "properties.Physical_3": "state",
+        "properties.Address": "address",
+        "properties.Certified_": "products_text",
+        "properties.Certified1": "products_text",
+        "properties.Website_UR": "website",
+        "properties.Lat": "latitude",
+        "properties.Long": "longitude"
+      },
+      "notes": "Certified crop, livestock, or wild-crop operations."
+    },
+    {"id": "wasrc-eatwild", "name": "EatWild — Washington", "url": "https://www.eatwild.com/products/washington.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "wasrc-pickyourown", "name": "PickYourOwn — Washington", "url": "https://www.pickyourown.org/WA.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "wasrc-localharvest", "name": "LocalHarvest — Washington", "url": "https://www.localharvest.org/washington/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
+  ]
+}

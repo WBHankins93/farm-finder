@@ -1,0 +1,28 @@
+{
+  "state": "ID",
+  "name": "Idaho",
+  "region": "west",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "idsrc-idaho-preferred-seed",
+      "name": "Idaho State Department of Agriculture — Idaho Preferred producers and farm stands",
+      "adapter": "seed",
+      "path": "seeds/ID.json",
+      "notes": "Producer- and farm-stand-classified organizations captured from the public Idaho Preferred REST directory on 2026-07-19."
+    },
+    {"id": "idsrc-usfarmtrail", "name": "U.S. Farm Trail — Idaho", "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=idaho", "adapter": "seed", "path": "seeds/ID-USFarmTrail.json", "notes": "Reviewed 2026-07-19 capture; out-of-state coordinates remain QA residue."},
+    {
+      "id": "idsrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — Idaho certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Idaho%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "seed",
+      "path": "seeds/ID-USDAOrganic.json",
+      "field_map": {"properties.Operation_": "id", "properties.Operation1": "name", "properties.Physical_2": "city", "properties.Physical_3": "state", "properties.Address": "address", "properties.Certified_": "products_text", "properties.Certified1": "products_text", "properties.Website_UR": "website", "properties.Lat": "latitude", "properties.Long": "longitude"},
+      "notes": "Certified crop, livestock, or wild-crop operations."
+    },
+    {"id": "idsrc-eatwild", "name": "EatWild — Idaho", "url": "https://www.eatwild.com/products/idaho.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "idsrc-pickyourown", "name": "PickYourOwn — Idaho", "url": "https://www.pickyourown.org/ID.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "idsrc-localharvest", "name": "LocalHarvest — Idaho", "url": "https://www.localharvest.org/idaho/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
+  ]
+}

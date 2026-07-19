@@ -1,0 +1,3060 @@
+[
+  {
+    "id": "571",
+    "name": "Elk Mountain Herbs Inc",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [
+      "Herbs/Spices: Herbs",
+      "Wild harvest"
+    ],
+    "products_text": "Herbs/Spices: Herbs, Wild harvest",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-742-0404",
+      "email": "emh1@wyo2u.com",
+      "address": "214 South 2nd Street, Laramie, Wyoming, 82070",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.3115134,
+      "longitude": -105.5949368,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1289",
+    "name": "Sheila Bird Farms Inc",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Fennel",
+      "Garlic",
+      "Garlic Scapes",
+      "Onions",
+      "Potatoes",
+      "Radicchio",
+      "Radishes",
+      "Turnips",
+      "Stem Vegetables: Kohlrabi",
+      "Leeks",
+      "Scallions",
+      "Seed/Pod Vegetables: Green Beans",
+      "Peas (Snap)",
+      "Nursery/Starts/Flowers/Trees: Pea Shoots",
+      "Le"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Fennel, Garlic, Garlic Scapes, Onions, Potatoes, Radicchio, Radishes, Turnips; Stem Vegetables: Kohlrabi, Leeks, Scallions; Seed/Pod Vegetables: Green Beans, Peas (Snap); Nursery/Starts/Flowers/Trees: Pea Shoots; Le",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-742-8745",
+      "email": "sheilabirdfarms@gmail.com",
+      "address": "4363 Welsh Lane, Laramie, Wyoming, 82070",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.34764636,
+      "longitude": -105.6338529,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1907",
+    "name": "Jessen Wheat Co. LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Pine Bluffs",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Barley",
+      "Corn (Yellow)",
+      "Hay (Millet)",
+      "Straw",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Barley, Corn (Yellow), Hay (Millet), Straw, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-245-3068",
+      "email": "jwc1818@gmail.com",
+      "address": "2204 Rd 164, Pine Bluffs, Wyoming, 82082",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.316669,
+      "longitude": -104.062293,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1912",
+    "name": "William Frederick's Finest Sauerkraut",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Lander",
+    "category": "Feature",
+    "products": [
+      "Other: Amaranth",
+      "beans",
+      "Beets",
+      "Broccoli",
+      "Cabbage",
+      "Carrots",
+      "celery",
+      "Collards",
+      "Cucumbers",
+      "kale",
+      "Lettuce-Romaine",
+      "Peas",
+      "Radishes",
+      "Spinach",
+      "Swiss Chard",
+      "Turnips",
+      "Zucchini",
+      "Flowers",
+      "Basil",
+      "Cilantro",
+      "Dill",
+      "parsley",
+      "Sage",
+      "Stevia",
+      "Stinging Nettle",
+      "Tarragon"
+    ],
+    "products_text": "Other: Amaranth, beans, Beets, Broccoli, Cabbage, Carrots, celery, Collards, Cucumbers, kale, Lettuce-Romaine, Peas, Radishes, Spinach, Swiss Chard, Turnips, Zucchini, Flowers, Basil, Cilantro, Dill, parsley, Sage, Stevia, Stinging Nettle, Tarragon",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-438-1416",
+      "email": "groenkeef@yahoo.com",
+      "address": "2232 N Second Street, Lander, Wyoming, 82520",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.88138904,
+      "longitude": -108.7297655,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2735",
+    "name": "Schreiner Farms LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Veteran",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Corn (Yellow)",
+      "Corn stalks",
+      "Hay (Grass",
+      "Alfalfa/Oat)"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Corn (Yellow), Corn stalks, Hay (Grass, Alfalfa/Oat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-837-2613",
+      "email": "mkschreiner@yahoo.com",
+      "address": "6273 Lingle-Veteran Rd, Veteran, Wyoming, 82243",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.00951235,
+      "longitude": -104.382101,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "10082",
+    "name": "Timothy Bartel",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Lingle",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa"
+    ],
+    "products_text": "Other: Alfalfa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(307) 837-0126",
+      "email": "tcb@actcom.net",
+      "address": "2967 Wyncote Road, Lingle, Wyoming, 82223",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.1541546,
+      "longitude": -104.3705788,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "10856",
+    "name": "Taylor Ranches LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Lonetree",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay",
+      "Hay & Pasture",
+      "Pasture",
+      "Other: Hay"
+    ],
+    "products_text": "Field/Forageable: Hay, Hay & Pasture, Pasture, Pasture; Other: Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "303-549-6755",
+      "email": "",
+      "address": "23382 East Highway 414, Lonetree, Wyoming, 82936",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.0482915,
+      "longitude": -110.14211,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11587",
+    "name": "Saville, Wendell Leroy",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Rio",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-897-6234",
+      "email": "",
+      "address": "1633 Mt Olive Road, Rio, Wyoming, 26755",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13278",
+    "name": "Prairie Monarch Bison Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Laramie",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay",
+      "Pasture"
+    ],
+    "products_text": "Field/Forageable: Hay, Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-742-4429",
+      "email": "dylan@pmbison.com",
+      "address": "4363 Welsh Lane, Laramie, Wyoming, 82070",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.34764636,
+      "longitude": -105.6338529,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15615",
+    "name": "Double Doc Ranch Inc",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Shell",
+    "category": "Feature",
+    "products": [
+      "Flower Vegetables: Rye (Cereal - Cover Crop)",
+      "Field/Forageable: Alfalfa (Pasture)",
+      "Brassica - Forage - Cover Crop",
+      "Clover",
+      "Collards (Cover Crop)",
+      "Fescue - Tall - Cover Crop",
+      "Flax (Cover Crop)",
+      "Grass (Native Rangeland - Pasture)",
+      "Grass (Orchard - Pasture)",
+      "Grass (Smooth Brome - Pasture)",
+      "Grass (Timothy - Pasture)",
+      "Millet",
+      "Soybeans (Cover Crop)",
+      "Sunflowers (Black Oil - Cover Crop)",
+      "Trefoil",
+      "Triticale (Cover Crop)"
+    ],
+    "products_text": "Flower Vegetables: Rye (Cereal - Cover Crop); Field/Forageable: Alfalfa (Pasture), Brassica - Forage - Cover Crop, Clover, Collards (Cover Crop), Fescue - Tall - Cover Crop, Flax (Cover Crop), Grass (Native Rangeland - Pasture), Grass (Orchard - Pasture), Grass (Smooth Brome - Pasture), Grass (Timothy - Pasture), Millet, Soybeans (Cover Crop), Sunflowers (Black Oil - Cover Crop), Trefoil, Triticale (Cover Crop)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2455, Shell, Wyoming, 82441",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.534315,
+      "longitude": -107.780748,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15626",
+    "name": "Sand Hill Ridge LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Albin",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay",
+      "Oat/Pea/Barley",
+      "Straw",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Hay, Oat/Pea/Barley, Straw, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-246-3470",
+      "email": "carriefnp@aol.com",
+      "address": "4852 St Hyw 216, Albin, Wyoming, 82050",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.426148,
+      "longitude": -104.353727,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16239",
+    "name": "Theodore J Bastian",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Burns",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-547-3372",
+      "email": "tjbastian@aol.com",
+      "address": "107 East 4th Street, Burns, Wyoming, 82053",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.18720693,
+      "longitude": -104.358448,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16474",
+    "name": "Leo Smith",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Other: Fallow",
+      "Wheat"
+    ],
+    "products_text": "Other: Fallow, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "115 County Road 153, Carpenter, Wyoming, 82054-9504",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.021793,
+      "longitude": -104.275404,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17965",
+    "name": "Burkett Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Hillsdale",
+    "category": "Feature",
+    "products": [
+      "Flower Vegetables: Sunflowers",
+      "Field/Forageable: Corn (Yellow)",
+      "Milo",
+      "Proso Millet",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Flower Vegetables: Sunflowers; Field/Forageable: Corn (Yellow), Milo, Proso Millet, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-286-4958",
+      "email": "jerry.burkett82@gmail.com",
+      "address": "1223 Rd 142, Hillsdale, Wyoming, 82060",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.17622782,
+      "longitude": -104.4839322,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18335",
+    "name": "Bill & Kim Peters",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Burns",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Millet (Hay)"
+    ],
+    "products_text": "Field/Forageable: Millet (Hay)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-214-0775",
+      "email": "",
+      "address": "1877 Rd 146, Burns, Wyoming, 82053",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.270562,
+      "longitude": -104.4056475,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18501",
+    "name": "Bluffs Farms Inc",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Pine Bluffs",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter",
+      "Soft white winter",
+      "Hard white winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter, Soft white winter, Hard white winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-421-8429",
+      "email": "travisfreeburg@yahoo.com",
+      "address": "1742 St Rd 215, Pine Bluffs, Wyoming, 82082",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.250096,
+      "longitude": -104.091444,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19167",
+    "name": "Mark Lanning",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Pine Bluffs",
+    "category": "Feature",
+    "products": [
+      "Other: CRP",
+      "Fallow",
+      "Grass",
+      "Wheat"
+    ],
+    "products_text": "Other: CRP, Fallow, Grass, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2175 Road 160, Pine Bluffs, Wyoming, 82082-9706",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.313213,
+      "longitude": -104.137686,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19174",
+    "name": "Romsa Farms LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cheyenne",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Millet",
+      "Oats",
+      "Pasture (Native grass rangeland)",
+      "Peas (Green)",
+      "Wheat (Hard Red Winter)"
+    ],
+    "products_text": "Field/Forageable: Millet, Oats, Pasture (Native grass rangeland), Peas (Green), Wheat (Hard Red Winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2123 Pioneer Avenue, Cheyenne, Wyoming, 82001",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.1370251,
+      "longitude": -104.820817,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19557",
+    "name": "Rundell Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Pine Bluffs",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Proso Millet",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Proso Millet, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "308-641-1755",
+      "email": "mattrundell@outlook.com",
+      "address": "2075 Road 1, Pine Bluffs, Wyoming, 82082",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.52292487,
+      "longitude": -104.052065,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20263",
+    "name": "Newton & Wendy Russell",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Wheatland",
+    "category": "Feature",
+    "products": [
+      "Other: Grass",
+      "Hard Red Winter Wheat"
+    ],
+    "products_text": "Other: Grass, Hard Red Winter Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(307) 331-1287, R-970-305-3798, S-970-305-3798 ext 102",
+      "email": "sarah@storganics.net; rebecca@storganics.net; newruss7@gmail.com; wrussell350@gmail.com; storganics@gmail.com",
+      "address": "264 Slater Road, Wheatland, Wyoming, 82201",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.87129852,
+      "longitude": -104.8268183,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20271",
+    "name": "Riedel Farm & Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Burns",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Hay, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-547-3430",
+      "email": "",
+      "address": "2439 Rd 146, Burns, Wyoming, 82053",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.352264,
+      "longitude": -104.405769,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20360",
+    "name": "Triple RM LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Wheatland",
+    "category": "Feature",
+    "products": [
+      "Other: Grass",
+      "Hard Red Winter Wheat"
+    ],
+    "products_text": "Other: Grass, Hard Red Winter Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-331-1287",
+      "email": "newruss7@gmail.com; wrussell350@gmail.com; storganics@gmail.com; sarah@storganics.net",
+      "address": "264 Slater Road, Wheatland, Wyoming, 82201",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.87129852,
+      "longitude": -104.8268183,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20458",
+    "name": "Homestead Acres",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Albin",
+    "category": "Feature",
+    "products": [
+      "Seed/Pod Vegetables: Chickpeas",
+      "Field/Forageable: Pasture",
+      "Proso Millet",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Seed/Pod Vegetables: Chickpeas; Field/Forageable: Pasture, Proso Millet, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-640-4067",
+      "email": "homesteadacresinc@gmail.com",
+      "address": "2814 Rd 159, Albin, Wyoming, 82050",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.406129,
+      "longitude": -104.150763,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20814",
+    "name": "Eklund - Hansen Ranch, LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cheyenne",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay",
+      "Millet (Hay)",
+      "Pasture",
+      "Triticale",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Hay, Millet (Hay), Pasture, Triticale, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-246-3251",
+      "email": "suzieklund@aol.com",
+      "address": "2918 US Hwy 85, Cheyenne, Wyoming, 82009",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.425524,
+      "longitude": -104.4024885,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20946",
+    "name": "Brian Sheets",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Powell",
+    "category": "Feature",
+    "products": [
+      "Other: Beets",
+      "Brussel Sprouts",
+      "Bushella Beans",
+      "Cabbage",
+      "Carrots",
+      "Cucumbers",
+      "Eggplant",
+      "Kale",
+      "Lettuce",
+      "Okra",
+      "Peas – Snap",
+      "Peppers – Bell",
+      "Potatoes",
+      "Pumpkin",
+      "Radish",
+      "Spinach",
+      "Squash",
+      "Tomatoes",
+      "Basil",
+      "Cilantro",
+      "Dill",
+      "Herb Mix",
+      "Oregano",
+      "Apples",
+      "Buffalo Be"
+    ],
+    "products_text": "Other: Beets, Brussel Sprouts, Bushella Beans, Cabbage, Carrots, Cucumbers, Eggplant, Kale, Lettuce, Okra, Peas – Snap, Peppers – Bell, Potatoes, Pumpkin, Radish, Spinach, Squash, Tomatoes, Basil, Cilantro, Dill, Herb Mix, Oregano, Apples, Buffalo Be",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-254-5790",
+      "email": "briansheets1976@outlook.com",
+      "address": "272 Lane 7 1/2, Powell, Wyoming, 82435",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.77442582,
+      "longitude": -108.6349937,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21281",
+    "name": "Wyoming Ag Enterprises, LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cheyenne",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Millet",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Millet, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-631-3776",
+      "email": "tywle@yahoo.com",
+      "address": "2936 Road 144, Cheyenne, Wyoming, 82009",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.428305,
+      "longitude": -104.443416,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21304",
+    "name": "David Forester",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Albin",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-246-3218",
+      "email": "",
+      "address": "2946 CR 161, Albin, Wyoming, 82050",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.425812,
+      "longitude": -104.114403,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21340",
+    "name": "Jolovich Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Verteran",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay (Alfalfa)"
+    ],
+    "products_text": "Field/Forageable: Hay (Alfalfa)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-575-4284",
+      "email": "michael_jolovich@yahoo.com",
+      "address": "2971 Rd 64, Verteran, Wyoming, 82243",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.01675588,
+      "longitude": -104.384122,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22401",
+    "name": "Singletree Inc",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Meriden",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-631-7821",
+      "email": "wykirstin@hotmail.com",
+      "address": "4197 Co Rd 229, Meriden, Wyoming, 82081",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.41918396,
+      "longitude": -104.4794701,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22404",
+    "name": "Hugh Deselms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Meriden",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-630-9238",
+      "email": "wyobldr@aol.com",
+      "address": "4199 Co Rd 229, Meriden, Wyoming, 82081",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.41911867,
+      "longitude": -104.4794694,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22572",
+    "name": "David Lemaster",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Flower Vegetables: Sunflowers",
+      "Field/Forageable: Hay (Millet)",
+      "Millet",
+      "Oat Hay",
+      "Wheat (Hard white winter)"
+    ],
+    "products_text": "Flower Vegetables: Sunflowers; Field/Forageable: Hay (Millet), Millet, Oat Hay, Wheat (Hard white winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-631-4516",
+      "email": "quartercirclecranch@outlook.com",
+      "address": "4468 Co Rd 208, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.11533282,
+      "longitude": -104.433001,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22724",
+    "name": "Wendling Farms LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Chugwater",
+    "category": "Feature",
+    "products": [
+      "Other: Forage Millet",
+      "Hard Red Winter Wheat"
+    ],
+    "products_text": "Other: Forage Millet, Hard Red Winter Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-389-7414",
+      "email": "johnww23@hotmail.com",
+      "address": "360 Pioneer Road, Chugwater, Wyoming, 82210",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.79342594,
+      "longitude": -104.75014,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22933",
+    "name": "Cris Mcwilliams",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Hillsdale",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-421-3975",
+      "email": "mcwilliamscris@gmail.com",
+      "address": "4031 Rd 213, Hillsdale, Wyoming, 82060",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.18767273,
+      "longitude": -104.5161146,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23009",
+    "name": "Mike Poelma",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Other: Fallow",
+      "Wheat"
+    ],
+    "products_text": "Other: Fallow, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "5296 Road 202, Carpenter, Wyoming, 82054-9575",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.03129446,
+      "longitude": -104.2804279,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23087",
+    "name": "Kenneth Everitt",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Pine Bluffs",
+    "category": "Feature",
+    "products": [
+      "Other: Fallow",
+      "Sunflowers",
+      "Wheat"
+    ],
+    "products_text": "Other: Fallow, Sunflowers, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "53863 WCR 136, Pine Bluffs, Wyoming, 82082-4202",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.18381,
+      "longitude": -104.06775,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23171",
+    "name": "Gilbert Weaver",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Other: Fallow",
+      "Wheat"
+    ],
+    "products_text": "Other: Fallow, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "4829 CR 201, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.015952,
+      "longitude": -104.366043,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23179",
+    "name": "JACE Farming LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-630-2743",
+      "email": "ejkranz1977@gmail.com",
+      "address": "484 County Rd 151, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.068854,
+      "longitude": -104.3132625,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23240",
+    "name": "Petersen Ranches, Inc",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cokeville",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay (Grass Meadow Hay",
+      "Grain Hay",
+      "Alfalfa Hay)"
+    ],
+    "products_text": "Field/Forageable: Hay (Grass Meadow Hay, Grain Hay, Alfalfa Hay)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-279-3545",
+      "email": "kapetersen@allwest.net",
+      "address": "503 State Highway 232, Cokeville, Wyoming, 83114",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.09004199,
+      "longitude": -110.9440001,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23279",
+    "name": "Kranz Farms, LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Millet",
+      "Pasture",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Millet, Pasture, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-649-2263",
+      "email": "kranzfarmsllc@gmail.com",
+      "address": "493 RD 154, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.069511,
+      "longitude": -104.2545375,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23384",
+    "name": "Gregory Sneesby",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Other: Fallow",
+      "Wheat"
+    ],
+    "products_text": "Other: Fallow, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "505 CR 207, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.100849,
+      "longitude": -104.446612,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23431",
+    "name": "Krug Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cheyenne",
+    "category": "Feature",
+    "products": [
+      "Other: Fallow",
+      "Wheat"
+    ],
+    "products_text": "Other: Fallow, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "5106 Westedt Rd., Cheyenne, Wyoming, 82009",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.16509433,
+      "longitude": -104.6748449,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23466",
+    "name": "Darin Nusz, Justine Nusz",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Burns",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-286-6074",
+      "email": "jnuszfarmer@gmail.com",
+      "address": "5147 County Rd 212, Burns, Wyoming, 82053",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.17248514,
+      "longitude": -104.2966979,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23505",
+    "name": "Dale Sandberg",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Burns",
+    "category": "Feature",
+    "products": [
+      "Flower Vegetables: Sunflowers",
+      "Field/Forageable: Hay",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Flower Vegetables: Sunflowers; Field/Forageable: Hay, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-547-3492",
+      "email": "sandbergauctions@yahoo.com",
+      "address": "4627 Rd 215, Burns, Wyoming, 82053",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.215563,
+      "longitude": -104.402151,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23550",
+    "name": "Mark W Anderson",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Burns",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-630-1760",
+      "email": "marka@burnsia.com",
+      "address": "4680 Lawrence Rd, Burns, Wyoming, 82053",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.19481715,
+      "longitude": -104.3927898,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23591",
+    "name": "Sandberg Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Albin",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-246-3358",
+      "email": "tsandberg@rtconnect.net",
+      "address": "4734 State Highway 216, Albin, Wyoming, 82050",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.420052,
+      "longitude": -104.376699,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23702",
+    "name": "Dan Artery",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Wheatland",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Grass",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Grass, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-331-0117",
+      "email": "danhuntwy@hotmail.com",
+      "address": "5 Hill Drive, Wheatland, Wyoming, 82201",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.05120361,
+      "longitude": -104.916878,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23795",
+    "name": "Helen Jean Diller",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Other: Hard Red Winter Wheat",
+      "Oats"
+    ],
+    "products_text": "Other: Hard Red Winter Wheat, Oats",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "903-258-6263",
+      "email": "helendiller@hotmail.com",
+      "address": "525 CR 155, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.078232,
+      "longitude": -104.235399,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23838",
+    "name": "Val Eklund, Brodie Eklund",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Albin",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-246-3366",
+      "email": "valeklund@yahoo.com",
+      "address": "5587 CR 228, Albin, Wyoming, 82050",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.403537,
+      "longitude": -104.210109,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23855",
+    "name": "Gustafson Farms LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Seed/Pod Vegetables: Peas",
+      "Field/Forageable: Hay",
+      "Millet",
+      "Oats",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Seed/Pod Vegetables: Peas; Field/Forageable: Hay, Millet, Oats, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-630-7750",
+      "email": "gustafson7750@gmail.com",
+      "address": "5608 Rd 204, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.059125,
+      "longitude": -104.21406,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23960",
+    "name": "New Era Organics",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Seed/Pod Vegetables: Peas (Yellow)",
+      "Field/Forageable: Hay (Millet)",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Seed/Pod Vegetables: Peas (Yellow); Field/Forageable: Hay (Millet), Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-245-3706",
+      "email": "neweraorganic@yahoo.com",
+      "address": "5488 CR 203, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.042592,
+      "longitude": -104.241123,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24024",
+    "name": "Gerald Cooney",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Pine Bluffs",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Millet",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Millet, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "970-290-3446",
+      "email": "gcoondog59@gmail.com",
+      "address": "6274 Rd 221, Pine Bluffs, Wyoming, 82082",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.302062,
+      "longitude": -104.0868315,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24045",
+    "name": "Ryan Riggs Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Torrington",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay (Alfalfa",
+      "Grass)",
+      "Pasture"
+    ],
+    "products_text": "Field/Forageable: Hay (Alfalfa, Grass), Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-532-5542",
+      "email": "riggsryan2009@gmail.com",
+      "address": "7015 Rd 39, Torrington, Wyoming, 82240",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.06412872,
+      "longitude": -104.285892,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24508",
+    "name": "Rabou Farms Inc",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Albin",
+    "category": "Feature",
+    "products": [
+      "Seed/Pod Vegetables: Chickpeas",
+      "Lentils",
+      "Peas (Yellow)",
+      "Field/Forageable: Buckwheat",
+      "Corn (Yellow)",
+      "Proso Millet",
+      "Rye",
+      "Wheat (Hard red winter",
+      "Hard white winter)"
+    ],
+    "products_text": "Seed/Pod Vegetables: Chickpeas, Lentils, Peas (Yellow); Field/Forageable: Buckwheat, Corn (Yellow), Proso Millet, Rye, Wheat (Hard red winter, Hard white winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-630-3616",
+      "email": "raboufarms@gmail.com",
+      "address": "6060 County Road 230, Albin, Wyoming, 82050",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.43411,
+      "longitude": -104.1195735,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24511",
+    "name": "Brush Creek Ranch LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Saratoga",
+    "category": "Feature",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Onions",
+      "Radishes",
+      "Turnips",
+      "Stem Vegetables: Celery",
+      "Seed/Pod Vegetables: Peas",
+      "Leaf Vegetables: Kale",
+      "Lettuce",
+      "Herbs/Spices: Cilantro",
+      "Mint (Superior Licorice)",
+      "Oregano (Greek)",
+      "Parsley (Curly",
+      "Giant from Italy)",
+      "Th"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Onions, Radishes, Turnips; Stem Vegetables: Celery; Seed/Pod Vegetables: Peas; Leaf Vegetables: Kale, Lettuce; Herbs/Spices: Cilantro, Mint (Superior Licorice), Oregano (Greek), Parsley (Curly, Giant from Italy), Th",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-327-5284",
+      "email": "serge.boon@brushcreekranch.com",
+      "address": "6065 Hwy 130, Saratoga, Wyoming, 82331",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.35356676,
+      "longitude": -106.6123447,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24608",
+    "name": "Lazy V Six, Inc",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Wheatland",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Pasture",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Pasture, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-422-3445",
+      "email": "g.goertz@yahoo.com",
+      "address": "621 Slater Rd, Wheatland, Wyoming, 82201",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.87148045,
+      "longitude": -104.7548684,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24983",
+    "name": "Forrest Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Torrington",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay (Millet & Oat Hay)"
+    ],
+    "products_text": "Field/Forageable: Hay (Millet & Oat Hay)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-575-1316",
+      "email": "sforrest@scottsbluff.net",
+      "address": "6408 County Rd 45, Torrington, Wyoming, 82240",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.0212495,
+      "longitude": -104.237519,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25101",
+    "name": "Ivan Kranz Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Millet",
+      "Wheat (Hard red white winter)"
+    ],
+    "products_text": "Field/Forageable: Millet, Wheat (Hard red white winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-649-2449",
+      "email": "kranzenterprises@gmail.com",
+      "address": "861 Rd 150, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.12235,
+      "longitude": -104.330529,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25170",
+    "name": "Donald Linn Edwards",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Pine Bluffs",
+    "category": "Feature",
+    "products": [
+      "Other: Millet",
+      "Red Winter Wheat",
+      "White Winter Wheat"
+    ],
+    "products_text": "Other: Millet, Red Winter Wheat, White Winter Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "903-852-4151",
+      "email": "cattledriver74@gmail.com; cattledriver75@gmail.com",
+      "address": "876 Rd 158, Pine Bluffs, Wyoming, 82082",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.126616,
+      "longitude": -104.180292,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25253",
+    "name": "C & J Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Other: Corn",
+      "Fallow",
+      "Hay",
+      "Millet",
+      "Wheat"
+    ],
+    "products_text": "Other: Corn, Fallow, Hay, Millet, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "811 CR 154, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.116473,
+      "longitude": -104.252868,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25294",
+    "name": "Mikesell Farming LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-287-1511",
+      "email": "jemikesell82@gmail.com",
+      "address": "765 County Rd 153, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.110443,
+      "longitude": -104.270805,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25350",
+    "name": "Buttercup Organics, LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay (Millet)",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Hay (Millet), Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-631-2119",
+      "email": "gordonfarms@skybeam.com",
+      "address": "796 Rd 154, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.113242,
+      "longitude": -104.2548255,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25394",
+    "name": "Clay R. Peterson",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Torrington",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa",
+      "Corn"
+    ],
+    "products_text": "Other: Alfalfa, Corn",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "7652 Rd 41, Torrington, Wyoming, 82240",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.11375319,
+      "longitude": -104.2647375,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25489",
+    "name": "Brett W Anderson",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cheyenne",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-331-3447",
+      "email": "bretta@burnsia.com",
+      "address": "821 Rozetta Circle, Cheyenne, Wyoming, 82009",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.18384764,
+      "longitude": -104.8150572,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25649",
+    "name": "S&T Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Shoshoni",
+    "category": "Feature",
+    "products": [
+      "Other: Pinto Beans"
+    ],
+    "products_text": "Other: Pinto Beans",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "90 Marlatt Rd, Shoshoni, Wyoming, 82649-8627",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.16888838,
+      "longitude": -108.2734163,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26287",
+    "name": "Jack Bomhoff",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Pine Bluffs",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Hay",
+      "Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Hay, Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-245-3349",
+      "email": "jrbomhoff@yahoo.com",
+      "address": "951 Rd 156, Pine Bluffs, Wyoming, 82082",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.136822,
+      "longitude": -104.2156575,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27630",
+    "name": "Larry And Amy Poelma Farm",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Other: Fallow",
+      "Wheat"
+    ],
+    "products_text": "Other: Fallow, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "PO Box 463, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.0458872,
+      "longitude": -104.3661489,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27714",
+    "name": "Matt Derstine",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Other: Fallow",
+      "Hay",
+      "Millet",
+      "Oats",
+      "Wheat"
+    ],
+    "products_text": "Other: Fallow, Hay, Millet, Oats, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "215 CR 148, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.0378052,
+      "longitude": -104.3644062,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27719",
+    "name": "A & S Ag Services, LLC",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Carpenter",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-640-3551",
+      "email": "amartin_7362@yahoo.com",
+      "address": "226 CR 149, Carpenter, Wyoming, 82054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.04573,
+      "longitude": -104.3644652,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27732",
+    "name": "Mcwilliams Ranch",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Cheyenne",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-547-3308",
+      "email": "",
+      "address": "2356 CR 143, Cheyenne, Wyoming, 82009",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.3313563,
+      "longitude": -104.4639108,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27756",
+    "name": "Baker Farms",
+    "state": "WY",
+    "region": "west",
+    "county": "",
+    "city": "Chugwater",
+    "category": "Feature",
+    "products": [
+      "Other: Legume/Grass Hay",
+      "Wheat"
+    ],
+    "products_text": "Other: Legume/Grass Hay, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "307-422-3502",
+      "email": "dwbaker@vcn.com",
+      "address": "2866 Road 5, Chugwater, Wyoming, 82210",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.7566391,
+      "longitude": -104.8216351,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Wyoming certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Wyoming%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]
