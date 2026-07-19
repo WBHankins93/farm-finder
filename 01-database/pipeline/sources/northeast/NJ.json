@@ -1,0 +1,43 @@
+{
+  "state": "NJ",
+  "name": "New Jersey",
+  "region": "northeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "njsrc-jersey-fresh",
+      "name": "New Jersey Department of Agriculture — Jersey Fresh",
+      "url": "https://findjerseyfresh.com/",
+      "adapter": "html_table",
+      "notes": "Official statewide local agriculture directory."
+    },
+    {
+      "id": "njsrc-usfarmtrail",
+      "name": "U.S. Farm Trail — New Jersey",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=new-jersey",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "njsrc-eatwild",
+      "name": "EatWild — New Jersey",
+      "url": "https://www.eatwild.com/products/newjersey.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory."
+    },
+    {
+      "id": "njsrc-pickyourown",
+      "name": "PickYourOwn — New Jersey",
+      "url": "https://www.pickyourown.org/NJ.htm",
+      "adapter": "html_table",
+      "notes": "Statewide U-pick discovery index."
+    },
+    {
+      "id": "njsrc-localharvest",
+      "name": "LocalHarvest — New Jersey",
+      "url": "https://www.localharvest.org/new-jersey/",
+      "adapter": "html_table",
+      "notes": "Best-effort collection; skipped gracefully if rate-limited."
+    }
+  ]
+}
