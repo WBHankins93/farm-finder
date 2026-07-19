@@ -1,0 +1,43 @@
+{
+  "state": "VT",
+  "name": "Vermont",
+  "region": "northeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "vtsrc-dig-in-vermont",
+      "name": "DigInVT — Vermont Farm and Food Experiences",
+      "url": "https://diginvt.com/",
+      "adapter": "html_table",
+      "notes": "Statewide farm and food directory."
+    },
+    {
+      "id": "vtsrc-usfarmtrail",
+      "name": "U.S. Farm Trail — Vermont",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=vermont",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "vtsrc-eatwild",
+      "name": "EatWild — Vermont",
+      "url": "https://www.eatwild.com/products/vermont.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory."
+    },
+    {
+      "id": "vtsrc-pickyourown",
+      "name": "PickYourOwn — Vermont",
+      "url": "https://www.pickyourown.org/VT.htm",
+      "adapter": "html_table",
+      "notes": "Statewide U-pick discovery index."
+    },
+    {
+      "id": "vtsrc-localharvest",
+      "name": "LocalHarvest — Vermont",
+      "url": "https://www.localharvest.org/vermont/",
+      "adapter": "html_table",
+      "notes": "Best-effort collection; skipped gracefully if rate-limited."
+    }
+  ]
+}
