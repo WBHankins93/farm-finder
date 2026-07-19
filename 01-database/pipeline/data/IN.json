@@ -1170,6 +1170,1176 @@
     "qa_reason": ""
   },
   {
+    "id": "arrow-and-plank-in",
+    "name": "Arrow and Plank",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Hamilton",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "artisan-homestead-llc-in",
+    "name": "Artisan Homestead, LLC",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Posey",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ash-and-elm-cider-company-in",
+    "name": "Ash and Elm Cider Company",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Marion",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "aspasia-coffee-and-bake-shop-in",
+    "name": "Aspasia Coffee and Bake Shop",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Boone",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "at-ease-orchard-in",
+    "name": "At Ease Orchard",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Hancock",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "at-the-barn-winery-in",
+    "name": "At The Barn Winery",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Dearborn",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "atchley-farm-in",
+    "name": "Atchley Farm",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Clinton",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "attica-community-market-in",
+    "name": "Attica Community Market",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Fountain",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "auburn-farmer-s-market-in",
+    "name": "Auburn Farmer’s Market",
+    "state": "IN",
+    "region": "midwest",
+    "county": "DeKalb",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "auntie-b-s-custom-blends-in",
+    "name": "Auntie B’s Custom Blends",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Miami",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "auntie-em-s-in",
+    "name": "Auntie Em’s",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Gibson",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "autry-family-farms-in",
+    "name": "Autry Family Farms",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Marion",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "avon-farmers-market-in",
+    "name": "Avon Farmers Market",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Hendricks",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "avon-valley-farms-in",
+    "name": "Avon Valley Farms",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Hendricks",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ayres-farm-meats-in",
+    "name": "Ayres Farm Meats",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Carroll",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "aztec-gold-hemp-in",
+    "name": "Aztec Gold Hemp",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Shelby",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "azure-s-secret-handmade-soap-in",
+    "name": "Azure’s Secret Handmade Soap",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Marion",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "b-c-farms-in",
+    "name": "B & C Farms",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Clark",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "b-b-farms-in",
+    "name": "B&B Farms",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Vermillion",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "b-b-premium-beef-in",
+    "name": "B&B Premium Beef",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Rush",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "b-r-farms-inc-in",
+    "name": "B&R Farms, Inc",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Adams",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "backroad-berry-patch-in",
+    "name": "Backroad Berry Patch",
+    "state": "IN",
+    "region": "midwest",
+    "county": "LaGrange",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "backroads-market-in",
+    "name": "Backroads Market",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Crawford",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bad-dad-brewing-co-in",
+    "name": "Bad Dad Brewing Co",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Grant",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "baerden-primitives-llc-in",
+    "name": "BaerDen Primitives, LLC",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Clark",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "baesler-s-market-in",
+    "name": "Baesler’s Market",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Vigo",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "baja-farms-in",
+    "name": "BAJA Farms",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Decatur",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bakers-acres-in",
+    "name": "Bakers Acres",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Jackson",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bargersville-main-street-organization-in",
+    "name": "Bargersville Main Street Organization",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Johnson",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "barnhouse-farms-in",
+    "name": "Barnhouse Farms",
+    "state": "IN",
+    "region": "midwest",
+    "county": "Owen",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://shopindianagrown.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Indiana Grown member captured from an additional publicly parseable directory page; entity-type sorting follows raw collection.",
+    "provenance": {
+      "source": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "source_url": "https://shopindianagrown.org/member-directory/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
     "id": "the-healing-hill-organic-heirloom-farm-in",
     "name": "The Healing Hill-Organic Heirloom Farm",
     "state": "IN",
@@ -16996,7 +18166,7 @@
     "qa_reason": ""
   },
   {
-    "id": "avon-farmers-market-in",
+    "id": "avon-farmers-market-in-2",
     "name": "Avon Farmers Market",
     "state": "IN",
     "region": "midwest",

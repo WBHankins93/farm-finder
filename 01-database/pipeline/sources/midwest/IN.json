@@ -12,6 +12,13 @@
       "notes": "Official member directory; the public first page is captured live and broader entity sorting follows collection."
     },
     {
+      "id": "insrc-indiana-grown-seed",
+      "name": "Indiana State Department of Agriculture — Additional Indiana Grown member pages",
+      "adapter": "seed",
+      "path": "seeds/IN.json",
+      "notes": "60 records captured from the two additional public pages exposed to the collector on 2026-07-19; producer/entity sorting follows raw collection."
+    },
+    {
       "id": "insrc-usfarmtrail",
       "name": "U.S. Farm Trail — Indiana",
       "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=indiana",
