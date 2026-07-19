@@ -12,6 +12,13 @@
       "notes": "Official hub for Iowa farmers-market, farm-stand, and agricultural directories; captured best-effort where public producer rows are parseable."
     },
     {
+      "id": "iasrc-choose-iowa-seed",
+      "name": "Iowa Department of Agriculture — Choose Iowa Find Local directory",
+      "adapter": "seed",
+      "path": "seeds/IA.json",
+      "notes": "340 public profiles captured from the current Choose Iowa directory on 2026-07-19; profiles categorized only as restaurants or supporting organizations were excluded."
+    },
+    {
       "id": "iasrc-usfarmtrail",
       "name": "U.S. Farm Trail — Iowa",
       "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=iowa",
