@@ -53,11 +53,17 @@ Category/product accent colors still mirror `app/lib/farms.ts` for map-pin conti
 
 ### Type
 
-- **Display + UI:** Bricolage Grotesque — sturdy, warm, characterful grotesque (ink traps,
-  friendly weight range). Handles both poster-size headlines and chip labels.
-- **Body:** Nunito Sans — comfortable humanist body text.
-- **Hand notes:** Caveat, used sparingly for kickers/annotations ("picked this morning",
-  arrows) — the chalk-marker voice of a market sign. Never for UI controls.
+Grounded in what this niche actually ships: DoorDash uses TT Norms Pro, Instacart uses
+Instacart Sans / Proxima Nova — warm, plain geometric sans, weight-driven hierarchy, zero
+decorative type. Google Fonts equivalents:
+
+- **Display + labels:** Plus Jakarta Sans (600–800) — warm geometric, Circular/Cereal class.
+- **Body + UI text:** DM Sans (variable, optical sizing) — optimized for small UI sizes.
+
+**Banned — never reconsider for FarmFinder:** Fraunces, Outfit, Bricolage Grotesque,
+Nunito Sans, Caveat. No serifs, no handwritten/script faces, no novelty grotesques.
+Kickers are small uppercase letter-spaced labels, not handwriting; emphasis is color,
+never wavy/decorative underlines.
 
 ### Motifs
 
@@ -65,8 +71,8 @@ Category/product accent colors still mirror `app/lib/farms.ts` for map-pin conti
   brand moments — the single strongest farmers-market signal.
 - **Kraft stamp cards**: solid cream/kraft chips with soil text (replaces v1 glass).
   `backdrop-filter` survives only over the live map.
-- **Hand-drawn accents**: dashed field-plot SVG lines, squiggle underlines under key words,
-  Caveat annotations in tomato.
+- **Field-plot linework**: dashed SVG plot lines as quiet decoration; emphasis in copy is
+  color only (awning green / tomato), never decorative underlines or script.
 - Shape: cards 20–24px radius, pills fully round; soft warm shadow, single elevation level.
 
 ### Motion (unchanged)
@@ -79,8 +85,8 @@ Dock: **Home · Explore · Ask · Saved** (fryd pattern).
 
 1. **Onboarding** — sunrise-over-rows illustration in morning light, kraft stat stamps
    (299 farms / 2 states / 12 guides), one green CTA.
-2. **Home** — Caveat greeting, Bricolage headline, search pill, harvest chip row with
-   emoji + counts, featured farm cards, coverage stats on kraft.
+2. **Home** — greeting, poster headline, search pill, harvest chip row with emoji +
+   counts, featured farm cards (with website-sales badge), coverage stats on kraft.
 3. **Explore** — full-screen MapLibre, category-colored pins + green clusters, chip
    overlay, bottom card carousel synced with selection.
 4. **Farm detail** — sheet with segmented **Info / Buy / Map** tabs, product tags,

@@ -6,7 +6,7 @@
 <title>FarmFinder — Website demo</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&family=Caveat:wght@500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet" />
 <link href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" rel="stylesheet" />
 <link rel="stylesheet" href="../tokens.css" />
 <style>
@@ -40,10 +40,9 @@ a { color: inherit; }
   background: linear-gradient(180deg, var(--butter-50) 0%, var(--cream-100) 100%); }
 .hero-inner { position: relative; padding: 92px 0 84px; display: grid; gap: 24px; max-width: 720px; }
 .hero svg.plots { position: absolute; right: -30px; top: 20px; height: 92%; opacity: .9; }
-.kicker { font: 600 26px var(--font-hand); color: var(--tomato-500); }
-.hero h1 { font: 800 clamp(46px, 7vw, 78px)/1.0 var(--font-display); letter-spacing: -0.02em; }
-.hero h1 em { font-style: normal; color: var(--awning-600);
-  text-decoration: underline wavy var(--honey-500) 4px; text-underline-offset: 10px; }
+.kicker { font: 700 13px var(--font-display); letter-spacing: .14em; text-transform: uppercase; color: var(--tomato-500); }
+.hero h1 { font: 800 clamp(44px, 6.5vw, 72px)/1.04 var(--font-display); letter-spacing: -0.025em; }
+.hero h1 em { font-style: normal; color: var(--awning-600); }
 .hero p.lede { font-size: 18px; line-height: 1.6; color: var(--soil-600); max-width: 46ch; }
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
 .btn { display: inline-flex; align-items: center; gap: 10px; border: 0; cursor: pointer;
@@ -61,10 +60,9 @@ a { color: inherit; }
 
 /* sections */
 section.band { padding: 84px 0; }
-.sec-kicker { font: 600 24px var(--font-hand); color: var(--tomato-500); margin-bottom: 10px; }
-h2.sec-title { font: 700 clamp(30px, 4vw, 44px)/1.08 var(--font-display); letter-spacing: -0.01em; margin-bottom: 14px; }
-h2.sec-title em { font-style: normal; color: var(--awning-600);
-  text-decoration: underline wavy var(--honey-500) 3px; text-underline-offset: 7px; }
+.sec-kicker { font: 700 12.5px var(--font-display); letter-spacing: .14em; text-transform: uppercase; color: var(--tomato-500); margin-bottom: 12px; }
+h2.sec-title { font: 800 clamp(30px, 4vw, 42px)/1.1 var(--font-display); letter-spacing: -0.02em; margin-bottom: 14px; }
+h2.sec-title em { font-style: normal; color: var(--awning-600); }
 .sec-sub { color: var(--soil-600); font-size: 16px; line-height: 1.6; max-width: 60ch; }
 
 /* harvest grid */
@@ -102,11 +100,12 @@ h2.sec-title em { font-style: normal; color: var(--awning-600);
 .cat-line { display: flex; align-items: center; gap: 7px; font: 700 10.5px var(--font-display);
   letter-spacing: .06em; text-transform: uppercase; color: var(--soil-600); }
 .cat-line i { width: 8px; height: 8px; border-radius: 50%; }
-.farm-row h3 { font: 700 16.5px var(--font-display); }
-.farm-row .place { font-size: 13px; color: var(--soil-600); }
+.farm-row h3 { font: 700 17px/1.25 var(--font-display); letter-spacing: -0.01em; }
+.farm-row .place { font-size: 13.5px; color: var(--soil-600); }
 .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
-.badges span { font: 700 11px var(--font-display); color: var(--awning-700); background: var(--leaf-200);
-  border-radius: var(--r-pill); padding: 3px 10px; }
+.badges span { font: 700 11.5px var(--font-display); color: var(--awning-700); background: var(--leaf-200);
+  border-radius: var(--r-pill); padding: 4px 11px; }
+.badges .badge-web { background: #f6ddd3; color: #a5432c; }
 #wmap { border-radius: var(--r-card); overflow: hidden; border: 1.5px solid var(--kraft-300); }
 .maplibregl-ctrl-attrib { font-size: 10px; }
 
@@ -283,10 +282,17 @@ function render() {
   items.forEach((f) => {
     const row = document.createElement("article");
     row.className = "farm-row" + (f.id === selectedId ? " selected" : "");
+    const badges = [];
+    if (f.onlineStore) badges.push(`<span class="badge-web">Orders on website</span>`);
+    else if (f.hasWebsite) badges.push(`<span class="badge-web">Website</span>`);
+    for (const [k, l] of SERVICES) {
+      if (k === "onlineStore" || !f[k] || badges.length >= 3) continue;
+      badges.push(`<span>${l}</span>`);
+    }
     row.innerHTML = `<p class="cat-line"><i style="background:${CAT_COLORS[f.category] || "#59604c"}"></i>${f.category}</p>
       <h3>${f.name}</h3>
       <p class="place">${f.city}, ${f.state} · ${f.parish} ${f.state === "LA" ? "Parish" : "County"}</p>
-      <div class="badges">${SERVICES.filter(([k]) => f[k]).slice(0, 3).map(([, l]) => `<span>${l}</span>`).join("")}</div>`;
+      <div class="badges">${badges.join("")}</div>`;
     row.onclick = () => select(f.id);
     list.appendChild(row);
   });

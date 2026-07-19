@@ -34,10 +34,10 @@
   --shadow-1: 0 6px 20px rgb(94 74 44 / 0.12);
   --shadow-2: 0 14px 36px rgb(94 74 44 / 0.2);
 
-  /* type */
-  --font-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
-  --font-body: "Nunito Sans", "Avenir Next", system-ui, sans-serif;
-  --font-hand: "Caveat", "Bradley Hand", cursive;
+  /* type — niche-standard pairing (DoorDash/Instacart class: warm geometric sans)
+     BANNED, do not reintroduce: Fraunces, Outfit, Bricolage Grotesque, Nunito Sans, Caveat */
+  --font-display: "Plus Jakarta Sans", "Avenir Next", system-ui, sans-serif;
+  --font-body: "DM Sans", "Avenir Next", system-ui, sans-serif;
 
   /* motion */
   --ease: cubic-bezier(0.22, 0.8, 0.36, 1);

@@ -104,11 +104,24 @@ function setGuide(id) {
 }
 
 /* ---------- cards ---------- */
+function badgeRow(f) {
+  const badges = [];
+  if (f.onlineStore) badges.push(`<span class="badge-web">Orders on website</span>`);
+  else if (f.hasWebsite) badges.push(`<span class="badge-web">Website</span>`);
+  for (const s of SERVICES) {
+    if (s.key === "onlineStore" || !f[s.key]) continue;
+    if (badges.length >= 3) break;
+    badges.push(`<span>${s.label}</span>`);
+  }
+  return badges.join("");
+}
 function farmCard(f, { compact } = {}) {
   const card = document.createElement("article");
   card.className = "farm-card";
   card.dataset.id = f.id;
-  const badges = SERVICES.filter((s) => f[s.key]).slice(0, 3).map((s) => `<span>${s.label}</span>`).join("");
+  const products = f.products.length ? f.products : [f.productsText];
+  const shown = products.slice(0, 3).join(" · ");
+  const extra = products.length > 3 ? ` +${products.length - 3} more` : "";
   card.innerHTML = `
     <div class="card-top">
       <p class="card-cat"><i style="background:${CAT_COLORS[f.category] || "#59604c"}"></i>${f.category}</p>
@@ -116,8 +129,9 @@ function farmCard(f, { compact } = {}) {
     </div>
     <h3>${f.name}</h3>
     <p class="card-place">${f.city}, ${f.state} · ${f.parish} ${f.state === "LA" ? "Parish" : "County"}</p>
-    ${compact ? "" : `<p class="card-products">${f.products.slice(0, 4).join(" · ") || f.productsText}</p>`}
-    <div class="card-badges">${badges}</div>`;
+    ${compact ? "" : `<p class="card-products">${shown}${extra}</p>`}
+    <div class="card-badges">${badgeRow(f)}</div>
+    ${compact ? `<button class="card-more" type="button">Details →</button>` : ""}`;
   card.querySelector(".heart").addEventListener("click", (e) => {
     e.stopPropagation();
     toggleSave(f.id);
@@ -242,7 +256,12 @@ function renderCarousel() {
   el.innerHTML = "";
   farms.filter((f) => matchesGuide(f, activeGuide) && f.latitude).slice(0, 40).forEach((f) => {
     const card = farmCard(f, { compact: true });
-    card.addEventListener("click", () => selectFarm(f.id), { capture: true });
+    // First tap selects + flies to the pin; "Details →" (or a second tap) opens the sheet.
+    card.addEventListener("click", (e) => {
+      if (e.target.closest(".card-more") || selectedId === f.id) return;
+      e.stopPropagation();
+      selectFarm(f.id);
+    }, { capture: true });
     el.appendChild(card);
   });
 }
