@@ -12,6 +12,13 @@
       "notes": "Statewide local-food farm directory referenced by Wisconsin DATCP; captured best-effort where public rows are parseable."
     },
     {
+      "id": "wisrc-farm-fresh-atlas-seed",
+      "name": "Wisconsin Farm Fresh Atlas — Public farm and producer results",
+      "adapter": "seed",
+      "path": "seeds/WI.json",
+      "notes": "235 entries explicitly rendered as producer records captured on 2026-07-19; three retail-classified results returned by the same search were excluded."
+    },
+    {
       "id": "wisrc-usfarmtrail",
       "name": "U.S. Farm Trail — Wisconsin",
       "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=wisconsin",
