@@ -1,0 +1,43 @@
+{
+  "state": "NY",
+  "name": "New York",
+  "region": "northeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "nysrc-farm-directory",
+      "name": "New York State Department of Agriculture and Markets — Farm Directory",
+      "url": "https://farmdirectory.agriculture.ny.gov/Farms",
+      "adapter": "html_table",
+      "notes": "Official statewide farm directory; captured best-effort when the public application exposes parseable rows."
+    },
+    {
+      "id": "nysrc-usfarmtrail",
+      "name": "U.S. Farm Trail — New York",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=new-york",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "nysrc-eatwild",
+      "name": "EatWild — New York",
+      "url": "https://www.eatwild.com/products/newyork.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory."
+    },
+    {
+      "id": "nysrc-pickyourown",
+      "name": "PickYourOwn — New York",
+      "url": "https://www.pickyourown.org/NY.htm",
+      "adapter": "html_table",
+      "notes": "Statewide U-pick discovery index."
+    },
+    {
+      "id": "nysrc-localharvest",
+      "name": "LocalHarvest — New York",
+      "url": "https://www.localharvest.org/new-york/",
+      "adapter": "html_table",
+      "notes": "Best-effort collection; skipped gracefully if rate-limited."
+    }
+  ]
+}
