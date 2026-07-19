@@ -12,11 +12,55 @@
       "notes": "Official statewide agriculture and producer directory."
     },
     {
+      "id": "mesrc-circular-food-producers",
+      "name": "University of Maine — Maine Circular Food System producer inventory",
+      "url": "https://services3.arcgis.com/nV0HyP5uKL48nAKr/arcgis/rest/services/Maine_Circular_Food_System_Dataset_Producers/FeatureServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "api",
+      "field_map": {
+        "properties.FEATURE_CL": "products_text"
+      },
+      "notes": "Statewide named producer layer with city, county, product class, contact fields, and coordinates."
+    },
+    {
+      "id": "mesrc-real-maine-fall-farms",
+      "name": "Maine Department of Agriculture — Real Maine farm profiles",
+      "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/ArcGIS/rest/services/RealMaine_Farms_Fall_Fun/FeatureServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "api",
+      "field_map": {
+        "properties.ProfileName": "name",
+        "properties.RealMaine": "website",
+        "properties.Note": "notes",
+        "properties.Apples": "products_text",
+        "properties.Pumpkins": "products_text",
+        "properties.PickYourOwn": "products_text"
+      },
+      "notes": "Official Real Maine farm profiles retained even when locality must later be parsed from the address."
+    },
+    {
       "id": "mesrc-usfarmtrail",
       "name": "U.S. Farm Trail — Maine",
       "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=maine",
       "adapter": "api",
       "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "mesrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — Maine certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Maine%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "api",
+      "field_map": {
+        "properties.Operation_": "id",
+        "properties.Operation1": "name",
+        "properties.Physical_2": "city",
+        "properties.Physical_3": "state",
+        "properties.Address": "address",
+        "properties.Certified_": "products_text",
+        "properties.Certified1": "products_text",
+        "properties.Website_UR": "website",
+        "properties.Lat": "latitude",
+        "properties.Long": "longitude"
+      },
+      "notes": "Certified crop, livestock, or wild-crop operations from the USDA-derived Organic Integrity snapshot; retained as durable secondary discovery evidence."
     },
     {
       "id": "mesrc-eatwild",
