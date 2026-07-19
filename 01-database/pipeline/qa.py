@@ -56,6 +56,53 @@ def rule_reclear_now_geocoded(farms: list[Farm]) -> int:
     return cleared
 
 
+# Official first-party grower directories. A state government's own registry is
+# authoritative on "is this a real farm in this state", so a corroboration-only
+# blocker on such a source is satisfied by that source alone (policy, 2026-07-18).
+# National aggregators (US Farm Trail, EatWild, PickYourOwn, LocalHarvest) are
+# deliberately excluded — a listing found only there still needs corroboration.
+_AUTHORITATIVE_SOURCES = (
+    "department of agriculture", "georgia grown", "pick tennessee", "picktn",
+    "farm to you", "certified sc", "ncda", "got to be nc", "arkansas grown",
+    "genuine ms", "ldaf", "kentucky proud", "go texan", "wv grown",
+    "visit nc farms", "florida farm",
+)
+
+
+def _is_authoritative(source: str) -> bool:
+    s = source.lower()
+    return any(k in s for k in _AUTHORITATIVE_SOURCES)
+
+
+def _is_corroboration_blocker(part: str) -> bool:
+    p = part.lower()
+    return "needs corroboration" in p or "directory candidate needs independent" in p
+
+
+def rule_authoritative_self_corroboration(farms: list[Farm]) -> int:
+    """A corroboration-only blocker is satisfied by an authoritative first-party
+    source. For a residue row whose source is an official state grower directory,
+    strip the corroboration blockers; clear the row if nothing else remains, else
+    keep the reduced reason so any genuine remaining blocker (geography, products,
+    entity type) still holds. Aggregator-only rows are untouched."""
+    cleared = 0
+    for f in farms:
+        if f.eligible or not f.qa_reason:
+            continue
+        if not _is_authoritative(f.provenance.source):
+            continue
+        parts = [p.strip() for p in f.qa_reason.split(";") if p.strip()]
+        kept = [p for p in parts if not _is_corroboration_blocker(p)]
+        if len(kept) == len(parts):
+            continue  # nothing corroboration-flavored to strip
+        if kept:
+            f.qa_reason = "; ".join(kept)
+        else:
+            f.eligible, f.qa_reason = True, ""
+            cleared += 1
+    return cleared
+
+
 def rule_recompute(farms: list[Farm]) -> int:
     """Re-run the eligibility decision after upstream stages enriched records
     (dedupe merges, geo fills). Flips rows whose blocker no longer holds."""
@@ -71,7 +118,11 @@ def rule_recompute(farms: list[Farm]) -> int:
     return cleared
 
 
-AUTO_RULES: list[AutoRule] = [rule_reclear_now_geocoded, rule_recompute]
+AUTO_RULES: list[AutoRule] = [
+    rule_authoritative_self_corroboration,
+    rule_reclear_now_geocoded,
+    rule_recompute,
+]
 
 
 def geography_only_residue(farms: list[Farm]) -> int:

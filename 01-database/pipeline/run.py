@@ -36,7 +36,7 @@ from migrate import EXPANSIONS, assign_ids, dedupe_preserving_qa, integrity_demo
 from model import Farm  # noqa: E402
 from privacy import apply_privacy  # noqa: E402
 from publish import write_app_json  # noqa: E402
-from qa import rule_reclear_now_geocoded, run_qa  # noqa: E402
+from qa import rule_authoritative_self_corroboration, rule_reclear_now_geocoded, run_qa  # noqa: E402
 
 DATA = HERE / "data"
 BUILD = HERE / "build"
@@ -73,7 +73,11 @@ def _finalize(farms: list[Farm], state: str) -> dict:
     geo_stats = apply_geo_fallback(farms)
     apply_privacy(farms)
     BUILD.mkdir(parents=True, exist_ok=True)
-    qa_stats = run_qa(farms, residue_path=BUILD / f"qa-residue-{state}.csv", rules=[rule_reclear_now_geocoded])
+    qa_stats = run_qa(
+        farms,
+        residue_path=BUILD / f"qa-residue-{state}.csv",
+        rules=[rule_authoritative_self_corroboration, rule_reclear_now_geocoded],
+    )
     DATA.mkdir(parents=True, exist_ok=True)
     (DATA / f"{state}.json").write_text(
         json.dumps([f.to_record() for f in farms], indent=2, ensure_ascii=False) + "\n"
