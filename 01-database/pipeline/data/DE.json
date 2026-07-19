@@ -1,0 +1,6320 @@
+[
+  {
+    "id": "farmacy-market-de",
+    "name": "Farmacy Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Milford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9218,
+      "longitude": -75.4299,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kalmar-farm-de",
+    "name": "Kalmar Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Harrington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.924,
+      "longitude": -75.5843,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bodine-farms-and-meat-market-de",
+    "name": "Bodine Farms And Meat Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Hartly",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.1542,
+      "longitude": -75.6935,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "thousand-acre-farm-wedding-event-venue-de",
+    "name": "Thousand Acre Farm Wedding & Event Venue",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4815,
+      "longitude": -75.6832,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "b-b-farms-de",
+    "name": "B&B Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Townsend",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.3819,
+      "longitude": -75.6834,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cook-family-farms-de",
+    "name": "Cook Family Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Newark",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.6349,
+      "longitude": -75.6993,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "new-castle-farmers-market-de",
+    "name": "New Castle Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "New Castle",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5929,
+      "longitude": -75.6515,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "grass-works-meat-farm-de",
+    "name": "Grass Works Meat Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Seaford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.6404,
+      "longitude": -75.6041,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "highland-orchards-farm-market-de",
+    "name": "Highland Orchards Farm Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.7994,
+      "longitude": -75.5317,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "woodside-farm-creamery-de",
+    "name": "Woodside Farm Creamery",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Hockessin",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.776,
+      "longitude": -75.6889,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "udairy-creamery-caf-de",
+    "name": "UDairy Creamery Café",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Newark",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.7011,
+      "longitude": -75.7375,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "capital-city-farmers-market-de",
+    "name": "Capital City Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Dover",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.1576541,
+      "longitude": -75.526229,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "rumbleway-farm-de",
+    "name": "Rumbleway Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.667186,
+      "longitude": -76.123193,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "van-dyk-brothers-de",
+    "name": "Van Dyk Brothers",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4092599,
+      "longitude": -75.0002608,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "honeymoon-farm-de",
+    "name": "Honeymoon Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.7781925,
+      "longitude": -75.985011,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hidden-creek-farm-de",
+    "name": "Hidden Creek Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4666973,
+      "longitude": -75.3242099,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "chesapeake-gold-farms-inc-de",
+    "name": "Chesapeake Gold Farms Inc",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.6966743,
+      "longitude": -75.9504089,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "co-op-farmers-market-de",
+    "name": "Co-op Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.6851194,
+      "longitude": -75.7433224,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bird-s-farm-apothecary-de",
+    "name": "Bird's Farm & Apothecary",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.227527,
+      "longitude": -75.649948,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "quirk-farms-de",
+    "name": "Quirk Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.6641679,
+      "longitude": -75.34008,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "flying-plow-farm-de",
+    "name": "Flying Plow Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.692697,
+      "longitude": -76.090334,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pasture-song-farm-de",
+    "name": "Pasture Song Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.173997,
+      "longitude": -75.6812572,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kneehigh-farm-de",
+    "name": "Kneehigh Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.1706255,
+      "longitude": -75.6900818,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "livengood-family-farm-llc-de",
+    "name": "Livengood Family Farm LLC",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.011622,
+      "longitude": -76.263637,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "elysium-farm-llc-de",
+    "name": "Elysium Farm LLC",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.2920594,
+      "longitude": -75.2153971,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "grid-iron-hill-farm-de",
+    "name": "Grid Iron Hill Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5997442,
+      "longitude": -76.167211,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gap-view-farm-market-de",
+    "name": "Gap View Farm Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.9973587,
+      "longitude": -76.0365127,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sickler-s-circle-view-farm-de",
+    "name": "Sickler's Circle View Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.6203092,
+      "longitude": -75.226694,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bartram-s-garden-de",
+    "name": "Bartram's Garden",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.9327414,
+      "longitude": -75.2122015,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stoltzfus-meats-de",
+    "name": "Stoltzfus Meats",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.037487,
+      "longitude": -76.109609,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-local-buzz-de",
+    "name": "The Local Buzz",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4815,
+      "longitude": -75.6832,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fifer-s-farm-store-kitchen-de",
+    "name": "Fifer's Farm Store & Kitchen",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Camden Wyoming",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.0991,
+      "longitude": -75.5966,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hopkins-farm-creamery-de",
+    "name": "Hopkins Farm Creamery",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Lewes",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.7381,
+      "longitude": -75.1747,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "glasgow-park-farmers-market-de",
+    "name": "Glasgow Park Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Newark",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.6349,
+      "longitude": -75.6993,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ard-brac-acres-de",
+    "name": "Ard Brac Acres",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.3906843,
+      "longitude": -75.4246342,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "eli-s-honey-bees-de",
+    "name": "Eli's Honey Bees",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.9763656,
+      "longitude": -75.3149796,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dutch-meadows-farm-llc-de",
+    "name": "Dutch Meadows Farm LLC",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.9644757,
+      "longitude": -76.0521255,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ramsey-s-farm-de",
+    "name": "Ramsey’s Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.7994,
+      "longitude": -75.5317,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "coverdale-farm-preserve-of-delaware-nature-society-de",
+    "name": "Coverdale Farm Preserve of Delaware Nature Society",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Greenville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.7949,
+      "longitude": -75.6161,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "whimsical-farms-de",
+    "name": "Whimsical Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Newark",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.6349,
+      "longitude": -75.6993,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "filasky-s-produce-de",
+    "name": "Filasky's Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4815,
+      "longitude": -75.6832,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "douglas-bee-apiary-de",
+    "name": "Douglas Bee Apiary",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "New Castle",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5929,
+      "longitude": -75.6515,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "vanderwende-farm-creamery-de",
+    "name": "Vanderwende Farm Creamery",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Bridgeville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.7366,
+      "longitude": -75.6088,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "old-wye-mill-mid-april-mid-november-de",
+    "name": "Old Wye Mill (Mid April - Mid November)",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9417248,
+      "longitude": -76.0810693,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "carousel-park-farmers-market-de",
+    "name": "Carousel Park Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.7306895,
+      "longitude": -75.6856089,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "red-dog-market-llc-de",
+    "name": "Red Dog Market LLC",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.1731937,
+      "longitude": -75.6906611,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "horse-shoe-ranch-de",
+    "name": "HORSE SHOE RANCH",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.168529,
+      "longitude": -75.6900106,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "buffalo-valley-pastures-de",
+    "name": "Buffalo Valley Pastures",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.897244,
+      "longitude": -76.126075,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tom-s-cove-aquafarms-de",
+    "name": "Tom's Cove Aquafarms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.9130367,
+      "longitude": -75.3850065,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "good-earth-market-restaurant-de",
+    "name": "Good Earth Market & Restaurant",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.5519548,
+      "longitude": -75.1377466,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "beach-plum-farm-de",
+    "name": "Beach Plum Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9425232,
+      "longitude": -74.9492765,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "down-to-earth-harvest-de",
+    "name": "Down to Earth Harvest",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.9818011,
+      "longitude": -75.7433896,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "singletree-farm-de",
+    "name": "Singletree Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.1484365,
+      "longitude": -75.8040371,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-farmers-market-de",
+    "name": "The Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.7933583,
+      "longitude": -75.1958266,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farm-fresh-eggs-free-range-de",
+    "name": "Farm Fresh Eggs/ Free Range",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.1863037,
+      "longitude": -76.0195389,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mariposa-food-co-op-de",
+    "name": "Mariposa Food Co-op",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.9479731,
+      "longitude": -75.2206807,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "holly-street-neighbors-community-garden-de",
+    "name": "Holly Street Neighbors Community Garden",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.9594999,
+      "longitude": -75.2057039,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "keystone-cattle-company-de",
+    "name": "Keystone Cattle Company",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.2815915,
+      "longitude": -76.0956151,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "udairy-creamery-de",
+    "name": "UDairy Creamery",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.665011,
+      "longitude": -75.7508643,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bellefonte-farmers-market-de",
+    "name": "Bellefonte Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.771959603,
+      "longitude": -75.497386221,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "delaware-city-farmers-market-galleria-de",
+    "name": "Delaware City Farmers' Market & Galleria",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Delaware City",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.578055906,
+      "longitude": -75.589139446,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmers-market-at-sea-colony-de",
+    "name": "Farmers' Market at Sea Colony",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Bethany Beach",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.526890012,
+      "longitude": -75.056320026,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "french-street-farmers-market-de",
+    "name": "French Street Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.738060017,
+      "longitude": -75.55064,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "georgetown-farmers-market-de",
+    "name": "Georgetown Farmers' Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Georgetown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.67841828,
+      "longitude": -75.379163623,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "loockerman-way-farmers-market-de",
+    "name": "Loockerman Way Farmers' Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Dover",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.157850011,
+      "longitude": -75.52571004,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "southbridge-farmers-market-de",
+    "name": "Southbridge Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.731236406,
+      "longitude": -75.542336004,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mccarthy-tree-farm-de",
+    "name": "McCarthy Tree Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.54456275,
+      "longitude": -75.610551825,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farm-fresh-brown-eggs-de",
+    "name": "Farm Fresh Brown Eggs",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.134948,
+      "longitude": -76.0442939,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stoltzfus-bbq-fresh-poultry-llc-de",
+    "name": "Stoltzfus BBQ & Fresh Poultry, LLC",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.8403977,
+      "longitude": -75.4964458,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bennett-orchards-de",
+    "name": "Bennett Orchards",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Frankford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.532551427,
+      "longitude": -75.20380866,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "berry-good-farm-de",
+    "name": "Berry Good Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Hockessin",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.787284529,
+      "longitude": -75.691097233,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fifer-orchards-de",
+    "name": "Fifer Orchards",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.123086128,
+      "longitude": -75.589108964,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gaines-christmas-tree-farm-de",
+    "name": "Gaines Christmas Tree Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.950067604,
+      "longitude": -75.577285976,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "john-s-produce-de",
+    "name": "John's Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Dover",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.162602284,
+      "longitude": -75.55776024,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kypseli-family-honey-llc-de",
+    "name": "Kypseli Family Honey LLC",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.803820066,
+      "longitude": -75.61133497,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hundred-acre-farms-de",
+    "name": "Hundred Acre Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Smyrna",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.318889159,
+      "longitude": -75.655819827,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "parsons-farms-produce-de",
+    "name": "Parsons Farms Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Dagsboro",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.541615882,
+      "longitude": -75.222536462,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sassy-bee-honey-de",
+    "name": "Sassy Bee Honey",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Bellefonte",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.766611,
+      "longitude": -75.49538004,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "alley-mill-produce-de",
+    "name": "Alley Mill Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.296486983,
+      "longitude": -75.666105997,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "berry-patch-christmas-tree-farm-de",
+    "name": "Berry Patch Christmas Tree Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.111780822,
+      "longitude": -75.73499907,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fresh-to-you-produce-de",
+    "name": "Fresh- To- You- Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.795122019,
+      "longitude": -75.702930966,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "magee-strawberry-farms-de",
+    "name": "Magee Strawberry Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Selbyville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.461516992,
+      "longitude": -75.13142104,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "adkins-produce-country-store-de",
+    "name": "Adkins Produce & Country Store",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.565833383,
+      "longitude": -75.220673485,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "wicked-r-western-productions-inc-de",
+    "name": "Wicked R Western Productions, Inc.",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.094302989,
+      "longitude": -75.693178035,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "apple-scrapple-festival-de",
+    "name": "Apple Scrapple Festival",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Bridgeville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.7439399,
+      "longitude": -75.60089755,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bobola-farm-florist-de",
+    "name": "Bobola Farm & Florist",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Dover",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.157166915,
+      "longitude": -75.530637952,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "carousel-park-equestrian-park-de",
+    "name": "Carousel Park Equestrian Park",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.733270011,
+      "longitude": -75.678338535,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "clark-tree-farm-de",
+    "name": "Clark Tree Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Smyrna",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.327789996,
+      "longitude": -75.651537997,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "don-s-tree-farm-de",
+    "name": "Don's Tree Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Greenwood",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.84278126,
+      "longitude": -75.723741619,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dyer-s-tree-farm-de",
+    "name": "Dyer's Tree Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Dover",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.127508988,
+      "longitude": -75.51994304,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ernest-fruit-farm-de",
+    "name": "Ernest Fruit Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Ellendale",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.787619633,
+      "longitude": -75.474899312,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "evans-farms-de",
+    "name": "Evans Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.715933989,
+      "longitude": -75.575812029,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "isaacs-family-farm-de",
+    "name": "Isaacs' Family Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Georgetown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.681694635,
+      "longitude": -75.395509897,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kingsley-orchards-on-blueberry-lane-de",
+    "name": "Kingsley Orchards on Blueberry Lane",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Frankford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.51631284,
+      "longitude": -75.29159691,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "loblolly-acres-de",
+    "name": "Loblolly Acres",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Woodside",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.070129051,
+      "longitude": -75.568679125,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lewes-magee-farms-de",
+    "name": "Lewes Magee Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Lewes",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.75056202,
+      "longitude": -75.16038697,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "shelterwood-farm-de",
+    "name": "Shelterwood Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Hartly",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.110374995,
+      "longitude": -75.701159032,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "turning-pointe-farm-de",
+    "name": "Turning Pointe Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Hartly",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.081583677,
+      "longitude": -75.74087195,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "thousand-acre-farm-de",
+    "name": "Thousand Acre Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.553242991,
+      "longitude": -75.586762985,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ts-smith-sons-de",
+    "name": "TS Smith & Sons",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Bridgeville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.75013601,
+      "longitude": -75.597819973,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "coleman-s-christmas-tree-farm-de",
+    "name": "Coleman's Christmas Tree Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.456853997,
+      "longitude": -75.621388962,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "coastal-christmas-trees-winter-wonderfest-at-hudson-fields-de",
+    "name": "Coastal Christmas Trees Winter WonderFEST at Hudson Fields",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Milton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.770631267,
+      "longitude": -75.231328721,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "frightland-de",
+    "name": "Frightland",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.45137,
+      "longitude": -75.71718,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lawson-s-produce-de",
+    "name": "Lawson's Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.714412003,
+      "longitude": -75.091885028,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "misty-morning-herbs-more-de",
+    "name": "Misty Morning Herbs & More",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.011494019,
+      "longitude": -75.530884022,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "winkler-farms-de",
+    "name": "Winkler Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.98674189,
+      "longitude": -75.560865119,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "spence-s-tree-farm-de",
+    "name": "Spence's Tree Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Frederica",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.028336992,
+      "longitude": -75.51342502,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "schreppler-s-fir-tree-acres-de",
+    "name": "Schreppler's Fir Tree Acres",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Magnolia",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.054386822,
+      "longitude": -75.515564673,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "blue-heaven-farm-de",
+    "name": "Blue Heaven Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Magnolia",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.074930986,
+      "longitude": -75.473597988,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fairview-sod-farm-de",
+    "name": "Fairview Sod Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Townsend",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.41022899,
+      "longitude": -75.72586796,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bellefonte-de-farmers-market-de",
+    "name": "Bellefonte DE Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.766506936,
+      "longitude": -75.499921758,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "delaware-avenue-farmers-market-de",
+    "name": "Delaware Avenue Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.758451718,
+      "longitude": -75.562981056,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fenwick-island-farmers-market-de",
+    "name": "Fenwick Island Farmers' Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Fenwick Island",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.460459993,
+      "longitude": -75.051899997,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fresh-friday-farmers-market-de",
+    "name": "Fresh Friday Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.746580012,
+      "longitude": -75.549929969,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "milton-farmers-market-de",
+    "name": "Milton Farmers' Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Milton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.778710002,
+      "longitude": -75.311059978,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "new-castle-county-farmers-market-de",
+    "name": "New Castle County Farmers' Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Newark",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.599333958,
+      "longitude": -75.743054141,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "smyrna-farmers-market-de",
+    "name": "Smyrna Farmers' Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Smyrna",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.299099838,
+      "longitude": -75.608584667,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "adam-and-e-s-garden-of-eatin-de",
+    "name": "Adam and E's Garden of Eatin",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Dover",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.226211011,
+      "longitude": -75.633772973,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "donnies-market-de",
+    "name": "Donnies Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Greenwood",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.79672066,
+      "longitude": -75.699756507,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "little-wagon-produce-de",
+    "name": "Little Wagon Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Greenwood",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.798249014,
+      "longitude": -75.696400961,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "red-barn-country-store-farm-de",
+    "name": "Red Barn Country Store & Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Georgetown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.697035983,
+      "longitude": -75.454452967,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "b-b-evergreens-de",
+    "name": "B & B Evergreens",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Frankford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.481340084,
+      "longitude": -75.15190285,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "magee-farms-de",
+    "name": "Magee Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Selbyville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.465262525,
+      "longitude": -75.123629628,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mr-pepper-s-pumpkin-patch-de",
+    "name": "Mr. Pepper's Pumpkin Patch",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Laurel",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.551417005,
+      "longitude": -75.575810417,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "poynter-s-tree-farm-christmas-shop-de",
+    "name": "Poynter's Tree Farm & Christmas Shop",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Felton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.020992883,
+      "longitude": -75.56500233,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "marini-produce-de",
+    "name": "Marini Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Ardencroft",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.804991987,
+      "longitude": -75.490347964,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cardinal-woods-farms-de",
+    "name": "Cardinal Woods Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Clayton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.231455349,
+      "longitude": -75.671273385,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "southfork-farms-de",
+    "name": "Southfork Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.532264991,
+      "longitude": -75.603138039,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "reeds-produce-de",
+    "name": "Reeds Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.217314983,
+      "longitude": -75.590834997,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "willey-farms-de",
+    "name": "Willey Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.390489985,
+      "longitude": -75.662440004,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "delaware-agritourism-association-de",
+    "name": "Delaware Agritourism Association",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Georgetown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.689575,
+      "longitude": -75.386445,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "willow-rock-gardens-llc-de",
+    "name": "Willow Rock Gardens LLC",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Clayon",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.259838997,
+      "longitude": -75.743633991,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "west-produce-orchards-de",
+    "name": "West Produce & Orchards",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Milton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.787780278,
+      "longitude": -75.319973274,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "locust-grove-farm-garden-center-inc-de",
+    "name": "Locust Grove Farm& Garden Center Inc.",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.521616981,
+      "longitude": -75.747272994,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmer-girl-exotic-garden-de",
+    "name": "Farmer Girl Exotic Garden",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Rehoboth Beach",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.72701,
+      "longitude": -75.13901,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "roseland-estate-raspberry-chemical-free-vineyard-de",
+    "name": "Roseland Estate Raspberry Chemical Free Vineyard",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Dover",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.199957419,
+      "longitude": -75.489117455,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "warner-enterprises-de",
+    "name": "Warner Enterprises",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Milford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.939696019,
+      "longitude": -75.436241019,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "balsam-acres-de",
+    "name": "Balsam Acres",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Laurel",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.520359297,
+      "longitude": -75.633372373,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "home-grown-produce-de",
+    "name": "Home Grown Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Dover",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.134263,
+      "longitude": -75.624763014,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "t-a-farms-de",
+    "name": "T.A. Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.067952004,
+      "longitude": -75.664897997,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mums-by-nancy-de",
+    "name": "Mums by Nancy",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.081473563,
+      "longitude": -75.707052845,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "broadcreek-strawberries-de",
+    "name": "Broadcreek Strawberries",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Seaford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.584617017,
+      "longitude": -75.597655017,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "yorklyn-valley-farms-de",
+    "name": "Yorklyn Valley Farms",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Yorklyn",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.809005197,
+      "longitude": -75.674719759,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "jeff-s-greenhouses-h-h-brand-farms-de",
+    "name": "Jeff's Greenhouses (H&H Brand Farms)",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Bethel",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.571488715,
+      "longitude": -75.618973242,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "h-h-brand-farms-inc-de",
+    "name": "H & H Brand Farms, Inc.",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.570395,
+      "longitude": -75.6196,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "3-palms-zoo-education-center-de",
+    "name": "3 Palms Zoo & Education Center",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Townsend",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.330308004,
+      "longitude": -75.695321036,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lutheran-community-services-lcs-de",
+    "name": "Lutheran Community Services (LCS)",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.76475399,
+      "longitude": -75.540335037,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "handley-s-u-pick-de",
+    "name": "Handley's U-Pick",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Bridgeville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.777014117,
+      "longitude": -75.643765832,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "snuff-mill-restaurant-butchery-wine-bar-de",
+    "name": "Snuff Mill Restaurant, Butchery & Wine Bar",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.7803659,
+      "longitude": -75.5438003,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "twisted-steel-cattle-company-de",
+    "name": "Twisted Steel Cattle Company",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Harrington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.920198043,
+      "longitude": -75.568509954,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "historic-lewes-farmers-market-de",
+    "name": "Historic Lewes Farmers Market",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Lewes",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.772404,
+      "longitude": -75.147503,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "westside-farmers-market-at-cool-spring-park-de",
+    "name": "Westside Farmers Market at Cool Spring Park",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.749856,
+      "longitude": -75.5584068,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "maebrook-produce-de",
+    "name": "Maebrook Produce",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Seaford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.683435,
+      "longitude": -75.614455,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cook-family-farm-s-coolrockstock-de",
+    "name": "Cook Family Farm's - CoolRockStock",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Newark",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5560199,
+      "longitude": -75.764456,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "john-s-market-llc-de",
+    "name": "John's Market, LLC",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Dover",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.206136982,
+      "longitude": -75.603196041,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "powers-farm-de",
+    "name": "Powers Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Townsend",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.345614784,
+      "longitude": -75.761187959,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bethany-beach-farmers-market-inc-de",
+    "name": "BETHANY BEACH FARMERS' MARKET, INC.",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Bethany Beach",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.538397,
+      "longitude": -75.056515,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "historic-lewes-farmers-market-george-h-p-smith-park-de",
+    "name": "Historic Lewes Farmers Market - George H.P. Smith Park",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Lewes",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.77363,
+      "longitude": -75.146741,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "southbridge-youth-farm-stand-de",
+    "name": "Southbridge Youth Farm Stand",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Wilmington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.728425,
+      "longitude": -75.542868,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "jubilee-back-forty-de",
+    "name": "Jubilee Back Forty",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Milton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.7627431,
+      "longitude": -75.2382927,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gravelly-run-farm-de",
+    "name": "Gravelly Run Farm",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Hartly",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.184656133,
+      "longitude": -75.728472469,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "orchard-point-ts-smith-sons-de",
+    "name": "Orchard Point TS Smith Sons",
+    "state": "DE",
+    "region": "northeast",
+    "county": "",
+    "city": "Bridgeville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.75013601,
+      "longitude": -75.597819973,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Delaware",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "state": "DE",
+  "name": "Delaware",
+  "region": "northeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "desrc-delaware-grown",
+      "name": "Delaware Department of Agriculture — Delaware Grown",
+      "url": "https://delawaregrown.com/",
+      "adapter": "html_table",
+      "notes": "Official statewide agriculture and producer directory."
+    },
+    {
+      "id": "desrc-usfarmtrail",
+      "name": "U.S. Farm Trail — Delaware",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=delaware",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "desrc-eatwild",
+      "name": "EatWild — Delaware",
+      "url": "https://www.eatwild.com/products/delaware.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory."
+    },
+    {
+      "id": "desrc-pickyourown",
+      "name": "PickYourOwn — Delaware",
+      "url": "https://www.pickyourown.org/DE.htm",
+      "adapter": "html_table",
+      "notes": "Statewide U-pick discovery index."
+    },
+    {
+      "id": "desrc-localharvest",
+      "name": "LocalHarvest — Delaware",
+      "url": "https://www.localharvest.org/delaware/",
+      "adapter": "html_table",
+      "notes": "Best-effort collection; skipped gracefully if rate-limited."
+    }
+  ]
+}
