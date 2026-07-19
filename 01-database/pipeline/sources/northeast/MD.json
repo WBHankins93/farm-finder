@@ -1,0 +1,43 @@
+{
+  "state": "MD",
+  "name": "Maryland",
+  "region": "northeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "mdsrc-marylands-best",
+      "name": "Maryland Department of Agriculture — Maryland's Best",
+      "url": "https://marylandsbest.maryland.gov/",
+      "adapter": "html_table",
+      "notes": "Official statewide farm and seafood producer directory."
+    },
+    {
+      "id": "mdsrc-usfarmtrail",
+      "name": "U.S. Farm Trail — Maryland",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=maryland",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "mdsrc-eatwild",
+      "name": "EatWild — Maryland",
+      "url": "https://www.eatwild.com/products/maryland.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory."
+    },
+    {
+      "id": "mdsrc-pickyourown",
+      "name": "PickYourOwn — Maryland",
+      "url": "https://www.pickyourown.org/MD.htm",
+      "adapter": "html_table",
+      "notes": "Statewide U-pick discovery index."
+    },
+    {
+      "id": "mdsrc-localharvest",
+      "name": "LocalHarvest — Maryland",
+      "url": "https://www.localharvest.org/maryland/",
+      "adapter": "html_table",
+      "notes": "Best-effort collection; skipped gracefully if rate-limited."
+    }
+  ]
+}
