@@ -1,0 +1,43 @@
+{
+  "state": "RI",
+  "name": "Rhode Island",
+  "region": "northeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "risrc-farm-fresh-ri",
+      "name": "Farm Fresh Rhode Island — Local Food Guide",
+      "url": "https://guide.farmfreshri.org/",
+      "adapter": "html_table",
+      "notes": "Statewide local food and farm directory."
+    },
+    {
+      "id": "risrc-usfarmtrail",
+      "name": "U.S. Farm Trail — Rhode Island",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=rhode-island",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "risrc-eatwild",
+      "name": "EatWild — Rhode Island",
+      "url": "https://www.eatwild.com/products/rhodeisland.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory."
+    },
+    {
+      "id": "risrc-pickyourown",
+      "name": "PickYourOwn — Rhode Island",
+      "url": "https://www.pickyourown.org/RI.htm",
+      "adapter": "html_table",
+      "notes": "Statewide U-pick discovery index."
+    },
+    {
+      "id": "risrc-localharvest",
+      "name": "LocalHarvest — Rhode Island",
+      "url": "https://www.localharvest.org/rhode-island/",
+      "adapter": "html_table",
+      "notes": "Best-effort collection; skipped gracefully if rate-limited."
+    }
+  ]
+}
