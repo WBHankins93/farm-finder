@@ -1,0 +1,43 @@
+{
+  "state": "NH",
+  "name": "New Hampshire",
+  "region": "northeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "nhsrc-csa-directory",
+      "name": "New Hampshire Department of Agriculture — CSA Directory",
+      "url": "https://www.agriculture.nh.gov/farms-businesses/agricultural-development/find-nh-agriculture/csa-directory",
+      "adapter": "html_table",
+      "notes": "Official statewide CSA farm directory."
+    },
+    {
+      "id": "nhsrc-usfarmtrail",
+      "name": "U.S. Farm Trail — New Hampshire",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=new-hampshire",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "nhsrc-eatwild",
+      "name": "EatWild — New Hampshire",
+      "url": "https://www.eatwild.com/products/newhampshire.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory."
+    },
+    {
+      "id": "nhsrc-pickyourown",
+      "name": "PickYourOwn — New Hampshire",
+      "url": "https://www.pickyourown.org/NH.htm",
+      "adapter": "html_table",
+      "notes": "Statewide U-pick discovery index."
+    },
+    {
+      "id": "nhsrc-localharvest",
+      "name": "LocalHarvest — New Hampshire",
+      "url": "https://www.localharvest.org/new-hampshire/",
+      "adapter": "html_table",
+      "notes": "Best-effort collection; skipped gracefully if rate-limited."
+    }
+  ]
+}
