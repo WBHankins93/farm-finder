@@ -38,6 +38,14 @@ const matchesGuide = (farm, guideId) => {
   const hay = `${farm.productsText} ${farm.category} ${farm.notes}`.toLowerCase();
   return guide.tokens.some((t) => hay.includes(t));
 };
+const currentQuery = () => ($("#home-search").value || "").trim().toLowerCase();
+const matchesFilters = (farm) => {
+  if (!matchesGuide(farm, activeGuide)) return false;
+  const q = currentQuery();
+  if (!q) return true;
+  const hay = `${farm.name} ${farm.productsText} ${farm.city} ${farm.parish} ${farm.region} ${farm.notes}`.toLowerCase();
+  return hay.includes(q);
+};
 const summary = (f) =>
   `${f.name} is listed as a ${f.category.toLowerCase()} producer in ${f.city}, ${f.state}. Known products include ${f.productsText}.` +
   (f.marketPresence ? ` Customers connect through ${f.marketPresence.toLowerCase()}.` : "");
@@ -142,17 +150,42 @@ function farmCard(f, { compact } = {}) {
 function renderFeatured() {
   const list = $("#featured-list");
   list.innerHTML = "";
-  const q = $("#home-search").value.trim().toLowerCase();
-  const pool = farms.filter((f) => {
-    const hay = `${f.name} ${f.productsText} ${f.city} ${f.parish} ${f.region} ${f.notes}`.toLowerCase();
-    return matchesGuide(f, activeGuide) && (!q || hay.includes(q));
-  });
+  const pool = farms.filter(matchesFilters);
   const featured = [...pool].sort((a, b) => Number(b.hasWebsite) - Number(a.hasWebsite) || Number(b.farmersMarket) - Number(a.farmersMarket)).slice(0, 6);
   $("#featured-count").textContent = `${pool.length} match${pool.length === 1 ? "" : "es"}`;
   featured.forEach((f) => list.appendChild(farmCard(f)));
+  if (pool.length > featured.length) {
+    const more = document.createElement("button");
+    more.className = "see-all";
+    more.textContent = `See all ${pool.length} on the map →`;
+    more.onclick = () => go("explore");
+    list.appendChild(more);
+  }
+  if (pool.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "empty-note";
+    empty.textContent = "No farms match that search yet — try a broader product or place.";
+    list.appendChild(empty);
+  }
 }
-$("#home-search").addEventListener("input", renderFeatured);
-$("#home-search-go").addEventListener("click", renderFeatured);
+function onSearchChange() {
+  renderFeatured();
+  if (mapReady) refreshMapData();
+  renderCarousel();
+  updateQueryChip();
+}
+function updateQueryChip() {
+  const chip = $("#map-query");
+  const q = currentQuery();
+  chip.hidden = !q;
+  if (q) chip.textContent = `Search: “${q}” ✕`;
+}
+$("#map-query").addEventListener("click", () => {
+  $("#home-search").value = "";
+  onSearchChange();
+});
+$("#home-search").addEventListener("input", onSearchChange);
+$("#home-search-go").addEventListener("click", () => go("explore"));
 
 /* ---------- saved ---------- */
 function toggleSave(id) {
@@ -182,7 +215,7 @@ function geojson() {
   return {
     type: "FeatureCollection",
     features: farms
-      .filter((f) => f.latitude && f.longitude && matchesGuide(f, activeGuide))
+      .filter((f) => f.latitude && f.longitude && matchesFilters(f))
       .map((f) => ({
         type: "Feature",
         geometry: { type: "Point", coordinates: [f.longitude, f.latitude] },
@@ -254,7 +287,7 @@ function selectFarm(id, { fly = true } = {}) {
 function renderCarousel() {
   const el = $("#map-carousel");
   el.innerHTML = "";
-  farms.filter((f) => matchesGuide(f, activeGuide) && f.latitude).slice(0, 40).forEach((f) => {
+  farms.filter((f) => matchesFilters(f) && f.latitude).slice(0, 40).forEach((f) => {
     const card = farmCard(f, { compact: true });
     // First tap selects + flies to the pin; "Details →" (or a second tap) opens the sheet.
     card.addEventListener("click", (e) => {

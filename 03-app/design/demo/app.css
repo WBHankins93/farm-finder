@@ -165,6 +165,11 @@ body {
 .card-more { align-self: flex-start; margin-top: 2px; border: 0; background: none; cursor: pointer;
   font: 700 13px var(--font-display); color: var(--awning-600); padding: 4px 0; }
 
+.see-all { border: 1.5px dashed var(--kraft-300); background: var(--cream-100); border-radius: var(--r-pill);
+  padding: 13px; font: 700 13.5px var(--font-display); color: var(--awning-600); cursor: pointer; }
+.see-all:active { border-color: var(--awning-600); }
+.empty-note { font-size: 13.5px; color: var(--soil-600); padding: 16px 4px; }
+
 .stats-band {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;
   background: var(--kraft-100); border: 1.5px dashed var(--kraft-300);
@@ -180,6 +185,9 @@ body {
 #map { position: absolute; inset: 0; }
 .map-top { position: absolute; top: max(20px, calc(env(safe-area-inset-top) + 10px)); left: 0; right: 0; z-index: 5; padding: 0 14px; }
 .map-chips .h-chip { box-shadow: var(--shadow-1); }
+.map-query { margin: 8px 2px 0; border: 0; border-radius: var(--r-pill); padding: 9px 15px;
+  background: var(--tomato-500); color: #fff; font: 700 12.5px var(--font-display);
+  box-shadow: var(--shadow-1); cursor: pointer; }
 .map-carousel {
   position: absolute; left: 0; right: 0; bottom: 106px; z-index: 5;
   display: flex; gap: 12px; overflow-x: auto; padding: 8px 16px;
