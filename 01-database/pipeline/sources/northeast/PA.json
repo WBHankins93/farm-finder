@@ -1,0 +1,43 @@
+{
+  "state": "PA",
+  "name": "Pennsylvania",
+  "region": "northeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "pasrc-pa-preferred",
+      "name": "Pennsylvania Department of Agriculture — PA Preferred",
+      "url": "https://www.papreferred.com/",
+      "adapter": "html_table",
+      "notes": "Official statewide agricultural products directory."
+    },
+    {
+      "id": "pasrc-usfarmtrail",
+      "name": "U.S. Farm Trail — Pennsylvania",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=pennsylvania",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "pasrc-eatwild",
+      "name": "EatWild — Pennsylvania",
+      "url": "https://www.eatwild.com/products/pennsylvania.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory."
+    },
+    {
+      "id": "pasrc-pickyourown",
+      "name": "PickYourOwn — Pennsylvania",
+      "url": "https://www.pickyourown.org/PA.htm",
+      "adapter": "html_table",
+      "notes": "Statewide U-pick discovery index."
+    },
+    {
+      "id": "pasrc-localharvest",
+      "name": "LocalHarvest — Pennsylvania",
+      "url": "https://www.localharvest.org/pennsylvania/",
+      "adapter": "html_table",
+      "notes": "Best-effort collection; skipped gracefully if rate-limited."
+    }
+  ]
+}
