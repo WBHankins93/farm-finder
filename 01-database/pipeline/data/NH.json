@@ -318,9 +318,14 @@
     "region": "northeast",
     "county": "",
     "city": "Walpole",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "strawberries",
+      "blueberries"
+    ],
+    "products_text": "Other: Vegetables, herbs, strawberries, blueberries",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -331,9 +336,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "603-209-7100",
+      "email": "brucebickford65@aol.com",
+      "address": "188 Upper Walpole Road, Walpole, New Hampshire, 03608",
       "public": false
     },
     "geo": {
@@ -474,9 +479,13 @@
     "region": "northeast",
     "county": "",
     "city": "Concord",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Urban Farm",
+    "products": [
+      "Other: Vegetables",
+      "microgreens",
+      "small fruit"
+    ],
+    "products_text": "Other: Vegetables, microgreens, small fruit",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -487,9 +496,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "(603) 545-8660",
+      "email": "generationfarmnh@gmail.com",
+      "address": "44 Graham Road, Concord, New Hampshire, 03301",
       "public": false
     },
     "geo": {
@@ -902,10 +911,20 @@
     "state": "NH",
     "region": "northeast",
     "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "city": "Lee",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Hay",
+      "pasture",
+      "corn",
+      "vegetables",
+      "herbs",
+      "peaches",
+      "blueberries",
+      "raspberries",
+      "& strawberries"
+    ],
+    "products_text": "Other: Hay, pasture, corn, vegetables, herbs, peaches, blueberries, raspberries, & strawberries",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -916,9 +935,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "603-868-1822",
+      "email": "tuckawayfarm@comcast.net",
+      "address": "36 Captain Smith Emerson Road, Lee, New Hampshire, 03861",
       "public": false
     },
     "geo": {
@@ -1019,11 +1038,35 @@
     "state": "NH",
     "region": "northeast",
     "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "city": "Hooksett",
+    "category": "Produce",
+    "products": [
+      "Other: Apple",
+      "Baby's Breath",
+      "Beet",
+      "Blackberry",
+      "Blueberry",
+      "Carrot",
+      "Cucumber",
+      "Dahlia",
+      "Eggplant",
+      "Fallow",
+      "Garlic",
+      "Ginger",
+      "Goji",
+      "Gooseberry",
+      "Grape",
+      "Green bean",
+      "Ground cherry",
+      "Kale",
+      "Lettuce",
+      "Lettuce_Loose Leaf",
+      "Lettuce_Romaine",
+      "Miscellaneous Flowers",
+      "Miscellan"
+    ],
+    "products_text": "Other: Apple, Baby's Breath, Beet, Blackberry, Blueberry, Carrot, Cucumber, Dahlia, Eggplant, Fallow, Garlic, Ginger, Goji, Gooseberry, Grape, Green bean, Ground cherry, Kale, Lettuce, Lettuce_Loose Leaf, Lettuce_Romaine, Miscellaneous Flowers, Miscellan",
+    "website": "http://hippeasfarm.com/",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -1033,10 +1076,10 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
+      "phone": "(603) 785-9510",
+      "email": "danb@hippeasfarm.com",
+      "address": "191 West River Road, Hooksett, New Hampshire, 03106",
+      "public": true
     },
     "geo": {
       "latitude": 43.0615375,
@@ -1097,10 +1140,19 @@
     "state": "NH",
     "region": "northeast",
     "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "city": "Weare",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings (vegetables",
+      "herbs & flowers)",
+      "potted plants (herbs & flowers) vegetables",
+      "herbs",
+      "flowers",
+      "peaches",
+      "apples",
+      "& strawberries"
+    ],
+    "products_text": "Other: Seedlings (vegetables, herbs & flowers), potted plants (herbs & flowers) vegetables, herbs, flowers, peaches, apples, & strawberries",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -1111,9 +1163,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "(603) 529-2170",
+      "email": "dtrumble@anselm.edu",
+      "address": "52 Poor Farm Rd, Weare, New Hampshire, 03281",
       "public": false
     },
     "geo": {
@@ -1761,9 +1813,15 @@
     "region": "northeast",
     "county": "",
     "city": "Brentwood",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings",
+      "vegetables",
+      "herbs",
+      "peaches",
+      "blueberries"
+    ],
+    "products_text": "Other: Seedlings, vegetables, herbs, peaches, blueberries",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -1774,9 +1832,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "(603) 340-0571",
+      "email": "stoutoakfarm@gmail.com",
+      "address": "83 Middle Road, Brentwood, New Hampshire, 03883",
       "public": false
     },
     "geo": {
@@ -1800,9 +1858,33 @@
     "region": "northeast",
     "county": "",
     "city": "Canterbury",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings",
+      "vegetables (tomatoes",
+      "eggplant",
+      "onions",
+      "watermelon",
+      "summer squash",
+      "cucumbers",
+      "winter squash",
+      "zucchini",
+      "kale",
+      "broccoli",
+      "brussels sprouts",
+      "swiss chard",
+      "cabbage",
+      "lettuce",
+      "green beans",
+      "herbs",
+      "beets",
+      "carrots",
+      "leeks",
+      "parsnips",
+      "daikon",
+      "radishe"
+    ],
+    "products_text": "Other: Seedlings, vegetables (tomatoes, eggplant, onions, watermelon, summer squash, cucumbers, winter squash, zucchini, kale, broccoli, brussels sprouts, swiss chard, cabbage, lettuce, green beans, herbs, beets, carrots, leeks, parsnips, daikon, radishe",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -1813,9 +1895,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(603) 742-4084",
       "email": "",
-      "address": "",
+      "address": "250 West Road, Canterbury, New Hampshire, 03224",
       "public": false
     },
     "geo": {
@@ -1995,9 +2077,16 @@
     "region": "northeast",
     "county": "",
     "city": "Rollinsford",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings",
+      "vegetables",
+      "herbs",
+      "hay",
+      "pasture",
+      "silage"
+    ],
+    "products_text": "Other: Seedlings, vegetables, herbs, hay, pasture, silage",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -2008,9 +2097,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "(603) 988-4898",
+      "email": "brandmoorefarm@gmail.com",
+      "address": "70 Sligo Rd, Rollinsford, New Hampshire, 03869",
       "public": false
     },
     "geo": {
@@ -3047,10 +3136,12 @@
     "state": "NH",
     "region": "northeast",
     "county": "",
-    "city": "",
+    "city": "Goffstown",
     "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "products": [
+      "Other: Hay & pasture"
+    ],
+    "products_text": "Other: Hay & pasture",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -3061,9 +3152,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "(603) 801-6839",
+      "email": "max@benediktdairy.com",
+      "address": "97 Shirley Hill Rd, Goffstown, New Hampshire, 03055",
       "public": false
     },
     "geo": {
@@ -4609,8 +4700,11 @@
     "county": "",
     "city": "Lebanon",
     "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "products": [
+      "Other: Maple Sap",
+      "Maple Syrup"
+    ],
+    "products_text": "Other: Maple Sap, Maple Syrup",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -4621,9 +4715,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(603)-448-4130",
       "email": "",
-      "address": "",
+      "address": "40 Patch Road, Lebanon, New Hampshire, 3766",
       "public": false
     },
     "geo": {
@@ -5115,10 +5209,14 @@
     "region": "northeast",
     "county": "",
     "city": "Strafford",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Produce",
+    "products": [
+      "Fruit Vegetables: Tomatoes",
+      "Fruit - Berries: Strawberries",
+      "Field/Forageable: Corn"
+    ],
+    "products_text": "Fruit Vegetables: Tomatoes; Fruit - Berries: Strawberries; Field/Forageable: Corn",
+    "website": "www.eastwindfarm.wordpress.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -5128,10 +5226,10 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
+      "phone": "603-269-6203",
+      "email": "eastwindfarm2009@gmail.com",
+      "address": "120 Perry Rd., Strafford, New Hampshire, 03884",
+      "public": true
     },
     "geo": {
       "latitude": 43.307552996,
@@ -5233,8 +5331,10 @@
     "county": "",
     "city": "Contoocook",
     "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "products": [
+      "Other: Blueberries"
+    ],
+    "products_text": "Other: Blueberries",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -5245,9 +5345,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "603-748-2240",
+      "email": "davidmiller1960@gmail.com",
+      "address": "289 Maple Street, Contoocook, New Hampshire, 03229",
       "public": false
     },
     "geo": {
@@ -8352,9 +8452,14 @@
     "region": "northeast",
     "county": "",
     "city": "Bradford",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables",
+      "apples",
+      "peaches",
+      "blueberries"
+    ],
+    "products_text": "Other: Vegetables, apples, peaches, blueberries",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -8365,9 +8470,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "(603) 491-1329",
+      "email": "dtroy@rusticcrust.com",
+      "address": "330 Cressy Rd, Bradford, New Hampshire, 03221",
       "public": false
     },
     "geo": {
@@ -8704,8 +8809,10 @@
     "county": "",
     "city": "Epping",
     "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "products": [
+      "Other: Blueberries"
+    ],
+    "products_text": "Other: Blueberries",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -8716,9 +8823,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "603-734-2117",
+      "email": "info@inkwellfarm.com",
+      "address": "106 Hedding Road, Epping, New Hampshire, 03042",
       "public": false
     },
     "geo": {
@@ -10614,9 +10721,15 @@
     "region": "northeast",
     "county": "",
     "city": "Keene",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Organic hay",
+      "pasture",
+      "vegetables",
+      "herbs",
+      "and strawberries. 59.5 acres in hay and pasture. 2 acres in field crops"
+    ],
+    "products_text": "Other: Organic hay, pasture, vegetables, herbs, and strawberries. 59.5 acres in hay and pasture. 2 acres in field crops.",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -10627,9 +10740,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "(603) 357-7278",
+      "email": "mdaniels@stonewallfarm.org, hmason@stonewallfarm.org",
+      "address": "242 Chesterfield Rd, Keene, New Hampshire, 03431",
       "public": false
     },
     "geo": {
@@ -10731,10 +10844,16 @@
     "region": "northeast",
     "county": "",
     "city": "Stewartstown",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "apples",
+      "blueberries",
+      "blackberries"
+    ],
+    "products_text": "Other: Vegetables, herbs, apples, blueberries, blackberries",
+    "website": "www.applehavenfarm.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -10744,10 +10863,10 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
+      "phone": "(603) 246-3438",
+      "email": "info@applehavenfarm.com",
+      "address": "829 Piper Hill Road, Stewartstown, New Hampshire, 03576",
+      "public": true
     },
     "geo": {
       "latitude": 44.971666003,
@@ -12291,9 +12410,17 @@
     "region": "northeast",
     "county": "",
     "city": "Peterborough",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings (herbs",
+      "vegetables",
+      "flowers)",
+      "potted plants (flowers)",
+      "flowers",
+      "blueberries",
+      "raspberries"
+    ],
+    "products_text": "Other: Seedlings (herbs, vegetables, flowers), potted plants (flowers), vegetables, flowers, blueberries, raspberries",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -12304,9 +12431,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "(603) 924-7772",
+      "email": "office@rosalysgarden.com",
+      "address": "63 Elm Hill Road, Peterborough, New Hampshire, 03458",
       "public": false
     },
     "geo": {
@@ -15372,9 +15499,13 @@
     "region": "northeast",
     "county": "",
     "city": "Danbury",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "blueberries"
+    ],
+    "products_text": "Other: Vegetables, herbs, blueberries",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -15385,9 +15516,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "603-748-8744",
+      "email": "sean@goodenoughfarmNH.com",
+      "address": "554 Walker Brook Rd, Danbury, New Hampshire, 03230",
       "public": false
     },
     "geo": {
@@ -16699,8 +16830,10 @@
     "county": "",
     "city": "Charlestown",
     "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "products": [
+      "Other: Maple Syrup (Organic Maple Sap Only)"
+    ],
+    "products_text": "Other: Maple Syrup (Organic Maple Sap Only)",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -16711,9 +16844,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
+      "phone": "603-728-7297",
+      "email": "dtbonly@gmail.com",
+      "address": "1462 South Hemlock Road, Charlestown, New Hampshire, 03603",
       "public": false
     },
     "geo": {
@@ -17193,6 +17326,3638 @@
     "provenance": {
       "source": "U.S. Farm Trail — New Hampshire",
       "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=new-hampshire",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "callie-s-creamery-nh",
+    "name": "Callie's Creamery",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Peterborough",
+    "category": "Mixed",
+    "products": [
+      "Other: Organic hay and pasture"
+    ],
+    "products_text": "Other: Organic hay and pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-547-7246",
+      "email": "robin@calliescreamery.com",
+      "address": "100 Old Jaffrey Road, Peterborough, New Hampshire, 03458",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.85646129,
+      "longitude": -71.96800583,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "flying-cloud-dairy-llc-nh",
+    "name": "Flying Cloud Dairy, LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Alstead",
+    "category": "Mixed",
+    "products": [
+      "Other: Organic Hay and Pasture"
+    ],
+    "products_text": "Other: Organic Hay and Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 835-2519",
+      "email": "bjahos@comcast.net",
+      "address": "426 Hill Road, Alstead, New Hampshire, 03602",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.12691209,
+      "longitude": -72.34365383,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "willoughby-farm-nh",
+    "name": "Willoughby Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Kensington",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables"
+    ],
+    "products_text": "Other: Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 772-5538",
+      "email": "willoughbyfarm@myfairpoint.net",
+      "address": "16 Shaws Hill Road, Kensington, New Hampshire, 03833",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.94630329,
+      "longitude": -70.96017484,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "maple-mills-llc-nh",
+    "name": "Maple Mills LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Lancaster",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple sap"
+    ],
+    "products_text": "Other: Maple sap",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-991-8267",
+      "email": "maplemillsllc@yahoo.com",
+      "address": "46 Cathedral Rd, Lancaster, New Hampshire, 03584",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.47386049,
+      "longitude": -71.56086706,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bascom-maple-farms-inc-nh",
+    "name": "Bascom Maple Farms, Inc.",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Alstead",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Sap"
+    ],
+    "products_text": "Other: Maple Sap",
+    "website": "www.coombsfamilyfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "56 Sugar House Road, Alstead, New Hampshire, 03602",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.20764583,
+      "longitude": -72.33224346,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "quarter-moon-farm-nh",
+    "name": "Quarter Moon Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Hancock",
+    "category": "Mixed",
+    "products": [
+      "Other: Garlic Only"
+    ],
+    "products_text": "Other: Garlic Only",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-731-1888",
+      "email": "cindycollard@gmail.com",
+      "address": "83 Cavender Road, Hancock, New Hampshire, 03449",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.94196414,
+      "longitude": -71.95268469,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "new-roots-farm-llc-nh",
+    "name": "New Roots Farm, LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Newmarket",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings (vegetables",
+      "herbs",
+      "flowers)"
+    ],
+    "products_text": "Other: Seedlings (vegetables, herbs, flowers)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 292-5902",
+      "email": "farmers@newrootsfarm.com",
+      "address": "31 Doe Farm Lane, Newmarket, New Hampshire, 03857",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.07133369,
+      "longitude": -71.00171361,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "e-r-dairy-farm-nh",
+    "name": "E&R Dairy Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Jefferson",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay and Pasture"
+    ],
+    "products_text": "Other: Hay and Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 586-7000",
+      "email": "lalumiere@myfairpoint.net",
+      "address": "516 Meadows Rd, Jefferson, New Hampshire, 03583",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.37810256,
+      "longitude": -71.47302571,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mivida-gardens-nh",
+    "name": "Mivida Gardens",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Silver Lake",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings",
+      "vegetables",
+      "herbs",
+      "flowers"
+    ],
+    "products_text": "Other: Seedlings, vegetables, herbs, flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 367-8419",
+      "email": "farmers@mividagardens.com",
+      "address": "274 Savary Road, Silver Lake, New Hampshire, 03949",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.91274622,
+      "longitude": -71.21533453,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fletcher-farms-nh",
+    "name": "Fletcher Farms",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Walpole",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay and pasture"
+    ],
+    "products_text": "Other: Hay and pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 756-4230",
+      "email": "bradley@fletcherfarms.net",
+      "address": "181 Maple Grove Rd, Walpole, New Hampshire, 03608",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.06807502,
+      "longitude": -72.40371494,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hy-gait-dairy-farm-nh",
+    "name": "Hy-Gait Dairy Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Newport",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay & pasture"
+    ],
+    "products_text": "Other: Hay & pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 477-9215",
+      "email": "m_newcomb_23@hotmail.com",
+      "address": "334 Barton Whitney Road, Newport, New Hampshire, 03773",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.38763926,
+      "longitude": -72.24399356,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "maple-hill-farm-nh",
+    "name": "Maple Hill Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Monroe",
+    "category": "Produce",
+    "products": [
+      "Other: Hay and pasture"
+    ],
+    "products_text": "Other: Hay and pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 991-7917",
+      "email": "marxcow@yahoo.com",
+      "address": "2445 Littleton Road, Monroe, New Hampshire, 03771",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.3018929,
+      "longitude": -72.00658105,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "nye-hill-farm-nh",
+    "name": "Nye Hill Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Roxbury",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Fruit",
+      "Hay",
+      "Herbs",
+      "Hops",
+      "Oats",
+      "Seedlings",
+      "Spelt",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Fruit, Hay, Herbs, Hops, Oats, Seedlings, Spelt, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-203-1494",
+      "email": "",
+      "address": "250 Middletown Rd, Roxbury, New Hampshire, 03431",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.94119608,
+      "longitude": -72.22579689,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "savage-dairy-farm-nh",
+    "name": "Savage Dairy Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Lancaster",
+    "category": "Mixed",
+    "products": [
+      "Other: Pasture (Hay",
+      "pasture",
+      "& forages)"
+    ],
+    "products_text": "Other: Pasture (Hay, pasture, & forages)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 631-4423",
+      "email": "bsavage62@yahoo.com",
+      "address": "290 North Road, Lancaster, New Hampshire, 03584",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.47968232,
+      "longitude": -71.53505634,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "moonstone-farm-nh",
+    "name": "Moonstone Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Newbury",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay and pasture"
+    ],
+    "products_text": "Other: Hay and pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 763-5176",
+      "email": "dan@hodan.com",
+      "address": "253 Bowles Road, Newbury, New Hampshire, 03255",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.36532224,
+      "longitude": -72.04471167,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "producer-baird-swift-nh",
+    "name": "Producer: Baird Swift",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Claremont",
+    "category": "Mixed",
+    "products": [
+      "Other: Balage (wrapped bales)",
+      "Hay (dry round bales)",
+      "Hay (dry square bales)",
+      "Pasture"
+    ],
+    "products_text": "Other: Balage (wrapped bales),Hay (dry round bales),Hay (dry square bales),Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "30 Tengren Ave, Claremont, New Hampshire, 03743",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.35191535,
+      "longitude": -72.36414429,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "winsome-farm-organics-nh",
+    "name": "Winsome Farm Organics",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Piermont",
+    "category": "Mixed",
+    "products": [
+      "Other: Organic hay & pasture"
+    ],
+    "products_text": "Other: Organic hay & pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 667-0097",
+      "email": "glen@winsomefarmorganics.com",
+      "address": "529 Rt 10, Piermont, New Hampshire, 03779",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.02062221,
+      "longitude": -72.07006124,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brookfield-farm-nh",
+    "name": "Brookfield Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Walpole",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay and pasture"
+    ],
+    "products_text": "Other: Hay and pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603)454-5104",
+      "email": "cdgowdyco@myfairpoint.net",
+      "address": "460 Old Drewsville Road, Walpole, New Hampshire, 03608",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.11276649,
+      "longitude": -72.41205599,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hodge-farm-nh",
+    "name": "Hodge Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Stewartstown",
+    "category": "Mixed",
+    "products": [
+      "Other: Organic hay",
+      "pasture & forages"
+    ],
+    "products_text": "Other: Organic hay, pasture & forages",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 237-8807",
+      "email": "",
+      "address": "875 Hollow Road, Stewartstown, New Hampshire, 03576",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.98249439,
+      "longitude": -71.43100917,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "heath-s-greenhouse-nursery-and-farm-nh",
+    "name": "Heath's Greenhouse, Nursery and Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Sugar Hill",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings (vegetables",
+      "herbs & flowers)",
+      "Potted Plants (from bare root stock)"
+    ],
+    "products_text": "Other: Seedlings (vegetables, herbs & flowers), Potted Plants (from bare root stock)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-823-8500",
+      "email": "heathsorganics@gmail.com",
+      "address": "750 Route 18, Sugar Hill, New Hampshire, 03586",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.25367719,
+      "longitude": -71.76165655,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "new-earth-organic-farm-nh",
+    "name": "New Earth Organic Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Colebrook",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Maple Syrup",
+      "Vegetables",
+      "herbs",
+      "apples",
+      "strawberries",
+      "blueberries",
+      "raspberries",
+      "shiitake mushrooms",
+      "winecap mushrooms"
+    ],
+    "products_text": "Other: Maple Syrup, Vegetables, herbs, apples, strawberries, blueberries, raspberries, shiitake mushrooms, winecap mushrooms",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 915-0769",
+      "email": "pierremiron54@hotmail.com",
+      "address": "85B Angels Rd, Colebrook, New Hampshire, 03675",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.93385923,
+      "longitude": -71.47732599,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gingue-farm-nh",
+    "name": "Gingue Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "N. Stratford",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay and pasture"
+    ],
+    "products_text": "Other: Hay and pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 636-2634",
+      "email": "",
+      "address": "Us Rte 3 #631, N. Stratford, New Hampshire, 03590",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.75143347,
+      "longitude": -71.62874945,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "heath-s-greenhouse-nursery-farm-nh",
+    "name": "Heath's Greenhouse, Nursery & Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Sugar Hill",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-823-8500",
+      "email": "heathsorganics@gmail.com",
+      "address": "750 Route 18, Sugar Hill, New Hampshire, 03586",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.25367719,
+      "longitude": -71.76165655,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pleasant-view-farm-nh",
+    "name": "Pleasant View Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Monroe",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 259-6107",
+      "email": "",
+      "address": "3736 Monroe Road, Monroe, New Hampshire, 03771",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.68805598,
+      "longitude": -112.1216097,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "vegetable-ranch-llc-nh",
+    "name": "Vegetable Ranch LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Warner",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables & herbs (Lettuce",
+      "Kale",
+      "Swiss Chard",
+      "Beets",
+      "Cucumbers",
+      "Zucchini",
+      "Yellow summer squash",
+      "Bok Choi",
+      "Napa cabbage",
+      "Escarole",
+      "Radicchio",
+      "Radish)"
+    ],
+    "products_text": "Other: Vegetables & herbs (Lettuce, Kale, Swiss Chard, Beets, Cucumbers, Zucchini, Yellow summer squash, Bok Choi, Napa cabbage, Escarole, Radicchio, Radish)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-496-6391",
+      "email": "vegetableranch@gmail.com",
+      "address": "443 Kearsarge Mountain Road, Warner, New Hampshire, 03278",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.3082925,
+      "longitude": -71.83223245,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tom-giovagnoli-nh",
+    "name": "Tom Giovagnoli",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Boscawen",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-344-1508",
+      "email": "kevin@peteandgerrys.com",
+      "address": "468 High St, Boscawen, New Hampshire, 03771",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.36633029,
+      "longitude": -71.68692718,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "giovagnoli-farm-nh",
+    "name": "Giovagnoli Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Boscowen",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-244-1508",
+      "email": "",
+      "address": "468 High Street, Boscowen, New Hampshire, 03303",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.36633029,
+      "longitude": -71.68692718,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pete-gerry-s-organic-eggs-home-farm-nh",
+    "name": "Pete & Gerry's Organic Eggs (Home Farm)",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Monroe",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-638-2050",
+      "email": "kevin@peteandgerrys.com",
+      "address": "140 Buffum Rd., Monroe, New Hampshire, 03771",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.30466211,
+      "longitude": -72.02178816,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "clyde-farm-nh",
+    "name": "Clyde Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Brentwood",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables",
+      "flowers",
+      "garlic"
+    ],
+    "products_text": "Other: Vegetables, flowers, garlic",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "707-931-8648",
+      "email": "jimi@clydefarm.com",
+      "address": "83 Middle Road, Brentwood, New Hampshire, 03833",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.996789,
+      "longitude": -71.019333,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "river-valley-farm-nh",
+    "name": "River Valley Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Haverhill",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "jesse@peteandgerrys.com",
+      "address": "260 Lummoxville Road, Haverhill, New Hampshire, 03771",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.03110647,
+      "longitude": -72.04724417,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "unh-organic-dairy-research-farm-nh",
+    "name": "UNH Organic Dairy Research Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Lee",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 659-2121",
+      "email": "ryan.courtright@unh.edu",
+      "address": "216 Lee Hook Rd, Lee, New Hampshire, 03861",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.10014135,
+      "longitude": -70.99134783,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dartmouth-organic-farm-nh",
+    "name": "Dartmouth Organic Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Hanover",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "flowers"
+    ],
+    "products_text": "Other: Vegetables, herbs, flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "952-380-7053",
+      "email": "laura.m.braash@dartmouth.edu",
+      "address": "102 Lyme Rd, Hanover, New Hampshire, 03755",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.73814434,
+      "longitude": -72.24839674,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "work-song-farm-nh",
+    "name": "Work Song Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Hopkinton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "flowers",
+      "strawberries"
+    ],
+    "products_text": "Other: Vegetables, herbs, flowers, strawberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 219-0297",
+      "email": "worksongfarm@gmail.com",
+      "address": "124 Beech Hill Road, Hopkinton, New Hampshire, 03229",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.20157544,
+      "longitude": -71.63265556,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "meadow-view-sugarhouse-nh",
+    "name": "Meadow View Sugarhouse",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Union",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Syrup (Maple Syrup",
+      "Maple Cream",
+      "Maple Candy",
+      "Maple Sugar)"
+    ],
+    "products_text": "Other: Maple Syrup (Maple Syrup, Maple Cream, Maple Candy, Maple Sugar)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-842-0416",
+      "email": "mvsugarhouse@gmail.com",
+      "address": "141 Wakefield Rd, Union, New Hampshire, 03887",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.50168428,
+      "longitude": -71.02569706,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "slopeside-farm-llc-nh",
+    "name": "Slopeside Farm LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Lancaster",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings (vegetables",
+      "herbs",
+      "flowers)",
+      "Vegetables"
+    ],
+    "products_text": "Other: Seedlings (vegetables, herbs, flowers), Vegetables, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "617-529-1332",
+      "email": "slopesidefarmnh@gmail.com",
+      "address": "148 Stebbins Hill Road, Lancaster, New Hampshire, 03584",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.45897156,
+      "longitude": -71.60369415,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "marion-m-ingoldsby-revocable-trust-nh",
+    "name": "Marion M. Ingoldsby Revocable Trust",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Acworth",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Syrup (Organic Maple Sap Only)"
+    ],
+    "products_text": "Other: Maple Syrup (Organic Maple Sap Only)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-381-0144",
+      "email": "berylmtnviewfarm@comcast.net",
+      "address": "149 Milliken Brook Road, Acworth, New Hampshire, 03602",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.19427939,
+      "longitude": -72.30461084,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "langford-homestead-farm-nh",
+    "name": "Langford Homestead Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Candia",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Organic seedlings",
+      "herbs"
+    ],
+    "products_text": "Other: Organic seedlings, herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-867-7397",
+      "email": "langfordhomesteadfarm@gmail.com",
+      "address": "160 Langford Road, Candia, New Hampshire, 03034",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.04786147,
+      "longitude": -71.24868182,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kearsarge-gore-farm-nh",
+    "name": "Kearsarge Gore Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Warner",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables & herbs"
+    ],
+    "products_text": "Other: Vegetables & herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 456-2319",
+      "email": "kgfarm@tds.net",
+      "address": "173 Gore Road, Warner, New Hampshire, 03278",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.338888,
+      "longitude": -71.8640325,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mountain-heartbeet-llc-nh",
+    "name": "Mountain Heartbeet LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Effingham",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables",
+      "flowers",
+      "raspberries"
+    ],
+    "products_text": "Other: Vegetables, flowers, raspberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-657-6072",
+      "email": "mountainheartbeet@gmail.com",
+      "address": "158 Province Lake Road, Effingham, New Hampshire, 03882",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.78479624,
+      "longitude": -71.01355366,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hop-n-hen-farm-llc-nh",
+    "name": "Hop N Hen Farm LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Henniker",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "apple",
+      "pear",
+      "peach",
+      "plum",
+      "cherry",
+      "raspberries",
+      "blueberries",
+      "microgreens"
+    ],
+    "products_text": "Other: Vegetables, herbs, apple, pear, peach, plum, cherry, raspberries, blueberries, microgreens",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-428-7113",
+      "email": "steve@hopnhenfarm.com",
+      "address": "212 Hemlock Corner Loop, Henniker, New Hampshire, 03242",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.209414,
+      "longitude": -71.807364,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "terra-basics-nh",
+    "name": "Terra Basics",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Chichester",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "flowers",
+      "potted perennials",
+      "blackberries",
+      "blueberries",
+      "strawberries",
+      "elderberries"
+    ],
+    "products_text": "Other: Vegetables, herbs, flowers, potted perennials, blackberries, blueberries, strawberries, elderberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-234-1677",
+      "email": "terrabasicsnh@gmail.com",
+      "address": "21 Healy Pasture Road, Chichester, New Hampshire, 03258",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.29290207,
+      "longitude": -71.36867798,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "willow-hill-farm-nh",
+    "name": "Willow Hill Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Deerfield",
+    "category": "Mixed",
+    "products": [
+      "Other: Hayfields",
+      "pastures"
+    ],
+    "products_text": "Other: Hayfields, pastures",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 731-0419",
+      "email": "willowhillfarm@msn.com",
+      "address": "217 Middle Road, Deerfield, New Hampshire, 03037",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.137477,
+      "longitude": -71.3015685,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "peter-rhoades-nh",
+    "name": "Peter Rhoades",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Alstead",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Syrup (Maple Sap Only)"
+    ],
+    "products_text": "Other: Maple Syrup (Maple Sap Only)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-835-2346",
+      "email": "debmrhoades@gmail.com",
+      "address": "223 Thayer Brook Road, Alstead, New Hampshire, 03602",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.15631384,
+      "longitude": -72.26574745,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "terra-organics-nh",
+    "name": "Terra Organics",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Contoocook",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "apples",
+      "pears",
+      "strawberries",
+      "flowers"
+    ],
+    "products_text": "Other: Vegetables, herbs, apples, pears, strawberries, flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 491-4039",
+      "email": "terraorganicsnh@gmail.com",
+      "address": "198 Tyler Road, Contoocook, New Hampshire, 03229",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.24807543,
+      "longitude": -71.69811765,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stetson-s-farm-nh",
+    "name": "Stetson's Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Lempster, NH 03605",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Products (Maple Syrup",
+      "Maple Cream",
+      "Maple Candy",
+      "Maple Sugar)"
+    ],
+    "products_text": "Other: Maple Products (Maple Syrup, Maple Cream, Maple Candy, Maple Sugar)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 863-5514",
+      "email": "gkstetson@myfairpoint.net",
+      "address": "232 Grandview Road, Lempster, NH 03605, New Hampshire, 03605",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.27083406,
+      "longitude": -72.16893111,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "unh-nh-agricultural-experiment-station-nh",
+    "name": "UNH NH Agricultural Experiment Station",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Durham",
+    "category": "Mixed",
+    "products": [
+      "Other: Hayfields",
+      "pastures"
+    ],
+    "products_text": "Other: Hayfields, pastures",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 862-1169",
+      "email": "john.palmer@unh.com",
+      "address": "287 Mast Rd Extension, Durham, New Hampshire, 03824",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.14375207,
+      "longitude": -70.94260091,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "picadilly-farm-llc-nh",
+    "name": "Picadilly Farm, LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Winchester",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "flowers",
+      "strawberries",
+      "melons"
+    ],
+    "products_text": "Other: Vegetables, herbs, flowers, strawberries, melons",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 239-8718",
+      "email": "bruce@picadillyfarm.com",
+      "address": "264 South Parrish Rd, Winchester, New Hampshire, 03470",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.73786965,
+      "longitude": -72.44899346,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "middle-branch-farm-nh",
+    "name": "Middle Branch Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "New Boston",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "flowers",
+      "hay",
+      "and pasture"
+    ],
+    "products_text": "Other: Vegetables, herbs, flowers, hay, and pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 487-2540",
+      "email": "middlebranchfarm@comcast.net",
+      "address": "280 Colburn Rd, New Boston, New Hampshire, 03070",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.99775949,
+      "longitude": -71.7504886,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "concord-food-coop-organic-gardens-nh",
+    "name": "Concord Food Coop Organic Gardens",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Canterbury",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings",
+      "vegetables",
+      "herbs",
+      "strawberries"
+    ],
+    "products_text": "Other: Seedlings, vegetables, herbs, strawberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-573-8949",
+      "email": "andrew.g.messenger@gmail.com",
+      "address": "288 Shaker Road, Canterbury, New Hampshire, 03224",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.35866884,
+      "longitude": -71.49051374,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "drumlin-farm-nh",
+    "name": "Drumlin Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Kensington",
+    "category": "Produce",
+    "products": [
+      "Other: flowers",
+      "asparagus",
+      "apples",
+      "rhubarb",
+      "strawberries",
+      "raspberries",
+      "quince",
+      "kiwi",
+      "blackberries"
+    ],
+    "products_text": "Other: flowers, asparagus, apples, rhubarb, strawberries, raspberries, quince, kiwi, blackberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 772-2992",
+      "email": "",
+      "address": "27 Amesbury Rd, Kensington, New Hampshire, 03833",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.94683247,
+      "longitude": -70.95635444,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "alfalfa-mist-farm-nh",
+    "name": "Alfalfa Mist Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Piermont",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay & Pasture"
+    ],
+    "products_text": "Other: Hay & Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-728-5904",
+      "email": "",
+      "address": "321 Route 10, Piermont, New Hampshire, 03779",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.99643094,
+      "longitude": -72.07582447,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "clarkridge-farm-nh",
+    "name": "Clarkridge Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Goffstown",
+    "category": "Mixed",
+    "products": [
+      "Other: Pasture"
+    ],
+    "products_text": "Other: Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "31 Martin Farm Road, Goffstown, New Hampshire, 03045",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.05651955,
+      "longitude": -71.59657299,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "thunder-ridge-ranch-nh",
+    "name": "Thunder Ridge Ranch",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Piermont",
+    "category": "Mixed",
+    "products": [
+      "Other: Organic hay and pasture"
+    ],
+    "products_text": "Other: Organic hay and pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 272-5008",
+      "email": "etrapp@charter.net",
+      "address": "354 Route 10, Piermont, New Hampshire, 03779",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.9984521,
+      "longitude": -72.07487899,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "winnipesaukee-woods-farm-nh",
+    "name": "Winnipesaukee Woods Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Alton",
+    "category": "Produce",
+    "products": [
+      "Other: Seedlings",
+      "vegetables"
+    ],
+    "products_text": "Other: Seedlings, vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 855-2093",
+      "email": "woodlandsfarmer@gmail.com",
+      "address": "316 Woodlands Road, Alton, New Hampshire, 03810",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.94035154,
+      "longitude": -68.79005179,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "north-family-farm-nh",
+    "name": "North Family Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Canterbury",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Products (Maple Syrup",
+      "Maple Candy/Cakes)"
+    ],
+    "products_text": "Other: Maple Products (Maple Syrup, Maple Candy/Cakes)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 783-4712",
+      "email": "t-jm@comcast.net",
+      "address": "341 Shaker Rd, Canterbury, New Hampshire, 03307",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.367166,
+      "longitude": -71.489529,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "winter-street-farm-nh",
+    "name": "Winter Street Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Claremont",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Cut Flowers"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Cut Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "719-822-5769",
+      "email": "",
+      "address": "344 Winter Street, Claremont, New Hampshire, 03743",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.39762674,
+      "longitude": -72.3260978,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "shagbark-farm-nh",
+    "name": "Shagbark Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Rochester",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "flowers",
+      "strawberries",
+      "raspberries"
+    ],
+    "products_text": "Other: Vegetables, herbs, flowers, strawberries, raspberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 332-8580",
+      "email": "shagfm@earthlink.net",
+      "address": "39 Bernard Rd, Rochester, New Hampshire, 03868",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.30799366,
+      "longitude": -70.91906746,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "parktown-acres-nh",
+    "name": "Parktown Acres",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Clarksville",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay & pasture"
+    ],
+    "products_text": "Other: Hay & pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 246-7164",
+      "email": "rogsyl@yahoo.com",
+      "address": "355 Clarksville Pond Rd, Clarksville, New Hampshire, 03592",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.99976135,
+      "longitude": -71.39464845,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brookdale-fruit-farm-llc-nh",
+    "name": "Brookdale Fruit Farm, LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Hollis",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables (Potatoes",
+      "Winter Squash)"
+    ],
+    "products_text": "Other: Vegetables (Potatoes, Winter Squash)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 321-3818",
+      "email": "bffoffice@aol.com",
+      "address": "41 Broad Street Rt 130, Hollis, New Hampshire, 03049",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.74224603,
+      "longitude": -71.58358888,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stuart-john-s-sugar-house-llc-nh",
+    "name": "Stuart & John's Sugar House LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Westmoreland",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Syrup"
+    ],
+    "products_text": "Other: Maple Syrup",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 313-9063",
+      "email": "sradams@stuartandjohns.com",
+      "address": "42 Route 63, Westmoreland, New Hampshire, 03467",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.00322649,
+      "longitude": -72.43745757,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "red-gate-garden-nh",
+    "name": "Red Gate Garden",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Loudon",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Potted vegetables",
+      "herbs"
+    ],
+    "products_text": "Other: Potted vegetables, herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603)798-3837",
+      "email": "kthurber10@gmail.com",
+      "address": "415 Bee Hole Road, Loudon, New Hampshire, 03307",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.27256949,
+      "longitude": -71.44110299,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "maple-leaf-farm-nh",
+    "name": "Maple Leaf Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Lyme",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Syrup"
+    ],
+    "products_text": "Other: Maple Syrup",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 643-4868",
+      "email": "richard.menge@gmail.com",
+      "address": "43 Dartmouth College Highway, Lyme, New Hampshire, 03768",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.77152417,
+      "longitude": -72.18557012,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lindon-garlic-farm-llc-nh",
+    "name": "Lindon Garlic Farm, LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Gilmanton",
+    "category": "Mixed",
+    "products": [
+      "Other: Garlic"
+    ],
+    "products_text": "Other: Garlic",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 267-9017",
+      "email": "womack@megatran.com",
+      "address": "46 Dow Rd, Gilmanton, New Hampshire, 03237",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.39661964,
+      "longitude": -71.43700597,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pork-hill-farm-nh",
+    "name": "Pork Hill Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Ossipee",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings",
+      "vegetables",
+      "herbs",
+      "flowers"
+    ],
+    "products_text": "Other: Seedlings, vegetables, herbs, flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 539-5999",
+      "email": "porkhillfarm@gmail.com",
+      "address": "45 Pork Hill Rd, Ossipee, New Hampshire, 03864",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.67603682,
+      "longitude": -71.17964106,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "greenhill-collective-farm-nh",
+    "name": "Greenhill Collective Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Sutton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "apples",
+      "peaches",
+      "flowers",
+      "grapes",
+      "pears",
+      "mushrooms"
+    ],
+    "products_text": "Other: Vegetables, herbs, apples, peaches, flowers, grapes, pears, mushrooms",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 540-1156",
+      "email": "greenhillfarmer@gmail.com",
+      "address": "457 Birch Hill Road, Sutton, New Hampshire, 03273",
+      "public": false
+    },
+    "geo": {
+      "latitude": 46.52082,
+      "longitude": -90.55546,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stockwell-farms-nh",
+    "name": "Stockwell Farms",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Colebrook",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "flowers",
+      "& potted plants (herbs)"
+    ],
+    "products_text": "Other: Vegetables, herbs, flowers, & potted plants (herbs)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 237-5303",
+      "email": "deanastock@aol.com",
+      "address": "457 Diamond Pond Rd, Colebrook, New Hampshire, 03576",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.88255914,
+      "longitude": -71.36299699,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tamarack-farm-nh",
+    "name": "Tamarack Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Acworth",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Syrup (Organic Maple Sap Only)"
+    ],
+    "products_text": "Other: Maple Syrup (Organic Maple Sap Only)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-209-3559",
+      "email": "kristengowen@gmail.com",
+      "address": "513 NH Route 123A, Acworth, New Hampshire, 03602",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.17549832,
+      "longitude": -72.31115263,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "red-manse-farm-nh",
+    "name": "Red Manse Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Loudon",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables",
+      "strawberries",
+      "apples",
+      "pears",
+      "hay",
+      "& pasture"
+    ],
+    "products_text": "Other: Vegetables, strawberries, apples, pears, hay, & pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 435-9943",
+      "email": "earl@redmansefarm.com",
+      "address": "5 Pittsfield Rd, Loudon, New Hampshire, 03307",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.337835,
+      "longitude": -71.396946,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "unh-nhaes-woodman-horticultural-farm-nh",
+    "name": "UNH NHAES Woodman Horticultural Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Durham",
+    "category": "Mixed",
+    "products": [
+      "Other: Strawberries"
+    ],
+    "products_text": "Other: Strawberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 868-2345",
+      "email": "lise.mahoney@unh.edu",
+      "address": "70 Spinney Lane, Durham, New Hampshire, 03824",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.14081427,
+      "longitude": -70.93932393,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mt-cabot-maple-llc-nh",
+    "name": "Mt Cabot Maple, LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Lancaster",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Syrup",
+      "Maple Cream",
+      "Maple Sugar"
+    ],
+    "products_text": "Other: Maple Syrup, Maple Cream, Maple Sugar",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 586-4587",
+      "email": "biff@mountcabotmaple.com",
+      "address": "71 Rowell Road, Lancaster, New Hampshire, 03583",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.49420359,
+      "longitude": -71.47372129,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bagley-pond-farm-nh",
+    "name": "Bagley Pond Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Warner",
+    "category": "Produce",
+    "products": [
+      "Other: Perennial flower seedlings",
+      "potted perennial flowers",
+      "hops"
+    ],
+    "products_text": "Other: Perennial flower seedlings, potted perennial flowers, hops",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-320-0262",
+      "email": "ddalaker@comcast.net",
+      "address": "648 Pumpkin Hill Road, Warner, New Hampshire, 03278",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.316433,
+      "longitude": -71.7941745,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "meriden-hill-maple-farm-llc-nh",
+    "name": "MERIDEN HILL MAPLE FARM LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Lancaster",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Syrup"
+    ],
+    "products_text": "Other: Maple Syrup",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-481-0779",
+      "email": "allen@abexcavatinginc.com",
+      "address": "653 Main St., Lancaster, New Hampshire, 03584",
+      "public": false
+    },
+    "geo": {
+      "latitude": 44.50702921,
+      "longitude": -71.56832217,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "aspen-hill-herb-farm-nh",
+    "name": "Aspen Hill Herb Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "S. Hampton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Seedlings (Vegetables",
+      "herbs",
+      "flowers)"
+    ],
+    "products_text": "Other: Seedlings (Vegetables, herbs, flowers)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 770-1986",
+      "email": "reedad6@comcast.net",
+      "address": "6 Aspen Hill Dr, S. Hampton, New Hampshire, 03827",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.887916,
+      "longitude": -71.0031375,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "three-maple-farms-nh",
+    "name": "Three Maple Farms",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Westmoreland",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay"
+    ],
+    "products_text": "Other: Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-757-3330",
+      "email": "LounsburyJon@gmail.com",
+      "address": "610 Giebe Road, Westmoreland, New Hampshire, 03467",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.94229977,
+      "longitude": -72.4002168,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "three-maples-farm-nh",
+    "name": "Three Maples Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Westmoreland",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay & pasture"
+    ],
+    "products_text": "Other: Hay & pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-757-3330",
+      "email": "LounsburyJon@gmail.com",
+      "address": "610 Glebe Road, Westmoreland, New Hampshire, 03467",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.94229977,
+      "longitude": -72.4002168,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "booty-family-farm-nh",
+    "name": "Booty Family Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Ctr Sandwich",
+    "category": "Mixed",
+    "products": [
+      "Other: Garlic",
+      "strawberries"
+    ],
+    "products_text": "Other: Garlic, strawberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 284-7163",
+      "email": "barlett1978@gmail.com",
+      "address": "610 Mt Israel Road, Ctr Sandwich, New Hampshire, 03227",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.85214579,
+      "longitude": -71.44796818,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-barn-farm-nh",
+    "name": "The Barn Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Rollingsford",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay"
+    ],
+    "products_text": "Other: Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 767-0766",
+      "email": "todd@tradewings.com",
+      "address": "636 Portland Avenue, Rollingsford, New Hampshire, 03869",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.21314014,
+      "longitude": -70.84151263,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "winsome-orchards-nh",
+    "name": "Winsome Orchards",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Piermont",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Pasture"
+    ],
+    "products_text": "Field/Forageable: Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "winsome@sover.net",
+      "address": "81 Moses Hill Rd, Piermont, New Hampshire, 03779",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.97159766,
+      "longitude": -72.03332639,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sentinel-orchard-nh",
+    "name": "Sentinel Orchard",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Piermont",
+    "category": "Mixed",
+    "products": [
+      "Other: Pasture"
+    ],
+    "products_text": "Other: Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-272-5875",
+      "email": "winsome@sover.net",
+      "address": "81 Moses Hill Road, Piermont, New Hampshire, 03779",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.97159766,
+      "longitude": -72.03332639,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "maple-brook-farm-nh",
+    "name": "Maple Brook Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Sutton",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Syrup"
+    ],
+    "products_text": "Other: Maple Syrup",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 456-3106",
+      "email": "raz@mcttelecom.com",
+      "address": "98 Birch Hill Rd, Sutton, New Hampshire, 03278",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.66069476,
+      "longitude": -80.71221743,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stone-wall-farm-nh",
+    "name": "Stone Wall Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Nottingham",
+    "category": "Produce",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Garlic",
+      "Leeks",
+      "Onions",
+      "Potatoes",
+      "Radishes",
+      "Turnips",
+      "Stem Vegetables: Celery",
+      "Rhubarb",
+      "Seed/Pod Vegetables: Beans",
+      "Peas",
+      "Nursery/Starts/Flowers/Trees: Flowers",
+      "other flowers",
+      "other seeds",
+      "seed potatoes",
+      "Leaf Vegetables: Arugu"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Garlic, Leeks, Onions, Potatoes, Radishes, Turnips; Stem Vegetables: Celery, Rhubarb; Seed/Pod Vegetables: Beans, Peas; Nursery/Starts/Flowers/Trees: Flowers, other flowers, other seeds, seed potatoes; Leaf Vegetables: Arugu",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-679-8101",
+      "email": "charliereid@ttlc.net",
+      "address": "97 McCrillis Rd., Nottingham, New Hampshire, 03290",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.11936988,
+      "longitude": -71.06042385,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sample-organic-farm-nh",
+    "name": "Sample Organic Farm",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Organic",
+    "category": "Mixed",
+    "products": [
+      "Other: Organic A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "etc"
+    ],
+    "products_text": "Other: Organic A, B, C, D, E, etc.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-123-1234",
+      "email": "johnsmith@yahoo.com",
+      "address": "123 Organic Way, Organic, New Hampshire, 12345",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.2485074,
+      "longitude": -71.6972568,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "marimark-farms-llc-nh",
+    "name": "Marimark Farms LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Tilton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "herbs",
+      "raspberries",
+      "strawberries"
+    ],
+    "products_text": "Other: Vegetables, herbs, raspberries, strawberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-327-7779",
+      "email": "marimarkfarms@gmail.com",
+      "address": "125 Winter Street, Tilton, New Hampshire, 3276",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.4486939,
+      "longitude": -71.6032663,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cascade-brook-farm-llc-nh",
+    "name": "Cascade Brook Farm LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "North Sutton",
+    "category": "Mixed",
+    "products": [
+      "Other: Organic Pasture"
+    ],
+    "products_text": "Other: Organic Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "603-496-7470",
+      "email": "ed@cascadebrookfarm.com",
+      "address": "96 Baker Road, North Sutton, New Hampshire, 3260",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.381414,
+      "longitude": -71.90556,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mt-cube-farm-llc-nh",
+    "name": "Mt Cube Farm, LLC",
+    "state": "NH",
+    "region": "northeast",
+    "county": "",
+    "city": "Orford",
+    "category": "Mixed",
+    "products": [
+      "Other: Maple Syrup",
+      "Maple Candy",
+      "Maple Sugar"
+    ],
+    "products_text": "Other: Maple Syrup, Maple Candy, Maple Sugar",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(603) 353-4709",
+      "email": "mtcubefarm@gmail.com",
+      "address": "1363 Gov Thomson Hwy, Orford, New Hampshire, 3777",
+      "public": false
+    },
+    "geo": {
+      "latitude": 43.901408,
+      "longitude": -72.0236451,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Hampshire certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Hampshire%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
       "retrieved": "2026-07-19"
     },
     "eligible": true,
