@@ -40,6 +40,20 @@
       "notes": "Every named row under the live county headings was retained."
     },
     {
+      "id": "flsrc-freshfromflorida-agritourism",
+      "name": "Florida Department of Agriculture and Consumer Services — Fresh From Florida agritourism member directory",
+      "url": "https://followfreshfromflorida.com/wp-json/agritourism/getAllAgritourism",
+      "adapter": "api",
+      "notes": "Official Fresh From Florida agritourism endpoint; includes member and Florida Agritourism Association listings with farm names, public websites, cities, and coordinates."
+    },
+    {
+      "id": "flsrc-fdacs-poi-directory",
+      "name": "Florida Department of Agriculture and Consumer Services — official point-of-interest grower directory",
+      "url": "https://ccmedia.fdacs.gov/graphql?query=%7B%20results%3A%20content%20%7B%20items%3A%20pointOfInterests%28first%3A%201000%2C%20query%3A%20%7B%20ContentTypeIdentifier%3A%20%5Bpoint_of_interest%5D%20%7D%29%20%7B%20items%3A%20edges%20%7B%20node%20%7B%20_name%20_url%20address%20city%20county%20eligible%3A%20county%20state%20zip%20phone%20website%20notes%20%7D%20%7D%20%7D%20%7D%20%7D",
+      "adapter": "api",
+      "notes": "Official FDACS content API for published agricultural points of interest; county-bearing profiles include U-pick farms, community markets, and related grower listings."
+    },
+    {
       "id": "flsrc-3e4e5708e5aa",
       "name": "Florida Department of Agriculture and Consumer Services — U-pick farm locator",
       "url": "https://www.fdacs.gov/Consumer-Resources/Buy-Fresh-From-Florida/U-Pick-Farms",
