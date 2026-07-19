@@ -12,6 +12,13 @@
       "notes": "Official state agricultural trademark directory; captured best-effort where public rows are parseable."
     },
     {
+      "id": "kssrc-from-land-of-kansas-seed",
+      "name": "Kansas Department of Agriculture — From the Land of Kansas public members",
+      "adapter": "seed",
+      "path": "seeds/KS.json",
+      "notes": "479 public member names and cities captured from the official state directory on 2026-07-19; producer/entity sorting follows raw collection."
+    },
+    {
       "id": "kssrc-usfarmtrail",
       "name": "U.S. Farm Trail — Kansas",
       "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=kansas",
