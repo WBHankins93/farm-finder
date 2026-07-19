@@ -396,10 +396,29 @@
     "region": "northeast",
     "county": "",
     "city": "Farmington",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
+    "category": "Produce",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Garlic",
+      "Jerusalem Artichokes",
+      "Kohlrabi",
+      "Leeks",
+      "Onions",
+      "Parsnips",
+      "Potatoes",
+      "Radishes",
+      "Scallions",
+      "Turnips",
+      "Stem Vegetables: Celery",
+      "Seed/Pod Vegetables: Beans",
+      "Corn (Sweet)",
+      "Okra",
+      "Peas",
+      "Nursery/Starts/Flowers/Trees: F"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Garlic, Jerusalem Artichokes, Kohlrabi, Leeks, Onions, Parsnips, Potatoes, Radishes, Scallions, Turnips; Stem Vegetables: Celery; Seed/Pod Vegetables: Beans, Corn (Sweet), Okra, Peas; Nursery/Starts/Flowers/Trees: F",
+    "website": "subedgefarm.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -409,10 +428,10 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
+      "phone": "860-816-0913",
+      "email": "hello@subedgefarm.com",
+      "address": "199 Town Farm Road, Farmington, Connecticut, 06032",
+      "public": true
     },
     "geo": {
       "latitude": 41.7284,
@@ -3593,10 +3612,18 @@
     "state": "CT",
     "region": "northeast",
     "county": "",
-    "city": "",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "city": "Ridgefield",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Flowers",
+      "Edible Flowers",
+      "Fruit",
+      "Microgreens",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Flowers, Edible Flowers, Fruit, Microgreens, Seedlings",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -3607,9 +3634,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(203) 894-1851",
       "email": "",
-      "address": "",
+      "address": "136 Lounsbury Rd., Ridgefield, Connecticut, 06877",
       "public": false
     },
     "geo": {
@@ -9366,9 +9393,16 @@
     "region": "northeast",
     "county": "",
     "city": "Bantam",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Plants",
+      "Fruit",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Plants, Fruit, Herbs, Seedlings, Vegetables",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -9379,9 +9413,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(203)-206-6435",
       "email": "",
-      "address": "",
+      "address": "261 Old Mt. Tom Road, Bantam, Connecticut, 06750",
       "public": false
     },
     "geo": {
@@ -10380,9 +10414,15 @@
     "region": "northeast",
     "county": "",
     "city": "Thompson",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Berries",
+      "Flowers",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Berries, Flowers, Herbs, Seedlings, Vegetables",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -10393,9 +10433,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(860) 350-3158",
       "email": "",
-      "address": "",
+      "address": "18 Fort Hill Rd., New Milford, Connecticut, 06776",
       "public": false
     },
     "geo": {
@@ -11862,9 +11902,17 @@
     "region": "northeast",
     "county": "",
     "city": "Putnam",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Microgreens",
+      "Flowers",
+      "Seedlings",
+      "Vegetables",
+      "Mung Bean Sprouts"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Microgreens, Flowers, Seedlings, Vegetables, Herbs, Microgreens, Mung Bean Sprouts, Flowers, Seedlings",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -11875,9 +11923,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(347)-693-3492",
       "email": "",
-      "address": "",
+      "address": "626 Providence Pike, Putnam, Connecticut, 06260",
       "public": false
     },
     "geo": {
@@ -15099,9 +15147,15 @@
     "region": "northeast",
     "county": "",
     "city": "Cromwell",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Fruit",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Fruit, Herbs, Seedlings, Vegetables",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -15112,9 +15166,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "860-301-8730",
       "email": "",
-      "address": "",
+      "address": "76 Nooks Hill Rd, Cromwell, Connecticut, 06416",
       "public": false
     },
     "geo": {
@@ -18102,9 +18156,15 @@
     "region": "northeast",
     "county": "",
     "city": "Bethlehem",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Fruit",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Fruit, Herbs, Seedlings, Vegetables",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -18115,9 +18175,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(203) 266-7973",
       "email": "",
-      "address": "",
+      "address": "50 Maddox Road, Bethlehem, Connecticut, 06751",
       "public": false
     },
     "geo": {
@@ -20208,9 +20268,14 @@
     "region": "northeast",
     "county": "",
     "city": "Middletown",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Fruits",
+      "Vegetables",
+      "Herbs",
+      "Seedlings"
+    ],
+    "products_text": "Other: Fruits, Vegetables, Herbs, Seedlings",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -20221,9 +20286,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(860)-740-6761",
       "email": "",
-      "address": "",
+      "address": "216 Arbutus Street, Middletown, Connecticut, 06457",
       "public": false
     },
     "geo": {
@@ -20325,9 +20390,14 @@
     "region": "northeast",
     "county": "",
     "city": "Canterbury",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Fruit",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Fruit, Seedlings",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -20338,9 +20408,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(860)-556-9325",
       "email": "",
-      "address": "",
+      "address": "289 North Society Rd., Canterbury, Connecticut, 06331",
       "public": false
     },
     "geo": {
@@ -20403,9 +20473,14 @@
     "region": "northeast",
     "county": "",
     "city": "Columbia",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Flowers",
+      "Herbs",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Flowers, Herbs, Seedlings",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -20416,9 +20491,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(860)373-6324",
       "email": "",
-      "address": "",
+      "address": "336 Mansfield City Road, Mansfield Center, Connecticut, 06250",
       "public": false
     },
     "geo": {
@@ -20910,9 +20985,15 @@
     "region": "northeast",
     "county": "",
     "city": "Simsbury",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Berries",
+      "Flowers",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Berries, Flowers, Herbs, Seedlings, Vegetables",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -20923,9 +21004,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(860)-202-4820",
       "email": "",
-      "address": "",
+      "address": "180 Old Farms Road, Simsbury, Connecticut, 06070",
       "public": false
     },
     "geo": {
@@ -21651,9 +21732,13 @@
     "region": "northeast",
     "county": "",
     "city": "Suffield",
-    "category": "Mixed",
-    "products": [],
-    "products_text": "",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Herbs, Seedlings, Vegetables",
     "website": "",
     "facebook_url": "",
     "instagram_url": "",
@@ -21664,9 +21749,9 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "(860) 413-3725",
       "email": "",
-      "address": "",
+      "address": "50 Griffin Rd., East Granby, Connecticut, 06026",
       "public": false
     },
     "geo": {
@@ -21912,6 +21997,2128 @@
     "provenance": {
       "source": "U.S. Farm Trail — Connecticut",
       "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=connecticut",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "adamah-ct",
+    "name": "Adamah",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Falls Village",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Herbs",
+      "Seedlings",
+      "Small Fruit",
+      "Vegetables",
+      "Wheat"
+    ],
+    "products_text": "Other: Herbs, Seedlings, Small Fruit, Vegetables, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 824-3003",
+      "email": "",
+      "address": "116 Johnson Rd., Falls Village, Connecticut, 06031",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.94033719,
+      "longitude": -73.34501095,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "new-england-seed-company-ct",
+    "name": "New England Seed Company",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "East Hartford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 724-1240",
+      "email": "",
+      "address": "122 Park Ave. Building H, East Hartford, Connecticut, 16108",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.78000233,
+      "longitude": -72.63049561,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "seacoast-mushrooms-llc-ct",
+    "name": "Seacoast Mushrooms LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Stonington",
+    "category": "Seafood",
+    "products": [
+      "Other: Mushrooms (King Oyster",
+      "Maitake",
+      "Oysters",
+      "Pioppino",
+      "Pom Pom",
+      "Shiitake)"
+    ],
+    "products_text": "Other: Mushrooms (King Oyster, Maitake, Oysters, Pioppino, Pom Pom, Shiitake)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 287-3292",
+      "email": "",
+      "address": "319 Fairholme Road, Stonington, Connecticut, 06378",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.3753837,
+      "longitude": -71.89598942,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "leaf-only-ct",
+    "name": "Leaf Only",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 704-0646",
+      "email": "",
+      "address": "440 Middlefield St., Middletown, Connecticut, 06457",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.54401891,
+      "longitude": -72.6848333,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fat-stone-farm-llc-ct",
+    "name": "Fat Stone Farm LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Lyme",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Flowers",
+      "Fruit",
+      "Hay",
+      "Hazlenuts",
+      "Maple Syrup",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Flowers, Fruit, Hay, Hazlenuts, Maple Syrup, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860)-434-6872",
+      "email": "",
+      "address": "139-3 Joshuatown Rd, Lyme, Connecticut, 06371",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.39106652,
+      "longitude": -72.36913922,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mountain-view-farm-ct",
+    "name": "Mountain View Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Kent",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Fruit",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Fruit, Herbs, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860)-927-1856",
+      "email": "",
+      "address": "73 Fuller Mountain Rd., Kent, Connecticut, 06757",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.75782532,
+      "longitude": -73.48549953,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "aldridge-road-properties-llc-ct",
+    "name": "Aldridge Road Properties, LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "New Milford",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Flowers"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(203)-994-4686",
+      "email": "",
+      "address": "537 Danbury Road, New Milford, Connecticut, 06776",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.51174572,
+      "longitude": -73.4209963,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "maple-craft-foods-llc-ct",
+    "name": "Maple Craft Foods, LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Sandy Hook",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "203-913-7066",
+      "email": "",
+      "address": "6 Cider Mill Rd, Sandy Hook, Connecticut, 06482",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.41389316,
+      "longitude": -73.22466347,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "happy-family-farm-ct",
+    "name": "Happy Family Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Fairfield",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Herbs",
+      "Seedlings",
+      "Strawberries",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Herbs, Seedlings, Strawberries, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(203) 698-2002",
+      "email": "",
+      "address": "3141 Congress St., Fairfield, Connecticut, 06824",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.18791551,
+      "longitude": -73.28610175,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "salmon-kill-farm-ct",
+    "name": "Salmon Kill Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Salisbury",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Hay",
+      "Vegetables",
+      "Herbs",
+      "Flowers",
+      "Fruit",
+      "Seedlings",
+      "Maple Sap",
+      "Maple Syrup"
+    ],
+    "products_text": "Other: Hay, Vegetables, Herbs, Flowers, Fruit, Seedlings, Maple Sap, Maple Syrup",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860)-596-4143",
+      "email": "",
+      "address": "317 Salmon Kill Rd., Salisbury, Connecticut, 06068",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.95059975,
+      "longitude": -73.39160837,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "turtle-ledge-farm-ct",
+    "name": "Turtle Ledge Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Hampton",
+    "category": "Produce",
+    "products": [
+      "Other: Fruit",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Fruit, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 455-1411",
+      "email": "",
+      "address": "460 Windham Rd., Hampton, Connecticut, 06247",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.74874729,
+      "longitude": -72.03821485,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "white-gate-farm-ct",
+    "name": "White Gate Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "East Lyme",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Herbs",
+      "Flowers",
+      "Pasture",
+      "Seedlings",
+      "Vegetables",
+      "Fruit"
+    ],
+    "products_text": "Other: Herbs, Flowers, Pasture, Seedlings, Vegetables, Fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 739-9585",
+      "email": "",
+      "address": "83 Upper Pattagansett Rd., East Lyme, Connecticut, 06333",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.37685719,
+      "longitude": -72.232865,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "riverbrook-organic-farms-llc-ct",
+    "name": "Riverbrook Organic Farms LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Canaan",
+    "category": "Mixed",
+    "products": [
+      "Other: Corn",
+      "Alfalfa",
+      "Barley",
+      "Hay",
+      "Pasture"
+    ],
+    "products_text": "Other: Corn, Alfalfa, Barley, Hay, Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 824-0241",
+      "email": "",
+      "address": "96 Allyndale Rd., Canaan, Connecticut, 06018",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.037425,
+      "longitude": -73.29636,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "american-distilling-inc-ct",
+    "name": "American Distilling Inc.",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "East Hampton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 267-4444",
+      "email": "kmulligan@americandistilling.com",
+      "address": "31 East High Street, East Hampton, Connecticut, 06424",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.584878,
+      "longitude": -72.5013585,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farming-101-ct",
+    "name": "Farming 101",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Newtown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Fruit",
+      "Herbs",
+      "Small Fruit",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Fruit, Herbs, Small Fruit, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(203)-304-1451",
+      "email": "",
+      "address": "101 Brushy Hill Road, Newtown, Connecticut, 06470",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.37478237,
+      "longitude": -73.30333819,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sterling-organic-farm-llc-ct",
+    "name": "Sterling Organic Farm LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Sterling",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Flowers",
+      "Herbs",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Flowers, Herbs, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "413-262-1994",
+      "email": "",
+      "address": "1080 Plainfield Pike, Sterling, Connecticut, 06377",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.69214551,
+      "longitude": -71.82493939,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cugno-s-farm-ct",
+    "name": "Cugno's Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Colchester",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Berries",
+      "Flowers",
+      "Herbs",
+      "Vegetables"
+    ],
+    "products_text": "Other: Berries, Flowers, Herbs, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 537-3517",
+      "email": "",
+      "address": "110 Prospect Hill Rd, Colchester, Connecticut, 06415",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.57762445,
+      "longitude": -72.37319668,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gordon-bednarz-farm-ct",
+    "name": "Gordon-Bednarz Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Glastonbury",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Hay"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860)-633-2942",
+      "email": "",
+      "address": "118 Wickham Road, Glastonbury, Connecticut, 06033",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.71346893,
+      "longitude": -72.55942643,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "forest-city-farms-llc-ct",
+    "name": "Forest City Farms LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Middletown",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860)-777-5507",
+      "email": "",
+      "address": "1100 River Rd., Middletown, Connecticut, 06457",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.55849688,
+      "longitude": -72.61948564,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "well-flowers-llc-ct",
+    "name": "Well Flowers LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "South Windsor",
+    "category": "Mixed",
+    "products": [
+      "Other: Hemp",
+      "Hemp Seeds"
+    ],
+    "products_text": "Other: Hemp, Hemp Seeds",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860)-644-9504",
+      "email": "",
+      "address": "1105 Strong Road, South Windsor, Connecticut, 06074",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.83707793,
+      "longitude": -72.56443571,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "echo-farm-llc-ct",
+    "name": "Echo Farm LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Woodstock",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Flowers",
+      "Herbs",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Flowers, Herbs, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860)-481-3726",
+      "email": "",
+      "address": "1051 Route 169, Woodstock, Connecticut, 06281",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.980266,
+      "longitude": -71.9930295,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hilltop-acres-ct",
+    "name": "Hilltop Acres",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Moodus",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables"
+    ],
+    "products_text": "Other: Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 873-9610",
+      "email": "",
+      "address": "119 Cherry Swamp Rd., Moodus, Connecticut, 06469",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5228446,
+      "longitude": -72.45931247,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hbf-llc-ct",
+    "name": "HBF, LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Canaan",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay",
+      "Pasture"
+    ],
+    "products_text": "Other: Hay, Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 824-8111",
+      "email": "",
+      "address": "16 Hollow Brook Lane, Canaan, Connecticut, 06018",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.03222162,
+      "longitude": -73.25636285,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "berry-organic-farms-ct",
+    "name": "Berry Organic Farms",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Bethlehem",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Fruits",
+      "Herbs"
+    ],
+    "products_text": "Other: Vegetables, Fruits, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(203) 405-1601",
+      "email": "",
+      "address": "187 Munger Lane, Bethlehem, Connecticut, 06751",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.64845673,
+      "longitude": -73.21620744,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "manatuck-stables-inc-ct",
+    "name": "Manatuck Stables, Inc.",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Stonington",
+    "category": "Mixed",
+    "products": [
+      "Other: Pasture"
+    ],
+    "products_text": "Other: Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(917)-345-1861",
+      "email": "",
+      "address": "165, 175, 177 Barnes Rd., Stonington, Connecticut, 06378",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.36676161,
+      "longitude": -71.90122635,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "7-falls-mushroom-farm-ct",
+    "name": "7 Falls Mushroom Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Higganum",
+    "category": "Mixed",
+    "products": [
+      "Other: Mushrooms"
+    ],
+    "products_text": "Other: Mushrooms",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "860-345-7962",
+      "email": "",
+      "address": "156 Killingworth Rd, Higganum, Connecticut, 06441",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.48585447,
+      "longitude": -72.55705079,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hedgelawn-farm-ct",
+    "name": "Hedgelawn Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Washington",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables",
+      "Fruit",
+      "Ginseng",
+      "Mushrooms"
+    ],
+    "products_text": "Other: Vegetables, Fruit, Ginseng, Mushrooms",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "917-613-9883",
+      "email": "",
+      "address": "191 Roxbury Rd, Washington, Connecticut, 06794",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.60747504,
+      "longitude": -73.31976017,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cinful-organics-ct",
+    "name": "Cinful Organics",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Barkhamsted",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "203-650-8767",
+      "email": "",
+      "address": "20 River Rd, Barkhamsted, Connecticut, 06063",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.89887128,
+      "longitude": -72.98973749,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "waldingfield-farm-inc-ct",
+    "name": "Waldingfield Farm, Inc.",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Washington",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Fruits",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Fruits, Herbs, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 868-7270",
+      "email": "",
+      "address": "24 East Street, Washington, Connecticut, 06793",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.63501177,
+      "longitude": -73.28290397,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "acre-farm-dba-four-root-farm-ct",
+    "name": "ACRE Farm DBA Four Root Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "East Haddam",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Flowers",
+      "Fruit",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Flowers, Fruit, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "860-550-1122",
+      "email": "",
+      "address": "257 Tater Hill Rd, East Haddam, Connecticut, 06423",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4633918,
+      "longitude": -72.35928848,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "husky-meadows-farm-ct",
+    "name": "Husky Meadows Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Norfolk",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Herbs",
+      "Millet",
+      "Rye",
+      "Seedlings",
+      "Vegetables",
+      "Fruit"
+    ],
+    "products_text": "Other: Herbs, Millet, Rye, Seedlings, Vegetables, Fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 540-4757",
+      "email": "",
+      "address": "28 Doolittle Drive, Norfolk, Connecticut, 06058",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.01785203,
+      "longitude": -73.18348458,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sweet-acre-farm-ct",
+    "name": "Sweet Acre Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Lebanon",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Flowers",
+      "Fruits",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Flowers, Fruits, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "203-240-2724",
+      "email": "",
+      "address": "28 Taylor Bridge Rd, Lebanon, Connecticut, 06249",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.58846894,
+      "longitude": -72.2556076,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "buck-mountain-herbs-ct",
+    "name": "Buck Mountain Herbs",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "West Cornwall",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Herbs",
+      "Flowers",
+      "Microgreens",
+      "Spring Wheat",
+      "Seedlings"
+    ],
+    "products_text": "Other: Vegetables, Herbs, Flowers, Microgreens, Spring Wheat, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860)-672-6552",
+      "email": "",
+      "address": "29 Poughkeepsie Road, West Cornwall, Connecticut, 06796",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.84816941,
+      "longitude": -73.34633665,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "blueberry-hill-organic-farm-ct",
+    "name": "Blueberry Hill Organic Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Danielson",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Blueberries",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Blueberries, Herbs, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 712-1341",
+      "email": "",
+      "address": "314 Margaret Henry Rd., Danielson, Connecticut, 06239",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.77218325,
+      "longitude": -71.82148048,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "riverbank-farm-ct",
+    "name": "Riverbank Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Roxbury",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Fruit",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Fruit, Herbs, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 350-3276",
+      "email": "",
+      "address": "33 River Rd., Roxbury, Connecticut, 06783",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.54570359,
+      "longitude": -73.32533572,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ck-greenhouses-inc-ct",
+    "name": "CK Greenhouses, Inc.",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Cheshire",
+    "category": "Mixed",
+    "products": [
+      "Other: Tomato Plants",
+      "Pepper Plants"
+    ],
+    "products_text": "Other: Tomato Plants, Pepper Plants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "203-271-2600",
+      "email": "",
+      "address": "301 East Johnson Ave, Cheshire, Connecticut, 06410",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.549022,
+      "longitude": -72.8799975,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "massaro-community-farm-ct",
+    "name": "Massaro Community Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Woodbridge",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Fruit",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Fruit, Herbs, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(516) 220-3514",
+      "email": "",
+      "address": "41 Ford Rd., Woodbridge, Connecticut, 06525",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.33818469,
+      "longitude": -73.04206854,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hamlet-hill-farm-ct",
+    "name": "Hamlet Hill Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "East Woodstock",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Berries",
+      "Flowers",
+      "Fruit Trees",
+      "Herbs",
+      "Vegetables"
+    ],
+    "products_text": "Other: Berries, Flowers, Fruit Trees, Herbs, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "860-208-5194",
+      "email": "",
+      "address": "40 Hamlet Hill Rd, East Woodstock, Connecticut, 06244",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.9837,
+      "longitude": -71.97783,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "natural-born-growers-ct",
+    "name": "Natural Born Growers",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Danbury",
+    "category": "Urban Farm",
+    "products": [
+      "Other: Microgreens"
+    ],
+    "products_text": "Other: Microgreens",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(203) 446-2275",
+      "email": "",
+      "address": "38 Olympic Dr., Danbury, Connecticut, 06810",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.35616991,
+      "longitude": -73.48215028,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "two-guys-from-woodbridge-llc-ct",
+    "name": "Two Guys From Woodbridge LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Hamden",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Lettuce",
+      "Microgreens",
+      "Wheatgrass Herbs"
+    ],
+    "products_text": "Other: Lettuce, Microgreens, Wheatgrass Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(203) 281-5559",
+      "email": "",
+      "address": "4066 Whitney Ave., Hamden, Connecticut, 06518",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.44103713,
+      "longitude": -72.91067941,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "shortt-s-farm-ct",
+    "name": "Shortt's Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Sandy Hook",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Fruit",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Fruit, Herbs, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(203) 426-9283",
+      "email": "",
+      "address": "52-A Riverside Rd., Sandy Hook, Connecticut, 06482",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.4252335,
+      "longitude": -73.27165114,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "star-light-gardens-ct",
+    "name": "Star Light Gardens",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Durham",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Herbs",
+      "Flowers",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Herbs, Flowers, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 463-0166",
+      "email": "",
+      "address": "54 Fowler Ave., Durham, Connecticut, 06422",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.47143743,
+      "longitude": -72.67814145,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gilbertie-s-herb-garden-inc-ct",
+    "name": "Gilbertie's Herb Garden, Inc.",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Easton",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Herbs",
+      "Microgreens",
+      "Seedlings"
+    ],
+    "products_text": "Other: Herbs, Microgreens, Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(203) 452-0913",
+      "email": "",
+      "address": "65 Adams Rd., Easton, Connecticut, 06612",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.2565058,
+      "longitude": -73.29089231,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ct-valley-farms-llc-ct",
+    "name": "CT Valley Farms LLC",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Simsbury",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860)-559-6270",
+      "email": "",
+      "address": "73 Wolcott Rd, Simsbury, Connecticut, 06070",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.91460328,
+      "longitude": -72.78159003,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gifts-of-love-inc-ct",
+    "name": "Gifts of Love Inc.",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Simsbury",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Flowers",
+      "Herbs",
+      "Seedlings",
+      "Vegetables"
+    ],
+    "products_text": "Other: Flowers, Herbs, Seedlings, Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 676-2323 ext 159",
+      "email": "",
+      "address": "73 Wolcott Road, Simsbury, Connecticut, 06070",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.91460328,
+      "longitude": -72.78159003,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "evergreen-farm-ct",
+    "name": "Evergreen Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Suffield",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables"
+    ],
+    "products_text": "Other: Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860)-986-1542",
+      "email": "",
+      "address": "864 Thrall Avenue, Suffield, Connecticut, 06078",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.98127952,
+      "longitude": -72.61826903,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ro-jo-farms-dba-gentle-giant-farm-ct",
+    "name": "Ro-Jo Farms dba Gentle Giant Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Middlefield",
+    "category": "Produce",
+    "products": [
+      "Other: Vegetables"
+    ],
+    "products_text": "Other: Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(203)-654-1595",
+      "email": "",
+      "address": "85 School Street, Middlefield, Connecticut, 06455",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.53595351,
+      "longitude": -72.7152077,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "wilber-farm-ct",
+    "name": "Wilber Farm",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "Colebrook",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Vegetables",
+      "Fruits",
+      "Herbs",
+      "Seedlings",
+      "Flowers"
+    ],
+    "products_text": "Other: Vegetables, Fruits, Herbs, Seedlings, Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 379-2580",
+      "email": "",
+      "address": "92 Beech Hill Road, Colebrook, Connecticut, 06021",
+      "public": false
+    },
+    "geo": {
+      "latitude": 42.01697211,
+      "longitude": -73.08098616,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "perfect-ten-ct",
+    "name": "Perfect Ten",
+    "state": "CT",
+    "region": "northeast",
+    "county": "",
+    "city": "East Haddam",
+    "category": "Honey/Specialty",
+    "products": [
+      "Other: Fruit",
+      "Vegetables",
+      "Herbs"
+    ],
+    "products_text": "Other: Fruit, Vegetables, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(860) 639-4659",
+      "email": "",
+      "address": "Ten Foxtown Road, East Haddam, Connecticut, 06423",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.48194988,
+      "longitude": -72.33298156,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Connecticut certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Connecticut%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
       "retrieved": "2026-07-19"
     },
     "eligible": true,
