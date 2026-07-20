@@ -42,3 +42,7 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# Curated farm photography is licensed for local design review and is not
+# committed. Source records and intended placements live in docs/design/.
+/public/local-farm-images/
