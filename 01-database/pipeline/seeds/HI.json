@@ -1,0 +1,4432 @@
+[
+  {
+    "id": "farmtocar-e7df2305-fcb0-4e10-be2c-c05e6a1c0966",
+    "name": "1G Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Citrus",
+      "Avocado",
+      "Banana"
+    ],
+    "products_text": "Citrus; Avocado; Banana",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-8c215b94-3693-4420-983a-35448732ca68",
+    "name": "Adaptations",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://adaptationsaloha.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-0dadfaf3-ed24-4614-9b18-be8076f1492b",
+    "name": "Ahualoa Family Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Coffee"
+    ],
+    "products_text": "Coffee",
+    "website": "http://ahualoafarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-1313ea5d-b18a-436c-9631-1d2624b2600d",
+    "name": "Aka'ula Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "HI",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.akaulafarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-977-0311",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-a206e104-cac4-405d-87db-ce9b270bce16",
+    "name": "Alchemy Farm Hawaii",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "HI",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Honey"
+    ],
+    "products_text": "Honey",
+    "website": "https://alchemyfarmhawaii.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-331-1369",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-f2dc91f8-00fb-4324-8e55-936dc1b32a04",
+    "name": "Ancient Valley Growers",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.ancientvalleygrowers.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-747-6418",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-2b846266-7ae9-4cef-ad8f-d3f4241f9345",
+    "name": "Any Kine Wontons LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-57032ee7-b544-431f-a825-5300c5bc05ff",
+    "name": "Aquaroots",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-409b3784-c2c7-4c0d-96b9-f21cada9dbda",
+    "name": "Big Island Booch",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-ff4af759-cbaf-4ac1-8072-c957fc921953",
+    "name": "Big Island Hog Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Hawaii",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Pork"
+    ],
+    "products_text": "Pork",
+    "website": "https://bigislandhogfarm.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-443-7496",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-712af2de-6337-4a45-9090-cd09a7f62183",
+    "name": "Big Island Lava Candy",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Hawaii",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.bigislandlavacandy.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-937-3774",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-3690b018-a27d-4018-8a07-0f88b475662c",
+    "name": "Big Island Luffa Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.bigislandluffafarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-895-1653",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-92fc0b8d-4290-440a-8591-0ac875978841",
+    "name": "Braddah Dave's",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.taroburger.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-9649c722-62cd-460f-8ae8-baf55f316dc2",
+    "name": "CEW",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-cde1bda6-e497-4f31-a0ff-3ed6337bfcd6",
+    "name": "Coconoats",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://eatcoconoats.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-60765faa-3227-4c4c-914f-6e1aab34ffb5",
+    "name": "Food Forest Folks",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Fruit",
+      "Nursery"
+    ],
+    "products_text": "Fruit; Nursery",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-d19e4940-b6c9-4cc7-ac33-fb373d49fb5f",
+    "name": "Foster's Apiary",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Honey"
+    ],
+    "products_text": "Honey",
+    "website": "https://www.fostersapiary.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-d476d335-3bc7-44ce-b34e-f36d2ad33a55",
+    "name": "Gemini Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-b167188e-4397-41a8-ac89-3cf6200e79e5",
+    "name": "Gerty's Greens",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-990-5827",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-b26a1419-485d-4266-8884-7a99f2d3443f",
+    "name": "Glorious Tangle LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-805c38c0-da5d-418f-a2a1-48d24a1730fd",
+    "name": "Golden Farms Big Island",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables",
+      "Fruit",
+      "Flowers"
+    ],
+    "products_text": "Vegetables; Fruit; Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-26c0f014-002d-4192-bc3b-b73192d0fe18",
+    "name": "Gourmet Barn LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-a468101b-4e1a-4805-8ae0-aa44f943873b",
+    "name": "Green Thumb Nursery",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables",
+      "Fruit",
+      "Citrus",
+      "Avocado",
+      "Nursery"
+    ],
+    "products_text": "Vegetables; Fruit; Citrus; Avocado; Nursery",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-333-7552",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-8b9aa3d3-6b2d-46ab-af52-850df6283124",
+    "name": "Growing One Future",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Hawai'i",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables",
+    "website": "http://growingonefuture.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-217-5542",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-1251b81a-67cd-4a87-ba5d-c756b9011f55",
+    "name": "Grown In Hawai'i Farming",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-d287f579-40dd-4ae0-b332-a30b0e62066d",
+    "name": "Hamakua Gardens",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-987-2305",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-ecc61fc2-a5f1-44c8-a714-905fe2542787",
+    "name": "Hawai'i Farm-to-Car",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-61a56106-8fc2-42cc-910a-f259f9870be6",
+    "name": "Hawai'i 'Ulu Co-op",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://eatbreadfruit.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-27ec63ff-ad00-4f3f-97c1-5045c3581698",
+    "name": "Ho'ola Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.hoolafarms.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-756-6026",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-e115ad9d-94cc-4f2c-b1e6-139f5d7d65bd",
+    "name": "Ho'oulu Pono Homestead LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-b8067f20-d578-478f-9a52-555001b3310c",
+    "name": "Hoanaulu Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.hoanaulu.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-4882425d-a458-40cd-bf29-af9877eed90d",
+    "name": "Honey Bunny Sourdough",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-618fc5fd-277e-4d68-846c-ecdd964f2ad9",
+    "name": "I Ka Ua Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-4bb4531a-ac6f-4e11-970e-cb89bf56b666",
+    "name": "Island Aquaponics & Tilapia Hatchery",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables",
+    "website": "https://www.islandaquaponics.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-74a79586-065f-421f-a203-597dfc4a93f4",
+    "name": "JhorDanS808 Homestead Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Fruit"
+    ],
+    "products_text": "Fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-5ed1946a-6737-46c8-a80f-9b0feefa1fca",
+    "name": "Kahuku Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-247a005b-1ac5-497f-b192-f9de0c777791",
+    "name": "Kaimana Jerky",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-21957181-29d3-4d66-81c9-c8659a85aae4",
+    "name": "Kaiwiki Food Forest",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-333-4544",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-2e7f263a-e860-469b-9c11-e7980a69e877",
+    "name": "Kameo Enterprises LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Fruit",
+      "Citrus",
+      "Banana"
+    ],
+    "products_text": "Fruit; Citrus; Banana",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-7ce8fe34-75fc-4ed4-b842-903485771ef3",
+    "name": "Kapoho Aquaponics, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-a0c41b0e-d9a4-42bb-b69d-22c821d4f7fa",
+    "name": "Ke Ola Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-785-0047",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-ce5867e2-c91a-41e6-ad09-5907ed1a26cd",
+    "name": "Kilauea Grown",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-a5410ada-574b-4a5c-abfc-52e8714cc815",
+    "name": "Kipimana Hawaiian Granola",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://hawaiiangranola.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-ad2f347a-bc1c-435b-bedc-dd5c818170e1",
+    "name": "Kohana Family Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables",
+      "Citrus",
+      "Avocado",
+      "Mushrooms"
+    ],
+    "products_text": "Vegetables; Citrus; Avocado; Mushrooms",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-938-5398",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-29fdb9d6-6709-4123-bd84-77a9f42de828",
+    "name": "Kokoleka Puna",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Cacao"
+    ],
+    "products_text": "Cacao",
+    "website": "http://www.kokolekapuna.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-217-2395",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-5de88b15-508b-466b-baf0-f46284e7f723",
+    "name": "Kope Hale Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://KopeHale.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "170-779-2669",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-e83295cb-f553-4877-82d1-c14f339e7494",
+    "name": "KRB Farm Products",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Hawaii",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-982-3232",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-e551548b-1c01-485c-9cef-be0e8532630d",
+    "name": "Kulana Foods",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-0f4b3574-97c7-421e-8de8-9ecffc20c263",
+    "name": "Kuleana Hawaii",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://kuleanahawaiioils.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-af9ea7c1-9772-4885-9275-0862bcc6747b",
+    "name": "Lavaloha",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.lavaloha.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-987-3649",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-4c821950-ece9-4aae-869d-e650a57c4c65",
+    "name": "Lehua Lena Nursery",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-8873139f-f154-466c-9981-ea8da3dcded5",
+    "name": "Leleaka",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Hawaii",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Fruit",
+      "Cacao"
+    ],
+    "products_text": "Fruit; Cacao",
+    "website": "http://www.leleaka.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-556-2000",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-1eb20b04-27ab-4162-be60-afe70abf020d",
+    "name": "Liko Lehua",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Fruit"
+    ],
+    "products_text": "Fruit",
+    "website": "https://likolehua.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-ecb8f2f3-557b-4787-af70-7b7e1b3c1d0e",
+    "name": "Liko Lehua Farm & Greenery LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-cb264267-b918-467b-908d-20ce22c4bd67",
+    "name": "Lilipops and Let's Go Pesto",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://lilipopshi.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-938-6549",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-73d7abeb-9a91-4255-ab54-bd05f604146f",
+    "name": "Live Super Stoked",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://livesuperstoked.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-372-6897",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-f6227aac-afb8-4761-91b5-116cdc92a871",
+    "name": "Lone Palm Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-55405a4a-86da-435b-8257-5bef5094e8a5",
+    "name": "Lyb Farmhouse",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-854-6692",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-63aec88e-0534-405e-ae1b-8f34c676da5d",
+    "name": "Lydia's Kind Foods",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-1c07f63d-63b2-4e26-91ae-83ce707a9b87",
+    "name": "Mahi'ai Made",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "United States",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Cacao"
+    ],
+    "products_text": "Cacao",
+    "website": "https://www.mahiaimade.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-e8333719-de6f-46f0-b497-e59855c4fc59",
+    "name": "Makana Provisions",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.makanaprovisions.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-cd2d1d4c-ce57-4097-bd5b-74ded9aaca04",
+    "name": "Malama Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-765-5520",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-70376346-b1f2-4535-87a1-88bac912a4c5",
+    "name": "Malama Mushrooms Hawaii",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Mushrooms"
+    ],
+    "products_text": "Mushrooms",
+    "website": "http://www.malamamushrooms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-bbf6be3e-f8b4-43a3-945a-cc7d632a7f6e",
+    "name": "Mana Olena",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-f6ce101f-90dd-47fd-897c-62d72034cf9a",
+    "name": "Manadina Farms Inc",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-1ba82ddd-baa5-438b-8759-7c68c71a78ff",
+    "name": "Manu Mele Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "United States",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Fruit"
+    ],
+    "products_text": "Fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "321-698-4337",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-a0d23570-628e-4f13-be27-73dc440c34ed",
+    "name": "Maruyama Jones Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://maruyamajonesfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-9c0bdf4c-404f-4798-8f56-d40bfead8fb1",
+    "name": "Maui Fruit Jewels",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-f9cbb79d-8f0f-4a68-b9fc-ba6cfac9b885",
+    "name": "Maui Nui Venison",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://mauinuivenison.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-27e5f8a0-e4e2-405e-b9ed-e3c41ecc5782",
+    "name": "Mauna Ikena",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-747-3830",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-5a878136-33a3-4cdb-9998-6e10bbbd8245",
+    "name": "Mountain Sol Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables",
+      "Nursery"
+    ],
+    "products_text": "Vegetables; Nursery",
+    "website": "http://www.mountainsolfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-796-1749",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-857a9c83-ab91-4a77-a7f8-86136d0bb325",
+    "name": "O.K. Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.okfarmshawaii.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-3cf45af9-dad6-47ee-8ef7-74fa91a03122",
+    "name": "Oliana Products",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-854-1059",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-812bec60-5b46-437b-92bb-fdc91b7fc7d8",
+    "name": "One Cacao Tree",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Hawaii",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Fruit"
+    ],
+    "products_text": "Fruit",
+    "website": "http://onecacaotree.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-edb3fb93-b451-4827-b381-e3a2ee4843e6",
+    "name": "Oribe Tea Co.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://oribetea.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-67892b2c-c235-4f3d-b64c-915df5ae3563",
+    "name": "Paddy's Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-d64826a8-ef87-4c74-a65d-ceb6a565c169",
+    "name": "Papa'a Palaoa Bakery",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.papaapalaoabakery.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-935-5700",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-5517611b-f83b-4346-852f-b30c39d737d0",
+    "name": "Paradise Green Hawai'i",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-55b2a01e-6c53-4186-911f-9efb7d827289",
+    "name": "Paradise Preserved",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-209-7360",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-e6ba782a-0664-4718-9803-6e98b6a63d03",
+    "name": "Pepe Wai Meli",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "HAWAI'I",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Fruit",
+      "Honey"
+    ],
+    "products_text": "Fruit; Honey",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-300-3137",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-172092cc-4964-4ec1-a0b5-77aaf69a6e9d",
+    "name": "Petunia's Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Nursery"
+    ],
+    "products_text": "Nursery",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-e9b54f25-9ffc-4aeb-b199-cbed95ae1903",
+    "name": "Piko Provisions",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.pikoprovisions.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-9cec9f63-9cb1-4bba-b60b-492c0c64a06b",
+    "name": "Pinapinao Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Cacao"
+    ],
+    "products_text": "Cacao",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-931087fc-1788-4503-bc1e-b1083296fc6b",
+    "name": "Pollinator Protection",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-095608bd-0c03-476b-89dd-6cd08976fe19",
+    "name": "Puna Goat Cheese",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Flowers",
+      "Cheese"
+    ],
+    "products_text": "Flowers; Cheese",
+    "website": "https://www.facebook.com/pg/Puna-Goat-Cheese-188452394536631/about/?ref=page_internal",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-966-8461",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-64c10d05-03d5-4c2c-9042-b348838c0a58",
+    "name": "Rainbow Island Produce LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-6005013c-35cb-4f81-9d2f-2981c720df68",
+    "name": "Rake and Needle",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-01cb88bd-6e2b-4fdd-86c7-7bc5cced11c3",
+    "name": "Rebels' Roost Farm & Apiary",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Fruit"
+    ],
+    "products_text": "Fruit",
+    "website": "http://rebelsroosthawaii.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-aabe70ca-a75e-423f-807e-4be0074ff024",
+    "name": "Rising Tide",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-81a0b3a3-8f10-44d0-b27c-30401820f92a",
+    "name": "Sea Salts of Hawaii",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.seasaltsofhawaii.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-f7c4216f-b6ad-4ad6-914b-c06fd9f10a8f",
+    "name": "Spicy Ninja",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://spicyninjasauce.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-5d652ee4-ae11-4ef4-a6c4-c5d9c22f6f22",
+    "name": "Sundog Bread",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-8b6b53a8-e26d-4a4b-b46e-b7885e94155c",
+    "name": "Sundog Bread",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.sundogbread.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-8b62852e-f57e-451c-b285-be4f035ba409",
+    "name": "Sweet Cane Cafe",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.sweetcanecafe.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-6a62bcd5-0274-4d79-8512-c7c99875f05f",
+    "name": "Sweet Paradise Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables",
+      "Banana",
+      "Flowers",
+      "Nursery"
+    ],
+    "products_text": "Vegetables; Banana; Flowers; Nursery",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-838-9423",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-3639ddc9-3885-446f-bb9b-53a2a50b3e59",
+    "name": "Sweet Treats and Gifts",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-430-0241",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-7a3e8dcf-3395-4cea-8272-aa9ee0c6a39d",
+    "name": "Tea Hawaii & Company",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Nursery"
+    ],
+    "products_text": "Nursery",
+    "website": "http://www.teahawaii.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-967-7637",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-3d981629-bb1a-4591-b1a1-110c54f926ff",
+    "name": "Texawaii Farms, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Hawaii",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables",
+      "Coffee",
+      "Cacao"
+    ],
+    "products_text": "Vegetables; Coffee; Cacao",
+    "website": "http://www.texawaiifarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-42bf92a2-f2cd-4840-a5be-d5c998bc8488",
+    "name": "The Secret Ingredient (Is Always Love)",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-8bd6e947-5d02-427f-b1d1-f7aa0c22b59e",
+    "name": "Tiny Toes Designs Hawai'i",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables",
+    "website": "http://linktr.ee/tinytoesdesignshawaii",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-938-5185",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-4d71e8ba-fd1e-4ee9-abfd-d35bdb3e5174",
+    "name": "TLC Tasty Local Creations",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Hawaii",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-551-0727",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-fb0d2076-a179-4137-91c9-c81a92239026",
+    "name": "Tomo Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables",
+      "Citrus"
+    ],
+    "products_text": "Vegetables; Citrus",
+    "website": "http://www.tomofarm808.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-daafdef1-b075-4f90-912c-87a8fb30ae98",
+    "name": "Triple Plaid Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Fruit"
+    ],
+    "products_text": "Fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-896-7624",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-2918e2c7-c6e0-49b0-bc05-aa5d234420c5",
+    "name": "Tropical Dreams",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-69bb6ee7-cc0a-4e91-8d5f-69de17c27a1b",
+    "name": "Ulu Mana",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://ulumanahawaii.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-5221cd9d-7f6b-463d-9ffe-bda210a0504b",
+    "name": "Uproot Origin",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.uprootorigin.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "707-331-6011",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-23e19731-6c15-429b-86f1-edb45c45509d",
+    "name": "VC Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-c81cd020-1782-4582-89e2-eca7d1da0a26",
+    "name": "Volcano View Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-df5e9719-b94a-4901-9411-010fb286e6ba",
+    "name": "Vuvu's Garden",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-56580d43-a9d3-40db-9d1e-aa4420218de9",
+    "name": "Waiakea Paradise Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Vegetables",
+      "Citrus",
+      "Avocado",
+      "Cacao"
+    ],
+    "products_text": "Vegetables; Citrus; Avocado; Cacao",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-557-3929",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmtocar-77cf8a84-63fe-4f5e-ae7f-50ae05e24cd7",
+    "name": "Whale and Bee Hawaii Honey",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Hawaiʻi Farm-to-Car Market — producer directory",
+      "source_url": "https://shop.hawaiifarmtocar.org/Producers",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

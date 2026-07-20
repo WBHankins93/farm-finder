@@ -1,0 +1,14 @@
+{
+  "state": "AK",
+  "name": "Alaska",
+  "region": "noncontiguous",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {"id": "aksrc-alaska-grown", "name": "Alaska Division of Agriculture — Alaska Grown member directory", "url": "https://dnr.alaska.gov/ag/alaskagrown/", "adapter": "seed", "path": "seeds/AK.json", "notes": "Reviewed 2026-07-19 capture of all 559 public member cards with product, location, and public-link fields."},
+    {"id": "aksrc-usfarmtrail", "name": "U.S. Farm Trail — Alaska", "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska", "adapter": "seed", "path": "seeds/AK-USFarmTrail.json", "notes": "Reviewed 2026-07-19 capture; lower-48 coordinates remain explicit QA residue."},
+    {"id": "aksrc-usda-organic", "name": "USDA Organic Integrity Database — Alaska certified producers", "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query", "adapter": "seed", "path": "seeds/AK-USDAOrganic.json", "notes": "Certified crop, livestock, or wild-crop operations."},
+    {"id": "aksrc-eatwild", "name": "EatWild — Alaska", "url": "https://www.eatwild.com/products/alaska.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "aksrc-pickyourown", "name": "PickYourOwn — Alaska", "url": "https://www.pickyourown.org/AK.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "aksrc-localharvest", "name": "LocalHarvest — Alaska", "url": "https://www.localharvest.org/alaska/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
+  ]
+}

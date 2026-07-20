@@ -1,0 +1,1268 @@
+[
+  {
+    "id": "usda-2580002247",
+    "name": "American Botanicals",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Mingo County",
+    "category": "Mixed",
+    "products": [
+      "Other: Acorns",
+      "Beth Root",
+      "Birch Bark",
+      "Black Cohosh Root",
+      "Black Walnut Hulls",
+      "Black Walnut Leaf",
+      "Blackberry",
+      "Blessed Thistle",
+      "Blood Root",
+      "Blue Cohosh Root",
+      "Blue Flag Root",
+      "Boneset Herb",
+      "Buckeyes",
+      "Burdock Root",
+      "Butternut Bark",
+      "Canadain Fleabane",
+      "Catnip Her"
+    ],
+    "products_text": "Other: Acorns, Beth Root, Birch Bark, Black Cohosh Root, Black Walnut Hulls, Black Walnut Leaf, Blackberry, Blessed Thistle, Blood Root, Blue Cohosh Root, Blue Flag Root, Boneset Herb, Buckeyes, Burdock Root, Butternut Bark, Canadain Fleabane, Catnip Her",
+    "website": "www.americanbotanicals.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "573-485-2300",
+      "email": "twaller@americanbotanicals.com",
+      "address": "Harvy, Hardee, and Kermit Districts, Mingo County, West Virginia, 25674",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.85111,
+      "longitude": -82.32278,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600002616",
+    "name": "Belle Vue Dairy",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Union",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa",
+      "corn",
+      "hay",
+      "hemp",
+      "pasture",
+      "Other: calves (some eligible for slaughter)",
+      "dry cows (some eligible for slaughter)",
+      "heifers (some eligible for slaughter)",
+      "Milk",
+      "milking cows (some eligible for slaughter)"
+    ],
+    "products_text": "Other: Alfalfa, corn, hay, hemp, pasture; Other: calves (some eligible for slaughter), dry cows (some eligible for slaughter), heifers (some eligible for slaughter), Milk, milking cows (some eligible for slaughter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "780 Sweet Springs Valley rd, Union, West Virginia, 24983",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.59001886,
+      "longitude": -80.52803922,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8210006453",
+    "name": "Blackberry Botanicals",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Alderson",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Black Cohosh (Black Cohosh)",
+      "Blue Cohosh (Blue Cohosh)",
+      "Ginseng (Ginseng)",
+      "Goldenseal (Goldenseal)"
+    ],
+    "products_text": "Herbs/Spices: Black Cohosh (Black Cohosh), Blue Cohosh (Blue Cohosh), Ginseng (Ginseng), Goldenseal (Goldenseal)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-923-3716",
+      "email": "blackberrybotanical@gmail.com",
+      "address": "437 Blackberry Spg, Alderson, West Virginia, 24910",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.7297468,
+      "longitude": -80.641983,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600001570",
+    "name": "Blue Rock Farm",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Mill Creek",
+    "category": "Mixed",
+    "products": [
+      "Other: Blueberries",
+      "woods (maple syrup production)"
+    ],
+    "products_text": "Other: Blueberries, woods (maple syrup production)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(304)-335-8239",
+      "email": "bluerockstudio@hotmail.com",
+      "address": "12005 Adolph Rd., Mill Creek, West Virginia, 26280",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.70999757,
+      "longitude": -80.14650667,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600002734",
+    "name": "Charjen Farms",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Renick",
+    "category": "Mixed",
+    "products": [
+      "Other: corn",
+      "hay",
+      "oats"
+    ],
+    "products_text": "Other: corn, hay, oats",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1818 Brownstown Rd, Renick, West Virginia, 24966",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.00152774,
+      "longitude": -80.33252802,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8210005589",
+    "name": "Clearway Farm, LLC",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Buckhannon",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Carrots (Carrots)",
+      "Onions (Onions)",
+      "Potatoes (Potatoes)",
+      "Sweet Potatoes (Sweet Potatoes)",
+      "Stem Vegetables: Rhubarb (Rhubarb)",
+      "Seed/Pod Vegetables: Beans (Beans)",
+      "Peas (Peas)",
+      "Leaf Vegetables: Lettuce (Lettuce)",
+      "Fruit Vegetables: Pe"
+    ],
+    "products_text": "Tuber/Root Vegetables: Carrots (Carrots), Onions (Onions), Potatoes (Potatoes), Sweet Potatoes (Sweet Potatoes); Stem Vegetables: Rhubarb (Rhubarb); Seed/Pod Vegetables: Beans (Beans), Peas (Peas); Leaf Vegetables: Lettuce (Lettuce); Fruit Vegetables: Pe",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-613-8850",
+      "email": "clearwayfarm@hotmail.com",
+      "address": "430 Tillman Lane, Buckhannon, West Virginia, 26201",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.99378358,
+      "longitude": -80.28228274,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600003349",
+    "name": "Dove Tail Ridge Farm",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Lindside",
+    "category": "Mixed",
+    "products": [
+      "Other: hemp",
+      "land eligible for organic production",
+      "pasture"
+    ],
+    "products_text": "Other: hemp, land eligible for organic production, pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(304) 772-3580",
+      "email": "loriashumate@gmail.com",
+      "address": "8236 Back Valley Rd, Lindside, West Virginia, 24951",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.48823462,
+      "longitude": -80.55870559,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600002368",
+    "name": "Down On The Creek LLC",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Greenville",
+    "category": "Mixed",
+    "products": [
+      "Other: blueberries",
+      "hay",
+      "other",
+      "pasture",
+      "popcorn",
+      "trees"
+    ],
+    "products_text": "Other: blueberries, hay, other, pasture, popcorn, trees",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(704)-560-9126",
+      "email": "lizern@carolina.rr.com",
+      "address": "2114 Hans Creek Road, Greenville, West Virginia, 24945",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.52822228,
+      "longitude": -80.72747257,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600002553",
+    "name": "Fairview Farm",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Letart",
+    "category": "Mixed",
+    "products": [
+      "Other: hay",
+      "pasture",
+      "Other: heifers (some eligible for slaughter)"
+    ],
+    "products_text": "Other: hay, pasture; Other: heifers (some eligible for slaughter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(304) 882-1178",
+      "email": "",
+      "address": "1694 Gibbstown Rd, Letart, West Virginia, 25253",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.96903313,
+      "longitude": -82.00995308,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920118004",
+    "name": "Fansler, David",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Mathias",
+    "category": "Mixed",
+    "products": [
+      "Poultry: Broilers"
+    ],
+    "products_text": "Poultry: Broilers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-897-5154",
+      "email": "dsfansler@hardynet.com",
+      "address": "1103 Upper Cove Road, Mathias, West Virginia, 29812",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.872314,
+      "longitude": -78.84895628,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-3928971743",
+    "name": "K & L Farms",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Points",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Hay"
+    ],
+    "products_text": "Field/Forageable: Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-496-9602",
+      "email": "",
+      "address": "1639 Slanesville Pike, Points, West Virginia, 25437",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.38606224,
+      "longitude": -78.54461152,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920819145",
+    "name": "Keplinger, Bailey",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Mathias",
+    "category": "Mixed",
+    "products": [
+      "Poultry: Chickens (Broilers - Eligible for Slaughter)"
+    ],
+    "products_text": "Poultry: Chickens (Broilers - Eligible for Slaughter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-897-6044",
+      "email": "",
+      "address": "1605 Crab Run Road, Mathias, West Virginia, 26812",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.84828161,
+      "longitude": -78.89150164,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600002210",
+    "name": "Little Brown Cow Dairy",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Greenville",
+    "category": "Mixed",
+    "products": [
+      "Other: corn",
+      "millet",
+      "pasture",
+      "sorghum",
+      "wheat",
+      "Other: beef steers",
+      "calves (some eligible for organic slaughter)",
+      "dairy replacement heifer (some eligible for organic slaughter)",
+      "Dry cows (some eligible for organic slaughter)",
+      "milk",
+      "milking cows (some eligible for organic slaughter)"
+    ],
+    "products_text": "Other: corn, millet, pasture, sorghum, wheat; Other: beef steers, calves (some eligible for organic slaughter), dairy replacement heifer (some eligible for organic slaughter), Dry cows (some eligible for organic slaughter), milk, milking cows (some eligible for organic slaughter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(304)-832-6400",
+      "email": "ak_helmick@hotmail.com",
+      "address": "3548 Hans Creek Road, Greenville, West Virginia, 24945",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.50975928,
+      "longitude": -80.72692788,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920918139",
+    "name": "Livengood Morning Star Farm, Inc.",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Keyser",
+    "category": "Mixed",
+    "products": [
+      "Poultry: Chickens (Broilers)"
+    ],
+    "products_text": "Poultry: Chickens (Broilers)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-788-1623",
+      "email": "",
+      "address": "13 Morning Light Lane, Keyser, West Virginia, 26726",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.48824706,
+      "longitude": -78.88035435,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8210007151",
+    "name": "Lonesome Ridge Farm, Inc",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Mathias",
+    "category": "Mixed",
+    "products": [
+      "Poultry: Laying Hens (Laying Hens",
+      "Eggs)"
+    ],
+    "products_text": "Poultry: Laying Hens (Laying Hens, Eggs)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "646-779-4298",
+      "email": "kristen@hbfeggs.com",
+      "address": "256 Green Ivy Road, Mathias, West Virginia, 26812",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.93422144,
+      "longitude": -78.90045094,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600001710",
+    "name": "Perk Farm Organic Dairy",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Frankford",
+    "category": "Mixed",
+    "products": [
+      "Other: alfalfa",
+      "barley",
+      "clover",
+      "corn",
+      "oats",
+      "other",
+      "pasture",
+      "rye",
+      "sorghum",
+      "soybeans",
+      "wheat",
+      "Other: beef brood cows (some eligible for slaughter)",
+      "beef heifers (some eligible for slaughter)",
+      "beef steers (some eligible for slaughter)",
+      "dairy replacement heifer (some eligible for slaughter)",
+      "dairy steers (some eligible for slaughter)",
+      "hogs (some el"
+    ],
+    "products_text": "Other: alfalfa, barley, clover, corn, oats, other, pasture, rye, sorghum, soybeans, wheat; Other: beef brood cows (some eligible for slaughter), beef heifers (some eligible for slaughter), beef steers (some eligible for slaughter), dairy replacement heifer (some eligible for slaughter), dairy steers (some eligible for slaughter), hogs (some el",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(304)-497-3529",
+      "email": "perkjerseys@hotmail.com",
+      "address": "1010 Boggs Rd, Frankford, West Virginia, 24938",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.90512638,
+      "longitude": -80.36819288,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600002889",
+    "name": "Precious Fruits",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Elkview",
+    "category": "Mixed",
+    "products": [
+      "Other: blackberries",
+      "hay/pasture",
+      "Land Eligible for Organic Production",
+      "mixed vegetables",
+      "sweet potatoes"
+    ],
+    "products_text": "Other: blackberries, hay/pasture, Land Eligible for Organic Production, mixed vegetables, sweet potatoes",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-965-1559",
+      "email": "rspreciousfruits@aol.com",
+      "address": "843 Canterbury Drive, Elkview, West Virginia, 25071",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.52269187,
+      "longitude": -81.49878304,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8210006178",
+    "name": "Red Hawk Rise Organics, LLC",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Harpers Ferry",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets (Beets)",
+      "Carrots (Carrots)",
+      "Garlic (Garlic)",
+      "Onions (Onions)",
+      "Potatoes (Potatoes)",
+      "Radishes (Radishes)",
+      "Rutabaga (Rutabaga)",
+      "Scallions (Scallions)",
+      "Turnips (Turnips)",
+      "Seed/Pod Vegetables: Beans (Beans)",
+      "Peas (Peas)",
+      "Nursery/S"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets (Beets), Carrots (Carrots), Garlic (Garlic), Onions (Onions), Potatoes (Potatoes), Radishes (Radishes), Rutabaga (Rutabaga), Scallions (Scallions), Turnips (Turnips); Seed/Pod Vegetables: Beans (Beans), Peas (Peas); Nursery/S",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "kebrownell@gmail.com",
+      "address": "1016 Engle Molers Rd, Harpers Ferry, West Virginia, 25425",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.356649,
+      "longitude": -77.776272,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7922151513",
+    "name": "Redbud Acres, LLC",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Sugar Grove",
+    "category": "Mixed",
+    "products": [
+      "Poultry: Broilers (Chickens)"
+    ],
+    "products_text": "Poultry: Broilers (Chickens)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-358-3715",
+      "email": "blheatwole@mgwnet.com",
+      "address": "1685 Doe Hill Rd, Sugar Grove, West Virginia, 26815",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.49599309,
+      "longitude": -79.37987349,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8210006795",
+    "name": "Ryan Kessler",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Baker",
+    "category": "Mixed",
+    "products": [
+      "Poultry: Laying Hens (Laying Hens",
+      "Eggs)"
+    ],
+    "products_text": "Poultry: Laying Hens (Laying Hens, Eggs)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-703-2972",
+      "email": "ryankessler2566@yahoo.com",
+      "address": "7108 Parker Hollow Rd, Baker, West Virginia, 26801",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.97038628,
+      "longitude": -78.84452435,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600003346",
+    "name": "Tabler Farm",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Shepherdstown",
+    "category": "Mixed",
+    "products": [
+      "Other: fruits",
+      "other",
+      "seedlings/transplants",
+      "vegetables"
+    ],
+    "products_text": "Other: fruits, other, seedlings/transplants, vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(304) 876-5426",
+      "email": "",
+      "address": "482 Billmeyer Mill Rd, Shepherdstown, West Virginia, 25443",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.44197856,
+      "longitude": -77.83398792,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600001301",
+    "name": "The Potager",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Hurricane",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Mixed Vegetables Seedlings"
+    ],
+    "products_text": "Other: Mixed Vegetables, Mixed Vegetables Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(304)-951-1575",
+      "email": "julie.schaer@frontier.com",
+      "address": "RR 4, Box 382, Hurricane, West Virginia, 25526",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.4291347,
+      "longitude": -82.0223083,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920218031",
+    "name": "Walnut Bottom Farm LLC",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Mathias",
+    "category": "Mixed",
+    "products": [
+      "Poultry: Chickens (Broilers)"
+    ],
+    "products_text": "Poultry: Chickens (Broilers)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-490-9849",
+      "email": "walnutbottomfarm@yahoo.com",
+      "address": "4035 Dove Hollow Road, Mathias, West Virginia, 26812",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.93620438,
+      "longitude": -78.89691716,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600003253",
+    "name": "Wardensville Garden Market",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Wardensville",
+    "category": "Mixed",
+    "products": [
+      "Other: mixed produce",
+      "mixed vegetable and flower seedlings/mixed vegetables/herbs",
+      "pasture",
+      "Other: eggs",
+      "layers"
+    ],
+    "products_text": "Other: mixed produce, mixed vegetable and flower seedlings/mixed vegetables/herbs, pasture; Other: eggs, layers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(304) 897-2083",
+      "email": "josh@wardensvillegardenmarket.org",
+      "address": "28813 SR 55, Wardensville, West Virginia, 26851",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.08436186,
+      "longitude": -78.59095877,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600000886",
+    "name": "West Virginia University Organic Agriculture Research Farm",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Morgantown",
+    "category": "Mixed",
+    "products": [
+      "Other: corn/rye/vetch/wheat/soybeans/miscanthus/kale/cowpea/pasture/hay/taro",
+      "grapes/strawberries",
+      "hay/pasture/blackberries",
+      "Land Eligible for Organic Production",
+      "mixed vegetables",
+      "Other: sheep (some eligible for slaughter)"
+    ],
+    "products_text": "Other: corn/rye/vetch/wheat/soybeans/miscanthus/kale/cowpea/pasture/hay/taro, grapes/strawberries, hay/pasture/blackberries, Land Eligible for Organic Production, mixed vegetables, mixed vegetables; Other: sheep (some eligible for slaughter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(305)-293-4727",
+      "email": "organicfarm@mail.wvu.edu",
+      "address": "676 201st Memorial Hwy, Morgantown, West Virginia, 26506",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.63053,
+      "longitude": -79.95771,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8210004762",
+    "name": "White Oak Farm LLC",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Gap Mills",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Clover (Clover)",
+      "Corn (Corn)",
+      "Hay (Hay)",
+      "Straw (Straw)",
+      "Wheat (Wheat)"
+    ],
+    "products_text": "Field/Forageable: Clover (Clover), Corn (Corn), Hay (Hay), Straw (Straw), Wheat (Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "whiteoakfarm@ibyfax.com",
+      "address": "109 Shetler Lane, Gap Mills, West Virginia, 24941",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.54129443,
+      "longitude": -80.43023357,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920119009",
+    "name": "Wilkins Farm Inc",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Baker",
+    "category": "Mixed",
+    "products": [
+      "Poultry: Broilers (Chicken)"
+    ],
+    "products_text": "Poultry: Broilers (Chicken)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-897-6536",
+      "email": "",
+      "address": "2826 Kimsey Run Road, Baker, West Virginia, 26801",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.96789409,
+      "longitude": -78.84477932,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1600002596",
+    "name": "Windspring Farms Inc.",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Gap Mills",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa",
+      "Clover",
+      "Corn",
+      "Grass",
+      "Pasture",
+      "Other: calves (some eligible for organic slaughter)",
+      "Dairy Bulls",
+      "Dairy replacement heifers (some eligible for organic slaughter)",
+      "Dry cows (some eligible for organic slaughter)",
+      "Milk",
+      "milking cows (some eligible for organic slaughter)"
+    ],
+    "products_text": "Other: Alfalfa, Clover, Corn, Grass, Pasture; Other: calves (some eligible for organic slaughter), Dairy Bulls, Dairy replacement heifers (some eligible for organic slaughter), Dry cows (some eligible for organic slaughter), Milk, milking cows (some eligible for organic slaughter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(304)-772-3304",
+      "email": "windspringfarms@yahoo.com",
+      "address": "4317 Sweet Springs Valley, Gap Mills, West Virginia, 24541",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.56355,
+      "longitude": -80.41188,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — West Virginia certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27West+Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

@@ -1,1 +1,5677 @@
-[]
+[
+  {
+    "id": "vagrown-1",
+    "name": "1Tribe Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Mount Sidney",
+    "category": "Mixed",
+    "products": [
+      "Farm Stay",
+      "Beef Oxtail",
+      "Ground Beef",
+      "Chuck Roast",
+      "Steaks",
+      "Ribs",
+      "Smoke Cured Bacon",
+      "Pork Tenderloin",
+      "Pork Spare Ribs",
+      "Pork Sirloin Chops",
+      "Pork Italian Sausage",
+      "Pork Liver",
+      "Pork Breakfast Sausage",
+      "Pork Chorizo Sausage",
+      "Pork Center Cut Chops",
+      "Pork Boston Butt",
+      "Ground Pork",
+      "Beef Top Sirloin",
+      "Beef Tongue",
+      "Beef Tenderloin",
+      "Beef Spare Ribs",
+      "Beef Skirt Steak",
+      "Beef Ribeyes",
+      "Beef NY Strip Steak",
+      "Beef Liver",
+      "Beef Chuck Roast",
+      "Beef Brisket"
+    ],
+    "products_text": "Farm Stay; Beef Oxtail; Ground Beef; Chuck Roast; Steaks; Ribs; Smoke Cured Bacon; Pork Tenderloin; Pork Spare Ribs; Pork Sirloin Chops; Pork Italian Sausage; Pork Liver; Pork Breakfast Sausage; Pork Chorizo Sausage; Pork Center Cut Chops; Pork Boston Butt; Ground Pork; Beef Top Sirloin; Beef Tongue; Beef Tenderloin; Beef Spare Ribs; Beef Skirt Steak; Beef Ribeyes; Beef NY Strip Steak; Beef Liver; Beef Chuck Roast; Beef Brisket; Farmer/Producer",
+    "website": "https://www.1tribefarm.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 255-9442",
+      "email": "info@1tribefarm.com",
+      "address": "877 Todd Rd, Mount Sidney, VA 24467",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.26393,
+      "longitude": -79.02395,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2",
+    "name": "2 Pond Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Mount Sidney",
+    "category": "Mixed",
+    "products": [
+      "Scots Pine",
+      "Norway Spruce",
+      "Vegetables"
+    ],
+    "products_text": "Scots Pine; Norway Spruce; Vegetables; Farmer/Producer; Farm Stand",
+    "website": "https://www.facebook.com/2pondfarm/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 215-0136",
+      "email": "",
+      "address": "300 Craig Shop Rd, Mount Sidney, VA 24467",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.24681,
+      "longitude": -78.90421,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-5",
+    "name": "4P Foods",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Warrenton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer; Farm Stand",
+    "website": "https://4pfoods.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(571) 293-8628",
+      "email": "community@4pfoods.com",
+      "address": "7120 Farm Station Rd, Warrenton, VA 20187",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.74456,
+      "longitude": -77.69535,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1944",
+    "name": "A'lala farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Draper",
+    "category": "Mixed",
+    "products": [
+      "Produce"
+    ],
+    "products_text": "Produce; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 230-0049",
+      "email": "allison.cox.pratt@gmail.com",
+      "address": "3332 Old Baltimore Rd, Draper, VA 24324",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.97724,
+      "longitude": -80.78572,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2062",
+    "name": "A1 Test Test",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [
+      "Pickles"
+    ],
+    "products_text": "Pickles; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(555) 555-5555",
+      "email": "",
+      "address": "102 Governor St, Richmond, VA 23219",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.53694,
+      "longitude": -77.43271,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2065",
+    "name": "Aardvark's Applesauce",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [
+      "Applesauce"
+    ],
+    "products_text": "Applesauce; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 786-4278",
+      "email": "",
+      "address": "102 Governor St, Richmond, VA 23219",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.53694,
+      "longitude": -77.43271,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2013",
+    "name": "Abingdon Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Abingdon",
+    "category": "Mixed",
+    "products": [
+      "Variety of items"
+    ],
+    "products_text": "Variety of items; CSA; Agritourism; Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "https://www.abingdonfarmersmarket.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 698-1434",
+      "email": "abingdonmarket@gmail.com",
+      "address": "PO Box 526, 100 Remsburg Drive, Abingdon, VA 24212",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.71292,
+      "longitude": -81.96765,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2009",
+    "name": "AeroFarms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Ringgold",
+    "category": "Mixed",
+    "products": [
+      "Micro Broccoli",
+      "Micro Bok Choy",
+      "Micro Kale",
+      "Micro Rainbow Mix",
+      "Micro Spicy Mix",
+      "Micro Super Mix",
+      "Micro Wasabi Mustard"
+    ],
+    "products_text": "Micro Broccoli; Micro Bok Choy; Micro Kale; Micro Rainbow Mix; Micro Spicy Mix; Micro Super Mix; Micro Wasabi Mustard; Farmer/Producer",
+    "website": "https://www.aerofarms.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(888) 768-0833",
+      "email": "",
+      "address": "1526 Cane Creek Pkwy Rd, Ringgold, VA 24586",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.58878,
+      "longitude": -79.32063,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1193",
+    "name": "Agriberry Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Hanover",
+    "category": "Mixed",
+    "products": [
+      "Pick Your Own",
+      "Educational Tours",
+      "Weekly Fruit Box Program",
+      "Fruit",
+      "raspberry blush and blackberry blush applesauce",
+      "hand-crafted artisan vinegars",
+      "Raspberries",
+      "Blackberries",
+      "Strawberries",
+      "Blueberries",
+      "Muscadine Grapes"
+    ],
+    "products_text": "Pick Your Own; Educational Tours; Weekly Fruit Box Program; Fruit; raspberry blush and blackberry blush applesauce; hand-crafted artisan vinegars; Raspberries; Blackberries; Strawberries; Blueberries; Muscadine Grapes; Farmer/Producer; CSA; Farmer's Markets; Farm Stand",
+    "website": "http://agriberry.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 514-5955",
+      "email": "agriberry@gmail.com",
+      "address": "6289 River Rd, Hanover, VA 23069",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.72501,
+      "longitude": -77.31252,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2037",
+    "name": "Artemis Ranch",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Cumberland",
+    "category": "Mixed",
+    "products": [
+      "Camp Site",
+      "Pasture Raised Meat",
+      "Farm Parties"
+    ],
+    "products_text": "Camp Site; Pasture Raised Meat; Farm Parties; Agritourism; Farmer's Markets; Farmer/Producer",
+    "website": "https://www.facebook.com/artemisranch",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 873-4586",
+      "email": "artemisranchva@gmail.com",
+      "address": "55 Clements Rd, 55 Clements Road, Cumberland, VA 23040",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.48181,
+      "longitude": -78.24537,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1978",
+    "name": "Ascension Beverage Co.",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Hampton",
+    "category": "Mixed",
+    "products": [
+      "APHAIRION™ Purified Water",
+      "APHAIRION X™ Alkaline Water",
+      "Ascension Spring Natural Spring Water"
+    ],
+    "products_text": "APHAIRION™ Purified Water; APHAIRION X™ Alkaline Water; Ascension Spring Natural Spring Water; Pick Your Own",
+    "website": "https://www.ascensionbeverageco.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 333-2032",
+      "email": "jason.jones@ascensionbeverageco.com",
+      "address": "105 E St, Hampton, VA 23661",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.00959,
+      "longitude": -76.40907,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1970",
+    "name": "Azalea Field Flowers",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Rapidan",
+    "category": "Mixed",
+    "products": [
+      "Floriculture"
+    ],
+    "products_text": "Floriculture; CSA; Agritourism; Farmer's Markets; Pick Your Own",
+    "website": "https://www.azaleafieldflowers.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(540) 423-7687",
+      "email": "",
+      "address": "27334 Rapidan Rd, Rapidan, VA 22733",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.32515,
+      "longitude": -78.05811,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2047",
+    "name": "Battletown Beef Co.",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Berryville",
+    "category": "Mixed",
+    "products": [
+      "1/4 Beef"
+    ],
+    "products_text": "1/4 Beef; Farmer/Producer",
+    "website": "https://battletownbeefco.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 327-6150",
+      "email": "",
+      "address": "1844 Lewisville Road, Berryville, VA 22611",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.1477265,
+      "longitude": -77.9801604,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2014",
+    "name": "Bellair Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Charlottesville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "CSA; Agritourism; Farmer's Markets; Farmer/Producer; Farm Stand; Pick Your Own",
+    "website": "https://www.bellairfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(434) 244-0325",
+      "email": "bellairfarm@gmail.com",
+      "address": "5290 Bellair Farm, Charlottesville, VA 22902",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.0376579,
+      "longitude": -78.4853806,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1994",
+    "name": "Beth Leonard Herb & Spice Crafter",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Lebanon",
+    "category": "Mixed",
+    "products": [
+      "Fajita Frenzy, \"Beth's Butt Rub\" and B's BERRIES jams",
+      "Spice Rubs"
+    ],
+    "products_text": "Fajita Frenzy, \"Beth's Butt Rub\" and B's BERRIES jams; Spice Rubs; Farmer/Producer",
+    "website": "https://www.herbspicecrafter.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 701-7883",
+      "email": "bethleonard48@outlook.com",
+      "address": "35 Fairview Ln, Lebanon, VA 24266",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.89023,
+      "longitude": -82.03558,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1967",
+    "name": "Big Face BBQ LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Sterling",
+    "category": "Mixed",
+    "products": [
+      "BBQ Sauce"
+    ],
+    "products_text": "BBQ Sauce; Farmer's Markets",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(571) 318-8349",
+      "email": "Bigfacebbq@gmail.com",
+      "address": "722 N Watford Ct, Sterling, VA 20164",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.01291,
+      "longitude": -77.39818,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1924",
+    "name": "Bland County Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Bland",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "https://www.facebook.com/share/1EqJzvRZVD/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 613-4626",
+      "email": "eahavens1982@gmail.com",
+      "address": "591 Main Street, Bland, VA 24315",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.099492,
+      "longitude": -81.115765,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1934",
+    "name": "Bland County Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Bland",
+    "category": "Mixed",
+    "products": [
+      "Farmers Market"
+    ],
+    "products_text": "Farmers Market; Farmer's Markets",
+    "website": "https://www.facebook.com/profile.php?id=100057395022524",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 688-4622",
+      "email": "cdunford@bland.org",
+      "address": "591 Main Street, Bland, VA 24315",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.099492,
+      "longitude": -81.115765,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1939",
+    "name": "Blue Ridge Pickling LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chantilly",
+    "category": "Mixed",
+    "products": [
+      "Dill Pickles",
+      "Chesapeake Pickles (Old Bay)",
+      "Habanero Pickles",
+      "Old Bay Brine Based Bloody Mary Mix",
+      "Garlic Dill Beans"
+    ],
+    "products_text": "Dill Pickles; Chesapeake Pickles (Old Bay); Habanero Pickles; Old Bay Brine Based Bloody Mary Mix; Garlic Dill Beans",
+    "website": "https://www.blueridgepickling.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(703) 828-5388",
+      "email": "blueridgepickling@gmail.com",
+      "address": "25387 Pleasant Valley Rd, Suite 110, Chantilly, VA 20152",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.91434,
+      "longitude": -77.47416,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2046",
+    "name": "Bluebird Hill Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Woolwine",
+    "category": "Mixed",
+    "products": [
+      "Vegetables, Poultry, Eggs, Cut flowers, herbs"
+    ],
+    "products_text": "Vegetables, Poultry, Eggs, Cut flowers, herbs; CSA; Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "https://www.bluebirdhillfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 930-1296",
+      "email": "bluebirdhillfarms11@gmail.com",
+      "address": "PO Box 3, Woolwine, VA 24185",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.85828,
+      "longitude": -80.26032,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1943",
+    "name": "Bone Doctors' Barbecue Sauces",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Charlottesville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.bonedoctorsbbq.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 465-9154",
+      "email": "quinton@bonedoctorsbbq.com",
+      "address": "401 East Market St, Suite 6, Charlottesville, VA 22902",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.03089,
+      "longitude": -78.47877,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2029",
+    "name": "Bulldog Brinery",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [
+      "Spicy Miso Kimchi",
+      "Fermented Cantina Salsa",
+      "Red Cabbage Sauerkraut",
+      "Pickled Pineapple"
+    ],
+    "products_text": "Spicy Miso Kimchi; Fermented Cantina Salsa; Red Cabbage Sauerkraut; Pickled Pineapple; Farmer's Markets; Farmer/Producer",
+    "website": "https://bulldogbrinery.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(202) 297-1813",
+      "email": "mrgilles777@gmail.com",
+      "address": "2601 Maury St, 2, Richmond, VA 23224",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.51013,
+      "longitude": -77.45268,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1912",
+    "name": "C & A Produce LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Montross",
+    "category": "Mixed",
+    "products": [
+      "Produce"
+    ],
+    "products_text": "Produce",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 456-7796",
+      "email": "candaproduce@hotmail.com",
+      "address": "189 Santa Cruz Rd, Montross, VA 22520",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.14517,
+      "longitude": -76.94418,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-165",
+    "name": "Cannon Hill Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Mount Jackson",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "https://www.facebook.com/cannonhill.farm/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 333-0976",
+      "email": "",
+      "address": "224 Cannon Hill Rd, Mount Jackson, VA 22842",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.76137,
+      "longitude": -78.64002,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1977",
+    "name": "Carroll County Lavender Company",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Hillsville",
+    "category": "Mixed",
+    "products": [
+      "Hoop house raised Vegetables and field raised lavender"
+    ],
+    "products_text": "Hoop house raised Vegetables and field raised lavender; Agritourism; Farmer's Markets; Farmer/Producer; Farm Stand; Pick Your Own",
+    "website": "https://cclavendercompany.godaddysites.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(276) 299-2209",
+      "email": "carrollcountylavendercompany@gmail.com",
+      "address": "730 White Stone Rd, Hillsville, VA 24343",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.71549,
+      "longitude": -80.6231,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2018",
+    "name": "Cascades Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Sterling",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "https://www.loudounfarmersmarkets.org/cascades",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 454-8089",
+      "email": "info@loudounfarmersmarkets.org",
+      "address": "21060 Whitfield Pl, Senior Center Parking Lot, Sterling, VA 20165",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.03307,
+      "longitude": -77.39524,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1946",
+    "name": "Cedar Spoke Farmstead",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Linville",
+    "category": "Mixed",
+    "products": [
+      "Eggs",
+      "Nubian Dairy Goats"
+    ],
+    "products_text": "Eggs; Nubian Dairy Goats; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 246-3800",
+      "email": "cedarspokefarm@proton.me",
+      "address": "7445 Joes Creek Rd, Linville, VA 22834",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.55434,
+      "longitude": -78.8778,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1995",
+    "name": "Chilicopter LLC South Indian Hot Sauces & Condiments",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "https://www.chilicopter.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(774) 253-2436",
+      "email": "info@chilicopter.com",
+      "address": "513 S Cherry St, Richmond, VA 23220",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.53849,
+      "longitude": -77.45282,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1921",
+    "name": "Chunky Vegan",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chantilly",
+    "category": "Mixed",
+    "products": [
+      "Creamy Okinawa Purple Sweet Potatoes",
+      "Sweet Potato & Butternut Squash",
+      "Coconut Curry Lentils",
+      "Black Bean & Okinawa Purple Sweet Potato",
+      "Spaghetti & Veggies",
+      "Strawberry Banana Millet"
+    ],
+    "products_text": "Creamy Okinawa Purple Sweet Potatoes; Sweet Potato & Butternut Squash; Coconut Curry Lentils; Black Bean & Okinawa Purple Sweet Potato; Spaghetti & Veggies; Strawberry Banana Millet; Farmer's Markets; Pick Your Own",
+    "website": "https://chunkyvegan.net/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(703) 544-9507",
+      "email": "info@chunkyvegan.net",
+      "address": "25387 Pleasant Valley Rd, Suite 110, Chantilly, VA 20152",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.91434,
+      "longitude": -77.47416,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1984",
+    "name": "Church Street Farmer's Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Blackstone",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "https://www.facebook.com/groups/churchstreetfarmersmarket",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 264-4378",
+      "email": "",
+      "address": "603 Church St, Blackstone, VA 23824",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.07765,
+      "longitude": -78.00879,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1936",
+    "name": "Clouse's Pine Hill Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Winchester",
+    "category": "Mixed",
+    "products": [
+      "Christmas Trees",
+      "White Pine",
+      "Norway Spruce",
+      "Concolor Fir",
+      "Scotch Pine",
+      "Fraser Fir",
+      "Douglas Fir",
+      "Wreaths"
+    ],
+    "products_text": "Christmas Trees; White Pine; Norway Spruce; Concolor Fir; Scotch Pine; Fraser Fir; Douglas Fir; Wreaths; Agritourism; Pick Your Own",
+    "website": "https://www.clousespinehillfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(540) 247-4458",
+      "email": "ryclouse@yahoo.com",
+      "address": "2660 Green Spring Rd, Winchester, VA 22603",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.35005,
+      "longitude": -78.18119,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1953",
+    "name": "Cooking with Greens LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Norfolk",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "https://www.cookingwithgreensfamily.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(908) 405-6666",
+      "email": "",
+      "address": "208 E Main St, Suite 105, Norfolk, VA 23510",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.84613,
+      "longitude": -76.29148,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1964",
+    "name": "Crabs Express Inc.",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Gloucester",
+    "category": "Mixed",
+    "products": [
+      "Blue Crabs",
+      "Oysters",
+      "Clams"
+    ],
+    "products_text": "Blue Crabs; Oysters; Clams; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 694-5030",
+      "email": "crabsexpress@cox.net",
+      "address": "9084 John Clayton Memorial Hwy, Gloucester, Gloucester, VA 23061",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.43949,
+      "longitude": -76.47928,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1938",
+    "name": "Crestvue Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Arrington",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets; Farmer/Producer",
+    "website": "https://crestvuefarm.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(503) 621-8659",
+      "email": "leslie@crestvuefarm.com",
+      "address": "267 Variety Mills Rd, Arrington, VA 22922",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.6839,
+      "longitude": -78.89384,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2045",
+    "name": "Crucible Coffee Inc.",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Staunton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "https://cruciblecoffee.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 490-4038",
+      "email": "hello@cruciblecoffee.com",
+      "address": "300 Church St, Suite 201, Staunton, VA 24401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.14618,
+      "longitude": -79.07533,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2024",
+    "name": "Dalal",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Alexandria",
+    "category": "Mixed",
+    "products": [
+      "Yemeni Specialty Coffee"
+    ],
+    "products_text": "Yemeni Specialty Coffee; Farmer's Markets",
+    "website": "https://www.dalalcoffee.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(313) 231-0080",
+      "email": "DalalCoffee1@gmail.com",
+      "address": "2401 Fairhaven Ave, Fl2, Alexandria, VA 22303",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.78523,
+      "longitude": -77.07485,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1951",
+    "name": "Dark Leaf Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Appomattox",
+    "category": "Mixed",
+    "products": [
+      "Pumpkins"
+    ],
+    "products_text": "Pumpkins; Agritourism; Pick Your Own",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(434) 607-2612",
+      "email": "jojenki1@vt.edu",
+      "address": "185 Dark Leaf Rd, Appomattox, VA 24522",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.24427,
+      "longitude": -78.86932,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2033",
+    "name": "Denson's Crab Cake Co",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Colonial Beach",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets; Farmer/Producer",
+    "website": "https://www.densonsgrocery.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 366-4810",
+      "email": "rocky.denson@gmail.com",
+      "address": "211 Bancroft Ave, Colonial Beach, VA 22443, Colonial Beach, VA 22443-2501",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.2611057,
+      "longitude": -76.9944683,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1976",
+    "name": "Done Roamin Ranch LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Moneta",
+    "category": "Mixed",
+    "products": [
+      "Poultry, Beef and Pork",
+      "Maple Syrup"
+    ],
+    "products_text": "Poultry, Beef and Pork; Maple Syrup; Farmer/Producer; Farm Stand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 309-6957",
+      "email": "Doneoraminranchva@gmail.com",
+      "address": "11356 Dickerson Mill Rd, Moneta, VA 24121",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.25791,
+      "longitude": -79.67324,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2012",
+    "name": "Dreamland Alpacas",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Meadowview",
+    "category": "Mixed",
+    "products": [
+      "Alpaca socks, hats, scarves,etc"
+    ],
+    "products_text": "Alpaca socks, hats, scarves,etc; Agritourism; Farmer/Producer; Farm Stand",
+    "website": "https://www.DreamlandAlpacas.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 494-6798",
+      "email": "dreamlandalpacas@aol.com",
+      "address": "13050 Bell Ln, Meadowview, VA 24361",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.76722,
+      "longitude": -81.86116,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1896",
+    "name": "Dropped Anchor Farm LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Mixed",
+    "products": [
+      "Eggs",
+      "Chicken, duck, turkey meat",
+      "Figs",
+      "Vinegar (with mother)",
+      "Fig trees"
+    ],
+    "products_text": "Eggs; Chicken, duck, turkey meat; Figs; Vinegar (with mother); Fig trees",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(570) 499-9331",
+      "email": "kimberly.culley@gmail.com",
+      "address": "2330 Carolina Rd, Chesapeake, VA 23322",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.63671,
+      "longitude": -76.13706,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1956",
+    "name": "Early Bird Press & Produce",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Wytheville",
+    "category": "Mixed",
+    "products": [
+      "Vegetables, eggs and more"
+    ],
+    "products_text": "Vegetables, eggs and more; Farmer's Markets; Farm Stand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 613-2034",
+      "email": "",
+      "address": "PO Box 1010, Wytheville, VA 24382",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.94314,
+      "longitude": -81.08234,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1981",
+    "name": "Fair Winds Farms / Wandering Bees Apiary",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Madison",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 560-8213",
+      "email": "Fairwindsfarms@hotmail.com",
+      "address": "2072 Seville Rd, Madison, VA 22727",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.31145,
+      "longitude": -78.34815,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1975",
+    "name": "Faithfully Sown",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Troutville",
+    "category": "Mixed",
+    "products": [
+      "Produce"
+    ],
+    "products_text": "Produce; CSA; Farmer/Producer",
+    "website": "https://faithfullysown.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 529-2084",
+      "email": "jacob@faithfullysown.com",
+      "address": "1768 Trinity Rd, Troutville, VA 24175",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.43911,
+      "longitude": -79.88392,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2007",
+    "name": "Faucher Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Berryville",
+    "category": "Mixed",
+    "products": [
+      "Fresh Farm Products"
+    ],
+    "products_text": "Fresh Farm Products; Farmer/Producer",
+    "website": "https://www.faucherfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 277-2997",
+      "email": "RFaucher@faucherfarms.com",
+      "address": "140 Triple Oak Ln, Berryville, VA 22611",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.18621,
+      "longitude": -77.99185,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2026",
+    "name": "Ferrell Vegetable Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "South Boston",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 502-4888",
+      "email": "",
+      "address": "5050 Lewis Ferrell Rd, South Boston, VA 24592",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.68486,
+      "longitude": -79.11478,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2039",
+    "name": "Flock and Freedom Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Middleburg",
+    "category": "Mixed",
+    "products": [
+      "Lamb",
+      "Chicken"
+    ],
+    "products_text": "Lamb; Chicken; Agritourism; Farmer/Producer",
+    "website": "https://flockandfreedom.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(571) 447-3239",
+      "email": "pamela.relph@gmail.com",
+      "address": "22022 Sam Fred Rd, Middleburg, VA 20117",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.00786,
+      "longitude": -77.69722,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1931",
+    "name": "Francisco Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Staunton",
+    "category": "Mixed",
+    "products": [
+      "White Pine",
+      "Blue Spruce",
+      "Fraser Fir",
+      "Wreaths"
+    ],
+    "products_text": "White Pine; Blue Spruce; Fraser Fir; Wreaths",
+    "website": "https://www.facebook.com/share/16r7xtEAvd/?mibextid=wwXIfr",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 908-1708",
+      "email": "teridalebeasley@gmail.com",
+      "address": "343 Bethel Green Rd, Staunton, VA 24401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.05015,
+      "longitude": -79.16593,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1937",
+    "name": "Fries Town Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Town of Fries",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "https://www.friesva.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 744-2231",
+      "email": "townoffries@friesva.com",
+      "address": "510 Riverview Avenue, Town of Fries, VA 24330",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1961",
+    "name": "Gilliam’s Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Emporia",
+    "category": "Mixed",
+    "products": [
+      "Gilliam's Farm Pasture-Raised Eggs"
+    ],
+    "products_text": "Gilliam's Farm Pasture-Raised Eggs; CSA; Agritourism; Farmer's Markets; Farmer/Producer; Farm Stand; Pick Your Own",
+    "website": "https://www.gilliamsfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(434) 430-1009",
+      "email": "gilliamsfarm@gmail.com",
+      "address": "6082 Dry Bread Rd, Emporia, VA 23847",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.67682,
+      "longitude": -77.65248,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1972",
+    "name": "Gnaw Bear",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [
+      "Gnaw Bear 12oz Tamarind Fruit Drink"
+    ],
+    "products_text": "Gnaw Bear 12oz Tamarind Fruit Drink; Farmer/Producer",
+    "website": "https://gnawbear.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 248-3784",
+      "email": "eric@gnawbear.com",
+      "address": "2400 E Cary St, Unit 404, Richmond, VA 23223",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.52881,
+      "longitude": -77.42294,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1903",
+    "name": "Grassy Creek Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "South Boston",
+    "category": "Mixed",
+    "products": [
+      "Honey"
+    ],
+    "products_text": "Honey",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 579-5703",
+      "email": "donna.f.anderson05@gmail.com",
+      "address": "3229 Cherry Hill Church Rd, South Boston, VA 24592",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.64214,
+      "longitude": -78.8748,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1929",
+    "name": "Hank's Christmas Trees",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Markham",
+    "category": "Mixed",
+    "products": [
+      "Fraser Fir",
+      "Douglas Fir",
+      "Blue Spruce",
+      "White Pine",
+      "Leyland Cypress",
+      "Blue Ice - Arizona Cypress",
+      "Fraser Fir Wreaths"
+    ],
+    "products_text": "Fraser Fir; Douglas Fir; Blue Spruce; White Pine; Leyland Cypress; Blue Ice - Arizona Cypress; Fraser Fir Wreaths; Agritourism; Farmer/Producer; Farm Stand; Pick Your Own",
+    "website": "https://hankschristmastrees.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(540) 532-0436",
+      "email": "hartlandfarm@gmail.com",
+      "address": "12230 Belle Meade Lane, Markham, VA 22643",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1996",
+    "name": "Hanover Town Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Mechanicsville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 690-6658",
+      "email": "hanovertown@gmail.com",
+      "address": "4450 River Rd, Mechanicsville, VA 23116",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.69731,
+      "longitude": -77.24581,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1928",
+    "name": "Hartland Farm Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Markham",
+    "category": "Mixed",
+    "products": [
+      "U Pick",
+      "Pumpkins",
+      "Tomatoes",
+      "Pure, local, raw honey",
+      "Seasonal Market - Fresh best ever apple donuts, kettle corn and pies"
+    ],
+    "products_text": "U Pick; Pumpkins; Tomatoes; Pure, local, raw honey; Seasonal Market - Fresh best ever apple donuts, kettle corn and pies.; Agritourism; Farmer/Producer; Farm Stand; Pick Your Own",
+    "website": "https://hartlandfarmmarket.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(540) 532-0436",
+      "email": "hartlandfarm@gmail.com",
+      "address": "3205 Hartland Ln, Markham, VA 22643",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9098,
+      "longitude": -78.00666,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1980",
+    "name": "Haywood Family Honey LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Stafford",
+    "category": "Mixed",
+    "products": [
+      "Honey",
+      "Comb Honey"
+    ],
+    "products_text": "Honey; Comb Honey; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(717) 781-5279",
+      "email": "haywoodfamilyhoney@gmail.com",
+      "address": "95 Cranston Ln, Stafford, VA 22556",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.44367,
+      "longitude": -77.53694,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1979",
+    "name": "Healthy Harvest Fresh",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Warsaw, VA",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Agritourism; Farmer/Producer",
+    "website": "https://hhfresh.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 250-2287",
+      "email": "grow@hhfresh.org",
+      "address": "91 Commerce Parkway, Warsaw, VA, VA 22572",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1892",
+    "name": "Heritage Hearts Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Meherrin",
+    "category": "Mixed",
+    "products": [
+      "Soap",
+      "Blueberry Jam"
+    ],
+    "products_text": "Soap; Blueberry Jam",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(425) 344-3248",
+      "email": "heritageheartsfarm@gmail.com",
+      "address": "91 Carriage Rd, Meherrin, VA 23954",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.16494,
+      "longitude": -78.41182,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1966",
+    "name": "HHB LLC DBA Westside Produce & Provisions",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Norfolk",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farm Stand",
+    "website": "http://www.westsideproduceandprovisions.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 962-1961",
+      "email": "cathy.westsideproduce@gmail.com",
+      "address": "5015 Colley Ave, Norfolk, VA 23508",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.88899,
+      "longitude": -76.29526,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1989",
+    "name": "Hickory Faith Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Powhatan",
+    "category": "Mixed",
+    "products": [
+      "Half Hog",
+      "Whole Hog"
+    ],
+    "products_text": "Half Hog; Whole Hog; Farmer/Producer",
+    "website": "https://hickoryfaithfarm.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 543-8561",
+      "email": "hickoryfaithfarm@gmail.com",
+      "address": "3605 Huguenot Trl, Powhatan, VA 23139",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.61308,
+      "longitude": -77.90228,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1926",
+    "name": "Hickory Hill Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Keezletown",
+    "category": "Mixed",
+    "products": [
+      "Blueberries",
+      "Concord grapes",
+      "Heirloom tomatoes",
+      "Heirloom chiles",
+      "Raw honey"
+    ],
+    "products_text": "Blueberries; Concord grapes; Heirloom tomatoes; Heirloom chiles; Raw honey; Agritourism; Farmer's Markets; Farmer/Producer; Pick Your Own",
+    "website": "http://hickoryhillfarmvirginia.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(540) 269-6251",
+      "email": "Blueberries.smwj@gmail.com",
+      "address": "3034 Fruit Farm Ln, Keezletown, VA 22832",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.42763,
+      "longitude": -78.7812,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1910",
+    "name": "Higgs Homestead",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Willis",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://www.facebook.com/share/15mySjemvG/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 838-1549",
+      "email": "higgshomestead25@gmail.com",
+      "address": "157 Agnes Ln NW, Willis, VA 24380",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.87152,
+      "longitude": -80.4829,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1973",
+    "name": "Horse -n- Bear Ranch",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Fort Blackmore",
+    "category": "Mixed",
+    "products": [
+      "Goat's Milk Soap",
+      "Goat's Milk Salves and Balms",
+      "Herb Blends",
+      "Dried Herbs",
+      "Elixirs"
+    ],
+    "products_text": "Goat's Milk Soap; Goat's Milk Salves and Balms; Herb Blends; Dried Herbs; Elixirs; Farmer/Producer; Farm Stand",
+    "website": "https://www.horse-n-bear.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 759-6158",
+      "email": "horsenbearranch@gmail.com",
+      "address": "215 Starnes Bluff Ln, Fort Blackmore, VA 24250",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.70154,
+      "longitude": -82.60346,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1899",
+    "name": "Jolli Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "South Boston",
+    "category": "Mixed",
+    "products": [
+      "Quail, Berkshire Pigs, Dorper Sheep"
+    ],
+    "products_text": "Quail, Berkshire Pigs, Dorper Sheep",
+    "website": "https://www.jollifarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 446-6681",
+      "email": "dean@jollifarms.com",
+      "address": "1007 Crawley Trl, South Boston, VA 24592",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.65111,
+      "longitude": -78.99171,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2000",
+    "name": "JOY'S DELIGHTZ, LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Fredericksburg",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "https://joysdelightz.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(336) 324-6242",
+      "email": "Joysdelightz@gmail.com",
+      "address": "9626 Hazelbrook Ct, Fredericksburg, VA 22407",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.2112,
+      "longitude": -77.53785,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1963",
+    "name": "JuiceSea LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesterfield",
+    "category": "Mixed",
+    "products": [
+      "Jamaican Spiced Seamoss Oatmilk",
+      "Seamoss Cucumber Lemonade",
+      "Blackberry, Raspberry Hibiscus Seamoss",
+      "Seamoss + Ginger Shots"
+    ],
+    "products_text": "Jamaican Spiced Seamoss Oatmilk; Seamoss Cucumber Lemonade; Blackberry, Raspberry Hibiscus Seamoss; Seamoss + Ginger Shots; Pick Your Own; Farmer/Producer",
+    "website": "https://www.instagram.com/juiceseallc?igsh=MWRrcXpod21jaWMyaQ==",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(804) 869-5434",
+      "email": "JuiceSeaLLC@gmail.com",
+      "address": "9550 Midlothian Tpke, #118, Chesterfield, VA 23235",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1986",
+    "name": "Kicklers Kitchen LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Midlothian",
+    "category": "Mixed",
+    "products": [
+      "Burt's Bloody Mary Mix"
+    ],
+    "products_text": "Burt's Bloody Mary Mix; Farmer's Markets; Pick Your Own",
+    "website": "http://www.kicklerskitchen.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(804) 651-4756",
+      "email": "kicklerskitchen@gmail.com",
+      "address": "3020 Vistapoint Rd, Midlothian, VA 23113, Midlothian, VA 23113",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.54159,
+      "longitude": -77.6626,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1916",
+    "name": "Lamp Light Farm LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Suffolk",
+    "category": "Mixed",
+    "products": [
+      "Eggs",
+      "Poultry - Cornish Style",
+      "Poultry - Whole Fryers",
+      "Poultry - Roasters",
+      "USDA Goat",
+      "Produce and Herbs",
+      "Figs",
+      "Sour Cherries",
+      "Produce, Meats, Eggs, Goat Milk Herdshares"
+    ],
+    "products_text": "Eggs; Poultry - Cornish Style; Poultry - Whole Fryers; Poultry - Roasters; USDA Goat; Produce and Herbs; Figs; Sour Cherries; Produce, Meats, Eggs, Goat Milk Herdshares; Agritourism; Farmer's Markets",
+    "website": "http://www.lamplightfarmllc.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 286-4709",
+      "email": "lamplightfarmllc@gmail.com",
+      "address": "2720 Lake Cohoon Rd, Suffolk, VA 23434",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.74859,
+      "longitude": -76.64913,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1965",
+    "name": "Lanning Family Farm, LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Blairs",
+    "category": "Mixed",
+    "products": [
+      "Eggs",
+      "Keifer Pears",
+      "Bartlett Pears",
+      "Brown Turkey Figs",
+      "Pecans",
+      "Lodi (June) Apples",
+      "Yella’ Stuff Wash",
+      "Yella’ Stuff Balm",
+      "Bite Boost Roller",
+      "Honey Beard Butter",
+      "Shave Oil",
+      "Cherry Tomatoes"
+    ],
+    "products_text": "Eggs; Keifer Pears; Bartlett Pears; Brown Turkey Figs; Pecans; Lodi (June) Apples; Yella’ Stuff Wash; Yella’ Stuff Balm; Bite Boost Roller; Honey Beard Butter; Shave Oil; Cherry Tomatoes; Farmer's Markets; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 692-4154",
+      "email": "Lanningff@gmail.com",
+      "address": "326 Deerwood Dr, Blairs, VA 24527",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.71023,
+      "longitude": -79.38267,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2017",
+    "name": "Leesburg Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Leesburg",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "https://www.loudounfarmersmarkets.org/leesburg-saturday",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 454-8089",
+      "email": "info@loudounfarmersmarkets.org",
+      "address": "30 Catoctin Cir SE, Virginia Village Shopping Center, Leesburg, VA 20175",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.10732,
+      "longitude": -77.56661,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1960",
+    "name": "Level Up Micro Farms, llc (LUMF)",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Louisa",
+    "category": "Mixed",
+    "products": [
+      "Leafy Greens",
+      "herbs"
+    ],
+    "products_text": "Leafy Greens; herbs; CSA; Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "https://www.levelupmicrofarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 223-5655",
+      "email": "levelupmigrow@gmail.com",
+      "address": "30 Industrial Dr, 30 INDUSTRIAL DR, Louisa, VA 23093",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.01472,
+      "longitude": -77.96566,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1969",
+    "name": "Links of Hope Inc & Gilliam's Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Emporia",
+    "category": "Mixed",
+    "products": [
+      "3D Fresh Eggs"
+    ],
+    "products_text": "3D Fresh Eggs; Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "https://gilliamsfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(404) 242-4031",
+      "email": "gilliamsfarm@gmail.com",
+      "address": "6082 Dry Bread Rd, Emporia, VA 23847",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.67682,
+      "longitude": -77.65248,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2008",
+    "name": "Little Otter Flower Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Bedford",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "CSA; Farmer's Markets; Farmer/Producer",
+    "website": "https://www.littleotterflowerfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(201) 306-3168",
+      "email": "jen.littleotter@gmail.com",
+      "address": "3674 Forest Rd, Bedford, VA 24523",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.34884,
+      "longitude": -79.48248,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1913",
+    "name": "Loudoun Honey",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Waterford",
+    "category": "Mixed",
+    "products": [
+      "Raw Honey",
+      "Creamed Honey",
+      "Hot Honey"
+    ],
+    "products_text": "Raw Honey; Creamed Honey; Hot Honey; Farmer/Producer",
+    "website": "https://loudounhoney.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 514-3173",
+      "email": "beekeeper@loudounhoney.com",
+      "address": "14964 Buroak Dr, Waterford, VA 20197",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.19923,
+      "longitude": -77.66055,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2034",
+    "name": "Mama Mock's Baking Co.",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chester",
+    "category": "Mixed",
+    "products": [
+      "Sourdough Bread"
+    ],
+    "products_text": "Sourdough Bread; Farmer/Producer",
+    "website": "https://www.facebook.com/profile.php?id=61573951893660",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 432-0836",
+      "email": "mamamocksbakingco@gmail.com",
+      "address": "11400 Ludgate Pl, Chester, VA 23831",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.3686,
+      "longitude": -77.43387,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1919",
+    "name": "Maranatha Mountain Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Madison",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(909) 653-2124",
+      "email": "Maranathamtnfarm@gmail.com",
+      "address": "1438 N Main St, 2134, Madison, VA 22727",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.38552,
+      "longitude": -78.29945,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2006",
+    "name": "Market @ PPL (Petersburg Public Library)",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Petersburg",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "https://www.facebook.com/p/Market-at-PPL-100063946339147/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 334-0084",
+      "email": "aewilson74@vt.edu",
+      "address": "201 W Washington St, Petersburg, VA 23803",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.22711,
+      "longitude": -77.40769,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2041",
+    "name": "Meadowgate Alpacas",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Beaverdam",
+    "category": "Mixed",
+    "products": [
+      "Alpaca Agritourism, Fiber Products, and Alpaca Sales"
+    ],
+    "products_text": "Alpaca Agritourism, Fiber Products, and Alpaca Sales; Agritourism; Farmer's Markets; Farmer/Producer",
+    "website": "http://www.meadowgatealpacas.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 432-3572",
+      "email": "",
+      "address": "16305 Coatesville Rd, Beaverdam, VA 23015",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8564,
+      "longitude": -77.60714,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1957",
+    "name": "Mor-Lyn-Del Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Rustburg",
+    "category": "Mixed",
+    "products": [
+      "Small Homestead Products"
+    ],
+    "products_text": "Small Homestead Products; Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "https://www.facebook.com/share/14JDWyY3dnL/?mibextid=wwXIfr",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 426-4205",
+      "email": "morlyndelfarm@gmail.com",
+      "address": "170 Kings Grant Way, Rustburg, VA 24588",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.24372,
+      "longitude": -79.01438,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2004",
+    "name": "Moses Mill Farm, LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chatham",
+    "category": "Mixed",
+    "products": [
+      "Goat Milking Experience",
+      "Dexter beef",
+      "Pastured Poultry",
+      "Pastured Pork"
+    ],
+    "products_text": "Goat Milking Experience; Dexter beef; Pastured Poultry; Pastured Pork; Agritourism; Farmer/Producer",
+    "website": "http://www.mosesmillfarmva.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 661-7028",
+      "email": "coolamydavis@gmail.com",
+      "address": "1368 Moses Mill Rd, Chatham, VA 24531",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.82528,
+      "longitude": -79.41816,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1974",
+    "name": "Mother Cluckin' Homestead",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Dinwiddie",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets; Farmer/Producer",
+    "website": "https://mchomestead.net/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 885-8323",
+      "email": "",
+      "address": "13607 Courthouse Rd, Dinwiddie, VA 23841",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.08659,
+      "longitude": -77.58624,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1958",
+    "name": "Mountain Artisan LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Mechanicsville",
+    "category": "Mixed",
+    "products": [
+      "Vegetables, Fruits, Greens, Berries, Fruits"
+    ],
+    "products_text": "Vegetables, Fruits, Greens, Berries, Fruits; CSA; Agritourism; Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "https://zachsgarden.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 692-4032",
+      "email": "jcdimmette@gmail.com",
+      "address": "10331 Colony Bee Pl, Mechanicsville, VA 23116",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.672,
+      "longitude": -77.40954,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1925",
+    "name": "Mountain View Christmas Tree Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Edinburg",
+    "category": "Mixed",
+    "products": [
+      "Christmas trees"
+    ],
+    "products_text": "Christmas trees",
+    "website": "https://virginiachristmastrees.org/listing/mountain-view-christmas-tree-farm/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 325-9164",
+      "email": "rhoadeskenneth306@gmail.com",
+      "address": "2167 Rittenour Rd, Edinburg, VA 22824",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.86849,
+      "longitude": -78.58978,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1608",
+    "name": "Nancy's Candy Company",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Meadows of Dan",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "http://www.nancyshomemadefudge.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 435-4290",
+      "email": "",
+      "address": "PO Box 800, Meadows of Dan, VA 24120",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.70296,
+      "longitude": -80.47122,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1614",
+    "name": "New London Farm & 460 Meats",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Forest",
+    "category": "Mixed",
+    "products": [
+      "100% Grass-Fed and Grass-Finished Beef"
+    ],
+    "products_text": "100% Grass-Fed and Grass-Finished Beef; Farmer/Producer",
+    "website": "http://www.newlondonfarm.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 610-4368",
+      "email": "newlondonfarm@gmail.com",
+      "address": "2048 Bellevue Rd, Forest, VA 24551",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.32008,
+      "longitude": -79.32839,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2010",
+    "name": "Old Cryors",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Mc Kenney",
+    "category": "Mixed",
+    "products": [
+      "Weekly Seasonal Offerings"
+    ],
+    "products_text": "Weekly Seasonal Offerings; Farmer's Markets",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 712-7947",
+      "email": "smell003@gmail.com",
+      "address": "20208 Old Cryors Rd, Mc Kenney, VA 23872",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.994,
+      "longitude": -77.79558,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1990",
+    "name": "Old Town Farm & Flowers",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Winchester",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets; Farmer/Producer; Farm Stand; Pick Your Own",
+    "website": "https://www.facebook.com/OldTownFarmandFlowers/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(540) 533-0698",
+      "email": "oldtownflowers1@gmail.com",
+      "address": "2721 Apple Pie Ridge Rd, 2721, Winchester, VA 22603",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.28063,
+      "longitude": -78.15829,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1907",
+    "name": "Onancock Farmers and Artisans Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Onancock",
+    "category": "Mixed",
+    "products": [
+      "Vendor Products"
+    ],
+    "products_text": "Vendor Products; Farmer's Markets",
+    "website": "https://www.onancockmarket.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 710-2028",
+      "email": "",
+      "address": "20 Market St, Onancock, VA 23417",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.71206,
+      "longitude": -75.74935,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2021",
+    "name": "Pair A Dice Acres LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Zuni",
+    "category": "Mixed",
+    "products": [
+      "Vegetables and Microgreens"
+    ],
+    "products_text": "Vegetables and Microgreens; Farmer's Markets; Farmer/Producer",
+    "website": "https://www.pairadiceva.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 532-0078",
+      "email": "pairadiceacreszuniva@gmail.com",
+      "address": "7128 Fire Tower Rd, Zuni, VA 23898",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.86743,
+      "longitude": -76.80255,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1954",
+    "name": "Pgthegardens",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Hopewell",
+    "category": "Mixed",
+    "products": [
+      "Fruits,Vegetables, seasonal flowers and much more…"
+    ],
+    "products_text": "Fruits,Vegetables, seasonal flowers and much more…; Farmer/Producer",
+    "website": "https://www.pgthegardens.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 514-8330",
+      "email": "pgthegardens@yahoo.com",
+      "address": "6710 Norcum Avenue, Hopewell, VA 23875",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.2910098,
+      "longitude": -77.2989443,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1911",
+    "name": "Pickle Factory",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Montross",
+    "category": "Mixed",
+    "products": [
+      "Pickles"
+    ],
+    "products_text": "Pickles",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 456-7796",
+      "email": "picklefactory1@outlook.com",
+      "address": "189 Santa Cruz Rd, Montross, VA 22520",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.14517,
+      "longitude": -76.94418,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2002",
+    "name": "Piedmont Farm and Greenhouse",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Bealeton",
+    "category": "Mixed",
+    "products": [
+      "Vegetable and flowers"
+    ],
+    "products_text": "Vegetable and flowers; Farmer's Markets; Farmer/Producer; Pick Your Own",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(540) 422-6426",
+      "email": "Piedmontfgh@gmail.com",
+      "address": "12036 Morgansburg Rd, Bealeton, VA 22712",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.53885,
+      "longitude": -77.74782,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1940",
+    "name": "Pig Wing Farms, LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Doswell",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://pigwingfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(702) 469-0133",
+      "email": "brooke@pigwingfarms.com",
+      "address": "16447 Bullfield Rd, Doswell, VA 23047",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.85918,
+      "longitude": -77.453,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1942",
+    "name": "Pluck'd",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Austinville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "http://www.pluckd.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 390-3988",
+      "email": "ashields@pluckd.com",
+      "address": "151 Maynard Dr, Austinville, VA 24312",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.851,
+      "longitude": -80.8766,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2030",
+    "name": "Poet and Printmaker Farm and Nursery",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Faber",
+    "category": "Mixed",
+    "products": [
+      "Black Raspberry",
+      "Elderberry",
+      "Native trees"
+    ],
+    "products_text": "Black Raspberry; Elderberry; Native trees; Farmer/Producer",
+    "website": "https://poetandprintmakerfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 300-2770",
+      "email": "lanaandscott@poetandprintmakerfarm.com",
+      "address": "8132 Irish Rd, Faber, VA 22938",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.83103,
+      "longitude": -78.74105,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1922",
+    "name": "Pop's Praiseworthy Popcorn",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Purcellville",
+    "category": "Mixed",
+    "products": [
+      "Heavenly Kettle Popcorn",
+      "Luscious Lavender Popcorn",
+      "Red-Hot Rosemary Popcorn"
+    ],
+    "products_text": "Heavenly Kettle Popcorn; Luscious Lavender Popcorn; Red-Hot Rosemary Popcorn; Farmer's Markets; Farm Stand",
+    "website": "https://eatpopspopcorn.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(202) 743-0123",
+      "email": "hello@eatpopspopcorn.com",
+      "address": "210 N 21st St, Ste F, Purcellville, VA 20132",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.13848,
+      "longitude": -77.71622,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2022",
+    "name": "Radical Roots Organic Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Keezletown",
+    "category": "Mixed",
+    "products": [
+      "Organic Vegetables and Garden Starts"
+    ],
+    "products_text": "Organic Vegetables and Garden Starts; Farmer/Producer",
+    "website": "https://radicalrootsfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 810-2587",
+      "email": "radicalrootsfarmva@gmail.com",
+      "address": "3083 Flook Ln, Keezletown, VA 22832",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.47295,
+      "longitude": -78.7694,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1949",
+    "name": "Redhill Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Bland",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 928-1110",
+      "email": "lhavens@hotmail.com",
+      "address": "1321 Flat Top Rd, Bland, VA 24315",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.19303,
+      "longitude": -80.93793,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2048",
+    "name": "Remington Ranch, LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Gladys",
+    "category": "Mixed",
+    "products": [
+      "Pastured Poultry",
+      "Grass Fed/Finished Beef"
+    ],
+    "products_text": "Pastured Poultry; Grass Fed/Finished Beef; Farmer/Producer",
+    "website": "http://www.remingtonranch.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 665-3392",
+      "email": "remingtonranch2021@gmail.com",
+      "address": "3678 Long Island Rd, Gladys, VA 24554",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.1234,
+      "longitude": -79.08855,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2035",
+    "name": "River Street Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Petersburg",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "https://riverstreetmarket.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(541) 550-9222",
+      "email": "",
+      "address": "30 River Street, Petersburg, VA 23803",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.2047302,
+      "longitude": -77.3923681,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2011",
+    "name": "Rock Hill Honey Bee Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Stafford",
+    "category": "Mixed",
+    "products": [
+      "Wildflower Honey",
+      "Clover Honey",
+      "Honey Jelly with Cinnamon, or Pumpkin Pie Spice, or Habanero Honey, or Lemon Honey"
+    ],
+    "products_text": "Wildflower Honey; Clover Honey; Honey Jelly with Cinnamon, or Pumpkin Pie Spice, or Habanero Honey, or Lemon Honey; Farmer's Markets; Farmer/Producer",
+    "website": "https://www.rockhillhoneybeefarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(703) 595-1179",
+      "email": "jmattiaccio@richmondgroupintl.com",
+      "address": "45 Pinto Ln, Stafford, VA 22556",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.50985,
+      "longitude": -77.54067,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2036",
+    "name": "Rosetta Coffee Company",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Lynchburg",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "https://www.rosettacoffeecompany.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 515-1399",
+      "email": "alefferts@rosettacoffeeco.com",
+      "address": "404 Munford St, Lynchburg, VA 24501",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.40925,
+      "longitude": -79.16199,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1959",
+    "name": "RTS Farms - All Natural Beef",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Troutville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "https://www.rtsfarms.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 992-1361",
+      "email": "rtsfarms2@gmail.com",
+      "address": "199 Gravel Dr, Troutville, VA 24175",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.45224,
+      "longitude": -79.87267,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2038",
+    "name": "Ruibal Family Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Front Royal",
+    "category": "Mixed",
+    "products": [
+      "Lettuce Mix",
+      "Kale",
+      "Spinach",
+      "Radishes",
+      "Arugula",
+      "Snap Peas",
+      "Tomatoes",
+      "Cucumbers",
+      "Jalapeño Peppers",
+      "Banana Peppers",
+      "Poblano Peppers",
+      "Potatoes"
+    ],
+    "products_text": "Lettuce Mix; Kale; Spinach; Radishes; Arugula; Snap Peas; Tomatoes; Cucumbers; Jalapeño Peppers; Banana Peppers; Poblano Peppers; Potatoes; Farmer/Producer; Farm Stand",
+    "website": "https://ruibal-family-farm.square.site/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 692-9786",
+      "email": "ruibalfamilyfarm@gmail.com",
+      "address": "3100 Shenandoah Shores Rd, Front Royal, VA 22630",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.96327,
+      "longitude": -78.147,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1993",
+    "name": "Sandy River Distillery",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Rice",
+    "category": "Mixed",
+    "products": [
+      "Virginia Bourbon Barrel Aged Maple Syrup",
+      "Old Fashioned Cocktail Syrup"
+    ],
+    "products_text": "Virginia Bourbon Barrel Aged Maple Syrup; Old Fashioned Cocktail Syrup; Agritourism; Farmer/Producer",
+    "website": "https://sandyriverdistillery.com/the-tasting-experience",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 392-7275",
+      "email": "Info@sandyriverdistillery.com",
+      "address": "147 Monroe Church Rd, Rice, VA 23966",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.25407,
+      "longitude": -78.33231,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1988",
+    "name": "Scared Cowboy",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "http://www.scaredcowboy.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(571) 242-4945",
+      "email": "hello@scaredcowboy.com",
+      "address": "2601 Maury St, BLDG 2, Richmond, VA 23224",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.51013,
+      "longitude": -77.45268,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2005",
+    "name": "Shelton Farm Produce",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Danville",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 685-3262",
+      "email": "sheltonfarmproduce@gmail.com",
+      "address": "1337 Sandy Creek Rd, Danville, VA 24540",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.67404,
+      "longitude": -79.47667,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1945",
+    "name": "Silver Oak Farm, LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "South Prince George",
+    "category": "Mixed",
+    "products": [
+      "Cut flowers, vegetables"
+    ],
+    "products_text": "Cut flowers, vegetables",
+    "website": "https://www.silveroakfarmva.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 586-5822",
+      "email": "silveroakfarm1105@gmail.com",
+      "address": "1105 Birdsong Rd, South Prince George, VA 23805",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.16526,
+      "longitude": -77.38058,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2003",
+    "name": "Smith Meadows",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Berryville",
+    "category": "Mixed",
+    "products": [
+      "Smith Meadows Meats and Farm Fresh Eggs"
+    ],
+    "products_text": "Smith Meadows Meats and Farm Fresh Eggs; Agritourism; Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "https://www.smithmeadows.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 955-4389",
+      "email": "contact@smithmeadows.com",
+      "address": "568 Smithfield Ln, 568 Smithfield Lane, Berryville, VA 22611",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.17333,
+      "longitude": -77.89825,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2019",
+    "name": "Smithfield Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Smithfield",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 357-2214",
+      "email": "sdooley@isleofwightus.net",
+      "address": "115 Main St, Smithfield, VA 23430",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.98192,
+      "longitude": -76.63154,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2020",
+    "name": "Spence Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Mixed",
+    "products": [
+      "Tomatoes, Eggplant, Peppers, Sweet Corn, Squash, Cukes, Okra, Collards, Sweet Potatoes, Kale"
+    ],
+    "products_text": "Tomatoes, Eggplant, Peppers, Sweet Corn, Squash, Cukes, Okra, Collards, Sweet Potatoes, Kale; Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "https://m.facebook.com/spencefarmscart/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 619-8398",
+      "email": "april.faircloth2008@gmail.com",
+      "address": "3080 Benefit Rd, Chesapeake, VA 23322",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.63304,
+      "longitude": -76.32729,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1941",
+    "name": "Spruceberry Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Cumberland",
+    "category": "Mixed",
+    "products": [
+      "Christmas Trees, Blueberries, Blackberries, Craft Beer, Wine, Apples"
+    ],
+    "products_text": "Christmas Trees, Blueberries, Blackberries, Craft Beer, Wine, Apples; Agritourism; Pick Your Own",
+    "website": "https://www.spruceberryfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(804) 869-3497",
+      "email": "william@spruceberryfarm.com",
+      "address": "94 Cartersville Rd, Cumberland, VA 23040",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.52018,
+      "longitude": -78.20841,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2023",
+    "name": "Star Brook Gardens LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Meadows of Dan",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Agritourism; Farmer's Markets; Farmer/Producer",
+    "website": "https://starbrookgardens.carrd.co/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(910) 358-0425",
+      "email": "joshdunn889@gmail.com",
+      "address": "2135 Jeb Stuart Hwy, Meadows of Dan, VA 24120",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.73627,
+      "longitude": -80.41671,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2040",
+    "name": "Stay Organic",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Evington",
+    "category": "Mixed",
+    "products": [
+      "Tomatoes, Sweet Sorghum, Blackberries"
+    ],
+    "products_text": "Tomatoes, Sweet Sorghum, Blackberries; Agritourism; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 420-0910",
+      "email": "ezstmatt@yahoo.com",
+      "address": "424 Mortimer Dr, Evington, VA 24550",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.24905,
+      "longitude": -79.20904,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1952",
+    "name": "STUFT Corp. dba Haas Sauce",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Hampton",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Pick Your Own",
+    "website": "http://www.stuftstreetfood.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 784-1262",
+      "email": "stuftrestaurant@gmail.com",
+      "address": "24 N Mallory St, Hampton, VA 23663",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.01991,
+      "longitude": -76.32013,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2044",
+    "name": "Sweet Delights Bakery",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Henrico",
+    "category": "Mixed",
+    "products": [
+      "Sourdough Breads, bun and etc"
+    ],
+    "products_text": "Sourdough Breads, bun and etc; Farmer's Markets",
+    "website": "https://www.instagram.com/sweet_delights_bakery_",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 381-8855",
+      "email": "sweetdelightsbakery0224@gmail.com",
+      "address": "2205 Lundie Ln, Henrico, VA 23231",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.51576,
+      "longitude": -77.38498,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1947",
+    "name": "Sweethaven Lavender of Williamsburg",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Williamsburg",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "https://www.sweethavenlavender.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 647-8684",
+      "email": "info@sweethavenlavender.com",
+      "address": "2460 Bush Neck Rd, Williamsburg, VA 23188",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.30321,
+      "longitude": -76.80717,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1985",
+    "name": "Terra di Siena USA",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Mechanicsville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 723-5748",
+      "email": "",
+      "address": "8505 Bell Creek Rd, Suite H, Mechanicsville, VA 23116",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.63959,
+      "longitude": -77.3532,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1971",
+    "name": "The Easterday Mushroom Company",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Sandston",
+    "category": "Mixed",
+    "products": [
+      "Fresh Mushrooms"
+    ],
+    "products_text": "Fresh Mushrooms; Farmer's Markets; Farmer/Producer",
+    "website": "https://www.easterdaymushroom.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 251-0613",
+      "email": "contact@easterdaymushroom.com",
+      "address": "3680 Meadow Rd, Sandston, VA 23150",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.51681,
+      "longitude": -77.23931,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1021",
+    "name": "The Farm at Hemlock",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Louisa",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "https://www.facebook.com/thefarmathemlock/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 687-2924",
+      "email": "",
+      "address": "5142 Courthouse Rd, Louisa, VA 23093",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.98585,
+      "longitude": -78.04251,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1999",
+    "name": "The Good Steward Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Fredericksburg",
+    "category": "Mixed",
+    "products": [
+      "Goat Meat"
+    ],
+    "products_text": "Goat Meat; Farmer's Markets",
+    "website": "https://www.thegoodstewardfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 455-1333",
+      "email": "Thegoodstewardfarm@gmail.com",
+      "address": "377 Caisson Rd, Fredericksburg, VA 22405",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.27871,
+      "longitude": -77.37674,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1895",
+    "name": "The Main Ingredient",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Collinsville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 340-4327",
+      "email": "hokiej1234@gmail.com",
+      "address": "139 Shumate Dr, Collinsville, VA 24078",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.73907,
+      "longitude": -79.91842,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1998",
+    "name": "Traveling Peonies",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Spotsylvania",
+    "category": "Mixed",
+    "products": [
+      "Premium Peonies"
+    ],
+    "products_text": "Premium Peonies; Farmer/Producer; Farm Stand; Farmer's Markets",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(703) 477-8192",
+      "email": "mariana.silvazun@gmail.com",
+      "address": "11704 Wilderness Park Dr, Spotsylvania, VA 22551",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.30073,
+      "longitude": -77.72927,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1822",
+    "name": "Two and a Half Irishmen Inc",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [
+      "Traditional Irish Guinness Gingerbread"
+    ],
+    "products_text": "Traditional Irish Guinness Gingerbread",
+    "website": "https://www.traditionalirishbaking.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 615-3520",
+      "email": "info@traditionalirishbaking.com",
+      "address": "9508 Skyview Dr, Richmond, VA 23229",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.61716,
+      "longitude": -77.57494,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2032",
+    "name": "Uptown Martinsville Farmers' Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Martinsville",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "https://www.facebook.com/martinsvillefarmersmarket",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 632-6401",
+      "email": "kimberly@mhcchamber.com",
+      "address": "65 W. Main Street, Martinsville, VA 24112",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6835269,
+      "longitude": -79.8636475,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1987",
+    "name": "VA Organics LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Mixed",
+    "products": [
+      "Sunflower",
+      "Radish",
+      "Broccoli",
+      "Peas",
+      "Spicy Salad Mix",
+      "Perfect Storm Blend"
+    ],
+    "products_text": "Sunflower; Radish; Broccoli; Peas; Spicy Salad Mix; Perfect Storm Blend; Farmer's Markets; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 633-7447",
+      "email": "denrjen@yahoo.com",
+      "address": "308 Hickory Woods Ct, Chesapeake, VA 23322",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.62523,
+      "longitude": -76.2166,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2027",
+    "name": "Victory Garden Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Haymarket",
+    "category": "Mixed",
+    "products": [
+      "Fruit and Vegetables"
+    ],
+    "products_text": "Fruit and Vegetables; CSA; Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "https://www.victorygardenfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(202) 280-5931",
+      "email": "owners@victorygardenfarm.com",
+      "address": "2531 Little River Rd, Haymarket, VA 20169",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.90096,
+      "longitude": -77.61154,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2028",
+    "name": "Virginia Community Food Connections",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Fredericksburg",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 642-0105",
+      "email": "info@virginiacfc.org",
+      "address": "480 Central Rd, Fredericksburg, VA 22401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.28695,
+      "longitude": -77.47173,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1992",
+    "name": "Virginia Granola Company",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "https://www.virginiagranola.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 277-8887",
+      "email": "bogi@virginiagranola.com",
+      "address": "2900 Elmore St, Virginia Beach, VA 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.73212,
+      "longitude": -76.07714,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2001",
+    "name": "Virginia Spores",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Tappahannock",
+    "category": "Mixed",
+    "products": [
+      "Oyster Mushrooms",
+      "Spawn Media"
+    ],
+    "products_text": "Oyster Mushrooms; Spawn Media; Farmer/Producer; CSA; Agritourism; Farmer's Markets; Farm Stand",
+    "website": "https://www.virginiaspores.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 460-8500",
+      "email": "",
+      "address": "2000 Tappahannock Blvd, Tappahannock, VA 22560",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.89814,
+      "longitude": -76.87088,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1982",
+    "name": "Viva La Nosh",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Palmyra",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer's Markets",
+    "website": "http://www.vivalanosh.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(434) 373-0443",
+      "email": "contact@vivalanosh.com",
+      "address": "5 Shiloh Ct, Palmyra, VA 22963",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.93007,
+      "longitude": -78.33721,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2016",
+    "name": "WALNUT HILL FARM PRODUCE",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Colonial Beach",
+    "category": "Mixed",
+    "products": [
+      "WALNUT HILL FARM PRODUCE"
+    ],
+    "products_text": "WALNUT HILL FARM PRODUCE; Farmer's Markets; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(804) 450-2572",
+      "email": "meft77@verizon.net",
+      "address": "5504 Leedstown Rd, Colonial Beach, VA 22443",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.14716,
+      "longitude": -77.0055,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-2015",
+    "name": "Webb Farms Of VA, INC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Fancy Gap",
+    "category": "Mixed",
+    "products": [
+      "Farm Raised Beef"
+    ],
+    "products_text": "Farm Raised Beef; Farmer's Markets; Farmer/Producer; Farm Stand",
+    "website": "http://www.webbfarmsofva.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(276) 733-0884",
+      "email": "webbfarmsofva@gmail.com",
+      "address": "8404 Snake Creek Rd, Fancy Gap, VA 24328",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.67973,
+      "longitude": -80.60489,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1863",
+    "name": "Whitley's Peanut Factory, Inc.",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Hayes",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farmer/Producer",
+    "website": "http://www.whitleyspeanut.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(800) 470-2244",
+      "email": "",
+      "address": "PO Box 647, Hayes, VA 23072",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.29383,
+      "longitude": -76.51229,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1950",
+    "name": "Wisteria Farm & Vineyard",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Stanley",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "https://wisteriavineyard.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 742-5215",
+      "email": "",
+      "address": "1126 Marksville Rd, Stanley, VA 22851",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.57433,
+      "longitude": -78.47407,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1991",
+    "name": "Woodbine Farm Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Strasburg",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "Farm Stand",
+    "website": "https://www.woodbinefarmmarket.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 465-2729",
+      "email": "woodbinemarket@gmail.com",
+      "address": "5199 John Marshall Hwy, Strasburg, VA 22657",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.0509,
+      "longitude": -78.37185,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "vagrown-1948",
+    "name": "Woods Edge Farm LLC",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Rockingham",
+    "category": "Mixed",
+    "products": [
+      "Vegetables, strawberries, beef cattle, chickens"
+    ],
+    "products_text": "Vegetables, strawberries, beef cattle, chickens; Farmer/Producer",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(540) 466-3622",
+      "email": "wefarmstand@gmail.com",
+      "address": "3930 Cromer Rd, Rockingham, VA 22802",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.50797,
+      "longitude": -78.87339,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "source_url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

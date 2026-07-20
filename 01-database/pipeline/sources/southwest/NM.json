@@ -1,0 +1,14 @@
+{
+  "state": "NM",
+  "name": "New Mexico",
+  "region": "southwest",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {"id": "nmsrc-nmfma", "name": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator", "url": "https://farmersmarketsnm.org/find-a-market/", "adapter": "seed", "path": "seeds/NM.json", "notes": "Reviewed current locator capture; grocery-only listings excluded."},
+    {"id": "nmsrc-usfarmtrail", "name": "U.S. Farm Trail — New Mexico", "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=new-mexico", "adapter": "seed", "path": "seeds/NM-USFarmTrail.json", "notes": "Reviewed 2026-07-19 capture; out-of-state coordinates remain QA residue."},
+    {"id": "nmsrc-usda-organic", "name": "USDA Organic Integrity Database — New Mexico certified producers", "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query", "adapter": "seed", "path": "seeds/NM-USDAOrganic.json", "notes": "Certified crop, livestock, or wild-crop operations."},
+    {"id": "nmsrc-eatwild", "name": "EatWild — New Mexico", "url": "https://www.eatwild.com/products/newmexico.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "nmsrc-pickyourown", "name": "PickYourOwn — New Mexico", "url": "https://www.pickyourown.org/NM.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "nmsrc-localharvest", "name": "LocalHarvest — New Mexico", "url": "https://www.localharvest.org/new-mexico/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
+  ]
+}

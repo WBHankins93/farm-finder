@@ -1,0 +1,5729 @@
+[
+  {
+    "id": "usda-7920516105",
+    "name": "A'ama Organic Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Other: Bananas",
+      "Coffee"
+    ],
+    "products_text": "Other: Bananas, Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-936-1783",
+      "email": "aamafiona@gmail.com",
+      "address": "82-1090 'C' Kinue Road, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.4924768,
+      "longitude": -155.9059746,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220002533",
+    "name": "ADAPTATIONS INC - FARM",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "CAPTAIN COOK",
+    "category": "Mixed",
+    "products": [
+      "Other: Lemon Grass",
+      "Tarragon",
+      "Mullein",
+      "Nuts",
+      "Parsley",
+      "Marigold",
+      "Passiflora",
+      "Pumpkin",
+      "Herbs and Spices",
+      "Nasturtium",
+      "Dandelion",
+      "Bidens",
+      "Spinach",
+      "Micro mix",
+      "Broccoli",
+      "Spearmint",
+      "Coriander",
+      "coffee",
+      "Lemon Balm",
+      "citrus",
+      "Wildcrafted Night Cereus",
+      "Banyon Tree Sa"
+    ],
+    "products_text": "Other: Lemon Grass, Tarragon, Mullein, Nuts, Parsley, Marigold, Passiflora, Pumpkin, Herbs and Spices, Nasturtium, Dandelion, Bidens, Spinach, Micro mix, Broccoli, Spearmint, Coriander, coffee, Lemon Balm, citrus, Wildcrafted Night Cereus, Banyon Tree Sa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "P.O. Box 1070, CAPTAIN COOK, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.49399,
+      "longitude": -155.91841,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220007291",
+    "name": "AGREFAB",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "WAIMANALO",
+    "category": "Mixed",
+    "products": [
+      "Other: Banana",
+      "Ginger",
+      "Mango",
+      "Moringa",
+      "Taro",
+      "Tumeric"
+    ],
+    "products_text": "Other: Banana, Ginger, Mango, Moringa, Taro, Tumeric",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "41-720 Kumuhau Street, WAIMANALO, Hawaii, 96795",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.34475646,
+      "longitude": -157.7352734,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920515158",
+    "name": "Ahimsa Sanctuary Farms LLP",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Haikau",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Sweet Potatoes",
+      "Taro",
+      "Onion",
+      "Seed/Pod Vegetables: Beans (Blue Lake Pole",
+      "Lima Beans",
+      "Bush",
+      "Yellow)",
+      "Corn",
+      "Okra",
+      "Sugar Snap Peas",
+      "Nuts: Chestnuts",
+      "Leaf Vegetables: Bok Choy",
+      "Kale",
+      "Lettuce",
+      "Green Star Lettuce",
+      "Red Let"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Sweet Potatoes, Taro, Onion; Seed/Pod Vegetables: Beans (Blue Lake Pole, Lima Beans, Bush, Yellow), Corn, Okra, Sugar Snap Peas; Nuts: Chestnuts; Leaf Vegetables: Bok Choy, Kale, Lettuce, Green Star Lettuce, Red Let",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "simon@ahimsasanctuaryfarm.com",
+      "address": "4504 Hana Hwy, Haikau, Hawaii, 96708",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.92565259,
+      "longitude": -156.2824869,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920615165",
+    "name": "Aloha Green LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Papaikou",
+    "category": "Mixed",
+    "products": [
+      "Flower Vegetables: Hearts of Palms (Palmito/Peach Palm)"
+    ],
+    "products_text": "Flower Vegetables: Hearts of Palms (Palmito/Peach Palm)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-934-8112",
+      "email": "steve@alohagreen.com",
+      "address": "27-175 Koae Rd, Papaikou, Hawaii, 96781",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.798098,
+      "longitude": -155.089159,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921215257",
+    "name": "Alternative Structures International",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waianae",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Leeks",
+      "Onions",
+      "Radishes",
+      "Taro (Kalo)",
+      "Turnips",
+      "Leaf Vegetables: Arugula",
+      "Bok Choy",
+      "Cabbage (Pak Choi)",
+      "Chard",
+      "Collards",
+      "Kale",
+      "Kohlrabi",
+      "Lettuce",
+      "Mizuna",
+      "Spinach (Perennial)",
+      "Herbs/Spices: Cilantro",
+      "Dill",
+      "Fennel",
+      "Gin",
+      "Poultry: Chickens (Laying Hens)"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Leeks, Onions, Radishes, Taro (Kalo), Turnips; Leaf Vegetables: Arugula, Bok Choy, Cabbage (Pak Choi), Chard, Collards, Kale, Kohlrabi, Lettuce, Mizuna, Spinach (Perennial); Herbs/Spices: Cilantro, Dill, Fennel, Gin; Poultry: Chickens (Laying Hens)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-696-3655",
+      "email": "",
+      "address": "87-156 Kuwale Road, Waianae, Hawaii, 96792",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.44951619,
+      "longitude": -158.1513013,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920211014",
+    "name": "Benton Thomas",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Fruit Vegetables: Cucumbers",
+      "Fruit - Tropical Fruits: Avocados",
+      "Field/Forageable: Coffee",
+      "Coffee Leaves"
+    ],
+    "products_text": "Fruit Vegetables: Cucumbers; Fruit - Tropical Fruits: Avocados; Field/Forageable: Coffee, Coffee Leaves",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-323-2597",
+      "email": "tombff@gmail.com",
+      "address": "81-21-67 Haku Nui Rd, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.49991709,
+      "longitude": -155.9071637,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920411036",
+    "name": "Bruce D. Corker",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Holualoa",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Avocados",
+      "Bananas",
+      "Mangos",
+      "Papayas",
+      "Passionfruits (Lilikoi)",
+      "Fruit - Citrus Fruits: Grapefruits",
+      "Lemons",
+      "Limes",
+      "Tangerines",
+      "Other: Coffee",
+      "Lulo/Naranjilla",
+      "Pomegranates",
+      "Soursop/Guanabana",
+      "Starfruit/Carambola",
+      "Tamarillo/Tree Toma"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Avocados, Bananas, Mangos, Papayas, Passionfruits (Lilikoi); Fruit - Citrus Fruits: Grapefruits, Lemons, Limes, Tangerines; Other: Coffee, Lulo/Naranjilla, Pomegranates, Soursop/Guanabana, Starfruit/Carambola, Tamarillo/Tree Toma",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-322-9562",
+      "email": "bruce.corker@gmail.com",
+      "address": "75-5760 Mamalahoa Hwy, Holualoa, Hawaii, 96725",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.62998541,
+      "longitude": -155.9485495,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920711092",
+    "name": "Captain Cook Honey, Ltd",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captin Cook",
+    "category": "Mixed",
+    "products": [
+      "Apiculture: Bees"
+    ],
+    "products_text": "Apiculture: Bees",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-328-2279",
+      "email": "puettg001@hawaii.rr.com",
+      "address": "85-5780 Napoopoo Road, Captin Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.47762049,
+      "longitude": -155.9042163,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920810041",
+    "name": "Chad's Organics",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Hilo",
+    "category": "Mixed",
+    "products": [
+      "Leaf Vegetables: Arugula",
+      "Kale",
+      "Lettuce",
+      "Herbs/Spices: Basil"
+    ],
+    "products_text": "Leaf Vegetables: Arugula, Kale, Lettuce; Herbs/Spices: Basil",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-961-3577",
+      "email": "chadsorganics@gmail.com",
+      "address": "275 Akolea Rd, Hilo, Hawaii, 96720",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.69224011,
+      "longitude": -155.1369663,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005834",
+    "name": "Chaga Inc. Dba Noniland",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kilauea",
+    "category": "Mixed",
+    "products": [
+      "Seed/Pod Vegetables: Vanilla",
+      "Fruit - Tropical Fruits: Noni",
+      "Field/Forageable: Cacao"
+    ],
+    "products_text": "Seed/Pod Vegetables: Vanilla; Fruit - Tropical Fruits: Noni; Field/Forageable: Cacao",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "4639 Waiakalua Street, Kilauea, Hawaii, 96754",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.19805536,
+      "longitude": -159.3756597,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920810039",
+    "name": "Cloud Forest Coffee, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honokaa",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Coffee"
+    ],
+    "products_text": "Field/Forageable: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-936-3188",
+      "email": "erik@hawaiiancloudforestcoffee.com",
+      "address": "45-3523 Kahana Drive, Honokaa, Hawaii, 96727",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.04852954,
+      "longitude": -155.4777406,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920511067",
+    "name": "Coca Farms, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kula",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Leeks",
+      "Onions",
+      "Radishes (Leaf)",
+      "Turnips",
+      "Stem Vegetables: Celery",
+      "Seed/Pod Vegetables: Green Beans",
+      "Leaf Vegetables: Arugula",
+      "Cabbage",
+      "Kale",
+      "Kohlrabi",
+      "Lettuce",
+      "Spinach",
+      "Herbs/Spices: Cilantro",
+      "Fennel",
+      "Lemon Grass",
+      "P"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Leeks, Onions, Radishes (Leaf), Turnips; Stem Vegetables: Celery; Seed/Pod Vegetables: Green Beans; Leaf Vegetables: Arugula, Cabbage, Kale, Kohlrabi, Lettuce, Spinach; Herbs/Spices: Cilantro, Fennel, Lemon Grass, P",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-876-1816",
+      "email": "CocoFarmsLLC@gmail.com",
+      "address": "291 Pulehu Nui Rd, Kula, Hawaii, 96790",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.77909028,
+      "longitude": -156.3228217,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921210062",
+    "name": "Colehour Bondera dba Kanalani Ohana Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honaunau",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Taro",
+      "Leaf Vegetables: Spinach (Tropical Perennial)",
+      "Fruit - Tropical Fruits: Avocados",
+      "Bananas",
+      "Papayas",
+      "Fruit - Citrus Fruits: Oranges",
+      "Tangelos",
+      "Flower Vegetables: Tamarillos",
+      "Field/Forageable: Sugercane",
+      "Other: Coffee",
+      "Lulo/Naranjilla",
+      "Lynchee"
+    ],
+    "products_text": "Tuber/Root Vegetables: Taro; Leaf Vegetables: Spinach (Tropical Perennial); Fruit - Tropical Fruits: Avocados, Bananas, Papayas; Fruit - Citrus Fruits: Oranges, Tangelos; Flower Vegetables: Tamarillos; Field/Forageable: Sugercane; Other: Coffee, Lulo/Naranjilla, Lulo/Naranjilla, Lynchee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-640-1643",
+      "email": "colemel2@gmail.com",
+      "address": "84-5060-D Mamalahoa Hwy, Honaunau, Hawaii, 96726",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.4316942,
+      "longitude": -155.8741403,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561004659",
+    "name": "Counter Culture LLC Dba Counter Culture Food & Ferments",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waialua",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Daikon",
+      "Jicama",
+      "Onions",
+      "Radishes",
+      "Shallots",
+      "Tuber/Root Vegetables",
+      "Seed/Pod Vegetables: Beans",
+      "Legumes",
+      "Okra",
+      "Leaf Vegetables: Cabbage",
+      "Pak Choi",
+      "Herbs/Spices: Ginger",
+      "Herbs",
+      "Turmeric",
+      "Fruit Vegetables: Pepp",
+      "Poultry: Chickens-Layers",
+      "Ducks",
+      "Other: Eggs (Chicken)",
+      "Eggs (Duck)"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Daikon, Jicama, Onions, Onions, Radishes, Shallots, Tuber/Root Vegetables; Seed/Pod Vegetables: Beans, Legumes, Okra; Leaf Vegetables: Cabbage, Pak Choi; Herbs/Spices: Ginger, Herbs, Turmeric; Fruit Vegetables: Pepp; Poultry: Chickens-Layers, Ducks; Other: Eggs (Chicken), Eggs (Duck)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "67-106 Kealohanui Street, Waialua, Hawaii, 96791",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.57387002,
+      "longitude": -158.1247183,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561006027",
+    "name": "COXCOR LLC Dba Kane Plantation Avocados, Kane Plantation Guesthouse, Kane Plantation Hawaii",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honaunau",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Macadamia",
+      "Fruit - Tropical Fruits: Avocados"
+    ],
+    "products_text": "Nuts: Macadamia; Fruit - Tropical Fruits: Avocados",
+    "website": "www.kaneplantationhawaii.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-328-2416",
+      "email": "",
+      "address": "84-1120 & 84-1129 Telephone Exchange Road, Honaunau, Hawaii, 96726",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.42452796,
+      "longitude": -155.8738107,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920519097",
+    "name": "Crockett, Paula Jean",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Coffee"
+    ],
+    "products_text": "Field/Forageable: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "801-971-4408",
+      "email": "pjcrockett1@gmail.com",
+      "address": "87-3026 Mamalahoa Highway, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.30457918,
+      "longitude": -155.8731329,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220005552",
+    "name": "CROWN PACIFIC INTERNATIONAL",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "HILO",
+    "category": "Mixed",
+    "products": [
+      "Other: Herb",
+      "Turmeric",
+      "Ginger Root",
+      "Sweet Potato"
+    ],
+    "products_text": "Other: Herb, Turmeric, Ginger Root, Sweet Potato",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "355 Luakaha St., HILO, Hawaii, 96720",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.74136946,
+      "longitude": -155.1053316,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920712028",
+    "name": "Daniel Ko",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honolulu",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Radishes",
+      "Turnips",
+      "Leaf Vegetables: Cabbage (Pak Choi)",
+      "Collards",
+      "Kale",
+      "Herbs/Spices: Basil",
+      "Dandelion",
+      "Mint",
+      "Fruit Vegetables: Eggplants",
+      "Other: Lilikoi",
+      "parsley",
+      "Swiss Chard",
+      "Turmeric",
+      "Watercress"
+    ],
+    "products_text": "Tuber/Root Vegetables: Radishes, Turnips; Leaf Vegetables: Cabbage (Pak Choi), Collards, Kale; Herbs/Spices: Basil, Dandelion, Mint; Fruit Vegetables: Eggplants; Other: Lilikoi, parsley, Swiss Chard, Turmeric, Watercress",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-542-2629",
+      "email": "kofarmshonolulu@gmail.com",
+      "address": "3002 Lai Road, Honolulu, Hawaii, 96816",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.3161578,
+      "longitude": -157.7840069,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920411039",
+    "name": "Darden-Young Farm, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Holualoa",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Coffee"
+    ],
+    "products_text": "Field/Forageable: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "803-443-1112",
+      "email": "connieyoung@mac.com",
+      "address": "78-7023 Mana Opelu Lane, Holualoa, Hawaii, 96725",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.55583563,
+      "longitude": -155.9258536,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920616131",
+    "name": "David Huynh, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Pepeekeo",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Turmeric"
+    ],
+    "products_text": "Herbs/Spices: Turmeric",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-785-9046",
+      "email": "",
+      "address": "28-481 Sugar Mill Road, Pepeekeo, Hawaii, 96783",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.83949057,
+      "longitude": -155.0982811,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920516114",
+    "name": "Earthgreen Maui",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Haiku",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Taro",
+      "Herbs/Spices: Turmeric",
+      "Fruit - Tropical Fruits: Bananas"
+    ],
+    "products_text": "Tuber/Root Vegetables: Taro; Herbs/Spices: Turmeric; Fruit - Tropical Fruits: Bananas",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "707-498-3292",
+      "email": "earthgreenrose@gmail.com",
+      "address": "0 Hanauana Road, Haiku, Hawaii, 96708",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.89343737,
+      "longitude": -156.213573,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921210063",
+    "name": "Elizabeth S Ward",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Pahoa",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Radishes",
+      "Taro",
+      "Seed/Pod Vegetables: Beans",
+      "Nursery/Starts/Flowers/Trees: Flowers (Hibiscus",
+      "Nasturtium",
+      "Roses",
+      "Pansy)",
+      "Leaf Vegetables: Arugula",
+      "Kale",
+      "Lettuce",
+      "Spinach (Malabar and Okinawan)",
+      "Herbs/Spices: Calendula",
+      "Cilantro",
+      "Gin"
+    ],
+    "products_text": "Tuber/Root Vegetables: Radishes, Taro; Seed/Pod Vegetables: Beans; Nursery/Starts/Flowers/Trees: Flowers (Hibiscus, Nasturtium, Roses, Pansy); Leaf Vegetables: Arugula, Kale, Lettuce, Spinach (Malabar and Okinawan); Herbs/Spices: Calendula, Cilantro, Gin",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-885-7988",
+      "email": "waiholokuigarden@gmail.com",
+      "address": "12-580 Kamehameha Court, Pahoa, Hawaii, 96778",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.41345398,
+      "longitude": -154.96616,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920312018",
+    "name": "Evonuk Farms LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kula",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Lemon Grass",
+      "Oregano",
+      "Sage",
+      "Spearmint",
+      "Thyme"
+    ],
+    "products_text": "Herbs/Spices: Lemon Grass, Oregano, Sage, Spearmint, Thyme",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-878-6251",
+      "email": "walter@evonukfarms.com",
+      "address": "1742 Omaopio Road, Kula, Hawaii, 96790",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.80526101,
+      "longitude": -156.3452568,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920611085",
+    "name": "Family Farm, Inc.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Ninole",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Bananas",
+      "Rambutans",
+      "Fruit - Berries: Lychee",
+      "Other: Ginger",
+      "papaya",
+      "taro",
+      "turmeric",
+      "Yacon"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Bananas, Rambutans; Fruit - Berries: Lychee; Other: Ginger, papaya, taro, turmeric, Yacon",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-963-6966",
+      "email": "chrisyuenz@hotmail.com",
+      "address": "32-832 Old Mamalahoa Hwy, Ninole, Hawaii, 96773",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.92870699,
+      "longitude": -155.1580494,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150000294",
+    "name": "Glory Herb Hawaii, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Mililani",
+    "category": "Mixed",
+    "products": [
+      "Other: Basil",
+      "Greenhouse",
+      "Rosemary"
+    ],
+    "products_text": "Other: Basil, Greenhouse, Rosemary",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 840-0283",
+      "email": "gloryherbhi@gmail.com",
+      "address": "94-420 Kahulialii St., Mililani, Hawaii, 96789",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.43393919,
+      "longitude": -158.0237901,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220006097",
+    "name": "HALA TREE",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "CAPTAIN COOK",
+    "category": "Mixed",
+    "products": [
+      "Other: Coffee"
+    ],
+    "products_text": "Other: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "82-5966 Mamalahoa Hwy, CAPTAIN COOK, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.48195889,
+      "longitude": -155.8994724,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000113",
+    "name": "Hale Akua Shangri-La, Inc. Dba Hale Akua Garden Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Haiku",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Fruits & Vegetables"
+    ],
+    "products_text": "Other: Mixed Fruits & Vegetables",
+    "website": "www.haleakuagardenfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-868-1483",
+      "email": "",
+      "address": "110 Door of Faith Rd., Haiku, Hawaii, 96708",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.90822777,
+      "longitude": -156.2207209,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920111704",
+    "name": "Hale Lolo LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anaholo",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Turmeric"
+    ],
+    "products_text": "Herbs/Spices: Turmeric",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-639-5284",
+      "email": "scott@happymachine.com",
+      "address": "6180 Koolau Road #29, Anaholo, Hawaii, 96703",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.17913426,
+      "longitude": -159.3307089,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9571423790",
+    "name": "Haloa Aina",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Keauhou",
+    "category": "Mixed",
+    "products": [
+      "Other: Herbal and medicinal plants"
+    ],
+    "products_text": "Other: Herbal and medicinal plants",
+    "website": "www.haloaaina.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-896-6307",
+      "email": "accounting@haloaaina.com",
+      "address": "Keauahou 2nd, Lots 16, 17, 18, Keauhou, Hawaii, 96739",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.6634457,
+      "longitude": -155.9815932,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920411045",
+    "name": "Hana Fresh/Hana Health",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Hana",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots (Orange",
+      "Red",
+      "White",
+      "Yellow)",
+      "Jicama",
+      "Leeks",
+      "Onions",
+      "Radishes (Red",
+      "Daikon)",
+      "Turnips",
+      "Seed/Pod Vegetables: Beans (Gold Play)",
+      "Chard",
+      "Okra",
+      "Peas",
+      "Nuts: Peanuts",
+      "Leaf Vegetables: Arugula",
+      "Bok Choy",
+      "Collards",
+      "End"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots (Orange, Red, White, Yellow), Jicama, Leeks, Onions, Radishes (Red, White, Daikon), Turnips; Seed/Pod Vegetables: Beans (Gold Play), Chard, Okra, Peas; Nuts: Peanuts; Leaf Vegetables: Arugula, Bok Choy, Collards, End",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-248-7515",
+      "email": "cvasconcellos@hanahealth.org",
+      "address": "4590 Hana Highway, Hana, Hawaii, 96713",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.76359504,
+      "longitude": -155.9940356,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920711088",
+    "name": "Hawaii Clean Seed, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Pahoa",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Galangal",
+      "Ginger",
+      "Turmeric"
+    ],
+    "products_text": "Herbs/Spices: Galangal, Ginger, Turmeric",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-965-7088",
+      "email": "zan@hawaiianorganicginger.com",
+      "address": "Auina Street, lot 17, Ag Park, Pahoa, Hawaii, 96778",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.51289498,
+      "longitude": -154.949826,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920315123",
+    "name": "Hawaii Harvest Honey LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Paauilo",
+    "category": "Mixed",
+    "products": [
+      "Apiculture: Bees"
+    ],
+    "products_text": "Apiculture: Bees",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-339-5226",
+      "email": "mary@hawaiiharvesthoney.com",
+      "address": "43-674 Antone De Luz Road, Paauilo, Hawaii, 96776",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.01520389,
+      "longitude": -155.374019,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920413037",
+    "name": "Hawaii Rainforest Tea",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kurtistown",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Tea (Camellia Sinensis)",
+      "Other: Loquat"
+    ],
+    "products_text": "Herbs/Spices: Tea (Camellia Sinensis); Other: Loquat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-966-8831",
+      "email": "jacobs@hawaiianisp.com",
+      "address": "16-1672 Opeapea Road, Kurtistown, Hawaii, 96760",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.53306323,
+      "longitude": -155.0422931,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220006118",
+    "name": "HAWAII SEA SPIRITS LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "KULA",
+    "category": "Mixed",
+    "products": [
+      "Other: Sugar Cane"
+    ],
+    "products_text": "Other: Sugar Cane",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "4051 Omaopio Road, KULA, Hawaii, 96790",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.81160696,
+      "longitude": -156.3660867,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5520428756",
+    "name": "Hawaiian Egg Company Dba Mikilua Egg Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waianae",
+    "category": "Mixed",
+    "products": [
+      "Other: Eggs",
+      "Laying Hens",
+      "Pullets"
+    ],
+    "products_text": "Other: Eggs, Laying Hens, Pullets",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "87-897 Apuupuu Road, Waianae, Hawaii, 96792",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.41213433,
+      "longitude": -158.1621894,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921217258",
+    "name": "Heart & Soul Organics LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kilauea",
+    "category": "Mixed",
+    "products": [
+      "Other: Banana",
+      "Ginger",
+      "Red Turmeric",
+      "White Turmeric",
+      "Yellow Turmeric"
+    ],
+    "products_text": "Other: Banana, Ginger, Red Turmeric, White Turmeric, Yellow Turmeric",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-635-1587",
+      "email": "mark@hsorganics.com",
+      "address": "2801 Kaupea Beach Rd, Kilauea, Hawaii, 96754",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.21833821,
+      "longitude": -159.4134824,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561004906",
+    "name": "Hermitage Community Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kapaau",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Turmeric",
+      "Other: Fruit"
+    ],
+    "products_text": "Herbs/Spices: Turmeric; Other: Fruit",
+    "website": "www.franciscanhermitageministries.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-339-1955",
+      "email": "",
+      "address": "54-449. 54-519 Kapaau Rd, Kapaau, Hawaii, 96755",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.22583803,
+      "longitude": -155.7995981,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921110058",
+    "name": "HKCC LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Holualoa",
+    "category": "Mixed",
+    "products": [
+      "Other: Coffee (Coffee Leaves)"
+    ],
+    "products_text": "Other: Coffee (Coffee Leaves)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-640-6644",
+      "email": "baxelrod@lehuulafarms.com",
+      "address": "77-6261 Mamalahoa Hwy, Holualoa, Hawaii, 96725",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.5978329,
+      "longitude": -155.9485227,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920418077",
+    "name": "Hoku Nui Farms LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Makawao",
+    "category": "Mixed",
+    "products": [
+      "Other: Idle"
+    ],
+    "products_text": "Other: Idle",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "8085728734",
+      "email": "mauimedicinalherbs@gmail.com",
+      "address": "186 Piholo Rd, Makawao, Hawaii, 96768",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.84149109,
+      "longitude": -156.2925139,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561006141",
+    "name": "Hokukano Ranch Inc",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kealakekua",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Papayas",
+      "Fruit - Citrus Fruits: Lemons"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Papayas; Fruit - Citrus Fruits: Lemons",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-323-2299",
+      "email": "",
+      "address": "81-6580 Mamalahoa Hwy, Kealakekua, Hawaii, 96750",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.51246332,
+      "longitude": -155.920269,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220007897",
+    "name": "HONBUSHIN INTERNATIONAL CENTER",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "MILILANI",
+    "category": "Mixed",
+    "products": [
+      "Other: Ginger",
+      "Tumeric"
+    ],
+    "products_text": "Other: Ginger, Tumeric.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "95-030 Waihonu St., MILILANI, Hawaii, 96789",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.46203926,
+      "longitude": -158.0186067,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921010050",
+    "name": "Honey Girl Organics",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Haleiwa",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-638-5302",
+      "email": "anthony@honeygirlorganics.com",
+      "address": "59-495 Alapio Rd, Haleiwa, Hawaii, 96712",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.64806731,
+      "longitude": -158.0486371,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220007817",
+    "name": "HORIMASA CITY FARM, INC.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "WAIMANALO",
+    "category": "Mixed",
+    "products": [
+      "Other: Moringa"
+    ],
+    "products_text": "Other: Moringa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "41-698 Ahiki St., WAIMANALO, Hawaii, 96795",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.33567647,
+      "longitude": -157.7158669,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921012040",
+    "name": "Hula Girl Foods, Plant Research Corp.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waimanalo",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Sugercane"
+    ],
+    "products_text": "Field/Forageable: Sugercane",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-259-5114",
+      "email": "dawnelle@hulagirlfoods.com",
+      "address": "41-745 Mooiki Street, Waimanalo, Hawaii, 96795",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.33729744,
+      "longitude": -157.7293235,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920818133",
+    "name": "IDEC Environmental Solutions",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waimanalo",
+    "category": "Mixed",
+    "products": [
+      "Fruit Vegetables: Tomatoes"
+    ],
+    "products_text": "Fruit Vegetables: Tomatoes",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "408-664-8108",
+      "email": "leo@idec.com",
+      "address": "41-574 Makakalo St, Waimanalo, Hawaii, 96795",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.3365785,
+      "longitude": -157.7199343,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920815220",
+    "name": "Island Harvest, Inc.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kapaau",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Macadamia"
+    ],
+    "products_text": "Nuts: Macadamia",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-889-1261",
+      "email": "trump.nathan@gmail.com",
+      "address": "53-4073 Pratt Road, Kapaau, Hawaii, 96755",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.24225056,
+      "longitude": -155.8117346,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000100",
+    "name": "Ka Pono O Ka Aina Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honaunau",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Macadamia",
+      "Field/Forageable: Cacao",
+      "Coffee",
+      "Other: Coffee (Roasted)"
+    ],
+    "products_text": "Nuts: Macadamia; Field/Forageable: Cacao, Coffee; Other: Coffee (Roasted)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-328-9802",
+      "email": "",
+      "address": "84-1126 Old Tobacco Rd, Honaunau, Hawaii, 96726",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.4211268,
+      "longitude": -155.8800222,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220007312",
+    "name": "KALOKO COFFEE FARM",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "KAILUA-KONA",
+    "category": "Mixed",
+    "products": [
+      "Other: Coffee"
+    ],
+    "products_text": "Other: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "73-4123 Kanawai Pl., KAILUA-KONA, Hawaii, 96740",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.73142632,
+      "longitude": -155.9828065,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9091704501",
+    "name": "Kealana Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kula",
+    "category": "Mixed",
+    "products": [
+      "Leaf Vegetables: Kale"
+    ],
+    "products_text": "Leaf Vegetables: Kale",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "7850 Kula Highway, Kula, Hawaii, 96770",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.72044296,
+      "longitude": -156.3450695,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220006089",
+    "name": "KEALAOLA FARM",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "KEALAKEKUA",
+    "category": "Mixed",
+    "products": [
+      "Other: Coffee",
+      "Bok Choy",
+      "Parsely",
+      "Chives",
+      "Arugula",
+      "Lettuce",
+      "Bunch Greens",
+      "Green Beans",
+      "Banana",
+      "Kale"
+    ],
+    "products_text": "Other: Coffee, Bok Choy, Parsely, Chives, Arugula, Lettuce, Bunch Greens, Green Beans, Banana, Kale",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "79-969 Kealaola Street, KEALAKEKUA, Hawaii, 96750",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.51885353,
+      "longitude": -155.92698,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920511071",
+    "name": "Kolo Kai Organic Farm, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kilauea",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Cassava",
+      "Galangal",
+      "Herbs/Spices: Ginger (Yellow",
+      "White)",
+      "Turmeric (Olena)",
+      "Turmeric",
+      "Fruit Vegetables: Eggplants",
+      "Fruit - Tropical Fruits: Avocados",
+      "Bananas",
+      "Breadfruits (Ulu)",
+      "Coconuts",
+      "Mangos",
+      "Papayas",
+      "Starfruits",
+      "Fruit - Citrus"
+    ],
+    "products_text": "Tuber/Root Vegetables: Cassava, Galangal; Herbs/Spices: Ginger (Yellow, White), Turmeric (Olena), Turmeric; Fruit Vegetables: Eggplants; Fruit - Tropical Fruits: Avocados, Bananas, Breadfruits (Ulu), Coconuts, Mangos, Papayas, Starfruits; Fruit - Citrus",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-828-1712",
+      "email": "kolokaiorganicfarm@gmail.com",
+      "address": "7480 Koolau Rd, 4680 Kapuna Rd, Kilauea, Hawaii, 96754",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.20068673,
+      "longitude": -159.3554651,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9091632101",
+    "name": "Koloa Rum Company",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Koloa",
+    "category": "Mixed",
+    "products": [
+      "Other: Sugarcane"
+    ],
+    "products_text": "Other: Sugarcane",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "5471 Maluhia Rd., Koloa, Hawaii, 96756",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.92150842,
+      "longitude": -159.4690196,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220003630",
+    "name": "KONA HEAVENS",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "KAILUA-KONA",
+    "category": "Mixed",
+    "products": [
+      "Other: Roasted Coffee",
+      "Coffee",
+      "Parchment"
+    ],
+    "products_text": "Other: Roasted Coffee, Coffee, Parchment",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "73-1425 Kahakea Pl., KAILUA-KONA, Hawaii, 96740",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.69167334,
+      "longitude": -155.9780225,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921110061",
+    "name": "Kona Keei Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Macadamia",
+      "Fruit - Tropical Fruits: Avocados",
+      "Breadfruits",
+      "Pineapples",
+      "Field/Forageable: Cacao",
+      "Other: Coffee",
+      "Vanilla"
+    ],
+    "products_text": "Nuts: Macadamia; Fruit - Tropical Fruits: Avocados, Breadfruits, Pineapples; Field/Forageable: Cacao; Other: Coffee, Vanilla",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-328-8966",
+      "email": "soilculture@aol.com",
+      "address": "83-5565 Rock Bottom Road, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.45976267,
+      "longitude": -155.8906704,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920411044",
+    "name": "Kona Rainforest Farms, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Avocados",
+      "Bananas",
+      "Fruit - Citrus Fruits: Grapefruits",
+      "Lemons",
+      "Limes",
+      "Oranges",
+      "Pomelos",
+      "Fruit - Berries: Lychee",
+      "Field/Forageable: Coffee"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Avocados, Bananas; Fruit - Citrus Fruits: Grapefruits, Lemons, Limes, Limes, Oranges, Pomelos; Fruit - Berries: Lychee; Field/Forageable: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-328-1941",
+      "email": "dawn@konarainforestcoffee.com",
+      "address": "87-2854 Mamalahoa Hwy, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.29400297,
+      "longitude": -155.8742198,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220005635",
+    "name": "KONACOPIA FARMS LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "CAPTAIN COOK",
+    "category": "Mixed",
+    "products": [
+      "Other: Lemon",
+      "Macadamia Nuts",
+      "Avocado",
+      "Mandarin",
+      "Fig",
+      "Orange",
+      "Banana",
+      "Coffee",
+      "Tangelo",
+      "Jackfruit",
+      "Lemongrass",
+      "Aloe",
+      "Noni",
+      "Soursop",
+      "Tulasi",
+      "Mango",
+      "Cinnamon",
+      "Pineapple",
+      "Rosemary",
+      "Tamarind",
+      "Turmeric",
+      "Coconut",
+      "Breadfruit",
+      "Coffee (Raw Cherry)",
+      "Ginger",
+      "Neem",
+      "C"
+    ],
+    "products_text": "Other: Lemon, Macadamia Nuts, Avocado, Mandarin, Fig, Orange, Banana, Coffee, Tangelo, Jackfruit, Lemongrass, Aloe, Noni, Soursop, Tulasi, Mango, Cinnamon, Pineapple, Rosemary, Tamarind, Turmeric, Coconut, Breadfruit, Coffee (Raw Cherry), Ginger, Neem, C",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "P.O. Box 1204, CAPTAIN COOK, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.49399,
+      "longitude": -155.91841,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920917236",
+    "name": "Konalicious Organic Coffee LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captin Cook",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Coffee"
+    ],
+    "products_text": "Field/Forageable: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-494-5257",
+      "email": "",
+      "address": "82-1205 Kiai Rd, Captin Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.49583167,
+      "longitude": -155.8940441,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921010054",
+    "name": "Kuaiwi Farm, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Turmeric",
+      "Nuts: Macadamia",
+      "Fruit - Tropical Fruits: Bananas",
+      "Field/Forageable: Cacao",
+      "Coffee"
+    ],
+    "products_text": "Tuber/Root Vegetables: Turmeric; Nuts: Macadamia; Fruit - Tropical Fruits: Bananas; Field/Forageable: Cacao, Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-328-8888",
+      "email": "una@hawaii.rr.com",
+      "address": "82-6155-A Road D, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.4962817,
+      "longitude": -155.8986236,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920411057",
+    "name": "Kulamanu Farm, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kula",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Avocados",
+      "Bananas",
+      "Fruit - Citrus Fruits: Lemons",
+      "Limes",
+      "Fruit - Berries: Blueberries",
+      "Field/Forageable: Cacao",
+      "Other: Cherimoya",
+      "Echinecea",
+      "Lynchee",
+      "Mamaki/Pipturus Albidus",
+      "Sapote",
+      "Tea/Camellia Sinensis",
+      "Turmeric/Olena",
+      "Valeria"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Avocados, Bananas; Fruit - Citrus Fruits: Lemons, Limes; Fruit - Berries: Blueberries; Field/Forageable: Cacao; Other: Cherimoya, Echinecea, Lynchee, Mamaki/Pipturus Albidus, Sapote, Tea/Camellia Sinensis, Turmeric/Olena, Valeria",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-573-8350",
+      "email": "kulamanufarm@hawaiiantel.net",
+      "address": "12221 Haleakala Hwy, Kula, Hawaii, 96790",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.77230713,
+      "longitude": -156.2418094,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920617200",
+    "name": "Kupu Hou Organic Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kula",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Passionfruits (Lilikoi)",
+      "Field/Forageable: Coffee"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Passionfruits (Lilikoi); Field/Forageable: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-283-5221",
+      "email": "r.ddunn3@icloud.com",
+      "address": "1651 Naalae Road, Kula, Hawaii, 96790",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.76356025,
+      "longitude": -156.3512285,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920511060",
+    "name": "LBD Coffee, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kapaa",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Vanilla",
+      "Fruit - Tropical Fruits: Avocados",
+      "Bananas",
+      "Guavas",
+      "Noni",
+      "Papayas",
+      "Passionfruits",
+      "Pineapples",
+      "Starfruits (Carambola)",
+      "Fruit - Citrus Fruits: Limes (Kaffir)",
+      "Limes (Key)",
+      "Mangos",
+      "Oranges",
+      "Fruit - Berries: Lychee",
+      "Field/Forageable: C"
+    ],
+    "products_text": "Herbs/Spices: Vanilla; Fruit - Tropical Fruits: Avocados, Bananas, Guavas, Noni, Papayas, Passionfruits, Pineapples, Starfruits (Carambola); Fruit - Citrus Fruits: Limes (Kaffir), Limes (Key), Mangos, Oranges; Fruit - Berries: Lychee; Field/Forageable: C",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-822-4495",
+      "email": "terum@lbdcoffee.com",
+      "address": "7034 Kawailau Rd, Kapaa, Hawaii, 96746",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.10085613,
+      "longitude": -159.3755679,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920911110",
+    "name": "Lehua Gardens-Bong Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Holualoa",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Stone: Avocados",
+      "Fruit - Citrus Fruits: Lemons",
+      "Field/Forageable: Coffee"
+    ],
+    "products_text": "Fruit - Stone: Avocados; Fruit - Citrus Fruits: Lemons; Field/Forageable: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-937-0393",
+      "email": "iizonly2@hotmail.com",
+      "address": "78-2100 Laule'a Place, Holualoa, Hawaii, 96725",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.55678899,
+      "longitude": -155.9212456,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920512026",
+    "name": "Leilani Nursery Inc.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waimanalo",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Leeks",
+      "Radicchio",
+      "Leaf Vegetables: Cabbage (Joi Choi and Pak Choi)",
+      "Kale (Red Russian)",
+      "Lettuce (Lolla Rosa and Romaine)",
+      "Herbs/Spices: Basil",
+      "Chives",
+      "Cilantro",
+      "Dill",
+      "Fennel",
+      "Mint",
+      "Oregano",
+      "Parsley (Curly)",
+      "Peppermint",
+      "Rosemary",
+      "Sa"
+    ],
+    "products_text": "Tuber/Root Vegetables: Leeks, Radicchio; Leaf Vegetables: Cabbage (Joi Choi and Pak Choi), Kale (Red Russian), Lettuce (Lolla Rosa and Romaine); Herbs/Spices: Basil, Chives, Cilantro, Dill, Fennel, Mint, Oregano, Parsley (Curly), Peppermint, Rosemary, Sa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-551-0000",
+      "email": "leilaninursery@hawaii.rr.com",
+      "address": "41-630 Kaulukanu St., Waimanalo, Hawaii, 96795",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.34230847,
+      "longitude": -157.7243788,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920811098",
+    "name": "Living Waters Land Foundation LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waiehu",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Macadamia"
+    ],
+    "products_text": "Nuts: Macadamia",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-269-7619",
+      "email": "finance@patriciabraggbooks.com",
+      "address": "Malaihi - Waiehu Mauka, Waiehu, Hawaii, 96708",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.9161493,
+      "longitude": -156.5084977,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921110056",
+    "name": "Macuir Company",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honaunau",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Macadamia",
+      "Fruit - Tropical Fruits: Ackee",
+      "Atemoyas",
+      "Avocados",
+      "Bananas (Dwarf Apple Bananas",
+      "Ice Cream)",
+      "Coconuts",
+      "Durians",
+      "Guavas",
+      "Jackfruits",
+      "Papayas",
+      "Rambutans",
+      "Fruit - Stone: Avocados",
+      "Mangos",
+      "Fruit - Citrus Fruits: Grapefruits",
+      "Kumquats",
+      "Lemons",
+      "Limes",
+      "Mangosteen",
+      "Oranges (Navel",
+      "Valencia)",
+      "Oranges (Valencia",
+      "Navel)",
+      "Tangelos",
+      "Tangerines",
+      "Fruit - Berries: Lychee",
+      "Other: Eggfruits",
+      "Figs",
+      "Jacoticaba",
+      "Miracle Fruit",
+      "Mombin",
+      "Mountain Apples (Mountain)",
+      "Passion Fruit",
+      "Pulasan",
+      "Rollina",
+      "Rollinia",
+      "Sapote (Mamey",
+      "White)",
+      "Soursop/Guanabana",
+      "Star Apple/Caimito",
+      "Starfruit/Carambola"
+    ],
+    "products_text": "Nuts: Macadamia; Fruit - Tropical Fruits: Ackee, Atemoyas, Avocados, Bananas (Dwarf Apple Bananas, Ice Cream), Coconuts, Durians, Guavas, Jackfruits, Papayas, Rambutans; Fruit - Stone: Avocados, Mangos; Fruit - Citrus Fruits: Grapefruits, Kumquats, Lemons, Limes, Mangosteen, Oranges (Navel, Valencia), Oranges (Valencia, Navel), Tangelos, Tangerines; Fruit - Berries: Lychee; Other: Eggfruits, Figs, Jacoticaba, Miracle Fruit, Mombin, Mountain Apples (Mountain), Passion Fruit, Pulasan, Rollina, Rollinia, Sapote (Mamey, White), Soursop/Guanabana, Star Apple/Caimito, Starfruit/Carambola",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-634-4215",
+      "email": "ediblekona@gmail.com",
+      "address": "84-5119 Mamalahoa Hwy, Honaunau, Hawaii, 96726",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.434194,
+      "longitude": -155.883387,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220002922",
+    "name": "MAHINA MAUNA FARM",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "CAPTAIN COOK",
+    "category": "Mixed",
+    "products": [
+      "Other: Coffee",
+      "Citrus",
+      "Nuts",
+      "Lilikoi",
+      "Lychee",
+      "Tree Tomatoes",
+      "Figs",
+      "Cherimoy",
+      "Avocados",
+      "Guava"
+    ],
+    "products_text": "Other: Coffee, Citrus, Nuts, Lilikoi, Lychee, Tree Tomatoes, Figs, Cherimoy, Avocados, Guava",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "P.O. Box 486, CAPTAIN COOK, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.49399,
+      "longitude": -155.91841,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920111006",
+    "name": "Mahina Mele Farms LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Taro",
+      "Nuts: Macadamia",
+      "Herbs/Spices: Comfrey",
+      "Ginger",
+      "Turmeric",
+      "Fruit - Tropical Fruits: Abiu",
+      "Avocados",
+      "Bananas",
+      "Jackfruits",
+      "Papayas",
+      "Pineapples",
+      "Starfruits",
+      "Fruit - Stone: Plums",
+      "Fruit - Pome: Cherimoyas",
+      "Fruit - Citrus Fruits: G"
+    ],
+    "products_text": "Tuber/Root Vegetables: Taro; Nuts: Macadamia; Herbs/Spices: Comfrey, Ginger, Turmeric; Fruit - Tropical Fruits: Abiu, Avocados, Bananas, Jackfruits, Papayas, Pineapples, Starfruits; Fruit - Stone: Plums; Fruit - Pome: Cherimoyas; Fruit - Citrus Fruits: G",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-328-8987",
+      "email": "jason@konarosecoffee.com",
+      "address": "83-5662 Old Government Road, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.47804602,
+      "longitude": -155.8962747,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920617201",
+    "name": "Makili Farm, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honualoa",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Macadamia",
+      "Herbs/Spices: Vanilla",
+      "Fruit - Citrus Fruits: Grapefruits",
+      "Lemons",
+      "Limes",
+      "Oranges",
+      "Tangerines",
+      "Field/Forageable: Coffee"
+    ],
+    "products_text": "Nuts: Macadamia; Herbs/Spices: Vanilla; Fruit - Citrus Fruits: Grapefruits, Lemons, Lemons, Limes, Oranges, Tangerines; Field/Forageable: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "631-680-0526",
+      "email": "kathyfleming1253@gmail.com",
+      "address": "78-6647 Road One, Honualoa, Hawaii, 96725",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.581844,
+      "longitude": -155.937761,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220007984",
+    "name": "MAMAKI NATIVE HAWAIIAN HERBAL TEA",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "HAUULA",
+    "category": "Mixed",
+    "products": [
+      "Other: Awa",
+      "Mamaki"
+    ],
+    "products_text": "Other: Awa, Mamaki",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "53-270 Kamehameha Hwy, HAUULA, Hawaii, 96717",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.567384,
+      "longitude": -157.888413,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7926102011",
+    "name": "Mana'Olana LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Pahoa",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Noni",
+      "Other: Guava",
+      "Kukui"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Noni; Other: Guava, Kukui",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-936-7118",
+      "email": "dmatsuura@me.com",
+      "address": "TMK 1-4-002:013 Pohoiki Puna, Pahoa, Hawaii, 96778",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.4725979,
+      "longitude": -154.893964,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920917237",
+    "name": "Manawai Partners LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kula",
+    "category": "Mixed",
+    "products": [
+      "Fruit Vegetables: Tomatoes (Applegate",
+      "Arbason",
+      "Damsel",
+      "Lola",
+      "New Girl",
+      "Roni)"
+    ],
+    "products_text": "Fruit Vegetables: Tomatoes (Applegate, Arbason, Damsel, Lola, New Girl, Roni)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-268-2492",
+      "email": "dadasf@aol.com",
+      "address": "478 Kamehameiki Road, Kula, Hawaii, 96790",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.76951058,
+      "longitude": -156.3205696,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220005612",
+    "name": "MARIS GARDEN",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "HONOLULU",
+    "category": "Mixed",
+    "products": [
+      "Other: Kale",
+      "Beets",
+      "parsley",
+      "Cucumbers",
+      "Squash",
+      "Lettuce",
+      "Onions",
+      "Chard",
+      "Tomatoes",
+      "Bananas"
+    ],
+    "products_text": "Other: Kale, Beets, parsley, Cucumbers, Squash, Lettuce, Onions, Chard, Tomatoes, Bananas",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "171 Waokanaka Place, HONOLULU, Hawaii, 96817",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.34706073,
+      "longitude": -157.8306736,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920910045",
+    "name": "Mark O. Dunlap",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Makawao",
+    "category": "Mixed",
+    "products": [
+      "Nursery/Starts/Flowers/Trees: Flowers (Passion)",
+      "Herbs/Spices: Aloe Vera",
+      "Cilantro",
+      "Echinacea",
+      "Galangal",
+      "Ginger",
+      "Ginseng (Ashwagandha/Indian)",
+      "Lemon Grass",
+      "Turmeric",
+      "Fruit - Tropical Fruits: Avocados",
+      "Bananas",
+      "Cherimoyas",
+      "Neems",
+      "Noni",
+      "Papayas",
+      "Fruit - Ci"
+    ],
+    "products_text": "Nursery/Starts/Flowers/Trees: Flowers (Passion); Herbs/Spices: Aloe Vera, Cilantro, Echinacea, Galangal, Ginger, Ginseng (Ashwagandha/Indian), Lemon Grass, Turmeric; Fruit - Tropical Fruits: Avocados, Bananas, Cherimoyas, Neems, Noni, Papayas; Fruit - Ci",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-572-8734",
+      "email": "mauimedicinalherbs@gmail.com",
+      "address": "32 Alaiki Place, Makawao, Hawaii, 96768",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.8476732,
+      "longitude": -156.3115459,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150001527",
+    "name": "Maui Dragon Fruit Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Haiku",
+    "category": "Mixed",
+    "products": [
+      "Other: Banana",
+      "Cacao",
+      "Dragon fruit (Fruit",
+      "Dragon Fruit",
+      ")",
+      "Papaya",
+      "Passion Fruit",
+      "Pineapple",
+      "Soursop",
+      "Sugar Cane"
+    ],
+    "products_text": "Other: Banana, Cacao, Dragon fruit (Fruit; Dragon Fruit;), Papaya, Passion Fruit, Pineapple, Soursop, Sugar Cane",
+    "website": "http://www.mauidragonfruit.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 575-7814",
+      "email": "crystal@mauidragonfruit.com",
+      "address": "100 Waipuhia Place, Haiku, Hawaii, 96708",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.91402402,
+      "longitude": -156.3001435,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920319039",
+    "name": "MB Farm Produce LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kihei",
+    "category": "Mixed",
+    "products": [
+      "Other: Moringa"
+    ],
+    "products_text": "Other: Moringa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-875-9760",
+      "email": "",
+      "address": "160 Namauu Place, Kihei, Hawaii, 96753",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.75737368,
+      "longitude": -156.4524275,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005251",
+    "name": "Mohala Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waialua",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "www.mohalafarms.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-478-8469",
+      "email": "",
+      "address": "66-1380 Kaukonahua Road, Waialua, Hawaii, 96791",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.55599462,
+      "longitude": -158.1169518,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920617213",
+    "name": "Mountain Shore Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kailua Kona",
+    "category": "Mixed",
+    "products": [
+      "Other: Noni"
+    ],
+    "products_text": "Other: Noni",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-769-4601",
+      "email": "",
+      "address": "73-4383 Pukiawa St, Kailua Kona, Hawaii, 96740",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.72208606,
+      "longitude": -156.0302933,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920910047",
+    "name": "Ned Whitlock, Moloaa Organicaa",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anahola",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Onions",
+      "Radicchio",
+      "Radishes",
+      "Sweet Potatoes",
+      "Taro",
+      "Stem Vegetables: Celery",
+      "Kohlrabi",
+      "Seed/Pod Vegetables: Beans (Bush Beans",
+      "Pole)",
+      "Green Beans",
+      "Okra",
+      "Peas",
+      "Leaf Vegetables: Arugula",
+      "Bok Choy",
+      "Cabbage",
+      "Chard",
+      "Colla"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Onions, Radicchio, Radishes, Sweet Potatoes, Taro; Stem Vegetables: Celery, Kohlrabi; Seed/Pod Vegetables: Beans (Bush Beans, Pole), Green Beans, Okra, Peas; Leaf Vegetables: Arugula, Bok Choy, Cabbage, Chard, Colla",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-651-1446",
+      "email": "martaned@gmail.com",
+      "address": "6180 Koolau Rd, Anahola, Hawaii, 96703",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.17913426,
+      "longitude": -159.3307089,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150009169",
+    "name": "New Dream Organic Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honolulu",
+    "category": "Mixed",
+    "products": [
+      "Other: Basil",
+      "Moringa"
+    ],
+    "products_text": "Other: Basil, Moringa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 227-1827",
+      "email": "peterwang097@gmail.com",
+      "address": "2889 ALA ILIMA #12A, Honolulu, Hawaii, 96819",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.34503379,
+      "longitude": -157.9023213,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920418065",
+    "name": "OCR, Inc",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waimanalo",
+    "category": "Mixed",
+    "products": [
+      "Fungi: Mushrooms"
+    ],
+    "products_text": "Fungi: Mushrooms",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-262-2724",
+      "email": "smallkinefarm@gmail.com",
+      "address": "41-829 Kakaina Street, Waimanalo, Hawaii, 96795",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.34110747,
+      "longitude": -157.7322079,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920712030",
+    "name": "Okamura, Kenneth",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kula",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Carrots",
+      "Seed/Pod Vegetables: Beans",
+      "Leaf Vegetables: Lettuce",
+      "Fruit Vegetables: Cucumbers",
+      "Tomatoes",
+      "Zucchini",
+      "Flower Vegetables: Broccoli",
+      "Other: Cabbage",
+      "Cauliflower"
+    ],
+    "products_text": "Tuber/Root Vegetables: Carrots; Seed/Pod Vegetables: Beans; Leaf Vegetables: Lettuce; Fruit Vegetables: Cucumbers, Tomatoes, Zucchini; Flower Vegetables: Broccoli; Other: Cabbage, Cauliflower",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-878-1769",
+      "email": "okam@hawaiiantel.net",
+      "address": "851 Naele Road, Kula, Hawaii, 96790",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.79296887,
+      "longitude": -156.3366247,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150010961",
+    "name": "Omao Lands, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Koloa",
+    "category": "Mixed",
+    "products": [
+      "Other: Hemp",
+      "Hemp Transplants",
+      "Transplants (See Farm Products for list)"
+    ],
+    "products_text": "Other: Hemp, Hemp Transplants, Transplants (See Farm Products for list)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 639-0775",
+      "email": "megan@nalukauai.com",
+      "address": "4135-A Noho Road, Koloa, Hawaii, 96756",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.9206155,
+      "longitude": -159.4859834,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920211008",
+    "name": "ONO Organic Farms, Inc.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Hana",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Abiu",
+      "Avocados",
+      "Bananas (Cuban Red",
+      "Dwarf Apple Bananas",
+      "Ice Cream)",
+      "Breadfruits",
+      "Coconuts",
+      "Durians",
+      "Guavas",
+      "Jackfruits",
+      "Papayas",
+      "Passionfruits",
+      "Fruit - Citrus Fruits: Lemons",
+      "Limes",
+      "Oranges",
+      "Pomelos",
+      "Tangerines",
+      "Field/Forageable: Cacao",
+      "Other: Coffee",
+      "Eggfruit",
+      "Mountain Apple",
+      "Sapote",
+      "Soursop/Guanabana",
+      "Star Apple/Caimito",
+      "Starfruit/Carambola",
+      "Sugar Apple/Sweetsop"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Abiu, Avocados, Bananas (Cuban Red, Dwarf Apple Bananas, Ice Cream), Breadfruits, Coconuts, Durians, Guavas, Jackfruits, Papayas, Passionfruits; Fruit - Citrus Fruits: Lemons, Limes, Oranges, Pomelos, Tangerines; Field/Forageable: Cacao; Other: Coffee, Eggfruit, Mountain Apple, Sapote, Soursop/Guanabana, Star Apple/Caimito, Starfruit/Carambola, Sugar Apple/Sweetsop",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-248-7779",
+      "email": "info@onofarms.com",
+      "address": "HRC 1 Box 149, Hana, Hawaii, 96713",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.757508,
+      "longitude": -155.988407,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920911111",
+    "name": "Onomea Tea Company Inc.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Papaikou",
+    "category": "Mixed",
+    "products": [
+      "Other: Tea/Camellia Sinensis"
+    ],
+    "products_text": "Other: Tea/Camellia Sinensis",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-964-3283",
+      "email": "rnunally@hawaii.rr.com",
+      "address": "27-604 Alakahi Place, Papaikou, Hawaii, 96781",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.80667918,
+      "longitude": -155.094613,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7772040",
+    "name": "Oprah's Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Keokea",
+    "category": "Mixed",
+    "products": [
+      "Other: Allspice",
+      "Angelica",
+      "Apples",
+      "Arugula",
+      "Asparagus",
+      "Avocados",
+      "Basil",
+      "Bay Leaves",
+      "Beans",
+      "Beets",
+      "Bergamot",
+      "Borage",
+      "Broccoli",
+      "Cabbage",
+      "Calendula",
+      "Cardamom",
+      "Carrots",
+      "Celery",
+      "Chamomile",
+      "Cherimoyas",
+      "Chervil",
+      "Chives",
+      "Cilantro",
+      "Coffee",
+      "Collards",
+      "Cress"
+    ],
+    "products_text": "Other: Allspice, Angelica, Apples, Arugula, Asparagus, Avocados, Basil, Bay Leaves, Beans, Beets, Bergamot, Borage, Broccoli, Cabbage, Calendula, Cardamom, Carrots, Celery, Chamomile, Cherimoyas, Chervil, Chives, Cilantro, Coffee, Coffee, Collards, Cress",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1460 Thompson Road, Keokea, Hawaii, 96790",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.68823516,
+      "longitude": -156.3695515,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7772040",
+    "name": "Oprah's Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Keokea",
+    "category": "Mixed",
+    "products": [
+      "Other: Allspice",
+      "Angelica",
+      "Apples",
+      "Arugula",
+      "Asparagus",
+      "Avocados",
+      "Basil",
+      "Bay Leaves",
+      "Beans",
+      "Beets",
+      "Bergamot",
+      "Borage",
+      "Broccoli",
+      "Cabbage",
+      "Calendula",
+      "Cardamom",
+      "Carrots",
+      "Celery",
+      "Chamomile",
+      "Cherimoyas",
+      "Chervil",
+      "Chives",
+      "Cilantro",
+      "Coffee",
+      "Collards",
+      "Cress",
+      "Cucumbers",
+      "Curry",
+      "Dandelion",
+      "Dill",
+      "Eggplants",
+      "Elderberries",
+      "Fennel",
+      "Figs",
+      "Flowers",
+      "Ginger",
+      "Grapefruits",
+      "Grapes",
+      "Graviola",
+      "Finger Limes",
+      "Persimmons",
+      "Feijoa Jujube",
+      "Tangor",
+      "Grumichama",
+      "Chinese Dates",
+      "Mammee. Carambola",
+      "Canistel",
+      "Granadilla",
+      "Sapote",
+      "Jaboticaba",
+      "Horehound",
+      "Viola",
+      "Wormwood",
+      "Tansy",
+      "Green Onions",
+      "Mache",
+      "Artemisia",
+      "Bee Balm",
+      "Nasturium",
+      "Swiss Chard",
+      "Lemon Verbena",
+      "Chayote",
+      "Hibiscus",
+      "Valerian",
+      "Yacon",
+      "Frisee",
+      "Guavas",
+      "Jicama",
+      "Kale",
+      "Lavender",
+      "Leeks",
+      "Lemon Balm",
+      "Lemon Grass",
+      "Lettuce",
+      "Limes",
+      "Loquats",
+      "Marjoram",
+      "Mint",
+      "Mulberries",
+      "Mustard",
+      "Nutmeg",
+      "Olives",
+      "Onions",
+      "Oranges",
+      "Oregano",
+      "Pak Choi",
+      "Parsley",
+      "Peaches",
+      "Pears",
+      "Peas",
+      "Peppers",
+      "Plums",
+      "Pomegranates",
+      "Potatoes",
+      "Radishes",
+      "Rhubarb",
+      "Rosemary",
+      "Rutabaga",
+      "Sage",
+      "Seeds",
+      "Sorrel",
+      "Spinach",
+      "Tangerines",
+      "Taro",
+      "Tarragon",
+      "Tea",
+      "Thyme",
+      "Tomatoes",
+      "Turmeric",
+      "Turnips",
+      "Yarrow",
+      "Zucchini"
+    ],
+    "products_text": "Other: Allspice, Angelica, Apples, Arugula, Asparagus, Avocados, Basil, Bay Leaves, Beans, Beets, Bergamot, Borage, Broccoli, Cabbage, Calendula, Cardamom, Carrots, Celery, Chamomile, Cherimoyas, Chervil, Chives, Cilantro, Coffee, Coffee, Collards, Cress, Cucumbers, Curry, Dandelion, Dill, Eggplants, Elderberries, Fennel, Figs, Flowers, Ginger, Grapefruits, Grapes, Graviola, Finger Limes, Persimmons, Feijoa Jujube, Tangor, Grumichama, Chinese Dates, Mammee. Carambola, Canistel, Granadilla, Sapote, Jaboticaba, Horehound, Viola, Wormwood, Tansy, Green Onions, Mache, Artemisia, Bee Balm, Nasturium, Swiss Chard, Lemon Verbena, Chayote, Hibiscus, Valerian, Yacon, Frisee, Guavas, Jicama, Kale, Lavender, Leeks, Lemon Balm, Lemon Balm, Lemon Grass, Lettuce, Limes, Loquats, Marjoram, Mint, Mulberries, Mustard, Nutmeg, Olives, Onions, Oranges, Oregano, Pak Choi, Parsley, Peaches, Pears, Peas, Peppers, Plums, Pomegranates, Potatoes, Radishes, Rhubarb, Rosemary, Rutabaga, Sage, Seeds, Sorrel, Spinach, Tangerines, Taro, Tarragon, Tea, Thyme, Tomatoes, Turmeric, Turnips, Yarrow, Zucchini",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1460 Thompson Road, Keokea, Hawaii, 96790",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.6894556,
+      "longitude": -156.3714479,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920418068",
+    "name": "Organic Kona Coffee Hawaii LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Holualoa",
+    "category": "Mixed",
+    "products": [
+      "Other: Fallow"
+    ],
+    "products_text": "Other: Fallow",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-557-6878",
+      "email": "organickonacoffee@gmail.com",
+      "address": "75-5514 Nalo Meli Drive Lot 15, Holualoa, Hawaii, 96725",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.65243,
+      "longitude": -155.945297,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920619129",
+    "name": "Pacific Organics Inc",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kilauea",
+    "category": "Mixed",
+    "products": [
+      "Other: Galangal",
+      "Ginger",
+      "Lynchee",
+      "Pineapple",
+      "Turmeric"
+    ],
+    "products_text": "Other: Galangal, Ginger, Lynchee, Pineapple, Turmeric",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "562-493-3365",
+      "email": "",
+      "address": "4469W N Waiakuhua Rd, Kilauea, Hawaii, 96754",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.20286692,
+      "longitude": -159.3754118,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220007602",
+    "name": "PALANI FARMS DBA MOUNTAIN THUNDER COFFEE PLANTATION",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "KAILUA-KONA",
+    "category": "Mixed",
+    "products": [
+      "Other: Coffee"
+    ],
+    "products_text": "Other: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "P.O. Box 5466, KAILUA-KONA, Hawaii, 96745",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.64056,
+      "longitude": -155.99556,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920517186",
+    "name": "Palazzolo, Anthony",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kapaau",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Turmeric",
+      "Other: taro"
+    ],
+    "products_text": "Herbs/Spices: Turmeric; Other: taro",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-990-5630",
+      "email": "ainaculture@gmail.com",
+      "address": "52-4700 Akoni Pui Hwy, Kapaau, Hawaii, 96755",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.2149273,
+      "longitude": -155.7441975,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920718118",
+    "name": "Palm Valley Farms LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Papaikou",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Turmeric"
+    ],
+    "products_text": "Herbs/Spices: Turmeric",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-937-0154",
+      "email": "",
+      "address": "27-712 Kaieie Rd, Papaikou, Hawaii, 96781",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.7908115,
+      "longitude": -155.1260205,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005541",
+    "name": "Papohaku Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kaunakakai",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Pasture",
+      "Other: Vegetables"
+    ],
+    "products_text": "Field/Forageable: Pasture; Other: Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-558-8297",
+      "email": "",
+      "address": "Mile Post 19.8 Kamehameha V Highway, Kaunakakai, Hawaii, 96748",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.08926131,
+      "longitude": -157.0220173,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9092000301",
+    "name": "Pele Plantations",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honaunau",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Macadamia",
+      "Fruit - Berries: Coffee"
+    ],
+    "products_text": "Nuts: Macadamia; Fruit - Berries: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Mamalahoa Hwy., Honaunau, Hawaii, 96726",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.4004802,
+      "longitude": -155.3368743,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921210067",
+    "name": "Perata, Bonnie J & Bacci G",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honaunau",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Macadamia",
+      "Other: Cacao",
+      "Coffee"
+    ],
+    "products_text": "Nuts: Macadamia; Other: Cacao, Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-328-9817",
+      "email": "earthlydelightsfarm@gmail.com",
+      "address": "83-5502B Middle Keei Road, Honaunau, Hawaii, 96726",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.45727,
+      "longitude": -155.887423,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920615180",
+    "name": "Peterson, Robby",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Poplarville",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Pasture",
+      "Cattle: Milking Cows"
+    ],
+    "products_text": "Field/Forageable: Pasture; Cattle: Milking Cows",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "601-463-0203",
+      "email": "",
+      "address": "142 East Caney Ford Rd, Poplarville, Hawaii, 39470",
+      "public": false
+    },
+    "geo": {
+      "latitude": 30.75329113,
+      "longitude": -89.44204473,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside HI review bounds"
+  },
+  {
+    "id": "usda-6220003040",
+    "name": "PINKER & KANE RANCH",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "KANEOHE",
+    "category": "Mixed",
+    "products": [
+      "Other: Coffee"
+    ],
+    "products_text": "Other: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "47-348 Waihee Road, KANEOHE, Hawaii, 96744",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.45606457,
+      "longitude": -157.8500358,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921110057",
+    "name": "Pinner, Elmo Dean",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honomu-Pepeekeo",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Taro",
+      "Herbs/Spices: Ginger (White",
+      "Yellow)",
+      "Turmeric"
+    ],
+    "products_text": "Tuber/Root Vegetables: Taro; Herbs/Spices: Ginger (White, Yellow), Turmeric",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-933-1008",
+      "email": "dpinner@hawaii.rr.com",
+      "address": "28-1515 Old Mamalahoa Hwy, Honomu-Pepeekeo, Hawaii, 96783",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.86477537,
+      "longitude": -155.1078261,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005576",
+    "name": "Pu'u O Hoku Ranch Ltd.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kaunakakai",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Kava",
+      "Field/Forageable: Pasture",
+      "Other: Flowers",
+      "Fruit",
+      "Mixed Vegetables",
+      "Cattle: Cattle (Slaughter) (Slaughter Eligible Animals are Identified by an Un-notched Ear Tag)",
+      "Apiculture: Bees"
+    ],
+    "products_text": "Tuber/Root Vegetables: Kava; Field/Forageable: Pasture; Other: Flowers, Fruit, Mixed Vegetables; Cattle: Cattle (Slaughter) (Slaughter Eligible Animals are Identified by an Un-notched Ear Tag); Apiculture: Bees",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Kamehameha V. Hwy., Kaunakakai, Hawaii, 96748",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.06229678,
+      "longitude": -156.8292046,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920517196",
+    "name": "Redden, John",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Coffee",
+      "Other: Avocado",
+      "Banana",
+      "Mamaki Tea",
+      "Mamaki/Pipturus Albidus"
+    ],
+    "products_text": "Field/Forageable: Coffee; Other: Avocado, Banana, Mamaki Tea, Mamaki/Pipturus Albidus",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808328-2328",
+      "email": "",
+      "address": "88-2636 Papa Homestead Road, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.21127348,
+      "longitude": -155.8680437,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920516102",
+    "name": "Respect the Aina Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Olinda",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Ginger (Yellow)",
+      "Turmeric",
+      "Fruit - Stone: Avocados"
+    ],
+    "products_text": "Herbs/Spices: Ginger (Yellow), Turmeric; Fruit - Stone: Avocados",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-572-5623",
+      "email": "kahakapao@gmail.com",
+      "address": "101 Kahakapao Road, Olinda, Hawaii, 96768",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.842967,
+      "longitude": -156.286835,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921015242",
+    "name": "Ronald E Peters & Mila A Horsk",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "South Kona",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Coffee"
+    ],
+    "products_text": "Field/Forageable: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "218-370-0106",
+      "email": "shoregirlstudios@yahoo.com",
+      "address": "TMK 384-004-035, South Kona, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.2518856,
+      "longitude": -155.8085049,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220007683",
+    "name": "SAGE FARMS HAWAII LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "HAWI",
+    "category": "Mixed",
+    "products": [
+      "Other: Arugula",
+      "Avocado",
+      "Banana",
+      "Basil",
+      "Beans",
+      "Beets",
+      "Bok Choy",
+      "Broccoli",
+      "Carrrots",
+      "chard",
+      "Coconut",
+      "Collards",
+      "Daikon",
+      "Eggplant",
+      "Herbs",
+      "HonTasai",
+      "Joi Choi",
+      "Kale",
+      "Komatsuna",
+      "Leek",
+      "Lemon",
+      "Lettuce",
+      "Lilidi",
+      "Lime",
+      "Mango",
+      "Mizuna",
+      "Onion",
+      "Orange",
+      "Parsely",
+      "Pineapp"
+    ],
+    "products_text": "Other: Arugula, Avocado, Banana, Basil, Beans, Beets, Bok Choy, Broccoli, Carrrots, chard, Coconut, Collards, Daikon, Eggplant, Herbs, HonTasai, Joi Choi, Kale, Komatsuna, Leek, Lemon, Lettuce, Lilidi, Lime, Mango, Mizuna, Onion, Orange, Parsely, Pineapp",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "55-352 Hoea Road, HAWI, Hawaii, 96719",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.24944794,
+      "longitude": -155.8323903,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920311026",
+    "name": "Saiva Siddhanta Church dba Wailua River Noni",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kapaa",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Noni"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Noni",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-639-1029",
+      "email": "ar@hindu.org",
+      "address": "7201C Kuamoo Road, Kapaa, Hawaii, 96746",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.06105929,
+      "longitude": -159.3929642,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920515156",
+    "name": "Secret Beach Plantation, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kilauea",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Ginger",
+      "Turmeric (Olena)",
+      "Fruit - Tropical Fruits: Avocados",
+      "Bananas",
+      "Breadfruits",
+      "Coconuts",
+      "Dragonfruits",
+      "Figs",
+      "Jackfruits",
+      "Longans",
+      "Mangos",
+      "Passionfruits (Lilikoi)",
+      "Pineapples",
+      "Fruit - Stone: Cherries (Acerola",
+      "Surinam)",
+      "Fruit - Citrus Fr"
+    ],
+    "products_text": "Herbs/Spices: Ginger, Turmeric (Olena); Fruit - Tropical Fruits: Avocados, Bananas, Breadfruits, Coconuts, Dragonfruits, Figs, Jackfruits, Longans, Mangos, Passionfruits (Lilikoi), Pineapples; Fruit - Stone: Cherries (Acerola, Surinam); Fruit - Citrus Fr",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "760-574-2450",
+      "email": "",
+      "address": "2704 Kuhio Hwy, Kilauea, Hawaii, 96754",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.20250659,
+      "longitude": -159.3956373,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5870002597",
+    "name": "Shenandoah Growers, Inc.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waianae",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Basil"
+    ],
+    "products_text": "Herbs/Spices: Basil",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "540-896-6939",
+      "email": "",
+      "address": "85-1178 Waianae Valley Rd, Waianae, Hawaii, 96729",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.460446,
+      "longitude": -158.1704685,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920114017",
+    "name": "Shree Govinda's Farm LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anahola",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Carrots",
+      "Radishes",
+      "Stem Vegetables: Asparagus",
+      "Nursery/Starts/Flowers/Trees: Flowers (Nasturtium)",
+      "Leaf Vegetables: Arugula",
+      "Kale",
+      "Lettuce",
+      "Herbs/Spices: Cilantro",
+      "Rosemary",
+      "Fruit - Tropical Fruits: Bananas",
+      "Breadfruits",
+      "Pomegranat"
+    ],
+    "products_text": "Tuber/Root Vegetables: Carrots, Radishes; Stem Vegetables: Asparagus; Nursery/Starts/Flowers/Trees: Flowers (Nasturtium); Leaf Vegetables: Arugula, Kale, Lettuce; Herbs/Spices: Cilantro, Rosemary; Fruit - Tropical Fruits: Bananas, Breadfruits, Pomegranat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-245-8042",
+      "email": "shreerawal@msn.com",
+      "address": "6020 Koolau Rd, Unit 56, Anahola, Hawaii, 96703",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.18249714,
+      "longitude": -159.3391987,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920618101",
+    "name": "Sloan Farms Kona LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Coffee"
+    ],
+    "products_text": "Field/Forageable: Coffee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-333-6447",
+      "email": "sloanfarmskonallc@gmail.com",
+      "address": "87-2832 Mamalahoa Highway, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.29226669,
+      "longitude": -155.8736925,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920511066",
+    "name": "Sunrise Organic Farm/Hawaiian Organic Noni",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anahola",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Bananas",
+      "Noni"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Bananas, Noni",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-828-1123",
+      "email": "realnonifruit@gmail.com",
+      "address": "3 Larsens Beach Rd, Anahola, Hawaii, 96703",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.197968,
+      "longitude": -159.338587,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920511063",
+    "name": "Tolfree Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Cassava (Tapioca)",
+      "Herbs/Spices: Ginger",
+      "Fruit - Tropical Fruits: Avocados",
+      "Bananas",
+      "Fruit - Citrus Fruits: Calamondins",
+      "Grapefruits",
+      "Lemons",
+      "Limes",
+      "Oranges",
+      "Tangerines",
+      "Field/Forageable: Coffee",
+      "Other: Jaboticaba",
+      "Persimmons",
+      "Pome"
+    ],
+    "products_text": "Tuber/Root Vegetables: Cassava (Tapioca); Herbs/Spices: Ginger; Fruit - Tropical Fruits: Avocados, Bananas; Fruit - Citrus Fruits: Calamondins, Grapefruits, Lemons, Limes, Oranges, Tangerines; Field/Forageable: Coffee; Other: Jaboticaba, Persimmons, Pome",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-323-2611",
+      "email": "jcteft@aol.com",
+      "address": "82-1141 Kinue Road, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.49423123,
+      "longitude": -155.9029643,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920414045",
+    "name": "Tuipulotu Organics LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Hoolehua",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Taro",
+      "Fruit - Tropical Fruits: Papayas",
+      "Other: Butternut Squash",
+      "cassava",
+      "yams"
+    ],
+    "products_text": "Tuber/Root Vegetables: Taro; Fruit - Tropical Fruits: Papayas; Other: Butternut Squash, cassava, yams",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-658-1500",
+      "email": "",
+      "address": "191-A Moomomi Ave, Hoolehua, Hawaii, 96729",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.16417713,
+      "longitude": -157.0948468,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7921011116",
+    "name": "University Of Hawaii CTAHR",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waimanalo",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Sweet Potatoes",
+      "Taro",
+      "Herbs/Spices: Turmeric",
+      "Fruit Vegetables: Eggplants",
+      "Pumpkins",
+      "Tomatoes",
+      "Fruit - Tropical Fruits: Breadfruits",
+      "Mangos",
+      "Papayas",
+      "Field/Forageable: Sugercane",
+      "Other: Figs",
+      "Kava/'Awa",
+      "Noni"
+    ],
+    "products_text": "Tuber/Root Vegetables: Sweet Potatoes, Taro; Herbs/Spices: Turmeric; Fruit Vegetables: Eggplants, Pumpkins, Tomatoes; Fruit - Tropical Fruits: Breadfruits, Mangos, Papayas; Field/Forageable: Sugercane; Other: Figs, Kava/'Awa, Noni",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-956-7909",
+      "email": "theodore@hawaii.edu",
+      "address": "41-698 Ahiki St, Waimanalo, Hawaii, 96795",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.33567647,
+      "longitude": -157.7158669,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920311033",
+    "name": "Upolu Point Properties, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Hawi",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Pasture"
+    ],
+    "products_text": "Field/Forageable: Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-345-3735",
+      "email": "eric@bigislandproduce.com",
+      "address": "55-310 Upolu Airport Rd, Hawi, Hawaii, 96719",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.25485366,
+      "longitude": -155.853984,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920413038",
+    "name": "Volcano Island Honey Co. LL",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kamuela",
+    "category": "Mixed",
+    "products": [
+      "Apiculture: Bees"
+    ],
+    "products_text": "Apiculture: Bees",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-775-1000",
+      "email": "info@rarehawaiianhoney.com",
+      "address": "66-1250 Lalamilo Farm Road, Kamuela, Hawaii, 96743",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.00928479,
+      "longitude": -155.6797368,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150004290",
+    "name": "Waialua Growers, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Aiea",
+    "category": "Mixed",
+    "products": [
+      "Other: Arugula",
+      "Basil",
+      "Basil Transplants",
+      "Bay Leaf",
+      "Beet",
+      "Borage",
+      "Calendula",
+      "Chard",
+      "Chive",
+      "Chives",
+      "Cilantro",
+      "Dill",
+      "Edible flowers",
+      "Eggplant",
+      "Fennel",
+      "Green bean",
+      "Hyssop",
+      "Kale",
+      "Leek",
+      "Lemongrass",
+      "Lemongrass Transplants",
+      "Lettuce",
+      "Marjoram",
+      "Marjoram Tr"
+    ],
+    "products_text": "Other: Arugula, Basil, Basil, Basil Transplants, Bay Leaf, Beet, Borage, Calendula, Chard, Chive, Chives, Cilantro, Dill, Edible flowers, Eggplant, Fennel, Green bean, Hyssop, Kale, Leek, Lemongrass, Lemongrass Transplants, Lettuce, Marjoram, Marjoram Tr",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 847-8745",
+      "email": "waialuagrowers@yahoo.com",
+      "address": "98-911 Kaonohi Street Apt A, Aiea, Hawaii, 96701",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.39453,
+      "longitude": -157.9276665,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920711093",
+    "name": "Waianae Community Re-Development Corp.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waianae",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Leeks",
+      "Onions",
+      "Radishes",
+      "Scallions",
+      "Turnips",
+      "Stem Vegetables: Celery",
+      "Kohlrabi",
+      "Leaf Vegetables: Arugula",
+      "Cabbage",
+      "Chard",
+      "Collards",
+      "Endive",
+      "Kale",
+      "Lettuce",
+      "Radicchio",
+      "Spinach",
+      "Tatsoi",
+      "Herbs/Spices: Basil",
+      "Chives",
+      "Cil"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Leeks, Onions, Radishes, Scallions, Turnips; Stem Vegetables: Celery, Kohlrabi; Leaf Vegetables: Arugula, Cabbage, Chard, Collards, Endive, Kale, Lettuce, Radicchio, Spinach, Tatsoi; Herbs/Spices: Basil, Chives, Cil",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-696-5569",
+      "email": "gary@maoorganicfarms.org",
+      "address": "86-148 Puhawai Rd, Waianae, Hawaii, 96792",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.451509,
+      "longitude": -158.1574725,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920611086",
+    "name": "Waianu Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kaneohe",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Cassava",
+      "Sweet Potatoes",
+      "Taro",
+      "Seed/Pod Vegetables: Beans",
+      "Nursery/Starts/Flowers/Trees: Hibiscus",
+      "Herbs/Spices: Ginger",
+      "Fruit Vegetables: Tomatoes",
+      "Fruit - Tropical Fruits: Avocados",
+      "Bananas",
+      "Breadfruits",
+      "Papayas",
+      "Fruit - Citrus F"
+    ],
+    "products_text": "Tuber/Root Vegetables: Cassava, Sweet Potatoes, Taro; Seed/Pod Vegetables: Beans; Nursery/Starts/Flowers/Trees: Hibiscus; Herbs/Spices: Ginger; Fruit Vegetables: Tomatoes; Fruit - Tropical Fruits: Avocados, Bananas, Breadfruits, Papayas; Fruit - Citrus F",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-239-6123",
+      "email": "leereppun@hotmail.com",
+      "address": "48-449 S Waiahole Valley Rd, Kaneohe, Hawaii, 96744",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.48243476,
+      "longitude": -157.8541423,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150001927",
+    "name": "Wailapa Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Captain Cook",
+    "category": "Mixed",
+    "products": [
+      "Other: Coffee",
+      "Macadamia nut",
+      "Macadamia Nuts (Dehydrated)",
+      "Roasted Coffee Beans",
+      "Wildlife Area"
+    ],
+    "products_text": "Other: Coffee, Macadamia nut, Macadamia Nuts (Dehydrated), Roasted Coffee Beans, Wildlife Area",
+    "website": "http://www.wailapafarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 328-7324",
+      "email": "konacoffeemon@yahoo.com",
+      "address": "PO Box 1130, Captain Cook, Hawaii, 96704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.49399,
+      "longitude": -155.91841,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920810042",
+    "name": "Wakefield & Sons, Inc",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kailua Kona",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Avocados",
+      "Fruit - Stone: Mangos",
+      "Fruit - Citrus Fruits: Grapefruits",
+      "Lemons",
+      "Limes",
+      "Oranges",
+      "Oranges (Mandarin)",
+      "Tangerines",
+      "Other: Banana",
+      "Breadfruit"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Avocados; Fruit - Stone: Mangos; Fruit - Citrus Fruits: Grapefruits, Lemons, Limes, Oranges, Oranges (Mandarin), Tangerines; Other: Banana, Breadfruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-329-9729",
+      "email": "bwake@hawaii.rr.com",
+      "address": "77-6483 Sea View Circle, Kailua Kona, Hawaii, 96740",
+      "public": false
+    },
+    "geo": {
+      "latitude": 19.60202104,
+      "longitude": -155.9653043,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220003417",
+    "name": "YAMAGATA FARMS",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "HONOLULU",
+    "category": "Mixed",
+    "products": [
+      "Other: Kona Coffee",
+      "Avocado",
+      "Papayas",
+      "Beans",
+      "Oranges"
+    ],
+    "products_text": "Other: Kona Coffee, Avocado, Papayas, Beans, Oranges",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "3211 Melemele Place, HONOLULU, Hawaii, 96822",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.31684271,
+      "longitude": -157.7963175,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Hawaii certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Hawaii%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]
