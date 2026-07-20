@@ -180,10 +180,10 @@ function farmMatchesProduct(farm: Farm, productId: string) {
 function farmSummary(farm: Farm) {
   const place = `${farm.city}, ${farm.state}`;
   const howToBuy = farm.marketPresence
-    ? `The directory says customers connect with this producer through ${farm.marketPresence.toLocaleLowerCase()}.`
-    : "The current record does not yet include a confirmed sales schedule.";
+    ? `Current sales information lists ${farm.marketPresence.toLocaleLowerCase()}.`
+    : "A confirmed sales schedule is not listed yet.";
   const note = farm.notes && !farm.notes.toLocaleLowerCase().includes("no web") ? ` ${farm.notes}.` : "";
-  return `${farm.name} is listed as a ${farm.category.toLocaleLowerCase()} producer in ${place}. Its known products include ${farm.productsText}. ${howToBuy}${note}`;
+  return `FarmFinder lists ${farm.name}, a ${farm.category.toLocaleLowerCase()} producer near ${place}. Known products include ${farm.productsText}. ${howToBuy}${note}`;
 }
 
 function answerFarmQuestion(question: string): AskAnswer {
@@ -435,6 +435,7 @@ export default function Home() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState<AskAnswer | null>(null);
   const [askFarmIds, setAskFarmIds] = useState<string[] | null>(null);
+  const [showAllProducts, setShowAllProducts] = useState(false);
   const [mapActivated, setMapActivated] = useState(false);
   const mapShellRef = useRef<HTMLDivElement>(null);
 
@@ -563,10 +564,9 @@ export default function Home() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="#ask">Ask</a>
-          <a href="#products">Harvest</a>
-          <a href="#discover">Explore farms</a>
-          <a href="#updates">Updates</a>
-          <a className="farmer-link" href="#discover">Find farms</a>
+          <a href="#products">Browse food</a>
+          <a href="#about">About</a>
+          <a className="farmer-link" href="#discover">Search farms</a>
         </nav>
       </header>
 
@@ -580,15 +580,15 @@ export default function Home() {
             <i className="atlas-pin atlas-pin-three" />
           </div>
           <div className="hero-stamp" aria-hidden="true">Release 001<br />July 2026</div>
-          <p className="hero-kicker">Now mapping Louisiana · Mississippi · Expanding region by region</p>
-          <h1 id="hero-title">Find the farms<br /><em>behind your food.</em></h1>
-          <p className="hero-copy">Find the people growing, raising, catching, and making food near you—then learn exactly how to buy from them.</p>
-          <a className="hero-cta" href="#discover">Find food near you <span>↓</span></a>
+          <p className="hero-kicker">Louisiana + Mississippi · Expanding region by region</p>
+          <h1 id="hero-title">Find the farms<br /><em>behind your <span>food.</span></em></h1>
+          <p className="hero-copy">See what nearby farms grow, raise, catch, and make—and the best confirmed way to buy from them.</p>
+          <a className="hero-cta" href="#discover">Search {farms.length} farms <span>↓</span></a>
           <div className="hero-stats" aria-label="Directory coverage">
             <div><strong>{farms.length}</strong><span>unique farms mapped</span></div>
             <div><strong>{louisianaCount}</strong><span>Louisiana listings</span></div>
             <div><strong>{mississippiCount}</strong><span>Mississippi listings</span></div>
-            <p>Built from regional directories, market rosters, and field research. Updated July 2026.</p>
+            <p>Sources shown in every profile · Approximate map pins labeled · Updated July 2026</p>
           </div>
         </section>
 
@@ -596,7 +596,7 @@ export default function Home() {
           <div className="ask-heading">
             <p className="section-number">01 / Ask the field guide</p>
             <h2 id="ask-title">Start with a question.</h2>
-            <p>Ask about a product, place, farm, season, or way to buy. Answers stay grounded in FarmFinder’s 299 directory records and clearly flag what still needs confirmation.</p>
+            <p>Ask about a food, place, farm, season, or way to shop. Answers use only FarmFinder records and tell you what to confirm.</p>
           </div>
 
           <div className="ask-workspace">
@@ -611,7 +611,7 @@ export default function Home() {
                 />
                 <button type="submit">Ask →</button>
               </div>
-              <p>Farm availability is not live. Answers identify likely matches and what to confirm directly.</p>
+              <p>Availability is not live. Check this week’s products and hours with the farm.</p>
             </form>
 
             <div className="ask-prompts" aria-label="Suggested questions">
@@ -639,7 +639,7 @@ export default function Home() {
                         {answer.farmIds.length > 6 && <span>+ {answer.farmIds.length - 6} more matches</span>}
                       </div>
                     )}
-                    {answer.farmIds.length > 0 && <button className="answer-action" type="button" onClick={applyAnswerResults}>Show all {answer.farmIds.length} on the map →</button>}
+                    {answer.farmIds.length > 0 && <button className="answer-action" type="button" onClick={applyAnswerResults}>Show {answer.farmIds.length} matching farms →</button>}
                   </div>
                 </>
               ) : (
@@ -648,7 +648,7 @@ export default function Home() {
                   <div className="answer-copy empty">
                     <span>Built for practical questions</span>
                     <h3>Products, places, seasons, and farms</h3>
-                    <p>FarmFinder can explain a CSA, summarize a farm, surface producers carrying a product, and narrow matches by region or shopping method.</p>
+                    <p>Ask who sells a product, where a farm is located, what is in season, or which farms offer pickup, markets, CSA shares, or online ordering.</p>
                   </div>
                 </>
               )}
@@ -662,10 +662,10 @@ export default function Home() {
               <p className="section-number">02 / Browse the harvest</p>
               <h2 id="products-title">Start with what<br /><em>you want to eat.</em></h2>
             </div>
-            <p>These product guides translate the farm records into useful paths. Counts show farms whose current directory description mentions that product—not live inventory.</p>
+            <p>Browse by what you want to bring home. Counts reflect current listing descriptions, not live inventory.</p>
           </div>
           <div className="product-guide-grid">
-            {productGuides.map((guide, index) => (
+            {(showAllProducts ? productGuides : productGuides.slice(0, 6)).map((guide, index) => (
               <article className="product-guide-card" key={guide.id} style={{ "--product-color": guide.color } as React.CSSProperties}>
                 <div className="product-card-top"><span>{String(index + 1).padStart(2, "0")}</span><strong>{productCounts[guide.id]}</strong></div>
                 <h3>{guide.label}</h3>
@@ -678,15 +678,30 @@ export default function Home() {
               </article>
             ))}
           </div>
+          <button className="product-guide-more" type="button" onClick={() => setShowAllProducts((current) => !current)} aria-expanded={showAllProducts}>
+            {showAllProducts ? "Show fewer product guides ↑" : `Show ${productGuides.length - 6} more product guides ↓`}
+          </button>
+        </section>
+
+        <section className="field-story" aria-labelledby="field-story-title">
+          <div className="field-story-photo" role="img" aria-label="Fresh greens arranged at an outdoor farmers market">
+            <span>Farmers market produce · Photo: Natalia S</span>
+          </div>
+          <div className="field-story-copy">
+            <p className="section-number">A useful field guide, not a promise of live stock</p>
+            <h2 id="field-story-title">Find the farm.<br /><em>Confirm the trip.</em></h2>
+            <p>Compare products and ways to buy, then contact the farm for this week’s availability, hours, and pickup details.</p>
+            <a href="#discover">Search farms near you →</a>
+          </div>
         </section>
 
         <section className="discovery" id="discover" aria-labelledby="discover-title">
           <div className="discovery-heading">
             <div>
-              <p className="section-number">03 / Find your farmer</p>
-              <h2 id="discover-title">What are you looking for?</h2>
+              <p className="section-number">03 / Search the directory</p>
+              <h2 id="discover-title">Find food from a farm near you.</h2>
             </div>
-            <p>Search by food, farm, town, parish, or county. Every marker represents a known farm or producer.</p>
+            <p>Search by food, farm, town, parish, or county. Source details and map accuracy appear in every profile.</p>
           </div>
 
           <div className="search-row">
@@ -768,7 +783,7 @@ export default function Home() {
                       <span className="card-arrow" aria-hidden="true">↗</span>
                     </button>
                     <div className="card-contact">
-                        <button type="button" onClick={() => openProfile(farm.id)}>Full profile →</button>
+                        <button type="button" onClick={() => openProfile(farm.id)}>View profile →</button>
                         {farm.website && <a href={farm.website} target="_blank" rel="noreferrer">Website ↗</a>}
                         {farm.contact && <span>{farm.contact}</span>}
                     </div>
@@ -802,7 +817,7 @@ export default function Home() {
           <div className="updates-heading">
             <p className="section-number">04 / Latest directory update</p>
             <h2 id="updates-title">What changed,<br />and what comes next.</h2>
-            <p>July 2026 · The canonical workbook now contains 299 one-row-per-entity listings. Four duplicate groups were evidence-reviewed, merged, and retained in the source log.</p>
+            <p>July 2026 · The directory includes {farms.length} distinct farms and producers. Each listing keeps its source so details can be checked and corrected.</p>
           </div>
           <div className="update-ledger">
             <article className="update-lead">
@@ -813,12 +828,12 @@ export default function Home() {
             </article>
             <article><span>Map confidence</span><strong>{cityLevelCount}</strong><h3>city-level locations</h3><p>The remaining {farms.length - cityLevelCount} pins represent a parish, area, metro, or regional center until a farm-gate address is confirmed.</p></article>
             <article><span>How to buy</span><strong>{marketCount}</strong><h3>farms at markets</h3><p>{csaCount} records mention CSA shares. Pickup, delivery, and ordering filters make those sales paths easier to compare.</p></article>
-            <article><span>Digital gap</span><strong>{websiteGap}</strong><h3>without a confirmed website</h3><p>For many listings, FarmFinder is the clearest searchable description available outside social media or a market roster.</p></article>
+            <article><span>Contact paths</span><strong>{websiteGap}</strong><h3>without a confirmed website</h3><p>These profiles may rely on a market roster, public directory, phone number, or social page. Check the source and contact the farm before visiting.</p></article>
           </div>
           <div className="update-notes">
             <div><span>Now live</span><p>Detailed profiles, specific product browsing, combined category filters, directory-grounded questions, and clearer location confidence.</p></div>
             <div><span>Being improved</span><p>Farm-gate addresses, weekly availability, market schedules, certifications, seasonal inventory, and farmer-verified stories.</p></div>
-            <div><span>How to help</span><p>Farmers and shoppers will be able to submit corrections, richer descriptions, product updates, or missing listings through a dedicated FarmFinder form.</p><a href="#about">Submission details ↓</a></div>
+            <div><span>How to help</span><p>A correction form is being built for missing farms, product updates, and listing fixes. Until then, use the source in each profile to confirm details.</p><a href="#about">How the directory works ↓</a></div>
           </div>
         </section>
 
@@ -833,7 +848,7 @@ export default function Home() {
             <aside>
               <strong>Grow the map</strong>
               <p>Own a farm, know one we missed, or see a detail that needs fixing?</p>
-              <span>A dedicated FarmFinder submission form is planned.</span>
+              <span>Correction and submission tools are in progress.</span>
             </aside>
           </div>
         </section>
@@ -841,14 +856,14 @@ export default function Home() {
 
       <footer>
         <a className="brand footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span><span>FarmFinder<small>Find food closer to home.</small></span></a>
-        <p>Louisiana → Mississippi → the continental U.S., one region at a time.</p>
+        <p>Source-backed farm discovery, one region at a time.</p>
         <div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a></div>
         <small>© 2026 FarmFinder</small>
       </footer>
       <nav className="mobile-dock" aria-label="Mobile navigation">
         <a href="#ask">Ask</a>
-        <a href="#products">Harvest</a>
-        <a href="#discover">Explore</a>
+        <a href="#products">Browse</a>
+        <a href="#discover">Search</a>
       </nav>
       {profileFarm && <FarmProfileDialog farm={profileFarm} onClose={closeProfile} onShowMap={showProfileOnMap} onOpenFarm={openProfile} />}
     </div>

@@ -35,8 +35,9 @@ test("server-renders the FarmFinder directory shell", async () => {
   assert.match(html, /<section[^>]+id="ask"/i);
   assert.match(html, /<section[^>]+id="discover"/i);
   assert.match(html, /299[^<]*<\/strong><span>unique farms mapped/i);
-  assert.match(html, /canonical workbook now contains 299 one-row-per-entity listings/i);
-  assert.match(html, /Four duplicate groups were evidence-reviewed/i);
+  assert.match(html, /directory includes[\s\S]{0,80}299[\s\S]{0,80}distinct farms and producers/i);
+  assert.match(html, /Each listing keeps its source so details can be checked and corrected/i);
+  assert.match(html, /Sources shown in every profile/i);
   assert.doesNotMatch(html, /Your site is taking shape|Codex is working/i);
 });
 
