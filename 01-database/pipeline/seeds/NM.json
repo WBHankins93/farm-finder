@@ -1,0 +1,3323 @@
+[
+  {
+    "id": "nmfma-87412",
+    "name": "Abiquiu Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Abiquiu",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/Abiquiu-Produce-Stand-2088866394766099/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "abiquiufarmersmarket@gmail.com",
+      "address": "4 County Road 187, Abiquiu, NM 87510",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.2089803,
+      "longitude": -106.3200796,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87414",
+    "name": "Alamogordo Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Alamogordo",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "https://www.localharvest.org/alamogordo-farmers-market-in-alameda-park-M37997",
+    "facebook_url": "https://www.facebook.com/AlamogordoFarmersMarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "alamogordofarmersmarket@gmail.com",
+      "address": "100 Washington Ave, Alamogordo, NM 88310",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.912628,
+      "longitude": -105.960602,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87415",
+    "name": "Aldana's Farm Stand",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Chaparral",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "Luciaaldana94@yahoo.com",
+      "address": "648 Hermosa Drive, Chaparral, NM 88081",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.0171334,
+      "longitude": -106.3794277,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87416",
+    "name": "Aztec Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Aztec",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "https://www.buyfreshbuylocalnwnm.org/aztecfarmersmarket",
+    "facebook_url": "https://www.facebook.com/aztecfarmersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "aztecfarmersmarket@gmail.com",
+      "address": "600 N. Main Avenue, Aztec, NM 87410",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.826881,
+      "longitude": -108.009865,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87418",
+    "name": "Belen Growers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Belen",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "twosilvatwins@yahoo.com",
+      "address": "315 N 4th st., Belen, NM 87002",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.662636,
+      "longitude": -106.770676,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87419",
+    "name": "Bernalillo Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Bernalillo",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "bernalillofarmersmarketnm@gmail.com",
+      "address": "370 Rotary Park Rd, Bernalillo, NM 87004",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.305351,
+      "longitude": -106.555267,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87420",
+    "name": "Big Jim Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "bigjimfarms@gmail.com",
+      "address": "3521 Rio Grande Blvd, Albuquerque, NM 87107",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.1315524,
+      "longitude": -106.6724344,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87421",
+    "name": "Bloomfield Growers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Bloomfield",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "https://www.buyfreshbuylocalnwnm.org/bloomfieldmkt",
+    "facebook_url": "https://www.facebook.com/profile.php?id=100057258587714",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "bloomfieldgrowersmarket@gmail.com",
+      "address": "Bishop Square, Bloomfield, NM 87413",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7116281,
+      "longitude": -107.9794545,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87422",
+    "name": "Bluffs Farm, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Farmington",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "info@bluffsfarm.com",
+      "address": "3901 Bloomfield Hwy, Farmington, NM 87401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7146707,
+      "longitude": -108.1617675,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87423",
+    "name": "Bosque Farms Growers Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Bosque Farms",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/farmersmarketsofvalenciacounty/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "bosquefarmsgrowersmarket@gmail.com",
+      "address": "1090 North Bosque Loop, Bosque Farms, NM 87068",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.862614,
+      "longitude": -106.705711,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87424",
+    "name": "Brazos View Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Los Ojos",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "jbaubrey@gmail.com",
+      "address": "17103 US Hwy 84/64, Los Ojos, NM 87551",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7473417,
+      "longitude": -106.5655978,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87425",
+    "name": "Bustamante Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Polvadera",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "shainamaree03@icloud.com",
+      "address": "96 Polvadera Road, Polvadera, NM 87828",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.2034751,
+      "longitude": -106.9216625,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87426",
+    "name": "Carlsbad Downtown Farmers & Makers Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Carlsbad",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://carlsbadmainstreet.com/",
+    "facebook_url": "https://www.facebook.com/CarlsbadDowntownFarmersMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "carlsbadfarmersmarket102@gmail.com",
+      "address": "102 N. Canal, Carlsbad, NM 88221",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.42017,
+      "longitude": -104.22744,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87427",
+    "name": "Cedar Crest Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Cedar Crest",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "Petewithers@swcp.com",
+      "address": "12183 NM Hwy 14, Cedar Crest, NM 87008",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.132965,
+      "longitude": -106.366119,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87428",
+    "name": "Chispas Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/chispasfarm/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "chispasfarms@gmail.com",
+      "address": "229 Saavedra Rd SW, Albuquerque, NM 87105",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.0659591,
+      "longitude": -106.6703963,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87430",
+    "name": "Clovis Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Clovis",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/pages/ClovisPortales-Farmers-Market/382290155222814",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "mplummer@yucca.net",
+      "address": "2809 N. Prince St., Clovis, NM 88101",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.4251091,
+      "longitude": -103.1965683,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87431",
+    "name": "Community Food Pantry Hope Garden",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Gallup",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "https://thecommunitypantry.org/",
+    "facebook_url": "https://www.facebook.com/HopeGardenCommunityPantry",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "programs@thecommunitypantry.org",
+      "address": "1130 E Hasler Valley Rd, Gallup, NM 87301",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.535847,
+      "longitude": -108.710793,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87432",
+    "name": "Corrales Growers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Corrales",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.corralesgrowersmarket.com",
+    "facebook_url": "http://facebook.com/corralesgrowersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "corralesgrowersmarket@gmail.com",
+      "address": "500 Jones Rd., Corrales, NM 87048",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.22002,
+      "longitude": -106.620163,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87434",
+    "name": "Dixon Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Dixon",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.dixonfarmersmarket.com",
+    "facebook_url": "https://www.facebook.com/DixonFarmersMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "mulchman@cybermesa.com",
+      "address": "1114 Private Drive #5, Dixon, NM 87527",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.197136,
+      "longitude": -105.887054,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87435",
+    "name": "Downtown Growers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.downtowngrowers.org/",
+    "facebook_url": "http://www.downtowngrowers.org/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "market@abqmainstreet.org",
+      "address": "810 Copper Ave NW, Albuquerque, NM 87102",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.085781,
+      "longitude": -106.656258,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87436",
+    "name": "Edgars Farm LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Aztec",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "shandiedgar13@gmail.com",
+      "address": "822 CR 3000, Aztec, NM 87410",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7656574,
+      "longitude": -108.1225578,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87437",
+    "name": "Elder's Greenhouse & Garden",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Aztec",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/Elders-Greenhouse-Garden-170261416407086/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "elderfarm77@outlook.com",
+      "address": "30 County Rd 3008, Aztec, NM 87410",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.894456,
+      "longitude": -108.0465662,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87438",
+    "name": "Eldorado Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/Eldorado-Farmers-Market-859531034130066/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "eldoradonm_farmers_market@comcast.net",
+      "address": "7 Caliente Rd, Santa Fe, NM 87508",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.536129,
+      "longitude": -105.890511,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87439",
+    "name": "Espanola Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Española",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.espanolafarmersmarket.blogspot.com",
+    "facebook_url": "https://www.facebook.com/espanolafarmersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "espanolafm@gmail.com",
+      "address": "1005 N. Railroad Avenue, Española, NM 87532",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.003128,
+      "longitude": -106.080254,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87440",
+    "name": "Estancia Farm Stand",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Estancia",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "estanciafarms12@gmail.com",
+      "address": "405 5th St., Estancia, NM 87016",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.7578827,
+      "longitude": -106.0557746,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87441",
+    "name": "Farm Fresh Mobile Market - La Semilla Food Center",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Anthony",
+    "category": "Mixed",
+    "products": [
+      "Mobile"
+    ],
+    "products_text": "Mobile",
+    "website": "https://www.lasemillafarmfresh.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "farmfresh@lasemillafoodcenter.org",
+      "address": "101 East Joy Drive, Anthony, NM 88021",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.040119,
+      "longitude": -106.620491,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87444",
+    "name": "Farmers' & Crafts Market of Las Cruces",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Las Cruces",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.fcmlc.org",
+    "facebook_url": "https://www.facebook.com/LasCrucesMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "fcmlcinc@gmail.com",
+      "address": "Wednesdays: 221 N. Main St. - Plaza de Las Cruces, Las Cruces, NM 88001",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.310078,
+      "longitude": -106.779053,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87442",
+    "name": "Farmers' Market at Ardovino's Desert Crossing",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Sunland Park",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "https://www.ardovinos.com/farmers-market-at-adc",
+    "facebook_url": "https://www.facebook.com/FarmersMarketAtADC",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "david@ardovinos.com",
+      "address": "1 Ardovinos Dr., Sunland Park, NM 88063",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.791512,
+      "longitude": -106.557732,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87443",
+    "name": "Farmers' Market of Otero County",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Alamogordo",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/FarmersMarketofOteroCounty/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "tomatojim@msn.com",
+      "address": "401 Fairgrounds Rd, Alamogordo, NM 88310",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.9274227,
+      "longitude": -105.9571354,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87445",
+    "name": "Farmington Growers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Farmington",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/farmingtongrowersmarket/?ref=hl",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "fmntgrowersmarket@gmail.com",
+      "address": "3041 E Main St., Farmington, NM 87402",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.744453,
+      "longitude": -108.164154,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87447",
+    "name": "Gallup Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Gallup",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "gallupfarmersmarket@yahoo.com",
+      "address": "Gallup Downtown Courthouse Plaza - 215 W. Aztec, NW end, Gallup, NM 87301",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.526962,
+      "longitude": -108.742188,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87448",
+    "name": "Gila Farmers Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Gila",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "Basia4292000@yahoo.com",
+      "address": "412 NM-211, Gila, NM 88038",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.9638737,
+      "longitude": -108.5777165,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87449",
+    "name": "Grants Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Grants",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "www.facebook.com/grantsfarmersmarket",
+    "facebook_url": "https://www.facebook.com/grantsfarmersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "farmersmarket@grantsnm.gov",
+      "address": "623 W. Santa Fe Ave., Grants, NM 87020",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.152813,
+      "longitude": -107.854309,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87450",
+    "name": "Grave's Farm and Garden",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Roswell",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "rgraves@dfn.com",
+      "address": "6265 Graves Road, Roswell, NM 88203",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.3106435,
+      "longitude": -104.4511599,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87451",
+    "name": "Hobbs, America Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Hobbs",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/HobbsFarmersMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "kcsun17@yahoo.com",
+      "address": "4300 N Lovington Hwy, Hobbs, NM 88240",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.747421,
+      "longitude": -103.167847,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87452",
+    "name": "Jemez Valley Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Jemez Springs",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "jemezspringsfarmersmarket@gmail.com",
+      "address": "25 Civic Ctr Ln, Jemez Springs, NM 87025",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.771057,
+      "longitude": -106.691116,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87453",
+    "name": "Kirtland Growers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Kirtland",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "kirtlandgrowersmarket@gmail.com",
+      "address": "47 Road 6500, Kirtland, NM 87417",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7504326,
+      "longitude": -108.360401,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87454",
+    "name": "La Cosecha CSA",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Csa"
+    ],
+    "products_text": "Csa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "latrell@agri-cultura.org",
+      "address": "318 Isleta Blvd SW, Albuquerque, NM 87105",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.06549,
+      "longitude": -106.6664351,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87461",
+    "name": "Los Alamos Farmers' Market - Ashley Pond Park",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Los Alamos",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://farmersmarketsnm.org/marketfinder-markets/los-alamos-farmers-market/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "talacook@windstream.net",
+      "address": "2449 Central Ave., Los Alamos, NM 87544",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.882862,
+      "longitude": -106.304115,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87462",
+    "name": "Los Alamos Farmers' Market - White Rock Evening Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "White Rock",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://farmersmarketsnm.org/marketfinder-markets/los-alamos-farmers-market/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "talacook@windstream.net",
+      "address": "118 NM Hwy 4, White Rock, NM 87547",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.8272183,
+      "longitude": -106.2100125,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87463",
+    "name": "Los De Mora Co-Op Farm Stand",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Mora",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "losdemora@gmail.com",
+      "address": "380 NM HWY 518, Mora, NM 87732",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.973011,
+      "longitude": -105.329964,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87464",
+    "name": "Los Lunas Farmers Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Los Lunas",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/farmersmarketsofvalenciacounty/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "loslunasfarmersmarketnm@gmail.com",
+      "address": "3447 Lambros Loop SE, Los Lunas, NM 87031",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.805901,
+      "longitude": -106.700996,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87465",
+    "name": "Los Ranchos Growers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Los Ranchos",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "https://losranchosnm.gov/growers-market",
+    "facebook_url": "https://www.facebook.com/LosRanchosGrowersMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "montoya4664@hotmail.com",
+      "address": "6718 Rio Grande Blvd NW, Los Ranchos, NM 87107",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.159184,
+      "longitude": -106.654243,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87466",
+    "name": "Mainstreet Roswell Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Roswell",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "http://facebook.com/roswellmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "info@mainstreetroswell.org",
+      "address": "Main St. & 4th, Roswell, NM 88201",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.396515,
+      "longitude": -104.522781,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87467",
+    "name": "Mimbres Mercado",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Mimbres",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "vm.macnm@gmail.com",
+      "address": "2743 Hwy 35, Mimbres, NM 88049",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.8175153,
+      "longitude": -107.9368904,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87468",
+    "name": "Mimbres Valley Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Mimbres",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "billover@ufl.edu",
+      "address": "2743 Hwy 35, Mimbres, NM 88049",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.8175153,
+      "longitude": -107.9368904,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87472",
+    "name": "Pecos Farmer's Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Pecos",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.pecosnmfarmersmarket.com/",
+    "facebook_url": "https://www.facebook.com/pecosnmfarmersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "vmcnally@newmexico.com",
+      "address": "13 S. Main Street, Pecos, NM 87552",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.5735103,
+      "longitude": -105.6751051,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87473",
+    "name": "Peñasco Farmers Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Penasco",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "ramonalujan1971@gmail.com",
+      "address": "15086 State Rd 75, Penasco, NM 87553",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.17569,
+      "longitude": -105.6929204,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87474",
+    "name": "Pojoaque Farmers' & Crafts Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://poehcenter.org",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "pdgurule@pojoaque.org",
+      "address": "78 Citites of Gold Rd, Santa Fe, NM 87321",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.883793,
+      "longitude": -106.01255,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87475",
+    "name": "Polk's Folly Farm Butcher Shop and Farm Stand",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Cedar Crest",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "https://polksfolly.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "petewithers79@gmail.com",
+      "address": "12128 NM-14, Cedar Crest, NM 87008",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.1179275,
+      "longitude": -106.3709501,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87476",
+    "name": "Portales Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Portales",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/pages/ClovisPortales-Farmers-Market/382290155222814",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "mplummer@yucca.net",
+      "address": "First St. and Avenue B, Portales, NM 88130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.185329,
+      "longitude": -103.339081,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87477",
+    "name": "Quemado Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Quemado",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "quemadofarmersmarket@gmail.com",
+      "address": "3545 US-60, Quemado, NM 87829",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.3366538,
+      "longitude": -108.4839168,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87478",
+    "name": "Questa Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Questa",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "https://questafarmersmarket.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "growersmakers@gmail.com",
+      "address": "1 NM-38, Questa, NM 87556",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7042857,
+      "longitude": -105.595207,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87479",
+    "name": "Rail Yards Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.railyardsmarket.org/",
+    "facebook_url": "https://www.facebook.com/RailYardsMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "RailYardsMarket@gmail.com",
+      "address": "777 1st Street SW, Albuquerque, NM 87102",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.077232,
+      "longitude": -106.650253,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87481",
+    "name": "Reunity Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "https://www.reunityresources.com/",
+    "facebook_url": "https://www.facebook.com/reunityresourcessantafe/?__tn__=dP-R&eid=ARApclYUd5YzUwS0S6xlThbYgPvN0sNN2y2pjtE0bBlLmqaIYh2Olfz2ymJNdvc-tix5Um8G7vY6J_j4",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "juliana@reunityresources.com",
+      "address": "1829 San Ysidro Crossing, Santa Fe, NM 87507",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.6618307,
+      "longitude": -106.0112606,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87482",
+    "name": "Rio Grande Farmers Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Embudo",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "ronmonsour@yahoo.com",
+      "address": "1799 NM-68, Embudo, NM 87531",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.2093023,
+      "longitude": -105.9555708,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87483",
+    "name": "Rosales Farms - Socorro",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Socorro",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "rosalesL5@aol.com",
+      "address": "16 County Rd 91, Socorro, NM 87801",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.141483,
+      "longitude": -106.889572,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87484",
+    "name": "Rosales Produce - 4th Street",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "rosalesl5@aol.com",
+      "address": "7331 4th St. NW, Albuquerque, NM 87501",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.166786,
+      "longitude": -106.637306,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87485",
+    "name": "Rosales Produce - Isleta",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "rosalesL5@aol.com",
+      "address": "2001 Isleta Blvd SW, Albuquerque, NM 87105",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.046146,
+      "longitude": -106.679123,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87486",
+    "name": "Santa Fe Farmers' Market Railyard",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.santafefarmersmarket.com/",
+    "facebook_url": "https://www.facebook.com/santafefarmersmarket?ref=ts",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "debbie@santafefarmersmarket.com",
+      "address": "Farmers\\' Market Pavilion in the Railyard - 1607 Paseo de Peralta at Guadalupe, Santa Fe, NM 87505",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.682133,
+      "longitude": -105.949089,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87487",
+    "name": "Santa Fe Farmers' Market Tuesday Del Sur Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.santafefarmersmarket.com/",
+    "facebook_url": "https://www.facebook.com/santafefarmersmarket?ref=ts",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "debbie@santafefarmersmarket.com",
+      "address": "4801 Beckner Road, Santa Fe, NM 87507",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.6160207,
+      "longitude": -106.0253287,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87488",
+    "name": "Santa Rosa Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Rosa",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "Swtsallyd@gmail.com",
+      "address": "1085 Blue Hole Rd, Santa Rosa, NM 88435",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.942474,
+      "longitude": -104.68631,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87489",
+    "name": "Shiprock Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Shiprock",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "toledo.nina.et@gmail.com",
+      "address": "N693 US Highway 64, Shiprock, NM 87420",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.79026,
+      "longitude": -108.687149,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87490",
+    "name": "Sierra County Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Truth or Consequences",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://sierracountyfarmersmarket.org",
+    "facebook_url": "https://www.facebook.com/Sierra-County-Farmers-Market-364519943588572/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "south4059@windstream.net",
+      "address": "300 E. Riverside Drive, Truth or Consequences, NM 87901",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.129292,
+      "longitude": -107.248352,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87491",
+    "name": "Silver City Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Silver City",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.silvercityfarmersmarket.info",
+    "facebook_url": "https://www.facebook.com/photo/?fbid=573665514975233&set=a.479541827720936",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "silvercityfarmersmarket@gmail.com",
+      "address": "1120 N Main St., Silver City, NM 88038",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.77731551,
+      "longitude": -108.2751724,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87493",
+    "name": "Socorro Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Socorro",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "https://www.socorrofarmersmarket.org/",
+    "facebook_url": "https://www.facebook.com/SocorroFarmersMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "ammlove4life@gmail.com",
+      "address": "1002 Ake Ave., Socorro, NM 87801",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.057529,
+      "longitude": -106.89325,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87494",
+    "name": "South Valley Growers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "http://www.facebook.com/southvalleygrowersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "rkreinert@aol.com",
+      "address": "6029 Isleta Blvd. SW, Albuquerque, NM 87105",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.98929,
+      "longitude": -106.69647,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87495",
+    "name": "Taos Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Taos",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "http://www.taosfarmersmarket.org/",
+    "facebook_url": "https://www.facebook.com/pages/Taos-Farmers-Market/112208735489391",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "info@taosfarmersmarket.org",
+      "address": "105 Albright St, Taos, NM 87571",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.39696,
+      "longitude": -105.5758,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87496",
+    "name": "Tesoros Del Valle Farmers' Market - Ribera",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Ribera",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "https://www.tesorosdelvalle.org",
+    "facebook_url": "https://www.facebook.com/tesorosdelvallefarmersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "tesorosfarmersmarket@gmail.com",
+      "address": "279 NM-3, Ribera, NM 87560",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.3630314,
+      "longitude": -105.4501834,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87497",
+    "name": "Tesoros Del Valle Farmers' Market - Villanueva",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Villanueva",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "https://www.tesorosdelvalle.org",
+    "facebook_url": "https://www.facebook.com/tesorosdelvallefarmersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "tesorosfarmersmarket@gmail.com",
+      "address": "11 Los Pueblos Rd, Villanueva, NM 87583",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.2665401,
+      "longitude": -105.359227,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87499",
+    "name": "The Frontier Food Hub Mobile Market - Mercados Móviles - Columbus",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Columbus",
+    "category": "Mixed",
+    "products": [
+      "Mobile"
+    ],
+    "products_text": "Mobile",
+    "website": "https://frontierfoodhub.localfoodmarketplace.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "foodhub@frontierus.org",
+      "address": "100 N. Boundary Road, Columbus, NM 88029",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.836339,
+      "longitude": -107.638355,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87500",
+    "name": "The Frontier Food Hub Mobile Market - Mercados Móviles - Deming",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Deming",
+    "category": "Mixed",
+    "products": [
+      "Mobile"
+    ],
+    "products_text": "Mobile",
+    "website": "https://frontierfoodhub.localfoodmarketplace.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "foodhub@frontierus.org",
+      "address": "700 S Silver Ave., Deming, NM 88030",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.2621578,
+      "longitude": -107.7562632,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87502",
+    "name": "The Frontier Food Hub Mobile Market - Mercados Móviles - Lordsburg",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Lordsbug",
+    "category": "Mixed",
+    "products": [
+      "Mobile"
+    ],
+    "products_text": "Mobile",
+    "website": "https://frontierfoodhub.localfoodmarketplace.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "foodhub@frontierus.org",
+      "address": "1421 Main Street, Lordsbug, NM 88045",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.3407762,
+      "longitude": -108.7152142,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87498",
+    "name": "The Frontier Food HubMobile Market/Mercados Móviles - Reserve",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Reserve",
+    "category": "Mixed",
+    "products": [
+      "Mobile"
+    ],
+    "products_text": "Mobile",
+    "website": "https://frontierfoodhub.localfoodmarketplace.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "foodhub@frontierus.org",
+      "address": "95 b NM-435, Reserve, NM 87830",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.7120231,
+      "longitude": -108.7583473,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87503",
+    "name": "The Fruit Basket - Rancho de Santa Fe",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Velarde",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "ranchodesantafe3@yahoo.com",
+      "address": "1413 Highway 68, Velarde, NM 87582",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.165391,
+      "longitude": -105.9682136,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87504",
+    "name": "The Harvest Food Hub",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Farmington",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "https://www.sanjuancollege.edu/harvestfoodhub/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "montoyajr@sanjuancollege.edu",
+      "address": "310 W. Animas Street, Farmington, NM 87401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7275048,
+      "longitude": -108.208562,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87507",
+    "name": "Townsend Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Aztec",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "www.TownsendFarmsNM.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "TownsendFarmsNM@gmail.com",
+      "address": "16340 US - 550, Aztec, NM 87410",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.8617812,
+      "longitude": -107.9546702,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87508",
+    "name": "Tri-County Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/TriCountyFarmersMarketLVNM",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "gmascarenas11@gmail.com",
+      "address": "6th and University, Las Vegas, NM 87701",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.595898,
+      "longitude": -105.215675,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87509",
+    "name": "Trilogy Beef Community Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Moriarty",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "www.trilogybeef.grazecart.com",
+    "facebook_url": "https://www.facebook.com/trilogybeef",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "trilogybeef@gmail.com",
+      "address": "141 Feather Trail, Moriarty, NM 87035",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.9504919,
+      "longitude": -106.1068594,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87510",
+    "name": "Tucumcari Farmers' Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Tucumcari",
+    "category": "Mixed",
+    "products": [
+      "Market"
+    ],
+    "products_text": "Market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/Tucumcari-Farmers-Market-253600261334263/?fref=ts",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "heavymeadowfarms@yahoo.com",
+      "address": "Corner of Rt. 66 Blvd. and Date Street, Tucumcari, NM 88401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.171806,
+      "longitude": -103.707878,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nmfma-87511",
+    "name": "Veggie Shack",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Portales",
+    "category": "Mixed",
+    "products": [
+      "Farmstand"
+    ],
+    "products_text": "Farmstand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "mplummer@yucca.net",
+      "address": "42609 US HIGHWAY 70, Portales, NM 88130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.215565,
+      "longitude": -103.29969,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — 2026 market, farm-stand, and CSA locator",
+      "source_url": "https://farmersmarketsnm.org/find-a-market/",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

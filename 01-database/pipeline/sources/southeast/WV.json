@@ -5,39 +5,31 @@
   "countyEquivalentLabel": "county",
   "sources": [
     {
-      "id": "wvsrc-wvgrown-seed",
-      "name": "West Virginia Grown 2025 directory — reviewed capture (EP/MOV/NC/NP)",
+      "id": "wvsrc-wvgrown-2026",
+      "name": "West Virginia Department of Agriculture — West Virginia Grown 2026 regional directories",
+      "url": "https://agriculture.wv.gov/ag-business/west-virginia-grown/",
       "adapter": "seed",
       "path": "seeds/WV.json",
-      "notes": "164 members hand-parsed from the four downloadable WV Grown 2025 regional PDFs (agriculture.wv.gov); the generic pdf_list adapter under-reads the two-column magazine layout. The SW and SE regions ship only as JavaScript flipbooks (no PDF) and remain uncaptured — a browser-rendered pass would add them to this seed."
+      "notes": "Reviewed capture of 294 distinct members from all six 2026 regional books, including the previously missing Southwest and Southeast regions."
     },
     {
       "id": "wvsrc-usfarmtrail",
       "name": "U.S. Farm Trail — West Virginia",
       "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=west-virginia",
-      "adapter": "api",
-      "notes": "Public GeoJSON farm directory (~232). County and identity corroboration remains QA."
+      "adapter": "seed",
+      "path": "seeds/WV-USFarmTrail.json",
+      "notes": "Reviewed 2026-07-19 capture; source coordinates outside West Virginia remain explicit QA residue."
     },
     {
-      "id": "wvsrc-eatwild",
-      "name": "EatWild — West Virginia",
-      "url": "https://www.eatwild.com/products/westvirginia.html",
-      "adapter": "html_table",
-      "notes": "Pastured-products directory; county and current-operation review remains QA."
+      "id": "wvsrc-usda-organic",
+      "name": "USDA Organic Integrity Database — West Virginia certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query",
+      "adapter": "seed",
+      "path": "seeds/WV-USDAOrganic.json",
+      "notes": "Certified crop, livestock, or wild-crop operations captured 2026-07-19."
     },
-    {
-      "id": "wvsrc-pickyourown",
-      "name": "PickYourOwn — West Virginia",
-      "url": "https://www.pickyourown.org/WV.htm",
-      "adapter": "html_table",
-      "notes": "Regional U-pick pages; current-operation review remains QA."
-    },
-    {
-      "id": "wvsrc-localharvest",
-      "name": "LocalHarvest — West Virginia",
-      "url": "https://www.localharvest.org/west-virginia/",
-      "adapter": "html_table",
-      "notes": "Rate-limited/bot-blocked; fetched best-effort and skipped gracefully when unavailable."
-    }
+    {"id": "wvsrc-eatwild", "name": "EatWild — West Virginia", "url": "https://www.eatwild.com/products/westvirginia.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "wvsrc-pickyourown", "name": "PickYourOwn — West Virginia", "url": "https://www.pickyourown.org/WV.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "wvsrc-localharvest", "name": "LocalHarvest — West Virginia", "url": "https://www.localharvest.org/west-virginia/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
   ]
 }

@@ -1,0 +1,3367 @@
+[
+  {
+    "id": "usda-5561004800",
+    "name": "Ak-Chin Farms",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Maricopa",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Oats",
+      "Sorghum"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Oats, Sorghum",
+    "website": "www.ak-chin.nsn.us",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-560-6045",
+      "email": "",
+      "address": "N Ralston Road & W Peters and Nall Road, Maricopa, Arizona, 85139",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.000021,
+      "longitude": -112.117239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561004675",
+    "name": "Amigo Farms, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Stem Vegetables: Celery",
+      "Leaf Vegetables: Lettuce"
+    ],
+    "products_text": "Stem Vegetables: Celery; Leaf Vegetables: Lettuce",
+    "website": "www.amigofarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-726-3738",
+      "email": "",
+      "address": "4245 E. 32nd St., Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.66985487,
+      "longitude": -114.5568867,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561002721",
+    "name": "Arizona Organic Beans LLLP",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Eloy",
+    "category": "Mixed",
+    "products": [
+      "Seed/Pod Vegetables: Chickpeas",
+      "Field/Forageable: Cotton",
+      "Fallow",
+      "Wheat",
+      "Other: Alfalfa",
+      "Barley",
+      "Bean Seed (Garbanzo)",
+      "Beans (Black",
+      "Dark Red Kidney",
+      "White Kidney)",
+      "Beans (Garbanzo)",
+      "Seed (Durum Wheat)",
+      "Sesame Seed",
+      "Wheat (Durum (Unprocessed))"
+    ],
+    "products_text": "Seed/Pod Vegetables: Chickpeas; Field/Forageable: Cotton, Fallow, Wheat; Other: Alfalfa, Barley, Bean Seed (Garbanzo), Beans (Black, Dark Red Kidney, White Kidney), Beans (Garbanzo), Seed (Durum Wheat), Sesame Seed, Wheat (Durum (Unprocessed))",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-215-0254",
+      "email": "",
+      "address": "26430 South Tweedy Road, Eloy, Arizona, 85131",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.63976964,
+      "longitude": -111.5860016,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000078",
+    "name": "Arizona Organic Family Farms",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Scottsdale",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Citrus Fruits: Citrus",
+      "Other: Citrus (Mixed)"
+    ],
+    "products_text": "Fruit - Citrus Fruits: Citrus; Other: Citrus (Mixed)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "530-755-6292",
+      "email": "",
+      "address": "6750 E. Exeter Blvd., Scottsdale, Arizona, 85251",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.49850066,
+      "longitude": -111.935179,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730000231",
+    "name": "Arizona Valley Farming, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Salome",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Field Crop (Corn)",
+      "Other: Fruits",
+      "Vegetables",
+      "Herbs"
+    ],
+    "products_text": "Field/Forageable: Field Crop (Corn); Other: Fruits, Vegetables, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "36503 Carters Road, Salome, Arizona, 85348",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.78289642,
+      "longitude": -113.5927821,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220002563",
+    "name": "ARMISTEAD FARMS ORGANICS LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "GILBERT",
+    "category": "Mixed",
+    "products": [
+      "Other: Grapefruit",
+      "Oranges",
+      "Lemons"
+    ],
+    "products_text": "Other: Grapefruit, Oranges, Lemons",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "813 E. Harvard Ave., GILBERT, Arizona, 85234",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.36662771,
+      "longitude": -111.7726834,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000071",
+    "name": "Bard Date Co., LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Dates"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Dates",
+    "website": "www.barddate.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-627-9006",
+      "email": "",
+      "address": "13415 S. Bridges Ave., Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.63556368,
+      "longitude": -114.7272501,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000079",
+    "name": "Barkley Company Of Arizona",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Stem Vegetables: Celery",
+      "Leaf Vegetables: Lettuce",
+      "Field/Forageable: Fallow",
+      "Sudan Grass"
+    ],
+    "products_text": "Stem Vegetables: Celery; Leaf Vegetables: Lettuce; Field/Forageable: Fallow, Sudan Grass",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-343-2918",
+      "email": "",
+      "address": "1818 Letvin Ave., Yuma, Arizona, 85364",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.694399,
+      "longitude": -114.6071295,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730016488",
+    "name": "BKW Farms, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Marana",
+    "category": "Mixed",
+    "products": [
+      "Other: Wheat (Wheat Grain)"
+    ],
+    "products_text": "Other: Wheat (Wheat Grain)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "10300 West Avra Valley Road, Marana, Arizona, 85653",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.40270439,
+      "longitude": -111.1846214,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5520462070",
+    "name": "Buckelew Farms II",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Bouse",
+    "category": "Mixed",
+    "products": [
+      "Other: Arugula Seed",
+      "Coriander Seed",
+      "Durum Wheat",
+      "Mizuna Seed",
+      "Romaine Lettuce Seed"
+    ],
+    "products_text": "Other: Arugula Seed, Coriander Seed, Durum Wheat, Mizuna Seed, Romaine Lettuce Seed",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "35000 Avenue 42 E, Bouse, Arizona, 85325",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.8258355,
+      "longitude": -113.9225432,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000162",
+    "name": "Cactus Lane Farming",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tolleson",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Carrots",
+      "Seed/Pod Vegetables: Chickpeas",
+      "Leaf Vegetables: Cabbage",
+      "Lettuce",
+      "Fruit - Melons: Watermelons",
+      "Flower Vegetables: Cauliflower",
+      "Field/Forageable: Fallow",
+      "Oats"
+    ],
+    "products_text": "Tuber/Root Vegetables: Carrots; Seed/Pod Vegetables: Chickpeas; Leaf Vegetables: Cabbage, Lettuce; Fruit - Melons: Watermelons; Flower Vegetables: Cauliflower; Field/Forageable: Fallow, Oats",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "623-936-7100",
+      "email": "",
+      "address": "9601 West Harrison Street, Tolleson, Arizona, 85353",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.44370176,
+      "longitude": -112.2657759,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1565830000",
+    "name": "Carrasco Investments LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Fruit Vegetables: Dates (Medjool)"
+    ],
+    "products_text": "Fruit Vegetables: Dates (Medjool)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "#ERROR!",
+      "email": "rancholasnovias@yahoo.com; andrea@sustainabc.com",
+      "address": "3817 E CO 17 3?4 ST., Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.5822888,
+      "longitude": -114.5665266,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730000183",
+    "name": "CDH Enterprises, Inc",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tucson",
+    "category": "Mixed",
+    "products": [
+      "Other: Cactus (Prickly Pear Cactus Fruit)"
+    ],
+    "products_text": "Other: Cactus (Prickly Pear Cactus Fruit)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1840 Winsett St, Tucson, Arizona, 85719",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.21379,
+      "longitude": -110.9447145,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9091926601",
+    "name": "CJ's Orchard, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Marana",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Citrus Fruits: Grapefruits (Oro Blanco",
+      "Ruby red)",
+      "Lemons (Meyer",
+      "Lisbon)",
+      "Limes (Bearss)",
+      "Mandarins (Tangos)",
+      "Oranges (Navel)"
+    ],
+    "products_text": "Fruit - Citrus Fruits: Grapefruits (Oro Blanco, Ruby red), Lemons (Meyer, Lisbon), Limes (Bearss), Mandarins (Tangos), Oranges (Navel)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Jacey Trail and Davis Ranch Rd., Marana, Arizona, 85653",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.536755,
+      "longitude": -111.1941,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730000203",
+    "name": "Coronation Peak Ranches, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Leaf Vegetables: Green Leaf",
+      "Red Leaf",
+      "Iceberg Lettuce",
+      "Romaine",
+      "Spinach",
+      "Other: Broccoli",
+      "Cauliflower"
+    ],
+    "products_text": "Leaf Vegetables: Green Leaf, Red Leaf, Iceberg Lettuce, Romaine, Spinach; Other: Broccoli, Cauliflower",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2791 S. Avenue 2 1/2 E, Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.677146,
+      "longitude": -114.5900425,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561004511",
+    "name": "Cox Farm Management, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Dates"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Dates",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-726-3193",
+      "email": "",
+      "address": "3516 S. Ave. 5 1/2 E, Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.66418191,
+      "longitude": -114.5385366,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561004556",
+    "name": "Curry Farms",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Pearce",
+    "category": "Mixed",
+    "products": [
+      "Fruit Vegetables: Peppers",
+      "Field/Forageable: Alfalfa",
+      "Barley",
+      "Corn",
+      "Fallow",
+      "Oats"
+    ],
+    "products_text": "Fruit Vegetables: Peppers; Field/Forageable: Alfalfa, Barley, Corn, Fallow, Oats",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-826-1057",
+      "email": "",
+      "address": "1091 East Curry Farm Road, Pearce, Arizona, 85625",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.9561135,
+      "longitude": -109.8439416,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561006370",
+    "name": "Dart Organics, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Stanfield",
+    "category": "Mixed",
+    "products": [
+      "Seed/Pod Vegetables: Chickpeas",
+      "Field/Forageable: Wheat"
+    ],
+    "products_text": "Seed/Pod Vegetables: Chickpeas; Field/Forageable: Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-251-0600",
+      "email": "",
+      "address": "5134 N. Murphy Rd., Stanfield, Arizona, 85172",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.9267146,
+      "longitude": -111.9472421,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5520317157",
+    "name": "Double H Farms, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Wellton",
+    "category": "Mixed",
+    "products": [
+      "Other: Medjool Dates"
+    ],
+    "products_text": "Other: Medjool Dates",
+    "website": "dpct11@gmail.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "35189 East County 11th Street, Wellton, Arizona, 85356",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.662296,
+      "longitude": -114.034725,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000280",
+    "name": "Doug Mellon Farms II, Inc. Dba Mellon Farms",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Dates",
+      "Field/Forageable: Fallow"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Dates; Field/Forageable: Fallow",
+    "website": "www.mellonfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-782-4482",
+      "email": "",
+      "address": "2197 South 4th Avenue, Suite 206, Yuma, Arizona, 85364",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.68791,
+      "longitude": -114.6241485,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561002910",
+    "name": "Duncan Family Farms, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Buckeye",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Carrots",
+      "Leaf Vegetables: Arugula",
+      "Bok Choy",
+      "Chard",
+      "Endive",
+      "Kale",
+      "Leafy Greens",
+      "Lettuce",
+      "Mizuna",
+      "Spinach",
+      "Tatsoi",
+      "Herbs/Spices: Basil",
+      "Chives",
+      "Cilantro",
+      "Dill",
+      "Herbs",
+      "Mint",
+      "Oregano",
+      "Parsley",
+      "Rosemary",
+      "Sage",
+      "Tarragon",
+      "T"
+    ],
+    "products_text": "Tuber/Root Vegetables: Carrots; Leaf Vegetables: Arugula, Bok Choy, Chard, Endive, Kale, Leafy Greens, Leafy Greens, Lettuce, Mizuna, Spinach, Tatsoi; Herbs/Spices: Basil, Chives, Cilantro, Dill, Herbs, Mint, Oregano, Parsley, Rosemary, Sage, Tarragon, T",
+    "website": "www.duncanfamilyfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "623-853-9880",
+      "email": "",
+      "address": "18969 West Mcdowell Road, Buckeye, Arizona, 85396",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.464097,
+      "longitude": -112.467132,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730000273",
+    "name": "Eagle Mountain Orchards, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Sedona",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Herbs",
+      "Lavender",
+      "Mint",
+      "Rosemary",
+      "Fruit - Pome: Apple",
+      "Prickly Pear Cactus Fruit",
+      "Grape",
+      "Field/Forageable: Pasture"
+    ],
+    "products_text": "Herbs/Spices: Herbs, Lavender, Mint, Rosemary; Fruit - Pome: Apple, Prickly Pear Cactus Fruit, Grape; Field/Forageable: Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "330 Eagle Mountain Road, Sedona, Arizona, 86336",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.79575209,
+      "longitude": -111.7211093,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5520031375",
+    "name": "El Nino Farms, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Dateland",
+    "category": "Mixed",
+    "products": [
+      "Other: Jojoba Seed"
+    ],
+    "products_text": "Other: Jojoba Seed",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "57907 Butterfield Stage Rd., Dateland, Arizona, 85333",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.07353603,
+      "longitude": -113.3259209,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000183",
+    "name": "Everkrisp Vegetables, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tolleson",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Leaf Vegetables: Chard",
+      "Collards",
+      "Kale",
+      "Field/Forageable: Fallow"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets; Leaf Vegetables: Chard, Collards, Kale; Field/Forageable: Fallow",
+    "website": "www.everkrispvegetables.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "623-907-1417",
+      "email": "",
+      "address": "9310 W. Harrison, Tolleson, Arizona, 85353",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.44360753,
+      "longitude": -112.2597971,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730026396",
+    "name": "Four Little Devils Farms, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Other: Vegetables",
+      "Herbs"
+    ],
+    "products_text": "Other: Vegetables, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Avenue D, Yuma, Arizona, 85366",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.6314281,
+      "longitude": -114.6842695,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005682",
+    "name": "Greenline Organics, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Wellton",
+    "category": "Mixed",
+    "products": [
+      "Leaf Vegetables: Lettuce",
+      "Spinach"
+    ],
+    "products_text": "Leaf Vegetables: Lettuce, Spinach",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-580-0367",
+      "email": "",
+      "address": "33883 East County 7th Street, Wellton, Arizona, 85356",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.720418,
+      "longitude": -114.0587505,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000229",
+    "name": "Griffin Family Farms, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Somerton",
+    "category": "Mixed",
+    "products": [
+      "Nursery/Starts/Flowers/Trees: Seeds",
+      "Leaf Vegetables: Lettuce",
+      "Fruit - Tropical Fruits: Dates",
+      "Field/Forageable: Alfalfa"
+    ],
+    "products_text": "Nursery/Starts/Flowers/Trees: Seeds; Leaf Vegetables: Lettuce; Fruit - Tropical Fruits: Dates; Field/Forageable: Alfalfa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-627-8809",
+      "email": "",
+      "address": "9490 West County 19th Street, Somerton, Arizona, 85350",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.556258,
+      "longitude": -114.7589685,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000211",
+    "name": "Harrison Farms Family Partnership Dba Antelope Organics",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Stem Vegetables: Celery",
+      "Leaf Vegetables: Leafy Greens",
+      "Lettuce",
+      "Spinach",
+      "Fruit - Tropical Fruits: Dates",
+      "Flower Vegetables: Broccoli",
+      "Cauliflower"
+    ],
+    "products_text": "Stem Vegetables: Celery; Leaf Vegetables: Leafy Greens, Lettuce, Spinach; Fruit - Tropical Fruits: Dates; Flower Vegetables: Broccoli, Cauliflower",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-344-0885",
+      "email": "",
+      "address": "6445 East Country 3rd Street, Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.78598686,
+      "longitude": -114.520002,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561002765",
+    "name": "Hillside Farms, LLC Dba Hillside Farms",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Somerton",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Stem Vegetables: Asparagus",
+      "Nursery/Starts/Flowers/Trees: Transplants",
+      "Leaf Vegetables: Kale",
+      "Herbs/Spices: Cilantro",
+      "Fruit Vegetables: Cucumbers",
+      "Eggplants",
+      "Peppers",
+      "Squash",
+      "Tomatoes",
+      "Fruit - Melons: Melons",
+      "Fruit"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots; Stem Vegetables: Asparagus; Nursery/Starts/Flowers/Trees: Transplants; Leaf Vegetables: Kale; Herbs/Spices: Cilantro; Fruit Vegetables: Cucumbers, Eggplants, Peppers, Squash, Tomatoes; Fruit - Melons: Melons; Fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-941-8804",
+      "email": "",
+      "address": "14660 South Ave. A 1/2, Somerton, Arizona, 85350",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.616936,
+      "longitude": -114.6442455,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005980",
+    "name": "Integrated CBD LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Dateland",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Fallow",
+      "Other: Industrial Hemp"
+    ],
+    "products_text": "Field/Forageable: Fallow; Other: Industrial Hemp",
+    "website": "www.integrated-cbd.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "480-470-7000",
+      "email": "",
+      "address": "72865 E County 18th Street North, Dateland, Arizona, 85333",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.07356604,
+      "longitude": -113.37159,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005425",
+    "name": "Jalisco Jojoba Farming, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Dateland",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Jojoba"
+    ],
+    "products_text": "Nuts: Jojoba",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "602-717-0558",
+      "email": "",
+      "address": "39202 South 555th Avenue, Dateland, Arizona, 85333",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.09162488,
+      "longitude": -113.2721538,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5873774404",
+    "name": "JEP Organics, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Monticello",
+    "category": "Mixed",
+    "products": [
+      "Other: Corn",
+      "soybean",
+      "wheat"
+    ],
+    "products_text": "Other: Corn, soybean, wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "PO Box 615, Monticello, Arizona, 71657",
+      "public": false
+    },
+    "geo": {
+      "latitude": 45.30558,
+      "longitude": -93.79428,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside AZ review bounds"
+  },
+  {
+    "id": "usda-5561004493",
+    "name": "Johnson Family Foundation For Urban Agriculture, Inc. Dba The Farm At Agritopia",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Gilbert",
+    "category": "Mixed",
+    "products": [
+      "Nursery/Starts/Flowers/Trees: Transplants",
+      "Fruit - Tropical Fruits: Dates",
+      "Fruit - Stone: Olives",
+      "Peaches",
+      "Fruit - Pome: Apples",
+      "Fruit - Citrus Fruits: Citrus",
+      "Field/Forageable: Cover Crop",
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Nursery/Starts/Flowers/Trees: Transplants; Fruit - Tropical Fruits: Dates; Fruit - Stone: Olives, Peaches; Fruit - Pome: Apples; Fruit - Citrus Fruits: Citrus; Field/Forageable: Cover Crop; Other: Mixed Vegetables",
+    "website": "www.thefarmatagritopia.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "602-330-3093",
+      "email": "",
+      "address": "3000 East Ray Road, Building 5, Gilbert, Arizona, 85296",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.32187,
+      "longitude": -111.7261125,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005947",
+    "name": "Jojoba Conservation LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Dateland",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Jojoba"
+    ],
+    "products_text": "Nuts: Jojoba",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "602-717-0558",
+      "email": "",
+      "address": "Section 35 Twnshp 04S Rnge 11W NW4 SE4, Dateland, Arizona, 85333",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.7972176,
+      "longitude": -113.5410267,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220005551",
+    "name": "JUSTICE BROTHERS RANCH",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "WADDELL",
+    "category": "Mixed",
+    "products": [
+      "Other: Navels",
+      "Grapefruit",
+      "Minneolas",
+      "Lemons",
+      "Valencias"
+    ],
+    "products_text": "Other: Navels, Grapefruit, Minneolas, Lemons, Valencias",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "14629 West Peoria Ave., WADDELL, Arizona, 85355",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.577605,
+      "longitude": -112.3742025,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561006410",
+    "name": "Koehn Farm LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Cochise",
+    "category": "Mixed",
+    "products": [
+      "Fruit Vegetables: Peppers",
+      "Field/Forageable: Corn",
+      "Cotton",
+      "Cover Crop",
+      "Rye"
+    ],
+    "products_text": "Fruit Vegetables: Peppers; Field/Forageable: Corn, Cotton, Cover Crop, Rye",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-678-6360",
+      "email": "",
+      "address": "1383 East Eastland Road, Cochise, Arizona, 85606",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.9633229,
+      "longitude": -109.8774062,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000230",
+    "name": "Limmeroth Ranch",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Wellton",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Dates"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Dates",
+    "website": "www.healthynakeddates.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "541-980-2442",
+      "email": "",
+      "address": "13589 S Ave. 25E, Wellton, Arizona, 85356",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.627142,
+      "longitude": -114.2125335,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561004091",
+    "name": "Magma 840, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "San Tan Valley",
+    "category": "Mixed",
+    "products": [
+      "Seed/Pod Vegetables: Chickpeas",
+      "Field/Forageable: Alfalfa",
+      "Wheat"
+    ],
+    "products_text": "Seed/Pod Vegetables: Chickpeas; Field/Forageable: Alfalfa, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "480-703-3437",
+      "email": "",
+      "address": "30 E. Locklin Ave., San Tan Valley, Arizona, 85143",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.17477688,
+      "longitude": -111.5707489,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5520480855",
+    "name": "Manzana Orchards LLC Dba Briggs & Eggers Orchards",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Willcox",
+    "category": "Mixed",
+    "products": [
+      "Other: Apples",
+      "Pears"
+    ],
+    "products_text": "Other: Apples, Pears",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "27197 S Brookerson Road, Willcox, Arizona, 85643",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.453361,
+      "longitude": -109.927596,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5350000054",
+    "name": "Martha's Garden",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Other: Dates"
+    ],
+    "products_text": "Other: Dates",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "9747 S Avenue 9 3/4 E, Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.68779847,
+      "longitude": -114.4655057,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000073",
+    "name": "Martori Farms A Dba Of Eagle Produce, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Aguila",
+    "category": "Mixed",
+    "products": [
+      "Seed/Pod Vegetables: Chickpeas",
+      "Nursery/Starts/Flowers/Trees: Transplants",
+      "Fruit - Melons: Cantaloupes",
+      "Melons",
+      "Watermelons",
+      "Field/Forageable: Barley",
+      "Fallow",
+      "Wheat"
+    ],
+    "products_text": "Seed/Pod Vegetables: Chickpeas; Nursery/Starts/Flowers/Trees: Transplants; Fruit - Melons: Cantaloupes, Melons, Melons, Watermelons; Field/Forageable: Barley, Fallow, Wheat",
+    "website": "www.martorifarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "480-998-1444",
+      "email": "",
+      "address": "51040 West Valley Rd, Aguila, Arizona, 85320",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.933807,
+      "longitude": -113.2200675,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000077",
+    "name": "Mcclendon's Select",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Peoria",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Pecans",
+      "Herbs/Spices: Herbs",
+      "Fruit Vegetables: Eggplants",
+      "Fruit - Tropical Fruits: Dates",
+      "Pomegranates",
+      "Fruit - Pome: Quinces",
+      "Fruit - Citrus Fruits: Citrus",
+      "Grapefruits",
+      "Lemons",
+      "Limes",
+      "Mandarins",
+      "Oranges",
+      "Pomelos",
+      "Tangelos",
+      "Tangerines",
+      "Field/Forag"
+    ],
+    "products_text": "Nuts: Pecans; Herbs/Spices: Herbs; Fruit Vegetables: Eggplants; Fruit - Tropical Fruits: Dates, Pomegranates; Fruit - Pome: Quinces; Fruit - Citrus Fruits: Citrus, Grapefruits, Lemons, Limes, Mandarins, Oranges, Pomelos, Tangelos, Tangerines; Field/Forag",
+    "website": "www.selectorganics.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "623-979-5279",
+      "email": "",
+      "address": "15888 N. 77th Ave., Peoria, Arizona, 85382",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.628824,
+      "longitude": -112.226796,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9091815201",
+    "name": "Merchants Garden AgroTech",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tucson",
+    "category": "Mixed",
+    "products": [
+      "Leaf Vegetables: Bok Choy",
+      "Lettuce",
+      "Herbs/Spices: Basil",
+      "Chives"
+    ],
+    "products_text": "Leaf Vegetables: Bok Choy, Lettuce; Herbs/Spices: Basil, Chives",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "555 S. Tucson Blvd., Tucson, Arizona, 85716",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.215266,
+      "longitude": -110.934189,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561003279",
+    "name": "Miedema Produce, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Surprise",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Fallow"
+    ],
+    "products_text": "Field/Forageable: Fallow",
+    "website": "www.miedemaproduce.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "623-546-6933",
+      "email": "",
+      "address": "11061 North Cotton Lane, Surprise, Arizona, 85388",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.58496144,
+      "longitude": -112.4268767,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150011947",
+    "name": "Mike Aabye",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Elfrida",
+    "category": "Mixed",
+    "products": [
+      "Other: Fallow",
+      "Potato"
+    ],
+    "products_text": "Other: Fallow, Potato",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(520) 508-2826",
+      "email": "fourdstrucking@hotmail.com",
+      "address": "11361 N. Moore Road, Elfrida, Arizona, 85610",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.74776886,
+      "longitude": -109.7227558,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561006484",
+    "name": "Monette Farms Arizona LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Wickenburg",
+    "category": "Mixed",
+    "products": [
+      "Seed/Pod Vegetables: Beans",
+      "Chickpeas",
+      "Kidney Beans",
+      "Lima Beans",
+      "Peas",
+      "Field/Forageable: Wheat"
+    ],
+    "products_text": "Seed/Pod Vegetables: Beans, Chickpeas, Kidney Beans, Lima Beans, Peas; Field/Forageable: Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "602-904-1576",
+      "email": "",
+      "address": "491st Ave., Wickenburg, Arizona, 85390",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.9275796,
+      "longitude": -113.12448,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730012682",
+    "name": "Nature Fresh Organics, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Other: Herbs",
+      "Vegetables",
+      "Spring Mix"
+    ],
+    "products_text": "Other: Herbs, Vegetables, Spring Mix",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "5635 East Gila Ridge Rd., Yuma, Arizona, 85366",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.67575234,
+      "longitude": -114.5358552,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730016586",
+    "name": "Nunes Vegetables, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Sudan Grass",
+      "Other: Herbs",
+      "Vegetables",
+      "Spring Mix"
+    ],
+    "products_text": "Field/Forageable: Sudan Grass; Other: Herbs, Vegetables, Spring Mix",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Gila Ridge Rd., Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.6820443,
+      "longitude": -114.5574893,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005965",
+    "name": "Oatman Flats Ranch LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Gila Bend",
+    "category": "Mixed",
+    "products": [
+      "Seed/Pod Vegetables: Chickpeas",
+      "Field/Forageable: Sudan Grass",
+      "Wheat"
+    ],
+    "products_text": "Seed/Pod Vegetables: Chickpeas; Field/Forageable: Sudan Grass, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "623-910-0654",
+      "email": "",
+      "address": "49629 W. Rocky Point Rd., Gila Bend, Arizona, 85337",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.03193786,
+      "longitude": -113.143508,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005835",
+    "name": "Orkem Oil, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Dateland",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Jojoba"
+    ],
+    "products_text": "Nuts: Jojoba",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "713-849-6652",
+      "email": "",
+      "address": "39202 555th St., Dateland, Arizona, 85333",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.09162488,
+      "longitude": -113.2721538,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561002690",
+    "name": "Ott Organics, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Stem Vegetables: Celery",
+      "Seed/Pod Vegetables: Pea Shoots",
+      "Leaf Vegetables: Leafy Greens",
+      "Lettuce",
+      "Mache",
+      "Spinach",
+      "Flower Vegetables: Broccoli",
+      "Field/Forageable: Alfalfa",
+      "Hemp",
+      "Other: Mixed Vegetables",
+      "Spring Mix (Could Consist of the following p"
+    ],
+    "products_text": "Stem Vegetables: Celery; Seed/Pod Vegetables: Pea Shoots; Leaf Vegetables: Leafy Greens, Lettuce, Lettuce, Mache, Spinach; Flower Vegetables: Broccoli; Field/Forageable: Alfalfa, Hemp; Other: Mixed Vegetables, Spring Mix (Could Consist of the following p",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-344-5270",
+      "email": "",
+      "address": "4260 East County 8th Street, Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.71334851,
+      "longitude": -114.5617692,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730008155",
+    "name": "Pinto Creek Ranches, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Eloy",
+    "category": "Mixed",
+    "products": [
+      "Seed/Pod Vegetables: Vegetables",
+      "Other: Leafy Greens (Herbs",
+      "Vegetables",
+      "Spring Mix)"
+    ],
+    "products_text": "Seed/Pod Vegetables: Vegetables; Other: Leafy Greens (Herbs, Vegetables, Spring Mix)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2404 Norma Rd, Eloy, Arizona, 95131",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.6779255,
+      "longitude": -111.5252164,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5520030821",
+    "name": "Purcell Jojoba International, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Bouse",
+    "category": "Mixed",
+    "products": [
+      "Other: Jojoba Seed"
+    ],
+    "products_text": "Other: Jojoba Seed",
+    "website": "www.purcelljojoba.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "34599 N. McVay Road, Bouse, Arizona, 85325",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.813278,
+      "longitude": -113.8356802,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000095",
+    "name": "Purple Karat Enterprises, Inc. Dba Blue Sky Organic Farms",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Litchfield Park",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Figs",
+      "Fruit - Citrus Fruits: Lemons",
+      "Oranges",
+      "Fruit - Berries: Strawberries",
+      "Field/Forageable: Alfalfa",
+      "Fallow",
+      "Pasture",
+      "Other: Mixed Vegetables",
+      "Poultry: Chickens-Layers",
+      "Ducks",
+      "Other: Eggs (Chicken)",
+      "Eggs (Duck)"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Figs; Fruit - Citrus Fruits: Lemons, Oranges; Fruit - Berries: Strawberries; Field/Forageable: Alfalfa, Fallow, Pasture; Other: Mixed Vegetables; Poultry: Chickens-Layers, Ducks; Other: Eggs (Chicken), Eggs (Duck)",
+    "website": "www.blueskyorganicfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "623-266-4031",
+      "email": "",
+      "address": "4762 N.189th Ave., Litchfield Park, Arizona, 85326",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.504102,
+      "longitude": -112.468338,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561004928",
+    "name": "Ramona's American Indian Foods, LLC Dba Ramona Farms",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Sacaton",
+    "category": "Mixed",
+    "products": [
+      "Seed/Pod Vegetables: Beans",
+      "Chickpeas",
+      "Peas",
+      "Field/Forageable: Alfalfa",
+      "Barley",
+      "Corn",
+      "Cover Crop",
+      "Wheat"
+    ],
+    "products_text": "Seed/Pod Vegetables: Beans, Chickpeas, Peas; Field/Forageable: Alfalfa, Barley, Corn, Cover Crop, Wheat",
+    "website": "www.ramonafarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-418-0900",
+      "email": "",
+      "address": "AZ-87 & Sacaton Road, Sacaton, Arizona, 85147",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.121332,
+      "longitude": -111.737691,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9091709001",
+    "name": "Randr, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Salome",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Jojoba"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Jojoba",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "48626 66th St., Salome, Arizona, 85348",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.76809653,
+      "longitude": -113.9290595,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150002102",
+    "name": "Rhibafarms LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "San Tan Valley",
+    "category": "Mixed",
+    "products": [
+      "Other: Greens",
+      "Microgreens",
+      "Wheatgrass",
+      "Wheatgrass Microgreens"
+    ],
+    "products_text": "Other: Greens, Microgreens, Wheatgrass, Wheatgrass Microgreens",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(480) 987-9393",
+      "email": "m.rhine@rhibafarms.com",
+      "address": "40792 N Rattlesnake Rd, San Tan Valley, Arizona, 85140",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.249303,
+      "longitude": -111.542742,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5520256873",
+    "name": "S & T Farms, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Casa Grande",
+    "category": "Mixed",
+    "products": [
+      "Other: Durum Wheat"
+    ],
+    "products_text": "Other: Durum Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2088 N. Lake Shore Dr., Casa Grande, Arizona, 85122",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.91190644,
+      "longitude": -111.7613302,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000075",
+    "name": "Salt River Farming",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Mesa",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Leeks",
+      "Stem Vegetables: Celery",
+      "Seed/Pod Vegetables: Chickpeas",
+      "Leaf Vegetables: Chard",
+      "Collards",
+      "Kale",
+      "Kohlrabi",
+      "Leafy Greens",
+      "Lettuce",
+      "Herbs/Spices: Anise",
+      "Cilantro",
+      "Parsley",
+      "Flower Vegetables: Broccoli",
+      "Field/For"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Leeks; Stem Vegetables: Celery; Seed/Pod Vegetables: Chickpeas; Leaf Vegetables: Chard, Collards, Kale, Kohlrabi, Leafy Greens, Lettuce; Herbs/Spices: Anise, Cilantro, Parsley; Flower Vegetables: Broccoli; Field/For",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "602-763-2870",
+      "email": "",
+      "address": "1894 East Thomas Road, Mesa, Arizona, 85203",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.48095225,
+      "longitude": -111.7896383,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730016569",
+    "name": "Silver Canyon Nurseries, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Phoenix",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Citrus Fruits: Lemons"
+    ],
+    "products_text": "Fruit - Citrus Fruits: Lemons",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2647 E. southern Ave., Phoenix, Arizona, 85040",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.391728,
+      "longitude": -112.0237425,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9730012905",
+    "name": "Smith Farms Company of Yuma, Inc",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Other: Herbs",
+      "Vegetables",
+      "Spring Mix"
+    ],
+    "products_text": "Other: Herbs, Vegetables, Spring Mix",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "6849 E. County 9 1/2 Street, Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.69196449,
+      "longitude": -114.4622289,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561003234",
+    "name": "Southwestern Date Growers LP",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Dates"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Dates",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-581-3570",
+      "email": "",
+      "address": "899 E. Plaza Circle, Suite 3, Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.704398,
+      "longitude": -114.6112335,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561006297",
+    "name": "Sprouting Trees LLC Dba Bare Sprouts",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tempe",
+    "category": "Mixed",
+    "products": [
+      "Seed/Pod Vegetables: Sprouts"
+    ],
+    "products_text": "Seed/Pod Vegetables: Sprouts",
+    "website": "baresprouts.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "480-760-1719",
+      "email": "",
+      "address": "306 South River Drive, Tempe, Arizona, 85281",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.42709754,
+      "longitude": -111.8953653,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5520030963",
+    "name": "Sunbelt Transplants, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Buckeye",
+    "category": "Mixed",
+    "products": [
+      "Other: Leek Transplants",
+      "Onion Transplants"
+    ],
+    "products_text": "Other: Leek Transplants, Onion Transplants",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "3001 S. Verrado Way, Buckeye, Arizona, 85326",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.419889,
+      "longitude": -112.5037755,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5870000234",
+    "name": "Taylor's Herb Garden Of Arizona Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Congress",
+    "category": "Mixed",
+    "products": [
+      "Other: Herbs"
+    ],
+    "products_text": "Other: Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-427-3201",
+      "email": "",
+      "address": "23375 W. Hwy 71, Congress, Arizona, 85332",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.1560475,
+      "longitude": -112.8616161,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000080",
+    "name": "The Boulders",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Carefree",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Herbs",
+      "Fruit - Citrus Fruits: Citrus",
+      "Other: Fruit"
+    ],
+    "products_text": "Herbs/Spices: Herbs; Fruit - Citrus Fruits: Citrus; Other: Fruit",
+    "website": "www.theboulders.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "480-488-9736",
+      "email": "",
+      "address": "34631 North Tom Darlington Drive, Carefree, Arizona, 85262",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.823557,
+      "longitude": -111.9245821,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005935",
+    "name": "Tierra Management, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Citrus Fruits: Lemons"
+    ],
+    "products_text": "Fruit - Citrus Fruits: Lemons",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-445-0911",
+      "email": "",
+      "address": "17857 Ave. 3 1/2, Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.6894618,
+      "longitude": -114.5676229,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005144",
+    "name": "TLC Custom Farming Co., LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Scottsdale",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Other: Mixed Vegetables",
+    "website": "www.tlcfarming.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "925-726-1541",
+      "email": "",
+      "address": "92nd St. at E. Chaparral Rd., Scottsdale, Arizona, 85256",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.509466,
+      "longitude": -111.8827215,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-1562320000",
+    "name": "Top Flavor Farms",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Leaf Vegetables: Cilantro"
+    ],
+    "products_text": "Leaf Vegetables: Cilantro",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "510-304-5539",
+      "email": "lstover@topflavor.com; lvelasco@topflavor.com",
+      "address": "1750 E. 20th Street, Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.692536,
+      "longitude": -114.602823,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561006376",
+    "name": "Trinidad Farms, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Dates"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Dates",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-446-1471",
+      "email": "",
+      "address": "17857 Ave 3 ½, Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.6894618,
+      "longitude": -114.5676229,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005165",
+    "name": "Unnati Farms",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Somerton",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Jujubes",
+      "Other: Herbs (Moringa Leaves or Vines (Wholesale))",
+      "Moringa"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Jujubes; Other: Herbs (Moringa Leaves or Vines (Wholesale)), Moringa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-276-8686",
+      "email": "",
+      "address": "15275 S Avenue A 1/2, Somerton, Arizona, 85350",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.608008,
+      "longitude": -114.6389445,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8830001230",
+    "name": "Valentine Farms",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Willcox",
+    "category": "Mixed",
+    "products": [
+      "Other: Corn"
+    ],
+    "products_text": "Other: Corn",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "27196 S Brookerson Road, Willcox, Arizona, 85643",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.45354115,
+      "longitude": -109.9276903,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5520128638",
+    "name": "Wholesum Farms Arizona, LLC.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Amado",
+    "category": "Mixed",
+    "products": [
+      "Other: Beef Tomatoes",
+      "Cherry Tomatoes on the Vine",
+      "Grape Tomatoes",
+      "Tomatoes on the Vine"
+    ],
+    "products_text": "Other: Beef Tomatoes, Cherry Tomatoes on the Vine, Grape Tomatoes, Tomatoes on the Vine",
+    "website": "www.wholesumharvest.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2986 W. Frontage Rd., Amado, Arizona, 85645",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.72427951,
+      "longitude": -111.0620087,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561006342",
+    "name": "Wholesum Farms Arizona, LLC",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Amado",
+    "category": "Mixed",
+    "products": [
+      "Fruit Vegetables: Tomatoes",
+      "Field/Forageable: Grass"
+    ],
+    "products_text": "Fruit Vegetables: Tomatoes; Field/Forageable: Grass",
+    "website": "www.wh.farm",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-314-3161",
+      "email": "",
+      "address": "2986 W. Frontage Rd., Amado, Arizona, 85645",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.6755742,
+      "longitude": -111.0649011,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000186",
+    "name": "Woodspur, LLC Dba Vandervoort Date Ranches, Inc.",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Tropical Fruits: Dates"
+    ],
+    "products_text": "Fruit - Tropical Fruits: Dates",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-726-7006",
+      "email": "",
+      "address": "10710 S Someone Ave, Yuma, Arizona, 85364",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.7056541,
+      "longitude": -114.678669,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000008",
+    "name": "Yuma Organic",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Leaf Vegetables: Arugula",
+      "Savory",
+      "Herbs/Spices: Basil",
+      "Chervil",
+      "Chives",
+      "Cilantro",
+      "Dill",
+      "Epazote",
+      "Lemon Grass",
+      "Marjoram",
+      "Mint",
+      "Oregano",
+      "Parsley (Italian)",
+      "Rosemary",
+      "Sage",
+      "Sorrel",
+      "Tarragon",
+      "Thyme",
+      "Fruit - Tropical Fruits: Dates",
+      "Field/Forageable: Fallow"
+    ],
+    "products_text": "Leaf Vegetables: Arugula, Savory; Herbs/Spices: Basil, Chervil, Chives, Cilantro, Dill, Epazote, Lemon Grass, Marjoram, Mint, Oregano, Parsley (Italian), Rosemary, Sage, Sorrel, Tarragon, Thyme; Fruit - Tropical Fruits: Dates; Field/Forageable: Fallow",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-941-0630",
+      "email": "",
+      "address": "2551 E. County 16th St., Yuma, Arizona, 85365",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.59683866,
+      "longitude": -114.5875706,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Arizona certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Arizona%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

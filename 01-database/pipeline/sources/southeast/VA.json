@@ -5,40 +5,31 @@
   "countyEquivalentLabel": "county",
   "sources": [
     {
+      "id": "vasrc-vagrown",
+      "name": "Virginia Department of Agriculture and Consumer Services — Virginia Grown member directory",
+      "url": "https://vagrown.vdacs.virginia.gov/member-directory",
+      "adapter": "seed",
+      "path": "seeds/VA.json",
+      "notes": "Reviewed 2026-07-19 capture of all 137 current public member results; replaces the former empty login-gated placeholder."
+    },
+    {
       "id": "vasrc-usfarmtrail",
       "name": "U.S. Farm Trail — Virginia",
       "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=virginia",
-      "adapter": "api",
-      "notes": "Public GeoJSON farm directory (~999). County and identity corroboration remains QA."
-    },
-    {
-      "id": "vasrc-eatwild",
-      "name": "EatWild — Virginia",
-      "url": "https://www.eatwild.com/products/virginia.html",
-      "adapter": "html_table",
-      "notes": "Pastured-products directory; county and current-operation review remains QA."
-    },
-    {
-      "id": "vasrc-pickyourown",
-      "name": "PickYourOwn — Virginia",
-      "url": "https://www.pickyourown.org/VA.htm",
-      "adapter": "html_table",
-      "notes": "Regional U-pick pages; current-operation review remains QA."
-    },
-    {
-      "id": "vasrc-localharvest",
-      "name": "LocalHarvest — Virginia",
-      "url": "https://www.localharvest.org/virginia/",
-      "adapter": "html_table",
-      "notes": "Rate-limited/bot-blocked; fetched best-effort and skipped gracefully when unavailable."
-    },
-    {
-      "id": "vasrc-vagrown-note",
-      "name": "Virginia Grown member directory (VDACS) — login-gated, NOT collected",
-      "url": "https://memberdirectory.vdacs.virginia.gov/",
       "adapter": "seed",
-      "path": "seeds/VA.json",
-      "notes": "The official Virginia Grown member portal redirects every path to /Account/Login and the public vagrown.vdacs.virginia.gov Drupal JSON:API exposes only CMS content (no producers). Seeded empty; unblock by scraping the consumer product-search flow with an authenticated/browser pass, then populating seeds/VA.json."
-    }
+      "path": "seeds/VA-USFarmTrail.json",
+      "notes": "Reviewed 2026-07-19 capture; source coordinates outside Virginia remain explicit QA residue."
+    },
+    {
+      "id": "vasrc-usda-organic",
+      "name": "USDA Organic Integrity Database — Virginia certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query",
+      "adapter": "seed",
+      "path": "seeds/VA-USDAOrganic.json",
+      "notes": "Certified crop, livestock, or wild-crop operations captured 2026-07-19."
+    },
+    {"id": "vasrc-eatwild", "name": "EatWild — Virginia", "url": "https://www.eatwild.com/products/virginia.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "vasrc-pickyourown", "name": "PickYourOwn — Virginia", "url": "https://www.pickyourown.org/VA.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "vasrc-localharvest", "name": "LocalHarvest — Virginia", "url": "https://www.localharvest.org/virginia/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
   ]
 }

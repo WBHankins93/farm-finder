@@ -1,0 +1,4160 @@
+[
+  {
+    "id": "usda-4857848893",
+    "name": "7 Walkers Farm, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Portales",
+    "category": "Mixed",
+    "products": [
+      "Other: Corn",
+      "Wheat (winter cover)"
+    ],
+    "products_text": "Other: Corn, Wheat (winter cover)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(575) 276-8235",
+      "email": "walkfm@yucca.net; gaylewalker@gmail.com",
+      "address": "922 S Roosevelt Rd. D, Portales, New Mexico, 88130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.098372,
+      "longitude": -103.158486,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150008359",
+    "name": "Aaron Belcher Organic LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Melrose",
+    "category": "Mixed",
+    "products": [
+      "Other: Sorghum",
+      "Sorghum-Sudangrass"
+    ],
+    "products_text": "Other: Sorghum, Sorghum-Sudangrass",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(575) 799-4361",
+      "email": "aaronbelcher72@gmail.com",
+      "address": "1012 NM 89, Melrose, New Mexico, 88124",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.580124,
+      "longitude": -103.804479,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005549",
+    "name": "Abiquiu Valley Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Abiquiu",
+    "category": "Mixed",
+    "products": [
+      "Nursery/Starts/Flowers/Trees: Flowers",
+      "Herbs/Spices: Herbs",
+      "Field/Forageable: Alfalfa",
+      "Hemp",
+      "Oats"
+    ],
+    "products_text": "Nursery/Starts/Flowers/Trees: Flowers; Herbs/Spices: Herbs; Field/Forageable: Alfalfa, Hemp, Oats",
+    "website": "www.abiquiuvalleyfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-918-4441",
+      "email": "",
+      "address": "245 County Road 155, Abiquiu, New Mexico, 87510",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.22174153,
+      "longitude": -106.2836717,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000036",
+    "name": "Alvarez Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "La Union",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa",
+      "Wheat",
+      "Pima Cotton",
+      "Alcala Cotton",
+      "Cotton Seed",
+      "Pecans",
+      "Sudan Grass",
+      "Native Grass",
+      "Chile Peppers",
+      "Sorghum - Sudan"
+    ],
+    "products_text": "Other: Alfalfa, Wheat, Pima Cotton, Alcala Cotton, Cotton Seed, Pecans, Sudan Grass, Native Grass, Chile Peppers, Sorghum - Sudan",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "915-525-6628",
+      "email": "lazy_a@msn.com",
+      "address": "1049 Mercantil Ave., La Union, New Mexico, 88021",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.9512663,
+      "longitude": -106.6602408,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000355",
+    "name": "ARCA Organics",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Corrales",
+    "category": "Mixed",
+    "products": [
+      "Other: Seasonal Mixed Vegetables",
+      "Mixed Herbs",
+      "Wheatgrass",
+      "Microgreens",
+      "Apples",
+      "Blackberries"
+    ],
+    "products_text": "Other: Seasonal Mixed Vegetables, Mixed Herbs, Wheatgrass, Microgreens, Apples, Blackberries",
+    "website": "www.arcaopeningdoors.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-221-1320",
+      "email": "rweber@arcaspirit.org",
+      "address": "181 E. La Entrada Rd., Corrales, New Mexico, 87048",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.22137533,
+      "longitude": -106.6132484,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000451",
+    "name": "Armijo Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Sabinal",
+    "category": "Mixed",
+    "products": [
+      "Other: Chile",
+      "Garlic",
+      "Hay",
+      "Melons",
+      "Cover Crop"
+    ],
+    "products_text": "Other: Chile, Garlic, Hay, Melons, Cover Crop",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-550-7170",
+      "email": "kennarmijo@gmail.com",
+      "address": "763 State Hwy. 116, Sabinal, New Mexico, 87006",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.52557007,
+      "longitude": -106.79727,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000148",
+    "name": "Bakka Ranch",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Anthony",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecans (raw",
+      "in shell)"
+    ],
+    "products_text": "Other: Pecans (raw, in shell)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "915-892-3561",
+      "email": "bakkaranch@gmail.com",
+      "address": "7003 McNutt Rd, Anthony, New Mexico, 88021",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.924566,
+      "longitude": -106.6419225,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4852758433",
+    "name": "Bluefly Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Peralta",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Lavender (Lavender-Container grown Herbs",
+      "Flowers",
+      "Live Cuttings",
+      "Vegetables)"
+    ],
+    "products_text": "Herbs/Spices: Lavender (Lavender-Container grown Herbs, Flowers, Live Cuttings, Vegetables)",
+    "website": "http://blueflyfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 977-3355",
+      "email": "hello@blueflyfarms.com",
+      "address": "24 Riverside Drive, Peralta, New Mexico, 87042",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.827183,
+      "longitude": -106.7098545,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000470",
+    "name": "Boyd Brothers Inc.",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Lovington",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecans (raw",
+      "in shell)"
+    ],
+    "products_text": "Other: Pecans (raw, in shell)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-390-0806",
+      "email": "",
+      "address": "11 Lebo Ln., Lovington, New Mexico, 88260",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.06127789,
+      "longitude": -103.2986246,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000554",
+    "name": "Calhoun Farm Services",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "La Mesa",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecans (raw",
+      "in-shell)"
+    ],
+    "products_text": "Other: Pecans (raw, in-shell)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "915-525-8850",
+      "email": "scalhoun181@gmail.com",
+      "address": "570 Holguin Road, La Mesa, New Mexico, 88044",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.12138221,
+      "longitude": -106.6623477,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000580",
+    "name": "Camino de Paz",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Cruz",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Mixed Fruit Trees",
+      "Native Vegetation"
+    ],
+    "products_text": "Other: Mixed Vegetables, Mixed Fruit Trees, Native Vegetation",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-747-9717",
+      "email": "gregn@caminodepaz.net; patriciap@caminodepaz.net",
+      "address": "227 State Road 76, Santa Cruz, New Mexico, 87567",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.98764962,
+      "longitude": -106.0294282,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000244",
+    "name": "Carmichael Farms/H & S Partnership",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Rogers",
+    "category": "Mixed",
+    "products": [
+      "Other: Winter Peas",
+      "Hemp"
+    ],
+    "products_text": "Other: Winter Peas, Hemp",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-760-9770",
+      "email": "hershel@carmichael-farms.com",
+      "address": "965 A South Roosevelt Rd 30, Rogers, New Mexico, 88132",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.821375,
+      "longitude": -103.1900077,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000153",
+    "name": "Charybda Farms LLC.",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Arroyo Hondo",
+    "category": "Mixed",
+    "products": [
+      "Other: Seedlings",
+      "Micro Greens",
+      "Mixed Vegetables"
+    ],
+    "products_text": "Other: Seedlings, Micro Greens, Mixed Vegetables.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-776-1400",
+      "email": "charybda@newmex.com",
+      "address": "108 Lobo Ranch Rd., Arroyo Hondo, New Mexico, 87513",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.54634565,
+      "longitude": -105.6439626,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000334",
+    "name": "Chispas Farms, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetable & Herbs",
+      "Sorghum",
+      "Sudan Grass",
+      "Winter Rye & Clover Cover",
+      "Garlic",
+      "Apples",
+      "Figs",
+      "Grapes",
+      "Jujubes",
+      "Peaches",
+      "Plums"
+    ],
+    "products_text": "Other: Mixed Vegetable & Herbs, Sorghum, Sudan Grass, Winter Rye & Clover Cover, Garlic, Apples, Figs, Grapes, Jujubes, Peaches, Plums",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-410-5928",
+      "email": "chollandnm@gmail.com",
+      "address": "229 Saavedra Rd SW, Albuquerque, New Mexico, 87105",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.06594453,
+      "longitude": -106.6701335,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000599",
+    "name": "Chispas Farms, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Other: Laying Hens (Eggs)"
+    ],
+    "products_text": "Other: Laying Hens (Eggs)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-410-5928",
+      "email": "chollandnm@gmail.com",
+      "address": "229 Saavedra Rd. SW, Albuquerque, New Mexico, 87105",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.06594453,
+      "longitude": -106.6701335,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000532",
+    "name": "Cider Mill Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Mountain Park",
+    "category": "Mixed",
+    "products": [
+      "Other: Apples",
+      "Apricots",
+      "Brambles",
+      "Blackberries",
+      "Cherries",
+      "Peaches",
+      "Plums",
+      "Raspberries",
+      "Strawberries",
+      "Mixed Vegetables",
+      "Tomatoes",
+      "Squash",
+      "Pumpkins",
+      "Garlic"
+    ],
+    "products_text": "Other: Apples, Apricots,Brambles, Blackberries, Cherries, Peaches, Plums, Raspberries, Strawberries, Plums, Mixed Vegetables, Tomatoes, Squash, Pumpkins, Garlic",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "907-398-6077",
+      "email": "cmfarms@tularosa.net",
+      "address": "2 Cider Mill Farms Road, Mountain Park, New Mexico, 88325",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.940518,
+      "longitude": -105.8099215,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920619106",
+    "name": "Cross Road Farms Inc",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Clovis",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Barley",
+      "Corn",
+      "Millet",
+      "Wheat (Winter)",
+      "Other: Corn Silage"
+    ],
+    "products_text": "Field/Forageable: Barley, Corn, Millet, Wheat (Winter); Other: Corn Silage",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "billyrucker1@yahoo.com",
+      "address": "116 Taming Way, Clovis, New Mexico, 88108",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.4047987,
+      "longitude": -103.2052272,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561004904",
+    "name": "Del Valle Pecans, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Mesilla Park",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Pecans"
+    ],
+    "products_text": "Nuts: Pecans",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-524-1867",
+      "email": "",
+      "address": "1020 Harper Rd., Mesilla Park, New Mexico, 88047",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.20150277,
+      "longitude": -106.7026281,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000501",
+    "name": "Duran & Sons, Inc.",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Derry",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa",
+      "Pecans(new trees 2018)",
+      "Pecans (raw",
+      "in-shell)",
+      "White Cotton",
+      "Chili Peppers"
+    ],
+    "products_text": "Other: Alfalfa, Pecans(new trees 2018), Pecans (raw, in-shell), White Cotton, Chili Peppers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(575) 635-6964",
+      "email": "durchil@yahoo.com",
+      "address": "13146 N. Hwy. 187, Derry, New Mexico, 87933",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.79121562,
+      "longitude": -107.2856044,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000008",
+    "name": "Embudo Valley Organics",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Embudo",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa",
+      "Ryegrass",
+      "Pasture Mix",
+      "Oats",
+      "Buckwheat",
+      "Wheat"
+    ],
+    "products_text": "Other: Alfalfa, Ryegrass, Pasture Mix, Oats, Buckwheat, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-579-4147",
+      "email": "john.turkeyman@gmail.com",
+      "address": "2198 State Hwy 68, Embudo, New Mexico, 87531",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.21483248,
+      "longitude": -105.8887641,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000096",
+    "name": "Embudo Valley Organics",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Embudo",
+    "category": "Mixed",
+    "products": [
+      "Other: Turkey - Fresh & Frozen Meat Birds",
+      "Brown Chicken Eggs"
+    ],
+    "products_text": "Other: Turkey - Fresh & Frozen Meat Birds, Brown Chicken Eggs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-579-4147",
+      "email": "john.turkeyman@gmail.com",
+      "address": "2198 Highway 68, Embudo, New Mexico, 87531",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.21483248,
+      "longitude": -105.8887641,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000462",
+    "name": "Farside Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Medanales",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetable",
+      "Apples",
+      "Grapes",
+      "Mixed Herbs",
+      "Berries",
+      "Cherries",
+      "Peaches",
+      "Flowers",
+      "Hemp"
+    ],
+    "products_text": "Other: Mixed Vegetable, Apples, Grapes, Mixed Herbs, Berries, Cherries, Peaches, Flowers, Hemp",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "925-899-6886",
+      "email": "farsidefarm85@gmail.com",
+      "address": "CR 142 #109, Medanales, New Mexico, 87548",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1884457,
+      "longitude": -106.2043267,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000468",
+    "name": "For The Love Of Bees",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Penasco",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Mixed Fruit",
+      "Mixed Herbs",
+      "Flowers"
+    ],
+    "products_text": "Other: Mixed Vegetables, Mixed Fruit, Mixed Herbs, Flowers",
+    "website": "www.fortheloveofbeesfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 692-0575",
+      "email": "heatherautumn1124@gmail.com",
+      "address": "1235 State Hwy 75, Penasco, New Mexico, 87553",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.19570611,
+      "longitude": -105.7259876,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000433",
+    "name": "Freshies Of New Mexico, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Velarde",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Fruit",
+      "Mixed Vegetables"
+    ],
+    "products_text": "Other: Mixed Fruit, Mixed Vegetables.",
+    "website": "www.freshiesnm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-927-5347",
+      "email": "mtngirl_@hotmail.com; bassettbassett@gmail.com",
+      "address": "861-C County Rd. 57, Velarde, New Mexico, 87582",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.145468,
+      "longitude": -106.0015146,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000552",
+    "name": "Gary & Karen Jackson Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Hobbs",
+    "category": "Mixed",
+    "products": [
+      "Other: Peppers",
+      "*Okala Paprika Chili Peppers",
+      "Wheat",
+      "Valencia & Spanish Peanuts",
+      "Rosemary",
+      "Rye"
+    ],
+    "products_text": "Other: Peppers, *Okala Paprika Chili Peppers, Wheat, Valencia & Spanish Peanuts, Rosemary, Rye",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(575) 390-1509",
+      "email": "leskaczan@aol.com",
+      "address": "11215 Hillcrest Dr., Hobbs, New Mexico, 88240",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.82804866,
+      "longitude": -103.0805137,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4854725810",
+    "name": "Goodhue Farms LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Las Cruces",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Pecans (Raw",
+      "In-Shell)"
+    ],
+    "products_text": "Nuts: Pecans (Raw, In-Shell)",
+    "website": "goodhuefarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(301) 785-2972",
+      "email": "wagnerniles@comcast.net",
+      "address": "3750 N. Hwy 28, Las Cruces, New Mexico, 88005",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.254011,
+      "longitude": -106.780761,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000324",
+    "name": "Green Tractor Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Grapes",
+      "Mixed Flowers"
+    ],
+    "products_text": "Other: Mixed Vegetables, Grapes, Mixed Flowers.",
+    "website": "www.greentractorfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "650-863-1433",
+      "email": "greentractorcsa@gmail.com",
+      "address": "47 Paseo C de Baca, Santa Fe, New Mexico, 87507",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.559297,
+      "longitude": -106.1338545,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000555",
+    "name": "Gregory Ranch",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Ranchos de Taos",
+    "category": "Mixed",
+    "products": [
+      "Other: Pinon Nuts raw",
+      "unshelled"
+    ],
+    "products_text": "Other: Pinon Nuts raw, unshelled",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-770-5206",
+      "email": "penelopegregory@hotmail.com",
+      "address": "None Available, Ranchos de Taos, New Mexico, 87557",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.36265,
+      "longitude": -105.60468,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220008138",
+    "name": "HACIENDA DAIRY LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "PORTALES",
+    "category": "Mixed",
+    "products": [
+      "Other: Dairy Cattle - Converted (not eligible for organic slaughter)",
+      "Dairy Cattle - Last Third Gestation Born (eligible for organic slaughter)",
+      "Raw Milk"
+    ],
+    "products_text": "Other: Dairy Cattle - Converted (not eligible for organic slaughter), Dairy Cattle - Last Third Gestation Born (eligible for organic slaughter), Raw Milk",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "450 New Mexico 202, PORTALES, New Mexico, 88130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.24404272,
+      "longitude": -103.1815008,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000381",
+    "name": "Hatch Organic Pecans",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Hatch",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecans (Raw",
+      "In-shell)"
+    ],
+    "products_text": "Other: Pecans (Raw, In-shell)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-636-5387",
+      "email": "glennteri87937@gmail.com",
+      "address": "1150 Railroad Rd., Hatch, New Mexico, 87937",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.66668794,
+      "longitude": -107.1309783,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000223",
+    "name": "Heidi's Raspberry Farm LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Corrales",
+    "category": "Mixed",
+    "products": [
+      "Other: Raspberries",
+      "Blackberries"
+    ],
+    "products_text": "Other: Raspberries, Blackberries.",
+    "website": "www.heidisraspberryfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-400-1193",
+      "email": "heidi@heidisraspberryfarm.com",
+      "address": "600 Lindero del Drenaje, Corrales, New Mexico, 87048",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.220483,
+      "longitude": -106.6138859,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000598",
+    "name": "High Grade Hemp, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Velarde",
+    "category": "Mixed",
+    "products": [
+      "Other: Hemp",
+      "Hemp Seedlings"
+    ],
+    "products_text": "Other: Hemp, Hemp Seedlings",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "970-596-2449",
+      "email": "bassettbassett@gmail.com; ziasun.ds@gmail.com",
+      "address": "861C & 763 County Rd. 57, Velarde, New Mexico, 87582",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.145468,
+      "longitude": -106.0015146,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000352",
+    "name": "Highland Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Clovis",
+    "category": "Mixed",
+    "products": [
+      "Other: Haygrazer",
+      "Sorghum",
+      "Wheat",
+      "Millet",
+      "Native Pasture"
+    ],
+    "products_text": "Other: Haygrazer, Sorghum, Wheat, Millet, Native Pasture.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "650 Curry Rd. O, Clovis, New Mexico, 88101",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.39801799,
+      "longitude": -103.197508,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000049",
+    "name": "Ice's Organic Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Los Luceros",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Fruit",
+      "Mixed Vegetables",
+      "Mixed Herbs",
+      "White Clover",
+      "Mixed Flowers"
+    ],
+    "products_text": "Other: Mixed Fruit, Mixed Vegetables, Mixed Herbs, White Clover, Mixed Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-852-2589",
+      "email": "icesorgf@windstream.net",
+      "address": "33 Road 1097, Los Luceros, New Mexico, 87571",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.10878,
+      "longitude": -106.04464,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000574",
+    "name": "J & D Produce, Inc.",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Deming",
+    "category": "Mixed",
+    "products": [
+      "Other: Onions (Yellow)"
+    ],
+    "products_text": "Other: Onions (Yellow)",
+    "website": "www.littlebearproduce.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "956-293-0600",
+      "email": "clazcano@littlebearproduce.com",
+      "address": "5315 Hermanas Rd Grade SW, Deming, New Mexico, 88030",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.20611637,
+      "longitude": -107.8199922,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000553",
+    "name": "Johnny, Max &JuanCarlos Mascarenas",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Questa",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa",
+      "Oats",
+      "Grass Mix"
+    ],
+    "products_text": "Other: Alfalfa, Oats, Grass Mix",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-770-5780",
+      "email": "mascarenasmax@gmail.com",
+      "address": "3840 NM Hwy 522, Questa, New Mexico, 87556",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.90454951,
+      "longitude": -105.5692295,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000497",
+    "name": "Jordan Pecan Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Anthony",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecans (Raw",
+      "In-shell)"
+    ],
+    "products_text": "Other: Pecans (Raw, In-shell)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "915-449-2204",
+      "email": "jimjordan7@gmail.com",
+      "address": "950 Hwy 28, Anthony, New Mexico, 88021",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.9281655,
+      "longitude": -106.6286573,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000486",
+    "name": "La Mesa Organic Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Dixon",
+    "category": "Mixed",
+    "products": [
+      "Other: Corn",
+      "Fruit (Apples",
+      "Pears",
+      "Peaches",
+      "Cherries)",
+      "Vegetables",
+      "Herbs"
+    ],
+    "products_text": "Other: Corn, Fruit (Apples, Pears, Peaches, Cherries), Vegetables, Herbs,",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-692-5637",
+      "email": "growfood@organic.com",
+      "address": "Private Drive 1125 #25, Dixon, New Mexico, 87527",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1988885,
+      "longitude": -105.888532,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000539",
+    "name": "La Plazita Institute",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Mixed Greens",
+      "Heirloom Garlic",
+      "Herbs"
+    ],
+    "products_text": "Other: Mixed Vegetables, Mixed Greens, Heirloom Garlic, Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-506-1802",
+      "email": "albinogarciajr@gmail.com",
+      "address": "1531 Severo Rd. SW, Albuquerque, New Mexico, 87105",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.04791406,
+      "longitude": -106.6689007,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000581",
+    "name": "Lake Ridge, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Portales",
+    "category": "Mixed",
+    "products": [
+      "Other: Native Pasture",
+      "Haygrazer",
+      "Milo",
+      "Wheat"
+    ],
+    "products_text": "Other: Native Pasture, Haygrazer, Milo, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-760-6430",
+      "email": "grahamtitle@yucca.net",
+      "address": "408 Hwy 114, Portales, New Mexico, 88130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.9386152,
+      "longitude": -103.3618044,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000442",
+    "name": "Lane Grau Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Grady",
+    "category": "Mixed",
+    "products": [
+      "Other: Wheat"
+    ],
+    "products_text": "Other: Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1680 CR 37, Grady, New Mexico, 88120",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.79250658,
+      "longitude": -103.3169186,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000537",
+    "name": "Loeffler Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Grants",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs",
+      "Flowers"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs, Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-360-5812",
+      "email": "calloeffler@gmail.com",
+      "address": "7740 Zuni Canyon Rd., Grants, New Mexico, 87020",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.04063114,
+      "longitude": -108.100137,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8431300547",
+    "name": "Loewen Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Lovington",
+    "category": "Mixed",
+    "products": [
+      "Other: Cotton",
+      "Native Grass",
+      "Spanish Peanuts"
+    ],
+    "products_text": "Other: Cotton, Native Grass, Spanish Peanuts",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1005 Highway 206, Lovington, New Mexico, 88260",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.090228,
+      "longitude": -103.3175077,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8431901633",
+    "name": "Lonesome Meadow Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Tucumcari",
+    "category": "Mixed",
+    "products": [
+      "Other: Blue Corn"
+    ],
+    "products_text": "Other: Blue Corn",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2900 Route 66, Tucumcari, New Mexico, 88401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.17119355,
+      "longitude": -103.5256804,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000278",
+    "name": "Luna Ecofarms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Deming",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Hemp"
+    ],
+    "products_text": "Field/Forageable: Hemp",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-202-4473",
+      "email": "",
+      "address": "23485 Columbus Road SE, Deming, New Mexico, 88030",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.92330492,
+      "longitude": -107.667491,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000524",
+    "name": "Malandro Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Abiquiu",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Other: Mixed Vegetables.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-685-4438",
+      "email": "malandrofarms@gmail.com",
+      "address": "21475 US Hwy 84, Abiquiu, New Mexico, 87510",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.22465098,
+      "longitude": -106.3650546,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000551",
+    "name": "Mason Organics",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Amistad",
+    "category": "Mixed",
+    "products": [
+      "Other: Corn",
+      "Hemp"
+    ],
+    "products_text": "Other: Corn, Hemp",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(806) 773-2391",
+      "email": "masonfarmslarry@gmail.com",
+      "address": "511 Koger Road, Amistad, New Mexico, 88410",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9281757,
+      "longitude": -103.0745687,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000600",
+    "name": "Michael Eaton Pecan Orchard",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Portales",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecan (Raw - In shell)",
+      "Hay"
+    ],
+    "products_text": "Other: Pecan (Raw - In shell), Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "5757992369",
+      "email": "mtayloreaton@gmail.com; speedpenny@yahoo.com",
+      "address": "329 S. Roosevelt Rd. P, Portales, New Mexico, 88130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.209964,
+      "longitude": -103.2986268,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000584",
+    "name": "Molino de la Isla Farmer's Cooperative, Inc.",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Pecos",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Other: Mixed Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-603-2879",
+      "email": "molinodelaisla@gmail.com",
+      "address": "33 County Road B-051, Pecos, New Mexico, 87552",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.5742031,
+      "longitude": -105.675016,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000107",
+    "name": "Monte Vista Organic Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Espanola",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Fruit",
+      "Mixed Vegetables"
+    ],
+    "products_text": "Other: Mixed Fruit, Mixed Vegetables.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "66 CR 544, Espanola, New Mexico, 87532",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9618355,
+      "longitude": -106.0709204,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5350000138",
+    "name": "Morfood, Inc.",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Chamberino",
+    "category": "Mixed",
+    "products": [
+      "Other: Jalapenos"
+    ],
+    "products_text": "Other: Jalapenos",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "10801-2 Highway 28, PO Box, Chamberino, New Mexico, 88027",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.0446125,
+      "longitude": -106.6743608,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000528",
+    "name": "Mosimann Organics",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Los Lunas",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Mixed Fruit"
+    ],
+    "products_text": "Other: Mixed Vegetables, Mixed Fruit.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-280-1003",
+      "email": "augmos@aol.com",
+      "address": "1003 Behnke Rd., Los Lunas, New Mexico, 87031",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.82379557,
+      "longitude": -106.7218221,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000207",
+    "name": "Mr. G's Organic Produce",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "flowers and herbs"
+    ],
+    "products_text": "Other: Mixed Vegetables, flowers and herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-490-0437",
+      "email": "gundersen111@gmail.com",
+      "address": "25 C Jacona Rd, Santa Fe, New Mexico, 87506",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.88950611,
+      "longitude": -106.042691,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000383",
+    "name": "Native Pastures",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Portales",
+    "category": "Mixed",
+    "products": [
+      "Other: Dairy Cattle"
+    ],
+    "products_text": "Other: Dairy Cattle.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-760-6645",
+      "email": "art_sch_@3lefties.com",
+      "address": "1437 Hwy. 88, Portales, New Mexico, 88130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.112556,
+      "longitude": -103.166478,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000529",
+    "name": "Nature's Way Dairy, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Portales",
+    "category": "Mixed",
+    "products": [
+      "Other: Barley",
+      "Oats",
+      "Sudan Grass",
+      "AC Saltlander mix",
+      "native grass",
+      "native pasture"
+    ],
+    "products_text": "Other: Barley, Oats, Sudan Grass, AC Saltlander mix, native grass, native pasture,",
+    "website": "nwdorganic.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "208-670-7416",
+      "email": "jkulesa@nwdorganic.com",
+      "address": "1248 S. Roosevelt Rd. #4, Portales, New Mexico, 88130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.20093153,
+      "longitude": -103.2453768,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000530",
+    "name": "Nature's Way Dairy, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Portales",
+    "category": "Mixed",
+    "products": [
+      "Other: Dairy Cattle",
+      "Beef Cattle (with proper documentation)"
+    ],
+    "products_text": "Other: Dairy Cattle, Beef Cattle (with proper documentation)",
+    "website": "nwdorganic.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "208-670-7416",
+      "email": "jkulesa@nwdorganic.com",
+      "address": "1248 S. Roosevelt County Road #4, Portales, New Mexico, 88130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.03876677,
+      "longitude": -103.0447387,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000549",
+    "name": "Navajo Agricultural Products Industry",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Farmington",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Potatoes",
+      "Seed/Pod Vegetables: Cucurbits",
+      "Other: Watermelons"
+    ],
+    "products_text": "Tuber/Root Vegetables: Potatoes; Seed/Pod Vegetables: Cucurbits; Other: Watermelons",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-566-2670",
+      "email": "djohn@navajopride.com; adbenall@navajopride.com",
+      "address": "10086 NM Hwy 371, Farmington, New Mexico, 87499",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.66393242,
+      "longitude": -108.2223927,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8431701248",
+    "name": "Neufeld Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Tucumcari",
+    "category": "Mixed",
+    "products": [
+      "Other: Blue Corn",
+      "Fallow",
+      "Native Grass",
+      "Wheat"
+    ],
+    "products_text": "Other: Blue Corn, Fallow, Native Grass, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "6000 Quay Road AF, Tucumcari, New Mexico, 88401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.12965448,
+      "longitude": -103.5603684,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000536",
+    "name": "NMSU Student Research & Education Gardens",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Las Cruces",
+    "category": "Mixed",
+    "products": [
+      "Other: Barley",
+      "clover",
+      "rye",
+      "corn",
+      "tomatoes",
+      "pumpkins",
+      "mixed vegetables",
+      "herbs and grain crops"
+    ],
+    "products_text": "Other: Barley, clover, rye, corn, tomatoes, pumpkins, mixed vegetables, herbs and grain crops",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "719-648-9536",
+      "email": "mpeterse@nmsu.edu",
+      "address": "775 College Drive, Las Cruces, New Mexico, 88003",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.281623,
+      "longitude": -106.7597955,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000204",
+    "name": "NMSU - Sustainable Ag Science Center At Alcalde",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Alcalde",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetable",
+      "Mixed Fruit"
+    ],
+    "products_text": "Other: Mixed Vegetable, Mixed Fruit.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "371 Alcalde St., Alcalde, New Mexico, 87511",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.0901706,
+      "longitude": -106.0553586,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000534",
+    "name": "North Valley Organics",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Assorted Seed"
+    ],
+    "products_text": "Other: Mixed Vegetables, Assorted Seed.",
+    "website": "www.northvalleyorganics.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-379-1640",
+      "email": "minormorgan@northvalleyorganics.com",
+      "address": "1420 San Lorenzo, Albuquerque, New Mexico, 87107",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.12955224,
+      "longitude": -106.6576533,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920213015",
+    "name": "Ogaz Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Garfield",
+    "category": "Mixed",
+    "products": [
+      "Other: Chile Peppers"
+    ],
+    "products_text": "Other: Chile Peppers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-233-9000",
+      "email": "secospice@msn.com",
+      "address": "Tract D-42A 12.376, Garfield, New Mexico, 88027",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.7570318,
+      "longitude": -107.264858,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000296",
+    "name": "Old Monticello Organic Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Monticello",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Fruit",
+      "Mixed Vegetables",
+      "Lavender",
+      "Mixed Herbs",
+      "Mixed Flowers",
+      "Tree nuts",
+      "*Grapes (for Port style wines and Balsamic Vinegar)"
+    ],
+    "products_text": "Other: Mixed Fruit, Mixed Vegetables, Lavender, Mixed Herbs, Mixed Flowers, Tree nuts, *Grapes (for Port style wines and Balsamic Vinegar)",
+    "website": "www.oldmonticelloorganicfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-743-0200",
+      "email": "jane.darland@gmail.com; steve.darland@gmail.com",
+      "address": "423 Calle del Norte Rd., Monticello, New Mexico, 87939",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.39810536,
+      "longitude": -107.4518827,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000542",
+    "name": "Organicos/Valle Encantado Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Blackberries",
+      "Flowers"
+    ],
+    "products_text": "Other: Mixed Vegetables, Blackberries, Flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-948-7178",
+      "email": "eljoseph.alfaro@gmail.com",
+      "address": "1611 Five Points Rd. SW, Albuquerque, New Mexico, 87105",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.069301,
+      "longitude": -106.6785345,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4859832175",
+    "name": "Page Pecan Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Anthony",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Pecans (Raw",
+      "In-Shell Pecans)"
+    ],
+    "products_text": "Nuts: Pecans (Raw, In-Shell Pecans)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(575) 805-4289",
+      "email": "edpage001a@email.com",
+      "address": "4695 Page Farm Circle, Anthony, New Mexico, 88021",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.98231612,
+      "longitude": -106.6417644,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000582",
+    "name": "Paradox Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Other: Herbs",
+      "Flowers",
+      "Berries",
+      "Mixed Vegetables",
+      "Fruit"
+    ],
+    "products_text": "Other: Herbs, Flowers, Berries, Mixed Vegetables, Fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-455-2182",
+      "email": "maitingmd@gmail.com; drmaiting@yahoo.com",
+      "address": "214 County Road 84, Santa Fe, New Mexico, 87506",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.887257,
+      "longitude": -106.056216,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000577",
+    "name": "Patchwork Farms, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Estancia",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Alfalfa"
+    ],
+    "products_text": "Field/Forageable: Alfalfa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-705-5155",
+      "email": "patchpope@integrity.com",
+      "address": "591 Spangler Rd., Estancia, New Mexico, 87106",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.667847,
+      "longitude": -106.1138024,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150011545",
+    "name": "Quay Ranch LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Other: Beet",
+      "Broccoli",
+      "Brussels Sprout",
+      "Cabbage",
+      "Carrot",
+      "Corn",
+      "Cotton",
+      "Fennel",
+      "Hemp",
+      "Melon",
+      "Okra",
+      "Onion",
+      "Pepper",
+      "Pumpkin",
+      "Tomato",
+      "Zucchini"
+    ],
+    "products_text": "Other: Beet, Broccoli, Brussels Sprout, Cabbage, Carrot, Corn, Cotton, Fennel, Hemp, Melon, Okra, Onion, Pepper, Pumpkin, Tomato, Zucchini",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 670-6596",
+      "email": "n.gallegos@live.com",
+      "address": "460 St. Michael's Dr. BLD 300, Santa Fe, New Mexico, 87505",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.65797479,
+      "longitude": -105.9484255,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000094",
+    "name": "Rancho Arco Iris",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Dixon",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Mixed Fruit"
+    ],
+    "products_text": "Other: Mixed Vegetables, Mixed Fruit.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-579-9141",
+      "email": "bmcampbell@newmexico.com",
+      "address": "152 NM Hwy 580, Dixon, New Mexico, 87527",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.18598483,
+      "longitude": -105.847164,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000145",
+    "name": "Rancho Del Coyote LLC.",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Las Cruces",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecans"
+    ],
+    "products_text": "Other: Pecans",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-649-5035",
+      "email": "michele@southwestgci.com",
+      "address": "2810 Calle de Pompeii, Las Cruces, New Mexico, 88007",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.32723912,
+      "longitude": -106.8187515,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000390",
+    "name": "Rancho Rincon",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Cleveland",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa",
+      "Grass mix",
+      "Triticale"
+    ],
+    "products_text": "Other: Alfalfa, Grass mix, Triticale",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-988-1508",
+      "email": "trewearth@gmail.com",
+      "address": "County Rd. B017, Cleveland, New Mexico, 87715",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.00118028,
+      "longitude": -105.3487712,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000359",
+    "name": "Rattlesnake Ranch Enterprise",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Tijeras",
+    "category": "Mixed",
+    "products": [
+      "Other: Juniper",
+      "Jade",
+      "Mixed Herbs"
+    ],
+    "products_text": "Other: Juniper, Jade, Mixed Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 281-9069",
+      "email": "",
+      "address": "133 Vellecitos Dr., Tijeras, New Mexico, 87059",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.123049,
+      "longitude": -106.293087,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220007529",
+    "name": "RED ROOF ORGANIC DAIRY",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "CLOVIS",
+    "category": "Mixed",
+    "products": [
+      "Other: Corn Silage",
+      "Hay",
+      "Rye",
+      "Wheat",
+      "Other: Dairy Cattle - Converted (Not eligible for organic slaughter)",
+      "Raw Milk"
+    ],
+    "products_text": "Other: Corn Silage, Hay, Rye, Wheat; Other: Dairy Cattle - Converted (Not eligible for organic slaughter), Raw Milk",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "506 State Road 467, CLOVIS, New Mexico, 88108",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.335558,
+      "longitude": -103.321899,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000343",
+    "name": "Reyes Orchard Lasering LLC.",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "La Mesa",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecans (raw",
+      "in-shell)"
+    ],
+    "products_text": "Other: Pecans (raw, in-shell)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(575) 233-3064",
+      "email": "vgreyes67@hotmail.com",
+      "address": "12410-1 Montes Rd, La Mesa, New Mexico, 88044",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.080257,
+      "longitude": -106.6652325,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000508",
+    "name": "Romero Farms LLC.",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Dixon",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Other: Mixed Vegetables",
+    "website": "http://mattromerofarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 579-0071",
+      "email": "mattemilyr@windstream.net",
+      "address": "Hwy 75, #300, Dixon, New Mexico, 87527",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.19455097,
+      "longitude": -105.8758225,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4853637291",
+    "name": "San Tuca Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Fairacres",
+    "category": "Mixed",
+    "products": [
+      "Nuts: Pecans (Raw",
+      "In-Shell)"
+    ],
+    "products_text": "Nuts: Pecans (Raw, In-Shell)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(575) 640-9464",
+      "email": "rkpatt12@gmail.com",
+      "address": "2225 Roadrunner Lane, Fairacres, New Mexico, 88033",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.3039821,
+      "longitude": -106.8466727,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000129",
+    "name": "Santa Cruz Farm & Greenhouse",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Espanola",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Mixed Herbs",
+      "Mixed Fruit"
+    ],
+    "products_text": "Other: Mixed Vegetables, Mixed Herbs, Mixed Fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 309-1168",
+      "email": "santacruzfarm1@gmail.com",
+      "address": "830 El Llano Rd., Espanola, New Mexico, 87532",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.00355472,
+      "longitude": -106.0407034,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000512",
+    "name": "Seco Spice Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Berino",
+    "category": "Mixed",
+    "products": [
+      "Stem Vegetables: Pepper (Assorted Chiles and Ancho Peppers)"
+    ],
+    "products_text": "Stem Vegetables: Pepper (Assorted Chiles and Ancho Peppers)",
+    "website": "www.secospice.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-233-9000",
+      "email": "secospice@secospice.com",
+      "address": "1808 W. Berino Rd., Berino, New Mexico, 88024",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.06493527,
+      "longitude": -106.6655345,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000150",
+    "name": "Shepherd's Lamb",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Tierra Amarilla",
+    "category": "Mixed",
+    "products": [
+      "Other: Sheep",
+      "Lamb",
+      "Mutton",
+      "Wool"
+    ],
+    "products_text": "Other: Sheep, Lamb, Mutton, Wool.",
+    "website": "www.organiclamb.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-795-3671",
+      "email": "shepherd@organiclamb.com",
+      "address": "Cty. Rd. 340, House 155, Tierra Amarilla, New Mexico, 87575",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.71612047,
+      "longitude": -106.5890798,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561004312",
+    "name": "Silver Hill Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Columbus",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Cotton",
+      "Sorghum",
+      "Wheat"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Cotton, Sorghum, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-494-3765",
+      "email": "",
+      "address": "29300 Columbus Road, Columbus, New Mexico, 88029",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.8274182,
+      "longitude": -107.6422938,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4856632274",
+    "name": "Silverleaf Family Farms, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Corrales",
+    "category": "Mixed",
+    "products": [
+      "Leaf Vegetables: Mixed Vegetables and Herbs (Baby Bok Choy",
+      "Basil",
+      "Beets",
+      "Bell Peppers",
+      "Bok Choy",
+      "Broccoli",
+      "Cabbage",
+      "Cabbage (Chinese Napa)",
+      "Carrots",
+      "Cauliflower",
+      "Cucumbers",
+      "Eggplant",
+      "Jalapeno Peppers",
+      "Kale",
+      "Leeks",
+      "Lettuce",
+      "Mint",
+      "Onions",
+      "Potatoes",
+      "Radish"
+    ],
+    "products_text": "Leaf Vegetables: Mixed Vegetables and Herbs (Baby Bok Choy, Basil, Beets, Bell Peppers, Bok Choy, Broccoli, Cabbage, Cabbage (Chinese Napa), Carrots, Cauliflower, Cucumbers, Eggplant, Jalapeno Peppers, Kale, Leeks, Lettuce, Mint, Onions, Potatoes, Radish",
+    "website": "www.eatsilverleaf.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 459-7163",
+      "email": "eatsilverleaf@gmail.com",
+      "address": "358 Mountain Shadows Rd., Corrales, New Mexico, 87048",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.2262338,
+      "longitude": -106.6291621,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000211",
+    "name": "Soaring Eagle Ranch",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Los Ojos",
+    "category": "Mixed",
+    "products": [
+      "Other: Native Pasture"
+    ],
+    "products_text": "Other: Native Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 490-2822",
+      "email": "sagefaulkner@yahoo.com",
+      "address": "256 State Highway 95, Los Ojos, New Mexico, 87551",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.72203563,
+      "longitude": -106.6024465,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000074",
+    "name": "Sungreen Living Foods, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Other: Wheatgrass",
+      "Pea Shoots",
+      "Sunflower Sprouts",
+      "Buckwheat Greens"
+    ],
+    "products_text": "Other: Wheatgrass, Pea Shoots, Sunflower Sprouts, Buckwheat Greens.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 474-7420",
+      "email": "susan@sungreenlivingfoods.com",
+      "address": "1404 Maclovia St., Santa Fe, New Mexico, 87505",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.66110059,
+      "longitude": -105.9839035,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000182",
+    "name": "Synergia Ranch Organic Fruits and Vegetables",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Fruit (Apples",
+      "Apricots",
+      "Cherries",
+      "Lavender",
+      "Mint",
+      "Peaches",
+      "Pears",
+      "Plums",
+      "Sunchokes)",
+      "Mixed Vegetables (Beets",
+      "Carrots",
+      "Collard Greens",
+      "Cucumbers",
+      "Kale (red russian",
+      "Curly",
+      "Dino/Lacunato",
+      "Summer Squash",
+      "Sunchokes",
+      "Swiss Chard"
+    ],
+    "products_text": "Other: Mixed Fruit (Apples, Apricots, Cherries, Lavender, Mint, Peaches, Pears, Plums, Sunchokes), Mixed Vegetables (Beets, Carrots, Collard Greens, Cucumbers, Kale (red russian, Curly, Dino/Lacunato, Mint, Summer Squash, Sunchokes, Swiss Chard, Lavender",
+    "website": "www.synergiaranch.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-424-0237",
+      "email": "deborah@synergeticpress.com; nelson@biospheres.com",
+      "address": "26 Synergia Rd., Santa Fe, New Mexico, 87508",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.49086454,
+      "longitude": -106.0951399,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-7920519102",
+    "name": "T&T Farms, Inc",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Clovis",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Barley",
+      "Corn",
+      "Grass"
+    ],
+    "products_text": "Field/Forageable: Barley, Corn, Grass",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-760-1807",
+      "email": "billyrucker1@yahoo.com",
+      "address": "116 Taming Way, Clovis, New Mexico, 88108",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.4047987,
+      "longitude": -103.2052272,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000430",
+    "name": "Tesuque Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Other: Wheat",
+      "Alfalfa",
+      "Mixed Vegetables",
+      "Mixed Herbs"
+    ],
+    "products_text": "Other: Wheat, Alfalfa, Mixed Vegetables, Mixed Herbs.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-699-6408",
+      "email": "eballon@pueblooftesuque.org",
+      "address": "TP Route 801, Santa Fe, New Mexico, 87507",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.69177,
+      "longitude": -105.93824,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000465",
+    "name": "Thompson Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Edgewood",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Vegetables",
+      "Herbs and Fruit"
+    ],
+    "products_text": "Other: Mixed Vegetables, Herbs and Fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-269-1577",
+      "email": "ret1577@msn.com",
+      "address": "43 McCall Loop, Edgewood, New Mexico, 87015",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.0956857,
+      "longitude": -106.2535397,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000487",
+    "name": "Thompson Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Edgewood",
+    "category": "Mixed",
+    "products": [
+      "Other: Laying Hens",
+      "Eggs"
+    ],
+    "products_text": "Other: Laying Hens, Eggs.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-269-1577",
+      "email": "ret1577@msn.com",
+      "address": "43 McCall Loop, Edgewood, New Mexico, 87015",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.0956857,
+      "longitude": -106.2535397,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000248",
+    "name": "Tip Top Table Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Pena Blanca",
+    "category": "Mixed",
+    "products": [
+      "Other: Native Grass Hay",
+      "Clover Hay",
+      "Mixed Fruit"
+    ],
+    "products_text": "Other: Native Grass Hay, Clover Hay, Mixed Fruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-465-0297",
+      "email": "kwlctiptopsile@gmail.com",
+      "address": "26 Sile Rd., Pena Blanca, New Mexico, 87041",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.56662825,
+      "longitude": -106.3727357,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4856066524",
+    "name": "Top of the World Ranch, LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Taos",
+    "category": "Mixed",
+    "products": [
+      "Flower Vegetables: Hay (Alfalfa Native Grass)"
+    ],
+    "products_text": "Flower Vegetables: Hay (Alfalfa Native Grass)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 776-1651",
+      "email": "uvccontow@gmail.com",
+      "address": "#99 State Line Rd., Taos, New Mexico, 87571",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.88727802,
+      "longitude": -105.6093454,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000382",
+    "name": "Wex Ranch",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Mixed",
+    "products": [
+      "Other: Native Grass Pasture"
+    ],
+    "products_text": "Other: Native Grass Pasture.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-641-5227",
+      "email": "swexranch@runbox.com",
+      "address": "225 Corazon Rd., Las Vegas, New Mexico, 87701",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.46218333,
+      "longitude": -105.0224421,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000592",
+    "name": "Wilson, Home Place, Jackson",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Portales",
+    "category": "Mixed",
+    "products": [
+      "Other: Wheat",
+      "Milo"
+    ],
+    "products_text": "Other: Wheat, Milo",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-714-3001",
+      "email": "neececarol@hotmail.com",
+      "address": "844 S. Roosevelt Rd. X, Portales, New Mexico, 88130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.13642031,
+      "longitude": -103.440149,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000594",
+    "name": "WL Cattle",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Sedan",
+    "category": "Mixed",
+    "products": [
+      "Other: Grass Hay",
+      "Corn",
+      "Wheat",
+      "Oats",
+      "Pasture Grass"
+    ],
+    "products_text": "Other: Grass Hay, Corn, Wheat, Oats, Pasture Grass",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-207-5623",
+      "email": "mtcllc@plateutel.net",
+      "address": "247 Van Diver Rd., Sedan, New Mexico, 88436",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.17355681,
+      "longitude": -103.0853843,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220007735",
+    "name": "ZIA ORGANIC PRODUCERS LLC",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "CLOVIS",
+    "category": "Mixed",
+    "products": [
+      "Other: Corn",
+      "Cotton",
+      "Grass Hay",
+      "Millet",
+      "Sorghum",
+      "Wheat"
+    ],
+    "products_text": "Other: Corn, Cotton, Grass Hay, Millet, Sorghum, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "684 SR 467, CLOVIS, New Mexico, 88101",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.35949317,
+      "longitude": -103.3194524,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-4850000420",
+    "name": "Zulu's Petals / Canoncito Seed Bank",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Dixon",
+    "category": "Mixed",
+    "products": [
+      "Other: Mixed Herb",
+      "Mixed Vegetable",
+      "Saved Seeds (Vegetables & Grains)",
+      "Seedlings (Various)",
+      "Apples",
+      "Herbs"
+    ],
+    "products_text": "Other: Mixed Herb, Mixed Vegetable, Saved Seeds (Vegetables & Grains), Seedlings (Various), Apples, Herbs,",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-579-9647",
+      "email": "redsandoval@yahoo.com",
+      "address": "157 State Hwy 580 & CR 1128, Dixon, New Mexico, 87527",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.187218,
+      "longitude": -105.8490405,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — New Mexico certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27New+Mexico%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]
