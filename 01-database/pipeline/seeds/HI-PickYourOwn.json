@@ -1,0 +1,43 @@
+[
+  {
+    "id": "pyo-kauai-coconut-festival-kapaa",
+    "name": "Kauai Coconut Festival",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kapaa",
+    "category": "Mixed",
+    "products": [
+      "Local food"
+    ],
+    "products_text": "Local food",
+    "website": "https://www.kbakauai.org/Pages/coconut-festival.html",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-651-3273",
+      "email": "info@kbakauai.org",
+      "address": "Kauai Coconut Festival - coconut festivalKapaa Beach Park (next to the Library), Kapaa, Hi 96746",
+      "public": false
+    },
+    "geo": {
+      "latitude": 22.0882152,
+      "longitude": -159.351945,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Hawaii farm listings",
+      "source_url": "https://www.pickyourown.org/HI.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

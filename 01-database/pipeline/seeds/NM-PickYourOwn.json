@@ -1,0 +1,48 @@
+[
+  {
+    "id": "pyo-wagner-farmland-experience-corrales",
+    "name": "Wagner Farmland Experience",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Corrales",
+    "category": "Mixed",
+    "products": [
+      "Corn",
+      "Cucumbers",
+      "Flowers",
+      "Produce",
+      "Pumpkins",
+      "Squash"
+    ],
+    "products_text": "Corn; Cucumbers; Flowers; Produce; Pumpkins; Squash",
+    "website": "https://www.mapquest.com/search/result?query=5000 Corrales Rd.&87048",
+    "facebook_url": "https://www.facebook.com/WagnersFarmlandExperience/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "505-459-0719",
+      "email": "rkwjww@yahoo.com",
+      "address": "Corrales, NM 87048",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.2397593,
+      "longitude": -106.6278613,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active New Mexico farm listings",
+      "source_url": "https://www.pickyourown.org/NMalbuquerque.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

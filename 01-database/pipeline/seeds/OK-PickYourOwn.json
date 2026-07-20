@@ -1,0 +1,135 @@
+[
+  {
+    "id": "pyo-please-write-me-muskogee",
+    "name": "please write me",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Muskogee",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Blackberries",
+      "Peaches",
+      "Plums"
+    ],
+    "products_text": "Apples; Blackberries; Peaches; Plums",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-989-5009",
+      "email": "",
+      "address": "South, Muskogee, OK 74403",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.7437972,
+      "longitude": -95.3564048,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Oklahoma farm listings",
+      "source_url": "https://www.pickyourown.org/OKnortheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-whitewater-hollow-farms-jay",
+    "name": "Whitewater Hollow Farms",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Jay",
+    "category": "Mixed",
+    "products": [
+      "Eggs",
+      "Honey",
+      "Peppers",
+      "Pumpkins",
+      "Squash",
+      "Strawberries",
+      "Tomatoes"
+    ],
+    "products_text": "Eggs; Honey; Peppers; Pumpkins; Squash; Strawberries; Tomatoes",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(918) 521-2201",
+      "email": "k03d16@yahoo.com",
+      "address": "Jay, OK 74346",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.4271124,
+      "longitude": -94.795571,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Oklahoma farm listings",
+      "source_url": "https://www.pickyourown.org/OKnortheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-woodland-skiatook",
+    "name": "Woodland",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Skiatook",
+    "category": "Mixed",
+    "products": [
+      "Blackberries",
+      "Fruit"
+    ],
+    "products_text": "Blackberries; Fruit",
+    "website": "https://www.woodlandtreefarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "",
+      "email": "trees4u@woodlandtreefarm.com",
+      "address": "Skiatook, OK 74070",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.3466819,
+      "longitude": -95.9456242,
+      "precision": "city"
+    },
+    "notes": "Source requests current-status confirmation; retained as named QA candidate.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Oklahoma farm listings",
+      "source_url": "https://www.pickyourown.org/OKnortheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": "source requests current-status confirmation"
+  }
+]

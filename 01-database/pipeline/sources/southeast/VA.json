@@ -28,8 +28,16 @@
       "path": "seeds/VA-USDAOrganic.json",
       "notes": "Certified crop, livestock, or wild-crop operations captured 2026-07-19."
     },
+    {
+      "id": "vasrc-usda-farmers-markets-2026",
+      "name": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "url": "https://github.com/GC108/us-farmers-markets-dataset",
+      "adapter": "seed",
+      "path": "seeds/VA-USDAFarmersMarkets.json",
+      "notes": "Reviewed all 394 Virginia records on 2026-07-20; this 116-row seed retains net-new identities and prior residue enrichments after exact first-pass overlap filtering. Redistribution removes personal contact names and emails."
+    },
     {"id": "vasrc-eatwild", "name": "EatWild — Virginia", "url": "https://www.eatwild.com/products/virginia.html", "adapter": "html_table", "notes": "Pastured-products directory."},
-    {"id": "vasrc-pickyourown", "name": "PickYourOwn — Virginia", "url": "https://www.pickyourown.org/VA.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "vasrc-pickyourown", "name": "PickYourOwn — Virginia active farm listings", "url": "https://www.pickyourown.org/VA.htm", "adapter": "seed", "path": "seeds/VA-PickYourOwn.json", "notes": "Reviewed 151 current state/regional listings on 2026-07-20; 37 net-new or enriching rows remain after exact first-pass overlap filtering. Confirmed closures were excluded and status warnings remain QA residue."},
     {"id": "vasrc-localharvest", "name": "LocalHarvest — Virginia", "url": "https://www.localharvest.org/virginia/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
   ]
 }

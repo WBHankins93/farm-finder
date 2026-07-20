@@ -4040,7 +4040,7 @@
       "Farmers Markets and Hubs"
     ],
     "products_text": "Farmers Markets and Hubs",
-    "website": "",
+    "website": "https://www.mcaan.org/locust-grove-farmers-market",
     "facebook_url": "https://www.facebook.com/LocustGroveFarmersMarket",
     "instagram_url": "",
     "on_farm": true,
@@ -4050,10 +4050,10 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "9189261000",
       "email": "",
-      "address": "",
-      "public": false
+      "address": "OK",
+      "public": true
     },
     "geo": {
       "latitude": 36.2000665195,
@@ -12121,12 +12121,12 @@
     "farmers_market": true,
     "csa": false,
     "online_store": false,
-    "ships": false,
+    "ships": true,
     "u_pick": false,
     "contact": {
       "phone": "607-345-7628",
       "email": "",
-      "address": "",
+      "address": "Talihina, OK",
       "public": true
     },
     "geo": {
@@ -14106,7 +14106,7 @@
     "website": "",
     "facebook_url": "https://www.facebook.com/whitewaterhollowfarms",
     "instagram_url": "",
-    "on_farm": false,
+    "on_farm": true,
     "farmers_market": false,
     "csa": false,
     "online_store": false,
@@ -14114,8 +14114,8 @@
     "u_pick": true,
     "contact": {
       "phone": "918-521-2201",
-      "email": "",
-      "address": "",
+      "email": "k03d16@yahoo.com",
+      "address": "Jay, OK 74346",
       "public": false
     },
     "geo": {
@@ -24640,24 +24640,24 @@
     "region": "southwest",
     "county": "",
     "city": "Skiatook",
-    "category": "Mixed",
+    "category": "Produce",
     "products": [
       "agritourism"
     ],
     "products_text": "agritourism",
-    "website": "",
+    "website": "https://www.woodlandtreefarm.com",
     "facebook_url": "",
     "instagram_url": "",
-    "on_farm": false,
+    "on_farm": true,
     "farmers_market": false,
     "csa": false,
     "online_store": false,
     "ships": false,
-    "u_pick": false,
+    "u_pick": true,
     "contact": {
       "phone": "",
-      "email": "",
-      "address": "",
+      "email": "trees4u@woodlandtreefarm.com",
+      "address": "Skiatook, OK 74070",
       "public": false
     },
     "geo": {
@@ -27437,6 +27437,2059 @@
       "source": "USDA Organic Integrity Database — Oklahoma certified producers",
       "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
       "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ada-farmers-market-ok",
+    "name": "Ada Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Ada",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "5804361600",
+      "email": "",
+      "address": "Ada, OK, 74820",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.7734163,
+      "longitude": -96.680253,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "arcadia-farmers-market-ok",
+    "name": "Arcadia Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4052260346",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.6617532,
+      "longitude": -97.3271306,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bartlesville-farmers-market-ok",
+    "name": "Bartlesville Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.bartlesvillefarmersmarket.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9185346542",
+      "email": "",
+      "address": "OK",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.751676,
+      "longitude": -95.97888439999997,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bixby-farmer-s-market-ok",
+    "name": "Bixby Farmer's Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Bixby",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9189380855",
+      "email": "",
+      "address": "50 W DAWES AVE, Bixby, OK, 74008",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.94236437904529,
+      "longitude": -95.88386898519266,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bountiful-harvest-ok",
+    "name": "Bountiful Harvest",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9188571629",
+      "email": "",
+      "address": "OK, 74467",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9589718,
+      "longitude": -95.3773721,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bristow-ok-artisans-and-gardeners-market-ok",
+    "name": "Bristow, OK Artisans and Gardeners Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9188572855",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.8403912,
+      "longitude": -96.3935119,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "caddo-county-farmers-market-ok",
+    "name": "Caddo County Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4724481173",
+      "email": "",
+      "address": "OK, 73005",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.0723139,
+      "longitude": -98.24220129999998,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "chandler-farmers-market-ok",
+    "name": "Chandler Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Chandler",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.chandlerok.com/parks-and-recreation/pages/special-events",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Chandler, OK, 74834",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.699121264,
+      "longitude": -96.8870504094,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "chandler-farmers-market-downtown-ok",
+    "name": "Chandler Farmers Market – Downtown",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Chandler",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.facebook.com/groups/300227869104109",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Chandler, OK, 74834",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.7026208,
+      "longitude": -96.8814386,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "clinton-public-farmers-market-ok",
+    "name": "Clinton Public Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4058269008",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.51487,
+      "longitude": -98.9672,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "d-c-open-air-farmers-market-at-ok",
+    "name": "D.C. Open-Air Farmers' Market at...",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Washington",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Washington, OK, 20002",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.0546861,
+      "longitude": -97.4907306,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dorian-s-stand-ok",
+    "name": "Dorian’s Stand",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Marlow",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "5807219018",
+      "email": "",
+      "address": "Marlow, OK, 73055",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.7171827,
+      "longitude": -97.9578603,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "drumright-monthly-market-ok",
+    "name": "Drumright Monthly Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4793805900",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9890366,
+      "longitude": -96.59809,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "duncan-farmers-market-ok",
+    "name": "Duncan Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Duncan",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "5806066788",
+      "email": "",
+      "address": "Duncan, OK, 73533",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.5075131,
+      "longitude": -97.9752844,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "durant-magnolia-farmers-market-ok",
+    "name": "Durant Magnolia Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "5809241550",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.9920417,
+      "longitude": -96.3762952,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "eastside-fresh-market-ok",
+    "name": "Eastside Fresh Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Oklahoma City",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://extension.okstate.edu/announcements/oklahoma-county/oklahoma-fresh-market-2022.html?fbclid=IwAR3KoIR0QuonQhMzbxUJHTjHn0sLfCcyGiOkE9Vf-LXYTG9wfzijsg49W10",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4057131125",
+      "email": "",
+      "address": "Oklahoma City, OK, 73105",
+      "public": true
+    },
+    "geo": {
+      "latitude": 35.509183,
+      "longitude": -97.502068,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmers-market-at-central-park-ok",
+    "name": "Farmers Market at Central Park",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.cityofmoore.com/Community/Farmers_market",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4057934332",
+      "email": "",
+      "address": "OK",
+      "public": true
+    },
+    "geo": {
+      "latitude": 35.3315309,
+      "longitude": -97.48557190000002,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmers-market-at-the-district-ok",
+    "name": "Farmers Market At The District",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.mcaan.org/pryor-farmers-market",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9183730341",
+      "email": "",
+      "address": "OK",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.2501335,
+      "longitude": -95.3249588,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "greenwood-farmers-market-ok",
+    "name": "Greenwood Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9182808669",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1776007,
+      "longitude": -95.9927843,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "grove-farmer-s-market-ok",
+    "name": "Grove Farmer’s Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.facebook.com/grovefarmersmarket/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9187869079",
+      "email": "",
+      "address": "OK",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.5928217,
+      "longitude": -94.7710193,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "henryetta-farmers-market-ok",
+    "name": "Henryetta Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.facebook.com/groups/1273216869997419/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.4387976,
+      "longitude": -95.9818893,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hillside-farmers-market-ok",
+    "name": "Hillside Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Skiatook",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://hillsidefarmskiatook.wordpress.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9186373874",
+      "email": "",
+      "address": "Skiatook, OK, 74070",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.4190713,
+      "longitude": -95.9891457,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hooker-farmers-market-ok",
+    "name": "Hooker Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "5806522002",
+      "email": "",
+      "address": "OK, 73945",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.8600261,
+      "longitude": -101.2134954,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "jay-farmers-market-ok",
+    "name": "Jay Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9187051898",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.4103928,
+      "longitude": -94.821486,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kingfisher-farmer-s-market-ok",
+    "name": "Kingfisher Farmer’s Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Kingfisher",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.facebook.com/farmersmarketkingfisher",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4053752413",
+      "email": "",
+      "address": "Kingfisher, OK, 73750",
+      "public": true
+    },
+    "geo": {
+      "latitude": 35.8565557,
+      "longitude": -97.9323314,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "meeker-farm-craft-market-ok",
+    "name": "Meeker Farm & Craft Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://allevents.in/meeker/meeker-farm-and-craft-market-opening-day/200026248105132",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4053280464",
+      "email": "",
+      "address": "OK, 34397",
+      "public": true
+    },
+    "geo": {
+      "latitude": 35.502622,
+      "longitude": -96.8767984,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "nicoma-park-farmer-s-market-ok",
+    "name": "Nicoma Park Farmer’s Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4052019469",
+      "email": "",
+      "address": "OK, 11600",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.4925653,
+      "longitude": -97.3242142,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "oilton-flea-and-farmers-market-ok",
+    "name": "Oilton Flea and Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9187201403",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.0880204,
+      "longitude": -96.5844895,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "oklahoma-heritage-farm-ok",
+    "name": "Oklahoma Heritage Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9183717887",
+      "email": "",
+      "address": "OK, 38512",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.4656296,
+      "longitude": -95.9203429,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "okmulgee-farmers-market-ok",
+    "name": "Okmulgee Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.okmulgeeonline.com/161/Farmers-Market",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9187589609",
+      "email": "",
+      "address": "OK",
+      "public": true
+    },
+    "geo": {
+      "latitude": 35.6232196,
+      "longitude": -95.97265959999999,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "old-town-poteau-farmer-s-market-craft-fair-ok",
+    "name": "Old Town Poteau Farmer's Market, Craft Fair",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Poteau",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "http://www.facebook.com/PoteauFarmersMarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-647-8648",
+      "email": "",
+      "address": "220 DEWEY AVE, Poteau, OK, 74953",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.05202280143748,
+      "longitude": -94.62149970203282,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "open-air-farmers-market-ok",
+    "name": "Open Air Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Washington",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Washington, OK, 20020",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.0546861,
+      "longitude": -97.4907306,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "osborne-farmers-market-ok",
+    "name": "Osborne Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Kansas",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "785-984-2320",
+      "email": "",
+      "address": "423 MAIN ST, Kansas, OK, 74347",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.20909406008447,
+      "longitude": -94.80222100684935,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ottawa-county-farmers-market-ok",
+    "name": "Ottawa County Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Miami",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://ottawacountyfm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9183324417",
+      "email": "",
+      "address": "Miami, OK, 74354",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.8589473,
+      "longitude": -94.8823428,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pauls-valley-farmers-market-ok",
+    "name": "Pauls Valley Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.localharvest.org/pauls-valley-farmers-market-M73111",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4042383308",
+      "email": "",
+      "address": "OK",
+      "public": true
+    },
+    "geo": {
+      "latitude": 34.738258,
+      "longitude": -97.2151871,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pawnee-county-farmers-market-ok",
+    "name": "Pawnee County Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Pawnee",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4058800653",
+      "email": "",
+      "address": "Pawnee, OK, 74058",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.3385329,
+      "longitude": -96.8027879,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pgs-farmers-market-ok",
+    "name": "PGS Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9184866637",
+      "email": "",
+      "address": "OK, 13004",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1442986,
+      "longitude": -99.2107249,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "produce-posies-ok",
+    "name": "Produce & Posies",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9182536401",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.411621,
+      "longitude": -94.818753,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "quapaw-farmers-market-ok",
+    "name": "Quapaw Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9182383168",
+      "email": "",
+      "address": "OK, 74363",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.9550109,
+      "longitude": -94.7875904,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "rowdy-stickhorse-farmers-market-ok",
+    "name": "Rowdy Stickhorse Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "5803361830",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.3895379,
+      "longitude": -97.9172198,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sallisaw-farmers-market-ok",
+    "name": "Sallisaw Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Sallisaw",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.facebook.com/SallisawFarmersMarket/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Sallisaw, OK, 74955",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.4607184673,
+      "longitude": -94.790077547,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sapulpa-main-st-rt-66-farmers-market-ok",
+    "name": "Sapulpa Main St Rt 66 Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://sapulpamainstreet.com/farmersmarket.shtml",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9182245709",
+      "email": "",
+      "address": "OK",
+      "public": true
+    },
+    "geo": {
+      "latitude": 35.9981205,
+      "longitude": -96.1119088,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "scissortail-farmers-market-ok",
+    "name": "Scissortail Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://scissortailpark.org/farmersmarket/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.4622009,
+      "longitude": -97.516192,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "smacker-farmers-market-ok",
+    "name": "Smacker Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.facebook.com/smackerfarmersmarket/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9187212497",
+      "email": "",
+      "address": "OK, 68155",
+      "public": true
+    },
+    "geo": {
+      "latitude": 35.0005588,
+      "longitude": -94.6472919,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "toledoth-acres-farmers-market-ok",
+    "name": "Toledoth Acres Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9185896758",
+      "email": "",
+      "address": "OK",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.3895168,
+      "longitude": -95.0473869,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "tuttle-farmers-market-ok",
+    "name": "Tuttle Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4053812335",
+      "email": "",
+      "address": "OK, 73089",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.2905235,
+      "longitude": -97.8180315,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "valliant-farmers-market-ok",
+    "name": "Valliant Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://visitmccurtaincounty.com/directory/valliant-farmers-market/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "5809335050",
+      "email": "",
+      "address": "OK, 74764",
+      "public": true
+    },
+    "geo": {
+      "latitude": 34.002173,
+      "longitude": -95.0938865,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "webbers-falls-farmers-market-ok",
+    "name": "Webbers Falls Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Webbers Falls",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "9188400105",
+      "email": "",
+      "address": "Webbers Falls, OK, 74470",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.5125856,
+      "longitude": -95.1269745,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "westville-farmers-market-ok",
+    "name": "Westville Farmers Market",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4052498360",
+      "email": "",
+      "address": "OK, 74965",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9956865,
+      "longitude": -94.5710939,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "please-write-me-ok",
+    "name": "please write me",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Muskogee",
+    "category": "Produce",
+    "products": [
+      "Apples",
+      "Blackberries",
+      "Peaches",
+      "Plums"
+    ],
+    "products_text": "Apples; Blackberries; Peaches; Plums",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-989-5009",
+      "email": "",
+      "address": "South, Muskogee, OK 74403",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.7437972,
+      "longitude": -95.3564048,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Oklahoma farm listings",
+      "source_url": "https://www.pickyourown.org/OKnortheast.htm",
+      "retrieved": "2026-07-20"
     },
     "eligible": true,
     "qa_reason": ""
