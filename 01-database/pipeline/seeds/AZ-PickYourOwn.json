@@ -1,0 +1,194 @@
+[
+  {
+    "id": "pyo-apple-annie-s-produce-and-pumpkins-willcox",
+    "name": "Apple Annie's Produce and Pumpkins",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Willcox",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Beans",
+      "Broccoli",
+      "Cabbage",
+      "Cucumbers",
+      "Fruit",
+      "Peppers",
+      "Produce",
+      "Pumpkins",
+      "Squash",
+      "Tomatoes"
+    ],
+    "products_text": "Apples; Beans; Broccoli; Cabbage; Cucumbers; Fruit; Peppers; Produce; Pumpkins; Squash; Tomatoes",
+    "website": "https://www.appleannies.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "520-384-2084",
+      "email": "apples@appleannies.com",
+      "address": "Williams Road, Willcox, AZ 85643",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.2518038,
+      "longitude": -109.8356985,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Arizona farm listings",
+      "source_url": "https://www.pickyourown.org/AZtucson.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-fenway-park-orchards-uses-natural-growing-practices-morristown",
+    "name": "Fenway Park Orchards - Uses natural growing practices,",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Morristown",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Grapes",
+      "Peaches"
+    ],
+    "products_text": "Apples; Grapes; Peaches",
+    "website": "https://fenwayparkorchards.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "623-388-2603",
+      "email": "away106824@aol.com",
+      "address": "Fenway Park Orchards - Uses natural growing practices, apples, peaches, 42610 highway 60-89, Morristown, AZ 85342",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.8558947,
+      "longitude": -112.6128862,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Arizona farm listings",
+      "source_url": "https://www.pickyourown.org/AZphoenix.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-hsnrs-vtc-net-willcox",
+    "name": "hsnrs@vtc.net",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Willcox",
+    "category": "Mixed",
+    "products": [
+      "Beans",
+      "Carrots",
+      "Corn",
+      "Cucumbers",
+      "Eggs",
+      "Flowers",
+      "Goat",
+      "Melons",
+      "Onions",
+      "Peppers",
+      "Squash",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Beans; Carrots; Corn; Cucumbers; Eggs; Flowers; Goat; Melons; Onions; Peppers; Squash; Strawberries; Tomatoes; Vegetables",
+    "website": "https://www.mapquest.com/search/result?query=6965 S. Narita Lane&85643",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-384-4805",
+      "email": "hsnrs@vtc.net",
+      "address": "Narita Lane, Willcox, AZ 85643",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.2518038,
+      "longitude": -109.8356985,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Arizona farm listings",
+      "source_url": "https://www.pickyourown.org/AZtucson.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-mother-nature-s-farm-gilbert",
+    "name": "Mother Nature's Farm",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Gilbert",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Corn",
+      "Peaches",
+      "Pumpkins"
+    ],
+    "products_text": "Apples; Corn; Peaches; Pumpkins",
+    "website": "https://www.mothernaturesfarm.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(480) 892-5874",
+      "email": "",
+      "address": "Baseline Road, Gilbert, AZ 85233",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.3129961,
+      "longitude": -111.7424218,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Arizona farm listings",
+      "source_url": "https://www.pickyourown.org/AZphoenix.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

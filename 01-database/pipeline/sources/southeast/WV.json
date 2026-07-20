@@ -28,8 +28,24 @@
       "path": "seeds/WV-USDAOrganic.json",
       "notes": "Certified crop, livestock, or wild-crop operations captured 2026-07-19."
     },
+    {
+      "id": "wvsrc-usda-farmers-markets-2026",
+      "name": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "url": "https://github.com/GC108/us-farmers-markets-dataset",
+      "adapter": "seed",
+      "path": "seeds/WV-USDAFarmersMarkets.json",
+      "notes": "Reviewed all 59 West Virginia records on 2026-07-20; this 3-row seed retains net-new identities after exact first-pass overlap filtering. Redistribution removes personal contact names and emails."
+    },
+    {
+      "id": "wvsrc-current-farm-markets",
+      "name": "West Virginia Department of Agriculture — current farmers market and farm-stand directory",
+      "url": "https://agriculture.wv.gov/farmers-market/farmers_market_results.php",
+      "adapter": "seed",
+      "path": "seeds/WV-CurrentFarmMarkets.json",
+      "notes": "Reviewed 266 directory rows on 2026-07-20; the 231-row seed retains net-new named farms, growers, markets, farm stands, and direct-food producers after contact-identity and first-pass overlap filtering."
+    },
     {"id": "wvsrc-eatwild", "name": "EatWild — West Virginia", "url": "https://www.eatwild.com/products/westvirginia.html", "adapter": "html_table", "notes": "Pastured-products directory."},
-    {"id": "wvsrc-pickyourown", "name": "PickYourOwn — West Virginia", "url": "https://www.pickyourown.org/WV.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "wvsrc-pickyourown", "name": "PickYourOwn — West Virginia active farm listings", "url": "https://www.pickyourown.org/WV.htm", "adapter": "seed", "path": "seeds/WV-PickYourOwn.json", "notes": "Reviewed 28 current state/regional listings on 2026-07-20; one net-new row remains after exact first-pass overlap filtering. Confirmed closures were excluded and status warnings remain QA residue."},
     {"id": "wvsrc-localharvest", "name": "LocalHarvest — West Virginia", "url": "https://www.localharvest.org/west-virginia/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
   ]
 }

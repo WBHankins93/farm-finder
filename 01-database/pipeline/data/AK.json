@@ -11668,11 +11668,11 @@
       "Market"
     ],
     "products_text": "Market",
-    "website": "",
+    "website": "https://alaska-highway.org/farmersmarket/index.html?doing_wp_cron=1734124037.1797609329223632812500",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": true,
-    "farmers_market": false,
+    "farmers_market": true,
     "csa": false,
     "online_store": false,
     "ships": false,
@@ -27394,8 +27394,8 @@
       "farmers-market"
     ],
     "products_text": "farmers-market",
-    "website": "",
-    "facebook_url": "",
+    "website": "http://www.saltandsoilmarketplace.com",
+    "facebook_url": "http://www.facebook.com/SaltandSoilMarketplace",
     "instagram_url": "",
     "on_farm": false,
     "farmers_market": true,
@@ -27404,10 +27404,10 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "907-723-9211",
       "email": "",
-      "address": "",
-      "public": false
+      "address": "350 WHITTIER ST, Juneau, AK, 99801",
+      "public": true
     },
     "geo": {
       "latitude": 58.2997815,
@@ -28760,6 +28760,498 @@
       "source": "USDA Organic Integrity Database — Alaska certified producers",
       "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Alaska%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
       "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "alaska-food-hub-homer-ak",
+    "name": "Alaska Food Hub - Homer",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Homer",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.alaskafoodhub.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Homer, AK, 99503",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.6404195,
+      "longitude": -151.5090529,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "alaska-food-hub-ninilchik-ak",
+    "name": "Alaska Food Hub - Ninilchik",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Ninilchik",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.alaskafoodhub.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Ninilchik, AK, 99639",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.0627192,
+      "longitude": -151.4098389,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "alaska-food-hub-selvodia-airport-ak",
+    "name": "Alaska Food Hub - Selvodia Airport",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Seldovia",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.alaskafoodhub.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Seldovia, AK, 99663",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside AK review bounds"
+  },
+  {
+    "id": "alaska-food-hub-soldotna-ak",
+    "name": "Alaska Food Hub - Soldotna",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Soldotna",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.alaskafoodhub.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Soldotna, AK, 99669",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.4853162,
+      "longitude": -151.0690163,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "anc-market-social-ak",
+    "name": "ANC Market Social",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://anchoragedowntown.org/anc-market-social/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Anchorage, AK, 99501",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.1742503,
+      "longitude": -149.2843294,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fire-island-farmers-market-ak",
+    "name": "Fire Island Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.fireislandbread.com/?fbclid=IwAR0JSXulZIPfqyCu_Esfxp88JOs5tts52Z6bGG3PwpgvAdyFnBXaqZMvmRw",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Anchorage, AK, 99501",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.1742503,
+      "longitude": -149.2843294,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "four-winds-farm-at-the-haines-farmers-market-ak",
+    "name": "Four Winds Farm at the Haines Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Haines",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.fourwindsfarmalaska.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Haines, AK, 99827",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.2604246,
+      "longitude": -135.4721648,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "harvest-moon-local-foods-festival-ak",
+    "name": "Harvest Moon Local Foods Festival",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Soldotna",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.kenailocalfood.org/harvest-moon-local-food-festival",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Soldotna, AK, 99669",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.4853162,
+      "longitude": -151.0690163,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kodiak-farmers-market-ak",
+    "name": "Kodiak Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Womens Bay",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.facebook.com/groups/266534946819522/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Womens Bay, AK, 99615",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.6888761,
+      "longitude": -152.6759299,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "qik-rtaq-food-hub-ak",
+    "name": "Qik'rtaq Food Hub",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kodiak",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.alutiiqgrown.com/foodhub",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Kodiak, AK, 99615",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.7905933,
+      "longitude": -152.4221778,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "stellar-botanical-health-gustavus-grown-ak",
+    "name": "Stellar Botanical Health - Gustavus Grown",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Gustavus",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.stellerbotanicalhealth.com/gustavusgrown",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Gustavus, AK, 99826",
+      "public": false
+    },
+    "geo": {
+      "latitude": 58.4334173,
+      "longitude": -135.7292511,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "willow-farmers-market-ak",
+    "name": "Willow Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Willow",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.whoak.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Willow, AK, 99688",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.8869555,
+      "longitude": -149.6202414,
+      "precision": "city"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
     },
     "eligible": true,
     "qa_reason": ""

@@ -6732,11 +6732,11 @@
       "Herbs and Vegetables"
     ],
     "products_text": "Other: Flowers, Fruits, Herbs and Vegetables",
-    "website": "",
+    "website": "http://amysorganicgarden.com",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
-    "farmers_market": false,
+    "farmers_market": true,
     "csa": false,
     "online_store": false,
     "ships": false,
@@ -6745,7 +6745,7 @@
       "phone": "804-896-6446",
       "email": "",
       "address": "13630 Sandy Point Rd, Charles City, Virginia, 23030",
-      "public": false
+      "public": true
     },
     "geo": {
       "latitude": 37.2654907,
@@ -12913,8 +12913,8 @@
       "farmers-market"
     ],
     "products_text": "farmers-market",
-    "website": "",
-    "facebook_url": "",
+    "website": "http://www.fairfaxsaturdaymarket.com/",
+    "facebook_url": "https://www.facebook.com/FairfaxSaturdayMarket/",
     "instagram_url": "",
     "on_farm": false,
     "farmers_market": true,
@@ -12925,7 +12925,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "10500 Page Ave, Fairfax, VA, 22030",
       "public": false
     },
     "geo": {
@@ -15348,26 +15348,26 @@
     "region": "southeast",
     "county": "",
     "city": "Wakefield",
-    "category": "Mixed",
+    "category": "Meat",
     "products": [
       "farm-stand",
       "organic"
     ],
     "products_text": "farm-stand; organic",
-    "website": "",
-    "facebook_url": "",
+    "website": "https://www.drewryfarmsberries.com/",
+    "facebook_url": "https://www.facebook.com/Drewry-Farms-Blueberries-117126898334206",
     "instagram_url": "",
     "on_farm": true,
     "farmers_market": false,
     "csa": false,
     "online_store": false,
     "ships": false,
-    "u_pick": false,
+    "u_pick": true,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
+      "phone": "(757) 899-3636",
+      "email": "michael_drewry@yahoo.com",
+      "address": "Wakefield, VA 23888",
+      "public": true
     },
     "geo": {
       "latitude": 37.002663,
@@ -24792,20 +24792,20 @@
       "nursery"
     ],
     "products_text": "agritourism; nursery",
-    "website": "",
-    "facebook_url": "",
+    "website": "https://www.lilleyfarms.com/strawberrydirections.htm",
+    "facebook_url": "https://www.facebook.com/LilleyFarmsStrawberries/",
     "instagram_url": "",
-    "on_farm": false,
+    "on_farm": true,
     "farmers_market": false,
     "csa": false,
     "online_store": false,
     "ships": false,
-    "u_pick": false,
+    "u_pick": true,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
+      "phone": "757-483-9880",
+      "email": "carolyn.lilley@yahoo.com",
+      "address": "- Strawberries, already-picked produce, restrooms, picnic area, birthday parties, school tours2800 Tyre Neck Road, Chesapeake, VA 23321",
+      "public": true
     },
     "geo": {
       "latitude": 36.832988014,
@@ -27879,13 +27879,13 @@
     "region": "southeast",
     "county": "",
     "city": "Chesapeake",
-    "category": "Mixed",
+    "category": "Meat",
     "products": [
       "agritourism"
     ],
     "products_text": "agritourism",
-    "website": "",
-    "facebook_url": "",
+    "website": "http://www.mountpleasantfarms.com",
+    "facebook_url": "https://www.facebook.com/mountpleasantfarms",
     "instagram_url": "",
     "on_farm": true,
     "farmers_market": false,
@@ -27894,10 +27894,10 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
+      "phone": "(757) 482-0739",
+      "email": "info@mountpleasantfarms.com",
+      "address": "Chesapeake, VA 23322",
+      "public": true
     },
     "geo": {
       "latitude": 36.711446981,
@@ -35898,15 +35898,17 @@
     "state": "VA",
     "region": "southeast",
     "county": "",
-    "city": "",
+    "city": "Richmond",
     "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://growrva.com/",
+    "facebook_url": "https://www.facebook.com/SOJmarket/",
     "instagram_url": "",
     "on_farm": false,
-    "farmers_market": false,
+    "farmers_market": true,
     "csa": false,
     "online_store": false,
     "ships": false,
@@ -35914,7 +35916,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "4021 Forest Hill Ave, Richmond, VA, 23225",
       "public": false
     },
     "geo": {
@@ -37749,8 +37751,8 @@
       "farmers-market"
     ],
     "products_text": "farmers-market",
-    "website": "",
-    "facebook_url": "",
+    "website": "https://albemarlefarmersmarket.com/",
+    "facebook_url": "https://www.facebook.com/Albemarlefarmersmarket/",
     "instagram_url": "",
     "on_farm": false,
     "farmers_market": true,
@@ -37759,10 +37761,10 @@
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "1-434-531-2733",
       "email": "",
-      "address": "",
-      "public": false
+      "address": "340 TOWNCENTER BLVD, Charlottesville, VA, 22911",
+      "public": true
     },
     "geo": {
       "latitude": 38.126837,
@@ -38484,7 +38486,7 @@
       "farmers-market"
     ],
     "products_text": "farmers-market",
-    "website": "",
+    "website": "https://marketcentral.org",
     "facebook_url": "",
     "instagram_url": "",
     "on_farm": false,
@@ -38496,7 +38498,7 @@
     "contact": {
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "VA, 22902",
       "public": false
     },
     "geo": {
@@ -39584,26 +39586,26 @@
     "region": "southeast",
     "county": "",
     "city": "Chantilly",
-    "category": "Mixed",
+    "category": "Meat",
     "products": [
       "farm-stand",
       "organic"
     ],
     "products_text": "farm-stand; organic",
-    "website": "",
-    "facebook_url": "",
+    "website": "https://www.ticonderoga.com",
+    "facebook_url": "https://www.facebook.com/Ticonderoga-Farms-91806057538",
     "instagram_url": "",
     "on_farm": true,
     "farmers_market": false,
     "csa": false,
     "online_store": false,
     "ships": false,
-    "u_pick": false,
+    "u_pick": true,
     "contact": {
-      "phone": "",
-      "email": "",
-      "address": "",
-      "public": false
+      "phone": "703-327-4424",
+      "email": "marketing@ticonderoga.com",
+      "address": "Chantilly, VA 20152",
+      "public": true
     },
     "geo": {
       "latitude": 38.885636,
@@ -40568,22 +40570,24 @@
     "county": "",
     "city": "Virginia Beach",
     "category": "Mixed",
-    "products": [],
-    "products_text": "",
-    "website": "",
-    "facebook_url": "",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://agriculture.virginiabeach.gov/farmers-market",
+    "facebook_url": "https://www.facebook.com/VBFarmersMarket/",
     "instagram_url": "",
     "on_farm": false,
-    "farmers_market": false,
+    "farmers_market": true,
     "csa": false,
     "online_store": false,
     "ships": false,
     "u_pick": false,
     "contact": {
-      "phone": "",
+      "phone": "757-385-4388",
       "email": "",
-      "address": "",
-      "public": false
+      "address": "3640 Dam Neck Rd, Virginia Beach, VA, 23453",
+      "public": true
     },
     "geo": {
       "latitude": 36.776,
@@ -50969,6 +50973,5937 @@
       "source": "USDA Organic Integrity Database — Virginia certified producers",
       "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Virginia%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
       "retrieved": "2026-07-19"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "amelia-barter-town-farmers-market-va",
+    "name": "Amelia Barter Town Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.activtreats.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 19210",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.3216516,
+      "longitude": -78.0381333,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ashland-farmers-market-va",
+    "name": "Ashland Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://town.ashland.va.us/287/Ashland-Farmers-Market",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23005",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.7587147,
+      "longitude": -77.483373,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bacova-beer-company-market-va",
+    "name": "Bacova Beer Company Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://bacovabeer.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24445",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.0008501,
+      "longitude": -79.8338542,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "barboursville-farmers-market-va",
+    "name": "Barboursville Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22968",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.2086648,
+      "longitude": -78.3846225,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "big-stone-gap-farmers-market-va",
+    "name": "Big Stone Gap Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://bigstonegap.com/local-attraction/farmers-market/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24219",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.866301,
+      "longitude": -82.7754781,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "blackstone-farmers-market-va",
+    "name": "Blackstone Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23824",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.0800738,
+      "longitude": -77.9974848,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bluefield-va-farmers-market-va",
+    "name": "Bluefield, VA Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24605",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.251841,
+      "longitude": -81.2718596,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "botetourt-farmers-market-va",
+    "name": "Botetourt Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://botetourtfarmersmarket.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24083",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.4166651,
+      "longitude": -79.9128042,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "broad-rock-farmers-market-va",
+    "name": "Broad Rock Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23224",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.4719535,
+      "longitude": -77.4843579,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brookneal-farmers-market-va",
+    "name": "Brookneal Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://farmspread.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24528",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.0481665,
+      "longitude": -78.9428346,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "buchanan-hall-farmers-market-va",
+    "name": "Buchanan Hall Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.buchananhall.org/farmersmarket",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 20184",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9896617,
+      "longitude": -77.8711227,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "buckingham-farmers-artisans-market-va",
+    "name": "Buckingham Farmers & Artisans Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://smitsfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 18440",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.5185918,
+      "longitude": -78.4719867,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "busfarm-indoor-market-va",
+    "name": "BusFarm Indoor Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://thefarmbus.com/",
+    "facebook_url": "https://www.facebook.com/Farm2Family",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "804-767-8570",
+      "email": "",
+      "address": "2817 Mechanicsville Tpk., Richmond, VA, 23223",
+      "public": true
+    },
+    "geo": {
+      "latitude": 37.56381285365337,
+      "longitude": -77.40494975675247,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "catawba-valley-farmers-market-va",
+    "name": "Catawba Valley Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Catawba",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.catawbafarmersmarket.com/",
+    "facebook_url": "https://www.facebook.com/TheCatawbaValleyFarmersMarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "540-864-5913",
+      "email": "",
+      "address": "4965 CREEK RD, Catawba, VA, 24070",
+      "public": true
+    },
+    "geo": {
+      "latitude": 37.383185473140756,
+      "longitude": -80.108255305886,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cedar-lane-farm-market-va",
+    "name": "Cedar Lane Farm Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Stephens City",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "http://www.facebook.com/Cedarlanefarmllc/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "540-550-3397",
+      "email": "",
+      "address": "5441 MAIN ST, Stephens City, VA, 22655",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.08230556473647,
+      "longitude": -78.21907064054561,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "charlotte-county-farmers-market-at-drakes-branch-va",
+    "name": "Charlotte County Farmers Market at Drakes Branch",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.fusioneats.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23937",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.9931572,
+      "longitude": -78.6018514,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cherrydale-farmers-market-va",
+    "name": "Cherrydale Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://cherrydalefarmersmarket.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22207",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.8998934,
+      "longitude": -77.1116497,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "church-street-farmers-market-va",
+    "name": "Church Street Farmers' Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.facebook.com/groups/churchstreetfarmersmarket",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23824",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.0773226,
+      "longitude": -78.008385,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "clarke-county-farmers-market-va",
+    "name": "Clarke County Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.clarkecountyfarmersmarket.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22611",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.1549775,
+      "longitude": -77.9875142,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "clinch-river-farmers-market-va",
+    "name": "Clinch River Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://visitwisecounty.com/places/clinch-river-farmers-market/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24283",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.9042986,
+      "longitude": -82.3113756,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "clintwood-farmers-market-va",
+    "name": "Clintwood Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24228",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.1481883,
+      "longitude": -82.4567694,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "copper-cricket-farm-va",
+    "name": "Copper Cricket Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.albanyleadershiphigh.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 13586",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.3899353,
+      "longitude": -75.9507828,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cullipher-farm-market-va",
+    "name": "Cullipher Farm Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Va Bch",
+    "category": "Honey/Specialty",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.cullipherfarm.com",
+    "facebook_url": "https://www.facebook.com/CullipherFarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 721-7456",
+      "email": "cullfarm@msn.com",
+      "address": "1444 PRINCESS ANNE RD, Va Bch, VA, 23456",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.68481584477347,
+      "longitude": -76.02382715950678,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "dale-city-prince-william-farmers-market-va",
+    "name": "Dale City (Prince William) Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 14090",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.6481259,
+      "longitude": -77.3412695,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "del-ray-farmers-market-va",
+    "name": "Del Ray Farmers' Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://delrayfarmersmarket.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22301",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.8268668,
+      "longitude": -77.0587891,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "eat-better-family-market-portsmouth-va-va",
+    "name": "Eat Better Family Market (Portsmouth, VA)",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23702",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7975651,
+      "longitude": -76.3265138,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "eatloco-farmers-market-ashbrook-va",
+    "name": "EatLoco Farmers Market - Ashbrook",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://eatloco.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 20147",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.0573569,
+      "longitude": -77.4642689,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "eatloco-farmers-market-at-brambleton-va",
+    "name": "EatLoco Farmers Market at Brambleton",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24439",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9609763,
+      "longitude": -77.5342097,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "eatloco-farmers-market-at-metpark-va",
+    "name": "EatLoco Farmers Market at MetPark",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.eatloco.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22202",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.8582856,
+      "longitude": -77.0493651,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "elkton-downtown-marketplace-va",
+    "name": "Elkton Downtown Marketplace",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://elktonva.gov/community_/elkton_downtown_marketplace.php",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22827",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.4081959,
+      "longitude": -78.6224821,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "emporia-farmers-market-va",
+    "name": "Emporia Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23847",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6890786,
+      "longitude": -77.5412079,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fairfax-sunday-farmers-market-va",
+    "name": "Fairfax Sunday Farmers' Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Fairfax",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.fairfaxsaturdaymarket.com/",
+    "facebook_url": "https://www.facebook.com/FairfaxSaturdayMarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "10500 PAGE AVE, Fairfax, VA, 22030",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.84587917839659,
+      "longitude": -77.31006480657871,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmers-market-at-bridgeport-va",
+    "name": "Farmers Market at Bridgeport",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.bridgeportsuffolk.com/farmersmarket",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23435",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.862758,
+      "longitude": -76.453135,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmers-market-at-st-stephens-va",
+    "name": "Farmers Market at St Stephens",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://ststephensrva.org/farmers-market/",
+    "facebook_url": "https://www.facebook.com/ststephensRVA",
+    "instagram_url": "https://www.instagram.com/ststephensRVA",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "804-288-2867",
+      "email": "",
+      "address": "6000 Grove Ave, Richmond, VA, 23226",
+      "public": true
+    },
+    "geo": {
+      "latitude": 37.57290821074268,
+      "longitude": -77.52192425077928,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmers-market-at-wheatland-spring-farm-brewery-va",
+    "name": "Farmers Market at Wheatland Spring Farm & Brewery",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 38506",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.2003545,
+      "longitude": -77.67094,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "farmers-market-woodbridge-va",
+    "name": "Farmers Market Woodbridge",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Woodbridge",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "http://www.facebook.com/farmersmarketwoodbridge",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2700 POTOMAC MILLS CIR, Woodbridge, VA, 22192",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.64633713976391,
+      "longitude": -77.29419077762698,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "ferrum-farm-craft-market-va",
+    "name": "Ferrum Farm & Craft Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.ferrumforward.com/farmers-market",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 10884",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.9246175,
+      "longitude": -80.0314202,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "fox-urban-farms-va",
+    "name": "Fox Urban Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22601",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.1756854,
+      "longitude": -78.1691413,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gathering-springs-farm-va",
+    "name": "Gathering Springs Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.gatheringspringsfarm.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22022",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.0090575,
+      "longitude": -77.6959599,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gilberts-corner-farmers-market-va",
+    "name": "Gilberts Corner Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.pecva.org/about-us/properties/gilberts-corner/farmers-market/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 20105",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9756745,
+      "longitude": -77.6418724,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "glade-spring-farmers-market-va",
+    "name": "Glade Spring Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24340",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7901231,
+      "longitude": -81.7716844,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "goochland-farmers-market-va",
+    "name": "Goochland Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Goochland",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "http://www.facebook.com/GoochlandFarmersMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "804-314-9141",
+      "email": "",
+      "address": "1889 SANDY HOOK RD, Goochland, VA, 23063",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.695548560628076,
+      "longitude": -77.8875384868564,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "gordonsville-green-market-va",
+    "name": "Gordonsville Green Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.gordonsvillegreenmarket.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22942",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.1352934,
+      "longitude": -78.1869941,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "green-valley-farmers-market-va",
+    "name": "Green Valley Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://careinc1996.com/green-valley-farmers-market/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22206",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.8482314,
+      "longitude": -77.0843715,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "griffin-farm-va",
+    "name": "Griffin Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://kcofm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23434",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7334363,
+      "longitude": -76.7484929,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "haashrooms-va",
+    "name": "Haashrooms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://haashrooms.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23063",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.6841421,
+      "longitude": -77.885374,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "harvest-market-at-oozlefinch-va",
+    "name": "Harvest Market at Oozlefinch",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.norfolkvafarmersmarket.com/harvest-market",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23651",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.008877,
+      "longitude": -76.3047152,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hill-s-farm-market-va",
+    "name": "Hill's Farm Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://stonemagicjewelry.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24317",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.590413,
+      "longitude": -80.71062,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hopewell-farmers-market-va",
+    "name": "Hopewell Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23860",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.3052072,
+      "longitude": -77.2860747,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "independence-farmers-market-va",
+    "name": "Independence Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://independencefarmersmarket.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24348",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6223478,
+      "longitude": -81.150923,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "junior-wilson-va",
+    "name": "Junior Wilson",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://thejuniorwilson.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23150",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.5136459,
+      "longitude": -77.2267236,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kallan-farm-va",
+    "name": "Kallan Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.kallanfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24541",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.5923145,
+      "longitude": -79.5336461,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kerrs-creek-country-market-va",
+    "name": "Kerrs Creek Country Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://kerrscreekmarket.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24450",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.8501079,
+      "longitude": -79.4875582,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "king-street-station-farmers-market-va",
+    "name": "King Street Station Farmers' Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Alexandria",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1755 DUKE ST, Alexandria, VA, 22314",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.80460169926107,
+      "longitude": -77.06157975505995,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "king-william-farmers-market-va",
+    "name": "King William Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23086",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.7420384,
+      "longitude": -77.1303693,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "kings-grant-farmers-market-va",
+    "name": "Kings Grant Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23452",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.8631407,
+      "longitude": -76.0865072,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "leap-mobile-market-va",
+    "name": "LEAP Mobile Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Roanoke",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "http://www.facebook.com/LEAPMobileMarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "540-632-1360",
+      "email": "",
+      "address": "2750 HOOVER ST NW, Roanoke, VA, 24017",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.29242580750908,
+      "longitude": -79.97855222817887,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lexington-virginia-farmers-market-va",
+    "name": "Lexington (Virginia) Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://lexvafm.wixsite.com/2018?fbclid=IwAR0PW-JCdN74ddXAkg2wbCx1mg0kfnfLAmkT8XLxAl4KtYu72IjsdoXYY_0",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24450",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.7834732,
+      "longitude": -79.4451478,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lois-produce-market-va",
+    "name": "Lois' Produce Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 15088",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.093904,
+      "longitude": -76.839006,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "long-family-markets-stafford-location-va",
+    "name": "Long Family Markets Stafford Location",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22556",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.4746955,
+      "longitude": -77.4120816,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "long-farmers-market-va",
+    "name": "Long Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Fredericksburg",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://givinggarden.io/markets/virginia/fredericksburg/long-farmers-market",
+    "facebook_url": "http://www.facebook.com/longfarmersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "570-886-0822",
+      "email": "",
+      "address": "121 UNIVERSITY BLVD, Fredericksburg, VA, 22406",
+      "public": true
+    },
+    "geo": {
+      "latitude": 38.37070165612394,
+      "longitude": -77.53253120964767,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lorton-farmers-market-va",
+    "name": "Lorton Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.fairfaxcounty.gov/parks/farmersmarkets/lorton",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22079",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.7150834,
+      "longitude": -77.2145248,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lubber-run-farmers-market-va",
+    "name": "Lubber Run Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://lubberrunfarmersmarket.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22203",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.8729332,
+      "longitude": -77.1123801,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "lynchburg-grows-va",
+    "name": "Lynchburg Grows",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.lynchburggrows.org/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24501",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.3909747,
+      "longitude": -79.1670225,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "madison-county-farmers-market-va",
+    "name": "Madison County Farmers' Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22727",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.3609403,
+      "longitude": -78.2616733,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "madison-mushrooms-va",
+    "name": "Madison Mushrooms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://madisonmushrooms.org",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22715",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.4196526,
+      "longitude": -78.1594639,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "manakin-market-va",
+    "name": "Manakin Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23103",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.6707453,
+      "longitude": -77.6852854,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "massanutten-farmers-market-va",
+    "name": "Massanutten Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.massresort.com/play/farmers-market/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22840",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.4067484,
+      "longitude": -78.715857,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mathews-farmers-market-va",
+    "name": "Mathews Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23109",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.4335336,
+      "longitude": -76.3215915,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "mckenney-farmers-market-va",
+    "name": "McKenney Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.dinwiddieva.us/1022/McKenney-Farmers-Market",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 10402",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.986658,
+      "longitude": -77.722864,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "monday-market-fairy-stone-state-park-va",
+    "name": "Monday Market, Fairy Stone State Park",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.dcr.virginia.gov/state-parks/event?id=2023-02-14-12-45-38-084946-yom",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24171",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7925442,
+      "longitude": -80.1167583,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "moneta-farmers-market-va",
+    "name": "Moneta Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 13641",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.1781927,
+      "longitude": -79.624201,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "nelson-farmers-market-va",
+    "name": "Nelson Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.nelsonfarmersmarket.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22958",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.892734,
+      "longitude": -78.8699234,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "new-kent-farmers-market-va",
+    "name": "New Kent Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.newkentfarmersmarket.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23124",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.5242842,
+      "longitude": -77.074908,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "norfolk-farmers-market-va",
+    "name": "Norfolk Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23510",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.8488214,
+      "longitude": -76.2880972,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "northside-farmers-market-va",
+    "name": "Northside Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://northsidefoodaccess.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23222",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.5708238,
+      "longitude": -77.429946,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "village-of-lovingston-farmers-market-va",
+    "name": "Village of Lovingston Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.lovingstonfarmersmarket.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22949",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.7594767,
+      "longitude": -78.8705395,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "old-beach-farmers-market-va",
+    "name": "Old Beach Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.oldbeachfarmersmarket.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23451",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.845441,
+      "longitude": -75.9853969,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "orange-farmers-market-va",
+    "name": "Orange Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22960",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.2449509,
+      "longitude": -78.1095777,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "parksley-farmers-market-va",
+    "name": "Parksley Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://etsy.com/shop/candlewithahandle",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23421",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.7820725,
+      "longitude": -75.6535401,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pop-up-rva-at-the-diamond-va",
+    "name": "Pop Up RVA at the Diamond",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://popupmarketrva.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23220",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.5718868,
+      "longitude": -77.4641918,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pop-up-rva-chesterfield-towne-center-va",
+    "name": "Pop Up RVA Chesterfield Towne Center",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://popupmarketrva.com/chesterfield-towne-center",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 11500",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.5080816,
+      "longitude": -77.6092188,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "project-grows-booker-t-washington-community-center-va",
+    "name": "Project Grows - Booker T. Washington Community Center",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.1473199,
+      "longitude": -79.0817046,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "project-grows-elizabeth-miller-gardens-va",
+    "name": "Project Grows - Elizabeth Miller Gardens",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.1501679,
+      "longitude": -79.0974463,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "project-grows-gypsy-hill-house-va",
+    "name": "Project Grows - Gypsy Hill House",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.1616135,
+      "longitude": -79.092219,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "project-grows-plaza-apartments-va",
+    "name": "Project Grows - Plaza Apartments",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.1242242,
+      "longitude": -79.0606215,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "project-grows-tinkling-springs-presbyterian-church-va",
+    "name": "Project Grows - Tinkling Springs Presbyterian Church",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22939",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.0850909,
+      "longitude": -78.982162,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "project-grows-waynesboro-boys-girls-club-va",
+    "name": "Project Grows - Waynesboro Boys & Girls Club",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22980",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.0673699,
+      "longitude": -78.8824815,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "project-grows-waynesboro-department-of-social-services-va",
+    "name": "Project Grows - Waynesboro Department of Social Services",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22980",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.0780494,
+      "longitude": -78.8651878,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "project-grows-willow-view-apartments-va",
+    "name": "Project Grows - Willow View Apartments",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.1682236,
+      "longitude": -79.0705079,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "pungo-roots-farmers-market-va",
+    "name": "Pungo Roots Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://pungoroots.com/?fbclid=IwAR1sU4T9fTQpCZyWCipiixEhe8mRHZ1k3nj8NqBHNwEZbKUMphsd4PFqNHc",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7240025,
+      "longitude": -76.0179975,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "reeses-centerville-va",
+    "name": "Reeses Centerville",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24592",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.727137,
+      "longitude": -78.918977,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "reeses-scottsburg-va",
+    "name": "Reeses Scottsburg",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24589",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7881103,
+      "longitude": -78.8026786,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "rock-s-market-va",
+    "name": "Rock's Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.thefuriesoliveoil.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 17019",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6449592,
+      "longitude": -82.0624697,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "roots-n-shoots-va",
+    "name": "Roots 'n Shoots",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.rootsnshootsmicrogreens.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22206",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.8468089,
+      "longitude": -77.1058643,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "rva-big-market-va",
+    "name": "RVA Big Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.growrva.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23227",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.5963045,
+      "longitude": -77.4725334,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "rva-black-farmers-market-va",
+    "name": "RVA Black Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.rvablackfarmersmarket.com/",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23219",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.5349142,
+      "longitude": -77.4276451,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "rvag-pop-up-farm-and-craft-market-at-courthouse-creek-cider-va",
+    "name": "RVAg Pop-Up Farm and Craft Market at Courthouse Creek Cider",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23102",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.6728739,
+      "longitude": -77.875798,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "scott-s-addition-farmers-market-va",
+    "name": "Scott's Addition Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23230",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.5685474,
+      "longitude": -77.4737747,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "sister-cities-french-market-va",
+    "name": "Sister Cities French Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Yorktown",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.visityorktown.org/225/Market-Days",
+    "facebook_url": "http://www.facebook.com/yorktownmarketdays",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "757-890-3500",
+      "email": "",
+      "address": "331 WATER ST, Yorktown, VA, 23690",
+      "public": true
+    },
+    "geo": {
+      "latitude": 37.23877879579052,
+      "longitude": -76.50952316463771,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "south-of-the-james-farmers-market-va",
+    "name": "South of the James Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://facebook.com/SOJmarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "804-221-6667",
+      "email": "",
+      "address": "Forest Hill Avenue & 42nd Street, Richmond, VA, 23150",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.51839999925271,
+      "longitude": -77.47856004046209,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "south-street-barn-market-va",
+    "name": "South Street Barn Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Woodstock",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.southstreetbarnmarket.com",
+    "facebook_url": "http://www.facebook.com/South-Street-Barn-Market",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "540-325-3768",
+      "email": "",
+      "address": "411 S MUHLENBERG ST, Woodstock, VA, 22664",
+      "public": true
+    },
+    "geo": {
+      "latitude": 38.878778286784524,
+      "longitude": -78.50968433388852,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "st-stephen-s-farmers-market-va",
+    "name": "St. Stephen's Farmers' Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Richmond",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://saintstephensrichmond.net",
+    "facebook_url": "https://facebook.com/ststephensRVA",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "804-288-2867",
+      "email": "",
+      "address": "6000 GROVE AVE, Richmond, VA, 23226",
+      "public": true
+    },
+    "geo": {
+      "latitude": 37.57290821074268,
+      "longitude": -77.52192425077928,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-market-at-cloverhill-church-va",
+    "name": "The Market at Cloverhill Church",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 12310",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.4114164,
+      "longitude": -77.6200474,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-market-at-southern-towers-va",
+    "name": "The Market at Southern Towers",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.alexandriava.gov/FarmersMarket",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 22311",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.8340775,
+      "longitude": -77.1164715,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "toano-open-air-market-va",
+    "name": "Toano Open Air Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://dw.amtamembers.com/about-practitioner",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23168",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.3807809,
+      "longitude": -76.8056868,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "valley-roots-farmers-market-va",
+    "name": "Valley Roots Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 24486",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.3128998,
+      "longitude": -78.918249,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "vsu-trojan-farmers-market-va",
+    "name": "VSU Trojan Farmers Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.ext.vsu.edu/events",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23806",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.237545,
+      "longitude": -77.4184193,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "winter-market-at-afterglow-va",
+    "name": "Winter Market at Afterglow",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.norfolkvafarmersmarket.com/winter-market-at-afterglow-brewing",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "VA, 23508",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.8756197,
+      "longitude": -76.3037409,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "apple-berry-manor-va",
+    "name": "Apple Berry Manor",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Blueberries"
+    ],
+    "products_text": "Blueberries",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/Apple-Berry-Farm-1598948257021144",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "757 434 9644",
+      "email": "proshow1212@gmail.com",
+      "address": "Apple Berry Manor - Blueberries 2601 West Landing Road, Virginia Beach, VA 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "blackwater-blueberries-va",
+    "name": "Blackwater Blueberries",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Flowers5140 Blackwater Road Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Blackberries",
+      "Blueberries"
+    ],
+    "products_text": "Blackberries; Blueberries",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/profile.php?id=61554250203507",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Blackwater Blueberries - blueberries, Blackberries, Flowers5140 Blackwater Road Virginia Beach, VA 23457",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "braehead-farm-va",
+    "name": "Braehead Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Fredericksburg",
+    "category": "Meat",
+    "products": [
+      "Beans",
+      "Blackberries",
+      "Cucumbers",
+      "Eggs",
+      "Honey",
+      "Peppers",
+      "Pumpkins",
+      "Raspberries",
+      "Squash",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Beans; Blackberries; Cucumbers; Eggs; Honey; Peppers; Pumpkins; Raspberries; Squash; Strawberries; Tomatoes; Vegetables",
+    "website": "https://braeheadfarm.com",
+    "facebook_url": "https://www.facebook.com/breaheadfarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-899-9848",
+      "email": "Info@braeheadfarm.com",
+      "address": "Fredericksburg, VA 22401",
+      "public": true
+    },
+    "geo": {
+      "latitude": 38.2992718,
+      "longitude": -77.4866583,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAfredericksburg.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "bright-hope-farm-and-apiary-va",
+    "name": "Bright Hope Farm and Apiary",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesterfield",
+    "category": "Honey/Specialty",
+    "products": [
+      "Flowers",
+      "Honey"
+    ],
+    "products_text": "Flowers; Honey",
+    "website": "https://maps.google.com/maps?q=10425%20Spring%20Run%20Road+23832",
+    "facebook_url": "https://www.facebook.com/BrightHopeFarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "804-822-0400",
+      "email": "brighthopechesterfield@gmail.com",
+      "address": "Bright Hope Farm and Apiary - flowers, tulips, honey from hives on the farm, 10425 Spring Run Road, Chesterfield, VA 23832",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast-Richmond.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "brookdale-farm-va",
+    "name": "Brookdale Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Dairy",
+    "products": [
+      "Dairy",
+      "Pumpkins",
+      "Strawberries"
+    ],
+    "products_text": "Dairy; Pumpkins; Strawberries",
+    "website": "https://maps.google.com/maps?q=2133%20Mt.%20Pleasant%20Rd+23457",
+    "facebook_url": "https://www.facebook.com/brookdalefarmva",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 721-0558",
+      "email": "brookdalefarm.va@gmail.com",
+      "address": "Pleasant Rd, Chesapeake, VA 23457",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.6793761,
+      "longitude": -76.3017884,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "carter-mountain-orchard-va",
+    "name": "Carter Mountain Orchard",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Charlottesville",
+    "category": "Produce",
+    "products": [
+      "Apples",
+      "Nectarines",
+      "Peaches"
+    ],
+    "products_text": "Apples; Nectarines; Peaches",
+    "website": "https://chilesfamilyorchards.com/carter-mountain-orchard",
+    "facebook_url": "https://www.facebook.com/CarterMountainOrchard",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "434-977-1833",
+      "email": "Hello@CarterMountainOrchard.com",
+      "address": "Charlottesville, VA 22901",
+      "public": true
+    },
+    "geo": {
+      "latitude": 38.0376579,
+      "longitude": -78.4853806,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAalbe.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cromwell-s-produce-va",
+    "name": "Cromwell's Produce",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Produce",
+    "products": [
+      "Produce",
+      "Strawberries"
+    ],
+    "products_text": "Produce; Strawberries",
+    "website": "https://www.google.com/maps/place/3116+New+Bridge+Rd,+Virginia+Beach,+VA+23456/@36.720852,-75.988756,14z/data=!4m2!3m1!1s0x89bac3ff6160db6b:0xfabda03a459fa270?hl=en",
+    "facebook_url": "https://www.facebook.com/188165274558164",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "757-721-6226",
+      "email": "cromwellsproduce@gmail.com",
+      "address": "Cromwell's Produce - strawberries, Christmas trees3116 New Bridge Road, Virginia Beach, VA 23456",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "cullipher-berry-patch-and-pumpkin-patch-va",
+    "name": "Cullipher Berry Patch and Pumpkin Patch",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Honey/Specialty",
+    "products": [
+      "Apples",
+      "Honey",
+      "Pumpkins",
+      "Strawberries"
+    ],
+    "products_text": "Apples; Honey; Pumpkins; Strawberries",
+    "website": "https://www.cullipherfarm.com",
+    "facebook_url": "https://www.facebook.com/CullipherFarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 721-7456",
+      "email": "cullfarm@msn.com",
+      "address": "Cullipher Berry Patch and Pumpkin Patch - strawberries, pumpkins, Honey from hives on the farm 772 Princess Anne Road, Virginia Beach, VA 23456",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "faith-farms-va",
+    "name": "Faith Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Suffolk",
+    "category": "Produce",
+    "products": [
+      "Berries",
+      "Strawberries"
+    ],
+    "products_text": "Berries; Strawberries",
+    "website": "https://mapq.st/3-K3Yyjoxt",
+    "facebook_url": "https://www.facebook.com/Faith-Farms-1598316523718524",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757 620-8677",
+      "email": "faith_farms@verizon.net",
+      "address": "3259 Lake Prince Drive, Suffolk, VA 23434",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.6971573,
+      "longitude": -76.6347808,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "goose-hill-farm-va",
+    "name": "Goose Hill Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Franklin",
+    "category": "Mixed",
+    "products": [
+      "Corn",
+      "Strawberries"
+    ],
+    "products_text": "Corn; Strawberries",
+    "website": "https://mapq.st/ZzuXrz",
+    "facebook_url": "https://www.facebook.com/goosehillfarmva",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757 569-8453",
+      "email": "goosehillfarmva@gmail.com",
+      "address": "Goose Hill Farm - Strawberries 22173 Sedley Road, Franklin, VA 23851",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.6840142,
+      "longitude": -76.9413956,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "great-country-farms-va",
+    "name": "Great Country Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Bluemont",
+    "category": "Meat",
+    "products": [
+      "Apples",
+      "Berries",
+      "Blackberries",
+      "Blueberries",
+      "Broccoli",
+      "Cherries",
+      "Eggs",
+      "Grapes",
+      "Honey",
+      "Peaches",
+      "Plums",
+      "Pumpkins",
+      "Raspberries",
+      "Squash",
+      "Strawberries",
+      "Vegetables"
+    ],
+    "products_text": "Apples; Berries; Blackberries; Blueberries; Broccoli; Cherries; Eggs; Grapes; Honey; Peaches; Plums; Pumpkins; Raspberries; Squash; Strawberries; Vegetables",
+    "website": "https://www.greatcountryfarms.com",
+    "facebook_url": "https://www.facebook.com/GreatCountryFarms",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540 554 2073",
+      "email": "social@greatcountryfarms.com",
+      "address": "Bluemont, VA 20135",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "greenbrier-farms-va",
+    "name": "Greenbrier Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Meat",
+    "products": [
+      "Apples",
+      "Blackberries",
+      "Blueberries",
+      "Broccoli",
+      "Carrots",
+      "Corn",
+      "Cucumbers",
+      "Eggs",
+      "Flowers",
+      "Honey",
+      "Nectarines",
+      "Peaches",
+      "Peppers",
+      "Pumpkins",
+      "Squash",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Apples; Blackberries; Blueberries; Broccoli; Carrots; Corn; Cucumbers; Eggs; Flowers; Honey; Nectarines; Peaches; Peppers; Pumpkins; Squash; Strawberries; Tomatoes; Vegetables",
+    "website": "https://www.historicgreenbrierfarms.com/",
+    "facebook_url": "https://www.facebook.com/greenbrierfarmsnursery/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 421-2141",
+      "email": "torib@greenbrierfarms.info",
+      "address": "Chesapeake, VA 23322",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.6793761,
+      "longitude": -76.3017884,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hanks-christmas-tree-farm-va",
+    "name": "Hanks Christmas Tree Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Markham",
+    "category": "Honey/Specialty",
+    "products": [
+      "Corn",
+      "Honey",
+      "Pumpkins",
+      "Squash",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Corn; Honey; Pumpkins; Squash; Tomatoes; Vegetables",
+    "website": "https://www.hankschristmastrees.com/",
+    "facebook_url": "https://www.facebook.com/HartlandFarmandOrchard",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-532-0436",
+      "email": "hartlandfarm@gmail.com",
+      "address": "Christmas trees are located at 12234 Belle Meade Rd, Markham, VA 22643",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "henley-farm-and-henley-farm-market-va",
+    "name": "Henley Farm and Henley Farm Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Produce",
+    "products": [
+      "Beans",
+      "Blackberries",
+      "Broccoli",
+      "Cabbage",
+      "Corn",
+      "Potatoes",
+      "Pumpkins",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Beans; Blackberries; Broccoli; Cabbage; Corn; Potatoes; Pumpkins; Strawberries; Tomatoes; Vegetables",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/Henley-Farms-120621691351274/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 426-7501",
+      "email": "barbarahenley@cox.net",
+      "address": "3513 Charity Neck Road, Virginia Beach, VA 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hill-top-berry-farm-winery-va",
+    "name": "Hill Top Berry Farm & Winery",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Nellysford",
+    "category": "Mixed",
+    "products": [
+      "Blackberries"
+    ],
+    "products_text": "Blackberries",
+    "website": "https://www.hilltopberrywine.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "434-361-1266",
+      "email": "hilltop1@ntelos.net",
+      "address": "Hill Top Berry Farm & Winery - blackberries, gift shop, snacks and refreshment stand, restrooms, picnic area2800 Berry Hill Road, Nellysford, VA 22938",
+      "public": true
+    },
+    "geo": {
+      "latitude": 37.9238068,
+      "longitude": -78.8936097,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAalbe.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "hollin-farms-va",
+    "name": "Hollin Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Delaplane",
+    "category": "Meat",
+    "products": [
+      "Apples",
+      "Beans",
+      "Beef",
+      "Berries",
+      "Blackberries",
+      "Blueberries",
+      "Corn",
+      "Cucumbers",
+      "Flowers",
+      "Peaches",
+      "Pears",
+      "Peppers",
+      "Plums",
+      "Pumpkins",
+      "Raspberries",
+      "Squash",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Apples; Beans; Beef; Berries; Blackberries; Blueberries; Corn; Cucumbers; Flowers; Peaches; Pears; Peppers; Plums; Pumpkins; Raspberries; Squash; Strawberries; Tomatoes; Vegetables",
+    "website": "https://www.hollinfarms.com",
+    "facebook_url": "https://www.facebook.com/Hollin-Farms-180851738638678",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "540-592-3574",
+      "email": "hollinfarms@gmail.com",
+      "address": "Delaplane, VA 20144",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "holly-fork-farm-produce-and-pumpkin-patch-va",
+    "name": "Holly Fork Farm Produce and Pumpkin Patch",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Barhamsville",
+    "category": "Honey/Specialty",
+    "products": [
+      "Blackberries",
+      "Honey",
+      "Produce",
+      "Pumpkins",
+      "Raspberries",
+      "Strawberries"
+    ],
+    "products_text": "Blackberries; Honey; Produce; Pumpkins; Raspberries; Strawberries",
+    "website": "https://www.hollyforkfarm.com/",
+    "facebook_url": "https://www.facebook.com/Holly-Fork-Farm-Produce-Pumpkin-Patch-313444578804872/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "804 366 6349",
+      "email": "hollyforkfarm@gmail.com",
+      "address": "Barhamsville, VA 23011",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast-Richmond.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "land-of-promise-farms-va",
+    "name": "Land of Promise Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Corn",
+      "Pecans"
+    ],
+    "products_text": "Corn; Pecans",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/Land-of-Promise-Farms-223071081080664",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 421-3625",
+      "email": "bhorsley@vt.edu",
+      "address": "Land of Promise Farms - Pecans3169 Land of Promise Road, Virginia Beach, VA 23457",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "messick-s-farm-market-va",
+    "name": "Messick's Farm Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Bealeton",
+    "category": "Meat",
+    "products": [
+      "Beans",
+      "Blackberries",
+      "Corn",
+      "Eggs",
+      "Herbs",
+      "Peppers",
+      "Raspberries",
+      "Squash",
+      "Strawberries",
+      "Tomatoes"
+    ],
+    "products_text": "Beans; Blackberries; Corn; Eggs; Herbs; Peppers; Raspberries; Squash; Strawberries; Tomatoes",
+    "website": "https://www.messicksfarmmarket.com",
+    "facebook_url": "https://www.facebook.com/messicksfarmmarket",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(540)-439-8900",
+      "email": "manager@messicksfarmmarket.com",
+      "address": "Bealeton, VA 22712",
+      "public": true
+    },
+    "geo": {
+      "latitude": 38.5830145,
+      "longitude": -77.7787632,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "millfarm-christmas-trees-and-berry-farm-va",
+    "name": "Millfarm Christmas Trees and Berry farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Williamsburg",
+    "category": "Mixed",
+    "products": [
+      "Blackberries",
+      "Blueberries",
+      "Strawberries"
+    ],
+    "products_text": "Blackberries; Blueberries; Strawberries",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/millfarmchristmastrees",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757-566-2035",
+      "email": "",
+      "address": "Millfarm Christmas Trees and Berry farm - Uses natural growing practices, blackberries, blueberries, strawberries, 4900 Fenton Mill Rd, Williamsburg, VA 23188",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.2689453,
+      "longitude": -76.7086553,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "old-mcconnell-s-farm-va",
+    "name": "Old McConnell's Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Elberon",
+    "category": "Honey/Specialty",
+    "products": [
+      "Beans",
+      "Broccoli",
+      "Carrots",
+      "Corn",
+      "Cucumbers",
+      "Flowers",
+      "Herbs",
+      "Honey",
+      "Onions",
+      "Peppers",
+      "Squash",
+      "Tomatoes",
+      "Vegetables",
+      "Watermelons"
+    ],
+    "products_text": "Beans; Broccoli; Carrots; Corn; Cucumbers; Flowers; Herbs; Honey; Onions; Peppers; Squash; Tomatoes; Vegetables; Watermelons",
+    "website": "https://vagrown.va-vdacs.com/product.aspx?pid=80830",
+    "facebook_url": "https://www.facebook.com/oldmcconnellsfarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 814-4186",
+      "email": "oldmcconnellsfarm.com@gmail.com",
+      "address": "Elberon, VA 23846",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "please-write-me-va",
+    "name": "please write me",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Maidens",
+    "category": "Mixed",
+    "products": [
+      "Blackberries"
+    ],
+    "products_text": "Blackberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(804) 556-4164",
+      "email": "",
+      "address": "Maidens Thornless Blackberries - blackberries 2638 River Road West, Maidens, VA 23102",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Source requests current-status confirmation; retained as named QA candidate.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast-Richmond.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": "source requests current-status confirmation"
+  },
+  {
+    "id": "powers-produce-va",
+    "name": "Powers Produce",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Produce",
+    "products": [
+      "Broccoli",
+      "Peppers",
+      "Potatoes",
+      "Produce",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Broccoli; Peppers; Potatoes; Produce; Strawberries; Tomatoes; Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757 619-3292",
+      "email": "jessicathompson4@cox.net",
+      "address": "Powers Produce - Pick-your-own strawberries395 Ballahack Road, Chesapeake, Va 23322",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6793761,
+      "longitude": -76.3017884,
+      "precision": "city"
+    },
+    "notes": "Source requests current-status confirmation; retained as named QA candidate.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": "source requests current-status confirmation"
+  },
+  {
+    "id": "ryan-s-fruit-market-va",
+    "name": "Ryan's Fruit Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Timberville",
+    "category": "Produce",
+    "products": [
+      "Apples",
+      "Cider",
+      "Fruit",
+      "Peaches",
+      "Vegetables"
+    ],
+    "products_text": "Apples; Cider; Fruit; Peaches; Vegetables",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/ryansfruit",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-896-2181",
+      "email": "",
+      "address": "Ryan's Fruit Market - cherries118651 North Mountain Road, Timberville, VA 22853",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.6326601,
+      "longitude": -78.7737174,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAshenandoahvalley.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "salem-berry-farm-va",
+    "name": "Salem Berry Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Produce",
+    "products": [
+      "Strawberries",
+      "Vegetables"
+    ],
+    "products_text": "Strawberries; Vegetables",
+    "website": "https://mapq.st/13VHc8R",
+    "facebook_url": "https://www.facebook.com/SalemBerryFarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757 818-3156",
+      "email": "salemberryfarm@gmail.com",
+      "address": "Salem Berry Farm - Strawberries1763 Salem Road, Virginia Beach, VA 23456",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "survivor-farm-va",
+    "name": "Survivor Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Luray",
+    "category": "Mixed",
+    "products": [
+      "Blackberries",
+      "Potatoes",
+      "Raspberries",
+      "Tomatoes"
+    ],
+    "products_text": "Blackberries; Potatoes; Raspberries; Tomatoes",
+    "website": "https://www.google.com/maps?daddr=632+Lake+Arrowhead+Road+Luray+VA+22835",
+    "facebook_url": "https://www.facebook.com/Survivor-Farm-645868342148620/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-743-4790",
+      "email": "dhulver@embarqmail.com",
+      "address": "Survivor Farm - Blackberries, Black Raspberries, Red Raspberries, 632 Lake Arrowhead Road, Luray, VA 22835",
+      "public": true
+    },
+    "geo": {
+      "latitude": 38.6641843,
+      "longitude": -78.4544761,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-flip-flop-farmer-va",
+    "name": "The Flip Flop Farmer",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Beans",
+      "Blackberries",
+      "Corn",
+      "Cucumbers",
+      "Peppers",
+      "Potatoes",
+      "Squash",
+      "Strawberries",
+      "Tomatoes",
+      "Watermelons"
+    ],
+    "products_text": "Beans; Blackberries; Corn; Cucumbers; Peppers; Potatoes; Squash; Strawberries; Tomatoes; Watermelons",
+    "website": "https://mapq.st/Y9q9fp",
+    "facebook_url": "https://www.facebook.com/Flip-Flop-Farmer-203045989735075",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757 426-9908",
+      "email": "flipflopfarmer@yahoo.com",
+      "address": "The Flip Flop Farmer - strawberries3244 New Bridge Road, Virginia Beach, VA 23456",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "the-market-at-grelen-va",
+    "name": "The Market at Grelen",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Somerset",
+    "category": "Mixed",
+    "products": [
+      "Blackberries",
+      "Blueberries",
+      "Raspberries"
+    ],
+    "products_text": "Blackberries; Blueberries; Raspberries",
+    "website": "https://www.themarketatgrelen.com",
+    "facebook_url": "https://www.facebook.com/marketatgrelen-",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-672-7268",
+      "email": "info@themarketatgrelen.com",
+      "address": "Somerset, VA 22972",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAalbe.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "vaughan-farm-s-produce-va",
+    "name": "Vaughan Farm's Produce",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Meat",
+    "products": [
+      "Corn",
+      "Eggs",
+      "Fruit",
+      "Honey",
+      "Produce",
+      "Strawberries"
+    ],
+    "products_text": "Corn; Eggs; Fruit; Honey; Produce; Strawberries",
+    "website": "https://www.vaughanfarmsproduce.com/Home_Page.php",
+    "facebook_url": "https://www.facebook.com/vaughanfarmsproduce",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757-615-4888",
+      "email": "vaughanfarmsproduce@yahoo.com",
+      "address": "Virginia Beach, VA 23457",
+      "public": true
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "wegmeyer-farms-at-gilberts-corner-va",
+    "name": "Wegmeyer Farms at Gilberts Corner",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Aldie",
+    "category": "Produce",
+    "products": [
+      "Pumpkins",
+      "Strawberries"
+    ],
+    "products_text": "Pumpkins; Strawberries",
+    "website": "http://wegmeyerfarms.com/directions/",
+    "facebook_url": "https://www.facebook.com/Wegmeyer-Farms-344823077483",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-751-1782",
+      "email": "wegmeyerfarms@yahoo.com",
+      "address": "Wegmeyer Farms at Gilberts Corner - strawberries, pumpkins, U-pick and already picked, porta-potties are availableRoute 50 And Route 15 Intersection, Aldie, VA 20105",
+      "public": true
+    },
+    "geo": {
+      "latitude": 38.9761205,
+      "longitude": -77.6479848,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "white-oaks-preserve-va",
+    "name": "White Oaks Preserve",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Skipwith",
+    "category": "Mixed",
+    "products": [
+      "Blueberries"
+    ],
+    "products_text": "Blueberries",
+    "website": "https://www.whiteoakspreserve.com/",
+    "facebook_url": "https://www.facebook.com/whiteoakspreserve",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(919) 619-2260",
+      "email": "whiteoakspreserve@gmail.com",
+      "address": "White Oaks Preserve - No pesticides are used, blueberries, 18014 Highway 49, Skipwith, VA 23968",
+      "public": true
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast-Dinw.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": true,
+    "qa_reason": ""
+  },
+  {
+    "id": "yoders-farm-va",
+    "name": "Yoders' Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Rustburg",
+    "category": "Produce",
+    "products": [
+      "Corn",
+      "Pumpkins",
+      "Strawberries"
+    ],
+    "products_text": "Corn; Pumpkins; Strawberries",
+    "website": "https://www.yodersfarm.com",
+    "facebook_url": "https://www.facebook.com/yodersfarm/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "434-401-4864",
+      "email": "yodairy@gmail.com",
+      "address": "Yoders' Farm - strawberries, pumpkins, corn maze1134 Browns Mill Road, Rustburg, VA 24588",
+      "public": true
+    },
+    "geo": {
+      "latitude": 37.2722656,
+      "longitude": -79.1002756,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAroanoke.htm",
+      "retrieved": "2026-07-20"
     },
     "eligible": true,
     "qa_reason": ""

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "usda-market-313652",
+    "name": "Farm to Table Market at Greenbrier Nurseries",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Beckley",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://greenbriernurseries.com/",
+    "facebook_url": "https://www.facebook.com/Farm-to-Table-Market-at-Greenbrier-Nurseries-541609199250941",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-256-5775",
+      "email": "",
+      "address": "225 Pinewood Dr., Beckley, WV, 25891",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.80921671241722,
+      "longitude": -81.18874393619478,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-313658",
+    "name": "Grow OV Mobile Farmers Market",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Wheeling",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.growov.org",
+    "facebook_url": "http://www.facebook.com/growov",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "304-233-4769",
+      "email": "",
+      "address": "1006 GRANDVIEW ST, Wheeling, WV, 26003",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.07043318343467,
+      "longitude": -80.71878932875633,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-313683",
+    "name": "The Lewisburg Farmers' Market",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Lewisburg",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://lewisburgfarmersmarket.com",
+    "facebook_url": "https://www.facebook.com/FarmersMarketLewisburg",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "214 E WASHINGTON ST, Lewisburg, WV, 24901",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.80104792281453,
+      "longitude": -80.44430369186784,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

@@ -1,0 +1,1191 @@
+[
+  {
+    "id": "usda-market-308443",
+    "name": "Bisbee Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Bisbee",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/pages/Bisbee-Farmers-Market/177022835686159",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-559-8054",
+      "email": "",
+      "address": "100 W Vista, Bisbee, AZ, 85603",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.411815000000047,
+      "longitude": -109.87788999999998,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308448",
+    "name": "Chadwick's Urban Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Scottsdale",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "facebook.com/chadwicksmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "602-884-7977",
+      "email": "",
+      "address": "3703 N 69th St Unit 1, Scottsdale, AZ, 85251",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.49610000000007,
+      "longitude": -111.92618999999996,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308458",
+    "name": "Farm to Fantastic Farmers Market - Superior",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Superior",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/CopperCommunitiesFoodHub",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "707-337-5055",
+      "email": "",
+      "address": "300 Main Street, Superior, AZ, 85173",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.28955000000008,
+      "longitude": -111.10024499999997,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308460",
+    "name": "Flagstaff Community Markets",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Flagstaff",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.flagstaffmarket.com",
+    "facebook_url": "https://www.flagstaffmarket.com",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-774-7781",
+      "email": "",
+      "address": "421 W CEDAR AVE, Flagstaff, AZ, 86001",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.213191660075104,
+      "longitude": -111.64734808547651,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308461",
+    "name": "Florence Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Florence",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/events/508714503582203/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22search%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-868-4496",
+      "email": "",
+      "address": "24 W Ruggles Street, Florence, AZ, 85132",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.06747500000006,
+      "longitude": -111.47072499999996,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308464",
+    "name": "Gaslight Square Farmer's Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Phoenix",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "http://www.facebook.com/pages/Gaslight-Square-Farmers-Market-Concert-Series",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "925-876-7191",
+      "email": "",
+      "address": "3619 E INDIAN SCHOOL RD, Phoenix, AZ, 85018",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.495171755299985,
+      "longitude": -112.00350853076546,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308466",
+    "name": "Gila Valley Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Safford",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/gilavalleyfarmersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-428-2511",
+      "email": "",
+      "address": "1051 W Thatcher Boulevard, Safford, AZ, 85546",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.83000500000003,
+      "longitude": -109.71375499999999,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308467",
+    "name": "Globe-Miami Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Globe",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/gmfm2011",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-701-3097",
+      "email": "",
+      "address": "150 North Pine Street, Globe, AZ, 85501",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.39628000000005,
+      "longitude": -110.78204999999997,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308471",
+    "name": "Heirloom Farmers Market - Oro Valley (Steam Pump Ranch)",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Oro Valley",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.heirloomfm.org",
+    "facebook_url": "http://www.facebook.com/heirloomfarmersmarkets",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "10901 N ORACLE RD, Oro Valley, AZ, 85737",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.4051581558523,
+      "longitude": -110.9488066339273,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308472",
+    "name": "Heirloom Farmers Market - Rillito Park",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tucson",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://heirloomfm.org",
+    "facebook_url": "https://www.facebook.com/HeirloomFarmersMarkets",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "4502 N 1ST AVE, Tucson, AZ, 85718",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.28955229218169,
+      "longitude": -110.96107928628354,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308473",
+    "name": "Heirloom Farmers Market - Rincon Valley",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tucson",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.heirloomfm.org/markets/rincon-valley/",
+    "facebook_url": "http://www.facebook.com/heirloomfarmersmarkets",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "12500 E OLD SPANISH TRL, Tucson, AZ, 85747",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.12904469458948,
+      "longitude": -110.72577836936586,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308474",
+    "name": "Heirloom Farmers Markets - Udall Park",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tucson",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://www.heirloomfm.org",
+    "facebook_url": "http://www.facebook.com/heirloomfarmersmarkets",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "7202 E TANQUE VERDE RD, Tucson, AZ, 85715",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.2507690522166,
+      "longitude": -110.83946756870156,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308476",
+    "name": "Kingman Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Kingman",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.kingmanfarmersmarket.org",
+    "facebook_url": "https://www.facebook.com/OriginalKingmanFarmersMarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-377-3608",
+      "email": "",
+      "address": "102 E. Beale St., Kingman, AZ, 86401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.18984500000005,
+      "longitude": -114.05532499999998,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308486",
+    "name": "Nogales Mercado Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Nogales",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "http://www.facebook.com/nogalesmercado",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-604-2743",
+      "email": "",
+      "address": "163 N MORLEY AVE, Nogales, AZ, 85621",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.3345560717684,
+      "longitude": -110.94020856598029,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308489",
+    "name": "Old Town Scottsdale Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Scottsdale",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://arizonacommunityfarmersmarkets.com/old-town-scottsdale",
+    "facebook_url": "https://www.facebook.com/OldTownScottsdaleFarmersMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "480-330-4421",
+      "email": "",
+      "address": "3806 North Brown Avenue, Scottsdale, AZ, 85251",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.49610000000007,
+      "longitude": -111.92618999999996,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308491",
+    "name": "Oro Valley Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Oro Valley",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.heirloomfm.org/markets/oro-valley/",
+    "facebook_url": "https://www.facebook.com/HeirloomFarmersMarkets",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-882-2157",
+      "email": "",
+      "address": "10901 N Oracle Rd, Oro Valley, AZ, 85737",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.3894423874648,
+      "longitude": -110.9995444281193,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308492",
+    "name": "Page Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Page",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/pagefarmersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "500 S. Navajo Dr, Page, AZ, 86040",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.92001630000004,
+      "longitude": -111.45592569999997,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308493",
+    "name": "Palominas Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Hereford",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/palominasfarmersmarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "10164 AZ-92, Hereford, AZ, 85615",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.43567500000006,
+      "longitude": -110.24336999999997,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308494",
+    "name": "Park West Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Peoria",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.desertwestmarket.com/",
+    "facebook_url": "https://www.facebook.com/desertwestmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "9744 W Northern Ave, Peoria, AZ, 85345",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.581480000000056,
+      "longitude": -112.23544999999996,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308498",
+    "name": "Pine Strawberry Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Pine",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/PSFarmersMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "3774 AZ-87, Pine, AZ, 85544",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.38194000000004,
+      "longitude": -111.46340159999994,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308504",
+    "name": "Rillito Park Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tucson",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.heirloomfm.org/",
+    "facebook_url": "https://www.facebook.com/HeirloomFarmersMarkets",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-882-2157",
+      "email": "",
+      "address": "4502 N 1st Ave, Tucson, AZ, 85705",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.23322500000006,
+      "longitude": -110.96870499999994,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308505",
+    "name": "Rincon Valley Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tucson",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.heirloomfm.org/markets/rincon-valley/",
+    "facebook_url": "https://www.facebook.com/HeirloomFarmersMarkets",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "12500 East Old Spanish Trail,, Tucson, AZ, 85747",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.10883000000007,
+      "longitude": -110.79061499999995,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308508",
+    "name": "San Tan Valley Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "San Tan Valley",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "santanvalleyfarmersmarket.com/",
+    "facebook_url": "https://www.facebook.com/SanTanValleyFarmersMarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "480-788-3648",
+      "email": "",
+      "address": "2505 East Germann Road, San Tan Valley, AZ, 85140",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.24929000000003,
+      "longitude": -111.55720499999995,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308510",
+    "name": "Scottsdale Old Town Farmers' Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Scottsdale",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/OldTownScottsdaleFarmersMarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "602-224-0225",
+      "email": "",
+      "address": "3806 N. Brown Ave., Scottsdale, AZ, 85251",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.4914557636513,
+      "longitude": -111.92455876566306,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308515",
+    "name": "Sierra Vista Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Sierra Vista",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://www.sierravistafarmersmarkets.com/",
+    "facebook_url": "https://www.facebook.com/sierravistafarmersmarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "520-732-0350",
+      "email": "",
+      "address": "3105 E Fry Blvd, Sierra Vista, AZ, 85635",
+      "public": false
+    },
+    "geo": {
+      "latitude": 31.555985000000078,
+      "longitude": -110.29628499999995,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308519",
+    "name": "Sunnyside Farmers Market/Market of Dreams",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Flagstaff",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/MarketofDreams/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(928) 213-5900",
+      "email": "",
+      "address": "2532 E. 7th Ave, Flagstaff, AZ, 86004",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.21265000000005,
+      "longitude": -111.61568999999997,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308523",
+    "name": "Tempe Farmer's Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Tempe",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/tempefarmersmarket",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "480-557-9970",
+      "email": "",
+      "address": "805 S. Farmer Ave, Tempe, AZ, 85281",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.42316000000005,
+      "longitude": -111.94552439999995,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308532",
+    "name": "Verde Valley Farmers Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Camp Verde",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "https://verdevalleyfarmersmarket.com/",
+    "facebook_url": "https://www.facebook.com/verdevalleyfarmersmarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-634-7077",
+      "email": "",
+      "address": "Hollamon St and Main St, Camp Verde, AZ, 86322",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.56140840000006,
+      "longitude": -111.85713459999994,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-308535",
+    "name": "Yuma Community Farmers' Market",
+    "state": "AZ",
+    "region": "southwest",
+    "county": "",
+    "city": "Yuma",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "928-580-4482",
+      "email": "",
+      "address": "Yuma Palms, Yuma, AZ, 85364",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.701345403207206,
+      "longitude": -114.60319025636252,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]
