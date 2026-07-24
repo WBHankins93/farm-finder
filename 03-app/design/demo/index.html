@@ -97,6 +97,10 @@ h2.sec-title em { font-style: normal; color: var(--awning-600); }
 .show-more { border: 1.5px dashed var(--kraft-300); background: var(--cream-100); border-radius: var(--r-pill);
   padding: 12px; font: 700 13.5px var(--font-display); color: var(--awning-600); cursor: pointer; }
 .show-more:hover { border-color: var(--awning-600); }
+.area-banner { display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  border: 0; border-radius: 14px; padding: 12px 16px; cursor: pointer; text-align: left;
+  background: var(--awning-700); color: var(--butter-50); font: 700 13px var(--font-display); }
+.area-banner .area-clear { background: rgb(251 247 235 / .18); border-radius: var(--r-pill); padding: 4px 11px; }
 .farm-detail { background: var(--cream-100); border: 2px solid var(--awning-600); border-radius: 18px;
   padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; position: relative; }
 .farm-detail h3 { font: 700 18px var(--font-display); letter-spacing: -0.01em; padding-right: 30px; }
@@ -240,6 +244,7 @@ const GUIDES = [
 ];
 const SERVICES = [["farmersMarket","Farmers markets"],["onFarm","On-farm"],["csa","CSA"],["ships","Ships"],["onlineStore","Online"]];
 let farms = [], activeGuide = "All", map, mapReady = false, selectedId = null;
+let clusterIds = null; // farm ids inside a clicked cluster ("this area" filter)
 const PAGE = 40;
 let visibleCount = PAGE;
 
@@ -252,6 +257,7 @@ const matches = (f, gid) => {
 const filtered = () => {
   const q = document.getElementById("wq").value.trim().toLowerCase();
   return farms.filter((f) => {
+    if (clusterIds && !clusterIds.has(f.id)) return false;
     const hay = `${f.name} ${f.category} ${f.productsText} ${f.city} ${f.parish} ${f.region} ${f.notes}`.toLowerCase();
     return matches(f, activeGuide) && (!q || hay.includes(q));
   });
@@ -276,6 +282,7 @@ fetch("farms.json").then((r) => r.json()).then((data) => {
       activeGuide = activeGuide === g.id ? "All" : g.id;
       document.querySelectorAll(".guide-card").forEach((c) => c.classList.remove("active"));
       if (activeGuide === g.id) card.classList.add("active");
+      clusterIds = null;
       visibleCount = PAGE;
       render();
       document.getElementById("explore").scrollIntoView({ behavior: "smooth" });
@@ -292,15 +299,29 @@ fetch("farms.json").then((r) => r.json()).then((data) => {
   render();
   initMap();
 });
-document.getElementById("wq").addEventListener("input", () => { visibleCount = PAGE; render(); });
+function clearArea() {
+  clusterIds = null;
+  visibleCount = PAGE;
+  render();
+  if (mapReady) map.easeTo({ center: [-90.9, 30.9], zoom: 6 });
+}
+document.getElementById("wq").addEventListener("input", () => { clusterIds = null; visibleCount = PAGE; render(); });
 
 function render() {
   const list = document.getElementById("wlist");
   const items = filtered();
   const shown = Math.min(visibleCount, items.length);
-  document.getElementById("wcount").innerHTML =
-    `Showing <strong>${shown}</strong> of <strong>${items.length}</strong> farms`;
+  document.getElementById("wcount").innerHTML = clusterIds
+    ? `<strong>${items.length}</strong> farms in this map area`
+    : `Showing <strong>${shown}</strong> of <strong>${items.length}</strong> farms`;
   list.innerHTML = "";
+  if (clusterIds) {
+    const banner = document.createElement("button");
+    banner.className = "area-banner";
+    banner.innerHTML = `<span>Filtered to the area you clicked</span><span class="area-clear">Clear ✕</span>`;
+    banner.onclick = clearArea;
+    list.appendChild(banner);
+  }
   items.slice(0, visibleCount).forEach((f) => {
     const row = document.createElement("article");
     row.className = "farm-row" + (f.id === selectedId ? " selected" : "");
@@ -329,7 +350,7 @@ function render() {
 }
 function renderDetail(f) {
   const panel = document.getElementById("wdetail");
-  if (!f) { panel.hidden = true; panel.innerHTML = ""; return; }
+  if (!f) { panel.hidden = true; panel.className = ""; panel.innerHTML = ""; return; }
   const badges = [];
   if (f.onlineStore) badges.push(`<span class="badge-web">Orders on website</span>`);
   else if (f.hasWebsite) badges.push(`<span class="badge-web">Website</span>`);
@@ -397,10 +418,21 @@ function initMap() {
     map.addLayer({ id: "selected", type: "circle", source: "farms", filter: ["==", ["get", "id"], "__none__"],
       paint: { "circle-color": catMatch, "circle-radius": 11, "circle-stroke-width": 4, "circle-stroke-color": "#33632f" } });
     map.on("click", "points", (e) => select(e.features[0].properties.id));
-    map.on("click", "clusters", (e) => {
-      map.getSource("farms").getClusterExpansionZoom(e.features[0].properties.cluster_id)
-        .then((z) => map.easeTo({ center: e.features[0].geometry.coordinates, zoom: z }));
+    map.on("click", "clusters", async (e) => {
+      const src = map.getSource("farms");
+      const clusterId = e.features[0].properties.cluster_id;
+      const leaves = await src.getClusterLeaves(clusterId, 500, 0);
+      clusterIds = new Set(leaves.map((l) => l.properties.id));
+      visibleCount = PAGE;
+      selectedId = null;
+      renderDetail(null);
+      render();
+      document.getElementById("explore").scrollIntoView({ behavior: "smooth" });
+      const z = await src.getClusterExpansionZoom(clusterId);
+      map.easeTo({ center: e.features[0].geometry.coordinates, zoom: z });
     });
+    map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
+    map.on("mouseleave", "clusters", () => (map.getCanvas().style.cursor = ""));
     map.on("mouseenter", "points", () => (map.getCanvas().style.cursor = "pointer"));
     map.on("mouseleave", "points", () => (map.getCanvas().style.cursor = ""));
   });

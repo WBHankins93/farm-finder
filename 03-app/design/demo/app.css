@@ -185,9 +185,12 @@ body {
 #map { position: absolute; inset: 0; }
 .map-top { position: absolute; top: max(20px, calc(env(safe-area-inset-top) + 10px)); left: 0; right: 0; z-index: 5; padding: 0 14px; }
 .map-chips .h-chip { box-shadow: var(--shadow-1); }
-.map-query { margin: 8px 2px 0; border: 0; border-radius: var(--r-pill); padding: 9px 15px;
-  background: var(--tomato-500); color: #fff; font: 700 12.5px var(--font-display);
+.map-active-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.map-query, .map-area { border: 0; border-radius: var(--r-pill); padding: 9px 15px;
+  font: 700 12.5px var(--font-display); color: #fff;
   box-shadow: var(--shadow-1); cursor: pointer; }
+.map-query { background: var(--tomato-500); }
+.map-area { background: var(--awning-700); }
 .map-carousel {
   position: absolute; left: 0; right: 0; bottom: 106px; z-index: 5;
   display: flex; gap: 12px; overflow-x: auto; padding: 8px 16px;

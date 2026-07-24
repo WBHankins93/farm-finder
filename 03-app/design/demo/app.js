@@ -107,9 +107,11 @@ function setGuide(id) {
     const target = c.dataset.guide || "All";
     c.classList.toggle("active", target === activeGuide);
   });
+  clusterIds = null; // a product change re-clusters the map, so the old "area" set is stale
   renderFeatured();
   if (mapReady) refreshMapData();
   renderCarousel();
+  updateAreaChip();
 }
 
 /* ---------- cards ---------- */
@@ -170,10 +172,12 @@ function renderFeatured() {
   }
 }
 function onSearchChange() {
+  clusterIds = null; // a new query re-clusters the map, so the old "area" set is stale
   renderFeatured();
   if (mapReady) refreshMapData();
   renderCarousel();
   updateQueryChip();
+  updateAreaChip();
 }
 function updateQueryChip() {
   const chip = $("#map-query");
@@ -184,6 +188,12 @@ function updateQueryChip() {
 $("#map-query").addEventListener("click", () => {
   $("#home-search").value = "";
   onSearchChange();
+});
+$("#map-area").addEventListener("click", () => {
+  clusterIds = null;
+  renderCarousel();
+  updateAreaChip();
+  $("#map-reset").hidden = true;
 });
 $("#home-search").addEventListener("input", onSearchChange);
 $("#home-search-go").addEventListener("click", () => go("explore"));
@@ -276,9 +286,22 @@ function initMap() {
   });
   $("#map-reset").addEventListener("click", () => {
     selectFarm(null);
+    clusterIds = null;
+    renderCarousel();
+    updateAreaChip();
     map.easeTo({ center: [-90.9, 30.7], zoom: 6.1 });
     $("#map-reset").hidden = true;
   });
+}
+function updateAreaChip() {
+  const chip = $("#map-area");
+  if (!chip) return;
+  if (clusterIds) {
+    chip.hidden = false;
+    chip.textContent = `This area: ${clusterIds.size} farms ✕`;
+  } else {
+    chip.hidden = true;
+  }
 }
 function refreshMapData() {
   map.getSource("farms")?.setData(geojson());
@@ -297,7 +320,8 @@ function selectFarm(id, { fly = true } = {}) {
 function renderCarousel() {
   const el = $("#map-carousel");
   el.innerHTML = "";
-  farms.filter((f) => matchesFilters(f) && f.latitude).slice(0, 40).forEach((f) => {
+  const pool = farms.filter((f) => matchesFilters(f) && f.latitude && (!clusterIds || clusterIds.has(f.id)));
+  pool.slice(0, 60).forEach((f) => {
     const card = farmCard(f, { compact: true });
     // First tap selects + flies to the pin; "Details →" (or a second tap) opens the sheet.
     card.addEventListener("click", (e) => {
