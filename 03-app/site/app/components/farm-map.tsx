@@ -63,7 +63,11 @@ export default function FarmMap({
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
-    if (!maplibregl.supported()) {
+    // `maplibregl.supported()` was removed in newer MapLibre versions; guard the
+    // call so its absence doesn't throw. WebGL failures still surface via the
+    // try/catch around map construction below.
+    const supportsMap = (maplibregl as { supported?: () => boolean }).supported;
+    if (typeof supportsMap === "function" && !supportsMap()) {
       // WebGL capability is the external browser state synchronized by this effect.
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setMapError("The interactive map is unavailable in this browser.");

@@ -2,8 +2,8 @@
 
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import farmsData from "./data/farms.json";
 import { categoryColors, serviceLabels, type Farm } from "./lib/farms";
+import { useFarms, nearestFarms, requestLocation, farmDistanceKm, DEFAULT_ORIGIN, type LatLng } from "./lib/nearby";
 
 const MapCanvas = dynamic(() => import("./components/farm-map"), {
   ssr: false,
@@ -35,7 +35,6 @@ type AskAnswer = {
   productId?: string;
 };
 
-const farms = farmsData as Farm[];
 const categories = [
   "All",
   "Produce",
@@ -186,7 +185,7 @@ function farmSummary(farm: Farm) {
   return `FarmFinder lists ${farm.name}, a ${farm.category.toLocaleLowerCase()} producer near ${place}. Known products include ${farm.productsText}. ${howToBuy}${note}`;
 }
 
-function answerFarmQuestion(question: string): AskAnswer {
+function answerFarmQuestion(question: string, farms: Farm[]): AskAnswer {
   const normalized = question.trim().toLocaleLowerCase();
   if (!normalized) {
     return {
@@ -424,6 +423,10 @@ function FarmProfileDialog({
 }
 
 export default function Home() {
+  const { farms, loading, error } = useFarms();
+  const [userOrigin, setUserOrigin] = useState<LatLng | null>(null);
+  const [locating, setLocating] = useState(false);
+  const [listLimit, setListLimit] = useState(60);
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("All");
   const [product, setProduct] = useState("All");
@@ -461,7 +464,13 @@ export default function Home() {
         (!askFarmIds || askFarmIds.includes(farm.id))
       );
     });
-  }, [query, category, product, state, services, askFarmIds]);
+  }, [farms, query, category, product, state, services, askFarmIds]);
+
+  // Location-first: nearest to the visitor (or the launch market by default),
+  // then render only the closest slice — the full match set still feeds the map.
+  const listOrigin = userOrigin ?? DEFAULT_ORIGIN;
+  const sortedFarms = useMemo(() => nearestFarms(listOrigin, filteredFarms), [filteredFarms, listOrigin]);
+  const visibleList = sortedFarms.slice(0, listLimit);
 
   const selectedFarm = selectedId ? farms.find((farm) => farm.id === selectedId) || null : null;
   const profileFarm = profileId ? farms.find((farm) => farm.id === profileId) || null : null;
@@ -473,8 +482,18 @@ export default function Home() {
   const csaCount = farms.filter((farm) => farm.csa).length;
   const productCounts = useMemo(
     () => Object.fromEntries(productGuides.map((guide) => [guide.id, farms.filter((farm) => farmMatchesProduct(farm, guide.id)).length])),
-    [],
+    [farms],
   );
+
+  async function locate() {
+    setLocating(true);
+    const loc = await requestLocation();
+    setLocating(false);
+    if (loc) {
+      setUserOrigin(loc);
+      setListLimit(60);
+    }
+  }
 
   useEffect(() => {
     if (selectedId && !filteredFarms.some((farm) => farm.id === selectedId)) {
@@ -531,7 +550,7 @@ export default function Home() {
 
   function runQuestion(text = question) {
     setQuestion(text);
-    setAnswer(answerFarmQuestion(text));
+    setAnswer(answerFarmQuestion(text, farms));
   }
 
   function applyAnswerResults() {
@@ -763,16 +782,26 @@ export default function Home() {
           <div className={`explorer view-${viewMode}`}>
             <div className="farm-list-panel">
               <div className="results-meta">
-                <p aria-live="polite"><strong>{filteredFarms.length}</strong> {filteredFarms.length === 1 ? "farm" : "farms"} found</p>
-                <span>Alphabetical</span>
+                <p aria-live="polite"><strong>{filteredFarms.length.toLocaleString()}</strong> {filteredFarms.length === 1 ? "farm" : "farms"} found</p>
+                <button type="button" className="locate-btn" onClick={locate} disabled={locating}>
+                  {locating ? "Finding you…" : userOrigin ? "Nearest you ✓" : "Nearest me"}
+                </button>
               </div>
               <div className="farm-list">
-                {filteredFarms.map((farm, index) => (
+                {loading && (
+                  <div className="empty-state" role="status"><span aria-hidden="true">◍</span><h3>Loading the directory…</h3><p>Fetching farms across all 50 states.</p></div>
+                )}
+                {error && !loading && (
+                  <div className="empty-state" role="alert"><span aria-hidden="true">⚠</span><h3>{error}</h3><p>Refresh to try again.</p></div>
+                )}
+                {!loading && !error && visibleList.map((farm) => {
+                  const km = farmDistanceKm(listOrigin, farm);
+                  const miles = Number.isFinite(km) ? Math.round(km * 0.621) : null;
+                  return (
                   <article className={`farm-card ${selectedId === farm.id ? "selected" : ""}`} key={farm.id}>
                     <button className="farm-card-main" type="button" onClick={() => selectFarm(farm.id)} aria-label={`Show ${farm.name} on the map`}>
-                      <span className="card-index">{String(index + 1).padStart(3, "0")}</span>
                       <div className="card-body">
-                        <p className="card-category"><i style={{ background: categoryColors[farm.category] || "#59604c" }} />{farm.category}</p>
+                        <p className="card-category"><i style={{ background: categoryColors[farm.category] || "#59604c" }} />{farm.category}{miles !== null && <span className="card-distance">{miles} mi</span>}</p>
                         <h3>{farm.name}</h3>
                         <p className="card-place">{farm.city}, {farm.state} <span>·</span> {farm.parish}</p>
                         <p className="card-products">{farm.products.slice(0, 4).join(" · ") || farm.productsText}</p>
@@ -788,8 +817,14 @@ export default function Home() {
                         {farm.contact && <span>{farm.contact}</span>}
                     </div>
                   </article>
-                ))}
-                {filteredFarms.length === 0 && (
+                  );
+                })}
+                {!loading && !error && sortedFarms.length > visibleList.length && (
+                  <button type="button" className="load-more" onClick={() => setListLimit((n) => n + 60)}>
+                    Show more farms ({(sortedFarms.length - visibleList.length).toLocaleString()} more)
+                  </button>
+                )}
+                {!loading && !error && filteredFarms.length === 0 && (
                   <div className="empty-state">
                     <span aria-hidden="true">○</span>
                     <h3>No farms match those filters—yet.</h3>
