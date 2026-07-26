@@ -46,3 +46,6 @@ next-env.d.ts
 # Curated farm photography is licensed for local design review and is not
 # committed. Source records and intended placements live in docs/design/.
 /public/local-farm-images/
+
+# Generated runtime feed (regenerate: python3 scripts/build-web-feed.py)
+public/farms.json

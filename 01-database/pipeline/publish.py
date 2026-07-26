@@ -16,21 +16,28 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from cleanse import aggregate_dedupe, near_duplicate_clusters
 from model import Farm
 
 
-def to_app_records(farms: list[Farm], eligible_only: bool = True) -> list[dict]:
+def to_app_records(farms: list[Farm], eligible_only: bool = True) -> tuple[list[dict], int]:
+    """Build the app feed. Applies a feed-level safety-net dedupe across all
+    states, then sorts. Returns (records, merged_count)."""
     rows = [f for f in farms if f.eligible] if eligible_only else list(farms)
+    rows, merged = aggregate_dedupe(rows)
     rows.sort(key=lambda f: (f.state, f.name.lower()))
-    return [f.to_app_record() for f in rows]
+    return [f.to_app_record() for f in rows], merged
 
 
 def write_app_json(farms: list[Farm], path: Path, eligible_only: bool = True) -> dict:
-    records = to_app_records(farms, eligible_only=eligible_only)
+    records, merged = to_app_records(farms, eligible_only=eligible_only)
+    near_dups = near_duplicate_clusters([f for f in farms if not eligible_only or f.eligible])
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(records, indent=2, ensure_ascii=False) + "\n")
     return {
         "written": len(records),
+        "cross_file_merged": merged,
+        "near_dup_clusters": near_dups,
         "mappable": sum(1 for r in records if r["geoPrecision"] != "ungeocoded"),
         "with_contact": sum(1 for r in records if r["contact"]),
         "path": str(path),

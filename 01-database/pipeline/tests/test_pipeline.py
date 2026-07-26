@@ -101,6 +101,37 @@ class TestDedupe(unittest.TestCase):
         self.assertEqual(normalized_name("Smith Farms LLC"), normalized_name("Smith Farm"))
 
 
+class TestAggregateDedupe(unittest.TestCase):
+    def test_merges_exact_cross_file_collision(self):
+        from cleanse import aggregate_dedupe
+        a = farm(name="Bayou Farm", state="LA", county="Acadia", on_farm=True)
+        b = farm(name="Bayou Farm", state="LA", county="Acadia", farmers_market=True)
+        out, merged = aggregate_dedupe([a, b])
+        self.assertEqual((merged, len(out)), (1, 1))
+        self.assertTrue(out[0].on_farm and out[0].farmers_market)
+
+    def test_keeps_cross_county_same_name(self):
+        from cleanse import aggregate_dedupe
+        out, merged = aggregate_dedupe([
+            farm(name="Bayou Farm", county="Acadia"),
+            farm(name="Bayou Farm", county="Vermilion"),
+        ])
+        self.assertEqual((merged, len(out)), (0, 2))
+
+    def test_near_dup_reporter_ignores_city_centroids(self):
+        from cleanse import near_duplicate_clusters
+        # Same city centroid, unrelated names -> not a near-dup.
+        a = farm(name="Alpha Ranch", geo=Geo(30.0, -90.0, "city"))
+        b = farm(name="Beta Gardens", geo=Geo(30.0, -90.0, "city"))
+        self.assertEqual(near_duplicate_clusters([a, b]), 0)
+
+    def test_near_dup_reporter_flags_precise_name_variants(self):
+        from cleanse import near_duplicate_clusters
+        a = farm(name="Highland Springs Farm", geo=Geo(33.9, -117.0, "point"))
+        b = farm(name="Highland Springs Farm at Resort", geo=Geo(33.9, -117.0, "point"))
+        self.assertEqual(near_duplicate_clusters([a, b]), 1)
+
+
 class TestEligibility(unittest.TestCase):
     def test_named_and_placed_is_eligible(self):
         f = farm(provenance=Provenance(source="LDAF"))

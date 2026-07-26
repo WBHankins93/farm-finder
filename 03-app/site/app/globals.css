@@ -490,3 +490,39 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Location-first list controls (PR: app renders the real directory) */
+.results-meta .locate-btn {
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--line, #d7d9cf);
+  background: var(--panel, #fff);
+  color: var(--ink, #23281f);
+  cursor: pointer;
+}
+.results-meta .locate-btn:hover { border-color: #173f2c; }
+.results-meta .locate-btn:disabled { opacity: 0.6; cursor: default; }
+.card-distance {
+  margin-left: auto;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #5c6b57;
+  letter-spacing: 0.02em;
+}
+.card-category { display: flex; align-items: center; gap: 0.4rem; }
+.load-more {
+  width: 100%;
+  font: inherit;
+  font-weight: 600;
+  padding: 0.85rem;
+  margin-top: 0.5rem;
+  border-radius: 12px;
+  border: 1px dashed var(--line, #cfd2c6);
+  background: transparent;
+  color: #173f2c;
+  cursor: pointer;
+}
+.load-more:hover { background: rgba(23, 63, 44, 0.05); }
