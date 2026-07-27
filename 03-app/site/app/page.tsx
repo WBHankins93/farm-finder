@@ -474,8 +474,8 @@ export default function Home() {
 
   const selectedFarm = selectedId ? farms.find((farm) => farm.id === selectedId) || null : null;
   const profileFarm = profileId ? farms.find((farm) => farm.id === profileId) || null : null;
-  const louisianaCount = farms.filter((farm) => farm.state === "LA").length;
-  const mississippiCount = farms.filter((farm) => farm.state === "MS").length;
+  const statesCovered = useMemo(() => new Set(farms.map((farm) => farm.state)).size, [farms]);
+  const mappedCount = useMemo(() => farms.filter((farm) => farm.geoPrecision !== "ungeocoded").length, [farms]);
   const websiteGap = farms.filter((farm) => !farm.hasWebsite).length;
   const cityLevelCount = farms.filter((farm) => farm.geoPrecision === "city").length;
   const marketCount = farms.filter((farm) => farm.farmersMarket).length;
@@ -599,15 +599,15 @@ export default function Home() {
             <i className="atlas-pin atlas-pin-three" />
           </div>
           <div className="hero-stamp" aria-hidden="true">Release 001<br />July 2026</div>
-          <p className="hero-kicker">Louisiana + Mississippi · Expanding region by region</p>
+          <p className="hero-kicker">Local farms in all 50 states · Fresh food, close to home</p>
           <h1 id="hero-title">Find the farms<br /><em>behind your <span>food.</span></em></h1>
-          <p className="hero-copy">See what nearby farms grow, raise, catch, and make—and the best confirmed way to buy from them.</p>
-          <a className="hero-cta" href="#discover">Search {farms.length} farms <span>↓</span></a>
+          <p className="hero-copy">See what the farms near you grow, raise, catch, and make—and the simplest confirmed way to buy from each one.</p>
+          <a className="hero-cta" href="#discover">Search {farms.length.toLocaleString()} farms <span>↓</span></a>
           <div className="hero-stats" aria-label="Directory coverage">
-            <div><strong>{farms.length}</strong><span>unique farms mapped</span></div>
-            <div><strong>{louisianaCount}</strong><span>Louisiana listings</span></div>
-            <div><strong>{mississippiCount}</strong><span>Mississippi listings</span></div>
-            <p>Sources shown in every profile · Approximate map pins labeled · Updated July 2026</p>
+            <div><strong>{farms.length.toLocaleString()}</strong><span>farms in the directory</span></div>
+            <div><strong>{statesCovered}</strong><span>states covered</span></div>
+            <div><strong>{mappedCount.toLocaleString()}</strong><span>on the map</span></div>
+            <p>Sources shown in every profile · Approximate pins labeled · Updated July 2026</p>
           </div>
         </section>
 
@@ -685,7 +685,8 @@ export default function Home() {
           </div>
           <div className="product-guide-grid">
             {(showAllProducts ? productGuides : productGuides.slice(0, 6)).map((guide, index) => (
-              <article className="product-guide-card" key={guide.id} style={{ "--product-color": guide.color } as React.CSSProperties}>
+              <article className="product-guide-card" key={guide.id} style={{ "--product-color": guide.color, "--tile-img": `url(/images/products/${guide.id}.webp)` } as React.CSSProperties}>
+                <div className="product-card-media" aria-hidden="true" />
                 <div className="product-card-top"><span>{String(index + 1).padStart(2, "0")}</span><strong>{productCounts[guide.id]}</strong></div>
                 <h3>{guide.label}</h3>
                 <p>{guide.description}</p>

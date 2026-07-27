@@ -1,16 +1,21 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { Geist, Newsreader } from "next/font/google";
+import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Approved "Market Stand" pairing — warm plain geometric sans, weight-driven
+// hierarchy. No serif/display-serif (deliberately retired).
+const jakarta = Plus_Jakarta_Sans({
+  variable: "--font-jakarta",
   subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
+  display: "swap",
 });
 
-const newsreader = Newsreader({
-  variable: "--font-newsreader",
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -20,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const protocol = requestHeaders.get("x-forwarded-proto") || (host.startsWith("localhost") ? "http" : "https");
   const metadataBase = new URL(`${protocol}://${host}`);
   const title = "FarmFinder — Find the farms behind your food";
-  const description = "Search 299 independent farms and local-food producers in Louisiana and Mississippi. Compare products, ways to buy, source details, and map accuracy before you visit.";
+  const description = "Find local farms near you across all 50 states — see what they grow, raise, catch, and make, and the confirmed way to buy from each one.";
 
   return {
     metadataBase,
@@ -46,7 +51,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${newsreader.variable}`}>
+    <html lang="en" className={`${dmSans.variable} ${jakarta.variable}`}>
       <body className="antialiased">{children}</body>
     </html>
   );
