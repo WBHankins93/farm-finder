@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import maplibregl, { type ExpressionSpecification, type GeoJSONSource, type Map as MapLibreMap } from "maplibre-gl";
 import type { FeatureCollection, Point } from "geojson";
 import { categoryColors, serviceLabels, type Farm } from "../lib/farms";
+import { Mark, markForCategory } from "../lib/marks";
 
 const categoryExpression: ExpressionSpecification = [
   "match",
@@ -257,7 +258,7 @@ export default function FarmMap({
         <aside className="map-detail" aria-label={`${selectedFarm.name} details`}>
           <button className="detail-close" type="button" onClick={() => onSelect(null)} aria-label="Close farm details">×</button>
           <div className="detail-kicker">
-            <i style={{ background: categoryColors[selectedFarm.category] || "#596b60" }} />
+            <Mark name={markForCategory(selectedFarm.category)} style={{ color: categoryColors[selectedFarm.category] || "#596b60" }} />
             {selectedFarm.category}
           </div>
           <h3>{selectedFarm.name}</h3>

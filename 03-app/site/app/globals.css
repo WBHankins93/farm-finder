@@ -545,3 +545,42 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   background-size: cover;
   background-position: center;
 }
+
+/* ─── Field-marks (app/lib/marks.tsx) ────────────────────────────────
+   Single-weight line icons; they inherit currentColor and the category
+   color travels in inline `style={{ color }}`. Dual-encodes every
+   category as icon + color + text. See docs/design/visual-language-*. */
+.mark { width: 1.1em; height: 1.1em; flex: 0 0 auto; vertical-align: -0.2em; margin-right: 0.42em; }
+.card-category .mark { margin-right: 0; }            /* flex row already gaps */
+.category-row button .mark, .product-filter-row button .mark { vertical-align: -0.24em; }
+.detail-kicker .mark, .profile-kicker .mark { vertical-align: -0.22em; }
+
+/* Harvest cards: the category mark stands in for a missing product photo
+   and overlays one when present (imagery-kit fallback contract). */
+.product-card-media { display: grid; place-items: center; }
+.product-card-glyph { width: 56px; height: 56px; margin: 0; color: var(--cream); opacity: 0.92; }
+
+/* ─── Scroll-driven motion — compositor-only, progressive enhancement ──
+   Gated on @supports + no-preference so it never runs under reduced
+   motion or in unsupporting browsers. transform/opacity only. (§2.8) */
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .topbar::after {
+      content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px;
+      background: var(--rust); transform: scaleX(0); transform-origin: left;
+      animation: scroll-survey linear both; animation-timeline: scroll(root);
+    }
+  }
+}
+@keyframes scroll-survey { to { transform: scaleX(1); } }
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .section-number {
+      animation: mark-draw linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 30%;
+    }
+  }
+}
+@keyframes mark-draw { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: none; } }
