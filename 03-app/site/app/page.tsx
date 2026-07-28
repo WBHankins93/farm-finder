@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { categoryColors, serviceLabels, type Farm } from "./lib/farms";
+import { Mark, markForCategory, markForProduct } from "./lib/marks";
 import { useFarms, nearestFarms, requestLocation, farmDistanceKm, DEFAULT_ORIGIN, type LatLng } from "./lib/nearby";
 
 const MapCanvas = dynamic(() => import("./components/farm-map"), {
@@ -343,7 +344,7 @@ function FarmProfileDialog({
       <article className="profile-dialog" role="dialog" aria-modal="true" aria-labelledby="profile-title">
         <header className="profile-header">
           <div>
-            <p className="profile-kicker"><i style={{ background: categoryColors[farm.category] || "#59604c" }} />{farm.category} · Farm profile</p>
+            <p className="profile-kicker"><Mark name={markForCategory(farm.category)} />{farm.category} · Farm profile</p>
             <h2 id="profile-title">{farm.name}</h2>
             <p>{farm.city}, {farm.state} · {farm.parish} {farm.state === "LA" ? "Parish" : "County"}</p>
           </div>
@@ -686,7 +687,7 @@ export default function Home() {
           <div className="product-guide-grid">
             {(showAllProducts ? productGuides : productGuides.slice(0, 6)).map((guide, index) => (
               <article className="product-guide-card" key={guide.id} style={{ "--product-color": guide.color, "--tile-img": `url(/images/products/${guide.id}.webp)` } as React.CSSProperties}>
-                <div className="product-card-media" aria-hidden="true" />
+                <div className="product-card-media" aria-hidden="true">{markForProduct(guide.id) && <Mark name={markForProduct(guide.id)!} className="mark product-card-glyph" />}</div>
                 <div className="product-card-top"><span>{String(index + 1).padStart(2, "0")}</span><strong>{productCounts[guide.id]}</strong></div>
                 <h3>{guide.label}</h3>
                 <p>{guide.description}</p>
@@ -747,7 +748,7 @@ export default function Home() {
           <div className="category-row" aria-label="Filter by farm category">
             {categories.map((item) => (
               <button key={item} type="button" className={category === item ? "active" : ""} onClick={() => setCategory(item)} aria-pressed={category === item}>
-                {item !== "All" && <i style={{ background: categoryColors[item] }} />}{item}
+                {item !== "All" && <Mark name={markForCategory(item)} style={{ color: categoryColors[item] }} />}{item}
               </button>
             ))}
           </div>
@@ -757,7 +758,7 @@ export default function Home() {
             <button type="button" className={product === "All" ? "active" : ""} onClick={() => { setProduct("All"); setAskFarmIds(null); }} aria-pressed={product === "All"}>All products</button>
             {productGuides.map((guide) => (
               <button key={guide.id} type="button" className={product === guide.id ? "active" : ""} onClick={() => { setProduct(guide.id); setAskFarmIds(null); }} aria-pressed={product === guide.id}>
-                <i style={{ background: guide.color }} />{guide.shortLabel} <small>{productCounts[guide.id]}</small>
+                {markForProduct(guide.id) && <Mark name={markForProduct(guide.id)!} style={{ color: guide.color }} />}{guide.shortLabel} <small>{productCounts[guide.id]}</small>
               </button>
             ))}
           </div>
@@ -802,7 +803,7 @@ export default function Home() {
                   <article className={`farm-card ${selectedId === farm.id ? "selected" : ""}`} key={farm.id}>
                     <button className="farm-card-main" type="button" onClick={() => selectFarm(farm.id)} aria-label={`Show ${farm.name} on the map`}>
                       <div className="card-body">
-                        <p className="card-category"><i style={{ background: categoryColors[farm.category] || "#59604c" }} />{farm.category}{miles !== null && <span className="card-distance">{miles} mi</span>}</p>
+                        <p className="card-category"><Mark name={markForCategory(farm.category)} style={{ color: categoryColors[farm.category] || "#59604c" }} />{farm.category}{miles !== null && <span className="card-distance">{miles} mi</span>}</p>
                         <h3>{farm.name}</h3>
                         <p className="card-place">{farm.city}, {farm.state} <span>·</span> {farm.parish}</p>
                         <p className="card-products">{farm.products.slice(0, 4).join(" · ") || farm.productsText}</p>
