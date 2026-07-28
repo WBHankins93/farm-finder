@@ -149,7 +149,7 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
 .product-guide-more:hover { background: var(--ink); color: var(--cream); }
 
 .field-story { min-height: 470px; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(360px, .85fr); border-bottom: 1px solid var(--ink); background: var(--ink); color: var(--cream); }
-.field-story-photo { min-height: 470px; position: relative; background-color: #526450; background-image: linear-gradient(90deg, rgba(23, 37, 29, .08), rgba(23, 37, 29, .28)), url("/local-farm-images/farmers-market-produce.jpg"); background-size: cover; background-position: center 63%; }
+.field-story-photo { min-height: 470px; position: relative; }
 .field-story-photo span { position: absolute; left: 18px; bottom: 16px; color: rgba(255, 255, 255, .82); font-size: 10px; letter-spacing: .04em; text-shadow: 0 1px 4px rgba(0, 0, 0, .5); }
 .field-story-copy { display: flex; flex-direction: column; justify-content: center; padding: clamp(44px, 7vw, 100px); border-left: 1px solid rgba(255, 255, 255, .38); }
 .field-story-copy .section-number { color: #f0a376; }
@@ -541,7 +541,11 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
 }
 .field-story-photo {
   background-color: #445a3a;
-  background-image: var(--field-img, url(/images/hero.webp));
+  /* Green ink-wash grade keeps photography from fighting the atlas and keeps
+     the bottom-left credit legible. Image: USDA ARS, public domain. */
+  background-image:
+    linear-gradient(180deg, rgba(23, 63, 44, 0.12) 0%, rgba(23, 37, 29, 0.55) 100%),
+    var(--field-img, url(/images/field-story.webp));
   background-size: cover;
   background-position: center;
 }
