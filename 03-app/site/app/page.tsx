@@ -705,8 +705,8 @@ export default function Home() {
         </section>
 
         <section className="field-story" aria-labelledby="field-story-title">
-          <div className="field-story-photo" role="img" aria-label="Fresh greens arranged at an outdoor farmers market">
-            <span>Farmers market produce · Photo: Natalia S</span>
+          <div className="field-story-photo" role="img" aria-label="A farm harvest of radishes, kale, and lettuce on a wooden table">
+            <span>Fresh farm produce · USDA ARS (public domain)</span>
           </div>
           <div className="field-story-copy">
             <p className="section-number">A useful field guide, not a promise of live stock</p>
