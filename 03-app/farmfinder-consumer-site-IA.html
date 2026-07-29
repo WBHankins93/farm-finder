@@ -27,7 +27,7 @@
   nav.toc a{display:block;color:#d9d1bf;text-decoration:none;font-size:13.5px;padding:5px 0;
         font-family:system-ui,-apple-system,sans-serif;border-left:2px solid transparent;padding-left:10px;margin-left:-10px;}
   nav.toc a:hover{color:#fff;border-left-color:var(--rust);}
-  nav.toc .grp{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#8f8straight;
+  nav.toc .grp{font-size:11px;letter-spacing:.16em;text-transform:uppercase;
         color:#a99f88;margin:20px 0 4px;font-family:system-ui,sans-serif;font-weight:600;}
   main{padding:48px 56px 120px;min-width:0;}
   /* Type */
@@ -269,7 +269,7 @@ moment is the two-sided cold-start solution the market brief worries about.</div
 </table>
 
 <!-- ============================= 5 WIREFRAMES ============================= -->
-<h2 id="w-home">5 · Wireframes</h2>
+<h2 id="wireframes">5 · Wireframes</h2>
 <p class="meta">Low-fi. <b>[ ]</b> = container/panel · <b>▓</b> = image/media zone · <b>◦</b> = control · numbers ↔ annotations beneath.</p>
 
 <h3 id="w-home">5.1 · Home</h3>
@@ -650,13 +650,13 @@ has no store, no site, and no phone</em> — the graceful-degradation path is th
 Postgres/PostGIS). No UI element requires a field the data can't provide; fields the UI wants but the data lacks are flagged as enrichment targets.</p>
 <table>
 <tr><th>UI element</th><th>Database field(s)</th><th>State</th></tr>
-<tr><td>Map pin / cluster</td><td><code>Latitude</code>, <code>Longitude</code>, <code>Geo Precision</code>, <code>Parish/County</code></td><td><span class="pill">have</span> 235/235 geocoded (79% city-level)</td></tr>
+<tr><td>Map pin / cluster</td><td><code>Latitude</code>, <code>Longitude</code>, <code>Geo Precision</code>, <code>Parish/County</code></td><td><span class="pill">have</span> geocoded on region tabs, ~city-level precision</td></tr>
 <tr><td>FarmCard identity</td><td><code>Farm Name</code>, <code>City/Town</code>, <code>Region/Zone</code>, <code>Category</code></td><td><span class="pill">have</span></td></tr>
 <tr><td>Product glyphs / filters</td><td><code>Products</code>, <code>Category</code></td><td><span class="pill">have</span> (free-text → normalize to tags)</td></tr>
 <tr><td>FilterRail toggles</td><td><code>Has Website</code>, <code>Offers CSA</code>, <code>Ships Products</code>, <code>On-Farm Sales</code>, <code>Sells at Farmers Market</code></td><td><span class="pill">have</span> booleans</td></tr>
 <tr><td>CertBadge</td><td>LDAF / GAP / USDA Organic / AGA</td><td><span class="pill p2">enrich</span> earmarked (LSU AgCenter), not yet a column</td></tr>
 <tr><td>MarketDayBlock</td><td><code>Market Presence</code> → structured day/time/location</td><td><span class="pill p2">enrich</span> free-text now; contact research recovers schedules</td></tr>
-<tr><td>Contact block</td><td><code>Contact Info</code> → phone / email / web / social</td><td><span class="pill p2">enrich</span> 148 lack phone; split into channels</td></tr>
+<tr><td>Contact block</td><td><code>Contact Info</code> → phone / email / web / social</td><td><span class="pill p2">enrich</span> 73 lack phone (down from 148); use Contact Status channel</td></tr>
 <tr><td>Thin-profile / "new to web" cue</td><td><code>Web Presence Score</code> (0–10)</td><td><span class="pill">have</span></td></tr>
 <tr><td>SeasonBand</td><td>regional crop-seasonality model (new)</td><td><span class="pill p3">build</span> Gulf South calendar asset</td></tr>
 <tr><td>Storefront / Cart</td><td>products, price, availability, fulfillment (new tables)</td><td><span class="pill p3">build</span> later phase</td></tr>
