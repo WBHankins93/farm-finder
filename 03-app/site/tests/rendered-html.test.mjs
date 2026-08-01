@@ -2,13 +2,13 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-async function render() {
+async function request(path = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
   const { default: worker } = await import(workerUrl.href);
 
   return worker.fetch(
-    new Request("http://localhost/", {
+    new Request(`http://localhost${path}`, {
       headers: { accept: "text/html" },
     }),
     {
@@ -24,7 +24,7 @@ async function render() {
 }
 
 test("server-renders the FarmFinder directory shell", async () => {
-  const response = await render();
+  const response = await request();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
@@ -39,6 +39,43 @@ test("server-renders the FarmFinder directory shell", async () => {
   assert.match(html, /Each listing keeps its source so details can be checked and corrected/i);
   assert.match(html, /Sources shown in every profile/i);
   assert.doesNotMatch(html, /Your site is taking shape|Codex is working/i);
+});
+
+test("server-renders the flagged nearby-first discovery shell", async () => {
+  const previousFlag = process.env.EXPLORER_V2;
+  process.env.EXPLORER_V2 = "true";
+  try {
+    const response = await request();
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /Find food from a farm near you/i);
+    assert.match(html, /City or town/i);
+    assert.match(html, /Set your field boundary/i);
+    assert.match(html, /Browse all farms instead/i);
+    assert.doesNotMatch(html, /src=["'][^"']*farms\.json/i);
+  } finally {
+    if (previousFlag === undefined) delete process.env.EXPLORER_V2;
+    else process.env.EXPLORER_V2 = previousFlag;
+  }
+});
+
+test("serves bounded discovery HTTP contracts with cache policy", async () => {
+  const list = await request("/v1/farms?near=new-orleans-la&radiusMiles=50&sort=distance&limit=3");
+  assert.equal(list.status, 200);
+  assert.match(list.headers.get("cache-control") ?? "", /stale-while-revalidate/);
+  const payload = await list.json();
+  assert.equal(payload.items.length, 3);
+  assert.equal(payload.scope.mode, "nearby");
+  assert.equal(payload.sort, "distance");
+  assert.ok(payload.total >= payload.items.length);
+
+  const map = await request("/v1/farms/map?bbox=-91,29,-89,31&zoom=16");
+  assert.equal(map.status, 200);
+  const mapPayload = await map.json();
+  assert.ok(mapPayload.features.every((feature) => feature.latitude !== 0 || feature.longitude !== 0));
+
+  const missing = await request("/v1/farms/not-a-farm");
+  assert.equal(missing.status, 404);
 });
 
 test("ships one internally consistent public farm artifact", async () => {

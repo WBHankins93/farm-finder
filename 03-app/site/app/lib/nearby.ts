@@ -61,7 +61,7 @@ export function useFarms(): FarmsState {
     fetch("/farms.json")
       .then((res) => {
         if (!res.ok) throw new Error(`feed ${res.status}`);
-        return res.json();
+        return res.json() as Promise<Farm[]>;
       })
       .then((data: Farm[]) => {
         if (alive) setState({ farms: data, loading: false, error: "" });

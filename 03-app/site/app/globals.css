@@ -11,7 +11,7 @@
   --green: #173f2c;
   --green-2: #4d735b;
   --river: #557681;
-  --rust: #c65e36;
+  --rust: #a84729;
   --brass: #a28745;
   --rule: #bcc5b8;
   --sans: var(--font-dm-sans), "Helvetica Neue", Arial, sans-serif;
@@ -722,6 +722,7 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   .location-input-row { align-items: stretch; }
   .location-input-row button { min-height: 44px; border-radius: 0; }
   .location-status { align-items: flex-start; }
+  .location-status button, .quick-filter-scroll button, .quick-service-row button { min-height: 44px; }
   .results-toolbar { flex-wrap: wrap; padding: 9px 4px; }
   .results-toolbar p { flex-basis: 100%; }
   .results-toolbar > span { display: none; }
