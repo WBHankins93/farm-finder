@@ -3,76 +3,84 @@
 import { useEffect, useRef, useState } from "react";
 import maplibregl, { type ExpressionSpecification, type GeoJSONSource, type Map as MapLibreMap } from "maplibre-gl";
 import type { FeatureCollection, Point } from "geojson";
-import { categoryColors, serviceLabels, type Farm } from "../lib/farms";
+import type { DiscoveryScope, FarmMapFeature, FarmSummary, LatLng, MapBounds } from "../lib/discovery-contract";
+import { categoryColors } from "../lib/farms";
 import { Mark, markForCategory } from "../lib/marks";
 
 const categoryExpression: ExpressionSpecification = [
-  "match",
-  ["get", "category"],
-  "Produce",
-  categoryColors.Produce,
-  "Mixed",
-  categoryColors.Mixed,
-  "Meat",
-  categoryColors.Meat,
-  "Honey/Specialty",
-  categoryColors["Honey/Specialty"],
-  "Dairy",
-  categoryColors.Dairy,
-  "Seafood",
-  categoryColors.Seafood,
-  "Rice",
-  categoryColors.Rice,
-  "Urban Farm",
-  categoryColors["Urban Farm"],
-  "Value-Added",
-  categoryColors["Value-Added"],
+  "match", ["get", "category"],
+  "Produce", categoryColors.Produce,
+  "Mixed", categoryColors.Mixed,
+  "Meat", categoryColors.Meat,
+  "Honey/Specialty", categoryColors["Honey/Specialty"],
+  "Dairy", categoryColors.Dairy,
+  "Seafood", categoryColors.Seafood,
+  "Rice", categoryColors.Rice,
+  "Urban Farm", categoryColors["Urban Farm"],
+  "Value-Added", categoryColors["Value-Added"],
   "#596b60",
 ];
 
-function toFeatures(items: Farm[]): FeatureCollection<Point> {
+function toFeatures(items: FarmMapFeature[]): FeatureCollection<Point> {
   return {
     type: "FeatureCollection",
-    features: items.map((farm) => ({
+    features: items.map((item) => ({
       type: "Feature",
-      geometry: { type: "Point", coordinates: [farm.longitude, farm.latitude] },
-      properties: { id: farm.id, name: farm.name, category: farm.category },
+      geometry: { type: "Point", coordinates: [item.longitude, item.latitude] },
+      properties: item.kind === "farm"
+        ? { kind: "farm", id: item.id, name: item.name, category: item.category, geoPrecision: item.geoPrecision }
+        : { kind: "cluster", id: item.id, count: item.count, bounds: JSON.stringify(item.bounds), terminal: item.terminal, farmIds: JSON.stringify(item.farmIds ?? []) },
     })),
   };
 }
 
+function selectedFeature(farm: FarmSummary | null): FeatureCollection<Point> {
+  if (!farm || farm.geoPrecision === "ungeocoded" || (farm.latitude === 0 && farm.longitude === 0)) return { type: "FeatureCollection", features: [] };
+  return { type: "FeatureCollection", features: [{ type: "Feature", geometry: { type: "Point", coordinates: [farm.longitude, farm.latitude] }, properties: { id: farm.id } }] };
+}
+
+function userFeature(origin: LatLng | null): FeatureCollection<Point> {
+  if (!origin) return { type: "FeatureCollection", features: [] };
+  return { type: "FeatureCollection", features: [{ type: "Feature", geometry: { type: "Point", coordinates: [origin.lng, origin.lat] }, properties: {} }] };
+}
+
+function summaryServices(farm: FarmSummary) {
+  return [farm.farmersMarket && "Market", farm.onFarm && "Farm pickup", farm.csa && "CSA", farm.ships && "Delivery", farm.onlineStore && "Order online"].filter(Boolean) as string[];
+}
+
 export type FarmMapProps = {
-  visibleFarms: Farm[];
-  selectedFarm: Farm | null;
-  onSelect: (id: string | null) => void;
+  features: FarmMapFeature[];
+  selectedFarm: FarmSummary | null;
+  hoveredFarm: FarmSummary | null;
+  userOrigin: LatLng | null;
+  scope: DiscoveryScope | null;
+  searchAreaAvailable: boolean;
+  onSearchArea: () => void;
+  onCameraChange: (bounds: MapBounds, zoom: number) => void;
+  onSelect: (id: string) => void;
+  onSelectCluster: (farmIds: string[]) => void;
   onOpenProfile: (id: string) => void;
 };
 
-export default function FarmMap({
-  visibleFarms,
-  selectedFarm,
-  onSelect,
-  onOpenProfile,
-}: FarmMapProps) {
+export default function FarmMap(props: FarmMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
-  const initialVisibleFarmsRef = useRef(visibleFarms);
+  const propsRef = useRef(props);
+  const suppressMoveRef = useRef(false);
+  const lastScopeKeyRef = useRef("");
   const [mapReady, setMapReady] = useState(false);
   const [mapError, setMapError] = useState("");
-  const [locationMessage, setLocationMessage] = useState("");
+
+  useEffect(() => {
+    propsRef.current = props;
+  }, [props]);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
-
-    // `maplibregl.supported()` was removed in newer MapLibre versions; guard the
-    // call so its absence doesn't throw. WebGL failures still surface via the
-    // try/catch around map construction below.
     const supportsMap = (maplibregl as { supported?: () => boolean }).supported;
     if (typeof supportsMap === "function" && !supportsMap()) {
-      // WebGL capability is the external browser state synchronized by this effect.
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setMapError("The interactive map is unavailable in this browser.");
-      return;
+      const unsupportedNotice = window.setTimeout(() => setMapError("The interactive map is unavailable in this browser."), 0);
+      return () => window.clearTimeout(unsupportedNotice);
     }
 
     let map: MapLibreMap;
@@ -80,103 +88,62 @@ export default function FarmMap({
       map = new maplibregl.Map({
         container: containerRef.current,
         style: "https://tiles.openfreemap.org/styles/liberty",
-        center: [-91.3, 31.45],
-        zoom: 5.35,
-        minZoom: 4,
+        center: [-98.5, 38.2],
+        zoom: 3.35,
+        minZoom: 2.5,
         maxZoom: 16,
         attributionControl: false,
       });
     } catch {
-      // MapLibre initialization is the external synchronization attempted by this effect.
-      setMapError("The interactive map is unavailable in this browser.");
+      queueMicrotask(() => setMapError("The interactive map is unavailable in this browser."));
       return;
     }
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
-    map.addControl(
-      new maplibregl.AttributionControl({ compact: true, customAttribution: "Farm locations are approximate" }),
-      "bottom-right",
-    );
+    map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: "Farm locations may be approximate" }), "bottom-right");
 
     map.on("load", () => {
-      map.addSource("farms", {
-        type: "geojson",
-        data: toFeatures(initialVisibleFarmsRef.current),
-        cluster: true,
-        clusterMaxZoom: 10,
-        clusterRadius: 46,
-      });
-      map.addSource("selected-farm", { type: "geojson", data: toFeatures([]) });
+      map.addSource("farms", { type: "geojson", data: toFeatures(propsRef.current.features) });
+      map.addSource("selected-farm", { type: "geojson", data: selectedFeature(propsRef.current.selectedFarm) });
+      map.addSource("hovered-farm", { type: "geojson", data: selectedFeature(propsRef.current.hoveredFarm) });
+      map.addSource("user-origin", { type: "geojson", data: userFeature(propsRef.current.userOrigin) });
 
-      map.addLayer({
-        id: "clusters-halo",
-        type: "circle",
-        source: "farms",
-        filter: ["has", "point_count"],
-        paint: {
-          "circle-color": "rgba(251, 252, 246, .88)",
-          "circle-radius": ["step", ["get", "point_count"], 22, 20, 28, 60, 34],
-          "circle-stroke-width": 1.5,
-          "circle-stroke-color": "#173f2c",
-        },
-      });
-      map.addLayer({
-        id: "cluster-count",
-        type: "symbol",
-        source: "farms",
-        filter: ["has", "point_count"],
-        layout: {
-          "text-field": ["get", "point_count_abbreviated"],
-          "text-font": ["Noto Sans Regular"],
-          "text-size": 12,
-        },
-        paint: { "text-color": "#173f2c" },
-      });
-      map.addLayer({
-        id: "farm-points",
-        type: "circle",
-        source: "farms",
-        filter: ["!", ["has", "point_count"]],
-        paint: {
-          "circle-color": categoryExpression,
-          "circle-radius": ["interpolate", ["linear"], ["zoom"], 5, 5.5, 10, 8],
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "#fbfcf6",
-          "circle-opacity": 0.96,
-        },
-      });
-      map.addLayer({
-        id: "selected-ring",
-        type: "circle",
-        source: "selected-farm",
-        paint: {
-          "circle-radius": 14,
-          "circle-color": "rgba(0,0,0,0)",
-          "circle-stroke-width": 3,
-          "circle-stroke-color": "#c65e36",
-        },
-      });
+      map.addLayer({ id: "server-clusters", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "cluster"], paint: { "circle-color": "rgba(251,252,246,.96)", "circle-radius": ["step", ["get", "count"], 20, 20, 25, 75, 31], "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
+      map.addLayer({ id: "server-cluster-count", type: "symbol", source: "farms", filter: ["==", ["get", "kind"], "cluster"], layout: { "text-field": ["get", "count"], "text-size": 12 }, paint: { "text-color": "#173f2c" } });
+      map.addLayer({ id: "farm-points", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "farm"], paint: { "circle-color": categoryExpression, "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 4.5, 10, 8], "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6", "circle-opacity": 0.96 } });
+      map.addLayer({ id: "hovered-ring", type: "circle", source: "hovered-farm", paint: { "circle-radius": 12, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
+      map.addLayer({ id: "selected-ring", type: "circle", source: "selected-farm", paint: { "circle-radius": 14, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 3, "circle-stroke-color": "#c65e36" } });
+      map.addLayer({ id: "user-halo", type: "circle", source: "user-origin", paint: { "circle-radius": 12, "circle-color": "rgba(255,250,240,.5)", "circle-stroke-width": 1, "circle-stroke-color": "#173f2c" } });
+      map.addLayer({ id: "user-point", type: "circle", source: "user-origin", paint: { "circle-radius": 5, "circle-color": "#173f2c", "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6" } });
 
-      map.on("click", "clusters-halo", async (event) => {
-        const feature = map.queryRenderedFeatures(event.point, { layers: ["clusters-halo"] })[0];
-        const clusterId = Number(feature?.properties?.cluster_id);
-        const source = map.getSource("farms") as GeoJSONSource;
-        if (!feature || Number.isNaN(clusterId)) return;
-        const zoom = await source.getClusterExpansionZoom(clusterId);
-        const coordinates = (feature.geometry as Point).coordinates as [number, number];
-        map.easeTo({ center: coordinates, zoom, duration: 650 });
+      map.on("click", "server-clusters", (event) => {
+        const properties = event.features?.[0]?.properties;
+        if (!properties) return;
+        const terminal = properties.terminal === true || properties.terminal === "true";
+        if (terminal) {
+          const ids = JSON.parse(String(properties.farmIds || "[]")) as string[];
+          propsRef.current.onSelectCluster(ids);
+          return;
+        }
+        const bounds = JSON.parse(String(properties.bounds)) as MapBounds;
+        map.fitBounds([[bounds[0], bounds[1]], [bounds[2], bounds[3]]], { padding: 72, maxZoom: 15, duration: 500 });
       });
-
       map.on("click", "farm-points", (event) => {
         const id = event.features?.[0]?.properties?.id;
-        if (id) onSelect(String(id));
+        if (id) propsRef.current.onSelect(String(id));
       });
-
-      for (const layer of ["clusters-halo", "farm-points"]) {
+      for (const layer of ["server-clusters", "farm-points"]) {
         map.on("mouseenter", layer, () => (map.getCanvas().style.cursor = "pointer"));
         map.on("mouseleave", layer, () => (map.getCanvas().style.cursor = ""));
       }
-
+      map.on("moveend", () => {
+        if (suppressMoveRef.current) {
+          suppressMoveRef.current = false;
+          return;
+        }
+        const bounds = map.getBounds();
+        propsRef.current.onCameraChange([bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()], map.getZoom());
+      });
       setMapReady(true);
     });
 
@@ -185,99 +152,74 @@ export default function FarmMap({
       map.remove();
       mapRef.current = null;
     };
-  }, [onSelect]);
+  }, []);
 
   useEffect(() => {
     if (!mapReady || !mapRef.current) return;
-    const source = mapRef.current.getSource("farms") as GeoJSONSource | undefined;
-    source?.setData(toFeatures(visibleFarms));
-  }, [visibleFarms, mapReady]);
+    (mapRef.current.getSource("farms") as GeoJSONSource | undefined)?.setData(toFeatures(props.features));
+  }, [props.features, mapReady]);
 
   useEffect(() => {
     if (!mapReady || !mapRef.current) return;
-    const source = mapRef.current.getSource("selected-farm") as GeoJSONSource | undefined;
-    source?.setData(toFeatures(selectedFarm ? [selectedFarm] : []));
-    if (selectedFarm) {
-      mapRef.current.flyTo({
-        center: [selectedFarm.longitude, selectedFarm.latitude],
-        zoom: Math.max(mapRef.current.getZoom(), 9),
-        offset: [0, 60],
-        duration: 800,
-      });
+    (mapRef.current.getSource("selected-farm") as GeoJSONSource | undefined)?.setData(selectedFeature(props.selectedFarm));
+    if (props.selectedFarm && props.selectedFarm.geoPrecision !== "ungeocoded") {
+      suppressMoveRef.current = true;
+      mapRef.current.easeTo({ center: [props.selectedFarm.longitude, props.selectedFarm.latitude], offset: [0, 42], duration: 420 });
     }
-  }, [selectedFarm, mapReady]);
+  }, [props.selectedFarm, mapReady]);
+
+  useEffect(() => {
+    if (!mapReady || !mapRef.current) return;
+    (mapRef.current.getSource("hovered-farm") as GeoJSONSource | undefined)?.setData(selectedFeature(props.hoveredFarm));
+  }, [props.hoveredFarm, mapReady]);
+
+  useEffect(() => {
+    if (!mapReady || !mapRef.current) return;
+    (mapRef.current.getSource("user-origin") as GeoJSONSource | undefined)?.setData(userFeature(props.userOrigin));
+  }, [props.userOrigin, mapReady]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!mapReady || !map || !props.scope) return;
+    const key = JSON.stringify(props.scope);
+    if (lastScopeKeyRef.current === key) return;
+    lastScopeKeyRef.current = key;
+    suppressMoveRef.current = true;
+    if (props.scope.mode === "nearby" && props.scope.origin) {
+      const zoom = props.scope.radiusMiles === 25 ? 8.8 : props.scope.radiusMiles === 100 ? 6.8 : 7.8;
+      map.easeTo({ center: [props.scope.origin.lng, props.scope.origin.lat], zoom, duration: 550 });
+    } else if (props.scope.bounds) {
+      map.fitBounds([[props.scope.bounds[0], props.scope.bounds[1]], [props.scope.bounds[2], props.scope.bounds[3]]], { padding: 56, maxZoom: 12, duration: 550 });
+    }
+  }, [props.scope, mapReady]);
 
   function fitVisible() {
     const map = mapRef.current;
-    if (!map || visibleFarms.length === 0) return;
+    const points = props.features;
+    if (!map || points.length === 0) return;
     const bounds = new maplibregl.LngLatBounds();
-    visibleFarms.forEach((farm) => bounds.extend([farm.longitude, farm.latitude]));
-    map.fitBounds(bounds, { padding: 58, maxZoom: 10, duration: 700 });
+    points.forEach((point) => bounds.extend([point.longitude, point.latitude]));
+    suppressMoveRef.current = true;
+    map.fitBounds(bounds, { padding: 64, maxZoom: 11, duration: 500 });
   }
 
-  function useLocation() {
-    if (!navigator.geolocation) {
-      setLocationMessage("Location is not available in this browser.");
-      return;
-    }
-    setLocationMessage("Finding you…");
-    navigator.geolocation.getCurrentPosition(
-      ({ coords }) => {
-        mapRef.current?.flyTo({ center: [coords.longitude, coords.latitude], zoom: 9, duration: 800 });
-        setLocationMessage("Map centered near you.");
-      },
-      () => setLocationMessage("We couldn’t access your location."),
-      { enableHighAccuracy: false, timeout: 8000 },
-    );
-  }
-
+  const selected = props.selectedFarm;
   return (
     <div className="map-wrap">
-      <div ref={containerRef} className="map-canvas" aria-label="Interactive map of farms" />
-      {mapError ? (
-        <div className="map-fallback" role="status">
-          <span aria-hidden="true">⌁</span>
-          <strong>Keep browsing in the farm list.</strong>
-          <p>{mapError} Search, filters, and full profiles still work.</p>
-        </div>
-      ) : !mapReady ? (
-        <div className="map-loading" role="status"><span />Preparing the field map…</div>
-      ) : null}
-      {!mapError && <div className="map-tools" aria-label="Map tools">
-          <button type="button" onClick={fitVisible}>Fit results</button>
-          <button type="button" onClick={useLocation}>Use my location</button>
-        </div>}
-      {locationMessage && <div className="location-toast" role="status">{locationMessage}</div>}
-      {!mapError && <div className="map-key" aria-label="Map legend">
-        <span><i className="key-dot produce" /> Produce</span>
-        <span><i className="key-dot meat" /> Meat</span>
-        <span><i className="key-dot mixed" /> Mixed</span>
-        <span><i className="key-dot more" /> More</span>
-      </div>}
-      {!mapError && selectedFarm && (
-        <aside className="map-detail" aria-label={`${selectedFarm.name} details`}>
-          <button className="detail-close" type="button" onClick={() => onSelect(null)} aria-label="Close farm details">×</button>
-          <div className="detail-kicker">
-            <Mark name={markForCategory(selectedFarm.category)} style={{ color: categoryColors[selectedFarm.category] || "#596b60" }} />
-            {selectedFarm.category}
-          </div>
-          <h3>{selectedFarm.name}</h3>
-          <p className="detail-place">{selectedFarm.city}, {selectedFarm.state} · {selectedFarm.parish} {selectedFarm.state === "LA" ? "Parish" : "County"}</p>
-          <p className="detail-products">{selectedFarm.productsText}</p>
-          {selectedFarm.marketPresence && (
-            <div className="buy-note"><span>How to buy</span>{selectedFarm.marketPresence}</div>
-          )}
-          <div className="detail-tags">
-            {serviceLabels(selectedFarm).map((label) => <span key={label}>{label}</span>)}
-          </div>
-          <div className="detail-actions">
-            <button type="button" onClick={() => onOpenProfile(selectedFarm.id)}>Full profile →</button>
-            {selectedFarm.website && <a href={selectedFarm.website} target="_blank" rel="noreferrer">Visit website ↗</a>}
-            {selectedFarm.contact && <span>{selectedFarm.contact}</span>}
-          </div>
-          <p className="precision-note">{selectedFarm.geoPrecision === "city" ? "City-level location" : "Approximate area"} · Confirm before visiting</p>
+      <div ref={containerRef} className="map-canvas" role="region" aria-label="Interactive map of farm results" />
+      {mapError ? <div className="map-fallback" role="status"><span aria-hidden="true">⌁</span><strong>Keep browsing in the farm list.</strong><p>{mapError} Search, filters, and profiles still work.</p></div> : !mapReady ? <div className="map-loading" role="status"><span />Preparing the field map…</div> : null}
+      {!mapError ? <div className="map-tools" aria-label="Map tools"><button type="button" onClick={fitVisible}>Fit results</button>{props.searchAreaAvailable ? <button className="search-area-button" type="button" onClick={props.onSearchArea}>Search this area</button> : null}</div> : null}
+      {!mapError ? <div className="map-key" aria-label="Map legend"><span><i className="key-dot produce" /> Produce</span><span><i className="key-dot meat" /> Meat</span><span><i className="key-dot mixed" /> Mixed</span><span><i className="key-dot more" /> More</span></div> : null}
+      {!mapError && selected ? (
+        <aside className="map-detail map-detail-sheet" aria-label={`${selected.name} details`}>
+          <button className="detail-close" type="button" onClick={() => props.onSelect("")} aria-label="Close farm details">×</button>
+          <div className="detail-kicker"><Mark name={markForCategory(selected.category)} style={{ color: categoryColors[selected.category] || "#596b60" }} />{selected.category}</div>
+          <h3>{selected.name}</h3><p className="detail-place">{selected.city}, {selected.state} · {selected.parish || "Area not listed"}</p><p className="detail-products">{selected.productsText}</p>
+          <div className="detail-tags">{summaryServices(selected).map((label) => <span key={label}>{label}</span>)}</div>
+          <div className="detail-actions"><button type="button" onClick={() => props.onOpenProfile(selected.id)}>Full profile →</button>{selected.website ? <a href={selected.website} target="_blank" rel="noreferrer">Website ↗</a> : null}</div>
+          <p className="precision-note">{selected.geoPrecision === "point" ? "Public point" : "Approximate location"} · Confirm before visiting</p>
         </aside>
-      )}
+      ) : null}
     </div>
   );
 }

@@ -19,6 +19,11 @@ npm run dev
 
 This starter does not use `wrangler.jsonc`.
 
+Set `EXPLORER_V2=true` to preview the nearby-first list/map workspace. The flag
+is intentionally opt-in for one rollback release; without it, FarmFinder serves
+the existing static national explorer. Promote the flag only after the governed
+PostgreSQL release and the bounded `/v1` queries pass the cutover checks.
+
 ## Current shape
 
 - edit site code under `app/`
