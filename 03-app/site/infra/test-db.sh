@@ -7,6 +7,8 @@ compose_file="$script_dir/compose.yaml"
 database="${POSTGRES_DB:-farmfinder}"
 user="${POSTGRES_USER:-farmfinder}"
 
-docker compose -f "$compose_file" exec -T postgres \
-  psql -v ON_ERROR_STOP=1 -U "$user" -d "$database" \
-  < "$site_root/packages/db/tests/foundation.sql"
+for test_file in foundation.sql discovery.sql; do
+  docker compose -f "$compose_file" exec -T postgres \
+    psql -v ON_ERROR_STOP=1 -U "$user" -d "$database" \
+    < "$site_root/packages/db/tests/$test_file"
+done
