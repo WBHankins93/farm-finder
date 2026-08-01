@@ -10,9 +10,10 @@ import {
 
 /** Minimal Farm stub — only the fields the location layer reads matter here. */
 function farm(over: Partial<Farm> & { id: string }): Farm {
+  const { id, ...overrides } = over;
   return {
-    id: over.id,
-    name: over.name ?? over.id,
+    id,
+    name: over.name ?? id,
     category: "Produce",
     region: "",
     parish: "",
@@ -36,7 +37,7 @@ function farm(over: Partial<Farm> & { id: string }): Farm {
     latitude: 0,
     longitude: 0,
     geoPrecision: "city",
-    ...over,
+    ...overrides,
   };
 }
 

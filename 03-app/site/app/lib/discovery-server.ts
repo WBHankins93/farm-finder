@@ -52,7 +52,7 @@ function slugify(value: string) {
     .replace(/^-|-$/g, "");
 }
 
-function isMappable(farm: Farm) {
+export function isMappableFarm(farm: Farm) {
   return (
     farm.geoPrecision !== "ungeocoded" &&
     Number.isFinite(farm.latitude) &&
@@ -93,7 +93,7 @@ function buildPlaces(): PlaceSuggestion[] {
     const key = placeKey(city, state);
     const current = grouped.get(key) ?? { city, state, latitude: 0, longitude: 0, mappable: 0, farms: 0 };
     current.farms += 1;
-    if (isMappable(farm)) {
+    if (isMappableFarm(farm)) {
       current.latitude += farm.latitude;
       current.longitude += farm.longitude;
       current.mappable += 1;
@@ -255,14 +255,14 @@ function matchingFarms(query: DiscoveryQuery, mappableOnly = false): MatchedFarm
   const matched: MatchedFarm[] = [];
 
   for (const farm of farms) {
-    if (mappableOnly && !isMappable(farm)) continue;
+    if (mappableOnly && !isMappableFarm(farm)) continue;
     if (query.category && farm.category !== query.category) continue;
     if (!matchesProduct(farm, query.product)) continue;
     if (!query.services.every((service) => farm[service])) continue;
     if (!matchesText(farm, tokens)) continue;
-    if (query.bbox && (!isMappable(farm) || !withinBounds(farm, query.bbox))) continue;
+    if (query.bbox && (!isMappableFarm(farm) || !withinBounds(farm, query.bbox))) continue;
 
-    const distance = query.origin && isMappable(farm) ? distanceMiles(query.origin, farm) : null;
+    const distance = query.origin && isMappableFarm(farm) ? distanceMiles(query.origin, farm) : null;
     if (!query.bbox && query.origin && (distance === null || distance > radius)) continue;
     matched.push({ farm, distance, relevance: relevanceScore(farm, tokens) });
   }

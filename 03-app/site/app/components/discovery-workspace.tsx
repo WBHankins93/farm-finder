@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { createLatestRequestGuard, mergeCursorPage, parseDiscoveryUrl, requestApproximateLocation, retainSelectedFarm, serializeDiscoveryUrl } from "../lib/discovery-client";
 import type { DiscoveryScope, FarmMapResponse, FarmSearchResponse, FarmSummary, LatLng, MapBounds, PlaceSearchResponse, PlaceSuggestion, ServiceKey, SortMode, ViewMode } from "../lib/discovery-contract";
 import { categories, productGuides, serviceFilters } from "../lib/directory-config";
 import { categoryColors, type Farm } from "../lib/farms";
@@ -68,46 +69,41 @@ export default function DiscoveryWorkspace() {
   const filtersButtonRef = useRef<HTMLButtonElement>(null);
   const filtersDialogRef = useRef<HTMLElement>(null);
   const mapShellRef = useRef<HTMLDivElement>(null);
-  const requestSequence = useRef(0);
+  const [requestGuard] = useState(createLatestRequestGuard);
   const hasWrittenUrl = useRef(false);
 
   const hydrateFromUrl = useCallback(async () => {
     const params = new URLSearchParams(window.location.search);
-    const rawQuery = params.get("q") ?? "";
-    const rawPlace = params.get("near") ?? params.get("place") ?? "";
-    const rawRadius = Number(params.get("radiusMiles"));
-    const rawServices = (params.get("services") ?? "").split(",").filter((value): value is ServiceKey => serviceFilters.some((filter) => filter.key === value));
-    const rawBounds = (params.get("bbox") ?? "").split(",").map(Number);
-    setQuery(rawQuery);
-    setDeferredQuery(rawQuery);
-    setRadius(rawRadius === 25 || rawRadius === 100 ? rawRadius : 50);
-    setCategory(params.get("category") ?? "");
-    setProduct(params.get("product") ?? "");
-    setServices(rawServices);
-    setSort((params.get("sort") as SortMode) || (rawQuery ? "relevance" : rawPlace ? "distance" : "name"));
-    setView(params.get("view") === "map" ? "map" : "list");
-    setBrowseAll(params.get("all") === "1");
-    if (rawBounds.length === 4 && rawBounds.every(Number.isFinite)) setBbox(rawBounds as MapBounds);
-    if (rawPlace) {
-      const lookup = rawPlace.includes(",") ? rawPlace : rawPlace.replace(/-([a-z]{2})$/i, ", $1").replace(/-/g, " ");
+    const urlState = parseDiscoveryUrl(params);
+    setQuery(urlState.q);
+    setDeferredQuery(urlState.q);
+    setRadius(urlState.radiusMiles);
+    setCategory(urlState.category);
+    setProduct(urlState.product);
+    setServices(urlState.services);
+    setSort(urlState.sort);
+    setView(urlState.view);
+    setBrowseAll(urlState.browseAll);
+    setBbox(urlState.bbox);
+    if (urlState.near) {
+      const lookup = urlState.near.includes(",") ? urlState.near : urlState.near.replace(/-([a-z]{2})$/i, ", $1").replace(/-/g, " ");
       setPlaceInput(lookup);
       try {
         const response = await fetch(`/v1/places?q=${encodeURIComponent(lookup)}&limit=8`);
         const data = await response.json() as PlaceSearchResponse;
-        const match = data.items.find((item) => item.slug === rawPlace) ?? data.items[0] ?? null;
+        const match = data.items.find((item) => item.slug === urlState.near) ?? data.items[0] ?? null;
         if (match) {
           setPlace(match);
           setPlaceInput(match.label);
-          setSort(rawQuery ? "relevance" : "distance");
+          setSort(urlState.q ? "relevance" : "distance");
         }
       } catch {
         setLocationMessage("Choose a city from the suggestions to search nearby.");
       }
     }
-    const rawFarmId = params.get("farm");
-    if (rawFarmId) {
+    if (urlState.farmId) {
       try {
-        const response = await fetch(`/v1/farms/${encodeURIComponent(rawFarmId)}`);
+        const response = await fetch(`/v1/farms/${encodeURIComponent(urlState.farmId)}`);
         if (response.ok) {
           const record = await response.json() as { farm: Farm };
           setSelectedFarm(fullFarmToSummary(record.farm));
@@ -181,8 +177,7 @@ export default function DiscoveryWorkspace() {
 
   useEffect(() => {
     if (!searchEnabled) return;
-    const sequence = ++requestSequence.current;
-    const controller = new AbortController();
+    const request = requestGuard.begin();
     const params = makeParams();
     const mapParams = new URLSearchParams(params);
     mapParams.delete("limit");
@@ -194,40 +189,41 @@ export default function DiscoveryWorkspace() {
     });
 
     Promise.all([
-      fetch(`/v1/farms?${params}`, { signal: controller.signal }).then((response) => response.ok ? response.json() as Promise<FarmSearchResponse> : Promise.reject(new Error(`search ${response.status}`))),
-      fetch(`/v1/farms/map?${mapParams}`, { signal: controller.signal }).then((response) => response.ok ? response.json() as Promise<FarmMapResponse> : Promise.reject(new Error(`map ${response.status}`))),
+      fetch(`/v1/farms?${params}`, { signal: request.signal }).then((response) => response.ok ? response.json() as Promise<FarmSearchResponse> : Promise.reject(new Error(`search ${response.status}`))),
+      fetch(`/v1/farms/map?${mapParams}`, { signal: request.signal }).then((response) => response.ok ? response.json() as Promise<FarmMapResponse> : Promise.reject(new Error(`map ${response.status}`))),
     ]).then(([list, map]) => {
-      if (sequence !== requestSequence.current) return;
+      if (!request.isLatest()) return;
       setSearchResult(list);
       setMapResult(map);
-      setSelectedFarm((current) => current && (list.items.some((farm) => farm.id === current.id) || map.features.some((feature) => feature.kind === "farm" && feature.id === current.id)) ? current : null);
+      setSelectedFarm((current) => retainSelectedFarm(current, list.items, map.features));
     }).catch((caught) => {
       if ((caught as Error).name !== "AbortError") setError("Farm results could not be refreshed. Try again.");
     }).finally(() => {
-      if (sequence === requestSequence.current) {
+      if (request.isLatest()) {
         setLoading(false);
         setRefreshing(false);
       }
     });
-    return () => controller.abort();
+    return request.cancel;
   // Primitive keys keep user typing and transient map movement from restarting requests.
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchEnabled, deferredQuery, place?.slug, userOrigin?.lat, userOrigin?.lng, radius, bboxKey, category, product, serviceKey, sort, mapZoom]);
 
   useEffect(() => {
     if (!initialized) return;
-    const params = new URLSearchParams();
-    if (deferredQuery) params.set("q", deferredQuery);
-    if (place && !userOrigin && !bbox) params.set("near", place.slug);
-    if ((place || userOrigin) && !bbox) params.set("radiusMiles", String(radius));
-    if (bbox) params.set("bbox", serializeBounds(bbox));
-    if (category) params.set("category", category);
-    if (product) params.set("product", product);
-    if (services.length) params.set("services", services.join(","));
-    if (sort !== "name") params.set("sort", sort);
-    if (view !== "list") params.set("view", view);
-    if (browseAll) params.set("all", "1");
-    if (selectedFarm) params.set("farm", selectedFarm.id);
+    const params = serializeDiscoveryUrl({
+      q: deferredQuery,
+      near: place && !userOrigin ? place.slug : "",
+      radiusMiles: radius,
+      bbox,
+      category,
+      product,
+      services,
+      sort,
+      view,
+      browseAll,
+      farmId: selectedFarm?.id ?? "",
+    });
     const url = `${window.location.pathname}${params.size ? `?${params}` : ""}${window.location.hash || "#discover"}`;
     const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
     if (url !== currentUrl) {
@@ -312,14 +308,9 @@ export default function DiscoveryWorkspace() {
   async function locate() {
     setLocating(true);
     setLocationMessage("Finding your approximate location…");
-    if (!navigator.geolocation) {
-      setLocating(false);
-      setLocationMessage("Location is unavailable. Enter a city or town instead.");
-      placeInputRef.current?.focus();
-      return;
-    }
-    navigator.geolocation.getCurrentPosition(({ coords }) => {
-      setUserOrigin({ lat: Math.round(coords.latitude * 1000) / 1000, lng: Math.round(coords.longitude * 1000) / 1000 });
+    const origin = await requestApproximateLocation(navigator.geolocation ?? null);
+    if (origin) {
+      setUserOrigin(origin);
       setPlace(null);
       setPlaceInput("Current location");
       setBbox(null);
@@ -328,11 +319,11 @@ export default function DiscoveryWorkspace() {
       setSort(query.trim() ? "relevance" : "distance");
       setLocationMessage("Showing farms near your approximate location.");
       setLocating(false);
-    }, () => {
+    } else {
       setLocating(false);
       setLocationMessage("Location permission was not available. Enter a city or town instead.");
       placeInputRef.current?.focus();
-    }, { enableHighAccuracy: false, timeout: 8000 });
+    }
   }
 
   function choosePlace(nextPlace: PlaceSuggestion) {
@@ -425,7 +416,7 @@ export default function DiscoveryWorkspace() {
       return;
     }
     const next = await response.json() as FarmSearchResponse;
-    setSearchResult((current) => ({ ...next, items: [...current.items, ...next.items] }));
+    setSearchResult((current) => mergeCursorPage(current, next));
   }
 
   const fetchFarm = useCallback(async (id: string) => {
@@ -480,16 +471,16 @@ export default function DiscoveryWorkspace() {
       <div className="discovery-controls">
         <div className="location-control">
           <label htmlFor="near-place">City or town</label>
-          <div className="location-input-row"><input ref={placeInputRef} id="near-place" value={placeInput} onChange={(event) => updatePlaceInput(event.target.value)} onFocus={() => suggestions.length && setSuggestionsOpen(true)} placeholder="Madison, WI" autoComplete="off" /><button type="button" onClick={locate} disabled={locating}>{locating ? "Finding you…" : "Use my location"}</button></div>
-          {suggestionsOpen && suggestions.length ? <div className="place-suggestions" role="listbox" aria-label="Place suggestions">{suggestions.map((suggestion) => <button type="button" role="option" aria-selected={place?.slug === suggestion.slug} key={suggestion.slug} onMouseDown={(event) => event.preventDefault()} onClick={() => choosePlace(suggestion)}><span>{suggestion.label}</span><small>{suggestion.farmCount.toLocaleString()} directory records</small></button>)}</div> : null}
+          <div className="location-input-row"><input ref={placeInputRef} id="near-place" value={placeInput} onChange={(event) => updatePlaceInput(event.target.value)} onFocus={() => suggestions.length && setSuggestionsOpen(true)} placeholder="Madison, WI" autoComplete="off" role="combobox" aria-autocomplete="list" aria-controls="place-suggestions" aria-expanded={suggestionsOpen && suggestions.length > 0} /><button type="button" onClick={locate} disabled={locating}>{locating ? "Finding you…" : "Use my location"}</button></div>
+          {suggestionsOpen && suggestions.length ? <div id="place-suggestions" className="place-suggestions" role="listbox" aria-label="Place suggestions">{suggestions.map((suggestion) => <button type="button" role="option" aria-selected={place?.slug === suggestion.slug} key={suggestion.slug} onMouseDown={(event) => event.preventDefault()} onClick={() => choosePlace(suggestion)}><span>{suggestion.label}</span><small>{suggestion.farmCount.toLocaleString()} directory records</small></button>)}</div> : null}
         </div>
         <label className="directory-query"><span>Farm or food</span><div><input value={query} onChange={(event) => { setQuery(event.target.value); setSort(event.target.value.trim() ? "relevance" : hasScope ? "distance" : "name"); }} placeholder="Eggs, tomatoes, farm name…" type="search" />{query ? <button type="button" onClick={() => setQuery("")} aria-label="Clear farm search">×</button> : null}</div></label>
-        <div className="radius-control" aria-label="Search radius"><span>Field boundary</span><div>{([25, 50, 100] as const).map((miles) => <button type="button" key={miles} className={radius === miles ? "active" : ""} disabled={!place && !userOrigin} onClick={() => { setRadius(miles); setBbox(null); setPendingCamera(null); }}>{miles} mi</button>)}</div></div>
+        <div className="radius-control" role="group" aria-label="Search radius"><span>Field boundary</span><div>{([25, 50, 100] as const).map((miles) => <button type="button" key={miles} className={radius === miles ? "active" : ""} aria-pressed={radius === miles} disabled={!place && !userOrigin} onClick={() => { setRadius(miles); setBbox(null); setPendingCamera(null); }}>{miles} mi</button>)}</div></div>
       </div>
 
       <div className="location-status" aria-live="polite"><span>{locationMessage || "Choose a city to begin nearby search."}</span>{!searchEnabled ? <button type="button" onClick={browseNationwide}>Browse all farms instead</button> : <button type="button" onClick={startOver}>Start over</button>}</div>
 
-      <div className="primary-filters" aria-label="Quick filters">
+      <div className="primary-filters" role="group" aria-label="Quick filters">
         <div className="quick-filter-scroll"><button type="button" className={!product ? "active" : ""} onClick={() => setProduct("")}>All products</button>{productGuides.slice(0, 8).map((guide) => <button type="button" key={guide.id} className={product === guide.id ? "active" : ""} onClick={() => setProduct(product === guide.id ? "" : guide.id)} aria-pressed={product === guide.id}>{markForProduct(guide.id) ? <Mark name={markForProduct(guide.id)!} style={{ color: guide.color }} /> : null}{guide.shortLabel}</button>)}</div>
         <div className="quick-service-row">{serviceFilters.slice(0, 3).map(({ key, shortLabel }) => <button type="button" key={key} className={services.includes(key) ? "active" : ""} onClick={() => toggleService(key)} aria-pressed={services.includes(key)}>{services.includes(key) ? "✓ " : "+ "}{shortLabel}</button>)}<button ref={filtersButtonRef} className="all-filters-button" type="button" onClick={openFilters}>All filters {category || services.length > 3 ? "•" : ""}</button>{hasFilters ? <button className="clear-filters" type="button" onClick={clearFilters}>Clear filters</button> : null}</div>
       </div>
@@ -502,11 +493,11 @@ export default function DiscoveryWorkspace() {
         <span>{sortLabel}</span>
       </div>
 
-      <div className="mobile-view-switch" aria-label="Choose list or map view"><button type="button" className={view === "list" ? "active" : ""} aria-pressed={view === "list"} onClick={() => setView("list")}>List <span>{searchResult.total.toLocaleString()}</span></button><button type="button" className={view === "map" ? "active" : ""} aria-pressed={view === "map"} onClick={() => setView("map")}>Map <span>{mapResult.total.toLocaleString()}</span></button></div>
+      <div className="mobile-view-switch" role="group" aria-label="Choose list or map view"><button type="button" className={view === "list" ? "active" : ""} aria-pressed={view === "list"} onClick={() => setView("list")}>List <span>{searchResult.total.toLocaleString()}</span></button><button type="button" className={view === "map" ? "active" : ""} aria-pressed={view === "map"} onClick={() => setView("map")}>Map <span>{mapResult.total.toLocaleString()}</span></button></div>
 
       <div className={`explorer explorer-v2 view-${view}`}>
         <div className="farm-list-panel">
-          <div className="farm-list" aria-busy={loading || refreshing}>
+          <div className="farm-list" role="region" aria-label="Farm results" aria-busy={loading || refreshing}>
             {!searchEnabled ? <div className="empty-state nearby-empty"><span aria-hidden="true">◎</span><h3>Set your field boundary.</h3><p>Choose a city or use your approximate location to see nearby farms without loading the whole country.</p><button type="button" onClick={() => placeInputRef.current?.focus()}>Enter a city</button></div> : null}
             {loading ? <div className="result-skeletons" role="status" aria-label="Loading farm results">{[1, 2, 3, 4].map((item) => <div key={item}><i /><span /><span /></div>)}</div> : null}
             {error && !loading ? <div className="inline-error" role="alert"><strong>Results paused</strong><p>{error}</p><button type="button" onClick={() => setMapZoom((current) => current + 0.0001)}>Try again</button></div> : null}
@@ -519,7 +510,7 @@ export default function DiscoveryWorkspace() {
         </div>
         <div className="map-panel" ref={mapShellRef}>
           {mapActivated ? <MapCanvas features={mapResult.features} selectedFarm={selectedFarm} hoveredFarm={hoveredFarm} userOrigin={userOrigin} scope={scope} searchAreaAvailable={Boolean(pendingCamera)} onSearchArea={() => { if (!pendingCamera) return; setBbox(pendingCamera.bounds); setMapZoom(pendingCamera.zoom); setPendingCamera(null); setPlace(null); setUserOrigin(null); setLocationMessage("Showing farms in the selected map area."); }} onCameraChange={(bounds, zoom) => setPendingCamera({ bounds, zoom })} onSelect={(id) => void selectFarm(id)} onSelectCluster={(ids) => void selectCluster(ids)} onOpenProfile={(id) => void openProfile(id)} /> : <div className="map-wrap map-placeholder" role="status"><span /><strong>Map waits until you need it.</strong><small>The list stays on the critical path.</small></div>}
-          {clusterFarms.length ? <aside className="cluster-sheet" aria-label="Farms at this approximate location"><header><div><span>Shared map point</span><strong>{clusterFarms.length} farms in this area</strong></div><button type="button" onClick={() => setClusterFarms([])} aria-label="Close shared location results">×</button></header><div>{clusterFarms.map((farm) => <button type="button" key={farm.id} onClick={() => { setClusterFarms([]); void selectFarm(farm.id); }}><small>{farm.category}</small><strong>{farm.name}</strong><span>{farm.city}, {farm.state}</span></button>)}</div></aside> : null}
+          {clusterFarms.length ? <aside className="cluster-sheet" role="region" aria-live="polite" aria-label="Farms at this approximate location"><header><div><span>Shared map point</span><strong>{clusterFarms.length} farms in this area</strong></div><button type="button" onClick={() => setClusterFarms([])} aria-label="Close shared location results">×</button></header><div>{clusterFarms.map((farm) => <button type="button" key={farm.id} onClick={() => { setClusterFarms([]); void selectFarm(farm.id); }}><small>{farm.category}</small><strong>{farm.name}</strong><span>{farm.city}, {farm.state}</span></button>)}</div></aside> : null}
         </div>
       </div>
 
