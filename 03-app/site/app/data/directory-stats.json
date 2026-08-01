@@ -1,0 +1,30 @@
+{
+  "releaseId": "national-web-2026-07-25",
+  "updatedLabel": "July 2026",
+  "total": 68619,
+  "states": 51,
+  "mappable": 54821,
+  "cityLevel": 4993,
+  "withoutWebsite": 51985,
+  "services": {
+    "farmersMarket": 2905,
+    "onFarm": 9303,
+    "csa": 756,
+    "ships": 245,
+    "onlineStore": 1489
+  },
+  "products": {
+    "vegetables": 16939,
+    "fruit": 7691,
+    "eggs": 3134,
+    "beef": 1838,
+    "pork": 982,
+    "poultry": 1853,
+    "honey": 7375,
+    "dairy": 1004,
+    "seafood": 372,
+    "rice": 593,
+    "flowers": 6290,
+    "mushrooms": 478
+  }
+}
