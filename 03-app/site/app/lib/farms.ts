@@ -26,16 +26,19 @@ export type Farm = {
   geoPrecision: string;
 };
 
+// Hue-separated so pins stay distinguishable at 6-9px on the map. Each category
+// owns a distinct hue family; icon + text still dual-encode (visual-language spec)
+// so red/green proximity stays colorblind-safe. Kept within the earthy brand range.
 export const categoryColors: Record<string, string> = {
-  Produce: "#4d735b",
-  Mixed: "#c65e36",
-  Meat: "#863f32",
-  "Honey/Specialty": "#a28745",
-  Dairy: "#557681",
-  Seafood: "#397386",
-  Rice: "#8d815c",
-  "Urban Farm": "#68743f",
-  "Value-Added": "#775d7b",
+  Produce: "#3f7d54",        // leaf green
+  "Urban Farm": "#94a13f",   // lime/olive — separated from Produce
+  Meat: "#a5382b",           // deep red
+  Mixed: "#d97a2b",          // orange — separated from Meat
+  "Honey/Specialty": "#e0a81f", // amber
+  Rice: "#8a7d58",           // muted khaki — separated from Honey
+  Dairy: "#5b7d88",          // slate blue
+  Seafood: "#2f8ca0",        // teal — separated from Dairy
+  "Value-Added": "#7d5b93",  // violet
 };
 
 export function serviceLabels(farm: Farm) {
