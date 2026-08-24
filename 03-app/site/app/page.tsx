@@ -1,4 +1,13 @@
 import type { CSSProperties } from "react";
+import {
+  ArrowRightIcon,
+  BasketIcon,
+  ChatTeardropTextIcon,
+  MagnifyingGlassIcon,
+  MapPinIcon,
+  MapTrifoldIcon,
+  PlantIcon,
+} from "@phosphor-icons/react/ssr";
 import AskDirectory from "./components/ask-directory";
 import DiscoveryWorkspace from "./components/discovery-workspace";
 import LegacyHome from "./legacy-page";
@@ -13,8 +22,8 @@ export default function Home() {
     <div className="site-shell">
       <a className="skip-link" href="#discover">Skip to farm search</a>
       <header className="topbar">
-        <a className="brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span><span>FarmFinder<small>U.S. farm field guide</small></span></a>
-        <nav aria-label="Primary navigation"><a href="#ask">Ask</a><a href="#products">Browse</a><a href="#discover">Explore</a><a className="farmer-link" href="#discover">Find farms</a></nav>
+        <a className="brand" href="#top"><span className="brand-mark" aria-hidden="true"><PlantIcon weight="duotone" /></span><span>FarmFinder<small>U.S. farm field guide</small></span></a>
+        <nav aria-label="Primary navigation"><a href="#ask"><ChatTeardropTextIcon aria-hidden="true" />Ask</a><a href="#products"><BasketIcon aria-hidden="true" />Browse</a><a href="#discover"><MapTrifoldIcon aria-hidden="true" />Explore</a><a className="farmer-link" href="#discover"><MagnifyingGlassIcon aria-hidden="true" />Find farms</a></nav>
       </header>
 
       <main id="top">
@@ -24,7 +33,7 @@ export default function Home() {
           <p className="hero-copy">Start with your city. See nearby farms, what they grow or raise, and the best confirmed way to buy.</p>
           <form className="hero-location" action="/" method="get">
             <label htmlFor="hero-near">City or town</label>
-            <div><input id="hero-near" name="place" placeholder="Try Madison, WI" autoComplete="address-level2" /><button type="submit">Find nearby farms →</button></div>
+            <div><span className="hero-location-icon" aria-hidden="true"><MapPinIcon weight="duotone" /></span><input id="hero-near" name="place" placeholder="Try Madison, WI" autoComplete="address-level2" /><button type="submit">Find nearby farms <ArrowRightIcon aria-hidden="true" /></button></div>
           </form>
           <div className="hero-stats">
             <div><strong>{stats.total.toLocaleString()}</strong><span>farms in the directory</span></div>
@@ -47,7 +56,7 @@ export default function Home() {
                 <div className="product-card-media" aria-hidden="true">{markForProduct(guide.id) ? <Mark name={markForProduct(guide.id)!} className="mark product-card-glyph" /> : null}</div>
                 <div className="product-card-top"><span>{String(index + 1).padStart(2, "0")}</span><strong>{stats.products[guide.id as keyof typeof stats.products].toLocaleString()}</strong></div>
                 <h3>{guide.label}</h3><p>{guide.description}</p>
-                <a href={`/?product=${guide.id}#discover`}>Browse matching farms →</a>
+                <a href={`/?product=${guide.id}#discover`}>Browse matching farms <ArrowRightIcon aria-hidden="true" /></a>
               </article>
             ))}
           </div>
@@ -55,7 +64,7 @@ export default function Home() {
 
         <section className="field-story" aria-labelledby="field-story-title">
           <div className="field-story-photo" role="img" aria-label="A farm harvest of radishes, kale, and lettuce on a wooden table"><span>Fresh farm produce · USDA ARS (public domain)</span></div>
-          <div className="field-story-copy"><p className="section-number">A useful field guide, not a promise of live stock</p><h2 id="field-story-title">Find the farm.<br /><em>Confirm the trip.</em></h2><p>Compare products and ways to buy, then contact the farm for this week’s availability, hours, and pickup details.</p><a href="#discover">Search farms near you →</a></div>
+          <div className="field-story-copy"><p className="section-number">A useful field guide, not a promise of live stock</p><h2 id="field-story-title">Find the farm.<br /><em>Confirm the trip.</em></h2><p>Compare products and ways to buy, then contact the farm for this week’s availability, hours, and pickup details.</p><a href="#discover">Search farms near you <ArrowRightIcon aria-hidden="true" /></a></div>
         </section>
 
         <DiscoveryWorkspace />
@@ -73,8 +82,8 @@ export default function Home() {
         <section className="about" id="about" aria-labelledby="about-title"><p className="section-number">About this field guide</p><div className="about-grid"><h2 id="about-title">A living directory,<br />built from the ground up.</h2><div><p>FarmFinder catalogs independent farms so buying local takes less detective work.</p><p>Some pins represent a city or county center rather than a farm gate. Always contact a farm before visiting.</p></div><aside><strong>Grow the map</strong><p>Own a farm, know one we missed, or see a detail that needs fixing?</p><span>Correction and submission tools are in progress.</span></aside></div></section>
       </main>
 
-      <footer><a className="brand footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span><span>FarmFinder<small>Find food closer to home.</small></span></a><p>Source-backed farm discovery, one region at a time.</p><div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a></div><small>© 2026 FarmFinder</small></footer>
-      <nav className="mobile-dock" aria-label="Mobile navigation"><a href="#ask">Ask</a><a href="#products">Browse</a><a href="#discover">Search</a></nav>
+      <footer><a className="brand footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><PlantIcon weight="duotone" /></span><span>FarmFinder<small>Find food closer to home.</small></span></a><p>Source-backed farm discovery, one region at a time.</p><div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a></div><small>© 2026 FarmFinder</small></footer>
+      <nav className="mobile-dock" aria-label="Mobile navigation"><a href="#ask"><ChatTeardropTextIcon aria-hidden="true" />Ask</a><a href="#products"><BasketIcon aria-hidden="true" />Browse</a><a href="#discover"><MagnifyingGlassIcon aria-hidden="true" />Search</a></nav>
     </div>
   );
 }
