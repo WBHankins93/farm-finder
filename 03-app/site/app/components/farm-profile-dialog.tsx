@@ -1,6 +1,17 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import {
+  CheckCircleIcon,
+  DatabaseIcon,
+  EnvelopeSimpleIcon,
+  GlobeIcon,
+  MapPinIcon,
+  MinusCircleIcon,
+  PhoneIcon,
+  ShieldCheckIcon,
+  XIcon,
+} from "@phosphor-icons/react";
 import { serviceFilters } from "../lib/directory-config";
 import { categoryColors, type Farm } from "../lib/farms";
 import { Mark, markForCategory } from "../lib/marks";
@@ -68,7 +79,7 @@ export default function FarmProfileDialog({ farm, onClose, onShowMap }: Props) {
             <h2 id="profile-title">{farm.name}</h2>
             <p>{farm.city}, {farm.state} · {farm.parish || "Area not listed"}</p>
           </div>
-          <button ref={closeRef} type="button" onClick={onClose} aria-label="Close farm profile">×</button>
+          <button ref={closeRef} type="button" onClick={onClose} aria-label="Close farm profile"><XIcon aria-hidden="true" /></button>
         </header>
 
         <div className="profile-body">
@@ -76,13 +87,13 @@ export default function FarmProfileDialog({ farm, onClose, onShowMap }: Props) {
           <div className="profile-columns">
             <div className="profile-main">
               <section className="profile-section"><h3>Products & specialties</h3><p>{farm.productsText || "Products have not been listed yet."}</p><div className="profile-product-tags">{farm.products.map((product) => <span key={product}>{product}</span>)}</div></section>
-              <section className="profile-section"><h3>How to buy</h3><p>{farm.marketPresence || "A confirmed sales schedule has not been added yet."}</p><div className="profile-service-grid">{serviceFilters.map(({ key, label }) => <div className={farm[key] ? "available" : "unknown"} key={key}><i>{farm[key] ? "✓" : "—"}</i><span>{label}</span><small>{farm[key] ? "Listed" : "Not confirmed"}</small></div>)}</div></section>
+              <section className="profile-section"><h3>How to buy</h3><p>{farm.marketPresence || "A confirmed sales schedule has not been added yet."}</p><div className="profile-service-grid">{serviceFilters.map(({ key, label }) => <div className={farm[key] ? "available" : "unknown"} key={key}>{farm[key] ? <CheckCircleIcon aria-hidden="true" /> : <MinusCircleIcon aria-hidden="true" />}<span>{label}</span><small>{farm[key] ? "Listed" : "Not confirmed"}</small></div>)}</div></section>
               <section className="profile-section"><h3>Directory notes</h3><p>{farm.notes || "No additional field notes have been recorded yet."}</p></section>
             </div>
             <aside className="profile-sidebar">
-              <div className="profile-actions"><button type="button" onClick={onShowMap}>Show on map →</button>{farm.website ? <a href={farm.website} target="_blank" rel="noreferrer">Visit website ↗</a> : null}{contactHref ? <a href={contactHref}>Contact farm ↗</a> : null}</div>
-              <div className="profile-fact"><span>Location confidence</span><strong>{farm.geoPrecision === "point" ? "Public point" : farm.geoPrecision === "city" ? "City-level approximation" : "Approximate area"}</strong><small>Confirm before visiting</small></div>
-              <div className="profile-fact"><span>Directory source</span><strong>{farm.source || "Source retained internally"}</strong></div>
+              <div className="profile-actions"><button type="button" onClick={onShowMap}><MapPinIcon aria-hidden="true" />Show on map</button>{farm.website ? <a href={farm.website} target="_blank" rel="noreferrer"><GlobeIcon aria-hidden="true" />Visit website</a> : null}{contactHref ? <a href={contactHref}>{farm.contact.includes("@") ? <EnvelopeSimpleIcon aria-hidden="true" /> : <PhoneIcon aria-hidden="true" />}Contact farm</a> : null}</div>
+              <div className="profile-fact"><span><ShieldCheckIcon aria-hidden="true" />Location confidence</span><strong>{farm.geoPrecision === "point" ? "Public point" : farm.geoPrecision === "city" ? "City-level approximation" : "Approximate area"}</strong><small>Confirm before visiting</small></div>
+              <div className="profile-fact"><span><DatabaseIcon aria-hidden="true" />Directory source</span><strong>{farm.source || "Source retained internally"}</strong></div>
             </aside>
           </div>
         </div>

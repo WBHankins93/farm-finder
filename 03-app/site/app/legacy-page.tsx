@@ -4,8 +4,35 @@
 
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  ArrowDownIcon,
+  ArrowRightIcon,
+  ArrowUpRightIcon,
+  BasketIcon,
+  CaretUpIcon,
+  ChatCircleDotsIcon,
+  ChatTeardropTextIcon,
+  CheckCircleIcon,
+  DatabaseIcon,
+  EnvelopeSimpleIcon,
+  EyeIcon,
+  GlobeIcon,
+  ListIcon,
+  MagnifyingGlassIcon,
+  MapPinIcon,
+  MapTrifoldIcon,
+  MinusCircleIcon,
+  NavigationArrowIcon,
+  PhoneIcon,
+  PlantIcon,
+  PlusIcon,
+  ShieldCheckIcon,
+  WarningCircleIcon,
+  XIcon,
+} from "@phosphor-icons/react";
+import directoryStats from "./data/directory-stats.json";
 import { categoryColors, serviceLabels, type Farm } from "./lib/farms";
-import { Mark, markForCategory, markForProduct } from "./lib/marks";
+import { Mark, markForCategory, markForProduct, markForService } from "./lib/marks";
 import { useFarms, nearestFarms, requestLocation, farmDistanceKm, DEFAULT_ORIGIN, type LatLng } from "./lib/nearby";
 
 const MapCanvas = dynamic(() => import("./components/legacy-farm-map"), {
@@ -352,7 +379,7 @@ function FarmProfileDialog({
             <h2 id="profile-title">{farm.name}</h2>
             <p>{farm.city}, {farm.state} · {farm.parish} {farm.state === "LA" ? "Parish" : "County"}</p>
           </div>
-          <button type="button" onClick={onClose} aria-label="Close farm profile">×</button>
+          <button type="button" onClick={onClose} aria-label="Close farm profile"><XIcon aria-hidden="true" /></button>
         </header>
 
         <div className="profile-body">
@@ -377,7 +404,7 @@ function FarmProfileDialog({
                 <div className="profile-service-grid">
                   {serviceFilters.map(({ key, label }) => (
                     <div className={farm[key] ? "available" : "unknown"} key={key}>
-                      <i>{farm[key] ? "✓" : "—"}</i><span>{label}</span><small>{farm[key] ? "Listed" : "Not confirmed"}</small>
+                      {farm[key] ? <CheckCircleIcon aria-hidden="true" /> : <MinusCircleIcon aria-hidden="true" />}<span>{label}</span><small>{farm[key] ? "Listed" : "Not confirmed"}</small>
                     </div>
                   ))}
                 </div>
@@ -396,15 +423,15 @@ function FarmProfileDialog({
 
             <aside className="profile-sidebar">
               <div className="profile-actions">
-                <button type="button" onClick={() => onShowMap(farm.id)}>Show on map →</button>
-                {farm.website && <a href={farm.website} target="_blank" rel="noreferrer">Visit website ↗</a>}
-                {contactHref && <a href={contactHref}>Contact farm ↗</a>}
+                <button type="button" onClick={() => onShowMap(farm.id)}><MapPinIcon aria-hidden="true" />Show on map</button>
+                {farm.website && <a href={farm.website} target="_blank" rel="noreferrer"><GlobeIcon aria-hidden="true" />Visit website</a>}
+                {contactHref && <a href={contactHref}>{farm.contact.includes("@") ? <EnvelopeSimpleIcon aria-hidden="true" /> : <PhoneIcon aria-hidden="true" />}Contact farm</a>}
               </div>
               {farm.contact && <div className="profile-fact"><span>Contact</span><strong>{farm.contact}</strong></div>}
               <div className="profile-fact"><span>Region</span><strong>{farm.region}</strong></div>
-              <div className="profile-fact"><span>Location confidence</span><strong>{farm.geoPrecision === "city" ? "City-level" : `${farm.geoPrecision || "Regional"} approximation`}</strong><small>Confirm before visiting</small></div>
+              <div className="profile-fact"><span><ShieldCheckIcon aria-hidden="true" />Location confidence</span><strong>{farm.geoPrecision === "city" ? "City-level" : `${farm.geoPrecision || "Regional"} approximation`}</strong><small>Confirm before visiting</small></div>
               <div className="profile-fact"><span>Online presence</span><strong>{farm.hasWebsite ? "Website listed" : farm.facebook || farm.instagram ? "Social only" : "No confirmed web presence"}</strong></div>
-              <div className="profile-fact"><span>Directory source</span><strong>{farm.source}</strong><small>Dataset updated July 2026</small></div>
+              <div className="profile-fact"><span><DatabaseIcon aria-hidden="true" />Directory source</span><strong>{farm.source}</strong><small>Dataset updated July 2026</small></div>
             </aside>
           </div>
 
@@ -479,12 +506,6 @@ export default function Home() {
 
   const selectedFarm = selectedId ? farms.find((farm) => farm.id === selectedId) || null : null;
   const profileFarm = profileId ? farms.find((farm) => farm.id === profileId) || null : null;
-  const statesCovered = useMemo(() => new Set(farms.map((farm) => farm.state)).size, [farms]);
-  const mappedCount = useMemo(() => farms.filter((farm) => farm.geoPrecision !== "ungeocoded").length, [farms]);
-  const websiteGap = farms.filter((farm) => !farm.hasWebsite).length;
-  const cityLevelCount = farms.filter((farm) => farm.geoPrecision === "city").length;
-  const marketCount = farms.filter((farm) => farm.farmersMarket).length;
-  const csaCount = farms.filter((farm) => farm.csa).length;
   const productCounts = useMemo(
     () => Object.fromEntries(productGuides.map((guide) => [guide.id, farms.filter((farm) => farmMatchesProduct(farm, guide.id)).length])),
     [farms],
@@ -583,14 +604,14 @@ export default function Home() {
       <a className="skip-link" href="#discover">Skip to farm search</a>
       <header className="topbar">
         <a className="brand" href="#top" aria-label="FarmFinder home">
-          <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
+          <span className="brand-mark" aria-hidden="true"><PlantIcon weight="duotone" /></span>
           <span>FarmFinder<small>U.S. farm field guide</small></span>
         </a>
         <nav aria-label="Primary navigation">
-          <a href="#ask">Ask</a>
-          <a href="#products">Browse food</a>
+          <a href="#ask"><ChatTeardropTextIcon aria-hidden="true" />Ask</a>
+          <a href="#products"><BasketIcon aria-hidden="true" />Browse food</a>
           <a href="#about">About</a>
-          <a className="farmer-link" href="#discover">Search farms</a>
+          <a className="farmer-link" href="#discover"><MagnifyingGlassIcon aria-hidden="true" />Search farms</a>
         </nav>
       </header>
 
@@ -607,12 +628,12 @@ export default function Home() {
           <p className="hero-kicker">Local farms in all 50 states · Fresh food, close to home</p>
           <h1 id="hero-title">Find the farms<br /><em>behind your <span>food.</span></em></h1>
           <p className="hero-copy">See what the farms near you grow, raise, catch, and make—and the simplest confirmed way to buy from each one.</p>
-          <a className="hero-cta" href="#discover">Search {farms.length.toLocaleString()} farms <span>↓</span></a>
+          <a className="hero-cta" href="#discover">Search {directoryStats.total.toLocaleString()} farms <ArrowDownIcon aria-hidden="true" /></a>
           <div className="hero-stats" aria-label="Directory coverage">
-            <div><strong>{farms.length.toLocaleString()}</strong><span>farms in the directory</span></div>
-            <div><strong>{statesCovered}</strong><span>states covered</span></div>
-            <div><strong>{mappedCount.toLocaleString()}</strong><span>on the map</span></div>
-            <p>Sources shown in every profile · Approximate pins labeled · Updated July 2026</p>
+            <div><strong>{directoryStats.total.toLocaleString()}</strong><span>farms in the directory</span></div>
+            <div><strong>{directoryStats.states}</strong><span>states and districts</span></div>
+            <div><strong>{directoryStats.mappable.toLocaleString()}</strong><span>public map locations</span></div>
+            <p>Sources shown in every profile · Approximate pins labeled · Updated {directoryStats.updatedLabel}</p>
           </div>
         </section>
 
@@ -633,7 +654,7 @@ export default function Home() {
                   onChange={(event) => setQuestion(event.target.value)}
                   placeholder="Who sells eggs near New Orleans?"
                 />
-                <button type="submit">Ask →</button>
+                <button type="submit"><ChatTeardropTextIcon aria-hidden="true" />Ask</button>
               </div>
               <p>Availability is not live. Check this week’s products and hours with the farm.</p>
             </form>
@@ -648,7 +669,7 @@ export default function Home() {
             <div className={`ask-answer ${answer ? "has-answer" : ""}`} aria-live="polite">
               {answer ? (
                 <>
-                  <div className="answer-mark" aria-hidden="true">A</div>
+                  <div className="answer-mark" aria-hidden="true"><ChatCircleDotsIcon weight="duotone" /></div>
                   <div className="answer-copy">
                     <span>FarmFinder answer</span>
                     <h3>{answer.title}</h3>
@@ -663,12 +684,12 @@ export default function Home() {
                         {answer.farmIds.length > 6 && <span>+ {answer.farmIds.length - 6} more matches</span>}
                       </div>
                     )}
-                    {answer.farmIds.length > 0 && <button className="answer-action" type="button" onClick={applyAnswerResults}>Show {answer.farmIds.length} matching farms →</button>}
+                    {answer.farmIds.length > 0 && <button className="answer-action" type="button" onClick={applyAnswerResults}>Show {answer.farmIds.length} matching farms <ArrowRightIcon aria-hidden="true" /></button>}
                   </div>
                 </>
               ) : (
                 <>
-                  <div className="answer-mark" aria-hidden="true">?</div>
+                  <div className="answer-mark" aria-hidden="true"><ChatCircleDotsIcon weight="duotone" /></div>
                   <div className="answer-copy empty">
                     <span>Built for practical questions</span>
                     <h3>Products, places, seasons, and farms</h3>
@@ -699,12 +720,12 @@ export default function Home() {
                   <summary>Seasonal field note</summary>
                   <p>{guide.season}</p>
                 </details>
-                <button type="button" onClick={() => browseProduct(guide.id)}>Browse {productCounts[guide.id]} matching farms →</button>
+                <button type="button" onClick={() => browseProduct(guide.id)}>Browse {productCounts[guide.id]} matching farms <ArrowRightIcon aria-hidden="true" /></button>
               </article>
             ))}
           </div>
           <button className="product-guide-more" type="button" onClick={() => setShowAllProducts((current) => !current)} aria-expanded={showAllProducts}>
-            {showAllProducts ? "Show fewer product guides ↑" : `Show ${productGuides.length - 6} more product guides ↓`}
+            {showAllProducts ? <><CaretUpIcon aria-hidden="true" />Show fewer product guides</> : <><PlusIcon aria-hidden="true" />Show {productGuides.length - 6} more product guides</>}
           </button>
         </section>
 
@@ -716,7 +737,7 @@ export default function Home() {
             <p className="section-number">A useful field guide, not a promise of live stock</p>
             <h2 id="field-story-title">Find the farm.<br /><em>Confirm the trip.</em></h2>
             <p>Compare products and ways to buy, then contact the farm for this week’s availability, hours, and pickup details.</p>
-            <a href="#discover">Search farms near you →</a>
+            <a href="#discover">Search farms near you <ArrowRightIcon aria-hidden="true" /></a>
           </div>
         </section>
 
@@ -731,7 +752,7 @@ export default function Home() {
 
           <div className="search-row">
             <label className="search-box">
-              <span className="search-icon" aria-hidden="true" />
+              <MagnifyingGlassIcon className="search-icon-svg" aria-hidden="true" />
               <span className="sr-only">Search farms</span>
               <input
                 value={query}
@@ -739,7 +760,7 @@ export default function Home() {
                 placeholder="Try “eggs near Covington” or “crawfish”"
                 type="search"
               />
-              {query && <button type="button" onClick={() => setQuery("")} aria-label="Clear search">×</button>}
+              {query && <button type="button" onClick={() => setQuery("")} aria-label="Clear search"><XIcon aria-hidden="true" /></button>}
             </label>
             <div className="state-switch" aria-label="Filter by state">
               {[["ALL", "All"], ["LA", "Louisiana"], ["MS", "Mississippi"]].map(([value, label]) => (
@@ -772,17 +793,17 @@ export default function Home() {
             <div>
               {serviceFilters.map(({ key, label }) => (
                 <button key={key} type="button" className={services.includes(key) ? "active" : ""} onClick={() => toggleService(key)} aria-pressed={services.includes(key)}>
-                  <i aria-hidden="true">{services.includes(key) ? "✓" : "+"}</i>{label}
+                  {markForService(key) ? <Mark name={markForService(key)!} /> : null}{label}
                 </button>
               ))}
             </div>
             {askFarmIds && <span className="question-filter">Question results: {askFarmIds.length}</span>}
-            {(query || category !== "All" || product !== "All" || state !== "ALL" || services.length > 0 || askFarmIds) && <button className="clear-filters" type="button" onClick={clearFilters}>Clear all</button>}
+            {(query || category !== "All" || product !== "All" || state !== "ALL" || services.length > 0 || askFarmIds) && <button className="clear-filters" type="button" onClick={clearFilters}><XIcon aria-hidden="true" />Clear all</button>}
           </div>
 
           <div className="mobile-view-switch" aria-label="Choose list or map view">
-            <button type="button" className={viewMode === "list" ? "active" : ""} onClick={() => setViewMode("list")}>List <span>{filteredFarms.length}</span></button>
-            <button type="button" className={viewMode === "map" ? "active" : ""} onClick={() => setViewMode("map")}>Map</button>
+            <button type="button" className={viewMode === "list" ? "active" : ""} onClick={() => setViewMode("list")}><ListIcon aria-hidden="true" />List <span>{filteredFarms.length}</span></button>
+            <button type="button" className={viewMode === "map" ? "active" : ""} onClick={() => setViewMode("map")}><MapTrifoldIcon aria-hidden="true" />Map</button>
           </div>
 
           <div className={`explorer view-${viewMode}`}>
@@ -790,7 +811,7 @@ export default function Home() {
               <div className="results-meta">
                 <p aria-live="polite"><strong>{filteredFarms.length.toLocaleString()}</strong> {filteredFarms.length === 1 ? "farm" : "farms"} found</p>
                 <button type="button" className="locate-btn" onClick={locate} disabled={locating}>
-                  {locating ? "Finding you…" : userOrigin ? "Nearest you ✓" : "Nearest me"}
+                  <NavigationArrowIcon aria-hidden="true" />{locating ? "Finding you…" : userOrigin ? "Nearest you" : "Nearest me"}
                 </button>
               </div>
               <div className="farm-list">
@@ -798,7 +819,7 @@ export default function Home() {
                   <div className="empty-state" role="status"><span aria-hidden="true">◍</span><h3>Loading the directory…</h3><p>Fetching farms across all 50 states.</p></div>
                 )}
                 {error && !loading && (
-                  <div className="empty-state" role="alert"><span aria-hidden="true">⚠</span><h3>{error}</h3><p>Refresh to try again.</p></div>
+                  <div className="empty-state" role="alert"><span aria-hidden="true"><WarningCircleIcon weight="duotone" /></span><h3>{error}</h3><p>Refresh to try again.</p></div>
                 )}
                 {!loading && !error && visibleList.map((farm) => {
                   const km = farmDistanceKm(listOrigin, farm);
@@ -815,11 +836,11 @@ export default function Home() {
                           {serviceLabels(farm).slice(0, 3).map((label) => <span key={label}>{label}</span>)}
                         </div>
                       </div>
-                      <span className="card-arrow" aria-hidden="true">↗</span>
+                      <ArrowUpRightIcon className="card-arrow" aria-hidden="true" />
                     </button>
                     <div className="card-contact">
-                        <button type="button" onClick={() => openProfile(farm.id)}>View profile →</button>
-                        {farm.website && <a href={farm.website} target="_blank" rel="noreferrer">Website ↗</a>}
+                        <button type="button" onClick={() => openProfile(farm.id)}><EyeIcon aria-hidden="true" />View profile</button>
+                        {farm.website && <a href={farm.website} target="_blank" rel="noreferrer"><GlobeIcon aria-hidden="true" />Website</a>}
                         {farm.contact && <span>{farm.contact}</span>}
                     </div>
                   </article>
@@ -832,7 +853,7 @@ export default function Home() {
                 )}
                 {!loading && !error && filteredFarms.length === 0 && (
                   <div className="empty-state">
-                    <span aria-hidden="true">○</span>
+                    <span aria-hidden="true"><MagnifyingGlassIcon weight="duotone" /></span>
                     <h3>No farms match those filters—yet.</h3>
                     <p>Try a broader place or product, or remove one of the shopping options.</p>
                     <button type="button" onClick={clearFilters}>Reset the directory</button>
@@ -858,18 +879,18 @@ export default function Home() {
           <div className="updates-heading">
             <p className="section-number">04 / Latest directory update</p>
             <h2 id="updates-title">What changed,<br />and what comes next.</h2>
-            <p>July 2026 · The directory includes {farms.length} distinct farms and producers. Each listing keeps its source so details can be checked and corrected.</p>
+            <p>{directoryStats.updatedLabel} · The directory includes {directoryStats.total.toLocaleString()} distinct farms and producers. Each listing keeps its source so details can be checked and corrected.</p>
           </div>
           <div className="update-ledger">
             <article className="update-lead">
               <span>Coverage expanded</span>
-              <strong>299</strong>
-              <h3>unique farms across two states</h3>
-              <p>The directory now spans all Louisiana regions plus South, Central, and North Mississippi, with Louisiana remaining the densest starting market.</p>
+              <strong>{directoryStats.total.toLocaleString()}</strong>
+              <h3>farm and producer records</h3>
+              <p>The directory now supports national discovery while every listing retains its source and location-confidence label.</p>
             </article>
-            <article><span>Map confidence</span><strong>{cityLevelCount}</strong><h3>city-level locations</h3><p>The remaining {farms.length - cityLevelCount} pins represent a parish, area, metro, or regional center until a farm-gate address is confirmed.</p></article>
-            <article><span>How to buy</span><strong>{marketCount}</strong><h3>farms at markets</h3><p>{csaCount} records mention CSA shares. Pickup, delivery, and ordering filters make those sales paths easier to compare.</p></article>
-            <article><span>Contact paths</span><strong>{websiteGap}</strong><h3>without a confirmed website</h3><p>These profiles may rely on a market roster, public directory, phone number, or social page. Check the source and contact the farm before visiting.</p></article>
+            <article><span>Map confidence</span><strong>{directoryStats.cityLevel.toLocaleString()}</strong><h3>city-level locations</h3><p>{directoryStats.mappable.toLocaleString()} records have public map locations; exact farm-gate placement remains protected until it is safe and confirmed.</p></article>
+            <article><span>How to buy</span><strong>{directoryStats.services.farmersMarket.toLocaleString()}</strong><h3>farms at markets</h3><p>{directoryStats.services.csa.toLocaleString()} records mention CSA shares. Pickup, delivery, and ordering filters make those sales paths easier to compare.</p></article>
+            <article><span>Contact paths</span><strong>{directoryStats.withoutWebsite.toLocaleString()}</strong><h3>without a confirmed website</h3><p>These profiles may rely on a market roster, public directory, phone number, or social page. Check the source and contact the farm before visiting.</p></article>
           </div>
           <div className="update-notes">
             <div><span>Now live</span><p>Detailed profiles, specific product browsing, combined category filters, directory-grounded questions, and clearer location confidence.</p></div>
@@ -883,7 +904,7 @@ export default function Home() {
           <div className="about-grid">
             <h2 id="about-title">A living directory,<br />built from the ground up.</h2>
             <div>
-              <p>FarmFinder is cataloging independent farms across the continental United States so buying local takes less detective work. Louisiana and Mississippi are the first coverage area, built from public directories, farmers-market rosters, extension resources, and direct research.</p>
+              <p>FarmFinder catalogs independent farms across the United States so buying local takes less detective work. Records come from public directories, farmers-market rosters, extension resources, and direct research.</p>
               <p>Some pins represent a city or regional center rather than a farm gate. Always contact a farm before visiting; availability, hours, and harvests change with the season.</p>
             </div>
             <aside>
@@ -896,15 +917,15 @@ export default function Home() {
       </main>
 
       <footer>
-        <a className="brand footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span><span>FarmFinder<small>Find food closer to home.</small></span></a>
+        <a className="brand footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><PlantIcon weight="duotone" /></span><span>FarmFinder<small>Find food closer to home.</small></span></a>
         <p>Source-backed farm discovery, one region at a time.</p>
         <div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a></div>
         <small>© 2026 FarmFinder</small>
       </footer>
       <nav className="mobile-dock" aria-label="Mobile navigation">
-        <a href="#ask">Ask</a>
-        <a href="#products">Browse</a>
-        <a href="#discover">Search</a>
+        <a href="#ask"><ChatTeardropTextIcon aria-hidden="true" />Ask</a>
+        <a href="#products"><BasketIcon aria-hidden="true" />Browse</a>
+        <a href="#discover"><MagnifyingGlassIcon aria-hidden="true" />Search</a>
       </nav>
       {profileFarm && <FarmProfileDialog farm={profileFarm} farms={farms} onClose={closeProfile} onShowMap={showProfileOnMap} onOpenFarm={openProfile} />}
     </div>

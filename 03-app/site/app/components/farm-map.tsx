@@ -1,6 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import {
+  ArrowRightIcon,
+  CornersOutIcon,
+  CrosshairSimpleIcon,
+  GlobeIcon,
+  WarningCircleIcon,
+  XIcon,
+} from "@phosphor-icons/react";
 import maplibregl, { type ExpressionSpecification, type GeoJSONSource, type Map as MapLibreMap } from "maplibre-gl";
 import type { FeatureCollection, Point } from "geojson";
 import type { DiscoveryScope, FarmMapFeature, FarmSummary, LatLng, MapBounds } from "../lib/discovery-contract";
@@ -207,16 +215,16 @@ export default function FarmMap(props: FarmMapProps) {
   return (
     <div className="map-wrap">
       <div ref={containerRef} className="map-canvas" role="region" aria-label="Interactive map of farm results" />
-      {mapError ? <div className="map-fallback" role="status"><span aria-hidden="true">⌁</span><strong>Keep browsing in the farm list.</strong><p>{mapError} Search, filters, and profiles still work.</p></div> : !mapReady ? <div className="map-loading" role="status"><span />Preparing the field map…</div> : null}
-      {!mapError ? <div className="map-tools" role="group" aria-label="Map tools"><button type="button" onClick={fitVisible}>Fit results</button>{props.searchAreaAvailable ? <button className="search-area-button" type="button" onClick={props.onSearchArea}>Search this area</button> : null}</div> : null}
+      {mapError ? <div className="map-fallback" role="status"><span aria-hidden="true"><WarningCircleIcon weight="duotone" /></span><strong>Keep browsing in the farm list.</strong><p>{mapError} Search, filters, and profiles still work.</p></div> : !mapReady ? <div className="map-loading" role="status"><span />Preparing the field map…</div> : null}
+      {!mapError ? <div className="map-tools" role="group" aria-label="Map tools"><button type="button" onClick={fitVisible}><CornersOutIcon aria-hidden="true" />Fit results</button>{props.searchAreaAvailable ? <button className="search-area-button" type="button" onClick={props.onSearchArea}><CrosshairSimpleIcon aria-hidden="true" />Search this area</button> : null}</div> : null}
       {!mapError ? <div className="map-key" aria-label="Map legend"><span><i className="key-dot produce" /> Produce</span><span><i className="key-dot meat" /> Meat</span><span><i className="key-dot mixed" /> Mixed</span><span><i className="key-dot more" /> More</span></div> : null}
       {!mapError && selected ? (
         <aside className="map-detail map-detail-sheet" role="region" aria-live="polite" aria-label={`${selected.name} details`}>
-          <button className="detail-close" type="button" onClick={() => props.onSelect("")} aria-label="Close farm details">×</button>
+          <button className="detail-close" type="button" onClick={() => props.onSelect("")} aria-label="Close farm details"><XIcon aria-hidden="true" /></button>
           <div className="detail-kicker"><Mark name={markForCategory(selected.category)} style={{ color: categoryColors[selected.category] || "#596b60" }} />{selected.category}</div>
           <h3>{selected.name}</h3><p className="detail-place">{selected.city}, {selected.state} · {selected.parish || "Area not listed"}</p><p className="detail-products">{selected.productsText}</p>
           <div className="detail-tags">{summaryServices(selected).map((label) => <span key={label}>{label}</span>)}</div>
-          <div className="detail-actions"><button type="button" onClick={() => props.onOpenProfile(selected.id)}>Full profile →</button>{selected.website ? <a href={selected.website} target="_blank" rel="noreferrer">Website ↗</a> : null}</div>
+          <div className="detail-actions"><button type="button" onClick={() => props.onOpenProfile(selected.id)}>Full profile <ArrowRightIcon aria-hidden="true" /></button>{selected.website ? <a href={selected.website} target="_blank" rel="noreferrer"><GlobeIcon aria-hidden="true" />Website</a> : null}</div>
           <p className="precision-note">{selected.geoPrecision === "point" ? "Public point" : "Approximate location"} · Confirm before visiting</p>
         </aside>
       ) : null}
