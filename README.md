@@ -25,10 +25,11 @@ Throughout this repository, **LA means Louisiana**, never Los Angeles.
 | Area | Current state |
 |---|---|
 | Public application | A working static-first directory and map under `03-app/site/`. |
-| Public data | `03-app/site/app/data/farms.json` is the canonical 299-record pre-cutover application dataset. |
+| Canonical data | `01-database/pipeline/data/<ST>.json` holds 72,396 collected records across all 50 states; 68,618 currently pass QA and privacy publication gates. |
 | Data pipeline | A config-driven collect → cleanse → QA → publish engine under `01-database/pipeline/`. |
-| State expansion | Coverage-reviewed state releases remain read-only staged inputs until the Postgres cutover. |
-| PostgreSQL/PostGIS | The production foundation exists, but PostgreSQL does not serve the application yet. |
+| State expansion | All 50 state stores are committed; unresolved candidates remain durable with QA reasons. Legacy staged releases are read-only transition inputs. |
+| Public application data | `run.py --publish` generates the national feed. The 299-row `03-app/site/app/data/farms.json` file is a superseded workbook-era artifact. |
+| PostgreSQL/PostGIS | A local full-refresh sink exists for the eligible feed; the managed production cutover remains gated. |
 | Question answering | The app has prototype dataset-grounded parsing; the production hybrid query system is planned. |
 
 Named farm candidates are durable: incomplete data creates a QA reason, not a
@@ -63,9 +64,10 @@ flowchart LR
     Data --> Search["Structured and narrative search"]
 ```
 
-Today the web application reads a generated JSON artifact. The target platform
-promotes approved data into PostgreSQL/PostGIS and exposes it through validated
-API and query-tool boundaries. Read the [project architecture](docs/architecture/README.md#system-shape)
+Today the web application reads bounded discovery responses generated from the
+eligible national feed. The target platform promotes approved data into managed
+PostgreSQL/PostGIS and exposes it through validated API and query-tool
+boundaries. Read the [project architecture](docs/architecture/README.md#system-shape)
 for the current and target flows.
 
 <a id="repository-guide"></a>

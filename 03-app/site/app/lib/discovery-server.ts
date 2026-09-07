@@ -1,4 +1,5 @@
-import sourceFarms from "../data/farms.json";
+import { gunzipSync } from "node:zlib";
+import compressedSourceFarms from "../data/national-farms.generated";
 import type {
   DiscoveryQuery,
   DiscoveryScope,
@@ -17,9 +18,11 @@ import type {
 import { serviceKeys } from "./discovery-contract";
 import type { Farm } from "./farms";
 
-const farms = sourceFarms as Farm[];
+const farms = JSON.parse(
+  gunzipSync(Buffer.from(compressedSourceFarms, "base64")).toString("utf8"),
+) as Farm[];
 const farmById = new Map(farms.map((farm) => [farm.id, farm]));
-const releaseId = `legacy-web-${farms.length}`;
+const releaseId = `national-web-${farms.length}`;
 const milesPerKilometer = 0.621371;
 const earthKilometers = 6371;
 const defaultLimit = 30;
@@ -119,6 +122,11 @@ function buildPlaces(): PlaceSuggestion[] {
 
 const places = buildPlaces();
 const placeBySlug = new Map(places.map((place) => [place.slug, place]));
+
+export const discoveryDatasetSummary = {
+  total: farms.length,
+  states: [...new Set(farms.map((farm) => farm.state))].sort(),
+};
 
 function parseNumber(value: string | null) {
   if (value === null || value.trim() === "") return null;

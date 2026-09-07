@@ -2,16 +2,18 @@
 
 ## Current cutover state
 
-Cutover began on 2026-07-15. Historical release `2026-07-13-final-v1` completed the first reversible stage:
+As of 2026-08-30, the committed pre-cutover authority is the 50-state store at `01-database/pipeline/data/<ST>.json`: 72,396 canonical records, of which 68,618 pass the current public eligibility and privacy projection. The app's generated feeds and the local PostgreSQL development sink must reconcile to those 68,618 records and exactly 50 state codes.
+
+The earlier workbook staging exercise remains historical cutover evidence. Release `2026-07-13-final-v1` completed the first reversible stage:
 
 - The governed workbook passed its checksum, structure, row-count, state, and duplicate-group checks.
 - Its exact bytes were uploaded to a private, versioned S3-compatible object.
 - `dataset_releases` records the object URI, SHA-256 checksum, release manifest, and expected counts.
 - One idempotent import batch stored all 315 workbook rows in `source_records`.
 - Verification downloaded the recorded object version, re-hashed it, and reconciled all 315 rows.
-- The release is `validated`, not `promoted`. The workbook remains the authoring authority and the public app still reads generated JSON.
+- The release is `validated`, not `promoted`. It no longer defines current national authority or app counts.
 
-The current workbook/manifest is now release `2026-07-15-enriched-v2`: 299 canonical rows after evidence review of the four former duplicate groups. V2 has not yet replaced or overwritten v1 in staging. Promotion remains blocked until v2 is staged, its fields and provenance are normalized into canonical relational tables, privacy rules are reviewed, and public-artifact equivalence passes.
+Release `2026-07-15-enriched-v2` contains 299 legacy workbook rows after evidence review of the four former duplicate groups. It must remain immutable and must not overwrite v1, but it is superseded as a national dataset. Managed promotion remains blocked until the national state store's fields and provenance are normalized into canonical relational tables, privacy rules are reviewed, and public-artifact equivalence passes.
 
 ## Local execution
 
@@ -40,7 +42,7 @@ The staging command is idempotent. Repeating it with the same release ID and che
 
 | Layer | Authority and contents |
 |---|---|
-| Git | Code, migrations, release manifest/checksum, tests, and small sanitized fixtures; the current workbook remains only for the reversible pre-promotion transition |
+| Git | Code, migrations, tests, governed source configuration, the canonical 50-state JSON store, and immutable historical release evidence |
 | Object storage | Immutable source releases and later media; private, versioned, checksum-addressed, and independently restorable |
 | PostgreSQL staging | Release metadata, import attempts, and immutable raw source records |
 | PostgreSQL canonical | Reviewed farms, geography, products, channels, links, contacts, assertions, and provenance after atomic promotion |
@@ -79,7 +81,7 @@ Revisit indexes only after normalization queries and `EXPLAIN (ANALYZE, BUFFERS)
 1. Preserve the completed evidence-based decisions for Butterfield Farm, Earth Friendly Farms, Faust Farms, and River Queen Greens when importing v2; do not recreate name-only merges.
 2. Normalize official geography, products, sales channels, links, contacts, verification sources, identity notes, and location visibility.
 3. Preserve field-level assertions linking every selected value to its source record.
-4. Compare database-derived public output with the current 299-listing artifact.
+4. Compare database-derived public output with the current 68,618-record eligible national projection and exactly 50 state codes; the 299-row artifact is historical only.
 5. Run public/private projection tests and structured query evals.
 6. Copy the source release to managed versioned object storage and prove restoration.
 7. Back up managed PostgreSQL and prove restoration into staging.

@@ -1,11 +1,11 @@
 {
   "releaseId": "national-web-2026-07-25",
   "updatedLabel": "July 2026",
-  "total": 68619,
-  "states": 51,
+  "total": 68618,
+  "states": 50,
   "mappable": 54821,
   "cityLevel": 4993,
-  "withoutWebsite": 51985,
+  "withoutWebsite": 51984,
   "services": {
     "farmersMarket": 2905,
     "onFarm": 9303,

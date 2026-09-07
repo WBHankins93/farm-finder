@@ -1,10 +1,24 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { getFarm, isMappableFarm, mapFarms, parseDiscoveryQuery, searchFarms, searchPlaces } from "../app/lib/discovery-server";
+import { discoveryDatasetSummary, getFarm, isMappableFarm, mapFarms, parseDiscoveryQuery, searchFarms, searchPlaces } from "../app/lib/discovery-server";
+
+const expectedStates = [
+  "AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DE", "FL", "GA",
+  "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD",
+  "ME", "MI", "MN", "MO", "MS", "MT", "NC", "ND", "NE", "NH",
+  "NJ", "NM", "NV", "NY", "OH", "OK", "OR", "PA", "RI", "SC",
+  "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI", "WV", "WY",
+];
 
 function query(value = "") {
   return parseDiscoveryQuery(new URLSearchParams(value));
 }
+
+test("discovery uses the complete governed national release", () => {
+  assert.equal(discoveryDatasetSummary.total, 68_618);
+  assert.deepEqual(discoveryDatasetSummary.states, expectedStates);
+  assert.equal(discoveryDatasetSummary.states.includes("ZZ"), false);
+});
 
 test("normalizes discovery query defaults, bounds, services, and limits", () => {
   const parsed = query("q=eggs&radiusMiles=71&bbox=-91,29,-89,31&services=onFarm,csa&services=csa&limit=999");
@@ -71,7 +85,7 @@ test("shared approximate coordinates remain terminal clusters at maximum zoom", 
 });
 
 test("zero, missing, non-finite, and explicitly ungeocoded coordinates are never mappable", () => {
-  const base = getFarm("vintage-garden-farms")!;
+  const base = getFarm("vintage-garden-farms-la")!;
   assert.equal(isMappableFarm({ ...base, latitude: 0, longitude: 0 }), false);
   assert.equal(isMappableFarm({ ...base, latitude: Number.NaN }), false);
   assert.equal(isMappableFarm({ ...base, geoPrecision: "ungeocoded" }), false);
@@ -82,7 +96,7 @@ test("place suggestions are governed, bounded, and profile lookup does not depen
   const places = searchPlaces("new", 99);
   assert.ok(places.items.length > 0 && places.items.length <= 8);
   assert.equal(places.items[0].label, "New Orleans, LA");
-  const farm = getFarm("vintage-garden-farms");
+  const farm = getFarm("vintage-garden-farms-la");
   assert.equal(farm?.name, "Vintage Garden Farms");
   assert.equal(getFarm("missing-farm"), null);
 });

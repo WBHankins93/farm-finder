@@ -1,6 +1,6 @@
 # FarmFinder web and platform foundation
 
-The public FarmFinder directory runs on [vinext](https://github.com/cloudflare/vinext). The production foundation adds a governed dataset release, PostgreSQL/PostGIS migrations, documented indexes, database integration tests, architecture decisions, and local infrastructure without changing the static-first public release.
+The public FarmFinder directory runs on [vinext](https://github.com/cloudflare/vinext). The production foundation adds a governed 50-state dataset, PostgreSQL/PostGIS migrations, documented indexes, database integration tests, architecture decisions, and local infrastructure while preserving a rollback path for the static explorer.
 
 ## Prerequisites
 
@@ -27,8 +27,12 @@ PostgreSQL release and the bounded `/v1` queries pass the cutover checks.
 ## Current shape
 
 - edit site code under `app/`
-- `app/data/farms.json` is the current 299-listing public build artifact
-- `config/source-of-truth.json` pins the pre-cutover canonical workbook release
+- `../../01-database/pipeline/data/<ST>.json` is the canonical 72,396-record
+  state store; 68,618 records currently pass the publication gates
+- the bounded `/v1` discovery routes and rollback explorer derive from the same
+  generated national feed
+- `app/data/farms.json` and `config/source-of-truth.json` retain the superseded
+  299-row workbook release for historical validation only
 - `packages/db/` owns the production PostgreSQL/PostGIS migrations and index decisions
 - `infra/` owns reproducible local dependencies and the production infrastructure contract
 - `docs/` records architecture, data governance, and implementation state
@@ -99,7 +103,7 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 
 - `npm run dev`: start local development
 - `npm run build`: verify the vinext build output
-- `npm test`: build and verify the rendered FarmFinder shell and 299-record artifact
+- `npm test`: verify discovery behavior, build the site, and smoke-test the rendered shell
 - `npm run lint`: run the application linter
 - `npm run data:setup`: create the ignored Python environment for workbook tooling
 - `npm run data:validate`: validate the canonical workbook release manifest
