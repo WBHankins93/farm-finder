@@ -462,7 +462,7 @@ export default function DiscoveryWorkspace() {
   const selectedOutsidePage = selectedFarm && !searchResult.items.some((farm) => farm.id === selectedFarm.id) ? selectedFarm : null;
   const scope = searchEnabled ? (searchResult.scope as DiscoveryScope) : null;
   const scopeText = scope?.mode === "nearby" ? `within ${scope.radiusMiles} miles of ${scope.label}` : scope?.mode === "area" ? "in this map area" : "across all covered areas";
-  const sortLabel = sort === "distance" ? "Nearest" : sort === "relevance" ? "Best match" : "Farm name";
+
 
   return (
     <section className="discovery discovery-v2" id="discover" aria-labelledby="discover-title">
@@ -490,7 +490,6 @@ export default function DiscoveryWorkspace() {
       <div className="results-toolbar">
         <p aria-live="polite"><strong>{searchResult.total.toLocaleString()}</strong> {searchResult.total === 1 ? "farm" : "farms"} {searchEnabled ? scopeText : "ready to search"}{refreshing ? <span> · Updating…</span> : null}</p>
         <label>Sort<select value={sort} onChange={(event) => setSort(event.target.value as SortMode)}><option value="distance" disabled={!hasScope}>Nearest</option><option value="relevance" disabled={!deferredQuery}>Best match</option><option value="name">Farm name</option></select></label>
-        <span>{sortLabel}</span>
       </div>
 
       <div className="mobile-view-switch" role="group" aria-label="Choose list or map view"><button type="button" className={view === "list" ? "active" : ""} aria-pressed={view === "list"} onClick={() => setView("list")}>List <span>{searchResult.total.toLocaleString()}</span></button><button type="button" className={view === "map" ? "active" : ""} aria-pressed={view === "map"} onClick={() => setView("map")}>Map <span>{mapResult.total.toLocaleString()}</span></button></div>
