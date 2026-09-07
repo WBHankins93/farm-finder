@@ -4,6 +4,13 @@
 > here is **free for commercial use**; verify each individual image's license
 > before shipping (they vary).
 
+For paid-stock art-direction references and original GPT image-generation
+briefs, see the [photo reference board](design/photo-reference-board.md). Its
+Shutterstock links are thematic references only, not licensed production assets.
+The [regional imagery production plan](design/regional-imagery-production-plan.md)
+tracks local-only generated previews, the accuracy approval gate, and the
+nationwide regional queue.
+
 ## Where to get free, on-brand photography
 
 | Source | License | Best for | Notes |

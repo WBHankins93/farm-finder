@@ -1,34 +1,138 @@
-# Market Opportunity Brief — FarmFinder (v1, 2026-07-12)
+# FarmFinder market opportunity and farmer-value strategy
 
-Decision this supports: evaluate two separate owner decisions—the Sproutflow farm-service niche and whether or when the FarmFinder discovery app is worth pursuing—while identifying any legitimate, consented overlap.
+> Updated 2026-08-30. FarmFinder is a standalone consumer-discovery product.
+> Commercial services, customer records, and third-party promotions remain
+> outside this repository and outside FarmFinder's product workflows.
 
-> **Scope boundary:** This brief analyzes strategic overlap for the common owner. Sproutflow outreach and client revenue are separate company activity, not FarmFinder app functionality, roadmap, or monetization.
+## Decision summary
 
-## The core stat, corrected
+Release FarmFinder as a free, responsive web product and use real consumer
+behavior to determine whether a native app or farmer-paid software is justified.
+Do not charge farms for exposure until FarmFinder can show recurring consumer
+demand, attributable contacts, or operational value that works independently of
+audience size.
 
-Ben's working claim: "90% of local farms in South LA aren't online at all." The best available public data says:
+The near-term product job is simple: help a consumer find a relevant nearby
+farm, understand what it produces, and reach a confirmed way to buy. The
+near-term farmer job is equally simple: claim or correct a free listing and see
+whether FarmFinder sends useful attention.
 
-- Louisiana had ~25,000 farms in 2022; farm **internet access** was 77% (up from 70% in 2017) — but access ≠ presence. ([USDA NASS 2022 Census, Louisiana](https://www.nass.usda.gov/Census_by_State/Louisiana/), [LA Farm Bureau summary](https://lafarmbureaunews.com/news/2024/2/14/usda-releases-2022-census-of-agriculture-data-down-to-the-county-level))
-- Only **1,296 Louisiana farms** sold direct-to-consumer in 2022 ($11.2M total — tiny average revenue per farm). That's ~5% of LA farms.
-- Nationally, only **8% of direct-marketing farms sold via online marketplaces** (USDA Local Food Marketing Practices Survey), despite ~73% having internet access. ([MU Extension summary](https://extension.missouri.edu/publications/g6224), [USDA LFMP](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Local_Food/))
-- **Our own database (112 farms, `01-database/local_farm_database.xlsx`): 89% of the 81 Louisiana farms have no website** (NOLA Metro 93%, other South LA 81%). South Mississippi is different: 47% have websites — expect the two test markets to need different pitches.
+## Verified data asset
 
-**Verdict:** "90% offline" is now verified against our own LA dataset for *websites* specifically — though many farms have Facebook, so say "no website," not "not online at all" (30% of NOLA Metro farms have zero presence including social). It is also directionally credible for *web presence among small direct-market farms*. The defensible pitch line: "fewer than 1 in 10 direct-market farms sell online, and most small Louisiana farms have no website at all." Sized market for the pitch: national local-food direct sales were **$9.0B in 2020** ($2.9B direct-to-consumer) across ~147,000 farms. ([USDA NASS](https://www.nass.usda.gov/Newsroom/archive/2022/04-28-2022.php))
+The committed canonical state store contains **72,396 unique records** across
+all 50 states. **68,618** currently pass QA and privacy publication gates;
+**3,778** named candidates remain durable in the QA residue.
 
-## Competitive landscape
+Within the eligible feed:
 
-**Discovery/directory (the app's lane):** [LocalHarvest](http://www.localharvest.org) (incumbent, dated UX, thin Gulf South coverage), [Farmish](https://getfarmish.com/) (marketplace, no website needed for farmer), [GrownBy](https://grownby.app) (co-op/USDA-funded, CSA-centric), [Localize](https://www.localizefood.com/). None owns Louisiana/Mississippi; coverage in the Gulf South is the gap FarmFinder exploits.
+| Documented attribute | Records | Share of eligible feed |
+|---|---:|---:|
+| Captured website | 16,634 | 24.2% |
+| No captured website | 51,984 | 75.8% |
+| Captured online store | 1,489 | 2.2% |
+| Explicit direct-selling signal | 12,213 | 17.8% |
+| Direct-selling signal and no online store | 10,724 | 15.6% |
+| Direct-selling signal and no website | 6,891 | 10.0% |
+| Website plus direct sales but no store | 4,008 | 5.8% |
 
-**Farm e-commerce (Sproutflow's competition):** [Barn2Door](https://www.barn2door.com), [Local Line](https://www.localline.co/blog/best-e-commerce-platforms-for-farms) ($99–199/mo, aimed at farms doing $5k+/mo), GrazeCart, Red Hen. These are priced for farms already selling online — exactly *not* our segment. Sproutflow's cheap static-first tiers sit below all of them. ([Grapevine platform comparison](https://www.grapevinelocalmarketing.com/resources/farm-website-platform-comparison))
+These are discovery and enrichment counts, not final sales-prospect counts.
+Empty website and channel fields can mean “not captured” rather than verified
+absence because channel booleans currently default to false. Any market-sizing
+or outreach use must first re-verify a representative sample against current
+public business sources.
 
-## Assessment
+## Why free comes first
 
-- **Sproutflow outreach niche: strong.** Underserved segment, no direct price competitor, and a trust-based moat. Risk: small dollars per client; this is a volume-and-relationship business, not a big-ticket one. LA's DTC pie is only $11.2M/yr, so Sproutflow's in-state revenue ceiling is modest. A client does not automatically become FarmFinder data; corrections or listing information transfer only through the governed consent and provenance workflow.
-- **FarmFinder database: the real asset.** Nobody has authoritative Gulf South coverage. Coverage requires its own governed collection and verification process. Voluntary corrections learned through separate Sproutflow work may contribute under that process, but client activity is not assumed to be FarmFinder's acquisition pipeline.
-- **App: unproven, defer.** Marketplace apps here face a two-sided cold-start with a supply side that is offline by definition. LocalHarvest/GrownBy haven't cracked it. Only attempt after the database + farm relationships de-risk the supply side. Second-order risk: app maintenance burden competes with Sproutflow client work.
+A farm should not pay $49 or $99 per month merely to appear before a small or
+unproven audience. Exposure becomes chargeable only after FarmFinder can show a
+repeatable result such as qualified website visits, calls, directions requests,
+inquiries, or orders.
 
-**Recommendation:** sequence as planned — database + outreach now, app decision later against real coverage numbers. Alternative worth keeping open: instead of a standalone app, license/syndicate the database (to GrownBy, state ag programs, tourism boards) — revenue without cold-start risk.
+Free participation creates the useful initial flywheel:
 
-## Data sources to mine next
+1. Consumers get a broad, trustworthy directory without an account.
+2. Farms can claim and correct listings without paying.
+3. Better farm information improves search usefulness and trust.
+4. Consumer usage produces evidence about which locations, products, and
+   purchase paths have real demand.
+5. Only then can FarmFinder evaluate paid capabilities that produce measurable
+   value rather than selling speculative exposure.
 
-[LSU AgCenter LA Farm Food Map & Directory](https://www.lsuagcenter.com/topics/food_health/farm%20to%20school/producers/la-farm-food-map-and-directory), louisianagrown.com "Where to Buy", Louisiana MarketMaker, [Black Farmers Index — Region 6](https://blackfarmersindex.com/region-6-louisiana), parish farmers-market vendor rosters, LocalHarvest LA listings.
+## Web product before native app
+
+Farm discovery is usually an occasional, search-led task. A responsive website
+is easier to find through search, easier to share, and asks for no installation.
+It should remain the primary product until repeat behavior proves that a native
+app would improve retention.
+
+A native app becomes justified only when at least two of these conditions hold:
+
+- a meaningful cohort returns monthly to saved farms or alerts;
+- consumers repeatedly use location-based discovery while away from home;
+- farms publish source-backed availability often enough to support alerts;
+- account retention shows value beyond one-time search traffic;
+- push notifications or offline market navigation measurably improve outcomes.
+
+Until then, invest in the responsive web app or PWA, indexed farm pages, fast
+nearby search, saved links, and privacy-safe analytics.
+
+## Farmer value ladder
+
+### Free foundation
+
+- Verified, claimable listing
+- Correct products, purchase methods, public links, and service area
+- Shareable farm profile
+- Source and location-confidence transparency
+- Basic privacy-safe views, outbound clicks, calls, and directions metrics
+- Correction and freshness reminders
+
+### Paid only after traffic evidence
+
+- Enhanced attribution and conversion reporting
+- Availability or event publishing with consumer alerts
+- Inquiry or preorder capture tied to a farm's existing workflow
+- Customer-list tools that the farm owns and can export
+- Integrations with existing storefront, payment, CSA, or POS providers
+
+### Separate operational software opportunity
+
+Order entry, inventory, subscriptions, pickup scheduling, traceability,
+accounting, and settlements can create value without FarmFinder traffic. They
+also create a much larger vertical-SaaS obligation: onboarding, support,
+payments, migrations, compliance, and uptime. FarmFinder should enter that
+category only after interviews and paid pilots identify one narrow operational
+problem that existing products do not solve affordably.
+
+## Monetization gates
+
+Do not launch a farmer subscription until FarmFinder can demonstrate:
+
+- at least 1,000 monthly active consumers in a concentrated launch market;
+- at least 100 measurable contact or outbound-commerce actions per month;
+- at least 25 claimed farms updating or confirming their listing;
+- a six-week cohort in which farms can identify useful leads or saved time;
+- five or more farms willing to pay after seeing their own results.
+
+The thresholds are decision gates, not forecasts. They prevent the product from
+charging for theoretical value.
+
+## Next experiments
+
+1. Remove stale national-count and runtime-source inconsistencies.
+2. Launch the free web directory with event instrumentation for searches,
+   profiles, outbound links, calls, directions, claims, and corrections.
+3. Re-verify a stratified sample of 200 direct-selling records with no captured
+   store to estimate true website/store gaps.
+4. Recruit 25 farms into a free listing-claim and analytics pilot.
+5. Interview consumers and farms after six weeks using observed behavior rather
+   than hypothetical feature interest.
+6. Revisit native mobile and paid farmer tools only against the gates above.
+
+## Privacy and business boundary
+
+FarmFinder data exists to support governed farm discovery. Exact private
+locations and uncleared contacts remain internal. FarmFinder listings, claims,
+corrections, and analytics must never silently become another business's leads,
+customer records, or promotions. Any activity outside FarmFinder requires its
+own public-source verification, consent, records, and opt-out process.

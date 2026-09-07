@@ -4,9 +4,9 @@
 
 ### Before PostgreSQL cutover
 
-The workbook identified by `config/source-of-truth.json` is the only editable authoring source. The manifest pins its sheet, checksum, row count, candidate-entity count, required columns, allowed states, and known duplicate groups. The generated JSON is a build artifact, not another source of truth.
+The committed state store at `01-database/pipeline/data/<ST>.json` is the canonical pre-cutover authority. It contains 72,396 governed records across all 50 states. The pipeline publish projection currently exposes 68,618 eligible records; generated feeds and local PostgreSQL are reproducible sinks, not independent authorities.
 
-Cutover staging began on 2026-07-15 with historical release `2026-07-13-final-v1`: its 315 raw rows are stored as a versioned object and registered in local PostgreSQL. The current manifest now pins enriched release `2026-07-15-enriched-v2`, containing 299 canonical workbook rows after evidence-based duplicate review. V2 must be staged as a new immutable object; it must not overwrite v1. Staging does not change authority. The workbook remains authoritative until reviewed canonical entities are promoted atomically and the manifest authority mode changes.
+Cutover staging began on 2026-07-15 with historical release `2026-07-13-final-v1`: its 315 raw rows are stored as a versioned object and registered in local PostgreSQL. Release `2026-07-15-enriched-v2` reduced that legacy workbook to 299 rows after evidence-based duplicate review. Those releases remain immutable provenance evidence, but the 299-row workbook is superseded and must never be used for national runtime queries or current counts. Managed-PostgreSQL promotion does not change authority until reviewed canonical entities are promoted atomically and the authority mode changes.
 
 ### After PostgreSQL cutover
 
@@ -54,7 +54,7 @@ location; it does not create an intake exemption or a QA penalty.
 
 States remain the top-level official namespace. Collection can proceed in smaller regions without making those regions substitutes for states, counties, or Louisiana parishes.
 
-Active Mississippi collection remains a separate working set during cutover. When a collection milestone is ready, freeze it as a new immutable release with a new ID and checksum; never overwrite the currently validated release. See the [cutover runbook](cutover-runbook.md).
+New collection enters the config-driven state pipeline. Freeze material source updates as immutable releases with their own IDs and checksums; never overwrite validated historical evidence. See the [cutover runbook](cutover-runbook.md).
 
 ## Canonical-value policy
 
@@ -67,7 +67,7 @@ Active Mississippi collection remains a separate working set during cutover. Whe
 
 ## Release gates
 
-- Manifest checksum and workbook structure match.
+- Source checksums and state-file structures match their governed contracts.
 - Required values are present and allowed values are valid.
 - Duplicate groups are reviewed or explicitly carried as unresolved.
 - Source licensing/terms and retrieval dates are recorded.

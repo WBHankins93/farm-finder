@@ -1,28 +1,110 @@
 #!/usr/bin/env python3
-"""Generate the app's runtime feed (public/farms.json) from the pipeline output.
+"""Generate the app's runtime feeds from the committed national data store.
 
-Reads the eligible, privacy-cleared feed the pipeline publishes
-(01-database/pipeline/build/app-farms.json, produced by `run.py --publish`) and
-writes a minified copy the web client fetches at runtime. Regenerable; the file
-is git-ignored — the committed source of truth is the pipeline's per-state data.
+Reads every committed ``01-database/pipeline/data/<ST>.json`` file, applies the
+pipeline's publish projection (including its privacy gate), and writes minified
+artifacts for both app modes:
+
+* ``public/farms.json`` for the legacy client-side explorer.
+* ``app/data/national-farms.generated.ts`` for the bounded ``/v1`` routes.
+
+Both outputs are regenerable and git-ignored. Reading the committed per-state
+store directly makes a clean app build independent of a possibly stale or
+test-contaminated ``pipeline/build/app-farms.json`` artifact.
 
     python3 scripts/build-web-feed.py
 """
-import json, os, sys
+import base64
+import gzip
+import json
+import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-SRC = HERE.parents[2] / "01-database" / "pipeline" / "build" / "app-farms.json"
-OUT = HERE.parent / "public" / "farms.json"
+PIPELINE = HERE.parents[2] / "01-database" / "pipeline"
+DATA = PIPELINE / "data"
+PUBLIC_OUT = HERE.parent / "public" / "farms.json"
+SERVER_OUT = HERE.parent / "app" / "data" / "national-farms.generated.ts"
+STATS = HERE.parent / "app" / "data" / "directory-stats.json"
+
+EXPECTED_STATES = {
+    "AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DE", "FL", "GA",
+    "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD",
+    "ME", "MI", "MN", "MO", "MS", "MT", "NC", "ND", "NE", "NH",
+    "NJ", "NM", "NV", "NY", "OH", "OK", "OR", "PA", "RI", "SC",
+    "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI", "WV", "WY",
+}
+
+
+def build_records() -> list[dict]:
+    sys.path.insert(0, str(PIPELINE))
+    from model import Farm
+    from publish import to_app_records
+
+    state_files = sorted(DATA.glob("[A-Z][A-Z].json"))
+    state_codes = {path.stem for path in state_files}
+    if state_codes != EXPECTED_STATES:
+        missing = sorted(EXPECTED_STATES - state_codes)
+        unexpected = sorted(state_codes - EXPECTED_STATES)
+        raise RuntimeError(
+            f"national state files differ from the 50-state contract; "
+            f"missing={missing}, unexpected={unexpected}"
+        )
+
+    farms = []
+    for path in state_files:
+        rows = json.loads(path.read_text())
+        wrong_states = sorted({row.get("state", "") for row in rows} - {path.stem})
+        if wrong_states:
+            raise RuntimeError(f"{path.name} contains records for {wrong_states}")
+        farms.extend(Farm.from_record(row) for row in rows)
+
+    records, _merged = to_app_records(farms, eligible_only=True)
+    published_states = {record["state"] for record in records}
+    if published_states != EXPECTED_STATES:
+        raise RuntimeError(
+            "published feed must contain exactly the 50 expected state codes; "
+            f"got {sorted(published_states)}"
+        )
+
+    stats = json.loads(STATS.read_text())
+    if len(records) != stats["total"] or len(published_states) != stats["states"]:
+        raise RuntimeError(
+            "directory stats do not match the national feed: "
+            f"feed={len(records)} farms/{len(published_states)} states, "
+            f"stats={stats['total']} farms/{stats['states']} states"
+        )
+    return records
 
 def main() -> int:
-    if not SRC.exists():
-        print(f"missing {SRC} — run: python3 01-database/pipeline/run.py --publish", file=sys.stderr)
+    if not DATA.exists():
+        print(f"missing canonical data store: {DATA}", file=sys.stderr)
         return 1
-    feed = json.loads(SRC.read_text())
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(feed, separators=(",", ":"), ensure_ascii=False))
-    print(f"wrote {OUT.relative_to(HERE.parent)} — {len(feed)} farms, {OUT.stat().st_size/1e6:.1f} MB")
+    feed = build_records()
+    serialized = json.dumps(feed, separators=(",", ":"), ensure_ascii=False)
+    PUBLIC_OUT.parent.mkdir(parents=True, exist_ok=True)
+    PUBLIC_OUT.write_text(serialized)
+    print(
+        f"wrote {PUBLIC_OUT.relative_to(HERE.parent)} — "
+        f"{len(feed)} farms, {PUBLIC_OUT.stat().st_size / 1e6:.1f} MB"
+    )
+
+    # A direct JSON import makes Vite parse tens of megabytes of object syntax.
+    # Store the same payload as deterministic gzip/base64 instead: it keeps the
+    # generated module small and cheap to compile, then expands once per worker
+    # isolate rather than once per browser.
+    compressed = gzip.compress(serialized.encode(), compresslevel=9, mtime=0)
+    encoded = base64.b64encode(compressed).decode("ascii")
+    SERVER_OUT.parent.mkdir(parents=True, exist_ok=True)
+    SERVER_OUT.write_text(
+        "// Generated by scripts/build-web-feed.py; do not edit.\n"
+        f"const compressedFarmData = {json.dumps(encoded)};\n"
+        "export default compressedFarmData;\n"
+    )
+    print(
+        f"wrote {SERVER_OUT.relative_to(HERE.parent)} — "
+        f"{len(feed)} farms, {SERVER_OUT.stat().st_size / 1e6:.1f} MB"
+    )
     return 0
 
 if __name__ == "__main__":

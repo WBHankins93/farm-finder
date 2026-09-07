@@ -1,54 +1,79 @@
-# Sproutflow Studios — Farm Outreach Plan (v1)
+# FarmFinder farm-participation outreach plan
 
-> Goal: turn offline South Louisiana farms into Sproutflow clients through Sproutflow's separate website-service business. FarmFinder listing corrections are optional, governed contributions rather than a sales deliverable.
+> Updated 2026-08-30. This is outreach for free FarmFinder listing verification,
+> claims, and corrections. It is not a sales campaign and does not introduce
+> another company's brand, services, customer records, or promotions.
 
-> **Scope boundary:** This is private Sproutflow company planning, not FarmFinder app functionality, the FarmFinder product roadmap, or the FarmFinder business model. Any correction or voluntary listing information learned through this work enters FarmFinder only through its consent, provenance, privacy, and verification process.
+## Objective
 
-## Positioning
+Within six weeks, recruit 25 farms in one concentrated launch area to verify or
+claim their free listing, while measuring whether FarmFinder produces useful
+consumer discovery and contact activity.
 
-"Most farms around here aren't findable online. We build simple, affordable farm websites — so your extra produce reaches the community instead of going to waste." Sproutflow's nature-adjacent name is a built-in trust signal; lead with local + agricultural framing, never "web agency."
+## Audience
 
-## Service tiers
+Prioritize public-facing farms that have an explicit direct-selling signal and
+at least one current public business contact path. Balance the pilot across
+produce, meat, mixed, and specialty operations. Re-verify every candidate
+against its cited public source immediately before contact.
 
-| Tier | What | Reference | Notes |
-|---|---|---|---|
-| 1. Presence | 1-page static site: who/where/what/when, map, phone, photos | — | The default. Fast to build, near-zero maintenance. Most farms need only this. |
-| 2. Storefront-lite | Static site + product list, seasonal availability, order-by-form or Square/Stripe payment links | — | For farms with steady surplus. Avoid full e-commerce complexity. |
-| 3. Full ordering | Catalog + cart + fulfillment (pickup/market/delivery slots) | rareseeds.com (aspirational ceiling, not the template) | Only for farms with real volume. Few will need this — don't upsell into it. |
+Do not interpret an empty website, social, or channel field as proof that the
+farm lacks it. Do not use private or uncleared contact details.
 
-**Pricing: OPEN QUESTION.** Options: (a) one-time build + cheap hosting pass-through — easiest yes, no recurring revenue; (b) low monthly ($25–75/mo hosted, includes updates) — recurring revenue and an ongoing relationship that keeps database data fresh, but a harder sell to cash-tight farms; (c) hybrid: small setup fee + small monthly. Recommend (c), but validate against the first 5 pilots' reactions before standardizing.
+## Message
 
-## Outreach approach
+Core message: “FarmFinder is a free directory helping nearby customers find
+independent farms. Please check your listing so people see the right products
+and the best current way to buy from you.”
 
-Farms are a face-first, low-trust-of-tech audience. Channel priority:
+Supporting points:
 
-1. **In person** — farmers markets, farm stands. Buy something first. This is the channel that will actually convert.
-2. **Referral** — every client asks "which other farms should be online?" This also enriches the database.
-3. **Phone** — second-best for the offline majority (they have no email to cold-email).
-4. Facebook groups / ag extension newsletters — awareness only.
+- Participation and corrections are free.
+- Farms control what public business information they confirm.
+- Approximate locations remain labeled and private farm-gate locations are not
+  published without clearance.
+- FarmFinder does not promise live inventory; consumers are told to confirm
+  before visiting.
 
-### Pilot (first 5 farms)
+## Six-week pilot
 
-- Pick 5 from the database with: surplus production, market presence, zero web presence.
-- Offer: pilot pricing (or 1 free flagship build) in exchange for a testimonial + referral intros.
-- Every conversation, regardless of outcome, updates the farm's database record (`outreach_status`, contact, products).
+| Week | Work | Exit evidence |
+|---|---|---|
+| 1 | Re-verify 100 candidate records and select 50 | Current public source and contact path for every selection |
+| 2 | Send the first invitation and make in-person/phone follow-up where appropriate | 15 conversations or explicit replies |
+| 3 | Help farms review the current public fields | 10 verified or corrected listings |
+| 4 | Publish the pilot cohort and instrument discovery/contact actions | Event stream validated without private data |
+| 5 | Share each farm's early activity and request feedback | Qualitative usefulness notes from 10 farms |
+| 6 | Measure claims, corrections, traffic, contacts, and repeat participation | Go/no-go decision against the metrics below |
 
-### Talk track (draft)
+## Contact sequence
 
-- Open: local, specific, not salesy — "I'm building a directory of farms around [parish]. Wanted to make sure you're in it."
-- The directory ask is the wedge: it's free, it's flattering, and it opens the website conversation naturally: "You're one of about 9 in 10 farms here with no website — when someone Googles 'eggs near me', you don't exist. I fix that for farms specifically."
-- ⚠️ Don't quote the 90% figure as fact until we've verified it (see AGENTS.md open questions). Until then: "most farms around here."
+1. Short introduction naming the exact listing and source being checked.
+2. Direct link or screenshot showing the current public fields.
+3. One request: confirm or correct products and the preferred public way to buy.
+4. One reminder after five to seven days.
+5. Close the loop with the published result or an opt-out confirmation.
 
-## What this optimizes for / sacrifices
-
-Optimizes: trust-based local growth, database enrichment as a side effect, low delivery cost per client (static sites). Sacrifices: speed and scale — in-person outreach doesn't parallelize; revenue per client is small. Alternative: paid ads / cold email at scale would be faster but would burn trust with exactly the audience the app track later depends on. Wrong trade for this niche.
-
-## Risks
-
-- Farms churn on monthly billing → keep tier 1 cheap enough that churn is rare.
-- Maintenance requests creep on "static" sites → scope updates into the monthly fee explicitly (e.g., seasonal updates 2×/yr).
-- Database consent: get explicit OK to list each farm publicly — needed before the app ships.
+No contact is added to a marketing sequence, transferred to another business,
+or contacted repeatedly after opting out.
 
 ## Metrics
 
-Contacts/week, contact→client rate, avg revenue/client, database records added per outreach hour, % of region covered.
+- Candidates re-verified
+- Valid public contact rate
+- Reply/conversation rate
+- Verified or claimed listings
+- Corrections per listing
+- Time required per verification
+- Consumer searches reaching pilot farms
+- Profile views and outbound contact actions
+- Farms reporting a useful inquiry or visit
+- Farms returning to confirm freshness after four weeks
+
+## Success threshold
+
+Proceed to a larger regional participation campaign when at least 25 farms
+verify a listing, 15 remain reachable after four weeks, and at least five report
+a useful consumer action or material correction benefit. If consumer activity
+is too low, keep listings free and improve consumer acquisition before asking
+farms to spend more time maintaining them.
