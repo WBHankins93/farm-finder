@@ -196,18 +196,28 @@ function queryTokens(query: string) {
     .filter((token) => token.length > 1 && !queryStopWords.has(token));
 }
 
-function farmSearchFields(farm: Farm) {
-  return {
-    name: farm.name.toLocaleLowerCase(),
-    products: `${farm.productsText} ${farm.products.join(" ")}`.toLocaleLowerCase(),
-    place: `${farm.city} ${farm.state} ${farm.parish} ${farm.region}`.toLocaleLowerCase(),
-    other: `${farm.category} ${farm.marketPresence} ${farm.notes}`.toLocaleLowerCase(),
-  };
+type SearchFields = {
+  name: string;
+  products: string;
+  place: string;
+  other: string;
+  haystack: string;
+};
+
+// Built once per farm per request by matchingFarms(). Previously this ran twice
+// -- once in matchesText and again in relevanceScore -- for eight lowercased
+// string allocations per record across a full 68k scan, on both the list and
+// map requests. Keep it single-call.
+function farmSearchFields(farm: Farm): SearchFields {
+  const name = farm.name.toLocaleLowerCase();
+  const products = `${farm.productsText} ${farm.products.join(" ")}`.toLocaleLowerCase();
+  const place = `${farm.city} ${farm.state} ${farm.parish} ${farm.region}`.toLocaleLowerCase();
+  const other = `${farm.category} ${farm.marketPresence} ${farm.notes}`.toLocaleLowerCase();
+  return { name, products, place, other, haystack: `${name} ${products} ${place} ${other}` };
 }
 
-function relevanceScore(farm: Farm, tokens: string[]) {
+function relevanceScore(fields: SearchFields, tokens: string[]) {
   if (tokens.length === 0) return 0;
-  const fields = farmSearchFields(farm);
   let score = 0;
   for (const token of tokens) {
     if (fields.name.startsWith(token)) score += 12;
@@ -219,11 +229,9 @@ function relevanceScore(farm: Farm, tokens: string[]) {
   return score;
 }
 
-function matchesText(farm: Farm, tokens: string[]) {
+function matchesText(fields: SearchFields, tokens: string[]) {
   if (tokens.length === 0) return true;
-  const fields = farmSearchFields(farm);
-  const haystack = `${fields.name} ${fields.products} ${fields.place} ${fields.other}`;
-  return tokens.every((token) => haystack.includes(token));
+  return tokens.every((token) => fields.haystack.includes(token));
 }
 
 function matchesProduct(farm: Farm, product: string) {
@@ -267,12 +275,15 @@ function matchingFarms(query: DiscoveryQuery, mappableOnly = false): MatchedFarm
     if (query.category && farm.category !== query.category) continue;
     if (!matchesProduct(farm, query.product)) continue;
     if (!query.services.every((service) => farm[service])) continue;
-    if (!matchesText(farm, tokens)) continue;
+    // Only pay for the lowercased field build when there is actually a text
+    // query; location-only browsing skips it entirely.
+    const fields = tokens.length ? farmSearchFields(farm) : null;
+    if (fields && !matchesText(fields, tokens)) continue;
     if (query.bbox && (!isMappableFarm(farm) || !withinBounds(farm, query.bbox))) continue;
 
     const distance = query.origin && isMappableFarm(farm) ? distanceMiles(query.origin, farm) : null;
     if (!query.bbox && query.origin && (distance === null || distance > radius)) continue;
-    matched.push({ farm, distance, relevance: relevanceScore(farm, tokens) });
+    matched.push({ farm, distance, relevance: fields ? relevanceScore(fields, tokens) : 0 });
   }
 
   matched.sort((a, b) => {
