@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import type { CSSProperties } from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createLatestRequestGuard, mergeCursorPage, parseDiscoveryUrl, requestApproximateLocation, retainSelectedFarm, serializeDiscoveryUrl } from "../lib/discovery-client";
 import type { DiscoveryScope, FarmMapResponse, FarmSearchResponse, FarmSummary, LatLng, MapBounds, PlaceSearchResponse, PlaceSuggestion, ServiceKey, SortMode, ViewMode } from "../lib/discovery-contract";
@@ -85,6 +86,10 @@ export default function DiscoveryWorkspace() {
     setView(urlState.view);
     setBrowseAll(urlState.browseAll);
     setBbox(urlState.bbox);
+    // A free-text `place` param comes from the hero search on the marketing page.
+    // Resolve it to a place and drop the user straight into the explorer.
+    const rawPlace = params.get("place")?.trim();
+    let scrollToExplorer = false;
     if (urlState.near) {
       const lookup = urlState.near.includes(",") ? urlState.near : urlState.near.replace(/-([a-z]{2})$/i, ", $1").replace(/-/g, " ");
       setPlaceInput(lookup);
@@ -96,6 +101,24 @@ export default function DiscoveryWorkspace() {
           setPlace(match);
           setPlaceInput(match.label);
           setSort(urlState.q ? "relevance" : "distance");
+        }
+      } catch {
+        setLocationMessage("Choose a city from the suggestions to search nearby.");
+      }
+    } else if (rawPlace) {
+      setPlaceInput(rawPlace);
+      try {
+        const response = await fetch(`/v1/places?q=${encodeURIComponent(rawPlace)}&limit=8`);
+        const data = await response.json() as PlaceSearchResponse;
+        const match = data.items[0] ?? null;
+        if (match) {
+          setPlace(match);
+          setPlaceInput(match.label);
+          setSort(urlState.q ? "relevance" : "distance");
+          scrollToExplorer = true;
+        } else {
+          setLocationMessage(`No match for “${rawPlace}”. Choose a city from the suggestions.`);
+          scrollToExplorer = true;
         }
       } catch {
         setLocationMessage("Choose a city from the suggestions to search nearby.");
@@ -115,6 +138,9 @@ export default function DiscoveryWorkspace() {
       setSelectedFarm(null);
     }
     setInitialized(true);
+    if (scrollToExplorer) {
+      window.requestAnimationFrame(() => document.getElementById("discover")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+    }
   }, []);
 
   useEffect(() => {
@@ -367,6 +393,17 @@ export default function DiscoveryWorkspace() {
     setServices((current) => current.includes(service) ? current.filter((item) => item !== service) : [...current, service]);
   }
 
+  // Smooth list⇄map crossfade on mobile via the View Transitions API (no dependency).
+  // Degrades to an instant swap where unsupported or under reduced-motion.
+  function switchView(next: ViewMode) {
+    const doc = document as Document & { startViewTransition?: (cb: () => void) => void };
+    if (typeof doc.startViewTransition === "function" && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      doc.startViewTransition(() => setView(next));
+    } else {
+      setView(next);
+    }
+  }
+
   function openFilters() {
     setDraftCategory(category);
     setDraftServices(services);
@@ -493,9 +530,9 @@ export default function DiscoveryWorkspace() {
         <span>{sortLabel}</span>
       </div>
 
-      <div className="mobile-view-switch" role="group" aria-label="Choose list or map view"><button type="button" className={view === "list" ? "active" : ""} aria-pressed={view === "list"} onClick={() => setView("list")}>List <span>{searchResult.total.toLocaleString()}</span></button><button type="button" className={view === "map" ? "active" : ""} aria-pressed={view === "map"} onClick={() => setView("map")}>Map <span>{mapResult.total.toLocaleString()}</span></button></div>
+      <div className="mobile-view-switch" role="group" aria-label="Choose list or map view"><button type="button" className={view === "list" ? "active" : ""} aria-pressed={view === "list"} onClick={() => switchView("list")}>List <span>{searchResult.total.toLocaleString()}</span></button><button type="button" className={view === "map" ? "active" : ""} aria-pressed={view === "map"} onClick={() => switchView("map")}>Map <span>{mapResult.total.toLocaleString()}</span></button></div>
 
-      <div className={`explorer explorer-v2 view-${view}`}>
+      <div className={`explorer explorer-v2 view-${view}`} style={{ viewTransitionName: "explorer-view" } as CSSProperties}>
         <div className="farm-list-panel">
           <div className="farm-list" role="region" aria-label="Farm results" aria-busy={loading || refreshing}>
             {!searchEnabled ? <div className="empty-state nearby-empty"><span aria-hidden="true">◎</span><h3>Set your field boundary.</h3><p>Choose a city or use your approximate location to see nearby farms without loading the whole country.</p><button type="button" onClick={() => placeInputRef.current?.focus()}>Enter a city</button></div> : null}

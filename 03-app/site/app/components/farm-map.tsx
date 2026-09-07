@@ -110,7 +110,7 @@ export default function FarmMap(props: FarmMapProps) {
 
       map.addLayer({ id: "server-clusters", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "cluster"], paint: { "circle-color": "rgba(251,252,246,.96)", "circle-radius": ["step", ["get", "count"], 20, 20, 25, 75, 31], "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
       map.addLayer({ id: "server-cluster-count", type: "symbol", source: "farms", filter: ["==", ["get", "kind"], "cluster"], layout: { "text-field": ["get", "count"], "text-size": 12 }, paint: { "text-color": "#173f2c" } });
-      map.addLayer({ id: "farm-points", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "farm"], paint: { "circle-color": categoryExpression, "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 4.5, 10, 8], "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6", "circle-opacity": 0.96 } });
+      map.addLayer({ id: "farm-points", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "farm"], paint: { "circle-color": categoryExpression, "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 6, 10, 10], "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6", "circle-opacity": 0.96 } });
       map.addLayer({ id: "hovered-ring", type: "circle", source: "hovered-farm", paint: { "circle-radius": 12, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
       map.addLayer({ id: "selected-ring", type: "circle", source: "selected-farm", paint: { "circle-radius": 14, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 3, "circle-stroke-color": "#c65e36" } });
       map.addLayer({ id: "user-halo", type: "circle", source: "user-origin", paint: { "circle-radius": 12, "circle-color": "rgba(255,250,240,.5)", "circle-stroke-width": 1, "circle-stroke-color": "#173f2c" } });
@@ -209,7 +209,12 @@ export default function FarmMap(props: FarmMapProps) {
       <div ref={containerRef} className="map-canvas" role="region" aria-label="Interactive map of farm results" />
       {mapError ? <div className="map-fallback" role="status"><span aria-hidden="true">⌁</span><strong>Keep browsing in the farm list.</strong><p>{mapError} Search, filters, and profiles still work.</p></div> : !mapReady ? <div className="map-loading" role="status"><span />Preparing the field map…</div> : null}
       {!mapError ? <div className="map-tools" role="group" aria-label="Map tools"><button type="button" onClick={fitVisible}>Fit results</button>{props.searchAreaAvailable ? <button className="search-area-button" type="button" onClick={props.onSearchArea}>Search this area</button> : null}</div> : null}
-      {!mapError ? <div className="map-key" aria-label="Map legend"><span><i className="key-dot produce" /> Produce</span><span><i className="key-dot meat" /> Meat</span><span><i className="key-dot mixed" /> Mixed</span><span><i className="key-dot more" /> More</span></div> : null}
+      {!mapError ? (
+        <details className="map-key" aria-label="Map legend">
+          <summary>Legend</summary>
+          <div>{Object.entries(categoryColors).map(([label, color]) => <span key={label}><i className="key-dot" style={{ background: color }} /> {label}</span>)}</div>
+        </details>
+      ) : null}
       {!mapError && selected ? (
         <aside className="map-detail map-detail-sheet" role="region" aria-live="polite" aria-label={`${selected.name} details`}>
           <button className="detail-close" type="button" onClick={() => props.onSelect("")} aria-label="Close farm details">×</button>
