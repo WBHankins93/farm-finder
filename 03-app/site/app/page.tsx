@@ -22,7 +22,11 @@ export default function Home() {
           <p className="hero-kicker">Independent farms across the United States · Search by place</p>
           <h1 id="hero-title">Find the farms<br /><em>behind your <span>food.</span></em></h1>
           <p className="hero-copy">Start with your city. See nearby farms, what they grow or raise, and the best confirmed way to buy.</p>
-          <form className="hero-location" action="/" method="get">
+          {/* The fragment on `action` is retained through a GET submit, so the
+              reload lands on the results instead of re-rendering the hero.
+              Next step: extract a shared client-side location control so this
+              path stops reloading at all (see review finding 5/6). */}
+          <form className="hero-location" action="/#discover" method="get">
             <label htmlFor="hero-near">City or town</label>
             <div><input id="hero-near" name="place" placeholder="Try Madison, WI" autoComplete="address-level2" /><button type="submit">Find nearby farms →</button></div>
           </form>
@@ -43,7 +47,7 @@ export default function Home() {
           <div className="products-heading"><div><p className="section-number">Browse the harvest</p><h2 id="products-title">Start with what<br /><em>you want to eat.</em></h2></div><p>Counts reflect current directory descriptions, not live inventory.</p></div>
           <div className="product-guide-grid product-guide-grid-compact">
             {productGuides.slice(0, 8).map((guide, index) => (
-              <article className="product-guide-card" key={guide.id} style={{ "--product-color": guide.color, "--tile-img": `url(/images/products/${guide.id}.webp)` } as CSSProperties}>
+              <article className="product-guide-card" key={guide.id} style={{ "--product-color": guide.color } as CSSProperties}>
                 <div className="product-card-media" aria-hidden="true">{markForProduct(guide.id) ? <Mark name={markForProduct(guide.id)!} className="mark product-card-glyph" /> : null}</div>
                 <div className="product-card-top"><span>{String(index + 1).padStart(2, "0")}</span><strong>{stats.products[guide.id as keyof typeof stats.products].toLocaleString()}</strong></div>
                 <h3>{guide.label}</h3><p>{guide.description}</p>
