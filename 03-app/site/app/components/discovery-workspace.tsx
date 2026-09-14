@@ -85,6 +85,8 @@ export default function DiscoveryWorkspace() {
     setView(urlState.view);
     setBrowseAll(urlState.browseAll);
     setBbox(urlState.bbox);
+    if (urlState.bbox) setLocationMessage("Showing farms in the selected map area.");
+    else if (urlState.browseAll) setLocationMessage("Browsing all covered areas. Add a city for nearby results.");
     if (urlState.near) {
       const lookup = urlState.near.includes(",") ? urlState.near : urlState.near.replace(/-([a-z]{2})$/i, ", $1").replace(/-/g, " ");
       setPlaceInput(lookup);
@@ -96,6 +98,10 @@ export default function DiscoveryWorkspace() {
           setPlace(match);
           setPlaceInput(match.label);
           setSort(urlState.q ? "relevance" : "distance");
+          // Restoring from the URL is the hero form's entry path, so the live
+          // status has to describe the restored scope rather than keep asking
+          // for a city that is already chosen.
+          setLocationMessage(`Showing farms within ${urlState.radiusMiles} miles of ${match.label}.`);
         }
       } catch {
         setLocationMessage("Choose a city from the suggestions to search nearby.");

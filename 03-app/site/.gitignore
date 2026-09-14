@@ -48,6 +48,8 @@ next-env.d.ts
 # committed. Source records and intended placements live in docs/design/.
 /public/local-farm-images/
 
-# Generated runtime feeds (regenerate: python3 scripts/build-web-feed.py)
+# Generated runtime artifacts (regenerate: python3 scripts/build-web-feed.py)
+public/national-index.bin
+app/data/directory-stats.generated.json
+# Rollback-explorer feed only; too large to deploy (FARMFINDER_LEGACY_FEED=1)
 public/farms.json
-app/data/national-farms.generated.ts

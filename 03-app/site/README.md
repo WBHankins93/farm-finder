@@ -19,18 +19,23 @@ npm run dev
 
 This starter does not use `wrangler.jsonc`.
 
-Set `EXPLORER_V2=true` to preview the nearby-first list/map workspace. The flag
-is intentionally opt-in for one rollback release; without it, FarmFinder serves
-the existing static national explorer. Promote the flag only after the governed
-PostgreSQL release and the bounded `/v1` queries pass the cutover checks.
+The national list/map workspace is what a default build serves. Set
+`EXPLORER_LEGACY=true` to fall back to the superseded 299-row workbook explorer;
+that path is for local comparison only, because its 45 MB client feed exceeds
+Cloudflare's 25 MiB per-asset limit and is pruned from every default build.
 
 ## Current shape
 
 - edit site code under `app/`
 - `../../01-database/pipeline/data/<ST>.json` is the canonical 72,396-record
   state store; 68,618 records currently pass the publication gates
-- the bounded `/v1` discovery routes and rollback explorer derive from the same
-  generated national feed
+- `npm run data:build` applies the pipeline's publish projection and privacy
+  gate, enforces `app/data/feed-contract.json`, and writes two ignored
+  artifacts: `public/national-index.bin` (the compact index the `/v1` routes
+  query) and `app/data/directory-stats.generated.json` (every count the page
+  displays). A contract violation fails the build rather than publishing
+- `app/data/feed-contract.json` holds only editorial metadata and coverage
+  floors. It is a tripwire, never a source of displayed counts
 - `app/data/farms.json` and `config/source-of-truth.json` retain the superseded
   299-row workbook release for historical validation only
 - `packages/db/` owns the production PostgreSQL/PostGIS migrations and index decisions
@@ -102,11 +107,12 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 ## Useful Commands
 
 - `npm run dev`: start local development
-- `npm run build`: verify the vinext build output
+- `npm run build`: rebuild the feed, build the site, and check the Cloudflare deploy budget
 - `npm test`: verify discovery behavior, build the site, and smoke-test the rendered shell
 - `npm run lint`: run the application linter
 - `npm run data:setup`: create the ignored Python environment for workbook tooling
 - `npm run data:validate`: validate the canonical workbook release manifest
+- `npm run data:gates`: verify the publication, privacy, and index-encoding gates
 - `npm run db:up`: start a healthy local PostgreSQL/PostGIS database
 - `npm run db:verify`: verify required extensions, tables, and documented indexes
 - `npm run db:test`: exercise spatial and integrity invariants in a rolled-back transaction

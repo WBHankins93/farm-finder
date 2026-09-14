@@ -38,11 +38,11 @@ export default function AskDirectory() {
             id="field-question"
             value={question}
             onChange={(event) => setQuestion(event.target.value)}
-            placeholder="Who sells eggs near New Orleans?"
+            placeholder="Who sells goat cheese?"
           />
           <button type="submit" disabled={loading}>{loading ? "Searching…" : "Ask →"}</button>
         </div>
-        <p>Results come from listing descriptions, not live inventory. Confirm the trip with the farm.</p>
+        <p>This searches the words farms use to describe themselves, not live inventory. Every term you type has to appear in a listing, so fewer words find more farms.</p>
       </form>
 
       <div className={`ask-answer ${result || error ? "has-answer" : ""}`} aria-live="polite">
@@ -61,7 +61,7 @@ export default function AskDirectory() {
               <a className="answer-action" href={exploreHref}>Explore all {result.total.toLocaleString()} matches →</a>
             </>
           ) : (
-            <><span>Built for practical questions</span><h3>Food, farms, and ways to buy</h3><p>Ask for a product or farm name here. Add your city in the explorer for genuinely local results.</p></>
+            <><span>Built for practical questions</span><h3>Food, farms, and ways to buy</h3><p>Name a product or a farm. Add your city in the explorer for genuinely local results.</p></>
           )}
         </div>
       </div>

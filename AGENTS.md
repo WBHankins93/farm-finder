@@ -32,14 +32,23 @@ Postgres cutover.
 | Pipeline engine, model, and rules | `01-database/pipeline/` | `python3 -m unittest discover -s 01-database/pipeline/tests -p "test_*.py"` |
 | Canonical collected farm data | `01-database/pipeline/data/<ST>.json` (72,396 rows across 50 states as of 2026-08-30) | `python3 01-database/pipeline/run.py --publish` plus pipeline tests |
 | Eligible public directory feed | `01-database/pipeline/build/app-farms.json` (68,618 reproducible rows as of 2026-08-30) | `python3 01-database/pipeline/run.py --publish` |
+| Public app's runtime index and displayed counts | `03-app/site/public/national-index.bin` + `app/data/directory-stats.generated.json` (generated, never committed) | `cd 03-app/site && npm run data:build && npm run data:gates` |
+| Publication contract (editorial metadata + coverage floors only) | `03-app/site/app/data/feed-contract.json` | `cd 03-app/site && npm run data:gates` |
 | Legacy staged releases (read-only transition input) | `research/state-expansions/<ST>/` | `python3 01-database/tools/validate_state_releases.py` |
 | Per-state source configs | `01-database/pipeline/sources/<region>/<ST>.json` | `sources/SCHEMA.md` |
 | Product/platform docs | `README.md`, `03-app/site/docs/` | — |
 
 Pipeline outputs (`01-database/pipeline/build/`) are reproducible artifacts,
-never committed. `03-app/site/app/data/farms.json` is the superseded 299-row
-workbook-era artifact and must not be used for national counts or runtime
-discovery. Everything else (old dashboards, v1/v2 workbooks, `outputs/`,
+never committed, and so are the app's generated feeds under `03-app/site`.
+`03-app/site/app/data/farms.json` is the superseded 299-row workbook-era
+artifact: it is retained only as provenance evidence and as the
+`EXPLORER_LEGACY=true` rollback surface, and must not be used for national
+counts or runtime discovery.
+
+**Displayed counts are derived, never typed.** Every number the public page
+shows comes from `app/data/directory-stats.generated.json`, which
+`scripts/build-web-feed.py` computes from the feed it just published. Do not
+reintroduce a hand-maintained counts file. Everything else (old dashboards, v1/v2 workbooks, `outputs/`,
 `.codex-work/`) is historical scratch.
 
 ## Standing rules
@@ -80,7 +89,9 @@ python3 01-database/tools/validate_state_releases.py
 ```
 
 If the change touches `03-app/site/`, also run from that directory:
-`npm run data:validate`, `npm run lint`, `npm test`.
+`npm run data:validate`, `npm run data:gates`, `npm run lint`, `npm test`.
+`npm test` builds the site, which also enforces the Cloudflare worker-script
+and static-asset size limits.
 
 ## Active workstreams
 
