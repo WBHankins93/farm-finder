@@ -241,6 +241,13 @@ export default function DiscoveryWorkspace() {
   useEffect(() => {
     const shell = mapShellRef.current;
     if (!shell || mapActivated) return;
+    // An explicit map view — a tap on Map, or a shared link carrying view=map —
+    // is a request for the map now. Waiting on intersection there leaves the
+    // placeholder up on a deep link that already asked for it.
+    if (view === "map") {
+      const activation = globalThis.setTimeout(() => setMapActivated(true), 0);
+      return () => globalThis.clearTimeout(activation);
+    }
     if (!("IntersectionObserver" in window)) {
       const activation = globalThis.setTimeout(() => setMapActivated(true), 0);
       return () => globalThis.clearTimeout(activation);
@@ -253,7 +260,7 @@ export default function DiscoveryWorkspace() {
     }, { rootMargin: "320px" });
     observer.observe(shell);
     return () => observer.disconnect();
-  }, [mapActivated]);
+  }, [mapActivated, view]);
 
   useEffect(() => {
     if (!filtersOpen) return;

@@ -238,6 +238,15 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .map-tools { position: absolute; top: 16px; left: 16px; display: flex; gap: 7px; }
 .map-tools button { min-height: 38px; border: 1px solid var(--ink); background: rgba(255, 250, 240, .94); padding: 9px 12px; font-size: 11px; font-weight: 750; letter-spacing: .01em; cursor: pointer; box-shadow: 3px 3px 0 rgba(37, 39, 31, .13); }
 .map-tools button:hover { background: var(--green); color: var(--cream); }
+/* Basemap detail switch. Bottom-left keeps it clear of the map tools (top-left),
+   the legend (top-right), and MapLibre's own controls (bottom-right). */
+.map-basemap { position: absolute; left: 16px; bottom: 16px; display: flex; border: 1px solid var(--ink); background: rgba(255, 250, 240, .94); box-shadow: 3px 3px 0 rgba(37, 39, 31, .13); overflow: hidden; }
+.map-basemap button { min-height: 36px; border: 0; border-right: 1px solid rgba(37, 39, 31, .28); background: transparent; padding: 8px 13px; font: inherit; font-size: 11px; font-weight: 750; letter-spacing: .01em; color: var(--ink); cursor: pointer; }
+.map-basemap button:last-child { border-right: 0; }
+.map-basemap button:hover { background: rgba(37, 39, 31, .07); }
+.map-basemap button.active { background: var(--green); color: var(--cream); }
+.map-basemap button:focus-visible { outline: 2px solid var(--ink); outline-offset: -3px; }
+
 .location-toast { position: absolute; top: 62px; left: 16px; background: var(--ink); color: var(--cream); padding: 8px 11px; font-size: 10px; }
 .map-key { position: absolute; right: 12px; top: 12px; display: flex; flex-wrap: wrap; gap: 9px; max-width: 260px; background: rgba(255, 250, 240, .9); border: 1px solid rgba(37, 39, 31, .5); padding: 7px 9px; }
 .map-key span { font-size: 10px; letter-spacing: .01em; }
@@ -468,6 +477,8 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   .card-contact { margin-left: 48px; padding-right: 12px; }
   .map-tools { top: 10px; left: 10px; }
   .map-tools button { padding: 9px; font-size: 10px; }
+  .map-basemap { left: 10px; bottom: 10px; }
+  .map-basemap button { min-height: 44px; padding: 8px 11px; font-size: 10px; }
   .map-detail h3 { font-size: 27px; }
   .update-ledger { grid-template-columns: 1fr; }
   .update-ledger article { min-height: 260px; }
