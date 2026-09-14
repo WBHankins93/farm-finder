@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "npm run data:build && WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
-    "build": "npm run data:build && WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build && node scripts/prune-legacy-feed.mjs",
+    "build": "npm run data:build && WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build && node scripts/check-deploy-budget.mjs",
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
     "test": "npm run test:unit && npm run build && node --test tests/rendered-html.test.mjs",
     "test:unit": "npm run data:build && node --import tsx --test tests/**/*.test.ts",
@@ -32,7 +32,8 @@
     "cutover:test": "PYTHONPATH=scripts .venv/bin/python -m unittest discover -s scripts/tests -p 'test_*.py'",
     "cutover:stage": ".venv/bin/python scripts/stage_source_release.py",
     "cutover:verify": ".venv/bin/python scripts/verify_staged_release.py",
-    "cutover:local": "npm run infra:up && npm run data:validate && npm run cutover:test && npm run cutover:stage && npm run cutover:verify"
+    "cutover:local": "npm run infra:up && npm run data:validate && npm run cutover:test && npm run cutover:stage && npm run cutover:verify",
+    "data:gates": "PYTHONPATH=scripts python3 -m unittest discover -s scripts/tests -p 'test_*.py'"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",

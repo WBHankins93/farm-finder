@@ -1,5 +1,5 @@
-import { gunzipSync } from "node:zlib";
-import compressedSourceFarms from "../data/national-farms.generated";
+import productVocabulary from "../data/product-vocabulary.json";
+import { foldAscii, loadDiscoveryIndex, type DiscoveryIndex } from "./discovery-index";
 import type {
   DiscoveryQuery,
   DiscoveryScope,
@@ -18,44 +18,40 @@ import type {
 import { serviceKeys } from "./discovery-contract";
 import type { Farm } from "./farms";
 
-const farms = JSON.parse(
-  gunzipSync(Buffer.from(compressedSourceFarms, "base64")).toString("utf8"),
-) as Farm[];
-const farmById = new Map(farms.map((farm) => [farm.id, farm]));
-const releaseId = `national-web-${farms.length}`;
+/**
+ * Bounded discovery queries over the national feed.
+ *
+ * Every query runs against the column-oriented index in `discovery-index.ts`
+ * rather than an array of expanded records: full records are materialized only
+ * for the rows a response actually returns. See that module for why.
+ */
+
 const milesPerKilometer = 0.621371;
 const earthKilometers = 6371;
 const defaultLimit = 30;
 const maximumLimit = 50;
 const mapLeafLimit = 2_000;
 
-const productTokens: Record<string, string[]> = {
-  vegetables: ["vegetable", "produce", "greens", "lettuce", "tomato", "okra", "squash", "peas", "cucumber", "microgreen", "herbs"],
-  fruit: ["fruit", "berry", "berries", "blueberr", "strawberr", "peach", "watermelon", "melon", "citrus", "satsuma", "orchard"],
-  eggs: ["egg"],
-  beef: ["beef", "cattle", "wagyu"],
-  pork: ["pork", "hog", "berkshire", "bacon", "sausage"],
-  poultry: ["chicken", "poultry", "turkey", "duck", "broiler"],
-  honey: ["honey", "apiar", "bee", "beeswax"],
-  dairy: ["dairy", "milk", "cheese", "creamery", "yogurt"],
-  seafood: ["seafood", "crawfish", "shrimp", "crab", "fish", "oyster"],
-  rice: ["rice", "grain", "grits", "cornmeal"],
-  flowers: ["flower", "nursery", "plant", "seedling"],
-  mushrooms: ["mushroom", "fungi"],
-};
+// Shared with scripts/build-web-feed.py via app/data/product-vocabulary.json so
+// a browsed product count can never disagree with the filtered result.
+const queryStopWords = new Set<string>(productVocabulary.queryStopWords);
 
-const queryStopWords = new Set(["a", "an", "and", "farm", "farms", "find", "from", "in", "me", "near", "of", "or", "the", "with"]);
-
-function slugify(value: string) {
-  return value
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLocaleLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
+function toRadians(value: number) {
+  return (value * Math.PI) / 180;
 }
 
-export function isMappableFarm(farm: Farm) {
+function distanceMiles(origin: LatLng, latitude: number, longitude: number) {
+  const latitudeDelta = toRadians(latitude - origin.lat);
+  const longitudeDelta = toRadians(longitude - origin.lng);
+  const value =
+    Math.sin(latitudeDelta / 2) ** 2 +
+    Math.cos(toRadians(origin.lat)) *
+      Math.cos(toRadians(latitude)) *
+      Math.sin(longitudeDelta / 2) ** 2;
+  return earthKilometers * 2 * Math.asin(Math.min(1, Math.sqrt(value))) * milesPerKilometer;
+}
+
+export function isMappableFarm(farm: Pick<Farm, "geoPrecision" | "latitude" | "longitude">) {
   return (
     farm.geoPrecision !== "ungeocoded" &&
     Number.isFinite(farm.latitude) &&
@@ -63,70 +59,6 @@ export function isMappableFarm(farm: Farm) {
     !(farm.latitude === 0 && farm.longitude === 0)
   );
 }
-
-function toRadians(value: number) {
-  return (value * Math.PI) / 180;
-}
-
-function distanceMiles(origin: LatLng, farm: Pick<Farm, "latitude" | "longitude">) {
-  const latitudeDelta = toRadians(farm.latitude - origin.lat);
-  const longitudeDelta = toRadians(farm.longitude - origin.lng);
-  const value =
-    Math.sin(latitudeDelta / 2) ** 2 +
-    Math.cos(toRadians(origin.lat)) *
-      Math.cos(toRadians(farm.latitude)) *
-      Math.sin(longitudeDelta / 2) ** 2;
-  return earthKilometers * 2 * Math.asin(Math.min(1, Math.sqrt(value))) * milesPerKilometer;
-}
-
-function placeKey(city: string, state: string) {
-  return `${slugify(city)}-${state.toLocaleLowerCase()}`;
-}
-
-function buildPlaces(): PlaceSuggestion[] {
-  const grouped = new Map<
-    string,
-    { city: string; state: string; latitude: number; longitude: number; mappable: number; farms: number }
-  >();
-
-  for (const farm of farms) {
-    const city = farm.city.trim();
-    const state = farm.state.trim().toLocaleUpperCase();
-    if (!city || !state) continue;
-    const key = placeKey(city, state);
-    const current = grouped.get(key) ?? { city, state, latitude: 0, longitude: 0, mappable: 0, farms: 0 };
-    current.farms += 1;
-    if (isMappableFarm(farm)) {
-      current.latitude += farm.latitude;
-      current.longitude += farm.longitude;
-      current.mappable += 1;
-    }
-    grouped.set(key, current);
-  }
-
-  return Array.from(grouped.entries())
-    .filter(([, value]) => value.mappable > 0)
-    .map(([slug, value]) => ({
-      slug,
-      name: value.city,
-      state: value.state,
-      label: `${value.city}, ${value.state}`,
-      centroid: {
-        lat: value.latitude / value.mappable,
-        lng: value.longitude / value.mappable,
-      },
-      farmCount: value.farms,
-    }))
-    .sort((a, b) => b.farmCount - a.farmCount || a.label.localeCompare(b.label));
-}
-
-const places = buildPlaces();
-const placeBySlug = new Map(places.map((place) => [place.slug, place]));
-
-export const discoveryDatasetSummary = {
-  total: farms.length,
-  states: [...new Set(farms.map((farm) => farm.state))].sort(),
-};
 
 function parseNumber(value: string | null) {
   if (value === null || value.trim() === "") return null;
@@ -162,88 +94,94 @@ function parseSort(value: string | null, hasQuery: boolean, hasOrigin: boolean):
   return hasOrigin ? "distance" : "name";
 }
 
+/**
+ * Parse a query without touching the index, so request parsing stays
+ * synchronous. `near` is resolved to an origin during the query itself.
+ */
 export function parseDiscoveryQuery(params: URLSearchParams): DiscoveryQuery {
   const latitude = parseNumber(params.get("lat"));
   const longitude = parseNumber(params.get("lng"));
-  const near = params.get("near")?.trim() ?? "";
-  const place = near ? placeBySlug.get(near) : null;
-  const coordinateOrigin = latitude !== null && longitude !== null && latitude >= -90 && latitude <= 90 && longitude >= -180 && longitude <= 180
-    ? { lat: latitude, lng: longitude }
-    : null;
-  const origin = coordinateOrigin ?? place?.centroid ?? null;
+  const near = params.get("near")?.trim().slice(0, 120) ?? "";
+  const coordinateOrigin =
+    latitude !== null && longitude !== null &&
+    latitude >= -90 && latitude <= 90 && longitude >= -180 && longitude <= 180
+      ? { lat: latitude, lng: longitude }
+      : null;
   const q = params.get("q")?.trim().slice(0, 120) ?? "";
   const requestedLimit = Math.trunc(parseNumber(params.get("limit")) ?? defaultLimit);
 
   return {
     q,
-    near: place?.slug ?? "",
-    origin,
+    near,
+    origin: coordinateOrigin,
     radiusMiles: parseRadius(params.get("radiusMiles")),
     bbox: parseBounds(params.get("bbox")),
     category: params.get("category")?.trim().slice(0, 80) ?? "",
     product: params.get("product")?.trim().slice(0, 80) ?? "",
     services: parseServices(params),
-    sort: parseSort(params.get("sort"), Boolean(q), Boolean(origin)),
+    sort: parseSort(params.get("sort"), Boolean(q), Boolean(coordinateOrigin) || Boolean(near)),
     cursor: params.get("cursor")?.trim() ?? "",
     limit: Math.min(maximumLimit, Math.max(1, requestedLimit)),
   };
 }
 
+/** Resolve `near` against the index, leaving an explicit lat/lng untouched. */
+function resolveQuery(index: DiscoveryIndex, query: DiscoveryQuery): DiscoveryQuery {
+  const place = query.near ? index.placeBySlug.get(query.near) : null;
+  const origin = query.origin ?? (place ? { lat: place.lat, lng: place.lng } : null);
+  return { ...query, near: place?.slug ?? "", origin };
+}
+
 function queryTokens(query: string) {
-  return query
-    .toLocaleLowerCase()
+  return foldAscii(query)
     .split(/[^a-z0-9]+/)
     .filter((token) => token.length > 1 && !queryStopWords.has(token));
 }
 
-function farmSearchFields(farm: Farm) {
-  return {
-    name: farm.name.toLocaleLowerCase(),
-    products: `${farm.productsText} ${farm.products.join(" ")}`.toLocaleLowerCase(),
-    place: `${farm.city} ${farm.state} ${farm.parish} ${farm.region}`.toLocaleLowerCase(),
-    other: `${farm.category} ${farm.marketPresence} ${farm.notes}`.toLocaleLowerCase(),
-  };
-}
+type Match = { row: number; distance: number | null; relevance: number };
 
-function relevanceScore(farm: Farm, tokens: string[]) {
-  if (tokens.length === 0) return 0;
-  const fields = farmSearchFields(farm);
+/**
+ * Score a record against the query tokens using the packed search blob.
+ *
+ * Weights match the previous per-field implementation: a name prefix beats a
+ * name substring, which beats a product, a place, then anything else.
+ */
+function relevanceScore(index: DiscoveryIndex, row: number, tokens: string[]) {
+  const start = index.textStart[row];
+  const nameEnd = index.textNameEnd[row];
+  const productsEnd = index.textProductsEnd[row];
+  const placeEnd = index.textPlaceEnd[row];
+  const end = index.textStart[row + 1];
+
   let score = 0;
   for (const token of tokens) {
-    if (fields.name.startsWith(token)) score += 12;
-    else if (fields.name.includes(token)) score += 8;
-    if (fields.products.includes(token)) score += 5;
-    if (fields.place.includes(token)) score += 4;
-    if (fields.other.includes(token)) score += 1;
+    if (index.search.startsWith(token, start)) score += 12;
+    else {
+      const inName = index.search.indexOf(token, start);
+      if (inName !== -1 && inName < nameEnd) score += 8;
+    }
+    const inProducts = index.search.indexOf(token, nameEnd);
+    if (inProducts !== -1 && inProducts < productsEnd) score += 5;
+    const inPlace = index.search.indexOf(token, productsEnd);
+    if (inPlace !== -1 && inPlace < placeEnd) score += 4;
+    const inOther = index.search.indexOf(token, placeEnd);
+    if (inOther !== -1 && inOther < end) score += 1;
   }
   return score;
 }
 
-function matchesText(farm: Farm, tokens: string[]) {
-  if (tokens.length === 0) return true;
-  const fields = farmSearchFields(farm);
-  const haystack = `${fields.name} ${fields.products} ${fields.place} ${fields.other}`;
-  return tokens.every((token) => haystack.includes(token));
+function withinBounds(index: DiscoveryIndex, row: number, bounds: MapBounds) {
+  const latitude = index.latitude[row];
+  const longitude = index.longitude[row];
+  return longitude >= bounds[0] && latitude >= bounds[1] && longitude <= bounds[2] && latitude <= bounds[3];
 }
 
-function matchesProduct(farm: Farm, product: string) {
-  if (!product) return true;
-  const tokens = productTokens[product];
-  if (!tokens) return true;
-  const haystack = `${farm.productsText} ${farm.products.join(" ")} ${farm.category} ${farm.notes}`.toLocaleLowerCase();
-  return tokens.some((token) => haystack.includes(token));
-}
-
-function withinBounds(farm: Farm, bounds: MapBounds) {
-  return farm.longitude >= bounds[0] && farm.latitude >= bounds[1] && farm.longitude <= bounds[2] && farm.latitude <= bounds[3];
-}
-
-function resolvedScope(query: DiscoveryQuery): DiscoveryScope {
+function resolvedScope(index: DiscoveryIndex, query: DiscoveryQuery): DiscoveryScope {
   if (query.bbox) {
     return { mode: "area", label: "this map area", origin: null, radiusMiles: null, bounds: query.bbox };
   }
   if (query.origin) {
-    const place = query.near ? placeBySlug.get(query.near) : null;
+    const place = query.near ? index.placeBySlug.get(query.near) : null;
     return {
       mode: "nearby",
       label: place?.label ?? "your location",
@@ -255,36 +193,66 @@ function resolvedScope(query: DiscoveryQuery): DiscoveryScope {
   return { mode: "all", label: "all covered areas", origin: null, radiusMiles: null, bounds: null };
 }
 
-type MatchedFarm = { farm: Farm; distance: number | null; relevance: number };
-
-function matchingFarms(query: DiscoveryQuery, mappableOnly = false): MatchedFarm[] {
+function matchingRows(index: DiscoveryIndex, query: DiscoveryQuery, mappableOnly = false): Match[] {
   const tokens = queryTokens(query.q);
-  const radius = query.radiusMiles;
-  const matched: MatchedFarm[] = [];
 
-  for (const farm of farms) {
-    if (mappableOnly && !isMappableFarm(farm)) continue;
-    if (query.category && farm.category !== query.category) continue;
-    if (!matchesProduct(farm, query.product)) continue;
-    if (!query.services.every((service) => farm[service])) continue;
-    if (!matchesText(farm, tokens)) continue;
-    if (query.bbox && (!isMappableFarm(farm) || !withinBounds(farm, query.bbox))) continue;
-
-    const distance = query.origin && isMappableFarm(farm) ? distanceMiles(query.origin, farm) : null;
-    if (!query.bbox && query.origin && (distance === null || distance > radius)) continue;
-    matched.push({ farm, distance, relevance: relevanceScore(farm, tokens) });
+  // One blob scan per token, then an intersection, instead of re-scanning the
+  // dataset once per record.
+  let textHits: Uint8Array | null = null;
+  for (const token of tokens) {
+    const hits = index.recordsContaining(token);
+    if (textHits === null) textHits = hits;
+    else for (let i = 0; i < textHits.length; i += 1) textHits[i] &= hits[i];
   }
 
+  const categoryCode = query.category ? index.categories.indexOf(query.category) : -1;
+  if (query.category && categoryCode === -1) return [];
+  const productBit = query.product ? index.productIds.indexOf(query.product) : -1;
+  const productMask = productBit === -1 ? 0 : 1 << productBit;
+  let serviceMask = 0;
+  for (const service of query.services) serviceMask |= 1 << index.flag[service];
+
+  const mappableBit = 1 << index.flag.mappable;
+  const matched: Match[] = [];
+
+  for (let row = 0; row < index.count; row += 1) {
+    if (textHits && textHits[row] === 0) continue;
+    const flags = index.flags[row];
+    const mappable = (flags & mappableBit) !== 0;
+    if (mappableOnly && !mappable) continue;
+    if (categoryCode !== -1 && index.category[row] !== categoryCode) continue;
+    if (productMask && (index.productMask[row] & productMask) === 0) continue;
+    if (serviceMask && (flags & serviceMask) !== serviceMask) continue;
+    if (query.bbox && (!mappable || !withinBounds(index, row, query.bbox))) continue;
+
+    const distance =
+      query.origin && mappable
+        ? distanceMiles(query.origin, index.latitude[row], index.longitude[row])
+        : null;
+    if (!query.bbox && query.origin && (distance === null || distance > query.radiusMiles)) continue;
+
+    matched.push({ row, distance, relevance: tokens.length ? relevanceScore(index, row, tokens) : 0 });
+  }
+
+  const infinity = Number.POSITIVE_INFINITY;
   matched.sort((a, b) => {
-    if (query.sort === "distance") return (a.distance ?? Number.POSITIVE_INFINITY) - (b.distance ?? Number.POSITIVE_INFINITY) || a.farm.id.localeCompare(b.farm.id);
-    if (query.sort === "relevance") return b.relevance - a.relevance || (a.distance ?? Number.POSITIVE_INFINITY) - (b.distance ?? Number.POSITIVE_INFINITY) || a.farm.id.localeCompare(b.farm.id);
-    return a.farm.name.localeCompare(b.farm.name) || a.farm.id.localeCompare(b.farm.id);
+    if (query.sort === "distance") {
+      return (a.distance ?? infinity) - (b.distance ?? infinity) || index.nameRank[a.row] - index.nameRank[b.row];
+    }
+    if (query.sort === "relevance") {
+      return (
+        b.relevance - a.relevance ||
+        (a.distance ?? infinity) - (b.distance ?? infinity) ||
+        index.nameRank[a.row] - index.nameRank[b.row]
+      );
+    }
+    return index.nameRank[a.row] - index.nameRank[b.row];
   });
   return matched;
 }
 
-function farmSummary(item: MatchedFarm): FarmSummary {
-  const { farm } = item;
+function farmSummary(index: DiscoveryIndex, match: Match): FarmSummary {
+  const farm = index.record(match.row);
   return {
     id: farm.id,
     name: farm.name,
@@ -306,7 +274,7 @@ function farmSummary(item: MatchedFarm): FarmSummary {
     latitude: farm.latitude,
     longitude: farm.longitude,
     geoPrecision: farm.geoPrecision,
-    distanceMiles: item.distance === null ? null : Math.round(item.distance * 10) / 10,
+    distanceMiles: match.distance === null ? null : Math.round(match.distance * 10) / 10,
   };
 }
 
@@ -324,18 +292,20 @@ function encodeCursor(offset: number) {
   return btoa(String(offset)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/g, "");
 }
 
-export function searchFarms(query: DiscoveryQuery): FarmSearchResponse {
-  const matched = matchingFarms(query);
+export async function searchFarms(rawQuery: DiscoveryQuery): Promise<FarmSearchResponse> {
+  const index = await loadDiscoveryIndex();
+  const query = resolveQuery(index, rawQuery);
+  const matched = matchingRows(index, query);
   const offset = Math.min(decodeCursor(query.cursor), matched.length);
-  const items = matched.slice(offset, offset + query.limit).map(farmSummary);
+  const items = matched.slice(offset, offset + query.limit).map((match) => farmSummary(index, match));
   const nextOffset = offset + items.length;
   return {
     items,
     total: matched.length,
     nextCursor: nextOffset < matched.length ? encodeCursor(nextOffset) : null,
-    scope: resolvedScope(query),
+    scope: resolvedScope(index, query),
     sort: query.sort,
-    releaseId,
+    releaseId: index.releaseId,
   };
 }
 
@@ -348,16 +318,19 @@ function worldPixel(point: LatLng, zoom: number) {
   };
 }
 
-function clusterFarms(items: MatchedFarm[], zoom: number): FarmMapFeature[] {
-  const groups = new Map<string, MatchedFarm[]>();
+function clusterFarms(index: DiscoveryIndex, items: Match[], zoom: number): FarmMapFeature[] {
+  const groups = new Map<string, Match[]>();
   const safeZoom = Math.min(16, Math.max(2, Math.trunc(zoom)));
   for (const item of items) {
-    const key = items.length <= mapLeafLimit
-      ? `exact:${item.farm.longitude}:${item.farm.latitude}`
-      : (() => {
-          const pixel = worldPixel({ lat: item.farm.latitude, lng: item.farm.longitude }, safeZoom);
-          return `${Math.floor(pixel.x / 64)}:${Math.floor(pixel.y / 64)}`;
-        })();
+    const latitude = index.latitude[item.row];
+    const longitude = index.longitude[item.row];
+    const key =
+      items.length <= mapLeafLimit
+        ? `exact:${longitude}:${latitude}`
+        : (() => {
+            const pixel = worldPixel({ lat: latitude, lng: longitude }, safeZoom);
+            return `${Math.floor(pixel.x / 64)}:${Math.floor(pixel.y / 64)}`;
+          })();
     const group = groups.get(key);
     if (group) group.push(item);
     else groups.set(key, [item]);
@@ -365,15 +338,16 @@ function clusterFarms(items: MatchedFarm[], zoom: number): FarmMapFeature[] {
 
   return Array.from(groups.entries()).map(([cell, group]) => {
     if (group.length === 1) {
-      const farm = group[0].farm;
+      const row = group[0].row;
+      const farm = index.record(row);
       return {
         kind: "farm" as const,
         id: farm.id,
         name: farm.name,
         category: farm.category,
-        longitude: farm.longitude,
-        latitude: farm.latitude,
-        geoPrecision: farm.geoPrecision,
+        longitude: index.longitude[row],
+        latitude: index.latitude[row],
+        geoPrecision: index.precisionOf(row),
       };
     }
 
@@ -383,13 +357,13 @@ function clusterFarms(items: MatchedFarm[], zoom: number): FarmMapFeature[] {
     let north = -90;
     let longitude = 0;
     let latitude = 0;
-    for (const { farm } of group) {
-      west = Math.min(west, farm.longitude);
-      south = Math.min(south, farm.latitude);
-      east = Math.max(east, farm.longitude);
-      north = Math.max(north, farm.latitude);
-      longitude += farm.longitude;
-      latitude += farm.latitude;
+    for (const { row } of group) {
+      west = Math.min(west, index.longitude[row]);
+      south = Math.min(south, index.latitude[row]);
+      east = Math.max(east, index.longitude[row]);
+      north = Math.max(north, index.latitude[row]);
+      longitude += index.longitude[row];
+      latitude += index.latitude[row];
     }
     const terminal = safeZoom >= 16 || (west === east && south === north);
     const cluster: FarmMapCluster = {
@@ -400,37 +374,62 @@ function clusterFarms(items: MatchedFarm[], zoom: number): FarmMapFeature[] {
       count: group.length,
       bounds: [west, south, east, north],
       terminal,
-      ...(terminal ? { farmIds: group.slice(0, maximumLimit).map(({ farm }) => farm.id) } : {}),
+      ...(terminal
+        ? { farmIds: group.slice(0, maximumLimit).map(({ row }) => index.record(row).id) }
+        : {}),
     };
     return cluster;
   });
 }
 
-export function mapFarms(query: DiscoveryQuery, zoom: number): FarmMapResponse {
-  const matched = matchingFarms(query, true);
+export async function mapFarms(rawQuery: DiscoveryQuery, zoom: number): Promise<FarmMapResponse> {
+  const index = await loadDiscoveryIndex();
+  const query = resolveQuery(index, rawQuery);
+  const matched = matchingRows(index, query, true);
   return {
-    features: clusterFarms(matched, zoom),
+    features: clusterFarms(index, matched, zoom),
     total: matched.length,
-    scope: resolvedScope(query),
-    releaseId,
+    scope: resolvedScope(index, query),
+    releaseId: index.releaseId,
   };
 }
 
-export function searchPlaces(term: string, requestedLimit: number): PlaceSearchResponse {
+function toPlaceSuggestion(place: DiscoveryIndex["places"][number]): PlaceSuggestion {
+  return {
+    slug: place.slug,
+    name: place.name,
+    state: place.state,
+    label: place.label,
+    centroid: { lat: place.lat, lng: place.lng },
+    farmCount: place.farmCount,
+  };
+}
+
+export async function searchPlaces(term: string, requestedLimit: number): Promise<PlaceSearchResponse> {
+  const index = await loadDiscoveryIndex();
   const normalized = term.trim().toLocaleLowerCase();
   const limit = Math.min(8, Math.max(1, requestedLimit || 8));
-  if (normalized.length < 2) return { items: [], releaseId };
-  const items = places
+  if (normalized.length < 2) return { items: [], releaseId: index.releaseId };
+  const items = index.places
     .filter((place) => place.label.toLocaleLowerCase().includes(normalized))
     .sort((a, b) => {
       const aStarts = a.label.toLocaleLowerCase().startsWith(normalized) ? 1 : 0;
       const bStarts = b.label.toLocaleLowerCase().startsWith(normalized) ? 1 : 0;
       return bStarts - aStarts || b.farmCount - a.farmCount || a.label.localeCompare(b.label);
     })
-    .slice(0, limit);
-  return { items, releaseId };
+    .slice(0, limit)
+    .map(toPlaceSuggestion);
+  return { items, releaseId: index.releaseId };
 }
 
-export function getFarm(id: string) {
-  return farmById.get(id) ?? null;
+export async function getFarm(id: string): Promise<Farm | null> {
+  const index = await loadDiscoveryIndex();
+  const row = index.positionOf(id);
+  return row === -1 ? null : index.record(row);
+}
+
+/** Totals for callers that need the dataset's shape without querying it. */
+export async function discoveryDatasetSummary() {
+  const index = await loadDiscoveryIndex();
+  return { total: index.count, states: index.states, releaseId: index.releaseId };
 }

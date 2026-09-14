@@ -16,10 +16,17 @@ manual browser checks below pass against the same governed dataset release.
 | Zero/invalid coordinates and terminal shared-point clusters | Unit | `npm run test:unit` |
 | List/count/map consistency and public-location enforcement | PostGIS | `npm run db:test` |
 | Spatial index use | PostGIS `EXPLAIN` assertion | `npm run db:test` |
-| Server shell and rollback explorer | Rendered HTML | `npm test` |
+| Server shell, national default, and rollback explorer | Rendered HTML | `npm test` |
+| Publication gates, privacy gates, and index encoding | Unit | `npm run data:gates` |
+| Displayed counts derive from the published feed | Rendered HTML | `npm test` |
+| Public record shape carries no internal fields | Rendered HTML | `npm test` |
+| Worker script and static-asset size limits | Post-build | `npm run build` |
 | Type safety, including Worker bindings | Static | `npm run typecheck` |
 
-## Browser acceptance before enabling `EXPLORER_V2`
+## Browser acceptance — still outstanding
+
+The national explorer is now what a default build serves; these checks have
+**not** been run against it and remain the gate before a production deploy.
 
 Run at desktop and 390px mobile widths with keyboard, screen reader, reduced
 motion, and a throttled network profile:
@@ -43,7 +50,8 @@ motion, and a throttled network profile:
 
 ## Release performance gates
 
-- No production request for `/farms.json` with `EXPLORER_V2=true`.
+- No production request for `/farms.json`. Asserted by `npm test`, and the
+  45 MB asset is pruned and size-gated by `npm run build`.
 - LCP < 2.5s and INP < 200ms at the 75th percentile.
 - Warm list/map API p95 < 300ms.
 - Compressed list response < 200KB and map response < 300KB.

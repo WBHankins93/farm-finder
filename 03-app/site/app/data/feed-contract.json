@@ -1,0 +1,28 @@
+{
+  "_comment": "Committed publication contract for the national web feed. Editorial metadata (releaseId, updatedLabel) cannot be derived from the data and lives here. Every numeric entry is a FLOOR or an INVARIANT checked by scripts/build-web-feed.py, never a displayed count: displayed counts come from the generated app/data/directory-stats.generated.json. Raising a floor is a deliberate act that must cite a publish run.",
+  "releaseId": "national-web-2026-07-25",
+  "updatedLabel": "July 2026",
+  "expectedStates": [
+    "AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DE", "FL", "GA",
+    "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD",
+    "ME", "MI", "MN", "MO", "MS", "MT", "NC", "ND", "NE", "NH",
+    "NJ", "NM", "NV", "NY", "OH", "OK", "OR", "PA", "RI", "SC",
+    "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI", "WV", "WY"
+  ],
+  "floors": {
+    "total": 60000,
+    "mappable": 45000,
+    "statesWithFarms": 50
+  },
+  "invariants": {
+    "everyRecordEligible": true,
+    "noContactWithoutWebsite": true,
+    "noAddressInPublicContact": true,
+    "noZeroIslandCoordinates": true,
+    "noInternalFields": true
+  },
+  "productGuideIds": [
+    "vegetables", "fruit", "eggs", "beef", "pork", "poultry",
+    "honey", "dairy", "seafood", "rice", "flowers", "mushrooms"
+  ]
+}

@@ -5,6 +5,7 @@ import maplibregl, { type ExpressionSpecification, type GeoJSONSource, type Map 
 import type { FeatureCollection, Point } from "geojson";
 import type { DiscoveryScope, FarmMapFeature, FarmSummary, LatLng, MapBounds } from "../lib/discovery-contract";
 import { categoryColors } from "../lib/farms";
+import { basemaps, detailedStyleUrl, guideStyle, type BasemapId } from "../lib/map-styles";
 import { Mark, markForCategory } from "../lib/marks";
 
 const categoryExpression: ExpressionSpecification = [
@@ -62,6 +63,20 @@ export type FarmMapProps = {
   onOpenProfile: (id: string) => void;
 };
 
+const basemapStorageKey = "farmfinder.basemap";
+
+function readStoredBasemap(): BasemapId {
+  // Per-viewer convenience only; a browser that blocks site data just gets the
+  // default, which is the fast style.
+  try {
+    const stored = window.localStorage.getItem(basemapStorageKey);
+    if (stored === "guide" || stored === "detailed") return stored;
+  } catch {
+    /* storage unavailable */
+  }
+  return "guide";
+}
+
 export default function FarmMap(props: FarmMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
@@ -70,6 +85,9 @@ export default function FarmMap(props: FarmMapProps) {
   const lastScopeKeyRef = useRef("");
   const [mapReady, setMapReady] = useState(false);
   const [mapError, setMapError] = useState("");
+  const [basemap, setBasemap] = useState<BasemapId>(readStoredBasemap);
+  const basemapRef = useRef(basemap);
+  const installOverlayRef = useRef<((map: MapLibreMap) => void) | null>(null);
 
   useEffect(() => {
     propsRef.current = props;
@@ -87,12 +105,18 @@ export default function FarmMap(props: FarmMapProps) {
     try {
       map = new maplibregl.Map({
         container: containerRef.current,
-        style: "https://tiles.openfreemap.org/styles/liberty",
+        style: basemapRef.current === "detailed" ? detailedStyleUrl : guideStyle(),
         center: [-98.5, 38.2],
         zoom: 3.35,
         minZoom: 2.5,
         maxZoom: 16,
         attributionControl: false,
+        // Panning stays smooth over a dense national result set: no cross-fade
+        // between tile zooms, a larger tile cache so a pan-back is instant, and
+        // no duplicate worlds to rasterise at low zoom.
+        fadeDuration: 0,
+        maxTileCacheSize: 220,
+        renderWorldCopies: false,
       });
     } catch {
       queueMicrotask(() => setMapError("The interactive map is unavailable in this browser."));
@@ -102,19 +126,26 @@ export default function FarmMap(props: FarmMapProps) {
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
     map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: "Farm locations may be approximate" }), "bottom-right");
 
-    map.on("load", () => {
-      map.addSource("farms", { type: "geojson", data: toFeatures(propsRef.current.features) });
-      map.addSource("selected-farm", { type: "geojson", data: selectedFeature(propsRef.current.selectedFarm) });
-      map.addSource("hovered-farm", { type: "geojson", data: selectedFeature(propsRef.current.hoveredFarm) });
-      map.addSource("user-origin", { type: "geojson", data: userFeature(propsRef.current.userOrigin) });
+    function installFarmOverlay(target: MapLibreMap) {
+      if (target.getSource("farms")) return;
+      const current = propsRef.current;
+      target.addSource("farms", { type: "geojson", data: toFeatures(current.features) });
+      target.addSource("selected-farm", { type: "geojson", data: selectedFeature(current.selectedFarm) });
+      target.addSource("hovered-farm", { type: "geojson", data: selectedFeature(current.hoveredFarm) });
+      target.addSource("user-origin", { type: "geojson", data: userFeature(current.userOrigin) });
 
-      map.addLayer({ id: "server-clusters", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "cluster"], paint: { "circle-color": "rgba(251,252,246,.96)", "circle-radius": ["step", ["get", "count"], 20, 20, 25, 75, 31], "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
-      map.addLayer({ id: "server-cluster-count", type: "symbol", source: "farms", filter: ["==", ["get", "kind"], "cluster"], layout: { "text-field": ["get", "count"], "text-size": 12 }, paint: { "text-color": "#173f2c" } });
-      map.addLayer({ id: "farm-points", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "farm"], paint: { "circle-color": categoryExpression, "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 4.5, 10, 8], "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6", "circle-opacity": 0.96 } });
-      map.addLayer({ id: "hovered-ring", type: "circle", source: "hovered-farm", paint: { "circle-radius": 12, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
-      map.addLayer({ id: "selected-ring", type: "circle", source: "selected-farm", paint: { "circle-radius": 14, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 3, "circle-stroke-color": "#c65e36" } });
-      map.addLayer({ id: "user-halo", type: "circle", source: "user-origin", paint: { "circle-radius": 12, "circle-color": "rgba(255,250,240,.5)", "circle-stroke-width": 1, "circle-stroke-color": "#173f2c" } });
-      map.addLayer({ id: "user-point", type: "circle", source: "user-origin", paint: { "circle-radius": 5, "circle-color": "#173f2c", "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6" } });
+      target.addLayer({ id: "server-clusters", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "cluster"], paint: { "circle-color": "rgba(251,252,246,.96)", "circle-radius": ["step", ["get", "count"], 20, 20, 25, 75, 31], "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
+      target.addLayer({ id: "server-cluster-count", type: "symbol", source: "farms", filter: ["==", ["get", "kind"], "cluster"], layout: { "text-field": ["get", "count"], "text-size": 12, "text-font": ["Noto Sans Bold"] }, paint: { "text-color": "#173f2c" } });
+      target.addLayer({ id: "farm-points", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "farm"], paint: { "circle-color": categoryExpression, "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 4.5, 10, 8], "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6", "circle-opacity": 0.96 } });
+      target.addLayer({ id: "hovered-ring", type: "circle", source: "hovered-farm", paint: { "circle-radius": 12, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
+      target.addLayer({ id: "selected-ring", type: "circle", source: "selected-farm", paint: { "circle-radius": 14, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 3, "circle-stroke-color": "#c65e36" } });
+      target.addLayer({ id: "user-halo", type: "circle", source: "user-origin", paint: { "circle-radius": 12, "circle-color": "rgba(255,250,240,.5)", "circle-stroke-width": 1, "circle-stroke-color": "#173f2c" } });
+      target.addLayer({ id: "user-point", type: "circle", source: "user-origin", paint: { "circle-radius": 5, "circle-color": "#173f2c", "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6" } });
+    }
+    installOverlayRef.current = installFarmOverlay;
+
+    map.on("load", () => {
+      installFarmOverlay(map);
 
       map.on("click", "server-clusters", (event) => {
         const properties = event.features?.[0]?.properties;
@@ -136,6 +167,8 @@ export default function FarmMap(props: FarmMapProps) {
         map.on("mouseenter", layer, () => (map.getCanvas().style.cursor = "pointer"));
         map.on("mouseleave", layer, () => (map.getCanvas().style.cursor = ""));
       }
+      // `setStyle` drops custom sources and layers; re-install after each swap.
+      map.on("styledata", () => installFarmOverlay(map));
       map.on("moveend", () => {
         if (suppressMoveRef.current) {
           suppressMoveRef.current = false;
@@ -193,6 +226,22 @@ export default function FarmMap(props: FarmMapProps) {
     }
   }, [props.scope, mapReady]);
 
+  useEffect(() => {
+    const map = mapRef.current;
+    basemapRef.current = basemap;
+    try {
+      window.localStorage.setItem(basemapStorageKey, basemap);
+    } catch {
+      /* storage unavailable */
+    }
+    if (!mapReady || !map) return;
+    // Both styles read the same vector source, so the swap reuses cached tiles
+    // and only re-rasterises. `diff: false` avoids a slow layer-level diff
+    // against a style with a completely different layer set.
+    map.setStyle(basemap === "detailed" ? detailedStyleUrl : guideStyle(), { diff: false });
+    map.once("styledata", () => installOverlayRef.current?.(map));
+  }, [basemap, mapReady]);
+
   function fitVisible() {
     const map = mapRef.current;
     const points = props.features;
@@ -208,6 +257,22 @@ export default function FarmMap(props: FarmMapProps) {
     <div className="map-wrap">
       <div ref={containerRef} className="map-canvas" role="region" aria-label="Interactive map of farm results" />
       {mapError ? <div className="map-fallback" role="status"><span aria-hidden="true">⌁</span><strong>Keep browsing in the farm list.</strong><p>{mapError} Search, filters, and profiles still work.</p></div> : !mapReady ? <div className="map-loading" role="status"><span />Preparing the field map…</div> : null}
+      {!mapError ? (
+        <div className="map-basemap" role="group" aria-label="Map detail level">
+          {basemaps.map((option) => (
+            <button
+              key={option.id}
+              type="button"
+              className={basemap === option.id ? "active" : ""}
+              aria-pressed={basemap === option.id}
+              title={option.hint}
+              onClick={() => setBasemap(option.id)}
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
+      ) : null}
       {!mapError ? <div className="map-tools" role="group" aria-label="Map tools"><button type="button" onClick={fitVisible}>Fit results</button>{props.searchAreaAvailable ? <button className="search-area-button" type="button" onClick={props.onSearchArea}>Search this area</button> : null}</div> : null}
       {!mapError ? <div className="map-key" aria-label="Map legend"><span><i className="key-dot produce" /> Produce</span><span><i className="key-dot meat" /> Meat</span><span><i className="key-dot mixed" /> Mixed</span><span><i className="key-dot more" /> More</span></div> : null}
       {!mapError && selected ? (

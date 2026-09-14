@@ -1,6 +1,7 @@
 /** Cloudflare Worker entry point for the vinext-starter template. */
 import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
+import { bindDiscoveryContext } from "../app/lib/discovery-index";
 
 interface Env {
   ASSETS: Fetcher;
@@ -28,6 +29,12 @@ interface ExecutionContext {
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
+
+    // The discovery index is a static asset, not part of this script: the
+    // dataset is far too large to inline in a Worker bundle or to hold as
+    // expanded objects inside a 128 MB isolate. Route handlers only receive
+    // the Request, so hand them the binding here.
+    bindDiscoveryContext(env.ASSETS, request.url);
 
     if (url.pathname === "/_vinext/image") {
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];

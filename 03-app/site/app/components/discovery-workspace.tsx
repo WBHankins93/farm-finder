@@ -85,6 +85,8 @@ export default function DiscoveryWorkspace() {
     setView(urlState.view);
     setBrowseAll(urlState.browseAll);
     setBbox(urlState.bbox);
+    if (urlState.bbox) setLocationMessage("Showing farms in the selected map area.");
+    else if (urlState.browseAll) setLocationMessage("Browsing all covered areas. Add a city for nearby results.");
     if (urlState.near) {
       const lookup = urlState.near.includes(",") ? urlState.near : urlState.near.replace(/-([a-z]{2})$/i, ", $1").replace(/-/g, " ");
       setPlaceInput(lookup);
@@ -96,6 +98,10 @@ export default function DiscoveryWorkspace() {
           setPlace(match);
           setPlaceInput(match.label);
           setSort(urlState.q ? "relevance" : "distance");
+          // Restoring from the URL is the hero form's entry path, so the live
+          // status has to describe the restored scope rather than keep asking
+          // for a city that is already chosen.
+          setLocationMessage(`Showing farms within ${urlState.radiusMiles} miles of ${match.label}.`);
         }
       } catch {
         setLocationMessage("Choose a city from the suggestions to search nearby.");
@@ -235,6 +241,13 @@ export default function DiscoveryWorkspace() {
   useEffect(() => {
     const shell = mapShellRef.current;
     if (!shell || mapActivated) return;
+    // An explicit map view — a tap on Map, or a shared link carrying view=map —
+    // is a request for the map now. Waiting on intersection there leaves the
+    // placeholder up on a deep link that already asked for it.
+    if (view === "map") {
+      const activation = globalThis.setTimeout(() => setMapActivated(true), 0);
+      return () => globalThis.clearTimeout(activation);
+    }
     if (!("IntersectionObserver" in window)) {
       const activation = globalThis.setTimeout(() => setMapActivated(true), 0);
       return () => globalThis.clearTimeout(activation);
@@ -247,7 +260,7 @@ export default function DiscoveryWorkspace() {
     }, { rootMargin: "320px" });
     observer.observe(shell);
     return () => observer.disconnect();
-  }, [mapActivated]);
+  }, [mapActivated, view]);
 
   useEffect(() => {
     if (!filtersOpen) return;

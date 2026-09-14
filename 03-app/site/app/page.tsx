@@ -1,13 +1,20 @@
 import type { CSSProperties } from "react";
 import AskDirectory from "./components/ask-directory";
 import DiscoveryWorkspace from "./components/discovery-workspace";
-import LegacyHome from "./legacy-page";
-import stats from "./data/directory-stats.json";
+import stats from "./data/directory-stats.generated.json";
 import { productGuides } from "./lib/directory-config";
 import { Mark, markForProduct } from "./lib/marks";
 
-export default function Home() {
-  if (process.env.EXPLORER_V2 !== "true") return <LegacyHome />;
+export default async function Home() {
+  // The national explorer is the product. `EXPLORER_LEGACY=true` is the
+  // rollback switch to the superseded 299-row workbook explorer; it is never
+  // set in a deployed build (its 45 MB client feed exceeds the asset limit).
+  // Dynamic so the rollback explorer and its client bundle stay out of a
+  // default build entirely, rather than riding along as dead weight.
+  if (process.env.EXPLORER_LEGACY === "true") {
+    const { default: LegacyHome } = await import("./legacy-page");
+    return <LegacyHome />;
+  }
 
   return (
     <div className="site-shell">
