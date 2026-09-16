@@ -5,7 +5,7 @@ import maplibregl, { type ExpressionSpecification, type GeoJSONSource, type Map 
 import type { FeatureCollection, Point } from "geojson";
 import type { DiscoveryScope, FarmMapFeature, FarmSummary, LatLng, MapBounds } from "../lib/discovery-contract";
 import { categoryColors } from "../lib/farms";
-import { basemaps, detailedStyleUrl, guideStyle, type BasemapId } from "../lib/map-styles";
+import { basemaps, detailedStyleUrl, detailPaint, detailPitch, detailZoom, guideStyle, type BasemapId } from "../lib/map-styles";
 import { Mark, markForCategory } from "../lib/marks";
 
 const categoryExpression: ExpressionSpecification = [
@@ -109,7 +109,11 @@ export default function FarmMap(props: FarmMapProps) {
         center: [-98.5, 38.2],
         zoom: 3.35,
         minZoom: 2.5,
-        maxZoom: 16,
+        // The detailed basemap only earns its name at street level: Liberty's
+        // building extrusions start at z14 and its POI labels at z15. Stopping
+        // at 16 left the last mile — driveways, barn footprints, the entrance
+        // you actually turn into — out of reach of the toggle that promises it.
+        maxZoom: 18,
         attributionControl: false,
         // Panning stays smooth over a dense national result set: no cross-fade
         // between tile zooms, a larger tile cache so a pan-back is instant, and
@@ -123,10 +127,33 @@ export default function FarmMap(props: FarmMapProps) {
       return;
     }
 
-    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
+    // The compass is the only way back to north-up once the detailed basemap
+    // tilts the camera (or a two-finger drag rotates it), so it has to be here.
+    // `visualizePitch` also makes the current tilt legible at a glance.
+    //
+    // Top-right, not bottom-right: the bottom of the map belongs to the farm
+    // detail sheet, which on mobile is full-width and would sit straight on top
+    // of the zoom buttons. Attribution stays at the bottom, where the sheet
+    // clears it — it is a licence requirement and must stay readable.
+    map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), "top-right");
     map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: "Farm locations may be approximate" }), "bottom-right");
 
+    // Liberty owns these layers, so this re-paints them in place rather than
+    // stacking duplicates on top. It runs on every style load because
+    // `setStyle` throws the previous style — and these overrides — away.
+    function applyDetailPaint(target: MapLibreMap) {
+      if (basemapRef.current !== "detailed") return;
+      for (const override of detailPaint) {
+        if (!target.getLayer(override.layer)) continue;
+        // `styledata` fires repeatedly as sources resolve; re-setting an
+        // identical paint value would repaint the map each time.
+        if (JSON.stringify(target.getPaintProperty(override.layer, override.property)) === JSON.stringify(override.value)) continue;
+        target.setPaintProperty(override.layer, override.property, override.value);
+      }
+    }
+
     function installFarmOverlay(target: MapLibreMap) {
+      applyDetailPaint(target);
       if (target.getSource("farms")) return;
       const current = propsRef.current;
       target.addSource("farms", { type: "geojson", data: toFeatures(current.features) });
@@ -240,7 +267,22 @@ export default function FarmMap(props: FarmMapProps) {
     // against a style with a completely different layer set.
     map.setStyle(basemap === "detailed" ? detailedStyleUrl : guideStyle(), { diff: false });
     map.once("styledata", () => installOverlayRef.current?.(map));
+
+    // Extrusions at pitch 0 are just tinted footprints, so detailed mode tilts
+    // — but only from `detailZoom` up, where there is massing to see and the
+    // person is plainly doing last-mile work. Tilting a regional view would
+    // pull in a horizon of tiles and win nothing, and a camera that moves on
+    // its own while you are scanning pins is worse than flat buildings.
+    // Switching back always flattens; the compass undoes it either way, and
+    // `easeTo` is instant under reduced motion by MapLibre's own rule.
+    const wantsTilt = basemap === "detailed" && map.getZoom() >= detailZoom;
+    const target = wantsTilt ? detailPitch : 0;
+    if (Math.abs(map.getPitch() - target) > 0.5) {
+      suppressMoveRef.current = true;
+      map.easeTo({ pitch: target, bearing: basemap === "detailed" ? map.getBearing() : 0, duration: 420 });
+    }
   }, [basemap, mapReady]);
+
 
   function fitVisible() {
     const map = mapRef.current;
@@ -253,6 +295,7 @@ export default function FarmMap(props: FarmMapProps) {
   }
 
   const selected = props.selectedFarm;
+  const activeBasemap = basemaps.find((option) => option.id === basemap) ?? null;
   return (
     <div className="map-wrap">
       <div ref={containerRef} className="map-canvas" role="region" aria-label="Interactive map of farm results" />
@@ -265,16 +308,23 @@ export default function FarmMap(props: FarmMapProps) {
               type="button"
               className={basemap === option.id ? "active" : ""}
               aria-pressed={basemap === option.id}
+              // `title` is a hover tooltip: no keyboard user and no touch user
+              // ever sees it. The description carries the same sentence to
+              // anyone who reaches the button by any route.
+              aria-describedby={`basemap-hint-${option.id}`}
               title={option.hint}
               onClick={() => setBasemap(option.id)}
             >
               {option.label}
+              <span className="sr-only" id={`basemap-hint-${option.id}`}>{option.hint}</span>
             </button>
           ))}
         </div>
       ) : null}
+      {/* Swapping the basemap redraws the whole map and says nothing. */}
+      {!mapError ? <p className="sr-only" role="status">{activeBasemap ? `${activeBasemap.label} basemap. ${activeBasemap.hint}.` : ""}</p> : null}
       {!mapError ? <div className="map-tools" role="group" aria-label="Map tools"><button type="button" onClick={fitVisible}>Fit results</button>{props.searchAreaAvailable ? <button className="search-area-button" type="button" onClick={props.onSearchArea}>Search this area</button> : null}</div> : null}
-      {!mapError ? <div className="map-key" aria-label="Map legend"><span><i className="key-dot produce" /> Produce</span><span><i className="key-dot meat" /> Meat</span><span><i className="key-dot mixed" /> Mixed</span><span><i className="key-dot more" /> More</span></div> : null}
+      {!mapError ? <div className="map-key" role="group" aria-label="Map legend"><span><i className="key-dot produce" /> Produce</span><span><i className="key-dot meat" /> Meat</span><span><i className="key-dot mixed" /> Mixed</span><span><i className="key-dot more" /> More</span></div> : null}
       {!mapError && selected ? (
         <aside className="map-detail map-detail-sheet" role="region" aria-live="polite" aria-label={`${selected.name} details`}>
           <button className="detail-close" type="button" onClick={() => props.onSelect("")} aria-label="Close farm details">×</button>

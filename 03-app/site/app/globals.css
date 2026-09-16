@@ -200,7 +200,13 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .results-meta p { margin: 0; font-size: 12px; letter-spacing: .01em; }
 .results-meta p strong { font: 500 20px/1 var(--display); letter-spacing: 0; margin-right: 3px; }
 .results-meta > span { color: var(--muted); font-size: 11px; }
-.farm-list { overflow-y: auto; overscroll-behavior: contain; scrollbar-color: var(--rule) transparent; }
+/* `overflow-y: auto` alone does nothing here: a column flex item defaults to
+   min-height:auto, so the list sized to its content, the grid row grew with it,
+   and `.map-panel { height: 100% }` inherited that height — a ~7,400px map pane
+   whose canvas the browser clamped to its 4,096px limit (the map then rendered
+   at the wrong aspect) and whose controls sat thousands of pixels below the
+   fold. `flex: 1 1 0` + `min-height: 0` is what makes the scroller scroll. */
+.farm-list { flex: 1 1 0; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-color: var(--rule) transparent; }
 .farm-card { border-bottom: 1px solid var(--rule); position: relative; background: var(--cream); transition: background .18s ease; }
 .farm-card:hover, .farm-card.selected { background: #f0eadc; }
 .farm-card.selected::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--rust); }
@@ -238,9 +244,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .map-tools { position: absolute; top: 16px; left: 16px; display: flex; gap: 7px; }
 .map-tools button { min-height: 38px; border: 1px solid var(--ink); background: rgba(255, 250, 240, .94); padding: 9px 12px; font-size: 11px; font-weight: 750; letter-spacing: .01em; cursor: pointer; box-shadow: 3px 3px 0 rgba(37, 39, 31, .13); }
 .map-tools button:hover { background: var(--green); color: var(--cream); }
-/* Basemap detail switch. Bottom-left keeps it clear of the map tools (top-left),
-   the legend (top-right), and MapLibre's own controls (bottom-right). */
-.map-basemap { position: absolute; left: 16px; bottom: 16px; display: flex; border: 1px solid var(--ink); background: rgba(255, 250, 240, .94); box-shadow: 3px 3px 0 rgba(37, 39, 31, .13); overflow: hidden; }
+/* Basemap detail switch. It sits directly under the map tools rather than in
+   the bottom-left corner: that corner belongs to the farm detail card, which is
+   wider, taller, and painted later, so a selected farm used to bury the switch
+   completely — on mobile the card is full-width, so it buried it there too. */
+.map-basemap { position: absolute; left: 16px; top: 62px; display: flex; border: 1px solid var(--ink); background: rgba(255, 250, 240, .94); box-shadow: 3px 3px 0 rgba(37, 39, 31, .13); overflow: hidden; }
 .map-basemap button { min-height: 36px; border: 0; border-right: 1px solid rgba(37, 39, 31, .28); background: transparent; padding: 8px 13px; font: inherit; font-size: 11px; font-weight: 750; letter-spacing: .01em; color: var(--ink); cursor: pointer; }
 .map-basemap button:last-child { border-right: 0; }
 .map-basemap button:hover { background: rgba(37, 39, 31, .07); }
@@ -248,11 +256,17 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .map-basemap button:focus-visible { outline: 2px solid var(--ink); outline-offset: -3px; }
 
 .location-toast { position: absolute; top: 62px; left: 16px; background: var(--ink); color: var(--cream); padding: 8px 11px; font-size: 10px; }
-.map-key { position: absolute; right: 12px; top: 12px; display: flex; flex-wrap: wrap; gap: 9px; max-width: 260px; background: rgba(255, 250, 240, .9); border: 1px solid rgba(37, 39, 31, .5); padding: 7px 9px; }
+/* Third row of the left rail, under the tools and the basemap switch. The
+   top-right is MapLibre's now, and the bottom is the farm sheet's. */
+.map-key { position: absolute; left: 16px; top: 112px; display: flex; flex-wrap: wrap; gap: 9px; max-width: 260px; background: rgba(255, 250, 240, .9); border: 1px solid rgba(37, 39, 31, .5); padding: 7px 9px; }
 .map-key span { font-size: 10px; letter-spacing: .01em; }
 .key-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 4px; }
 .key-dot.produce { background: #55734d; }.key-dot.meat { background: #8b3e30; }.key-dot.mixed { background: #b65f39; }.key-dot.more { background: #c08a2e; }
-.map-detail { position: absolute; left: 16px; bottom: 16px; width: min(380px, calc(100% - 32px)); background: rgba(255, 250, 240, .97); border: 1px solid var(--ink); padding: 22px; box-shadow: 7px 7px 0 rgba(37, 39, 31, .16); }
+/* MapLibre gives its own control containers z-index 2, so an unlayered card
+   was painted under them: the attribution line ran straight across the farm
+   name. The card outranks map furniture, and it stops above the attribution
+   row rather than hiding it — that line is a licence requirement, not decor. */
+.map-detail { position: absolute; z-index: 4; left: 16px; bottom: 46px; width: min(380px, calc(100% - 32px)); background: rgba(255, 250, 240, .97); border: 1px solid var(--ink); padding: 22px; box-shadow: 7px 7px 0 rgba(37, 39, 31, .16); }
 .detail-close { position: absolute; top: 10px; right: 10px; width: 28px; height: 28px; border: 0; background: transparent; font-size: 23px; cursor: pointer; }
 .detail-kicker { font-size: 10px; text-transform: uppercase; letter-spacing: .08em; font-weight: 750; color: var(--muted); }
 .detail-kicker i { width: 8px; height: 8px; display: inline-block; border-radius: 50%; margin-right: 7px; }
@@ -411,7 +425,7 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   .explorer { display: block; height: 680px; min-height: 0; margin-top: 8px; }
   .farm-list-panel, .map-panel { height: 100%; border: 0; }
   .view-list .map-panel, .view-map .farm-list-panel { display: none; }
-  .map-detail { width: min(390px, calc(100% - 24px)); left: 12px; bottom: 12px; padding: 18px; max-height: 62%; overflow: auto; }
+  .map-detail { width: min(390px, calc(100% - 24px)); left: 12px; padding: 18px; max-height: 62%; overflow: auto; }
   .update-ledger { grid-template-columns: repeat(2, 1fr); }
   .update-notes { grid-template-columns: 1fr; }
   .profile-header { min-height: 200px; position: relative; }
@@ -476,9 +490,12 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   .card-body h3 { font-size: 23px; }
   .card-contact { margin-left: 48px; padding-right: 12px; }
   .map-tools { top: 10px; left: 10px; }
-  .map-tools button { padding: 9px; font-size: 10px; }
-  .map-basemap { left: 10px; bottom: 10px; }
+  /* Every control on the map is a touch target at this width. */
+  .map-tools button { min-height: 44px; padding: 9px; font-size: 10px; }
+  .map-basemap { left: 10px; top: 60px; }
   .map-basemap button { min-height: 44px; padding: 8px 11px; font-size: 10px; }
+  .maplibregl-ctrl-group button { width: 44px; height: 44px; }
+  .detail-close { width: 44px; height: 44px; top: 6px; right: 6px; }
   .map-detail h3 { font-size: 27px; }
   .update-ledger { grid-template-columns: 1fr; }
   .update-ledger article { min-height: 260px; }
@@ -711,11 +728,20 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   .discovery-controls { position: relative; top: auto; grid-template-columns: 1fr 1fr; }
   .location-control { grid-column: 1 / -1; }
   .discovery-v2 .mobile-view-switch { display: flex; }
-  .explorer-v2 { display: block; height: calc(100vh - 110px); min-height: 610px; margin-top: 8px; }
+  /* `.mobile-dock` is fixed to the bottom of the viewport, so a map sized to
+     the full remaining height ran underneath it and took the farm sheet and
+     the attribution line with it. Stop the explorer above the dock. */
+  .explorer-v2 { display: block; height: calc(100vh - 172px - env(safe-area-inset-bottom)); min-height: 520px; margin-top: 8px; }
   .explorer-v2 .farm-list-panel, .explorer-v2 .map-panel { height: 100%; }
   .explorer-v2.view-list .map-panel, .explorer-v2.view-map .farm-list-panel { display: none; }
-  .explorer-v2 .map-detail { left: 12px; right: 12px; bottom: 12px; width: auto; max-height: 54%; border-radius: 18px 18px 4px 4px; }
-  .cluster-sheet { left: 12px; right: 12px; bottom: 12px; width: auto; max-height: 62%; border-radius: 18px 18px 4px 4px; }
+  /* At this width the map runs to the bottom of the viewport, where the fixed
+     `.mobile-dock` already is. Both sheets clear it — a farm's name and its
+     "confirm before visiting" line were being cut off by the dock. */
+  /* Full-width bottom sheets, clearing the attribution row beneath them. 60px
+     is the two-line height MapLibre's compact attribution takes before the
+     first map interaction collapses it. */
+  .explorer-v2 .map-detail { left: 12px; right: 12px; bottom: 60px; width: auto; max-height: 54%; border-radius: 18px 18px 4px 4px; }
+  .cluster-sheet { left: 12px; right: 12px; bottom: 60px; width: auto; max-height: 62%; border-radius: 18px 18px 4px 4px; }
 }
 
 @media (max-width: 560px) {

@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FarmFinder basemap review</title>
+<link href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css" rel="stylesheet" />
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 13px/1.45 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; background: #17190f; color: #f4f1e4; }
+  header { padding: 14px 18px; border-bottom: 1px solid #33372a; display: flex; flex-wrap: wrap; gap: 18px; align-items: center; }
+  h1 { font-size: 15px; margin: 0; letter-spacing: .01em; }
+  .group { display: flex; gap: 6px; align-items: center; }
+  .group > span { opacity: .6; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+  button { font: inherit; font-size: 12px; padding: 6px 11px; border: 1px solid #4a5040; background: #23261a; color: #f4f1e4; cursor: pointer; border-radius: 3px; }
+  button.on { background: #cfe08a; color: #1d2013; border-color: #cfe08a; font-weight: 650; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: #33372a; height: calc(100vh - 58px); }
+  .cell { position: relative; background: #000; min-height: 0; }
+  .cell .map { position: absolute; inset: 0; }
+  .cell figcaption { position: absolute; z-index: 2; top: 10px; left: 10px; background: rgba(23,25,15,.86); padding: 5px 9px; font-size: 11px; letter-spacing: .04em; text-transform: uppercase; border-radius: 3px; }
+  .cell .fps { position: absolute; z-index: 2; top: 10px; right: 10px; background: rgba(23,25,15,.86); padding: 5px 9px; font-size: 11px; border-radius: 3px; font-variant-numeric: tabular-nums; }
+  .note { padding: 8px 18px; font-size: 12px; opacity: .75; border-top: 1px solid #33372a; }
+</style>
+</head>
+<body>
+<header>
+  <h1>FarmFinder basemap review</h1>
+  <div class="group"><span>Place</span><div id="places"></div></div>
+  <div class="group"><span>Zoom</span><div id="zooms"></div></div>
+  <div class="group"><span>Pins</span><button id="pins" class="on">On</button></div>
+  <div class="group"><button id="tilt">Tilt</button></div>
+  <div class="group"><button id="spin">Pan stress test</button></div>
+</header>
+<div class="grid" id="grid"></div>
+<p class="note">Cameras are synced. Pins are 50 real published farms from the current release, coloured by category. FPS is measured during the pan stress test.</p>
+
+<script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+<script>
+const SAMPLES = __PINS__;
+const GUIDE_STYLE = __GUIDE_STYLE__;
+const DETAILED_STYLE = "https://tiles.openfreemap.org/styles/liberty";
+const DETAIL_PAINT = __DETAIL_PAINT__;
+const DETAIL_PITCH = __DETAIL_PITCH__;
+
+const categoryColors = {
+  Produce: "#4d735b", Mixed: "#c65e36", Meat: "#863f32", "Honey/Specialty": "#a28745",
+  Dairy: "#557681", Seafood: "#397386", Rice: "#8d815c", "Urban Farm": "#68743f", "Value-Added": "#775d7b",
+};
+
+const panels = [
+  { id: "guide", label: "Field guide (candidate)", style: () => structuredClone(GUIDE_STYLE) },
+  { id: "detailed", label: "Full detail (Liberty + 3D)", style: () => DETAILED_STYLE, enhance: true },
+];
+
+let place = "rural-wi";
+let zoom = 12;
+let showPins = true;
+const maps = [];
+
+function pinData(key) {
+  return {
+    type: "FeatureCollection",
+    features: (showPins ? SAMPLES[key].farms : []).map((f) => ({
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [f.lng, f.lat] },
+      properties: { color: categoryColors[f.c] || "#596b60", name: f.n },
+    })),
+  };
+}
+
+function addOverlay(map) {
+  if (map.getSource("pins")) return;
+  if (map.__enhance) {
+    // Liberty already owns `building-3d`; the app re-paints it rather than
+    // stacking a second extrusion layer, which MapLibre would refuse.
+    for (const o of DETAIL_PAINT) {
+      if (map.getLayer(o.layer)) map.setPaintProperty(o.layer, o.property, o.value);
+      else console.warn("missing layer", o.layer);
+    }
+  }
+  map.addSource("pins", { type: "geojson", data: pinData(place) });
+  map.addLayer({ id: "pin", type: "circle", source: "pins",
+    paint: { "circle-color": ["get", "color"], "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 4.5, 10, 8],
+             "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6", "circle-opacity": .96 } });
+}
+
+function build() {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+  for (const panel of panels) {
+    const cell = document.createElement("figure");
+    cell.className = "cell";
+    cell.style.margin = "0";
+    cell.innerHTML = `<div class="map"></div><figcaption>${panel.label}</figcaption><div class="fps">—</div>`;
+    grid.appendChild(cell);
+
+    const map = new maplibregl.Map({
+      container: cell.querySelector(".map"),
+      style: panel.style(),
+      center: [SAMPLES[place].center.lng, SAMPLES[place].center.lat],
+      zoom, minZoom: 2.5, maxZoom: 18, attributionControl: false,
+      fadeDuration: 0, maxTileCacheSize: 220, renderWorldCopies: false,
+    });
+    map.__enhance = panel.enhance;
+    map.__fps = cell.querySelector(".fps");
+    map.on("load", () => addOverlay(map));
+    map.on("styledata", () => { if (map.isStyleLoaded()) addOverlay(map); });
+    map.on("move", () => sync(map));
+    maps.push(map);
+  }
+}
+
+let syncing = false;
+function sync(source) {
+  if (syncing) return;
+  syncing = true;
+  for (const map of maps) {
+    if (map === source) continue;
+    map.jumpTo({ center: source.getCenter(), zoom: source.getZoom(), bearing: source.getBearing(), pitch: source.getPitch() });
+  }
+  syncing = false;
+}
+
+function chips(hostId, values, current, onPick) {
+  const host = document.getElementById(hostId);
+  host.innerHTML = "";
+  for (const value of values) {
+    const b = document.createElement("button");
+    b.textContent = value.label;
+    if (value.id === current) b.className = "on";
+    b.onclick = () => onPick(value.id);
+    host.appendChild(b);
+  }
+}
+
+function renderChips() {
+  chips("places", [
+    { id: "rural-wi", label: "Rural · Madison WI" },
+    { id: "dense-ca", label: "Dense · Los Angeles" },
+    { id: "coastal-la", label: "Coastal · New Orleans" },
+  ], place, (id) => {
+    place = id; renderChips();
+    for (const map of maps) {
+      map.jumpTo({ center: [SAMPLES[id].center.lng, SAMPLES[id].center.lat], zoom });
+      map.getSource("pins")?.setData(pinData(id));
+    }
+  });
+  chips("zooms", [
+    { id: 5, label: "5 · region" }, { id: 9, label: "9 · metro" },
+    { id: 12, label: "12 · town" }, { id: 15, label: "15 · street" }, { id: 17, label: "17 · block" },
+  ], zoom, (id) => { zoom = id; renderChips(); for (const map of maps) map.zoomTo(id, { duration: 400 }); });
+}
+
+document.getElementById("pins").onclick = (e) => {
+  showPins = !showPins;
+  e.target.className = showPins ? "on" : "";
+  e.target.textContent = showPins ? "On" : "Off";
+  for (const map of maps) map.getSource("pins")?.setData(pinData(place));
+};
+
+// The app tilts the detailed basemap from z15 up, because an extrusion at
+// pitch 0 is only a tinted roof. Cameras stay synced, so this tilts both and
+// the comparison is still like for like.
+let tilted = false;
+document.getElementById("tilt").onclick = (e) => {
+  tilted = !tilted;
+  e.target.className = tilted ? "on" : "";
+  for (const map of maps) map.easeTo({ pitch: tilted ? DETAIL_PITCH : 0, duration: 400 });
+};
+
+// Pan stress test: the whole point of the simplified style is that it stays
+// smooth under a dense pin layer, so measure it rather than guess.
+document.getElementById("spin").onclick = () => {
+  for (const map of maps) {
+    let frames = 0;
+    const started = performance.now();
+    const count = () => { frames += 1; };
+    map.on("render", count);
+    const origin = map.getCenter();
+    map.panTo([origin.lng + 0.12, origin.lat + 0.06], { duration: 1600 });
+    setTimeout(() => {
+      map.panTo(origin, { duration: 1600 });
+      setTimeout(() => {
+        map.off("render", count);
+        const fps = frames / ((performance.now() - started) / 1000);
+        map.__fps.textContent = `${fps.toFixed(0)} fps`;
+      }, 1700);
+    }, 1700);
+  }
+};
+
+renderChips();
+build();
+</script>
+</body>
+</html>
