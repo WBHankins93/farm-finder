@@ -17,6 +17,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { detailPaint, detailPitch, guideStyle } from "../app/lib/map-styles.ts";
+import { defaultMapOptions, densityPaint, farmPointPaint } from "../app/lib/map-options.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const feedPath = resolve(here, "../../../01-database/pipeline/build/app-farms.json");
@@ -83,9 +84,11 @@ const filled = template
   .replace("__PINS__", JSON.stringify(samples))
   .replace("__GUIDE_STYLE__", JSON.stringify(guideStyle()))
   .replace("__DETAIL_PAINT__", JSON.stringify(detailPaint))
-  .replace("__DETAIL_PITCH__", JSON.stringify(detailPitch));
+  .replace("__DETAIL_PITCH__", JSON.stringify(detailPitch))
+  .replace("__PIN_PAINT__", JSON.stringify(farmPointPaint(defaultMapOptions)))
+  .replace("__DENSITY_PAINT__", JSON.stringify(densityPaint({ ...defaultMapOptions, pins: "both" })));
 
-for (const token of ["__PINS__", "__GUIDE_STYLE__", "__DETAIL_PAINT__", "__DETAIL_PITCH__"]) {
+for (const token of ["__PINS__", "__GUIDE_STYLE__", "__DETAIL_PAINT__", "__DETAIL_PITCH__", "__PIN_PAINT__", "__DENSITY_PAINT__"]) {
   if (filled.includes(token)) throw new Error(`template placeholder ${token} was not replaced`);
 }
 
