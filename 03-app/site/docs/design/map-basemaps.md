@@ -94,14 +94,20 @@ The controls moved, because two of them were unreachable:
 
 ## Accessibility
 
-- Each option's hint reached only hover users, via `title`. It is now also an
-  `aria-describedby` target, so it reaches keyboard and screen-reader users.
-- Swapping the basemap redraws the entire map and used to say nothing; a polite
-  status region now names the active basemap and what it shows.
+- Each option's hint reached only hover users, via `title`. The hints are now
+  visible text inside the panel, referenced by `aria-describedby`.
+- Changing an option redraws the entire map and used to say nothing; a polite
+  status region now describes the whole option set. When a highlight is active
+  it says the other farms are *still shown* — a sighted viewer can see that the
+  dimmed pins are there, and nobody else can.
+- The panel closes on Escape with focus returned to its button, and on a click
+  outside it.
 - The tilt uses `easeTo`, which MapLibre makes instant under
   `prefers-reduced-motion: reduce`.
 - Without WebGL the map is replaced by a fallback that keeps the list, filters
-  and profiles usable, and the basemap switch is hidden rather than left inert.
+  and profiles usable, and the options panel is hidden rather than left inert.
+- Every control on the map is at least a 44px target at phone widths, including
+  the checkbox rows in the panel.
 
 ## The review harness
 

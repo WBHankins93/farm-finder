@@ -28,7 +28,7 @@
   <h1>FarmFinder basemap review</h1>
   <div class="group"><span>Place</span><div id="places"></div></div>
   <div class="group"><span>Zoom</span><div id="zooms"></div></div>
-  <div class="group"><span>Pins</span><button id="pins" class="on">On</button></div>
+  <div class="group"><span>Pins</span><button id="pins" class="on">On</button><button id="density">Density</button></div>
   <div class="group"><button id="tilt">Tilt</button></div>
   <div class="group"><button id="spin">Pan stress test</button></div>
 </header>
@@ -41,6 +41,8 @@ const SAMPLES = __PINS__;
 const GUIDE_STYLE = __GUIDE_STYLE__;
 const DETAILED_STYLE = "https://tiles.openfreemap.org/styles/liberty";
 const DETAIL_PAINT = __DETAIL_PAINT__;
+const PIN_PAINT = __PIN_PAINT__;
+const DENSITY_PAINT = __DENSITY_PAINT__;
 const DETAIL_PITCH = __DETAIL_PITCH__;
 
 const categoryColors = {
@@ -56,6 +58,7 @@ const panels = [
 let place = "rural-wi";
 let zoom = 12;
 let showPins = true;
+let showDensity = false;
 const maps = [];
 
 function pinData(key) {
@@ -80,9 +83,12 @@ function addOverlay(map) {
     }
   }
   map.addSource("pins", { type: "geojson", data: pinData(place) });
-  map.addLayer({ id: "pin", type: "circle", source: "pins",
-    paint: { "circle-color": ["get", "color"], "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 4.5, 10, 8],
-             "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6", "circle-opacity": .96 } });
+  // The app's own paint, not a lookalike: the pin ramp is the thing under
+  // review, so a copy here would review the wrong map. `circle-color` is the
+  // only override — these samples carry a precomputed colour rather than the
+  // `category` the real source has.
+  map.addLayer({ id: "density", type: "heatmap", source: "pins", layout: { visibility: showDensity ? "visible" : "none" }, paint: DENSITY_PAINT });
+  map.addLayer({ id: "pin", type: "circle", source: "pins", paint: { ...PIN_PAINT, "circle-color": ["get", "color"] } });
 }
 
 function build() {
@@ -157,6 +163,12 @@ document.getElementById("pins").onclick = (e) => {
   e.target.className = showPins ? "on" : "";
   e.target.textContent = showPins ? "On" : "Off";
   for (const map of maps) map.getSource("pins")?.setData(pinData(place));
+};
+
+document.getElementById("density").onclick = (e) => {
+  showDensity = !showDensity;
+  e.target.className = showDensity ? "on" : "";
+  for (const map of maps) map.getLayer("density") && map.setLayoutProperty("density", "visibility", showDensity ? "visible" : "none");
 };
 
 // The app tilts the detailed basemap from z15 up, because an extrusion at

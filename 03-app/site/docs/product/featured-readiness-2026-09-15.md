@@ -10,14 +10,17 @@
 
 ## Verdict
 
-**Ready after named fixes** — three of them, all small, all on the path a
-Featured link puts people on. The map work in this branch is done and verified.
+**Ready after named fixes** — two of them now, both small, both on the path a
+Featured link puts people on. The map work in this branch is done and verified,
+and the result cards were rebuilt in a follow-up pass (item 3 below is fixed).
 What is not ready is the twenty seconds *before* the map: a visitor who types a
 city can currently see nothing happen at all.
 
-A fourth item is not a fix but a constraint on the claim: for the flagship
-query, most records carry no products and no website. That shapes what the post
-can honestly say, and it is a data-lane problem, not a site bug.
+A third item is not a fix but a constraint on the claim: for the flagship query,
+most records carry no products and no website. That shapes what the post can
+honestly say, and it is a data-lane problem, not a site bug. The cards now name
+those gaps out loud rather than showing blank space, which is the most the site
+can do about it.
 
 ## How this was checked
 
@@ -53,7 +56,7 @@ Submit `Madison, WI`. The query is right, the results load, the URL becomes
 at **0** with `#discover` 3,604px below. The hero looks identical before and
 after. Pressing Enter in the field does nothing at all; only the button submits.
 
-### 3. Every result card is rendered into a 35px column — blocker
+### 3. Every result card is rendered into a 35px column — fixed 2026-09-15
 
 `.farm-card-main` declares `grid-template-columns: 35px 1fr auto` — three tracks,
 for a card index, the body and the arrow. `FarmCard` in
@@ -64,7 +67,16 @@ a 555px card. The text only remains readable because it overflows, which is why
 "Madison, WI · Area not listed" wraps one word per line in every screenshot.
 `.card-contact { margin-left: 65px }` is aligned to the same absent column.
 
-This is the first thing anyone sees on a Featured link, and it reads as broken.
+This was the first thing anyone saw on a Featured link, and it read as broken.
+
+**Fixed**, along with the density problem underneath it. The card now declares
+the two tracks it renders, and the layout was rebuilt around what a person is
+actually comparing: an icon-led meta line, the name clamped to two lines, and a
+compass needle rotated to the farm's real bearing beside the distance
+("↘ 0.8 mi SE"). Where data is missing it says so — "Products not listed",
+"No way to buy listed" — instead of leaving a blank. Measured at 1440×900: card
+height 139px against roughly 250px, body width 435px against 35px, and 5.5
+results visible per panel against about 3.
 
 ### 4. The flagship query returns names and little else — claim constraint
 
@@ -113,14 +125,14 @@ All verified in-browser at both widths; see
 | Map ran under the fixed mobile dock, clipping the farm sheet | Explorer stops above the dock |
 | Map tools 38px on mobile; close button 28px | No control on the map under 44px |
 | `detailLayers()` added a `building-3d` MapLibre refuses and a duplicate POI layer | Paint overrides on Liberty's own extrusion layer, plus tilt and z18 so the detail is reachable |
-| Option hints reachable only by hover; basemap change announced nothing | `aria-describedby` hints and a polite status region |
+| Option hints reachable only by hover; basemap change announced nothing | Visible hints referenced by `aria-describedby`, and a polite status region describing the whole option set |
+| Result cards: body squeezed into a 35px track, ~250px tall, ~3 visible | Two-track grid, 139px tall, 5.5 visible, icon-led, with a compass needle on the distance |
+| Map: one fixed pin ramp, a static four-swatch legend, no settings | A Map options panel — basemap, pins/density/both, category highlight, farm names, tilt, scale bar — over a retuned pin ramp, with the legend as a shortcut into it |
 
 ## Backlog, smallest first
 
-1. **Give `.farm-card-main` the two columns it actually renders** (`1fr auto`),
-   and re-align `.card-contact`'s left margin. One CSS line plus one number.
-   *(Left undone here: it is list-card design, outside this branch's stated
-   map-only scope — but it is the highest-value fix in this list.)*
+1. ~~Give `.farm-card-main` the two columns it actually renders.~~ **Done**, and
+   the card was made dense and icon-led at the same time — see above.
 2. **Scroll to `#discover` on a successful hero submit**, and submit on Enter.
 3. **Fail loudly when a place does not resolve**: keep the visitor at the hero,
    put the message next to the field, and suggest the nearest matches — the
@@ -143,8 +155,8 @@ All verified in-browser at both widths; see
    (detailed) at 1600×900 — the right direction, but the absolute numbers mean
    nothing on SwiftShader.
 
-Items 1–3 are the named fixes the verdict depends on. Nothing in this list is a
-redesign.
+Items 2 and 3 are the named fixes the verdict still depends on. Nothing in this
+list is a redesign.
 
 ## What is genuinely good, and worth leading with
 
