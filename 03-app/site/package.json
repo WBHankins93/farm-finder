@@ -33,7 +33,8 @@
     "cutover:stage": ".venv/bin/python scripts/stage_source_release.py",
     "cutover:verify": ".venv/bin/python scripts/verify_staged_release.py",
     "cutover:local": "npm run infra:up && npm run data:validate && npm run cutover:test && npm run cutover:stage && npm run cutover:verify",
-    "data:gates": "PYTHONPATH=scripts python3 -m unittest discover -s scripts/tests -p 'test_*.py'"
+    "data:gates": "PYTHONPATH=scripts python3 -m unittest discover -s scripts/tests -p 'test_*.py'",
+    "map:review": "node --import tsx dev/build-map-review.mjs"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",
