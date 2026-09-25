@@ -586,6 +586,9 @@ function FarmCard({ farm, selected, index, origin, onSelect, onShowMap, onOpenPr
           </p>
         </div>
         <div className="card-aside">
+          {/* A mapped farm with no heading just has no search origin to be
+              relative to (browsing a state or a map area); that is not a
+              missing location, so it must not say "Not mapped". */}
           {heading ? (
             <span className="card-heading">
               {/* The needle points where the farm actually is. Rotating one
@@ -594,9 +597,9 @@ function FarmCard({ farm, selected, index, origin, onSelect, onShowMap, onOpenPr
               <Mark name="heading" aria-hidden="true" style={heading.bearing === null ? undefined : { transform: `rotate(${Math.round(heading.bearing)}deg)` }} />
               {heading.label}
             </span>
-          ) : (
+          ) : !mapped ? (
             <span className="card-heading is-missing"><Mark name="approximate" aria-hidden="true" />Not mapped</span>
-          )}
+          ) : null}
           {mapped && farm.geoPrecision !== "point" ? <span className="card-precision">Approximate</span> : null}
         </div>
       </button>
