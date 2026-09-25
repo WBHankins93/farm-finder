@@ -5,7 +5,7 @@ import maplibregl, { type GeoJSONSource, type Map as MapLibreMap } from "maplibr
 import type { FeatureCollection, Point } from "geojson";
 import type { DiscoveryScope, FarmMapFeature, FarmSummary, LatLng, MapBounds } from "../lib/discovery-contract";
 import { categoryColors } from "../lib/farms";
-import { basemaps, detailedStyleUrl, detailPaint, detailPitch, detailZoom, guideStyle } from "../lib/map-styles";
+import { basemaps, detailedStyleUrl, detailPaint, detailPitch, detailZoom, guideStyle, needsStyleSwap, type BasemapId } from "../lib/map-styles";
 import { densityPaint, describeMapOptions, farmLabelLayout, farmPointMinZoom, farmPointPaint, layerVisibility, pinModes, readMapOptions, spotlightCategories, writeMapOptions, type MapOptions, type PinMode } from "../lib/map-options";
 import { Mark, markForCategory } from "../lib/marks";
 
@@ -66,6 +66,10 @@ export default function FarmMap(props: FarmMapProps) {
   const optionsRef = useRef(options);
   const basemap = options.basemap;
   const basemapRef = useRef(basemap);
+  // The basemap whose style the map actually holds: set when the map is
+  // constructed and whenever `setStyle` runs, never merely because the viewer
+  // clicked. See `needsStyleSwap`.
+  const appliedBasemapRef = useRef<BasemapId>(basemap);
   const installOverlayRef = useRef<((map: MapLibreMap) => void) | null>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const panelButtonRef = useRef<HTMLButtonElement>(null);
@@ -93,6 +97,7 @@ export default function FarmMap(props: FarmMapProps) {
 
     let map: MapLibreMap;
     try {
+      appliedBasemapRef.current = basemapRef.current;
       map = new maplibregl.Map({
         container: containerRef.current,
         style: basemapRef.current === "detailed" ? detailedStyleUrl : guideStyle(),
@@ -296,8 +301,15 @@ export default function FarmMap(props: FarmMapProps) {
     // Both styles read the same vector source, so the swap reuses cached tiles
     // and only re-rasterises. `diff: false` avoids a slow layer-level diff
     // against a style with a completely different layer set.
-    map.setStyle(basemap === "detailed" ? detailedStyleUrl : guideStyle(), { diff: false });
-    map.once("styledata", () => installOverlayRef.current?.(map));
+    //
+    // Skipped when the map already holds this style — above all on the first
+    // run, which happens as the map finishes loading the very style it would
+    // otherwise be handed again.
+    if (needsStyleSwap(appliedBasemapRef.current, basemap)) {
+      appliedBasemapRef.current = basemap;
+      map.setStyle(basemap === "detailed" ? detailedStyleUrl : guideStyle(), { diff: false });
+      map.once("styledata", () => installOverlayRef.current?.(map));
+    }
 
     // Extrusions at pitch 0 are just tinted footprints, so detailed mode tilts
     // — but only from `detailZoom` up, where there is massing to see and the

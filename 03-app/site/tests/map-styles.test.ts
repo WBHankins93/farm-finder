@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { validateStyleMin } from "@maplibre/maplibre-gl-style-spec";
-import { basemaps, detailedStyleUrl, detailPaint, detailPitch, detailZoom, guideStyle } from "../app/lib/map-styles";
+import { basemaps, detailedStyleUrl, detailPaint, detailPitch, detailZoom, guideStyle, needsStyleSwap } from "../app/lib/map-styles";
 
 /**
  * The simplified basemap is hand-authored, so nothing upstream validates it.
@@ -136,4 +137,37 @@ test("the tilt only applies where Liberty has massing to show", () => {
   assert.ok(detailZoom >= 14, "tilting below Liberty's extrusion zoom shows flat ground");
   assert.ok(detailZoom <= 16, "tilting only past z16 would put 3D out of practical reach");
   assert.ok(detailPitch > 0 && detailPitch <= 60, "a pitch past 60 shows more horizon than ground");
+});
+
+test("a basemap is only re-applied when the map does not already hold it", () => {
+  // First run: the map becomes ready on the style it was constructed with.
+  // Re-applying it threw that style and the farm overlay away and, for Full
+  // detail, refetched Liberty — a second full style load on every page view.
+  for (const basemap of ["guide", "detailed"] as const) {
+    assert.equal(needsStyleSwap(basemap, basemap), false, `${basemap} was loaded twice on first paint`);
+  }
+  // A real switch, in either direction, still swaps — including one made
+  // before the map was ready, which is still pending against what it holds.
+  assert.equal(needsStyleSwap("guide", "detailed"), true);
+  assert.equal(needsStyleSwap("detailed", "guide"), true);
+});
+
+test("the map only calls setStyle through that decision", async () => {
+  // The decision is only worth testing if the component actually uses it.
+  // MapLibre cannot run under node, so pin the wiring at the source, as
+  // map-layer-order.test.ts does for layer order.
+  const source = await readFile(new URL("../app/components/farm-map.tsx", import.meta.url), "utf8");
+  const calls = [...source.matchAll(/\.setStyle\(/g)];
+  assert.equal(calls.length, 1, "setStyle must have exactly one call site");
+  const guard = source.lastIndexOf("if (needsStyleSwap(appliedBasemapRef.current, basemap))", calls[0].index);
+  assert.notEqual(guard, -1, "setStyle must be guarded by needsStyleSwap against the applied basemap");
+  const block = source.slice(guard, calls[0].index);
+  assert.match(block, /appliedBasemapRef\.current = basemap;/, "the applied basemap must be recorded when setStyle runs");
+  assert.ok(!block.includes("}"), "setStyle must sit inside the guard, not after it");
+
+  // The applied basemap changes in exactly two places: construction, and a swap.
+  const writes = [...source.matchAll(/appliedBasemapRef\.current = /g)];
+  assert.equal(writes.length, 2, "appliedBasemapRef must be written only at construction and at a swap");
+  const construction = source.indexOf("appliedBasemapRef.current = basemapRef.current;");
+  assert.ok(construction !== -1 && construction < source.indexOf("new maplibregl.Map("), "the applied basemap must be the one the map is constructed with");
 });

@@ -26,6 +26,22 @@ export const basemaps: { id: BasemapId; label: string; hint: string }[] = [
 
 export const detailedStyleUrl = "https://tiles.openfreemap.org/styles/liberty";
 
+/**
+ * Whether the map has to swap its style to show `requested`.
+ *
+ * `applied` is the basemap whose style the map was last given — at
+ * construction, then at each swap — not the one the viewer last clicked.
+ * Keying on it rather than on "did the effect run" is what keeps the first
+ * load to one style load: the effect first runs when the map becomes ready,
+ * on the style the map just finished loading, and re-applying it would throw
+ * the style and the farm overlay away and (for Full detail) refetch Liberty.
+ * A switch made before the map was ready still differs from `applied`, so it
+ * is honoured the moment the map can take it.
+ */
+export function needsStyleSwap(applied: BasemapId, requested: BasemapId): boolean {
+  return applied !== requested;
+}
+
 const vectorSource = "https://tiles.openfreemap.org/planet";
 const glyphs = "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf";
 
