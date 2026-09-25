@@ -34,16 +34,26 @@ const worker = {
     // dataset is far too large to inline in a Worker bundle or to hold as
     // expanded objects inside a 128 MB isolate. Route handlers only receive
     // the Request, so hand them the binding here.
-    bindDiscoveryContext(env.ASSETS, request.url);
+    //
+    // `env` is optional here on purpose: Cloudflare always passes it, but
+    // `vinext start` (the local Node production server) calls this handler
+    // without one. The index then falls back to reading the built file.
+    bindDiscoveryContext(env?.ASSETS, request.url);
 
-    if (url.pathname === "/_vinext/image") {
+    // The optimizer reads the source through ASSETS and resizes it with
+    // IMAGES. Without ASSETS (again, `vinext start`) the app handler answers
+    // instead of throwing on `env`; without IMAGES the source is served as-is.
+    if (url.pathname === "/_vinext/image" && env?.ASSETS) {
+      const { ASSETS: assets, IMAGES: images } = env;
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
       return handleImageOptimization(request, {
-        fetchAsset: (path) => env.ASSETS.fetch(new Request(new URL(path, request.url))),
-        transformImage: async (body, { width, format, quality }) => {
-          const result = await env.IMAGES.input(body).transform(width > 0 ? { width } : {}).output({ format, quality });
-          return result.response();
-        },
+        fetchAsset: (path) => assets.fetch(new Request(new URL(path, request.url))),
+        transformImage: images
+          ? async (body, { width, format, quality }) => {
+            const result = await images.input(body).transform(width > 0 ? { width } : {}).output({ format, quality });
+            return result.response();
+          }
+          : undefined,
       }, allowedWidths);
     }
 
