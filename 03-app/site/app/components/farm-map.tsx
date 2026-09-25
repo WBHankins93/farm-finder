@@ -6,7 +6,7 @@ import type { FeatureCollection, Point } from "geojson";
 import type { DiscoveryScope, FarmMapFeature, FarmSummary, LatLng, MapBounds } from "../lib/discovery-contract";
 import { categoryColors } from "../lib/farms";
 import { basemaps, detailedStyleUrl, detailPaint, detailPitch, detailZoom, guideStyle } from "../lib/map-styles";
-import { densityPaint, describeMapOptions, farmLabelLayout, farmPointPaint, layerVisibility, pinModes, readMapOptions, spotlightCategories, writeMapOptions, type MapOptions, type PinMode } from "../lib/map-options";
+import { densityPaint, describeMapOptions, farmLabelLayout, farmPointMinZoom, farmPointPaint, layerVisibility, pinModes, readMapOptions, spotlightCategories, writeMapOptions, type MapOptions, type PinMode } from "../lib/map-options";
 import { Mark, markForCategory } from "../lib/marks";
 
 function toFeatures(items: FarmMapFeature[]): FeatureCollection<Point> {
@@ -156,7 +156,7 @@ export default function FarmMap(props: FarmMapProps) {
       // Density sits under everything so it reads as ground the farms stand on,
       // never as something drawn over them. It summarises the same source.
       target.addLayer({ id: "farm-density", type: "heatmap", source: "farms", layout: { visibility: visible["farm-density"] ? "visible" : "none" }, paint: densityPaint(current2) });
-      target.addLayer({ id: "farm-points", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "farm"], layout: { visibility: visible["farm-points"] ? "visible" : "none" }, paint: farmPointPaint(current2) });
+      target.addLayer({ id: "farm-points", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "farm"], minzoom: farmPointMinZoom(current2), layout: { visibility: visible["farm-points"] ? "visible" : "none" }, paint: farmPointPaint(current2) });
       target.addLayer({ id: "farm-labels", type: "symbol", source: "farms", filter: ["==", ["get", "kind"], "farm"], minzoom: 11, layout: { ...farmLabelLayout(), visibility: visible["farm-labels"] ? "visible" : "none" }, paint: { "text-color": "#3f4a3d", "text-halo-color": "#fdfdf7", "text-halo-width": 1.5 } });
       // Clusters draw above the individual pins. Added before them, a dense view
       // painted pins straight across the cluster counts and made them
@@ -265,6 +265,7 @@ export default function FarmMap(props: FarmMapProps) {
     for (const [property, value] of Object.entries(farmPointPaint(options))) {
       map.setPaintProperty("farm-points", property, value);
     }
+    map.setLayerZoomRange("farm-points", farmPointMinZoom(options), 24);
     if (map.getLayer("farm-density")) {
       for (const [property, value] of Object.entries(densityPaint(options))) {
         map.setPaintProperty("farm-density", property, value);

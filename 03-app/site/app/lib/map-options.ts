@@ -46,7 +46,7 @@ export const defaultMapOptions: MapOptions = {
 
 export const pinModes: { id: PinMode; label: string; hint: string }[] = [
   { id: "pins", label: "Pins", hint: "One dot per farm" },
-  { id: "density", label: "Density", hint: "Where farms cluster, without the dots" },
+  { id: "density", label: "Density", hint: "Where farms cluster, without the dots — pins return as you zoom in to street level" },
   { id: "both", label: "Both", hint: "Density underneath, pins on top" },
 ];
 
@@ -123,6 +123,19 @@ const opacityStops: [number, number][] = [[3, 0.62], [8, 0.78], [11, 0.96]];
 /** How far a farm outside the spotlight is pushed back. Never to nothing. */
 const dimRadius = 0.72;
 const dimOpacity = 0.22;
+const dimStrokeOpacity = 0.25;
+
+/**
+ * The zoom band where density hands the map over to pins.
+ *
+ * A heatmap summarises; at street zoom there is nothing left to summarise and
+ * a visitor wants the farm itself. So in density mode the heatmap fades out
+ * across this band and the pins fade in across the same band — a crossfade,
+ * never both at full strength. Shared by both layers so they cannot drift
+ * apart and leave a zoom where neither draws.
+ */
+const densityHandover: [number, number] = [12, 14];
+const fullPinOpacity = opacityStops[opacityStops.length - 1][1];
 
 function zoomRamp(
   stops: [number, number][],
@@ -144,24 +157,48 @@ function zoomRamp(
  * With a spotlight set this returns `case` expressions keyed on the farm's own
  * category, so matching farms keep full size and opacity and the rest fade to a
  * background texture. Every farm stays on the map and stays clickable.
+ *
+ * In density mode the pins are transparent below `densityHandover` and fade
+ * in across it, so by the zoom where the heatmap has gone every farm is a pin
+ * again. The dim is capped with `Math.min`, so a stop that is 0 stays 0 for
+ * dimmed farms too rather than being lifted to the dim floor.
  */
 export function farmPointPaint(options: MapOptions) {
   const spotlit = options.spotlight
     ? (["==", ["get", "category"], options.spotlight] as ExpressionSpecification)
     : null;
+  const density = options.pins === "density";
+  const [handoverStart, handoverEnd] = densityHandover;
 
   return {
     "circle-color": categoryExpression,
     "circle-radius": zoomRamp(radiusStops, (value) => Number((value * dimRadius).toFixed(2)), spotlit),
-    "circle-opacity": zoomRamp(opacityStops, () => dimOpacity, spotlit),
+    "circle-opacity": density
+      ? zoomRamp([[handoverStart, 0], [handoverEnd, fullPinOpacity]], (value) => Math.min(value, dimOpacity), spotlit)
+      : zoomRamp(opacityStops, (value) => Math.min(value, dimOpacity), spotlit),
     // The ring is what separates touching pins. It has to scale with the dot,
     // or at low zoom the rings alone merge into a pale sheet.
     "circle-stroke-width": ["interpolate", ["linear"], ["zoom"], 3, 0.6, 9, 1.1, 13, 1.8] as ExpressionSpecification,
     "circle-stroke-color": "#fbfcf6",
-    "circle-stroke-opacity": spotlit
-      ? (["case", spotlit, 1, 0.25] as ExpressionSpecification)
-      : 1,
+    // Faded with the dot in density mode, or a ring would draw around a pin
+    // that is not there yet.
+    "circle-stroke-opacity": density
+      ? zoomRamp([[handoverStart, 0], [handoverEnd, 1]], (value) => Math.min(value, dimStrokeOpacity), spotlit)
+      : spotlit
+        ? (["case", spotlit, 1, dimStrokeOpacity] as ExpressionSpecification)
+        : 1,
   };
+}
+
+/**
+ * The lowest zoom at which the pin layer exists, for `setLayerZoomRange`.
+ *
+ * MapLibre hit-tests a circle regardless of its opacity, so a density-mode pin
+ * at opacity 0 would still take clicks and show a pointer over what looks like
+ * an empty heatmap. Below the handover the pins are not drawn at all.
+ */
+export function farmPointMinZoom(options: MapOptions): number {
+  return options.pins === "density" ? densityHandover[0] : 0;
 }
 
 /**
@@ -190,7 +227,8 @@ export function densityPaint(options: MapOptions) {
       0.7, "rgba(198,142,54,0.8)",
       1, "rgba(198,94,54,0.88)",
     ] as ExpressionSpecification,
-    "heatmap-opacity": ["interpolate", ["linear"], ["zoom"], 3, peak, 12, peak, 14, 0] as ExpressionSpecification,
+    // Fades out across the same band the density-mode pins fade in across.
+    "heatmap-opacity": ["interpolate", ["linear"], ["zoom"], 3, peak, densityHandover[0], peak, densityHandover[1], 0] as ExpressionSpecification,
   };
 }
 
@@ -215,11 +253,17 @@ export function farmLabelLayout() {
   };
 }
 
-/** Which layers should be on the map for a given pin mode. */
+/**
+ * Which layers should be on the map for a given pin mode.
+ *
+ * The pin layer is always on: density mode hides the pins by paint and zoom
+ * range below the handover (see `farmPointPaint`, `farmPointMinZoom`), never by
+ * visibility, because at street zoom the pins are all density mode has left.
+ */
 export function layerVisibility(options: MapOptions) {
   return {
     "farm-density": options.pins === "density" || options.pins === "both",
-    "farm-points": options.pins !== "density",
+    "farm-points": true,
     "farm-labels": options.labels && options.pins !== "density",
   };
 }

@@ -1,12 +1,13 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { validateStyleMin } from "@maplibre/maplibre-gl-style-spec";
+import { createPropertyExpression, latest, validateStyleMin } from "@maplibre/maplibre-gl-style-spec";
 import {
   coerceMapOptions,
   defaultMapOptions,
   densityPaint,
   describeMapOptions,
   farmLabelLayout,
+  farmPointMinZoom,
   farmPointPaint,
   layerVisibility,
   pinModes,
@@ -40,6 +41,75 @@ test("no option ever stops the pins from being drawn for some farms", () => {
   assert.match(dimmed, /0\.22/, "unhighlighted farms must stay visible, not disappear");
 });
 
+/**
+ * Evaluate one paint property the way MapLibre would, at a zoom, for a farm of
+ * a category. Going through the real expression engine matters: a ramp that
+ * reads fine as JSON can still resolve to 0 at a zoom nobody looked at.
+ */
+function evaluatePaint(layer: "circle" | "heatmap", property: string, value: unknown, zoom: number, category = "Produce"): number {
+  const spec = (latest as unknown as Record<string, Record<string, unknown>>)[`paint_${layer}`][property];
+  const parsed = createPropertyExpression(value as never, spec as never);
+  assert.equal(parsed.result, "success", `${property} does not parse: ${JSON.stringify(parsed.value)}`);
+  const expression = parsed.value as unknown as { evaluate: (globals: { zoom: number }, feature: unknown) => number };
+  return expression.evaluate({ zoom }, { type: 1, properties: { kind: "farm", category } });
+}
+
+test("nothing removes a farm at any zoom, in any pin mode", () => {
+  // Checking one zoom is how this broke: density's heatmap fades to nothing
+  // by z14, and with the pins hidden a visitor who zoomed in to a farm saw an
+  // empty map. Sweep the whole zoom range the map allows, and require that at
+  // every step some layer draws every farm, highlighted or not.
+  for (const mode of pinModes) {
+    for (const spotlight of ["", "Dairy"]) {
+      const current = options({ pins: mode.id, spotlight });
+      const visible = layerVisibility(current);
+      const points = farmPointPaint(current);
+      const density = densityPaint(current);
+      for (let zoom = 2.5; zoom <= 18; zoom += 0.5) {
+        for (const category of ["Produce", "Dairy"]) {
+          const pin = visible["farm-points"] ? evaluatePaint("circle", "circle-opacity", points["circle-opacity"], zoom, category) : 0;
+          const heat = visible["farm-density"] ? evaluatePaint("heatmap", "heatmap-opacity", density["heatmap-opacity"], zoom, category) : 0;
+          assert.ok(pin > 0 || heat > 0, `${mode.id}${spotlight ? ` + ${spotlight} highlight` : ""}: a ${category} farm draws nothing at z${zoom}`);
+        }
+      }
+    }
+  }
+});
+
+test("density hands over to pins by street zoom", () => {
+  const current = options({ pins: "density" });
+  assert.equal(layerVisibility(current)["farm-points"], true, "density must keep the pin layer, to hand over to it");
+  const points = farmPointPaint(current);
+  const density = densityPaint(current);
+  const at = (zoom: number) => ({
+    pin: evaluatePaint("circle", "circle-opacity", points["circle-opacity"], zoom),
+    ring: evaluatePaint("circle", "circle-stroke-opacity", points["circle-stroke-opacity"], zoom),
+    heat: evaluatePaint("heatmap", "heatmap-opacity", density["heatmap-opacity"], zoom),
+  });
+
+  // Street zoom: the heatmap is gone and every farm is a full-strength pin.
+  const street = at(15);
+  assert.equal(street.heat, 0);
+  assert.ok(street.pin >= 0.9, `pins at z15 are ${street.pin}`);
+  assert.equal(street.ring, 1);
+  // Regional zoom: density alone, no dots on top of it — that is the mode.
+  const regional = at(8);
+  assert.equal(regional.pin, 0);
+  assert.equal(regional.ring, 0);
+  // In between they crossfade rather than overlapping at full strength.
+  const mid = at(13);
+  assert.ok(mid.pin > 0 && mid.pin < 0.9, `pins at z13 are ${mid.pin}`);
+  assert.ok(mid.heat > 0 && mid.heat < at(8).heat, `heat at z13 is ${mid.heat}`);
+
+  // A pin nobody can see must not take clicks: below the handover the layer
+  // is out of its zoom range. The other modes draw pins at every zoom.
+  const minZoom = farmPointMinZoom(current);
+  assert.ok(minZoom > 8 && minZoom <= 13, `density pins start at z${minZoom}`);
+  assert.equal(evaluatePaint("circle", "circle-opacity", points["circle-opacity"], minZoom), 0, "pins become clickable before they are visible");
+  assert.equal(farmPointMinZoom(options({ pins: "pins" })), 0);
+  assert.equal(farmPointMinZoom(options({ pins: "both" })), 0);
+});
+
 test("a spotlight changes paint, not which layers exist", () => {
   const plain = layerVisibility(options());
   const spotlit = layerVisibility(options({ spotlight: "Dairy" }));
@@ -65,6 +135,7 @@ test("the paint every option produces is a valid MapLibre style", () => {
     options(),
     options({ spotlight: "Produce" }),
     options({ pins: "density" }),
+    options({ pins: "density", spotlight: "Meat" }),
     options({ pins: "both", labels: true, spotlight: "Seafood" }),
   ];
 
