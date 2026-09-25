@@ -156,10 +156,13 @@ export default function FarmMap(props: FarmMapProps) {
       // Density sits under everything so it reads as ground the farms stand on,
       // never as something drawn over them. It summarises the same source.
       target.addLayer({ id: "farm-density", type: "heatmap", source: "farms", layout: { visibility: visible["farm-density"] ? "visible" : "none" }, paint: densityPaint(current2) });
-      target.addLayer({ id: "server-clusters", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "cluster"], paint: { "circle-color": "rgba(251,252,246,.96)", "circle-radius": ["step", ["get", "count"], 20, 20, 25, 75, 31], "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
-      target.addLayer({ id: "server-cluster-count", type: "symbol", source: "farms", filter: ["==", ["get", "kind"], "cluster"], layout: { "text-field": ["get", "count"], "text-size": 12, "text-font": ["Noto Sans Bold"] }, paint: { "text-color": "#173f2c" } });
       target.addLayer({ id: "farm-points", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "farm"], layout: { visibility: visible["farm-points"] ? "visible" : "none" }, paint: farmPointPaint(current2) });
       target.addLayer({ id: "farm-labels", type: "symbol", source: "farms", filter: ["==", ["get", "kind"], "farm"], minzoom: 11, layout: { ...farmLabelLayout(), visibility: visible["farm-labels"] ? "visible" : "none" }, paint: { "text-color": "#3f4a3d", "text-halo-color": "#fdfdf7", "text-halo-width": 1.5 } });
+      // Clusters draw above the individual pins. Added before them, a dense view
+      // painted pins straight across the cluster counts and made them
+      // unreadable — most visibly on mobile, where the map is narrowest.
+      target.addLayer({ id: "server-clusters", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "cluster"], paint: { "circle-color": "rgba(251,252,246,.96)", "circle-radius": ["step", ["get", "count"], 20, 20, 25, 75, 31], "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
+      target.addLayer({ id: "server-cluster-count", type: "symbol", source: "farms", filter: ["==", ["get", "kind"], "cluster"], layout: { "text-field": ["get", "count"], "text-size": 12, "text-font": ["Noto Sans Bold"] }, paint: { "text-color": "#173f2c" } });
       target.addLayer({ id: "hovered-ring", type: "circle", source: "hovered-farm", paint: { "circle-radius": 12, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
       target.addLayer({ id: "selected-ring", type: "circle", source: "selected-farm", paint: { "circle-radius": 14, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 3, "circle-stroke-color": "#c65e36" } });
       target.addLayer({ id: "user-halo", type: "circle", source: "user-origin", paint: { "circle-radius": 12, "circle-color": "rgba(255,250,240,.5)", "circle-stroke-width": 1, "circle-stroke-color": "#173f2c" } });
