@@ -153,3 +153,19 @@ test("the superseded workbook artifact stays internally consistent but unused", 
   assert.ok(farms.length < stats.total);
   assert.equal(new Set(farms.map((farm) => farm.state)).size, 2);
 });
+
+test("the worker serves without an env, as `vinext start` calls it", async () => {
+  // Cloudflare always passes `env`, and every other test here does too — which
+  // is how a worker that dereferenced `env.ASSETS` unconditionally shipped and
+  // 500'd every request under the local Node production server.
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `no-env-${process.pid}-${Date.now()}`);
+  const { default: worker } = await import(workerUrl.href);
+
+  const page = await worker.fetch(new Request("http://localhost/", { headers: { accept: "text/html" } }));
+  assert.equal(page.status, 200);
+
+  const places = await worker.fetch(new Request("http://localhost/v1/places?q=madison%20wi"));
+  assert.equal(places.status, 200);
+  assert.equal((await places.json()).items[0]?.label, "Madison, WI");
+});

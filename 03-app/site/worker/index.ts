@@ -34,7 +34,11 @@ const worker = {
     // dataset is far too large to inline in a Worker bundle or to hold as
     // expanded objects inside a 128 MB isolate. Route handlers only receive
     // the Request, so hand them the binding here.
-    bindDiscoveryContext(env.ASSETS, request.url);
+    //
+    // `env` is optional here on purpose: Cloudflare always passes it, but
+    // `vinext start` (the local Node production server) calls this handler
+    // without one. The index then falls back to reading the built file.
+    bindDiscoveryContext(env?.ASSETS, request.url);
 
     if (url.pathname === "/_vinext/image") {
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
