@@ -235,6 +235,12 @@ const scrollTo = (page, selector, offset = 0) =>
     return window.scrollY;
   })()`);
 
+/** Put the whole map pane in the viewport, just under the sticky header. */
+async function showMap(page) {
+  await scrollTo(page, ".map-panel", 96);
+  await sleep(600);
+}
+
 /** Click the first visible button whose text matches. */
 const clickButton = (page, pattern) =>
   page.eval(`(() => {
@@ -250,8 +256,12 @@ const clickButton = (page, pattern) =>
  * MapLibre keeps no global handle to its instance, and a double-click risks
  * landing on a pin, so this is how a person would do it.
  */
-async function zoomMap(page, steps) {
-  const box = await page.eval(`(() => { const r = document.querySelector(".map-canvas").getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; })()`);
+async function zoomMap(page, steps, offsetY = 0) {
+  // The wheel has to land on the map. Aimed at a point below the fold it
+  // scrolls the page instead, which is how an earlier run photographed the
+  // hero three times under three different captions.
+  await showMap(page);
+  const box = await page.eval(`(() => { const r = document.querySelector(".map-canvas").getBoundingClientRect(); return { x: r.left + r.width / 2, y: Math.min(r.top + r.height / 2 + ${offsetY}, innerHeight - 40) }; })()`);
   for (let step = 0; step < steps; step += 1) {
     await page.send("Input.dispatchMouseEvent", { type: "mouseWheel", x: box.x, y: box.y, deltaX: 0, deltaY: -480 });
     await sleep(650);
@@ -309,7 +319,22 @@ async function run() {
     await page.key("Escape", "Escape", 27);
     const before = await page.eval(`window.scrollY`);
     await page.key("Enter", "Enter", 13);
-    await page.waitFor(`/farms within/.test(document.body.innerText)`, 30000);
+    try {
+      // 60s, not 30: software-rendered WebGL can starve the page's CPU across
+      // back-to-back runs, and a slow-but-correct handoff is not a failure.
+      await page.waitFor(`/farms within/.test(document.body.innerText)`, 60000);
+    } catch (error) {
+      const snapshot = await page.eval(`({
+        url: location.pathname + location.search + location.hash,
+        input: document.querySelector("#hero-near")?.value,
+        heroStatus: document.querySelector(".hero-status")?.innerText,
+        button: document.querySelector(".hero-field > button")?.innerText,
+        listOpen: !document.querySelector(".hero-suggestions")?.hidden,
+        locationStatus: document.querySelector(".location-status")?.innerText,
+        focused: document.activeElement?.id || document.activeElement?.tagName,
+      })`);
+      throw new Error(`${error.message}\nhero submit state: ${JSON.stringify(snapshot)}`);
+    }
     await sleep(1200);
     findings.enterNavigation = await page.eval(`({
       scrollBefore: ${before},
@@ -333,8 +358,18 @@ async function run() {
 
     // Street level on the Field guide, then the same camera on Full detail —
     // the only fair comparison, since Full detail's 3D massing starts at z14.
-    await zoomMap(page, 8);
+    // Zoom where there is something to see. Madison's search centre sits in
+    // Lake Mendota, so zooming on it photographs open water. Select the #1
+    // result instead, then zoom on the farm itself: the app parks a selected
+    // farm 42px *below* centre (farm-map.tsx) so its card does not cover it,
+    // and at regional zoom 42px is ~20km — zooming on dead centre lands in
+    // countryside nowhere near the farm.
+    await showMap(page);
+    findings.selectedFarm = await clickButton(page, /^Map$/);
+    await sleep(1800);
+    await zoomMap(page, 14, 42);
     await page.mapIdle();
+    await showMap(page);
     await page.shot("06-desktop-field-guide-street");
 
     const opened = await clickButton(page, /^Map options/);
@@ -342,13 +377,15 @@ async function run() {
     if (opened) {
       await page.waitFor(`document.querySelector(".map-options-panel")`);
       await sleep(400);
-      await page.shot("07-desktop-map-options-panel");
+      await showMap(page);
+    await page.shot("07-desktop-map-options-panel");
       findings.fullDetailButton = await clickButton(page, /^Full detail/);
       await sleep(4500);
       await page.mapIdle();
       await clickButton(page, /^Map options/);
       await sleep(1500);
-      await page.shot("08-desktop-full-detail-street");
+      await showMap(page);
+    await page.shot("08-desktop-full-detail-street");
       findings.fullDetailStatus = await page.eval(`[...document.querySelectorAll('[role="status"]')].map((el) => el.innerText.trim()).filter(Boolean).join(" | ")`);
     }
 
