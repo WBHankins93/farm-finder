@@ -281,7 +281,10 @@ export default function FarmMap(props: FarmMapProps) {
     const control = new maplibregl.ScaleControl({ maxWidth: 110, unit: "imperial" });
     map.addControl(control, "bottom-left");
     return () => {
-      map.removeControl(control);
+      // On unmount the map effect's cleanup has already run `map.remove()`,
+      // which removes every control itself. A second `removeControl` would call
+      // `ScaleControl.onRemove` on a detached control and throw.
+      if (map.hasControl(control)) map.removeControl(control);
     };
   }, [options.scale, mapReady]);
 
@@ -386,20 +389,24 @@ export default function FarmMap(props: FarmMapProps) {
                   ))}
                 </div>
                 {/* `title` is a hover tooltip and reaches neither keyboard nor
-                    touch, so the hint is shown as text and referenced by id. */}
-                <p className="option-hint" id={`basemap-hint-${basemap}`}>{activeBasemap?.hint}</p>
+                    touch, so the active hint is shown as text. Each button is
+                    described by its own hint, kept in a hidden node, so the
+                    option you have not picked says what it would do. */}
+                <p className="option-hint">{activeBasemap?.hint}</p>
+                {basemaps.map((option) => <span key={option.id} id={`basemap-hint-${option.id}`} hidden>{option.hint}</span>)}
               </fieldset>
 
               <fieldset>
                 <legend>Farms</legend>
                 <div className="option-row">
                   {pinModes.map((mode) => (
-                    <button key={mode.id} type="button" className={options.pins === mode.id ? "active" : ""} aria-pressed={options.pins === mode.id} aria-describedby={`pin-hint-${options.pins}`} onClick={() => update({ pins: mode.id as PinMode })}>
+                    <button key={mode.id} type="button" className={options.pins === mode.id ? "active" : ""} aria-pressed={options.pins === mode.id} aria-describedby={`pin-hint-${mode.id}`} onClick={() => update({ pins: mode.id as PinMode })}>
                       {mode.label}
                     </button>
                   ))}
                 </div>
-                <p className="option-hint" id={`pin-hint-${options.pins}`}>{pinModes.find((mode) => mode.id === options.pins)?.hint}</p>
+                <p className="option-hint">{pinModes.find((mode) => mode.id === options.pins)?.hint}</p>
+                {pinModes.map((mode) => <span key={mode.id} id={`pin-hint-${mode.id}`} hidden>{mode.hint}</span>)}
               </fieldset>
 
               <fieldset>
