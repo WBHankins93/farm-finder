@@ -468,7 +468,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "county missing; city or safe public service area missing; products or farm activity missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "county missing; city or safe public service area missing; products or farm activity missing"
   },
   {
     "id": "childers-farm-to-table-arkansas-ar",
@@ -2073,7 +2073,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "county missing; city or safe public service area missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "county missing; city or safe public service area missing"
   },
   {
     "id": "the-firelight-farm-ar",
@@ -3147,7 +3147,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "city or safe public service area missing; products or farm activity missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "city or safe public service area missing; products or farm activity missing"
   },
   {
     "id": "mountain-home-berry-farm-ar",
@@ -13422,7 +13422,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "city or safe public service area missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "city or safe public service area missing"
   },
   {
     "id": "royal-berry-farm-ar",
@@ -13630,7 +13630,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "city or safe public service area missing; products or farm activity missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "city or safe public service area missing; products or farm activity missing"
   },
   {
     "id": "the-garden-door-ar",
@@ -19670,7 +19670,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "city or safe public service area missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "city or safe public service area missing"
   },
   {
     "id": "mcswain-ranch-ar",
@@ -22242,7 +22242,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "city or safe public service area missing; products or farm activity missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "city or safe public service area missing; products or farm activity missing"
   },
   {
     "id": "jasper-farmers-market-ar",
@@ -23338,7 +23338,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "city or safe public service area missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "city or safe public service area missing"
   },
   {
     "id": "r-a-williams-family-foundation-ar",
@@ -31032,7 +31032,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "city or safe public service area missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "city or safe public service area missing"
   },
   {
     "id": "spring-river-farmers-market-ar",
@@ -34058,7 +34058,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "city or safe public service area missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "city or safe public service area missing"
   },
   {
     "id": "sta-n-step-blueberry-farm-ar",
@@ -34501,7 +34501,7 @@
       "retrieved": "2026-07-15"
     },
     "eligible": false,
-    "qa_reason": "city or safe public service area missing; directory candidate needs independent farm-operation evidence"
+    "qa_reason": "city or safe public service area missing"
   },
   {
     "id": "white-river-creamery-ar",

@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FarmFinder — Website demo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet" />
+<link href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" rel="stylesheet" />
+<link rel="stylesheet" href="../tokens.css" />
+<style>
+* { box-sizing: border-box; margin: 0; }
+body { font-family: var(--font-body); color: var(--soil-900); background: var(--butter-50); }
+a { color: inherit; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
+
+/* awning stripe */
+.awning { height: 10px; background: repeating-linear-gradient(90deg,
+  var(--awning-600) 0 30px, var(--butter-50) 30px 60px); }
+
+/* topbar */
+.topbar { position: sticky; top: 0; z-index: 20; background: rgb(251 247 235 / .93);
+  backdrop-filter: blur(12px); border-bottom: 1.5px solid var(--kraft-300); }
+.topbar .wrap { display: flex; align-items: center; justify-content: space-between; height: 66px; }
+.brand { display: flex; align-items: center; gap: 11px; text-decoration: none;
+  font: 700 16px var(--font-display); }
+.brand i { width: 38px; height: 38px; border-radius: 13px; background: var(--awning-700);
+  color: var(--butter-50); display: grid; place-items: center; font: 700 12px var(--font-display); font-style: normal; }
+.brand small { display: block; font: 400 11.5px var(--font-body); color: var(--soil-600); }
+.topnav { display: flex; gap: 26px; align-items: center; font: 700 14px var(--font-display); }
+.topnav a { text-decoration: none; color: var(--soil-600); }
+.topnav a:hover { color: var(--soil-900); }
+.topnav .cta { background: var(--awning-600); color: var(--butter-50); border-radius: var(--r-pill);
+  padding: 10px 20px; }
+@media (max-width: 760px) { .topnav a:not(.cta) { display: none; } }
+
+/* hero */
+.hero { position: relative; overflow: hidden;
+  background: linear-gradient(180deg, var(--butter-50) 0%, var(--cream-100) 100%); }
+.hero-inner { position: relative; padding: 92px 0 84px; display: grid; gap: 24px; max-width: 720px; }
+.hero svg.plots { position: absolute; right: -30px; top: 20px; height: 92%; opacity: .9; }
+.kicker { font: 700 13px var(--font-display); letter-spacing: .14em; text-transform: uppercase; color: var(--tomato-500); }
+.hero h1 { font: 800 clamp(44px, 6.5vw, 72px)/1.04 var(--font-display); letter-spacing: -0.025em; }
+.hero h1 em { font-style: normal; color: var(--awning-600); }
+.hero p.lede { font-size: 18px; line-height: 1.6; color: var(--soil-600); max-width: 46ch; }
+.hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 10px; border: 0; cursor: pointer;
+  border-radius: var(--r-pill); padding: 15px 26px; font: 700 15px var(--font-display);
+  text-decoration: none; transition: transform var(--t-fast) var(--ease); }
+.btn:active { transform: scale(.98); }
+.btn-leaf { background: var(--awning-600); color: var(--butter-50); box-shadow: var(--shadow-1); }
+.btn-ghost { background: var(--cream-100); color: var(--soil-900); border: 1.5px solid var(--kraft-300); }
+.hero-stats { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+.hero-stats .glass { padding: 13px 22px; border-radius: 18px; background: var(--cream-100);
+  border: 1.5px solid var(--kraft-300); box-shadow: var(--shadow-1); }
+.hero-stats span { display: block; font: 700 10.5px var(--font-display); letter-spacing: .05em;
+  text-transform: uppercase; color: var(--soil-600); }
+.hero-stats strong { font: 700 26px var(--font-display); color: var(--tomato-500); }
+
+/* sections */
+section.band { padding: 84px 0; }
+.sec-kicker { font: 700 12.5px var(--font-display); letter-spacing: .14em; text-transform: uppercase; color: var(--tomato-500); margin-bottom: 12px; }
+h2.sec-title { font: 800 clamp(30px, 4vw, 42px)/1.1 var(--font-display); letter-spacing: -0.02em; margin-bottom: 14px; }
+h2.sec-title em { font-style: normal; color: var(--awning-600); }
+.sec-sub { color: var(--soil-600); font-size: 16px; line-height: 1.6; max-width: 60ch; }
+
+/* harvest grid */
+.guide-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(255px, 1fr)); gap: 15px; margin-top: 36px; }
+.guide-card { background: var(--cream-100); border-radius: var(--r-card); padding: 21px;
+  border: 1.5px solid var(--kraft-300); display: flex; flex-direction: column; gap: 9px; cursor: pointer;
+  transition: border-color var(--t-fast), transform var(--t-fast) var(--ease), box-shadow var(--t-fast); }
+.guide-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-1); }
+.guide-card.active { border-color: var(--awning-600); border-width: 2px; }
+.guide-top { display: flex; justify-content: space-between; align-items: center; }
+.guide-top .emoji { width: 44px; height: 44px; border-radius: 15px; display: grid; place-items: center;
+  font-size: 21px; background: color-mix(in srgb, var(--gc, var(--leaf-200)) 18%, #fff); }
+.guide-top strong { font: 700 24px var(--font-display); color: var(--gc, var(--awning-600)); }
+.guide-card h3 { font: 700 16px var(--font-display); }
+.guide-card p { font-size: 13.5px; color: var(--soil-600); line-height: 1.5; }
+
+/* explorer */
+.explorer { display: grid; grid-template-columns: 420px 1fr; gap: 20px; margin-top: 36px; height: 640px; }
+@media (max-width: 900px) { .explorer { grid-template-columns: 1fr; height: auto; } #wmap { height: 420px; } .farm-list { max-height: 460px; } }
+.search-pill { display: flex; align-items: center; gap: 10px; background: var(--cream-100);
+  border: 1.5px solid var(--kraft-300);
+  border-radius: var(--r-pill); padding: 7px 7px 7px 19px; color: var(--soil-600); }
+.search-pill input { flex: 1; min-width: 0; border: 0; outline: 0; background: none;
+  font: 600 15px var(--font-body); color: var(--soil-900); }
+.search-pill input::placeholder { color: var(--soil-400); font-weight: 400; }
+.search-pill button { width: 42px; height: 42px; border: 0; border-radius: 50%; background: var(--awning-600);
+  color: var(--butter-50); font-size: 17px; cursor: pointer; }
+.list-panel { display: flex; flex-direction: column; gap: 14px; min-height: 0; }
+.results-meta { display: flex; justify-content: space-between; font-size: 13.5px; color: var(--soil-600); padding: 0 4px; }
+.farm-list { overflow-y: auto; display: flex; flex-direction: column; gap: 11px; padding: 2px; scrollbar-width: thin;
+  min-height: 0; max-height: 640px; }
+.show-more { border: 1.5px dashed var(--kraft-300); background: var(--cream-100); border-radius: var(--r-pill);
+  padding: 12px; font: 700 13.5px var(--font-display); color: var(--awning-600); cursor: pointer; }
+.show-more:hover { border-color: var(--awning-600); }
+.area-banner { display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  border: 0; border-radius: 14px; padding: 12px 16px; cursor: pointer; text-align: left;
+  background: var(--awning-700); color: var(--butter-50); font: 700 13px var(--font-display); }
+.area-banner .area-clear { background: rgb(251 247 235 / .18); border-radius: var(--r-pill); padding: 4px 11px; }
+.farm-detail { background: var(--cream-100); border: 2px solid var(--awning-600); border-radius: 18px;
+  padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; position: relative; }
+.farm-detail h3 { font: 700 18px var(--font-display); letter-spacing: -0.01em; padding-right: 30px; }
+.farm-detail .place { font-size: 13.5px; color: var(--soil-600); }
+.farm-detail .detail-products { font-size: 14px; line-height: 1.55; }
+.farm-detail .detail-presence { font-size: 13px; line-height: 1.5; color: var(--soil-600); }
+.farm-detail .detail-close { position: absolute; top: 12px; right: 12px; border: 0; width: 30px; height: 30px;
+  border-radius: 50%; background: var(--kraft-100); color: var(--soil-600); font-size: 16px; cursor: pointer; line-height: 1; }
+.farm-detail .detail-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+.farm-detail .detail-actions a { background: var(--awning-600); color: var(--butter-50); border-radius: var(--r-pill);
+  padding: 9px 16px; font: 700 13px var(--font-display); text-decoration: none; }
+.farm-detail .detail-actions span { font: 500 13px var(--font-body); color: var(--soil-600); align-self: center; }
+.farm-row { background: var(--cream-100); border-radius: 18px; padding: 15px 17px; cursor: pointer;
+  border: 1.5px solid var(--kraft-300); display: flex; flex-direction: column; gap: 6px;
+  transition: border-color var(--t-fast); }
+.farm-row:hover, .farm-row.selected { border-color: var(--awning-600); }
+.cat-line { display: flex; align-items: center; gap: 7px; font: 700 10.5px var(--font-display);
+  letter-spacing: .06em; text-transform: uppercase; color: var(--soil-600); }
+.cat-line i { width: 8px; height: 8px; border-radius: 50%; }
+.farm-row h3 { font: 700 17px/1.25 var(--font-display); letter-spacing: -0.01em; }
+.farm-row .place { font-size: 13.5px; color: var(--soil-600); }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.badges span { font: 700 11.5px var(--font-display); color: var(--awning-700); background: var(--leaf-200);
+  border-radius: var(--r-pill); padding: 4px 11px; }
+.badges .badge-web { background: #f6ddd3; color: #a5432c; }
+#wmap { border-radius: var(--r-card); overflow: hidden; border: 1.5px solid var(--kraft-300); }
+.maplibregl-ctrl-attrib { font-size: 10px; }
+
+/* updates ledger — kraft board */
+.updates { background: var(--kraft-100); border-top: 1.5px dashed var(--kraft-300);
+  border-bottom: 1.5px dashed var(--kraft-300); }
+.ledger { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-top: 40px; }
+.ledger article { background: var(--butter-50); border: 1.5px solid var(--kraft-300);
+  border-radius: var(--r-card); padding: 23px; }
+.ledger span { font: 700 11px var(--font-display); text-transform: uppercase; letter-spacing: .07em; color: var(--soil-600); }
+.ledger strong { display: block; font: 800 38px var(--font-display); color: var(--tomato-500); margin: 8px 0 4px; }
+.ledger p { font-size: 13.5px; line-height: 1.55; color: var(--soil-600); }
+
+footer { background: var(--awning-700); color: rgb(251 247 235 / .85); }
+footer .wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;
+  padding: 28px; font: 600 13.5px var(--font-display); }
+</style>
+</head>
+<body>
+
+<div class="awning"></div>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#"><i>FF</i><span>FarmFinder<small>U.S. farm field guide</small></span></a>
+    <nav class="topnav">
+      <a href="#harvest">Harvest</a>
+      <a href="#explore">Explore farms</a>
+      <a href="#updates">Updates</a>
+      <a class="cta" href="#explore">Find food near you</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <svg class="plots" width="480" viewBox="0 0 520 700" aria-hidden="true">
+    <path d="M60 80 L300 30 L480 120 L430 320 L180 360 Z" fill="none" stroke="#dfcfa8" stroke-width="2" stroke-dasharray="3 9" stroke-linecap="round"/>
+    <path d="M180 360 L140 620 L420 660 L430 320" fill="none" stroke="#dfcfa8" stroke-width="2" stroke-dasharray="3 9" stroke-linecap="round"/>
+    <circle cx="300" cy="30" r="6" fill="#457f3c" stroke="#fbf7eb" stroke-width="2.5"/>
+    <circle cx="430" cy="320" r="6" fill="#d95f43" stroke="#fbf7eb" stroke-width="2.5"/>
+    <circle cx="140" cy="620" r="6" fill="#e0a33c" stroke="#fbf7eb" stroke-width="2.5"/>
+  </svg>
+  <div class="wrap hero-inner">
+    <p class="kicker">fresh from Louisiana &amp; Mississippi →</p>
+    <h1>Find the farms<br />behind <em>your food.</em></h1>
+    <p class="lede">Find the people growing, raising, catching, and making food near you — then learn exactly how to buy from them.</p>
+    <div class="hero-actions">
+      <a class="btn btn-leaf" href="#explore">Explore the map →</a>
+      <a class="btn btn-ghost" href="app.html">Open the app demo</a>
+    </div>
+    <div class="hero-stats" id="hero-stats"></div>
+  </div>
+</section>
+
+<section class="band" id="harvest">
+  <div class="wrap">
+    <p class="sec-kicker">what's in season?</p>
+    <h2 class="sec-title">Start with what<br />you want <em>to eat.</em></h2>
+    <p class="sec-sub">Product guides translate 299 directory records into useful paths. Counts show farms whose records mention that product — never live inventory.</p>
+    <div class="guide-grid" id="guide-grid"></div>
+  </div>
+</section>
+
+<section class="band" id="explore" style="padding-top:0">
+  <div class="wrap">
+    <p class="sec-kicker">find your farmer</p>
+    <h2 class="sec-title">What are you <em>looking for?</em></h2>
+    <p class="sec-sub">Search by food, farm, town, parish, or county. Every marker is a known farm or producer; approximate pins are labeled.</p>
+    <div class="explorer">
+      <div class="list-panel">
+        <div class="search-pill">
+          <input id="wq" placeholder="Try “eggs near Covington” or “crawfish”" />
+          <button aria-label="Search">→</button>
+        </div>
+        <div id="wdetail" hidden></div>
+        <div class="results-meta"><span id="wcount"></span><span>Alphabetical</span></div>
+        <div class="farm-list" id="wlist"></div>
+      </div>
+      <div id="wmap"></div>
+    </div>
+  </div>
+</section>
+
+<section class="band updates" id="updates">
+  <div class="wrap">
+    <p class="sec-kicker">from the field notebook</p>
+    <h2 class="sec-title">What changed,<br />and what <em>comes next.</em></h2>
+    <p class="sec-sub">July 2026 · The canonical workbook holds one-row-per-entity listings, evidence-reviewed and source-logged.</p>
+    <div class="ledger" id="ledger"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 FarmFinder — Louisiana → Mississippi → the continental U.S., one region at a time.</span>
+    <span>Availability is never live · confirm with the farm</span>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+<script>
+const CAT_COLORS = { Produce:"#55734d", Mixed:"#6e7f4f", Meat:"#8b3e30", "Honey/Specialty":"#bd8628",
+  Dairy:"#557a78", Seafood:"#39738c", Rice:"#99835c", "Urban Farm":"#5f7d62", "Value-Added":"#7d5b7f" };
+const GUIDES = [
+  { id:"vegetables", label:"Vegetables & greens", emoji:"🥬", color:"#55734d", tokens:["vegetable","produce","greens","lettuce","tomato","okra","squash","peas","cucumber","microgreen","herbs"], blurb:"Everyday produce, leafy greens, herbs, and microgreens." },
+  { id:"fruit", label:"Fruit, berries & citrus", emoji:"🍓", color:"#b65f39", tokens:["fruit","berry","berries","blueberr","strawberr","peach","watermelon","melon","citrus","satsuma","orchard"], blurb:"Blueberries, peaches, melons, and Louisiana citrus." },
+  { id:"eggs", label:"Eggs", emoji:"🥚", color:"#c08a2e", tokens:["egg"], blurb:"Chicken, duck, and other farm eggs." },
+  { id:"beef", label:"Beef & cattle", emoji:"🐄", color:"#8b3e30", tokens:["beef","cattle","wagyu"], blurb:"Grass-fed and pasture-raised beef by the cut or share." },
+  { id:"pork", label:"Pork", emoji:"🐖", color:"#a95246", tokens:["pork","hog","berkshire","bacon","sausage"], blurb:"Pastured pork, heritage hogs, and sausage." },
+  { id:"poultry", label:"Chicken & poultry", emoji:"🐔", color:"#9a6936", tokens:["chicken","poultry","turkey","duck","broiler"], blurb:"Pastured chicken, turkey, and duck." },
+  { id:"honey", label:"Honey & bee products", emoji:"🍯", color:"#bd8628", tokens:["honey","apiar","bee","beeswax"], blurb:"Raw honey, comb, and beeswax goods." },
+  { id:"dairy", label:"Milk, cheese & dairy", emoji:"🧀", color:"#557a78", tokens:["dairy","milk","cheese","creamery","yogurt"], blurb:"Farmstead milk, cheese, and creamery goods." },
+  { id:"seafood", label:"Seafood & crawfish", emoji:"🦐", color:"#39738c", tokens:["seafood","crawfish","shrimp","crab","fish","oyster"], blurb:"Crawfish, shrimp, oysters, and Gulf catch." },
+  { id:"rice", label:"Rice & grains", emoji:"🌾", color:"#99835c", tokens:["rice","grain","grits","cornmeal"], blurb:"Louisiana rice and farm-direct pantry staples." },
+  { id:"flowers", label:"Flowers & nursery", emoji:"💐", color:"#7d5b7f", tokens:["flower","nursery","plant","seedling"], blurb:"Cut flowers, natives, and nursery goods." },
+  { id:"mushrooms", label:"Mushrooms", emoji:"🍄", color:"#6f665c", tokens:["mushroom","fungi"], blurb:"Fresh culinary and specialty mushrooms." },
+];
+const SERVICES = [["farmersMarket","Farmers markets"],["onFarm","On-farm"],["csa","CSA"],["ships","Ships"],["onlineStore","Online"]];
+let farms = [], activeGuide = "All", map, mapReady = false, selectedId = null;
+let clusterIds = null; // farm ids inside a clicked cluster ("this area" filter)
+const PAGE = 40;
+let visibleCount = PAGE;
+
+const matches = (f, gid) => {
+  if (gid === "All") return true;
+  const g = GUIDES.find((x) => x.id === gid);
+  const hay = `${f.productsText} ${f.category} ${f.notes}`.toLowerCase();
+  return g.tokens.some((t) => hay.includes(t));
+};
+const filtered = () => {
+  const q = document.getElementById("wq").value.trim().toLowerCase();
+  return farms.filter((f) => {
+    if (clusterIds && !clusterIds.has(f.id)) return false;
+    const hay = `${f.name} ${f.category} ${f.productsText} ${f.city} ${f.parish} ${f.region} ${f.notes}`.toLowerCase();
+    return matches(f, activeGuide) && (!q || hay.includes(q));
+  });
+};
+
+fetch("farms.json").then((r) => r.json()).then((data) => {
+  farms = data.sort((a, b) => a.name.localeCompare(b.name));
+  const la = farms.filter((f) => f.state === "LA").length;
+  const ms = farms.filter((f) => f.state === "MS").length;
+  document.getElementById("hero-stats").innerHTML = [
+    [farms.length, "unique farms mapped"], [la, "Louisiana listings"], [ms, "Mississippi listings"],
+  ].map(([n, l]) => `<div class="glass"><strong>${n}</strong><span>${l}</span></div>`).join("");
+  const grid = document.getElementById("guide-grid");
+  GUIDES.forEach((g) => {
+    const count = farms.filter((f) => matches(f, g.id)).length;
+    const card = document.createElement("article");
+    card.className = "guide-card";
+    card.style.setProperty("--gc", g.color);
+    card.innerHTML = `<div class="guide-top"><span class="emoji">${g.emoji}</span><strong>${count}</strong></div>
+      <h3>${g.label}</h3><p>${g.blurb}</p>`;
+    card.onclick = () => {
+      activeGuide = activeGuide === g.id ? "All" : g.id;
+      document.querySelectorAll(".guide-card").forEach((c) => c.classList.remove("active"));
+      if (activeGuide === g.id) card.classList.add("active");
+      clusterIds = null;
+      visibleCount = PAGE;
+      render();
+      document.getElementById("explore").scrollIntoView({ behavior: "smooth" });
+    };
+    grid.appendChild(card);
+  });
+  const ledger = document.getElementById("ledger");
+  ledger.innerHTML = [
+    ["Coverage", farms.length, "unique farms across two states"],
+    ["Map confidence", farms.filter((f) => f.geoPrecision === "city").length, "city-level locations"],
+    ["How to buy", farms.filter((f) => f.farmersMarket).length, "farms at markets"],
+    ["Digital gap", farms.filter((f) => !f.hasWebsite).length, "without a confirmed website"],
+  ].map(([k, n, l]) => `<article><span>${k}</span><strong>${n}</strong><p>${l}</p></article>`).join("");
+  render();
+  initMap();
+});
+function clearArea() {
+  clusterIds = null;
+  visibleCount = PAGE;
+  render();
+  if (mapReady) map.easeTo({ center: [-90.9, 30.9], zoom: 6 });
+}
+document.getElementById("wq").addEventListener("input", () => { clusterIds = null; visibleCount = PAGE; render(); });
+
+function render() {
+  const list = document.getElementById("wlist");
+  const items = filtered();
+  const shown = Math.min(visibleCount, items.length);
+  document.getElementById("wcount").innerHTML = clusterIds
+    ? `<strong>${items.length}</strong> farms in this map area`
+    : `Showing <strong>${shown}</strong> of <strong>${items.length}</strong> farms`;
+  list.innerHTML = "";
+  if (clusterIds) {
+    const banner = document.createElement("button");
+    banner.className = "area-banner";
+    banner.innerHTML = `<span>Filtered to the area you clicked</span><span class="area-clear">Clear ✕</span>`;
+    banner.onclick = clearArea;
+    list.appendChild(banner);
+  }
+  items.slice(0, visibleCount).forEach((f) => {
+    const row = document.createElement("article");
+    row.className = "farm-row" + (f.id === selectedId ? " selected" : "");
+    const badges = [];
+    if (f.onlineStore) badges.push(`<span class="badge-web">Orders on website</span>`);
+    else if (f.hasWebsite) badges.push(`<span class="badge-web">Website</span>`);
+    for (const [k, l] of SERVICES) {
+      if (k === "onlineStore" || !f[k] || badges.length >= 3) continue;
+      badges.push(`<span>${l}</span>`);
+    }
+    row.innerHTML = `<p class="cat-line"><i style="background:${CAT_COLORS[f.category] || "#59604c"}"></i>${f.category}</p>
+      <h3>${f.name}</h3>
+      <p class="place">${f.city}, ${f.state} · ${f.parish} ${f.state === "LA" ? "Parish" : "County"}</p>
+      <div class="badges">${badges.join("")}</div>`;
+    row.onclick = () => select(f.id);
+    list.appendChild(row);
+  });
+  if (items.length > visibleCount) {
+    const more = document.createElement("button");
+    more.className = "show-more";
+    more.textContent = `Show ${Math.min(PAGE, items.length - visibleCount)} more (${items.length - visibleCount} remaining)`;
+    more.onclick = () => { visibleCount += PAGE; render(); };
+    list.appendChild(more);
+  }
+  if (mapReady) map.getSource("farms").setData(geojson());
+}
+function renderDetail(f) {
+  const panel = document.getElementById("wdetail");
+  if (!f) { panel.hidden = true; panel.className = ""; panel.innerHTML = ""; return; }
+  const badges = [];
+  if (f.onlineStore) badges.push(`<span class="badge-web">Orders on website</span>`);
+  else if (f.hasWebsite) badges.push(`<span class="badge-web">Website</span>`);
+  for (const [k, l] of SERVICES) {
+    if (k !== "onlineStore" && f[k]) badges.push(`<span>${l}</span>`);
+  }
+  panel.className = "farm-detail";
+  panel.innerHTML = `
+    <button class="detail-close" aria-label="Close details">×</button>
+    <p class="cat-line"><i style="background:${CAT_COLORS[f.category] || "#59604c"}"></i>${f.category}</p>
+    <h3>${f.name}</h3>
+    <p class="place">${f.city}, ${f.state} · ${f.parish} ${f.state === "LA" ? "Parish" : "County"} · ${f.region}</p>
+    <p class="detail-products">${f.productsText}</p>
+    ${f.marketPresence ? `<p class="detail-presence">How to buy: ${f.marketPresence}</p>` : ""}
+    <div class="badges">${badges.join("")}</div>
+    <div class="detail-actions">
+      ${f.website ? `<a href="${f.website}" target="_blank" rel="noreferrer">Visit website ↗</a>` : ""}
+      ${f.contact ? `<span>${f.contact}</span>` : ""}
+    </div>`;
+  panel.querySelector(".detail-close").onclick = () => {
+    selectedId = null;
+    renderDetail(null);
+    if (mapReady) map.setFilter("selected", ["==", ["get", "id"], "__none__"]);
+    render();
+  };
+  panel.hidden = false;
+}
+function geojson() {
+  return { type: "FeatureCollection", features: filtered().filter((f) => f.latitude).map((f) => ({
+    type: "Feature", geometry: { type: "Point", coordinates: [f.longitude, f.latitude] },
+    properties: { id: f.id, category: f.category } })) };
+}
+function select(id) {
+  selectedId = id;
+  const items = filtered();
+  const idx = items.findIndex((x) => x.id === id);
+  if (idx >= visibleCount) visibleCount = Math.ceil((idx + 1) / PAGE) * PAGE;
+  render();
+  const f = farms.find((x) => x.id === id);
+  renderDetail(f);
+  if (mapReady && f?.latitude) {
+    map.setFilter("selected", ["==", ["get", "id"], id]);
+    map.flyTo({ center: [f.longitude, f.latitude], zoom: Math.max(map.getZoom(), 9), speed: 1.4 });
+  }
+  document.querySelector(".farm-row.selected")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+}
+function initMap() {
+  map = new maplibregl.Map({ container: "wmap", style: "https://tiles.openfreemap.org/styles/liberty",
+    center: [-90.9, 30.9], zoom: 6 });
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }));
+  map.on("load", () => {
+    mapReady = true;
+    map.addSource("farms", { type: "geojson", data: geojson(), cluster: true, clusterRadius: 46 });
+    const catMatch = ["match", ["get", "category"]];
+    Object.entries(CAT_COLORS).forEach(([k, v]) => catMatch.push(k, v));
+    catMatch.push("#59604c");
+    map.addLayer({ id: "clusters", type: "circle", source: "farms", filter: ["has", "point_count"],
+      paint: { "circle-color": "#457f3c", "circle-radius": ["step", ["get", "point_count"], 16, 12, 21, 40, 27],
+        "circle-stroke-width": 3, "circle-stroke-color": "#fbf7eb" } });
+    map.addLayer({ id: "cluster-count", type: "symbol", source: "farms", filter: ["has", "point_count"],
+      layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 12, "text-font": ["Noto Sans Bold"] },
+      paint: { "text-color": "#fbf7eb" } });
+    map.addLayer({ id: "points", type: "circle", source: "farms", filter: ["!", ["has", "point_count"]],
+      paint: { "circle-color": catMatch, "circle-radius": 7, "circle-stroke-width": 2.5, "circle-stroke-color": "#fbf7eb" } });
+    map.addLayer({ id: "selected", type: "circle", source: "farms", filter: ["==", ["get", "id"], "__none__"],
+      paint: { "circle-color": catMatch, "circle-radius": 11, "circle-stroke-width": 4, "circle-stroke-color": "#33632f" } });
+    map.on("click", "points", (e) => select(e.features[0].properties.id));
+    map.on("click", "clusters", async (e) => {
+      const src = map.getSource("farms");
+      const clusterId = e.features[0].properties.cluster_id;
+      const leaves = await src.getClusterLeaves(clusterId, 500, 0);
+      clusterIds = new Set(leaves.map((l) => l.properties.id));
+      visibleCount = PAGE;
+      selectedId = null;
+      renderDetail(null);
+      render();
+      document.getElementById("explore").scrollIntoView({ behavior: "smooth" });
+      const z = await src.getClusterExpansionZoom(clusterId);
+      map.easeTo({ center: e.features[0].geometry.coordinates, zoom: z });
+    });
+    map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
+    map.on("mouseleave", "clusters", () => (map.getCanvas().style.cursor = ""));
+    map.on("mouseenter", "points", () => (map.getCanvas().style.cursor = "pointer"));
+    map.on("mouseleave", "points", () => (map.getCanvas().style.cursor = ""));
+  });
+}
+</script>
+</body>
+</html>
