@@ -24,6 +24,9 @@ const BASE = process.env.FARMFINDER_URL ?? "http://localhost:3000";
 const CHROME = process.env.CHROME_PATH ?? "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 const OUT = path.resolve(process.argv[2] ?? "dev/screenshots");
 const PORT = 9300 + Math.floor(Math.random() * 400);
+// FARMFINDER_SCOPE=map skips the city-search flows, for reviewing map work on
+// a branch that predates them.
+const MAP_ONLY = process.env.FARMFINDER_SCOPE === "map";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -284,66 +287,70 @@ async function run() {
     console.log("desktop 1440x900");
     await page.viewport(1440, 900);
     await page.goto(`${BASE}/`);
-    await page.hydrated("#hero-near");
+    if (MAP_ONLY) await page.waitFor(`document.querySelector("#hero-near")`);
+    else await page.hydrated("#hero-near");
     await page.shot("01-desktop-hero");
 
-    // Type-ahead: a spelling the old lookup returned nothing for.
-    await page.type("#hero-near", "madison wi");
-    await page.waitFor(`!document.querySelector(".hero-suggestions").hidden`);
-    findings.typeaheadMadisonWi = await page.eval(`[...document.querySelectorAll(".hero-suggestions li")].map((li) => li.innerText.replace(/\\n+/g, " · "))`);
-    await page.shot("02-desktop-hero-typeahead", { x: 0, y: 0, width: 1440, height: 900 });
+    if (!MAP_ONLY) {
+      // Type-ahead: a spelling the old lookup returned nothing for.
+      await page.type("#hero-near", "madison wi");
+      await page.waitFor(`!document.querySelector(".hero-suggestions").hidden`);
+      findings.typeaheadMadisonWi = await page.eval(`[...document.querySelectorAll(".hero-suggestions li")].map((li) => li.innerText.replace(/\\n+/g, " · "))`);
+      await page.shot("02-desktop-hero-typeahead", { x: 0, y: 0, width: 1440, height: 900 });
 
-    // An ambiguous city asks rather than guessing.
-    await page.eval(`(() => { const i = document.querySelector("#hero-near"); const set = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value").set; set.call(i, ""); i.dispatchEvent(new Event("input", { bubbles: true })); })()`);
-    await page.type("#hero-near", "springfield");
-    await sleep(400);
-    await page.key("Enter", "Enter", 13);
-    await page.waitFor(`document.querySelector(".hero-status-choose")`);
-    findings.springfieldAsks = await page.eval(`document.querySelector(".hero-status").innerText`);
-    await page.shot("03-desktop-hero-ambiguous");
+      // An ambiguous city asks rather than guessing.
+      await page.eval(`(() => { const i = document.querySelector("#hero-near"); const set = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value").set; set.call(i, ""); i.dispatchEvent(new Event("input", { bubbles: true })); })()`);
+      await page.type("#hero-near", "springfield");
+      await sleep(400);
+      await page.key("Enter", "Enter", 13);
+      await page.waitFor(`document.querySelector(".hero-status-choose")`);
+      findings.springfieldAsks = await page.eval(`document.querySelector(".hero-status").innerText`);
+      await page.shot("03-desktop-hero-ambiguous");
 
-    // A typo gets "did you mean", not silence.
-    await page.eval(`(() => { const i = document.querySelector("#hero-near"); const set = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value").set; set.call(i, ""); i.dispatchEvent(new Event("input", { bubbles: true })); })()`);
-    await page.type("#hero-near", "madisonn wi");
-    await sleep(400);
-    await page.key("Escape", "Escape", 27);
-    await page.key("Enter", "Enter", 13);
-    await page.waitFor(`document.querySelector(".hero-status-missing")`);
-    findings.typoMessage = await page.eval(`document.querySelector(".hero-status").innerText.replace(/\\n+/g, " ")`);
-    await page.shot("04-desktop-hero-did-you-mean");
+      // A typo gets "did you mean", not silence.
+      await page.eval(`(() => { const i = document.querySelector("#hero-near"); const set = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value").set; set.call(i, ""); i.dispatchEvent(new Event("input", { bubbles: true })); })()`);
+      await page.type("#hero-near", "madisonn wi");
+      await sleep(400);
+      await page.key("Escape", "Escape", 27);
+      await page.key("Enter", "Enter", 13);
+      await page.waitFor(`document.querySelector(".hero-status-missing")`);
+      findings.typoMessage = await page.eval(`document.querySelector(".hero-status").innerText.replace(/\\n+/g, " ")`);
+      await page.shot("04-desktop-hero-did-you-mean");
 
-    // Enter on a good city scrolls to the explorer and loads results.
-    await page.eval(`(() => { const i = document.querySelector("#hero-near"); const set = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value").set; set.call(i, ""); i.dispatchEvent(new Event("input", { bubbles: true })); })()`);
-    await page.type("#hero-near", "madison wisconsin");
-    await sleep(400);
-    await page.key("Escape", "Escape", 27);
-    const before = await page.eval(`window.scrollY`);
-    await page.key("Enter", "Enter", 13);
-    try {
-      // 60s, not 30: software-rendered WebGL can starve the page's CPU across
-      // back-to-back runs, and a slow-but-correct handoff is not a failure.
-      await page.waitFor(`/farms within/.test(document.body.innerText)`, 60000);
-    } catch (error) {
-      const snapshot = await page.eval(`({
+      // Enter on a good city scrolls to the explorer and loads results.
+      await page.eval(`(() => { const i = document.querySelector("#hero-near"); const set = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value").set; set.call(i, ""); i.dispatchEvent(new Event("input", { bubbles: true })); })()`);
+      await page.type("#hero-near", "madison wisconsin");
+      await sleep(400);
+      await page.key("Escape", "Escape", 27);
+      const before = await page.eval(`window.scrollY`);
+      await page.key("Enter", "Enter", 13);
+      try {
+        // 60s, not 30: software-rendered WebGL can starve the page's CPU across
+        // back-to-back runs, and a slow-but-correct handoff is not a failure.
+        await page.waitFor(`/farms within/.test(document.body.innerText)`, 60000);
+      } catch (error) {
+        const snapshot = await page.eval(`({
+          url: location.pathname + location.search + location.hash,
+          input: document.querySelector("#hero-near")?.value,
+          heroStatus: document.querySelector(".hero-status")?.innerText,
+          button: document.querySelector(".hero-field > button")?.innerText,
+          listOpen: !document.querySelector(".hero-suggestions")?.hidden,
+          locationStatus: document.querySelector(".location-status")?.innerText,
+          focused: document.activeElement?.id || document.activeElement?.tagName,
+        })`);
+        throw new Error(`${error.message}\nhero submit state: ${JSON.stringify(snapshot)}`);
+      }
+      await sleep(1200);
+      findings.enterNavigation = await page.eval(`({
+        scrollBefore: ${before},
+        scrollAfter: Math.round(window.scrollY),
+        discoverTop: Math.round(document.getElementById("discover").getBoundingClientRect().top),
         url: location.pathname + location.search + location.hash,
-        input: document.querySelector("#hero-near")?.value,
-        heroStatus: document.querySelector(".hero-status")?.innerText,
-        button: document.querySelector(".hero-field > button")?.innerText,
-        listOpen: !document.querySelector(".hero-suggestions")?.hidden,
-        locationStatus: document.querySelector(".location-status")?.innerText,
         focused: document.activeElement?.id || document.activeElement?.tagName,
+        count: document.body.innerText.match(/[\\d,]+ farms within[^\\n]*/)?.[0],
       })`);
-      throw new Error(`${error.message}\nhero submit state: ${JSON.stringify(snapshot)}`);
+
     }
-    await sleep(1200);
-    findings.enterNavigation = await page.eval(`({
-      scrollBefore: ${before},
-      scrollAfter: Math.round(window.scrollY),
-      discoverTop: Math.round(document.getElementById("discover").getBoundingClientRect().top),
-      url: location.pathname + location.search + location.hash,
-      focused: document.activeElement?.id || document.activeElement?.tagName,
-      count: document.body.innerText.match(/[\\d,]+ farms within[^\\n]*/)?.[0],
-    })`);
 
     // The explorer, list and map, on the Field guide basemap.
     await page.goto(`${BASE}/?near=madison-wi&radiusMiles=50&sort=distance&view=map#discover`);
@@ -389,16 +396,47 @@ async function run() {
       findings.fullDetailStatus = await page.eval(`[...document.querySelectorAll('[role="status"]')].map((el) => el.innerText.trim()).filter(Boolean).join(" | ")`);
     }
 
+    // Density hands over to pins as you zoom in: heatmap at regional zoom,
+    // real pins by street zoom. "Nothing removes a farm" has to hold at both.
+    await page.eval(`localStorage.clear()`);
+    await page.goto(`${BASE}/?near=madison-wi&radiusMiles=50&sort=distance&view=map#discover`);
+    await page.mapIdle();
+    await showMap(page);
+    if (await clickButton(page, /^Map options/)) {
+      await page.waitFor(`document.querySelector(".map-options-panel")`);
+      findings.densityButton = await clickButton(page, /^Density$/);
+      await sleep(800);
+      await clickButton(page, /^Map options/);
+      await sleep(1500);
+      await showMap(page);
+      await page.shot("12-desktop-density-regional");
+      findings.densitySelectedFarm = await clickButton(page, /^Map$/);
+      await sleep(1800);
+      // Stop mid-handover (~z13), where lone farms are in view and pins should
+      // be partly faded in, then carry on to street zoom where they are solid.
+      await zoomMap(page, 9, 42);
+      await page.mapIdle();
+      await showMap(page);
+      await page.shot("13-desktop-density-handover");
+      await zoomMap(page, 3, 0);
+      await page.mapIdle();
+      await showMap(page);
+      await page.shot("14-desktop-density-street");
+    }
+
     // ---- Mobile 390x844 ---------------------------------------------------
     console.log("mobile 390x844");
     await page.viewport(390, 844, true);
     await page.eval(`localStorage.clear()`);
-    await page.goto(`${BASE}/`);
-    await page.hydrated("#hero-near");
-    await page.type("#hero-near", "new orl");
-    await page.waitFor(`!document.querySelector(".hero-suggestions").hidden`);
-    await page.shot("09-mobile-hero-typeahead");
-    findings.mobileTapTargets = await page.eval(`[...document.querySelectorAll(".hero-suggestions li, .hero-field > button")].map((el) => Math.round(el.getBoundingClientRect().height))`);
+    if (!MAP_ONLY) {
+      await page.goto(`${BASE}/`);
+      await page.hydrated("#hero-near");
+      await page.type("#hero-near", "new orl");
+      await page.waitFor(`!document.querySelector(".hero-suggestions").hidden`);
+      await page.shot("09-mobile-hero-typeahead");
+      findings.mobileTapTargets = await page.eval(`[...document.querySelectorAll(".hero-suggestions li, .hero-field > button")].map((el) => Math.round(el.getBoundingClientRect().height))`);
+
+    }
 
     await page.goto(`${BASE}/?near=madison-wi&radiusMiles=50&sort=distance#discover`);
     await page.waitFor(`/farms within/.test(document.body.innerText)`, 30000);
