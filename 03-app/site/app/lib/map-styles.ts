@@ -5,12 +5,14 @@ import type { StyleSpecification } from "maplibre-gl";
  *
  * `guide` is the default: a hand-authored, deliberately cartoon-flat style in
  * the spirit of a driving app — saturated land, bold rounded road casings, and
- * almost no labels competing with the farm pins. It is also the fast one: ~22
- * layers against the 111 in a full OSM style, which is what keeps panning
- * smooth when the map is carrying thousands of server-side clusters.
+ * almost no labels competing with the farm pins. It is also the fast one: 19
+ * layers against the 111 in Liberty, which is what keeps panning smooth when
+ * the map is carrying thousands of server-side clusters.
  *
- * `detailed` swaps in the full OpenFreeMap Liberty style for people who want
- * street names, buildings, and POIs while planning an actual trip to a farm.
+ * `detailed` is the full OpenFreeMap Liberty style with its building extrusions
+ * re-painted so height reads (see `detailPaint`). It is for someone who has
+ * picked a farm and is now working out the last mile, so the map also tilts and
+ * unlocks street-level zoom when it is selected.
  *
  * Both read the same OpenMapTiles vector source, so switching styles reuses
  * tiles already in the cache instead of refetching geography.
@@ -18,32 +20,48 @@ import type { StyleSpecification } from "maplibre-gl";
 export type BasemapId = "guide" | "detailed";
 
 export const basemaps: { id: BasemapId; label: string; hint: string }[] = [
-  { id: "guide", label: "Field guide", hint: "Simplified, faster, fewer labels" },
-  { id: "detailed", label: "Full detail", hint: "Street names, buildings, and places" },
+  { id: "guide", label: "Field guide", hint: "Simplified and fast — built for scanning farm pins" },
+  { id: "detailed", label: "Full detail", hint: "Street names, landmarks, and tilted 3D buildings" },
 ];
 
 export const detailedStyleUrl = "https://tiles.openfreemap.org/styles/liberty";
+
+/**
+ * Whether the map has to swap its style to show `requested`.
+ *
+ * `applied` is the basemap whose style the map was last given — at
+ * construction, then at each swap — not the one the viewer last clicked.
+ * Keying on it rather than on "did the effect run" is what keeps the first
+ * load to one style load: the effect first runs when the map becomes ready,
+ * on the style the map just finished loading, and re-applying it would throw
+ * the style and the farm overlay away and (for Full detail) refetch Liberty.
+ * A switch made before the map was ready still differs from `applied`, so it
+ * is honoured the moment the map can take it.
+ */
+export function needsStyleSwap(applied: BasemapId, requested: BasemapId): boolean {
+  return applied !== requested;
+}
 
 const vectorSource = "https://tiles.openfreemap.org/planet";
 const glyphs = "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf";
 
 const palette = {
-  land: "#f2efe3",
-  green: "#d8e3c4",
-  greenDeep: "#c6d8ac",
-  water: "#a9d3e4",
-  waterLine: "#8cc2d8",
-  built: "#eae5d5",
-  motorway: "#ffc95c",
-  motorwayCase: "#e0a52f",
+  land: "#eeead9",
+  green: "#cbe0a8",
+  greenDeep: "#b4d48c",
+  water: "#8ecbe6",
+  waterLine: "#6fb9da",
+  built: "#e4ddc7",
+  motorway: "#ffbe3d",
+  motorwayCase: "#d18f18",
   major: "#ffffff",
-  majorCase: "#d9d2bd",
-  minor: "#faf8f0",
-  minorCase: "#e2dbc6",
-  rail: "#d5cdb8",
-  label: "#4a5347",
-  labelHalo: "#fbfcf6",
-  boundary: "#cfc6ae",
+  majorCase: "#cdc4a8",
+  minor: "#fdfcf6",
+  minorCase: "#ddd3b6",
+  rail: "#cfc5ab",
+  label: "#3f4a3d",
+  labelHalo: "#fdfdf7",
+  boundary: "#c4b99c",
 };
 
 /** Road width ramps, shared by a road and its casing so the casing reads as an outline. */
@@ -54,9 +72,9 @@ function roadWidth(stops: [number, number][], multiplier = 1) {
   ] as unknown as StyleSpecification["layers"][number]["paint"];
 }
 
-const motorwayStops: [number, number][] = [[5, 0.6], [8, 1.8], [11, 5], [14, 11], [18, 26]];
-const majorStops: [number, number][] = [[7, 0.4], [10, 1.6], [13, 4.5], [16, 11], [18, 22]];
-const minorStops: [number, number][] = [[12, 0.6], [14, 2.2], [16, 5], [18, 13]];
+const motorwayStops: [number, number][] = [[5, 0.8], [8, 2.4], [11, 6.5], [14, 14], [18, 32]];
+const majorStops: [number, number][] = [[7, 0.5], [10, 2.1], [13, 5.8], [16, 14], [18, 27]];
+const minorStops: [number, number][] = [[12, 0.8], [14, 2.8], [16, 6.5], [18, 16]];
 
 /**
  * Build the simplified basemap.
@@ -304,3 +322,48 @@ export function guideStyle(): StyleSpecification {
     ],
   } as StyleSpecification;
 }
+
+/**
+ * The zoom at which the detailed basemap starts paying for itself.
+ *
+ * Liberty draws flat building fills to z14 and switches to its own
+ * `building-3d` extrusion layer from z14 up; its POI label layers start at z15.
+ * Below this, "full detail" is just a busier version of the same geography, so
+ * the map does not tilt and there is nothing extra to tune.
+ */
+export const detailZoom = 15;
+
+/** The tilt applied in detailed mode so building massing reads as massing. */
+export const detailPitch = 52;
+
+/**
+ * Paint overrides applied to the detailed basemap once Liberty has loaded.
+ *
+ * An earlier pass added a new `building-3d` fill-extrusion layer and a
+ * `poi-landmark` symbol layer on top of Liberty. Both were redundant and one
+ * was inert: Liberty already ships `building-3d` reading `render_height` and
+ * `render_min_height` from the same tiles, and it already labels POIs from z15
+ * through three rank-banded layers. MapLibre refuses a second layer with an id
+ * that is already taken, so the extrusion override never applied at all.
+ *
+ * What Liberty does *not* do is make that massing readable: it paints every
+ * building one flat grey and snaps the whole layer to 80% opacity the instant
+ * z14 is crossed. These overrides keep the original intent — height you can
+ * read, arriving without a pop — and drop the duplicate POI layer, because the
+ * farm pins are installed above the basemap and were never at risk of being
+ * buried by it.
+ */
+export const detailPaint: { layer: string; property: string; value: unknown }[] = [
+  {
+    layer: "building-3d",
+    property: "fill-extrusion-color",
+    // Lift the tint with height so massing reads without needing shadows.
+    value: ["interpolate", ["linear"], ["coalesce", ["get", "render_height"], 5], 0, "#ded7c6", 60, "#cfc7b2", 200, "#bdb49d"],
+  },
+  {
+    layer: "building-3d",
+    // Fade in rather than popping a whole city into 3D at the zoom edge.
+    property: "fill-extrusion-opacity",
+    value: ["interpolate", ["linear"], ["zoom"], 14, 0, 15.5, 0.85],
+  },
+];

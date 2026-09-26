@@ -41,6 +41,47 @@ export function farmDistanceKm(origin: LatLng, farm: Farm): number {
   return haversineKm(origin, { lat: farm.latitude, lng: farm.longitude });
 }
 
+const COMPASS = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"] as const;
+
+/**
+ * Initial great-circle bearing from `origin` to `target`, in degrees clockwise
+ * from north.
+ *
+ * Not the same as the angle you would measure on the screen: the map is Web
+ * Mercator, so a straight line drawn on it is a rhumb line, not a great circle.
+ * Over the distances a farm search covers the two agree to well under a degree,
+ * and "NE" is a direction someone drives in, not a bearing they steer.
+ */
+export function compassBearing(origin: LatLng, target: LatLng): number {
+  const lat1 = toRad(origin.lat);
+  const lat2 = toRad(target.lat);
+  const dLng = toRad(target.lng - origin.lng);
+  const y = Math.sin(dLng) * Math.cos(lat2);
+  const x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(dLng);
+  return (((Math.atan2(y, x) * 180) / Math.PI) + 360) % 360;
+}
+
+/** Eight-point compass label for a bearing. `N` covers 337.5°–22.5°. */
+export function compassPoint(bearing: number): (typeof COMPASS)[number] {
+  const normalized = ((bearing % 360) + 360) % 360;
+  return COMPASS[Math.round(normalized / 45) % 8];
+}
+
+/**
+ * "12 mi NE" — how far and which way, from the origin the search is scoped to.
+ *
+ * Distance alone tells someone how big a detour a farm is; the direction tells
+ * them whether it is on the way. Returns null when there is no origin to be
+ * relative to, or the farm has no public point to be relative from.
+ */
+export function relativeHeading(origin: LatLng | null, target: LatLng | null, miles: number | null): { label: string; bearing: number | null } | null {
+  if (miles === null || !Number.isFinite(miles)) return null;
+  const distance = miles < 10 ? miles.toFixed(1).replace(/\.0$/, "") : String(Math.round(miles));
+  if (!origin || !target) return { label: `${distance} mi`, bearing: null };
+  const bearing = compassBearing(origin, target);
+  return { label: `${distance} mi ${compassPoint(bearing)}`, bearing };
+}
+
 /** Farms nearest an origin, closest first. Pure and cheap over the full set. */
 export function nearestFarms(origin: LatLng, farms: Farm[]): Farm[] {
   return [...farms].sort((a, b) => farmDistanceKm(origin, a) - farmDistanceKm(origin, b));

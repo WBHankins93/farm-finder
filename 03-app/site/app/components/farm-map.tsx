@@ -1,26 +1,13 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import maplibregl, { type ExpressionSpecification, type GeoJSONSource, type Map as MapLibreMap } from "maplibre-gl";
+import maplibregl, { type GeoJSONSource, type Map as MapLibreMap } from "maplibre-gl";
 import type { FeatureCollection, Point } from "geojson";
 import type { DiscoveryScope, FarmMapFeature, FarmSummary, LatLng, MapBounds } from "../lib/discovery-contract";
 import { categoryColors } from "../lib/farms";
-import { basemaps, detailedStyleUrl, guideStyle, type BasemapId } from "../lib/map-styles";
+import { basemaps, detailedStyleUrl, detailPaint, detailPitch, detailZoom, guideStyle, needsStyleSwap, type BasemapId } from "../lib/map-styles";
+import { densityPaint, describeMapOptions, farmLabelLayout, farmPointMinZoom, farmPointPaint, layerVisibility, pinModes, readMapOptions, spotlightCategories, writeMapOptions, type MapOptions, type PinMode } from "../lib/map-options";
 import { Mark, markForCategory } from "../lib/marks";
-
-const categoryExpression: ExpressionSpecification = [
-  "match", ["get", "category"],
-  "Produce", categoryColors.Produce,
-  "Mixed", categoryColors.Mixed,
-  "Meat", categoryColors.Meat,
-  "Honey/Specialty", categoryColors["Honey/Specialty"],
-  "Dairy", categoryColors.Dairy,
-  "Seafood", categoryColors.Seafood,
-  "Rice", categoryColors.Rice,
-  "Urban Farm", categoryColors["Urban Farm"],
-  "Value-Added", categoryColors["Value-Added"],
-  "#596b60",
-];
 
 function toFeatures(items: FarmMapFeature[]): FeatureCollection<Point> {
   return {
@@ -63,20 +50,6 @@ export type FarmMapProps = {
   onOpenProfile: (id: string) => void;
 };
 
-const basemapStorageKey = "farmfinder.basemap";
-
-function readStoredBasemap(): BasemapId {
-  // Per-viewer convenience only; a browser that blocks site data just gets the
-  // default, which is the fast style.
-  try {
-    const stored = window.localStorage.getItem(basemapStorageKey);
-    if (stored === "guide" || stored === "detailed") return stored;
-  } catch {
-    /* storage unavailable */
-  }
-  return "guide";
-}
-
 export default function FarmMap(props: FarmMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
@@ -85,9 +58,30 @@ export default function FarmMap(props: FarmMapProps) {
   const lastScopeKeyRef = useRef("");
   const [mapReady, setMapReady] = useState(false);
   const [mapError, setMapError] = useState("");
-  const [basemap, setBasemap] = useState<BasemapId>(readStoredBasemap);
+  const [panelOpen, setPanelOpen] = useState(false);
+  // Read once, lazily. `farm-map` is a `dynamic(..., { ssr: false })` import,
+  // so this only ever runs in the browser and there is no server render for it
+  // to disagree with.
+  const [options, setOptions] = useState<MapOptions>(readMapOptions);
+  const optionsRef = useRef(options);
+  const basemap = options.basemap;
   const basemapRef = useRef(basemap);
+  // The basemap whose style the map actually holds: set when the map is
+  // constructed and whenever `setStyle` runs, never merely because the viewer
+  // clicked. See `needsStyleSwap`.
+  const appliedBasemapRef = useRef<BasemapId>(basemap);
   const installOverlayRef = useRef<((map: MapLibreMap) => void) | null>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const panelButtonRef = useRef<HTMLButtonElement>(null);
+
+  function update(patch: Partial<MapOptions>) {
+    setOptions((current) => {
+      const next = { ...current, ...patch };
+      writeMapOptions(next);
+      return next;
+    });
+  }
+
 
   useEffect(() => {
     propsRef.current = props;
@@ -103,13 +97,18 @@ export default function FarmMap(props: FarmMapProps) {
 
     let map: MapLibreMap;
     try {
+      appliedBasemapRef.current = basemapRef.current;
       map = new maplibregl.Map({
         container: containerRef.current,
         style: basemapRef.current === "detailed" ? detailedStyleUrl : guideStyle(),
         center: [-98.5, 38.2],
         zoom: 3.35,
         minZoom: 2.5,
-        maxZoom: 16,
+        // The detailed basemap only earns its name at street level: Liberty's
+        // building extrusions start at z14 and its POI labels at z15. Stopping
+        // at 16 left the last mile — driveways, barn footprints, the entrance
+        // you actually turn into — out of reach of the toggle that promises it.
+        maxZoom: 18,
         attributionControl: false,
         // Panning stays smooth over a dense national result set: no cross-fade
         // between tile zooms, a larger tile cache so a pan-back is instant, and
@@ -123,20 +122,52 @@ export default function FarmMap(props: FarmMapProps) {
       return;
     }
 
-    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
+    // The compass is the only way back to north-up once the detailed basemap
+    // tilts the camera (or a two-finger drag rotates it), so it has to be here.
+    // `visualizePitch` also makes the current tilt legible at a glance.
+    //
+    // Top-right, not bottom-right: the bottom of the map belongs to the farm
+    // detail sheet, which on mobile is full-width and would sit straight on top
+    // of the zoom buttons. Attribution stays at the bottom, where the sheet
+    // clears it — it is a licence requirement and must stay readable.
+    map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), "top-right");
     map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: "Farm locations may be approximate" }), "bottom-right");
 
+    // Liberty owns these layers, so this re-paints them in place rather than
+    // stacking duplicates on top. It runs on every style load because
+    // `setStyle` throws the previous style — and these overrides — away.
+    function applyDetailPaint(target: MapLibreMap) {
+      if (basemapRef.current !== "detailed") return;
+      for (const override of detailPaint) {
+        if (!target.getLayer(override.layer)) continue;
+        // `styledata` fires repeatedly as sources resolve; re-setting an
+        // identical paint value would repaint the map each time.
+        if (JSON.stringify(target.getPaintProperty(override.layer, override.property)) === JSON.stringify(override.value)) continue;
+        target.setPaintProperty(override.layer, override.property, override.value);
+      }
+    }
+
     function installFarmOverlay(target: MapLibreMap) {
+      applyDetailPaint(target);
       if (target.getSource("farms")) return;
       const current = propsRef.current;
+      const current2 = optionsRef.current;
+      const visible = layerVisibility(current2);
       target.addSource("farms", { type: "geojson", data: toFeatures(current.features) });
       target.addSource("selected-farm", { type: "geojson", data: selectedFeature(current.selectedFarm) });
       target.addSource("hovered-farm", { type: "geojson", data: selectedFeature(current.hoveredFarm) });
       target.addSource("user-origin", { type: "geojson", data: userFeature(current.userOrigin) });
 
+      // Density sits under everything so it reads as ground the farms stand on,
+      // never as something drawn over them. It summarises the same source.
+      target.addLayer({ id: "farm-density", type: "heatmap", source: "farms", layout: { visibility: visible["farm-density"] ? "visible" : "none" }, paint: densityPaint(current2) });
+      target.addLayer({ id: "farm-points", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "farm"], minzoom: farmPointMinZoom(current2), layout: { visibility: visible["farm-points"] ? "visible" : "none" }, paint: farmPointPaint(current2) });
+      target.addLayer({ id: "farm-labels", type: "symbol", source: "farms", filter: ["==", ["get", "kind"], "farm"], minzoom: 11, layout: { ...farmLabelLayout(), visibility: visible["farm-labels"] ? "visible" : "none" }, paint: { "text-color": "#3f4a3d", "text-halo-color": "#fdfdf7", "text-halo-width": 1.5 } });
+      // Clusters draw above the individual pins. Added before them, a dense view
+      // painted pins straight across the cluster counts and made them
+      // unreadable — most visibly on mobile, where the map is narrowest.
       target.addLayer({ id: "server-clusters", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "cluster"], paint: { "circle-color": "rgba(251,252,246,.96)", "circle-radius": ["step", ["get", "count"], 20, 20, 25, 75, 31], "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
       target.addLayer({ id: "server-cluster-count", type: "symbol", source: "farms", filter: ["==", ["get", "kind"], "cluster"], layout: { "text-field": ["get", "count"], "text-size": 12, "text-font": ["Noto Sans Bold"] }, paint: { "text-color": "#173f2c" } });
-      target.addLayer({ id: "farm-points", type: "circle", source: "farms", filter: ["==", ["get", "kind"], "farm"], paint: { "circle-color": categoryExpression, "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 4.5, 10, 8], "circle-stroke-width": 2, "circle-stroke-color": "#fbfcf6", "circle-opacity": 0.96 } });
       target.addLayer({ id: "hovered-ring", type: "circle", source: "hovered-farm", paint: { "circle-radius": 12, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 2, "circle-stroke-color": "#173f2c" } });
       target.addLayer({ id: "selected-ring", type: "circle", source: "selected-farm", paint: { "circle-radius": 14, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 3, "circle-stroke-color": "#c65e36" } });
       target.addLayer({ id: "user-halo", type: "circle", source: "user-origin", paint: { "circle-radius": 12, "circle-color": "rgba(255,250,240,.5)", "circle-stroke-width": 1, "circle-stroke-color": "#173f2c" } });
@@ -226,21 +257,109 @@ export default function FarmMap(props: FarmMapProps) {
     }
   }, [props.scope, mapReady]);
 
+  // Everything except the basemap can be applied to the live map: no style
+  // reload, no tile refetch, no camera move. Only the paint changes.
+  useEffect(() => {
+    optionsRef.current = options;
+    const map = mapRef.current;
+    if (!mapReady || !map || !map.getLayer("farm-points")) return;
+    const visible = layerVisibility(options);
+    for (const [layer, on] of Object.entries(visible)) {
+      if (map.getLayer(layer)) map.setLayoutProperty(layer, "visibility", on ? "visible" : "none");
+    }
+    for (const [property, value] of Object.entries(farmPointPaint(options))) {
+      map.setPaintProperty("farm-points", property, value);
+    }
+    map.setLayerZoomRange("farm-points", farmPointMinZoom(options), 24);
+    if (map.getLayer("farm-density")) {
+      for (const [property, value] of Object.entries(densityPaint(options))) {
+        map.setPaintProperty("farm-density", property, value);
+      }
+    }
+  }, [options, mapReady]);
+
+  // The scale bar is a control, not paint, so it is added and removed rather
+  // than toggled.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!mapReady || !map) return;
+    if (!options.scale) return;
+    const control = new maplibregl.ScaleControl({ maxWidth: 110, unit: "imperial" });
+    map.addControl(control, "bottom-left");
+    return () => {
+      // On unmount the map effect's cleanup has already run `map.remove()`,
+      // which removes every control itself. A second `removeControl` would call
+      // `ScaleControl.onRemove` on a detached control and throw.
+      if (map.hasControl(control)) map.removeControl(control);
+    };
+  }, [options.scale, mapReady]);
+
   useEffect(() => {
     const map = mapRef.current;
     basemapRef.current = basemap;
-    try {
-      window.localStorage.setItem(basemapStorageKey, basemap);
-    } catch {
-      /* storage unavailable */
-    }
     if (!mapReady || !map) return;
     // Both styles read the same vector source, so the swap reuses cached tiles
     // and only re-rasterises. `diff: false` avoids a slow layer-level diff
     // against a style with a completely different layer set.
-    map.setStyle(basemap === "detailed" ? detailedStyleUrl : guideStyle(), { diff: false });
-    map.once("styledata", () => installOverlayRef.current?.(map));
+    //
+    // Skipped when the map already holds this style — above all on the first
+    // run, which happens as the map finishes loading the very style it would
+    // otherwise be handed again.
+    if (needsStyleSwap(appliedBasemapRef.current, basemap)) {
+      appliedBasemapRef.current = basemap;
+      map.setStyle(basemap === "detailed" ? detailedStyleUrl : guideStyle(), { diff: false });
+      map.once("styledata", () => installOverlayRef.current?.(map));
+    }
+
+    // Extrusions at pitch 0 are just tinted footprints, so detailed mode tilts
+    // — but only from `detailZoom` up, where there is massing to see and the
+    // person is plainly doing last-mile work. Tilting a regional view would
+    // pull in a horizon of tiles and win nothing, and a camera that moves on
+    // its own while you are scanning pins is worse than flat buildings.
+    // Switching back always flattens; the compass undoes it either way, and
+    // `easeTo` is instant under reduced motion by MapLibre's own rule.
+    const wantsTilt = basemap === "detailed" && options.tilt === "auto" && map.getZoom() >= detailZoom;
+    const target = wantsTilt ? detailPitch : 0;
+    if (Math.abs(map.getPitch() - target) > 0.5) {
+      suppressMoveRef.current = true;
+      map.easeTo({ pitch: target, bearing: basemap === "detailed" ? map.getBearing() : 0, duration: 420 });
+    }
+    // `options.tilt` is read, not depended on: flipping it should not re-run a
+    // style swap. The dedicated effect below handles that flip on its own.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [basemap, mapReady]);
+
+  // Turning tilt off flattens immediately; turning it back on waits for the
+  // next basemap switch rather than tilting a map nobody asked to move.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!mapReady || !map || options.tilt !== "flat" || map.getPitch() === 0) return;
+    suppressMoveRef.current = true;
+    map.easeTo({ pitch: 0, duration: 380 });
+  }, [options.tilt, mapReady]);
+
+
+  // A panel that covers the map has to be dismissible without hunting for the
+  // toggle again: Escape returns focus to the button, a click outside just
+  // closes it.
+  useEffect(() => {
+    if (!panelOpen) return;
+    function onKey(event: KeyboardEvent) {
+      if (event.key !== "Escape") return;
+      setPanelOpen(false);
+      panelButtonRef.current?.focus();
+    }
+    function onPointer(event: MouseEvent) {
+      if (panelRef.current?.contains(event.target as Node)) return;
+      setPanelOpen(false);
+    }
+    document.addEventListener("keydown", onKey);
+    document.addEventListener("mousedown", onPointer);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.removeEventListener("mousedown", onPointer);
+    };
+  }, [panelOpen]);
 
   function fitVisible() {
     const map = mapRef.current;
@@ -253,28 +372,119 @@ export default function FarmMap(props: FarmMapProps) {
   }
 
   const selected = props.selectedFarm;
+  const activeBasemap = basemaps.find((option) => option.id === basemap) ?? null;
   return (
     <div className="map-wrap">
       <div ref={containerRef} className="map-canvas" role="region" aria-label="Interactive map of farm results" />
       {mapError ? <div className="map-fallback" role="status"><span aria-hidden="true">⌁</span><strong>Keep browsing in the farm list.</strong><p>{mapError} Search, filters, and profiles still work.</p></div> : !mapReady ? <div className="map-loading" role="status"><span />Preparing the field map…</div> : null}
       {!mapError ? (
-        <div className="map-basemap" role="group" aria-label="Map detail level">
-          {basemaps.map((option) => (
-            <button
-              key={option.id}
-              type="button"
-              className={basemap === option.id ? "active" : ""}
-              aria-pressed={basemap === option.id}
-              title={option.hint}
-              onClick={() => setBasemap(option.id)}
-            >
-              {option.label}
-            </button>
-          ))}
+        <div className="map-options" ref={panelRef}>
+          <button
+            type="button"
+            ref={panelButtonRef}
+            className={`map-options-toggle ${panelOpen ? "open" : ""}`}
+            aria-expanded={panelOpen}
+            aria-controls="map-options-panel"
+            onClick={() => setPanelOpen((open) => !open)}
+          >
+            <Mark name="layers" aria-hidden="true" />
+            Map options
+          </button>
+          {panelOpen ? (
+            <div className="map-options-panel" id="map-options-panel" role="group" aria-label="Map options">
+              <fieldset>
+                <legend>Basemap</legend>
+                <div className="option-row">
+                  {basemaps.map((option) => (
+                    <button key={option.id} type="button" className={basemap === option.id ? "active" : ""} aria-pressed={basemap === option.id} aria-describedby={`basemap-hint-${option.id}`} onClick={() => update({ basemap: option.id })}>
+                      {option.label}
+                    </button>
+                  ))}
+                </div>
+                {/* `title` is a hover tooltip and reaches neither keyboard nor
+                    touch, so the active hint is shown as text. Each button is
+                    described by its own hint, kept in a hidden node, so the
+                    option you have not picked says what it would do. */}
+                <p className="option-hint">{activeBasemap?.hint}</p>
+                {basemaps.map((option) => <span key={option.id} id={`basemap-hint-${option.id}`} hidden>{option.hint}</span>)}
+              </fieldset>
+
+              <fieldset>
+                <legend>Farms</legend>
+                <div className="option-row">
+                  {pinModes.map((mode) => (
+                    <button key={mode.id} type="button" className={options.pins === mode.id ? "active" : ""} aria-pressed={options.pins === mode.id} aria-describedby={`pin-hint-${mode.id}`} onClick={() => update({ pins: mode.id as PinMode })}>
+                      {mode.label}
+                    </button>
+                  ))}
+                </div>
+                <p className="option-hint">{pinModes.find((mode) => mode.id === options.pins)?.hint}</p>
+                {pinModes.map((mode) => <span key={mode.id} id={`pin-hint-${mode.id}`} hidden>{mode.hint}</span>)}
+              </fieldset>
+
+              <fieldset>
+                <legend>Highlight a category</legend>
+                <div className="option-row option-wrap">
+                  <button type="button" className={options.spotlight === "" ? "active" : ""} aria-pressed={options.spotlight === ""} onClick={() => update({ spotlight: "" })}>All</button>
+                  {spotlightCategories.map((category) => (
+                    <button key={category} type="button" className={options.spotlight === category ? "active" : ""} aria-pressed={options.spotlight === category} onClick={() => update({ spotlight: category })}>
+                      <Mark name={markForCategory(category)} style={{ color: categoryColors[category] }} aria-hidden="true" />
+                      {category}
+                    </button>
+                  ))}
+                </div>
+                {/* Said out loud because "highlight" and "filter" look the same
+                    from the outside, and this one does not change the results. */}
+                <p className="option-hint">Dims the other farms. Nothing is removed, and the result count does not change — use <strong>All filters</strong> to narrow the directory itself.</p>
+              </fieldset>
+
+              <fieldset>
+                <legend>Detail</legend>
+                <label className="option-check">
+                  <input type="checkbox" checked={options.labels} onChange={(event) => update({ labels: event.target.checked })} />
+                  Farm names on the map
+                  <span>From zoom 11. Names that collide are dropped; every pin still draws.</span>
+                </label>
+                <label className="option-check">
+                  <input type="checkbox" checked={options.tilt === "auto"} onChange={(event) => update({ tilt: event.target.checked ? "auto" : "flat" })} />
+                  Tilt for 3D buildings
+                  <span>Full detail only, from zoom {detailZoom} up.</span>
+                </label>
+                <label className="option-check">
+                  <input type="checkbox" checked={options.scale} onChange={(event) => update({ scale: event.target.checked })} />
+                  Scale bar
+                </label>
+              </fieldset>
+            </div>
+          ) : null}
         </div>
       ) : null}
+      {/* Changing an option redraws the map and otherwise says nothing. */}
+      {!mapError ? <p className="sr-only" role="status">{activeBasemap ? describeMapOptions(options, activeBasemap.label) : ""}</p> : null}
       {!mapError ? <div className="map-tools" role="group" aria-label="Map tools"><button type="button" onClick={fitVisible}>Fit results</button>{props.searchAreaAvailable ? <button className="search-area-button" type="button" onClick={props.onSearchArea}>Search this area</button> : null}</div> : null}
-      {!mapError ? <div className="map-key" aria-label="Map legend"><span><i className="key-dot produce" /> Produce</span><span><i className="key-dot meat" /> Meat</span><span><i className="key-dot mixed" /> Mixed</span><span><i className="key-dot more" /> More</span></div> : null}
+      {!mapError ? (
+        // The legend was four static swatches. Since the panel already knows how
+        // to highlight a category, the swatches may as well be the shortcut to
+        // it — and the fourth opens the panel, where the other six live.
+        <div className="map-key" role="group" aria-label="Map legend and category highlight">
+          {["Produce", "Meat", "Mixed"].map((category) => (
+            <button
+              key={category}
+              type="button"
+              className={options.spotlight === category ? "active" : ""}
+              aria-pressed={options.spotlight === category}
+              onClick={() => update({ spotlight: options.spotlight === category ? "" : category })}
+            >
+              <i className="key-dot" style={{ background: categoryColors[category] }} />
+              {category}
+            </button>
+          ))}
+          <button type="button" className="key-more" onClick={() => { setPanelOpen(true); panelButtonRef.current?.focus(); }}>
+            <i className="key-dot more" />
+            More…
+          </button>
+        </div>
+      ) : null}
       {!mapError && selected ? (
         <aside className="map-detail map-detail-sheet" role="region" aria-live="polite" aria-label={`${selected.name} details`}>
           <button className="detail-close" type="button" onClick={() => props.onSelect("")} aria-label="Close farm details">×</button>
