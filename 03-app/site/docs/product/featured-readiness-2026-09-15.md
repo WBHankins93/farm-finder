@@ -16,6 +16,11 @@ and the result cards were rebuilt in a follow-up pass (item 3 below is fixed).
 What is not ready is the twenty seconds *before* the map: a visitor who types a
 city can currently see nothing happen at all.
 
+**Update 2026-09-25:** both named fixes are done — the hero city search now
+suggests as you type, resolves the spellings people use, moves the page to the
+results, and says so out loud when a place does not resolve. See backlog items
+2–4.
+
 A third item is not a fix but a constraint on the claim: for the flagship query,
 most records carry no products and no website. That shapes what the post can
 honestly say, and it is a data-lane problem, not a site bug. The cards now name
@@ -36,7 +41,10 @@ leaving it inert.
 
 ## What a first-time visitor hits, in order
 
-### 1. Typing a city can fail silently — blocker
+### 1. Typing a city can fail silently — blocker, fixed 2026-09-25
+
+**Fixed** by the hero city search (backlog items 3 and 4, below); what follows
+is the state the page was in when it was reviewed.
 
 Type `madison wi` (no comma) and press the button. The URL becomes
 `?sort=distance`, the page does not move, and the only feedback is a status line
@@ -49,7 +57,10 @@ field is a bare `<input>` — no suggestion list, no `<datalist>`, no combobox
 role — so nothing steers the visitor toward a spelling that works, and nothing
 tells them when theirs did not.
 
-### 2. Even a successful search does not move the page — blocker
+### 2. Even a successful search does not move the page — blocker, fixed 2026-09-25
+
+**Fixed** by the hero city search (backlog item 2, below); what follows is the
+state the page was in when it was reviewed.
 
 Submit `Madison, WI`. The query is right, the results load, the URL becomes
 `?near=madison-wi&radiusMiles=50&sort=distance#discover` — and `scrollY` stays
@@ -133,13 +144,33 @@ All verified in-browser at both widths; see
 
 1. ~~Give `.farm-card-main` the two columns it actually renders.~~ **Done**, and
    the card was made dense and icon-led at the same time — see above.
-2. **Scroll to `#discover` on a successful hero submit**, and submit on Enter.
-3. **Fail loudly when a place does not resolve**: keep the visitor at the hero,
-   put the message next to the field, and suggest the nearest matches — the
-   `/v1/places` response that returns nothing for `madison wi` returns four for
-   `Madison`, so the suggestions already exist.
-4. **Type-ahead on the hero field** from `/v1/places`, which removes the class of
-   failure in 1–3 rather than patching it.
+2. ~~Scroll to `#discover` on a successful hero submit, and submit on Enter.~~
+   **Done.** Enter submits. A city that resolves updates the URL the explorer
+   already reads (`?near=…#discover`), scrolls to the results (instantly under
+   `prefers-reduced-motion`), and moves focus to the results heading, so
+   keyboard and screen-reader users land where everyone else is now looking.
+3. ~~Fail loudly when a place does not resolve.~~ **Done.** The visitor stays at
+   the hero and the message sits under the field, in a live region the field
+   is described by. A typo gets "did you mean" buttons from looser lookups
+   (`madisonn wi` offers Madison, WI). A city in several states ("Springfield",
+   "Madison") opens the list and asks rather than guessing; a state the
+   visitor typed always beats farm count, so `madison ms` goes to Mississippi.
+   Without JavaScript the form still submits `?place=` to `/#discover`, and the
+   explorer now says when it cannot resolve the place instead of staying blank.
+4. ~~Type-ahead on the hero field from `/v1/places`.~~ **Done.** The field is a
+   combobox with a debounced suggestion list, arrow-key and Escape handling,
+   and each keystroke aborting the request before it. Underneath, place
+   matching is now punctuation- and state-name-tolerant
+   (`app/lib/place-match.ts`): `madison wi` and `madison wisconsin` both
+   resolve to Madison, WI, where before they returned nothing. A state name
+   that ends a real city's name is not read as the state — `mount washington`
+   goes to Mount Washington, KY, not Mount Vernon, WA. Place labels are
+   normalized once per isolate, which took tolerant matching from 11.6 ms to
+   0.63 ms per keystroke over the 13,925 places in the index (re-measured
+   12.3 ms and 0.59 ms; the old substring test it replaced measured 1.15 ms,
+   so tolerance costs nothing per keystroke). Covered by
+   `tests/place-match.test.ts`, and by the no-env worker test, which now asks
+   for `madison wi`.
 5. **Decide what a card says when a farm has no products and no website.**
    40.2% of the release is in that state. Either the card names the gap honestly
    or those rows sort below ones that can answer the page's question.
@@ -155,8 +186,18 @@ All verified in-browser at both widths; see
    (detailed) at 1600×900 — the right direction, but the absolute numbers mean
    nothing on SwiftShader.
 
-Items 2 and 3 are the named fixes the verdict still depends on. Nothing in this
-list is a redesign.
+Items 2 and 3 were the named fixes the verdict depended on; both are done.
+Nothing in this list is a redesign.
+
+## Regressions found during this pass
+
+Walking the hero search end to end turned up two regressions that were not on
+the list above. Both are fixed on `main`.
+
+| Regression | Cause | Fixed in |
+| --- | --- | --- |
+| `npm run start` answered every request with a 500 | `worker/index.ts` read `env.ASSETS` unconditionally, and `vinext start` calls the worker without an env | #120, with a test that calls the worker the way `vinext start` does |
+| Cluster counts were painted over by individual pins | The cluster layers were added below the pin layers | #121, which draws clusters above pins |
 
 ## What is genuinely good, and worth leading with
 
