@@ -169,6 +169,10 @@ export default function HeroPlaceSearch() {
           aria-invalid={status.tone === "missing" || undefined}
           onChange={(event) => {
             setValue(event.target.value);
+            // The highlighted option was chosen for the old text. Keeping it
+            // would let Enter send "madison ms" to a highlighted Madison, WI
+            // before the new suggestions arrive.
+            setActive(-1);
             if (status.tone !== "idle" && status.tone !== "working") setStatus({ tone: "idle" });
           }}
           onKeyDown={onKeyDown}
