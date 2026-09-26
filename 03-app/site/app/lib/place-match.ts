@@ -131,18 +131,29 @@ export type PlaceDecision<T extends Candidate> =
  * Otherwise — "Springfield", "Madison" — ask, because guessing the state sends
  * someone hundreds of miles from where they meant.
  */
-export function choosePlace<T extends Candidate>(query: string, places: readonly T[]): PlaceDecision<T> {
-  if (places.length === 0) return { kind: "none" };
-  const [top, next] = places;
-  if (places.length === 1) return { kind: "go", place: top };
+export function choosePlace<T extends Candidate>(query: string, allPlaces: readonly T[]): PlaceDecision<T> {
+  if (allPlaces.length === 0) return { kind: "none" };
+  if (allPlaces.length === 1) return { kind: "go", place: allPlaces[0] };
 
   const normalizedQuery = normalizePlaceQuery(query);
-  if (normalizePlace(top.label) === normalizedQuery) return { kind: "go", place: top };
+  if (normalizePlace(allPlaces[0].label) === normalizedQuery) return { kind: "go", place: allPlaces[0] };
+
+  // A trailing state name can be the end of a city's own name: "Mount
+  // Washington" is in Kentucky, not "Mount … in Washington". When some
+  // candidate carries the words exactly as typed, the visitor named that city,
+  // so keep to those and do not read the last word as a state.
+  const literal = normalizePlace(query);
+  const namedCities = literal === normalizedQuery
+    ? []
+    : allPlaces.filter((place) => placeMatches(normalizePlace(place.label), literal));
+  const places = namedCities.length ? namedCities : allPlaces;
+  const [top, next] = places;
+  if (places.length === 1) return { kind: "go", place: top };
 
   // A state the visitor typed is the strongest signal there is, so it settles
   // the question on its own: farm count must never carry someone who asked
   // for Mississippi off to Wisconsin.
-  const state = trailingStateCode(normalizedQuery);
+  const state = namedCities.length ? null : trailingStateCode(normalizedQuery);
   if (state) {
     const inState = places.filter((place) => place.state.toLowerCase() === state);
     if (inState.length === 1) return { kind: "go", place: inState[0] };

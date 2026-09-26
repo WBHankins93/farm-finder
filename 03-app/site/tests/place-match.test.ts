@@ -101,6 +101,30 @@ test("a state the visitor typed beats farm count, even a dominant one", () => {
   assert.equal(decision.kind === "go" && decision.place.label, "Madison, MS");
 });
 
+test("a state name that ends a real city's name is not read as the state", () => {
+  // "Mount Washington" is a city in Kentucky. Reading its last word as "WA"
+  // sent the visitor straight to Mount Vernon, WA — the one Washington-state
+  // match — and "Port Washington" offered only Washington-state ports.
+  const mount = choosePlace("mount washington", [place("Mount Washington, KY", 4), place("Mount Washington, MA", 1), place("Mount Vernon, WA", 78)]);
+  assert.equal(mount.kind === "go" && mount.place.label, "Mount Washington, KY");
+  const port = choosePlace("Port Washington", [
+    place("Port Washington, WI", 4), place("Port Washington, OH", 2), place("Port Washington, NY", 1),
+    place("Port Angeles, WA", 38), place("Port Townsend, WA", 34),
+  ]);
+  assert.equal(port.kind, "choose");
+  assert.deepEqual(port.kind === "choose" && port.places.map((item) => item.label), ["Port Washington, WI", "Port Washington, OH", "Port Washington, NY"]);
+  // A state name no candidate city carries is still read as the state.
+  const spokane = choosePlace("spokane washington", [place("Spokane, WA", 9), place("Spokane, MO", 1)]);
+  assert.equal(spokane.kind === "go" && spokane.place.label, "Spokane, WA");
+});
+
+test("port washington offers only Port Washingtons, through the real index", async () => {
+  const typed = "port washington";
+  const decision = choosePlace(typed, (await searchPlaces(typed, 8)).items);
+  const labels = decision.kind === "go" ? [decision.place.label] : decision.kind === "choose" ? decision.places.map((item) => item.label) : [];
+  assert.ok(labels.length > 0 && labels.every((label) => label.startsWith("Port Washington, ")), `got ${labels.join(", ")}`);
+});
+
 test("no match is reported as none, not as an empty choice", () => {
   assert.deepEqual(choosePlace("zzqxv", []), { kind: "none" });
 });
