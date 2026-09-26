@@ -1,6 +1,7 @@
 import type { CSSProperties } from "react";
 import AskDirectory from "./components/ask-directory";
 import DiscoveryWorkspace from "./components/discovery-workspace";
+import HeroPlaceSearch from "./components/hero-place-search";
 import stats from "./data/directory-stats.generated.json";
 import { productGuides } from "./lib/directory-config";
 import { Mark, markForProduct } from "./lib/marks";
@@ -29,10 +30,7 @@ export default async function Home() {
           <p className="hero-kicker">Independent farms across the United States · Search by place</p>
           <h1 id="hero-title">Find the farms<br /><em>behind your <span>food.</span></em></h1>
           <p className="hero-copy">Start with your city. See nearby farms, what they grow or raise, and the best confirmed way to buy.</p>
-          <form className="hero-location" action="/" method="get">
-            <label htmlFor="hero-near">City or town</label>
-            <div><input id="hero-near" name="place" placeholder="Try Madison, WI" autoComplete="address-level2" /><button type="submit">Find nearby farms →</button></div>
-          </form>
+          <HeroPlaceSearch />
           <div className="hero-stats">
             <div><strong>{stats.total.toLocaleString()}</strong><span>farms in the directory</span></div>
             <div><strong>{stats.states}</strong><span>states and districts</span></div>

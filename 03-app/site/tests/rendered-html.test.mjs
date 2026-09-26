@@ -165,7 +165,7 @@ test("the worker serves without an env, as `vinext start` calls it", async () =>
   const page = await worker.fetch(new Request("http://localhost/", { headers: { accept: "text/html" } }));
   assert.equal(page.status, 200);
 
-  const places = await worker.fetch(new Request("http://localhost/v1/places?q=Madison%2C%20WI"));
+  const places = await worker.fetch(new Request("http://localhost/v1/places?q=madison%20wi"));
   assert.equal(places.status, 200);
   assert.equal((await places.json()).items[0]?.label, "Madison, WI");
 

@@ -112,6 +112,11 @@ export default function DiscoveryWorkspace() {
           // status has to describe the restored scope rather than keep asking
           // for a city that is already chosen.
           setLocationMessage(`Showing farms within ${urlState.radiusMiles} miles of ${match.label}.`);
+        } else {
+          // Reached from the no-JavaScript hero form with a place we do not
+          // know. Say so, rather than leaving the explorer blank and the
+          // visitor wondering whether anything happened.
+          setLocationMessage(`We couldn't find “${lookup}”. Try a city and state, like Madison, WI.`);
         }
       } catch {
         setLocationMessage("Choose a city from the suggestions to search nearby.");

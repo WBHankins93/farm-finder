@@ -53,3 +53,6 @@ public/national-index.bin
 app/data/directory-stats.generated.json
 # Rollback-explorer feed only; too large to deploy (FARMFINDER_LEGACY_FEED=1)
 public/farms.json
+
+# Local renders from dev/screenshots.mjs
+/dev/screenshots/
