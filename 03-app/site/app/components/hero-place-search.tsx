@@ -41,6 +41,20 @@ export default function HeroPlaceSearch() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
   const [status, setStatus] = useState<Status>({ tone: "idle" });
+  // The pending type-ahead, so submit and go() can cancel it: a late response
+  // must never replace the list, highlight or caption a submit has just set.
+  const typeahead = useRef<{ controller: AbortController; timer: number } | null>(null);
+  // The label go() just filled in. It is an answer, not a new query, so it gets
+  // no type-ahead of its own that could reopen the list after the page moved.
+  const chosenLabel = useRef<string | null>(null);
+
+  function cancelTypeahead() {
+    const pending = typeahead.current;
+    if (!pending) return;
+    pending.controller.abort();
+    window.clearTimeout(pending.timer);
+    typeahead.current = null;
+  }
 
   // Type-ahead. Debounced, and each keystroke aborts the request before it so
   // a slow early response can never overwrite a later one.
@@ -50,10 +64,13 @@ export default function HeroPlaceSearch() {
       const clear = window.setTimeout(() => { setSuggestions([]); setOpen(false); }, 0);
       return () => window.clearTimeout(clear);
     }
+    if (value === chosenLabel.current) return;
     const controller = new AbortController();
     const timer = window.setTimeout(async () => {
       try {
         const items = await lookup(term, 6, controller.signal);
+        // Cancelled by a submit or a choice while the body was still arriving.
+        if (controller.signal.aborted) return;
         setSuggestions(items);
         setActive(-1);
         setOpen(items.length > 0 && document.activeElement === inputRef.current);
@@ -61,14 +78,23 @@ export default function HeroPlaceSearch() {
         /* aborted or offline — the submit path reports real failures */
       }
     }, 150);
+    const pending = { controller, timer };
+    typeahead.current = pending;
     return () => {
       controller.abort();
       window.clearTimeout(timer);
+      if (typeahead.current === pending) typeahead.current = null;
     };
   }, [value]);
 
   function go(place: PlaceSuggestion) {
+    cancelTypeahead();
+    chosenLabel.current = place.label;
     setOpen(false);
+    // Nothing left to reopen: refocusing the field after the page has moved
+    // should not bring back the list that led here.
+    setSuggestions([]);
+    setActive(-1);
     setValue(place.label);
     setStatus({ tone: "idle" });
     const url = `/?near=${encodeURIComponent(place.slug)}&radiusMiles=50&sort=distance#discover`;
@@ -89,6 +115,10 @@ export default function HeroPlaceSearch() {
 
   async function submit(event: FormEvent) {
     event.preventDefault();
+    // The submit's own lookup decides from here. A type-ahead still waiting on
+    // its debounce or its response would otherwise land after it and replace
+    // the choice list, clear the highlight and falsify the caption.
+    cancelTypeahead();
     if (open && active >= 0 && suggestions[active]) {
       go(suggestions[active]);
       return;
@@ -169,6 +199,7 @@ export default function HeroPlaceSearch() {
           aria-invalid={status.tone === "missing" || undefined}
           onChange={(event) => {
             setValue(event.target.value);
+            chosenLabel.current = null;
             // The highlighted option was chosen for the old text. Keeping it
             // would let Enter send "madison ms" to a highlighted Madison, WI
             // before the new suggestions arrive.
