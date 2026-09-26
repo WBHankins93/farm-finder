@@ -1,5 +1,6 @@
 import productVocabulary from "../data/product-vocabulary.json";
 import { foldAscii, loadDiscoveryIndex, type DiscoveryIndex } from "./discovery-index";
+import { normalizePlace, normalizePlaceQuery, placeRank, placeWordsMatch } from "./place-match";
 import type {
   DiscoveryQuery,
   DiscoveryScope,
@@ -405,20 +406,44 @@ function toPlaceSuggestion(place: DiscoveryIndex["places"][number]): PlaceSugges
   };
 }
 
+// Place labels never change within an isolate, so normalize them once rather
+// than on every autocomplete keystroke (≈11 ms → well under 1 ms per request).
+type PlaceLabel = { label: string; words: string[] };
+const normalizedPlaceLabels = new WeakMap<DiscoveryIndex["places"], PlaceLabel[]>();
+
+function placeLabels(places: DiscoveryIndex["places"]): PlaceLabel[] {
+  let labels = normalizedPlaceLabels.get(places);
+  if (!labels) {
+    labels = places.map((place) => {
+      const label = normalizePlace(place.label);
+      return { label, words: label.split(" ") };
+    });
+    normalizedPlaceLabels.set(places, labels);
+  }
+  return labels;
+}
+
 export async function searchPlaces(term: string, requestedLimit: number): Promise<PlaceSearchResponse> {
   const index = await loadDiscoveryIndex();
-  const normalized = term.trim().toLocaleLowerCase();
+  // Punctuation- and state-name-tolerant: "madison wi" and "madison wisconsin"
+  // both reach "Madison, WI". See app/lib/place-match.ts.
+  const query = normalizePlaceQuery(term.slice(0, 120));
   const limit = Math.min(8, Math.max(1, requestedLimit || 8));
-  if (normalized.length < 2) return { items: [], releaseId: index.releaseId };
-  const items = index.places
-    .filter((place) => place.label.toLocaleLowerCase().includes(normalized))
-    .sort((a, b) => {
-      const aStarts = a.label.toLocaleLowerCase().startsWith(normalized) ? 1 : 0;
-      const bStarts = b.label.toLocaleLowerCase().startsWith(normalized) ? 1 : 0;
-      return bStarts - aStarts || b.farmCount - a.farmCount || a.label.localeCompare(b.label);
-    })
+  if (query.replace(/ /g, "").length < 2) return { items: [], releaseId: index.releaseId };
+  const labels = placeLabels(index.places);
+  const queryWords = query.split(" ");
+  const matches: { place: DiscoveryIndex["places"][number]; rank: number }[] = [];
+  index.places.forEach((place, position) => {
+    const { label, words } = labels[position];
+    if (placeWordsMatch(words, queryWords)) matches.push({ place, rank: placeRank(label, query) });
+  });
+  const items = matches
+    .sort((a, b) =>
+      a.rank - b.rank ||
+      b.place.farmCount - a.place.farmCount ||
+      a.place.label.localeCompare(b.place.label))
     .slice(0, limit)
-    .map(toPlaceSuggestion);
+    .map(({ place }) => toPlaceSuggestion(place));
   return { items, releaseId: index.releaseId };
 }
 

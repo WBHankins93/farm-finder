@@ -60,8 +60,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   padding: 56px clamp(24px, 6vw, 96px) 34px;
   position: relative;
   border-bottom: 1px solid var(--rule);
-  overflow: hidden;
+  /* Clip sideways only: the atlas and the vertical wordmark bleed horizontally,
+     but the city search dropdown has to be free to open past the bottom edge. */
+  overflow-x: clip;
   isolation: isolate;
+  z-index: 1;
   background:
     linear-gradient(90deg, transparent 0 49.9%, rgba(23, 63, 44, .06) 50%, transparent 50.1%),
     linear-gradient(0deg, transparent 0 49.9%, rgba(23, 63, 44, .06) 50%, transparent 50.1%),
@@ -71,6 +74,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .hero::after { content: "U.S. FARM FIELD GUIDE"; position: absolute; right: -8px; bottom: 112px; writing-mode: vertical-rl; font-size: 10px; letter-spacing: .35em; color: rgba(37, 39, 31, .45); }
 .hero-kicker, .section-number { margin: 0; text-transform: uppercase; letter-spacing: .14em; font-size: 11px; line-height: 1.45; font-weight: 750; color: var(--rust); }
 .hero > :not(.hero-atlas) { position: relative; z-index: 2; }
+/* The city search outranks its hero siblings, so its dropdown opens over the
+   stats band rather than under it. */
+.hero > .hero-location { z-index: 5; }
 .hero h1 { margin: 32px 0 20px; font: 800 clamp(72px, 8.7vw, 132px)/.82 var(--display); letter-spacing: -.065em; max-width: 1120px; }
 .hero h1 em { font-weight: 500; color: var(--green); }
 .hero-copy { width: min(520px, 80%); margin: 40px 0 0 clamp(120px, 20vw, 320px); font: 400 clamp(19px, 2vw, 27px)/1.35 var(--display); }
@@ -89,7 +95,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .atlas-pin-two { right: 10%; top: 61%; animation-delay: .8s; background: var(--river); box-shadow: 0 0 0 1px var(--river); }
 .atlas-pin-three { right: 33%; top: 70%; animation-delay: 1.6s; background: var(--green-2); box-shadow: 0 0 0 1px var(--green-2); }
 @keyframes atlas-pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.22); } }
-.hero-stats { border-top: 1px solid var(--ink); display: grid; grid-template-columns: repeat(3, 140px) 1fr; align-items: end; gap: 32px; padding-top: 18px; }
+.hero-stats { border-top: 1px solid var(--ink); display: grid; grid-template-columns: repeat(3, max-content) 1fr; align-items: end; gap: 32px; padding-top: 18px; }
 .hero-stats div { display: flex; align-items: baseline; gap: 9px; }
 .hero-stats strong { font: 700 36px/1 var(--display); }
 .hero-stats span { max-width: 82px; font-size: 10px; line-height: 1.35; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
@@ -416,7 +422,7 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   .topbar nav { gap: 20px; }
   .topbar nav a { font-size: 11px; }
   .hero h1 { font-size: clamp(70px, 11vw, 110px); }
-  .hero-stats { grid-template-columns: repeat(3, 120px) 1fr; }
+  .hero-stats { grid-template-columns: repeat(3, max-content) 1fr; gap: 24px; }
   .ask-heading, .updates-heading { grid-template-columns: 1fr 1fr; }
   .ask-heading .section-number, .updates-heading .section-number { grid-column: 1 / -1; }
   .product-guide-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -666,12 +672,34 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
 /* ─── Nearby explorer v2 ─────────────────────────────────────────── */
 .hero-nearby { min-height: 720px; }
 .hero-nearby .hero-copy { margin-bottom: 28px; }
-.hero-location { width: min(700px, calc(100% - clamp(120px, 20vw, 320px))); margin: 0 0 58px clamp(120px, 20vw, 320px); }
+.hero-location { position: relative; width: min(700px, calc(100% - clamp(120px, 20vw, 320px))); margin: 0 0 58px clamp(120px, 20vw, 320px); }
 .hero-location > label { display: block; margin-bottom: 8px; font-size: 11px; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; }
-.hero-location > div { display: flex; min-height: 62px; border: 1px solid var(--ink); background: rgba(251, 252, 246, .9); box-shadow: 7px 7px 0 rgba(23, 63, 44, .11); }
-.hero-location input { min-width: 0; flex: 1; border: 0; background: transparent; padding: 0 20px; color: var(--ink); font: 500 18px/1.2 var(--display); }
-.hero-location button { min-width: 190px; border: 0; border-left: 1px solid var(--ink); background: var(--rust); color: var(--cream); padding: 0 20px; font-size: 12px; font-weight: 750; cursor: pointer; }
-.hero-location button:hover { background: #963d24; }
+.hero-location > .hero-field { position: relative; display: flex; min-height: 62px; border: 1px solid var(--ink); background: rgba(251, 252, 246, .9); box-shadow: 7px 7px 0 rgba(23, 63, 44, .11); }
+.hero-location .hero-field > input { min-width: 0; flex: 1; border: 0; background: transparent; padding: 0 20px; color: var(--ink); font: 500 18px/1.2 var(--display); }
+.hero-location .hero-field > button { min-width: 190px; border: 0; border-left: 1px solid var(--ink); background: var(--rust); color: var(--cream); padding: 0 20px; font-size: 12px; font-weight: 750; cursor: pointer; }
+.hero-location .hero-field > button:hover { background: #963d24; }
+.hero-location .hero-field > button:disabled { opacity: .72; cursor: progress; }
+
+/* Type-ahead list. Anchored to the field so it opens where the eye already is,
+   and above the stats band it overlaps. */
+.hero-suggestions { position: absolute; z-index: 40; top: calc(100% + 6px); left: -1px; right: -1px; border: 1px solid var(--ink); background: var(--cream); box-shadow: 9px 12px 24px rgba(23, 37, 29, .16); max-height: min(440px, 60vh); overflow-y: auto; }
+.hero-suggestions ul { margin: 0; padding: 0; list-style: none; }
+.hero-suggestions-caption { margin: 0; padding: 11px 18px; border-bottom: 1px solid var(--rule); background: var(--paper-deep); font-size: 12px; font-weight: 650; color: var(--ink); }
+.hero-suggestions li { min-height: 52px; display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--rule); padding: 9px 18px; cursor: pointer; }
+.hero-suggestions li:last-child { border-bottom: 0; }
+.hero-suggestions li:hover, .hero-suggestions li.active { background: var(--paper-deep); }
+.hero-suggestions li.active { box-shadow: inset 3px 0 0 var(--rust); }
+.hero-suggestions span { font: 600 16px/1.2 var(--display); color: var(--ink); }
+.hero-suggestions small { color: var(--muted); font-size: 11px; white-space: nowrap; }
+
+/* Search feedback lives next to the field it is about, not a screen away. */
+.hero-status { min-height: 0; margin-top: 12px; font-size: 13px; line-height: 1.45; }
+.hero-status:empty { margin-top: 0; }
+.hero-status p { margin: 0; }
+.hero-status-missing p strong { color: #963d24; }
+.hero-did-you-mean { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.hero-did-you-mean button { min-height: 44px; border: 1px solid var(--ink); background: rgba(251, 252, 246, .9); color: var(--ink); padding: 0 16px; font: 600 14px/1 var(--display); cursor: pointer; }
+.hero-did-you-mean button:hover { background: var(--green); color: var(--cream); border-color: var(--green); }
 
 .ask-workspace-v2 .answer-farms a { min-width: 150px; max-width: 220px; border: 1px solid var(--rule); padding: 9px 11px; color: var(--ink); text-decoration: none; font: 600 12px/1.25 var(--display); }
 .ask-workspace-v2 .answer-farms a:hover { border-color: var(--rust); background: #f3eade; }
@@ -796,9 +824,11 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   .hero-nearby h1 { margin-top: 48px; }
   .hero-nearby .hero-copy { margin-left: 8vw; }
   .hero-location { width: auto; margin: 0 0 38px 8vw; }
-  .hero-location > div { display: block; }
-  .hero-location input { width: 100%; min-height: 56px; }
-  .hero-location button { width: 100%; min-height: 48px; border-left: 0; border-top: 1px solid var(--ink); }
+  .hero-location > .hero-field { display: block; }
+  .hero-location .hero-field > input { width: 100%; min-height: 56px; }
+  .hero-location .hero-field > button { width: 100%; min-height: 48px; border-left: 0; border-top: 1px solid var(--ink); }
+  /* Open over the button, directly under the text being typed. */
+  .hero-suggestions { top: 56px; }
   .ask-workspace-v2 .answer-farms a { min-width: 100%; max-width: none; }
   .product-guide-grid-compact { grid-template-columns: 1fr; }
   .discovery-controls { grid-template-columns: 1fr; }

@@ -118,6 +118,13 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 - `npm run db:test`: exercise spatial and integrity invariants in a rolled-back transaction
 - `npm run db:down`: stop local infrastructure while preserving its volume
 - `npm run db:reset`: delete the local database volume; local development only
+- `node dev/screenshots.mjs <outDir>`: render the home page and explorer in
+  headless Chrome with SwiftShader (software WebGL), write PNGs to `<outDir>`
+  (default `dev/screenshots/`, gitignored), and print what it measured. It needs
+  a server already running on `:3000` (`npm run dev`, or set `FARMFINDER_URL`),
+  and exists because the built-in browser pane has no WebGL, so MapLibre never
+  draws there. `FARMFINDER_SCOPE=map` skips the city-search flows to review map
+  work alone. Chrome is found at the macOS default path, or set `CHROME_PATH`.
 
 ## Learn More
 
