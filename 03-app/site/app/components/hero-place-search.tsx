@@ -2,12 +2,12 @@
 
 import { useEffect, useId, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
 import type { PlaceSearchResponse, PlaceSuggestion } from "../lib/discovery-contract";
-import { choosePlace, fallbackPlaceQueries } from "../lib/place-match";
+import { choiceCaption, choosePlace, fallbackPlaceQueries } from "../lib/place-match";
 
 type Status =
   | { tone: "idle" }
   | { tone: "working" }
-  | { tone: "choose"; query: string }
+  | { tone: "choose"; caption: string }
   | { tone: "missing"; query: string; suggestions: PlaceSuggestion[] };
 
 async function lookup(term: string, limit: number, signal?: AbortSignal): Promise<PlaceSuggestion[]> {
@@ -111,7 +111,7 @@ export default function HeroPlaceSearch() {
         setSuggestions(decision.places);
         setActive(0);
         setOpen(true);
-        setStatus({ tone: "choose", query });
+        setStatus({ tone: "choose", caption: choiceCaption(query, decision.places) });
         inputRef.current?.focus();
         return;
       }
@@ -183,7 +183,7 @@ export default function HeroPlaceSearch() {
             // Visible prompt for sighted users; the status region below says
             // the same thing to assistive tech without being covered by this.
             <p className="hero-suggestions-caption" aria-hidden="true">
-              “{status.query}” is in {suggestions.length} states. Pick the one you mean.
+              {status.caption} Pick the one you mean.
             </p>
           ) : null}
           <ul id={listId} role="listbox" aria-label="Matching cities">
@@ -209,7 +209,7 @@ export default function HeroPlaceSearch() {
       <div id={statusId} className={`hero-status hero-status-${status.tone}`} role="status" aria-live="polite">
         {status.tone === "choose" ? (
           // Covered by the open list, so announced rather than shown.
-          <p className="sr-only">“{status.query}” is in {suggestions.length} states. Use the arrow keys to pick the one you mean.</p>
+          <p className="sr-only">{status.caption} Use the arrow keys to pick the one you mean.</p>
         ) : status.tone === "missing" ? (
           <>
             <p><strong>No city matches “{status.query}”.</strong> {status.suggestions.length ? "Did you mean:" : "Try a city and state, like Madison, WI."}</p>

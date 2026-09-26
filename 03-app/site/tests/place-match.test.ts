@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { choosePlace, fallbackPlaceQueries, normalizePlace, normalizePlaceQuery, placeMatches, placeRank, trailingStateCode } from "../app/lib/place-match";
+import { choiceCaption, choosePlace, fallbackPlaceQueries, normalizePlace, normalizePlaceQuery, placeMatches, placeRank, trailingStateCode } from "../app/lib/place-match";
 import { searchPlaces } from "../app/lib/discovery-server";
 
 test("spellings people actually type all reach the same place", async () => {
@@ -123,6 +123,18 @@ test("port washington offers only Port Washingtons, through the real index", asy
   const decision = choosePlace(typed, (await searchPlaces(typed, 8)).items);
   const labels = decision.kind === "go" ? [decision.place.label] : decision.kind === "choose" ? decision.places.map((item) => item.label) : [];
   assert.ok(labels.length > 0 && labels.every((label) => label.startsWith("Port Washington, ")), `got ${labels.join(", ")}`);
+});
+
+test("the pick-one caption counts states, not places", () => {
+  // "New York" matches four places in two states. Saying "is in 4 states"
+  // was simply false, and the list under it showed only NY and MN.
+  const newYork = [place("New York, NY", 43), place("New York Mills, MN", 12), place("City of New York, NY", 1), place("upper level New York, NY", 1)];
+  assert.equal(choiceCaption("new york", newYork), "“new york” matches 4 places in 2 states.");
+  // One place per state reads as before.
+  const springfield = [place("Springfield, MA", 29), place("Springfield, KY", 20), place("Springfield, MO", 13)];
+  assert.equal(choiceCaption("springfield", springfield), "“springfield” is in 3 states.");
+  // Two same-named places in one state: still true, and singular.
+  assert.equal(choiceCaption("washington pa", [place("Washington, PA", 6), place("Washington Boro, PA", 4)]), "“washington pa” matches 2 places in 1 state.");
 });
 
 test("no match is reported as none, not as an empty choice", () => {

@@ -165,6 +165,19 @@ export function choosePlace<T extends Candidate>(query: string, allPlaces: reado
 }
 
 /**
+ * The line that asks the visitor to pick among ambiguous places. It counts
+ * distinct states, and names the place count too when a state has more than
+ * one ("New York" → New York, NY and City of New York, NY), so it stays true
+ * against the list shown under it.
+ */
+export function choiceCaption(query: string, places: readonly { state: string }[]): string {
+  const states = new Set(places.map((place) => place.state.toUpperCase())).size;
+  const stateWord = states === 1 ? "state" : "states";
+  if (states === places.length) return `“${query}” is in ${states} ${stateWord}.`;
+  return `“${query}” matches ${places.length} places in ${states} ${stateWord}.`;
+}
+
+/**
  * Looser queries to try when a city search finds nothing, for "did you mean".
  * The leading word first ("madisonn wi" → "madisonn"), then its first four
  * letters ("madi"), which catches a typo past the fourth letter without
