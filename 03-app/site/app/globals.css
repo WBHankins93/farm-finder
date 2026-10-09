@@ -984,3 +984,60 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   .filter-sheet { width: 100%; max-height: 88vh; border-radius: 20px 20px 0 0; box-shadow: 0 -10px 32px rgba(17, 29, 22, .26); }
   .filter-sheet > footer { padding-bottom: max(15px, env(safe-area-inset-bottom)); }
 }
+
+/* ─── Brand sheet (/brand) ──────────────────────────────────────────
+   A working reference, not a marketing page: it renders the real tokens,
+   marks and components so a drift is visible rather than theoretical. */
+.brand-sheet main { padding: 0 clamp(20px, 5vw, 72px) 96px; }
+.brand-intro { padding: 56px 0 34px; }
+.brand-intro h1 { margin: 14px 0 18px; font: 800 clamp(40px, 5vw, 66px)/.95 var(--display); letter-spacing: -.045em; }
+.brand-intro h1 em { font-style: normal; font-weight: 500; color: var(--green); }
+.brand-intro p { max-width: 620px; margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
+.brand-sheet code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
+.brand-section { padding: 30px 0; border-top: 1px solid var(--rule); }
+.brand-section-head { display: grid; grid-template-columns: minmax(0, 210px) minmax(0, 1fr); gap: 28px; align-items: baseline; margin-bottom: 22px; }
+.brand-section-head h2 { margin: 0; font: 700 22px/1.1 var(--display); letter-spacing: -.02em; }
+.brand-section-head p { margin: 0; max-width: 640px; color: var(--muted); font-size: 13.5px; line-height: 1.6; }
+.brand-swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(208px, 1fr)); gap: 14px; }
+.brand-swatch { background: var(--cream); border: 1px solid var(--rule); border-radius: var(--radius); padding: 0 0 14px; overflow: hidden; }
+.brand-chip { height: 76px; }
+.brand-swatch h3 { margin: 12px 14px 2px; font: 700 15px/1.2 var(--display); }
+.brand-swatch code { display: block; margin: 0 14px; color: var(--muted); }
+.brand-hex { text-transform: uppercase; }
+.brand-swatch p { margin: 8px 14px 10px; font-size: 12px; line-height: 1.45; color: var(--muted); }
+.brand-contrast { margin: 0 14px; padding: 0; list-style: none; display: grid; gap: 3px; }
+.brand-contrast li { display: flex; align-items: baseline; gap: 6px; font-size: 11px; color: var(--muted); }
+.brand-contrast strong { font-variant-numeric: tabular-nums; color: var(--ink); }
+.brand-contrast small { padding: 1px 5px; border-radius: 999px; background: var(--paper-deep); font-size: 9px; text-transform: uppercase; letter-spacing: .06em; }
+.brand-contrast .pass small { background: color-mix(in srgb, var(--green) 18%, var(--cream)); color: var(--green); }
+.brand-contrast .fail small { background: var(--rust); color: var(--cream); }
+.brand-type { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.brand-type article { background: var(--cream); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
+.brand-type span { font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--rust); }
+.brand-type small { color: var(--muted); font-size: 12px; }
+.brand-type-display { margin: 10px 0 8px; font: 800 38px/1 var(--display); letter-spacing: -.035em; }
+.brand-type-ui { margin: 10px 0 8px; font: 400 19px/1.35 var(--sans); }
+.brand-radii { display: flex; flex-wrap: wrap; gap: 20px; }
+.brand-radii article { display: grid; gap: 6px; }
+.brand-radii div { width: 108px; height: 72px; background: var(--paper-deep); border: 1px solid var(--rule); }
+.brand-radii small { color: var(--muted); font-size: 11px; }
+.brand-marks-row { display: flex; align-items: flex-end; gap: 24px; }
+.brand-marks { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.brand-marks span { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--rule); border-radius: 999px; background: var(--cream); padding: 7px 13px 7px 10px; font-size: 12px; font-weight: 650; }
+.brand-marks .mark { width: 15px; height: 15px; margin: 0; color: var(--mark-color, var(--green)); }
+.brand-components { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; }
+.brand-component { display: grid; gap: 9px; align-content: start; background: var(--cream); border: 1px solid var(--rule); border-radius: var(--radius); padding: 16px; }
+.brand-component-label { font-size: 10px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
+.brand-component .card-heading, .brand-component .card-services { justify-self: start; }
+.brand-demo-primary { justify-self: start; min-height: 44px; border: 0; border-radius: 999px; background: var(--rust); color: var(--cream); padding: 0 20px; font-size: 13px; font-weight: 750; cursor: pointer; }
+.brand-demo-chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.brand-demo-chips button { display: inline-flex; align-items: center; gap: 5px; min-height: 38px; border: 1px solid var(--rule); border-radius: 999px; background: transparent; padding: 0 14px; font-size: 12px; font-weight: 700; cursor: pointer; }
+.brand-demo-chips button .mark { width: 14px; height: 14px; margin: 0; }
+.brand-demo-chips .active { border-color: var(--green); background: var(--green); color: var(--cream); }
+.brand-photos { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.brand-photos figure { margin: 0; }
+.brand-photos div { height: 118px; border-radius: var(--radius-sm); background-size: cover; background-position: center; }
+.brand-photos figcaption { margin-top: 6px; font-size: 11px; color: var(--muted); }
+@media (max-width: 860px) {
+  .brand-section-head { grid-template-columns: 1fr; gap: 8px; }
+}
