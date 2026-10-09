@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import { serviceFilters } from "../lib/directory-config";
 import { categoryColors, type Farm } from "../lib/farms";
-import { Mark, markForCategory } from "../lib/marks";
+import { Mark, markForCategory, markForService } from "../lib/marks";
 
 type Props = {
   farm: Farm;
@@ -76,7 +76,16 @@ export default function FarmProfileDialog({ farm, onClose, onShowMap }: Props) {
           <div className="profile-columns">
             <div className="profile-main">
               <section className="profile-section"><h3>Products & specialties</h3><p>{farm.productsText || "Products have not been listed yet."}</p><div className="profile-product-tags">{farm.products.map((product) => <span key={product}>{product}</span>)}</div></section>
-              <section className="profile-section"><h3>How to buy</h3><p>{farm.marketPresence || "A confirmed sales schedule has not been added yet."}</p><div className="profile-service-grid">{serviceFilters.map(({ key, label }) => <div className={farm[key] ? "available" : "unknown"} key={key}><i>{farm[key] ? "✓" : "—"}</i><span>{label}</span><small>{farm[key] ? "Listed" : "Not confirmed"}</small></div>)}</div></section>
+              <section className="profile-section"><h3>How to buy</h3><p>{farm.marketPresence || "A confirmed sales schedule has not been added yet."}</p><div className="profile-service-grid">{serviceFilters.map(({ key, label }) => {
+                const mark = markForService(key);
+                return (
+                  <div className={farm[key] ? "available" : "unknown"} key={key}>
+                    <i aria-hidden="true">{mark ? <Mark name={mark} /> : null}</i>
+                    <span>{label}</span>
+                    <small>{farm[key] ? "Listed" : "Not confirmed"}</small>
+                  </div>
+                );
+              })}</div></section>
               <section className="profile-section"><h3>Directory notes</h3><p>{farm.notes || "No additional field notes have been recorded yet."}</p></section>
             </div>
             <aside className="profile-sidebar">
