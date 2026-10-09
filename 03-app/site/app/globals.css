@@ -113,10 +113,34 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   min-height: 420px;
   border-radius: var(--radius-lg);
   background-color: var(--paper-deep);
-  background-image: url(/images/hero.webp);
-  background-size: cover;
-  background-position: 54% center;
+  overflow: hidden;
   box-shadow: inset 0 -70px 64px -52px rgba(43, 33, 28, .62);
+}
+/*
+ * The hero cross-fade. Three stacked layers, one keyframe set, staggered by a
+ * third of the cycle each — no JavaScript, no timers, and only `opacity`
+ * animates, so it stays on the compositor while someone types in the search.
+ *
+ * Layer one is opaque by default, so with motion disabled (or before the
+ * animation starts) the hero is a photograph rather than an empty box.
+ */
+.hero-frame { position: absolute; inset: 0; background-size: cover; background-position: 54% center; opacity: 0; }
+.hero-frame-1 { background-image: url(/images/hero.webp); opacity: 1; }
+.hero-frame-2 { background-image: url(/images/hero-2.webp); }
+.hero-frame-3 { background-image: url(/images/hero-3.webp); background-position: center; }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-frame { animation: hero-cross 24s linear infinite; }
+  .hero-frame-2 { animation-delay: 8s; }
+  .hero-frame-3 { animation-delay: 16s; }
+}
+/* 8s on screen, ~1.5s to trade places. Slow enough to read as photography
+   rather than as a slideshow demanding attention. */
+@keyframes hero-cross {
+  0% { opacity: 0; }
+  2% { opacity: 1; }
+  31% { opacity: 1; }
+  35% { opacity: 0; }
+  100% { opacity: 0; }
 }
 /*
  * Hero ticker.
@@ -160,7 +184,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .farm-ticker-viewport { overflow-x: auto; mask-image: none; }
   .farm-ticker-track ul:last-child { display: none; }
 }
-.hero-photo-credit { position: absolute; left: 14px; bottom: 11px; color: rgba(255, 253, 247, .9); font-size: 10px; letter-spacing: .04em; text-shadow: 0 1px 4px rgba(0, 0, 0, .6); }
+.hero-photo-credit { z-index: 2; position: absolute; left: 14px; bottom: 11px; color: rgba(255, 253, 247, .9); font-size: 10px; letter-spacing: .04em; text-shadow: 0 1px 4px rgba(0, 0, 0, .6); }
 .hero-kicker, .section-number { margin: 0; text-transform: uppercase; letter-spacing: .14em; font-size: 11px; line-height: 1.45; font-weight: 750; color: var(--rust); }
 .hero > :not(.hero-atlas) { position: relative; z-index: 2; }
 /* The city search outranks its hero siblings, so its dropdown opens over the
@@ -965,12 +989,42 @@ footer > small { position: absolute; bottom: 24px; left: clamp(24px, 6vw, 96px);
   /* Open over the button, directly under the text being typed. */
   .hero-suggestions { top: 56px; }
   .ask-workspace-v2 .answer-farms a { min-width: 100%; max-width: none; }
-  .product-guide-grid-compact { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .product-card-media { height: 104px; }
-  .product-card-count { font-size: 20px; }
-  .product-guide-card h3 { font-size: 15px; margin: 11px 12px 4px; }
-  .product-guide-card > p { margin: 0 12px 10px; font-size: 11.5px; -webkit-line-clamp: 2; }
-  .product-guide-card > a { margin: auto 12px 0; font-size: 11px; }
+  /*
+   * Harvest rail. On a phone the eight tiles become a swipeable row with the
+   * next one peeking, instead of a two-column grid or a very long column.
+   *
+   * It is a scroll container with snap points — no JavaScript, no autoplay, no
+   * arrows to miss. The thing NN/g objects to in carousels is auto-rotation
+   * stealing content away from people; a rail you push with your thumb is the
+   * pattern every food app uses because it works, and it buys back enough room
+   * to show the photograph at a size that makes food look like food.
+   */
+  .product-guide-grid-compact {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    /* Full-bleed rail: the first card lines up with the page gutter and the
+       last one can still reach the left edge. */
+    margin: 0 calc(clamp(20px, 6vw, 96px) * -1);
+    padding: 2px clamp(20px, 6vw, 96px) 14px;
+  }
+  .product-guide-grid-compact::-webkit-scrollbar { display: none; }
+  .product-guide-grid-compact .product-guide-card {
+    flex: 0 0 72%;
+    max-width: 290px;
+    scroll-snap-align: start;
+  }
+  .product-card-media { height: 136px; }
+  .product-card-count { font-size: 22px; }
+  .product-guide-card h3 { font-size: 16px; margin: 12px 13px 4px; }
+  .product-guide-card > p { margin: 0 13px 10px; font-size: 12px; -webkit-line-clamp: 2; }
+  .product-guide-card > a { margin: auto 13px 0; font-size: 11.5px; }
+  .product-guide-card:hover { transform: none; }
+  /* Swiping is not discoverable on its own; say so once, under the rail. */
+  .products-section .product-guide-grid-compact + .product-guide-more { margin-top: 4px; }
   .discovery-controls { grid-template-columns: 1fr; }
   .location-control, .directory-query, .radius-control { grid-column: auto; }
   .location-input-row { align-items: stretch; }

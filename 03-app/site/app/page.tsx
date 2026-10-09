@@ -50,8 +50,15 @@ export default async function Home({ searchParams }: { searchParams: Promise<Rec
               <li><Mark name="market" aria-hidden="true" /><span><strong>Contact the farm</strong>Confirm hours and availability yourself.</span></li>
             </ol>
           </div>
-          <div className="hero-photo" role="img" aria-label="Shoppers at an outdoor farmers market browsing crates of vegetables">
-            <span className="hero-photo-credit">USDA farmers market · public domain</span>
+          {/* Three photographs on a slow cross-fade: a market, a grower, a
+              field. It is pure CSS — stacked layers with staggered opacity
+              keyframes — so there is no JavaScript running behind the search,
+              and under prefers-reduced-motion the first frame simply stays. */}
+          <div className="hero-photo" role="img" aria-label="Photographs of American farms, growers and farmers markets">
+            <i className="hero-frame hero-frame-1" aria-hidden="true" />
+            <i className="hero-frame hero-frame-2" aria-hidden="true" />
+            <i className="hero-frame hero-frame-3" aria-hidden="true" />
+            <span className="hero-photo-credit">USDA photography · public domain</span>
           </div>
           <FarmTicker farms={ticker.farms} place={ticker.label} />
           <div className="hero-stats">
@@ -69,7 +76,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<Rec
 
         <section className="products-section" id="products" aria-labelledby="products-title">
           <div className="products-heading"><div><p className="section-number">Browse the harvest</p><h2 id="products-title">Start with what<br /><em>you want to eat.</em></h2></div><p>Counts reflect current directory descriptions, not live inventory.</p></div>
-          <div className="product-guide-grid product-guide-grid-compact">
+          <div className="product-guide-grid product-guide-grid-compact" role="group" aria-label="Browse by food — swipe or scroll for more">
             {productGuides.slice(0, 8).map((guide) => (
               <article className="product-guide-card" key={guide.id} style={{ "--product-color": guide.color, "--tile-img": `url(/images/products/${guide.id}.webp)` } as CSSProperties}>
                 <div className="product-card-media">
