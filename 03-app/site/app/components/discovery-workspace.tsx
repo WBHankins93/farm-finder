@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, type CSSProperties } from "react";
 import { createLatestRequestGuard, mergeCursorPage, parseDiscoveryUrl, requestApproximateLocation, retainSelectedFarm, serializeDiscoveryUrl } from "../lib/discovery-client";
 import { serviceKeys, type DiscoveryScope, type FarmMapResponse, type FarmSearchResponse, type FarmSummary, type LatLng, type MapBounds, type PlaceSearchResponse, type PlaceSuggestion, type ServiceKey, type SortMode, type ViewMode } from "../lib/discovery-contract";
 import { categories, productGuides, serviceFilters } from "../lib/directory-config";
@@ -572,9 +572,15 @@ function FarmCard({ farm, selected, index, origin, onSelect, onShowMap, onOpenPr
   return (
     <article className={`farm-card ${selected ? "selected" : ""}`} onMouseEnter={() => onHover(farm)} onMouseLeave={() => onHover(null)} onFocus={() => onHover(farm)} onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) onHover(null); }}>
       <button className="farm-card-main" type="button" onClick={() => onSelect(farm.id)} aria-label={`Select ${farm.name}`}>
+        {/* A colour-and-mark tile, not a photograph. NN/g's finding on mobile
+            list thumbnails is that they only help when they differ from each
+            other; the same category stock photo on forty cards is page weight
+            with no signal — and it would also imply the photo is this farm. */}
+        <span className="card-tile" style={{ "--tile-color": color } as CSSProperties} aria-hidden="true">
+          <Mark name={markForCategory(farm.category)} />
+        </span>
         <div className="card-body">
           <p className="card-category">
-            <Mark name={markForCategory(farm.category)} style={{ color }} />
             {farm.category}
             {index !== null ? <span className="card-index">#{index}</span> : null}
           </p>

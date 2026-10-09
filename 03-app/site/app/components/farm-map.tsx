@@ -3,11 +3,11 @@
 import { useEffect, useRef, useState } from "react";
 import maplibregl, { type GeoJSONSource, type Map as MapLibreMap } from "maplibre-gl";
 import type { FeatureCollection, Point } from "geojson";
-import type { DiscoveryScope, FarmMapFeature, FarmSummary, LatLng, MapBounds } from "../lib/discovery-contract";
+import { serviceKeys, type DiscoveryScope, type FarmMapFeature, type FarmSummary, type LatLng, type MapBounds, type ServiceKey } from "../lib/discovery-contract";
 import { categoryColors } from "../lib/farms";
 import { basemaps, detailedStyleUrl, detailPaint, detailPitch, detailZoom, guideStyle, needsStyleSwap, type BasemapId } from "../lib/map-styles";
 import { densityPaint, describeMapOptions, farmLabelLayout, farmPointMinZoom, farmPointPaint, layerVisibility, pinModes, readMapOptions, spotlightCategories, writeMapOptions, type MapOptions, type PinMode } from "../lib/map-options";
-import { Mark, markForCategory } from "../lib/marks";
+import { Mark, markForCategory, markForService } from "../lib/marks";
 
 function toFeatures(items: FarmMapFeature[]): FeatureCollection<Point> {
   return {
@@ -32,8 +32,25 @@ function userFeature(origin: LatLng | null): FeatureCollection<Point> {
   return { type: "FeatureCollection", features: [{ type: "Feature", geometry: { type: "Point", coordinates: [origin.lng, origin.lat] }, properties: {} }] };
 }
 
-function summaryServices(farm: FarmSummary) {
-  return [farm.farmersMarket && "Market", farm.onFarm && "Farm pickup", farm.csa && "CSA", farm.ships && "Delivery", farm.onlineStore && "Order online"].filter(Boolean) as string[];
+const serviceNames: Record<ServiceKey, string> = {
+  farmersMarket: "Sells at a farmers market",
+  onFarm: "Farm pickup",
+  csa: "CSA subscription",
+  ships: "Delivers or ships",
+  onlineStore: "Online store",
+};
+
+/**
+ * A maps link for the pin we are showing.
+ *
+ * Deliberately a geo query on the coordinates rather than a search for the
+ * farm's name: the name might resolve to a different business, and for the
+ * 8,710 records whose point is a county or city centroid, sending someone to
+ * a *named* destination would imply an exactness the data does not have. The
+ * label beside it says which kind of point this is.
+ */
+function directionsHref(farm: FarmSummary) {
+  return `https://www.google.com/maps/search/?api=1&query=${farm.latitude},${farm.longitude}`;
 }
 
 export type FarmMapProps = {
@@ -489,10 +506,27 @@ export default function FarmMap(props: FarmMapProps) {
         <aside className="map-detail map-detail-sheet" role="region" aria-live="polite" aria-label={`${selected.name} details`}>
           <button className="detail-close" type="button" onClick={() => props.onSelect("")} aria-label="Close farm details">×</button>
           <div className="detail-kicker"><Mark name={markForCategory(selected.category)} style={{ color: categoryColors[selected.category] || "#596b60" }} />{selected.category}</div>
-          <h3>{selected.name}</h3><p className="detail-place">{selected.city}, {selected.state} · {selected.parish || "Area not listed"}</p><p className="detail-products">{selected.productsText}</p>
-          <div className="detail-tags">{summaryServices(selected).map((label) => <span key={label}>{label}</span>)}</div>
-          <div className="detail-actions"><button type="button" onClick={() => props.onOpenProfile(selected.id)}>Full profile →</button>{selected.website ? <a href={selected.website} target="_blank" rel="noreferrer">Website ↗</a> : null}</div>
-          <p className="precision-note">{selected.geoPrecision === "point" ? "Public point" : "Approximate location"} · Confirm before visiting</p>
+          <h3>{selected.name}</h3>
+          <p className="detail-place"><Mark name="pin" aria-hidden="true" />{[selected.city, selected.state].filter(Boolean).join(", ")}{selected.parish ? ` · ${selected.parish}` : ""}</p>
+          <p className={`detail-products ${selected.productsText ? "" : "is-missing"}`}>{selected.productsText || "Products not listed — ask the farm what they have this week."}</p>
+          {/* "How to buy" is the question the sheet exists to answer, so it is
+              a labelled row of targets rather than a line of grey word-pills. */}
+          <div className="detail-ways">
+            <span className="detail-ways-label">How to buy</span>
+            <ul>
+              {serviceKeys.filter((key) => selected[key]).map((key) => {
+                const mark = markForService(key);
+                return mark ? <li key={key}><Mark name={mark} aria-hidden="true" /><span>{serviceNames[key]}</span></li> : null;
+              })}
+              {serviceKeys.every((key) => !selected[key]) ? <li className="is-missing"><Mark name="approximate" aria-hidden="true" /><span>No way to buy listed yet</span></li> : null}
+            </ul>
+          </div>
+          <div className="detail-actions">
+            <a className="detail-primary" href={directionsHref(selected)} target="_blank" rel="noreferrer"><Mark name="heading" aria-hidden="true" />Directions</a>
+            <button type="button" onClick={() => props.onOpenProfile(selected.id)}>Full profile</button>
+            {selected.website ? <a href={selected.website} target="_blank" rel="noreferrer">Website<Mark name="link" aria-hidden="true" /></a> : null}
+          </div>
+          <p className="precision-note">{selected.geoPrecision === "point" ? "Farm-gate point" : "Approximate location — the pin is a city or county centre"} · Confirm before visiting</p>
         </aside>
       ) : null}
     </div>
