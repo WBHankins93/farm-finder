@@ -193,3 +193,41 @@ export function Mark({
     </svg>
   );
 }
+
+/**
+ * The FarmFinder mark: a market awning inside a map pin.
+ *
+ * The category is saturated with leaves and sprouts — Market Wagon, Farmles
+ * and LocalHarvest all use one — so a leaf would make FarmFinder harder to
+ * tell apart, not easier. An awning says *stall you can go and buy from*,
+ * which is what the product is for, and the pin says the directory knows
+ * where it is. It reads at 20px, which is the only size that matters.
+ *
+ * Two solid colours, no gradient, no stroke: it has to survive a favicon.
+ */
+export function BrandMark({ size = 34, ...rest }: { size?: number } & SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 40 40"
+      fill="none"
+      aria-hidden="true"
+      focusable="false"
+      {...rest}
+    >
+      <path
+        d="M20 37c-7.8-8.6-11.7-14.9-11.7-18.9a11.7 11.7 0 0 1 23.4 0C31.7 22.1 27.8 28.4 20 37Z"
+        fill="var(--tomato, #d9482b)"
+      />
+      {/* The awning: four scallops across the pin's shoulders. */}
+      <path
+        d="M10.6 14.2h18.8v4.1a2.35 2.35 0 0 1-4.7 0 2.35 2.35 0 0 1-4.7 0 2.35 2.35 0 0 1-4.7 0 2.35 2.35 0 0 1-4.7 0Z"
+        fill="var(--cream, #fffdf7)"
+      />
+      <path d="M14.5 9.6h4.2v4.6h-4.2zM22.9 9.6h4.2v4.6h-4.2z" fill="var(--sun, #f4c95d)" />
+      <path d="M10.6 9.6h18.8v4.6H10.6z" fill="none" />
+      <circle cx="20" cy="24.6" r="3.1" fill="var(--cream, #fffdf7)" />
+    </svg>
+  );
+}

@@ -4,7 +4,7 @@ import DiscoveryWorkspace from "./components/discovery-workspace";
 import HeroPlaceSearch from "./components/hero-place-search";
 import stats from "./data/directory-stats.generated.json";
 import { productGuides } from "./lib/directory-config";
-import { Mark, markForProduct } from "./lib/marks";
+import { BrandMark, Mark, markForProduct } from "./lib/marks";
 
 export default async function Home() {
   // The national explorer is the product. `EXPLORER_LEGACY=true` is the
@@ -21,16 +21,29 @@ export default async function Home() {
     <div className="site-shell">
       <a className="skip-link" href="#discover">Skip to farm search</a>
       <header className="topbar">
-        <a className="brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span><span>FarmFinder<small>U.S. farm field guide</small></span></a>
+        <a className="brand" href="#top"><BrandMark className="brand-mark" /><span>FarmFinder<small>U.S. farm field guide</small></span></a>
         <nav aria-label="Primary navigation"><a href="#ask">Ask</a><a href="#products">Browse</a><a href="#discover">Explore</a><a className="farmer-link" href="#discover">Find farms</a></nav>
       </header>
 
       <main id="top">
         <section className="hero hero-nearby" aria-labelledby="hero-title">
-          <p className="hero-kicker">Independent farms across the United States · Search by place</p>
-          <h1 id="hero-title">Find the farms<br /><em>behind your <span>food.</span></em></h1>
-          <p className="hero-copy">Start with your city. See nearby farms, what they grow or raise, and the best confirmed way to buy.</p>
-          <HeroPlaceSearch />
+          <div className="hero-copy-col">
+            <p className="hero-kicker">Independent farms across the United States</p>
+            <h1 id="hero-title">Find the farms<br /><em>behind your <span>food.</span></em></h1>
+            <p className="hero-copy">Start with your city. See nearby farms, what they grow or raise, and the confirmed way to buy from each one.</p>
+            <HeroPlaceSearch />
+            {/* Three steps, because the product does not sell anything and a
+                visitor who expects a checkout will bounce at the farm's phone
+                number. Saying so up front is cheaper than disappointing them. */}
+            <ol className="hero-steps">
+              <li><Mark name="pin" aria-hidden="true" /><span><strong>Enter your city</strong>We search the directory around it.</span></li>
+              <li><Mark name="basket" aria-hidden="true" /><span><strong>See what they grow</strong>Products and ways to buy, farm by farm.</span></li>
+              <li><Mark name="market" aria-hidden="true" /><span><strong>Contact the farm</strong>Confirm hours and availability yourself.</span></li>
+            </ol>
+          </div>
+          <div className="hero-photo" role="img" aria-label="Shoppers at an outdoor farmers market browsing crates of vegetables">
+            <span className="hero-photo-credit">USDA farmers market · public domain</span>
+          </div>
           <div className="hero-stats">
             <div><strong>{stats.total.toLocaleString()}</strong><span>farms in the directory</span></div>
             <div><strong>{stats.states}</strong><span>states and districts</span></div>
@@ -47,12 +60,14 @@ export default async function Home() {
         <section className="products-section" id="products" aria-labelledby="products-title">
           <div className="products-heading"><div><p className="section-number">Browse the harvest</p><h2 id="products-title">Start with what<br /><em>you want to eat.</em></h2></div><p>Counts reflect current directory descriptions, not live inventory.</p></div>
           <div className="product-guide-grid product-guide-grid-compact">
-            {productGuides.slice(0, 8).map((guide, index) => (
+            {productGuides.slice(0, 8).map((guide) => (
               <article className="product-guide-card" key={guide.id} style={{ "--product-color": guide.color, "--tile-img": `url(/images/products/${guide.id}.webp)` } as CSSProperties}>
-                <div className="product-card-media" aria-hidden="true">{markForProduct(guide.id) ? <Mark name={markForProduct(guide.id)!} className="mark product-card-glyph" /> : null}</div>
-                <div className="product-card-top"><span>{String(index + 1).padStart(2, "0")}</span><strong>{stats.products[guide.id as keyof typeof stats.products].toLocaleString()}</strong></div>
+                <div className="product-card-media">
+                  {markForProduct(guide.id) ? <span className="product-card-badge" aria-hidden="true"><Mark name={markForProduct(guide.id)!} className="mark product-card-glyph" /></span> : null}
+                  <strong className="product-card-count">{stats.products[guide.id as keyof typeof stats.products].toLocaleString()}<span>farms</span></strong>
+                </div>
                 <h3>{guide.label}</h3><p>{guide.description}</p>
-                <a href={`/?product=${guide.id}#discover`}>Browse matching farms →</a>
+                <a href={`/?product=${guide.id}#discover`}>Browse matching farms <span aria-hidden="true">→</span></a>
               </article>
             ))}
           </div>
@@ -78,7 +93,7 @@ export default async function Home() {
         <section className="about" id="about" aria-labelledby="about-title"><p className="section-number">About this field guide</p><div className="about-grid"><h2 id="about-title">A living directory,<br />built from the ground up.</h2><div><p>FarmFinder catalogs independent farms so buying local takes less detective work.</p><p>Some pins represent a city or county center rather than a farm gate. Always contact a farm before visiting.</p></div><aside><strong>Grow the map</strong><p>Own a farm, know one we missed, or see a detail that needs fixing?</p><span>Correction and submission tools are in progress.</span></aside></div></section>
       </main>
 
-      <footer><a className="brand footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span><span>FarmFinder<small>Find food closer to home.</small></span></a><p>Source-backed farm discovery, one region at a time.</p><div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a></div><small>© 2026 FarmFinder</small></footer>
+      <footer><a className="brand footer-brand" href="#top"><BrandMark className="brand-mark" /><span>FarmFinder<small>Find food closer to home.</small></span></a><p>Source-backed farm discovery, one region at a time.</p><div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a></div><small>© 2026 FarmFinder</small></footer>
       <nav className="mobile-dock" aria-label="Mobile navigation"><a href="#ask">Ask</a><a href="#products">Browse</a><a href="#discover">Search</a></nav>
     </div>
   );
