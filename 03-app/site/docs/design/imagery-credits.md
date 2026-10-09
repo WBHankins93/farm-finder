@@ -14,6 +14,8 @@
 | Slot | File | Photograph | Credit | Licence | Source |
 | --- | --- | --- | --- | --- | --- |
 | Home hero band | `images/hero.webp` (218 KB) | USDA Farmers Market Rainy Opening (9128285098) | USDAgov | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:USDA_Farmers_Market_Rainy_Opening_(9128285098).jpg) |
+| Home hero band (frame 2) | `images/hero-2.webp` (265 KB) | Fall Line Farms, cooperative, co-op, Richmond, VA. - Flickr - USDAgov | U.S. Department of Agriculture | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Fall_Line_Farms,_cooperative,_co-op,_Richmond,_VA._-_Flickr_-_USDAgov.jpg) |
+| Home hero band (frame 3) | `images/hero-3.webp` (259 KB) | 20180830-FAS-PJK-0556 TONED (43654766364) | U.S. Department of Agriculture Preston Keres/Office of Communications-Photography Service | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:20180830-FAS-PJK-0556_TONED_(43654766364).jpg) |
 | Harvest tile — Vegetables & greens | `images/products/vegetables.webp` (27 KB) | Healthy Harvest (Unsplash) | Brooke Cagle brookecagle | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Healthy_Harvest_(Unsplash).jpg) |
 | Harvest tile — Fruit, berries & citrus | `images/products/fruit.webp` (42 KB) | 20180830-FAS-PJK-0696 TONED (43654764574) | U.S. Department of Agriculture Preston Keres/Office of Communications-Photography Service | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:20180830-FAS-PJK-0696_TONED_(43654764574).jpg) |
 | Harvest tile — Eggs | `images/products/eggs.webp` (92 KB) | Fresh Eggs (Unsplash) | Autumn Mott autumnmott | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Fresh_Eggs_(Unsplash).jpg) |

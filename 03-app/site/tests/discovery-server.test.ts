@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
-import { discoveryDatasetSummary, getFarm, isMappableFarm, mapFarms, parseDiscoveryQuery, searchFarms, searchPlaces } from "../app/lib/discovery-server";
+import { discoveryDatasetSummary, getFarm, isMappableFarm, mapFarms, parseDiscoveryQuery, searchFarms, searchPlaces, tickerFarms } from "../app/lib/discovery-server";
 
 const expectedStates = [
   "AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DE", "FL", "GA",
@@ -149,4 +149,56 @@ test("no published record exposes a contact without a farm-published website", a
       if (farm.contact) assert.notEqual(farm.website, "", `${farm.id} leaks a contact`);
     }
   }
+});
+
+/**
+ * The hero ticker is the first moving thing on the page, so what it chooses to
+ * feature is a front-page editorial decision, not a sampling detail.
+ */
+
+test("the ticker samples the whole country, not the start of the alphabet", async () => {
+  const { farms, label } = await tickerFarms("");
+  assert.ok(farms.length >= 30, `expected a full roster, got ${farms.length}`);
+  assert.equal(label, "", "a national roster has no place label");
+
+  // The index is ordered by name. Taking the first N rows would return farms
+  // from a handful of states whose names happen to sort early; a stride walks
+  // the whole file.
+  const states = new Set(farms.map((farm) => farm.state));
+  assert.ok(states.size >= 12, `expected a national spread, got ${[...states].join(",")}`);
+  const initials = new Set(farms.map((farm) => farm.name[0].toUpperCase()));
+  assert.ok(initials.size >= 8, `expected varied names, got ${[...initials].join("")}`);
+});
+
+test("the ticker does not feature records that are plainly not farms", async () => {
+  const { farms } = await tickerFarms("");
+  for (const farm of farms) {
+    // These records stay in the directory and stay searchable — a named
+    // candidate is durable. They just do not belong under the headline.
+    assert.doesNotMatch(farm.name, /tax collector|county clerk|department of|chamber of commerce/i);
+    // "HERSCHBERGER, LEVI U." — an operator name from a licence register.
+    assert.doesNotMatch(farm.name, /^[A-Z][A-Z'\-]+(?: (?:JR|SR|I{1,3}|IV))?, [A-Z][A-Z'\-]+/);
+    assert.ok(farm.name && farm.city && farm.state, `incomplete entry: ${JSON.stringify(farm)}`);
+  }
+});
+
+test("a place makes the ticker local, and carries that place's label", async () => {
+  const { farms, label } = await tickerFarms("madison-wi");
+  assert.equal(label, "Madison, WI");
+  assert.ok(farms.length >= 6);
+  // Nearest-first within 50 miles: Wisconsin should dominate utterly.
+  const wisconsin = farms.filter((farm) => farm.state === "WI").length;
+  assert.ok(wisconsin / farms.length > 0.8, `expected mostly WI farms, got ${wisconsin}/${farms.length}`);
+});
+
+test("the ticker carries display text and nothing else", async () => {
+  const { farms } = await tickerFarms("madison-wi");
+  // Scenery has no business shipping coordinates or contacts into the page.
+  assert.deepEqual(Object.keys(farms[0]).sort(), ["city", "id", "name", "state"]);
+});
+
+test("an unresolvable place falls back to the national roster", async () => {
+  const { farms, label } = await tickerFarms("not-a-place-zz");
+  assert.ok(farms.length >= 30);
+  assert.equal(label, "");
 });
