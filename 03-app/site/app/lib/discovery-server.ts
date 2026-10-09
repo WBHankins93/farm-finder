@@ -458,3 +458,76 @@ export async function discoveryDatasetSummary() {
   const index = await loadDiscoveryIndex();
   return { total: index.count, states: index.states, releaseId: index.releaseId };
 }
+
+export type TickerFarm = { id: string; name: string; city: string; state: string };
+
+/**
+ * Names the hero ticker will not showcase.
+ *
+ * Nothing is removed from the directory — a named candidate is durable, and
+ * these records stay searchable. This is about what the front page *features*:
+ * a national sample surfaced "Wakulla County Tax Collector's Office", and an
+ * operator roster lifted from a licence register leaves rows shaped like
+ * "HERSCHBERGER, LEVI U.". Both are real entries worth fixing in the data
+ * lane; neither is a farm anyone wants to see scrolling under the headline.
+ */
+const notFeaturable = [
+  /\b(tax collector|county clerk|clerk of court|city of|town of|county of|department of|district office|chamber of commerce|extension (service|office)|university|school district|public library)\b/i,
+  /^[A-Z][A-Z'\-]+(?: (?:JR|SR|I{1,3}|IV))?, [A-Z][A-Z'\-]+/,
+];
+
+function featurable(name: string) {
+  return name.length > 2 && !notFeaturable.some((pattern) => pattern.test(name));
+}
+
+/**
+ * A short roster of farms for the hero ticker — names and places only.
+ *
+ * Two modes, and the fallback is the interesting one. With a place it is the
+ * nearest farms to that place, which is the personalised case. Without one it
+ * walks the index at a fixed stride instead of taking the first N rows: the
+ * index is ordered by name, so `slice(0, 42)` would be forty-two farms
+ * beginning with "A" from whichever states happen to sort first, which reads
+ * as a bug. A stride spreads the sample across the whole country.
+ *
+ * Returns display text only. The ticker is scenery; it has no business
+ * carrying coordinates, contacts or service flags into the page payload.
+ */
+export async function tickerFarms(near: string, limit = 42): Promise<{ label: string; farms: TickerFarm[] }> {
+  const take = Math.min(60, Math.max(6, Math.trunc(limit)));
+
+  if (near) {
+    const nearby = await searchFarms(
+      parseDiscoveryQuery(new URLSearchParams({ near, radiusMiles: "50", sort: "distance", limit: String(take) })),
+    );
+    const named = nearby.items.filter((farm) => farm.name && farm.state && featurable(farm.name));
+    // Only when the place actually resolved. An unrecognised `near` falls back
+    // to an unscoped search, which would label the band "Near all covered
+    // areas" over the alphabetical head of the index — wrong twice over.
+    if (nearby.scope.mode === "nearby" && named.length >= 6) {
+      return {
+        label: nearby.scope.label,
+        farms: named.map((farm) => ({ id: farm.id, name: farm.name, city: farm.city, state: farm.state })),
+      };
+    }
+  }
+
+  const index = await loadDiscoveryIndex();
+  // One slot per stride, and a rejected row is replaced from within its own
+  // stride rather than by moving the whole window. Shrinking the stride to
+  // refill the quota would pull every entry out of the alphabetical head of
+  // the index — forty farms from A to F, which is not a national sample.
+  const stride = Math.max(1, Math.floor(index.count / take));
+  const farms: TickerFarm[] = [];
+  for (let slot = 0; slot < take; slot += 1) {
+    const start = slot * stride;
+    for (let row = start; row < Math.min(start + stride, index.count); row += 1) {
+      const farm = index.record(row);
+      // An entry with no place reads as half a thought; try the next row.
+      if (!farm.name || !farm.state || !farm.city || !featurable(farm.name)) continue;
+      farms.push({ id: farm.id, name: farm.name, city: farm.city, state: farm.state });
+      break;
+    }
+  }
+  return { label: "", farms };
+}

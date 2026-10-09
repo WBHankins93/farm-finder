@@ -1,12 +1,14 @@
 import type { CSSProperties } from "react";
 import AskDirectory from "./components/ask-directory";
 import DiscoveryWorkspace from "./components/discovery-workspace";
+import FarmTicker from "./components/farm-ticker";
 import HeroPlaceSearch from "./components/hero-place-search";
 import stats from "./data/directory-stats.generated.json";
 import { productGuides } from "./lib/directory-config";
+import { tickerFarms } from "./lib/discovery-server";
 import { BrandMark, Mark, markForProduct } from "./lib/marks";
 
-export default async function Home() {
+export default async function Home({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
   // The national explorer is the product. `EXPLORER_LEGACY=true` is the
   // rollback switch to the superseded 299-row workbook explorer; it is never
   // set in a deployed build (its 45 MB client feed exceeds the asset limit).
@@ -16,6 +18,13 @@ export default async function Home() {
     const { default: LegacyHome } = await import("./legacy-page");
     return <LegacyHome />;
   }
+
+  // Server-rendered so the band is populated at first paint: a ticker that
+  // arrives empty and fills in later is worse than no ticker. `near` comes
+  // from the URL the hero search writes, so a shared link stays personalised.
+  const params = await searchParams;
+  const near = typeof params.near === "string" ? params.near : "";
+  const ticker = await tickerFarms(near);
 
   return (
     <div className="site-shell">
@@ -44,6 +53,7 @@ export default async function Home() {
           <div className="hero-photo" role="img" aria-label="Shoppers at an outdoor farmers market browsing crates of vegetables">
             <span className="hero-photo-credit">USDA farmers market · public domain</span>
           </div>
+          <FarmTicker farms={ticker.farms} place={ticker.label} />
           <div className="hero-stats">
             <div><strong>{stats.total.toLocaleString()}</strong><span>farms in the directory</span></div>
             <div><strong>{stats.states}</strong><span>states and districts</span></div>
