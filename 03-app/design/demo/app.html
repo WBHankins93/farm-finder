@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>FarmFinder — App demo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet" />
+<link href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" rel="stylesheet" />
+<link rel="stylesheet" href="../tokens.css" />
+<link rel="stylesheet" href="app.css" />
+</head>
+<body>
+<div class="stage">
+<div class="phone">
+
+  <!-- Onboarding -->
+  <section class="onboarding" id="onboarding">
+    <div class="ob-scene" aria-hidden="true">
+      <div class="ob-sun"></div>
+      <div class="ob-hills"></div>
+      <div class="ob-rows"></div>
+      <svg class="ob-plots" viewBox="0 0 390 300" preserveAspectRatio="none">
+        <path d="M-10 210 L150 150 L400 190" fill="none" stroke="rgba(248,245,236,.75)" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+        <path d="M150 150 L120 320" fill="none" stroke="rgba(248,245,236,.75)" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+        <circle cx="150" cy="150" r="4.5" fill="var(--leaf-500)" stroke="#f8f5ec" stroke-width="2"/>
+        <circle cx="320" cy="178" r="4.5" fill="var(--terra-500)" stroke="#f8f5ec" stroke-width="2"/>
+      </svg>
+    </div>
+    <div class="ob-chips">
+      <div class="glass-chip"><span>Farms</span><strong id="ob-farms">299</strong></div>
+      <div class="glass-chip"><span>States</span><strong id="ob-states">2</strong></div>
+      <div class="glass-chip"><span>Product guides</span><strong>12</strong></div>
+    </div>
+    <div class="ob-copy">
+      <p class="ob-kicker">fresh from Louisiana &amp; Mississippi →</p>
+      <h1>Find the farms<br /><em>behind your food.</em></h1>
+      <p class="ob-sub">Who grows it, where they are, and exactly how to buy from them.</p>
+      <button class="ob-cta" id="ob-start">Find food near you <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- Home -->
+  <main class="screen" id="screen-home">
+    <header class="home-head">
+      <div>
+        <p class="greet" id="greeting">Good morning 👋</p>
+        <h1 class="home-title">What are you<br /><em>hungry for?</em></h1>
+      </div>
+      <span class="brand-dot" aria-hidden="true">FF</span>
+    </header>
+    <div class="search-pill">
+      <svg viewBox="0 0 24 24" width="18" height="18"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16.5 16.5 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="home-search" placeholder="Try “crawfish” or “eggs near Covington”" />
+      <button class="pill-filter" id="home-search-go" aria-label="Search">→</button>
+    </div>
+    <section>
+      <div class="row-head"><h2>Shop the harvest</h2><button class="link-btn" data-nav="explore">See map</button></div>
+      <div class="chip-scroll" id="harvest-chips"></div>
+    </section>
+    <section>
+      <div class="row-head"><h2>Featured farms</h2><span class="row-sub" id="featured-count"></span></div>
+      <div class="card-stack" id="featured-list"></div>
+    </section>
+    <section class="stats-band">
+      <div><strong id="stat-la">—</strong><span>Louisiana</span></div>
+      <div><strong id="stat-ms">—</strong><span>Mississippi</span></div>
+      <div><strong id="stat-mkt">—</strong><span>at markets</span></div>
+      <div><strong id="stat-csa">—</strong><span>CSA shares</span></div>
+    </section>
+    <p class="honesty">Availability isn’t live. FarmFinder shows verified directory records — always confirm with the farm.</p>
+  </main>
+
+  <!-- Explore -->
+  <main class="screen screen-explore" id="screen-explore" hidden>
+    <div id="map"></div>
+    <div class="map-top">
+      <div class="chip-scroll map-chips" id="map-chips"></div>
+      <div class="map-active-filters">
+        <button class="map-query" id="map-query" hidden></button>
+        <button class="map-area" id="map-area" hidden></button>
+      </div>
+    </div>
+    <div class="map-carousel" id="map-carousel"></div>
+    <button class="map-reset" id="map-reset" hidden>Reset view</button>
+  </main>
+
+  <!-- Ask -->
+  <main class="screen" id="screen-ask" hidden>
+    <header class="ask-head">
+      <p class="greet">Ask the field guide</p>
+      <h1 class="home-title">Start with<br /><em>a question.</em></h1>
+    </header>
+    <form class="search-pill ask-pill" id="ask-form">
+      <input id="ask-input" placeholder="Who sells eggs near New Orleans?" />
+      <button class="pill-filter" type="submit" aria-label="Ask">→</button>
+    </form>
+    <div class="ask-prompts" id="ask-prompts"></div>
+    <div class="ask-answer" id="ask-answer" hidden>
+      <span class="answer-mark">A</span>
+      <div>
+        <h2 id="answer-title"></h2>
+        <p id="answer-summary"></p>
+        <p class="answer-detail" id="answer-detail"></p>
+        <div class="answer-farms" id="answer-farms"></div>
+      </div>
+    </div>
+    <p class="honesty">Answers stay grounded in the directory’s records and never invent availability.</p>
+  </main>
+
+  <!-- Saved -->
+  <main class="screen" id="screen-saved" hidden>
+    <header class="ask-head">
+      <p class="greet">Saved farms</p>
+      <h1 class="home-title">Your <em>shortlist.</em></h1>
+    </header>
+    <div class="card-stack" id="saved-list"></div>
+    <div class="empty-saved" id="saved-empty">
+      <span>♡</span>
+      <p>No saved farms yet. Tap the heart on any farm to keep it here.</p>
+      <button class="link-btn" data-nav="explore">Explore the map</button>
+    </div>
+  </main>
+
+  <!-- Farm detail sheet -->
+  <div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+  <section class="sheet" id="farm-sheet" hidden aria-modal="true" role="dialog">
+    <div class="sheet-grab" aria-hidden="true"></div>
+    <header class="sheet-head">
+      <div>
+        <p class="card-cat" id="sheet-cat"><i></i><span></span></p>
+        <h2 id="sheet-name"></h2>
+        <p class="sheet-place" id="sheet-place"></p>
+      </div>
+      <div class="sheet-head-actions">
+        <button class="heart" id="sheet-heart" aria-label="Save farm">♡</button>
+        <button class="sheet-close" id="sheet-close" aria-label="Close">×</button>
+      </div>
+    </header>
+    <nav class="segmented" id="sheet-tabs">
+      <button data-tab="info" class="active">Info</button>
+      <button data-tab="buy">Buy</button>
+      <button data-tab="map">Map</button>
+    </nav>
+    <div class="sheet-body">
+      <div class="sheet-pane" id="pane-info">
+        <p class="sheet-summary" id="sheet-summary"></p>
+        <h3>Products</h3>
+        <div class="tag-row" id="sheet-products"></div>
+        <h3>Directory notes</h3>
+        <p class="sheet-notes" id="sheet-notes"></p>
+        <div class="trust-rows" id="sheet-trust"></div>
+      </div>
+      <div class="sheet-pane" id="pane-buy" hidden>
+        <p class="sheet-summary" id="sheet-presence"></p>
+        <div class="buy-grid" id="sheet-services"></div>
+        <div class="contact-row" id="sheet-contacts"></div>
+      </div>
+      <div class="sheet-pane sheet-pane-map" id="pane-map" hidden>
+        <div id="mini-map"></div>
+        <p class="honesty" id="sheet-geo-note"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dock -->
+  <nav class="dock" id="dock">
+    <button data-nav="home" class="active"><svg viewBox="0 0 24 24"><path d="M4 11.5 12 4l8 7.5V20a1 1 0 0 1-1 1h-4.5v-5h-5v5H5a1 1 0 0 1-1-1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Home</span></button>
+    <button data-nav="explore"><svg viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-10.4A6.5 6.5 0 0 1 12 4a6.5 6.5 0 0 1 6.5 6.6C18.5 15.4 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10.6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span>Explore</span></button>
+    <button data-nav="ask"><svg viewBox="0 0 24 24"><path d="M12 20a8 8 0 1 0-7-4.2L4 20l4.4-.9A8 8 0 0 0 12 20z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9.8 9.5a2.3 2.3 0 1 1 3.2 2.4c-.8.3-1 .8-1 1.6M12 16.2v.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Ask</span></button>
+    <button data-nav="saved"><svg viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.7-7.5-10A4.4 4.4 0 0 1 12 7.6a4.4 4.4 0 0 1 7.5 2.9c0 5.3-7.5 10-7.5 10z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Saved</span></button>
+  </nav>
+
+</div>
+</div>
+<script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
