@@ -30,8 +30,15 @@ export default async function Home({ searchParams }: { searchParams: Promise<Rec
     <div className="site-shell">
       <a className="skip-link" href="#discover">Skip to farm search</a>
       <header className="topbar">
-        <a className="brand" href="#top"><BrandMark className="brand-mark" /><span>FarmFinder<small>U.S. farm field guide</small></span></a>
-        <nav aria-label="Primary navigation"><a href="#ask">Ask</a><a href="#products">Browse</a><a href="#discover">Explore</a><a className="farmer-link" href="#discover">Find farms</a></nav>
+        <a className="brand" href="#top"><BrandMark className="brand-mark" /><span>FarmFinder<small>Local farms, nationwide</small></span></a>
+        {/* Three links and one action. "Explore" and "Find farms" both led to
+            the same place, which is a choice presented as two. */}
+        <nav aria-label="Primary navigation">
+          <a href="#products">Browse food</a>
+          <a href="#ask">Ask</a>
+          <a href="#about">About</a>
+          <a className="farmer-link" href="#discover"><Mark name="pin" aria-hidden="true" />Find farms</a>
+        </nav>
       </header>
 
       <main id="top">

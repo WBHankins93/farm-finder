@@ -79,3 +79,67 @@ test("the palette stays small enough to hold in your head", () => {
     assert.ok(group.note.length > 0, `${group.title} needs a note saying when to reach for it`);
   }
 });
+
+/**
+ * Typeface consistency.
+ *
+ * The display face is a variable font whose character comes from its axes: at
+ * default `SOFT` and no `WONK`, Fraunces is a different-looking typeface with
+ * the same name. The CSS `font:` shorthand resets `font-variation-settings`,
+ * so any rule that sets the display face through the shorthand and forgets to
+ * restate the axes silently renders the plain cut — which is how the hero and
+ * the harvest tiles ended up in two different faces with nothing in the
+ * stylesheet looking wrong.
+ */
+
+test("every rule that sets the display face also sets its axes", () => {
+  const blocks = [...stylesheet.matchAll(/([^{}]+)\{([^{}]*)\}/g)];
+  const offenders: string[] = [];
+  for (const [, selector, body] of blocks) {
+    const usesShorthand = /font:[^;]*var\(--display\)/.test(body);
+    if (!usesShorthand) continue;
+    if (!/font-variation-settings/.test(body)) offenders.push(selector.trim().replace(/\s+/g, " ").slice(0, 70));
+  }
+  assert.deepEqual(offenders, [], `display rules missing font-variation-settings: ${offenders.join(" | ")}`);
+});
+
+test("the display axes are declared once, as a token", () => {
+  // Every rule points at the same custom property, so changing the voice of
+  // the typeface is one edit rather than fifty.
+  const declared = cssValue("display-settings");
+  assert.ok(declared, "--display-settings is missing from :root");
+  assert.match(declared!, /"SOFT"\s+\d+/);
+  assert.match(declared!, /"WONK"\s+[01]/);
+  const literals = [...stylesheet.matchAll(/font-variation-settings:\s*([^;]+);/g)]
+    .map(([, value]) => value.trim())
+    .filter((value) => !value.includes("var(--display-settings)"));
+  // The hero's second line is allowed its own setting; nothing else should be.
+  assert.ok(literals.length <= 1, `hard-coded variation settings: ${literals.join(" | ")}`);
+});
+
+/**
+ * Stylesheet traps that cost real functionality.
+ *
+ * These are not style opinions. Each one is a rule that silently broke
+ * something a person uses, where nothing in the CSS looked wrong.
+ */
+
+test("the hero search field is never clipped", () => {
+  // The type-ahead list is a child of `.hero-field`, so any overflow clip on
+  // the field clips the suggestions to the height of the pill: the list still
+  // opens, still sets aria-expanded, still announces itself — and paints
+  // nothing. The button is inset with its own radius instead.
+  const field = stylesheet.match(/\.hero-location > \.hero-field\s*\{([^}]*)\}/);
+  assert.ok(field, ".hero-location > .hero-field rule is missing");
+  assert.doesNotMatch(field![1], /overflow\s*:\s*(hidden|clip|auto|scroll)/, "clipping the field hides the type-ahead");
+});
+
+test("the hero column that holds the search outranks its siblings", () => {
+  // `.hero > :not(.hero-atlas)` puts every hero child on z-index 2, so the
+  // column containing the search makes a stacking context the suggestion list
+  // cannot escape — and the ticker, a later sibling, paints over it.
+  const column = stylesheet.match(/\.hero > \.hero-copy-col\s*\{([^}]*)\}/);
+  assert.ok(column, "no explicit z-index for the hero's search column");
+  const z = column![1].match(/z-index:\s*(\d+)/);
+  assert.ok(z && Number(z[1]) > 2, `search column must sit above its siblings, got ${z?.[1]}`);
+});

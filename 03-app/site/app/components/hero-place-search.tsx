@@ -29,8 +29,17 @@ async function lookup(term: string, limit: number, signal?: AbortSignal): Promis
  * (`?near=…#discover`) plus a `popstate`, which is the event the explorer
  * already listens for on back/forward. That keeps one way in, not two.
  *
- * Without JavaScript the form still submits `?place=` to `/#discover`, and the
- * explorer resolves it with the same tolerant matching.
+ * Without JavaScript the form still submits `?place=` to `/#discover`, and
+ * `parseDiscoveryUrl` does read `place` — but the explorer is a client island
+ * (`"use client"`, with the map behind a dynamic import), so the server sends
+ * a page with no results on it. Verified 2026-10-11: the HTML for
+ * `?place=Madison, WI` contains the "Set your field boundary" empty state and
+ * no farm cards.
+ *
+ * So this is a known gap, not a fallback. Closing it means rendering the first
+ * page of results on the server for `near`/`place` — worth doing for crawlers
+ * as much as for no-JS visitors, since every city query is currently invisible
+ * to a search engine. Tracked in docs/product/featured-readiness-2026-09-15.md.
  */
 export default function HeroPlaceSearch() {
   const listId = useId();

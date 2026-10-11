@@ -140,6 +140,19 @@ All verified in-browser at both widths; see
 | Result cards: body squeezed into a 35px track, ~250px tall, ~3 visible | Two-track grid, 139px tall, 5.5 visible, icon-led, with a compass needle on the distance |
 | Map: one fixed pin ramp, a static four-swatch legend, no settings | A Map options panel — basemap, pins/density/both, category highlight, farm names, tilt, scale bar — over a retuned pin ramp, with the legend as a shortcut into it |
 
+### 6. City results are invisible without JavaScript — and to crawlers
+
+The hero form degrades to a plain `GET ?place=…`, and `parseDiscoveryUrl`
+reads `place`, so this looked like a working no-JS fallback. It is not: the
+explorer is a client island, so the server returns the empty state. Verified
+2026-10-11 — the HTML for `?place=Madison, WI` carries "Set your field
+boundary" and no farm cards.
+
+The no-JS visitor is the smaller half of this. **Every city query is currently
+invisible to a search engine**: a directory of 68,618 farms renders none of
+them server-side, so "farms near Madison WI" has nothing to index. Closing it
+means server-rendering the first page of results for `near` / `place`.
+
 ## Backlog, smallest first
 
 1. ~~Give `.farm-card-main` the two columns it actually renders.~~ **Done**, and
