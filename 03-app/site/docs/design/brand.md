@@ -52,12 +52,43 @@ Small text uses `--rust` at 5.05:1. Every text-bearing token above clears
 
 ## Type
 
-Plus Jakarta Sans for display, DM Sans for interface and data — unchanged, and
-deliberately so. A warm serif was considered and rejected: the repository had
-already retired display serifs, and the warmth this brand needed came from
-colour, photography and shape rather than from letterforms. Headlines came down
-from 132px to a 46–76px clamp, because the hero now shares the screen with a
-photograph and a search field.
+Revised 2026-10-11 against four reference faces the owner chose: **Sauce TM**,
+**Indigo Sky** (Fenotype), **Mochi Boom** and **Peanut Donuts**. All four are
+commercial and none ships here, but they share one DNA — chunky, rounded,
+retro, the lettering of a food shop. Three are bubble faces; the fourth is a
+plush rounded serif with swashes and a tall x-height.
+
+| Role | Face | Where |
+| --- | --- | --- |
+| Display | **Fraunces**, `SOFT 100, WONK 1` | headlines, section titles, farm names |
+| Pop | **Baloo 2** 600–800 | counts, badges, step markers |
+| Interface | **DM Sans** | body copy, controls, labels, data |
+
+Fraunces takes the Indigo Sky role: its `SOFT` axis plumps the serifs and
+`WONK` swaps in canted, slightly-off letterforms — the retro wobble those
+references trade on — while staying a reading face at 19px, which matters when
+it is setting five hundred farm names. The variation settings live on
+`--display-settings` and travel with the token, because a headline set at
+default `SOFT` is a different typeface wearing the same name.
+
+Baloo 2 takes the Mochi Boom / Peanut Donuts / Sauce TM role and is **confined
+to numerals and very short labels**. A bubble face is a delight on "17,346" and
+a liability on a paragraph.
+
+This reverses the earlier "no display serif" rule, deliberately and at the
+owner's instruction. Plus Jakarta Sans was a well-made geometric sans with no
+point of view, which was most of why the product read as careful rather than
+characterful.
+
+Two consequences worth knowing. Tracking was retuned throughout: every negative
+letter-spacing on the display face was relaxed by roughly two thirds, because
+the tight tracking that keeps a geometric sans from looking loose makes a serif
+look jammed. And the phone headline came down a step — Fraunces sets wider than
+the face it replaced, and the search has to stay above the fold.
+
+**If the real faces are licensed**, swapping them in is a change to
+`app/layout.tsx` and the `--display` / `--pop` tokens, plus a tracking pass.
+Nothing else reaches for a font family by name.
 
 ## The mark
 
