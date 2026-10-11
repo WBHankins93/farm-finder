@@ -88,9 +88,19 @@ export const brandRadii = [
   { name: "radius-lg", value: "20px", role: "Hero photograph, large media" },
 ];
 
-/** Type roles. Both faces are loaded in `app/layout.tsx`. */
+/**
+ * Type roles. All three faces are loaded in `app/layout.tsx`.
+ *
+ * Built from the owner's reference set — Sauce TM, Indigo Sky, Mochi Boom,
+ * Peanut Donuts — which are all commercial and all share one DNA: chunky,
+ * rounded, retro food-shop lettering. Fraunces (SOFT 100, WONK 1) stands in
+ * for the plush retro serif; Baloo 2 for the bubble faces, confined to
+ * numerals and short labels where a bubble face is a delight rather than a
+ * liability. DM Sans keeps doing the reading.
+ */
 export const brandType = [
-  { role: "Display", face: "Plus Jakarta Sans", usage: "Headlines, farm names, counts", sample: "Find the farms" },
+  { role: "Display", face: "Fraunces (SOFT 100, WONK 1)", usage: "Headlines, section titles, farm names", sample: "Find the farms" },
+  { role: "Pop", face: "Baloo 2", usage: "Counts, badges, step markers — numerals and short labels only", sample: "68,618" },
   { role: "Interface", face: "DM Sans", usage: "Body copy, controls, labels, data", sample: "496 farms within 50 miles" },
 ];
 

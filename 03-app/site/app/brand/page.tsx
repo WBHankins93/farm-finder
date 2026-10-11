@@ -89,7 +89,7 @@ export default function BrandSheet() {
             {brandType.map((entry) => (
               <article key={entry.role}>
                 <span>{entry.role} · {entry.face}</span>
-                <p className={entry.role === "Display" ? "brand-type-display" : "brand-type-ui"}>{entry.sample}</p>
+                <p className={`brand-type-${entry.role.toLowerCase()}`}>{entry.sample}</p>
                 <small>{entry.usage}</small>
               </article>
             ))}
