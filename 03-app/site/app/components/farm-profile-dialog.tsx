@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { serviceFilters } from "../lib/directory-config";
+import { farmLocationLabel, farmProfileSummary, productLabelsForFarm } from "../lib/farm-presentation";
 import { categoryColors, type Farm } from "../lib/farms";
 import { Mark, markForCategory, markForService } from "../lib/marks";
 
@@ -11,16 +12,10 @@ type Props = {
   onShowMap: () => void;
 };
 
-function farmSummary(farm: Farm) {
-  const selling = farm.marketPresence
-    ? `Current sales information lists ${farm.marketPresence.toLocaleLowerCase()}.`
-    : "A confirmed sales schedule is not listed yet.";
-  return `${farm.name} is a ${farm.category.toLocaleLowerCase()} producer near ${farm.city}, ${farm.state}. Known products include ${farm.productsText}. ${selling}`;
-}
-
 export default function FarmProfileDialog({ farm, onClose, onShowMap }: Props) {
   const dialogRef = useRef<HTMLElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
+  const productLabels = productLabelsForFarm(farm);
 
   useEffect(() => {
     const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
@@ -66,16 +61,23 @@ export default function FarmProfileDialog({ farm, onClose, onShowMap }: Props) {
           <div>
             <p className="profile-kicker"><Mark name={markForCategory(farm.category)} style={{ color: categoryColors[farm.category] }} />{farm.category} · Farm profile</p>
             <h2 id="profile-title">{farm.name}</h2>
-            <p>{farm.city}, {farm.state} · {farm.parish || "Area not listed"}</p>
+            <p>{farmLocationLabel(farm)}</p>
           </div>
           <button ref={closeRef} type="button" onClick={onClose} aria-label="Close farm profile">×</button>
         </header>
 
         <div className="profile-body">
-          <section className="profile-summary"><span>Directory summary</span><p>{farmSummary(farm)}</p></section>
+          <section className="profile-summary"><span>Directory summary</span><p>{farmProfileSummary(farm, productLabels)}</p></section>
           <div className="profile-columns">
             <div className="profile-main">
-              <section className="profile-section"><h3>Products & specialties</h3><p>{farm.productsText || "Products have not been listed yet."}</p><div className="profile-product-tags">{farm.products.map((product) => <span key={product}>{product}</span>)}</div></section>
+              <section className="profile-section">
+                <h3>Products & specialties</h3>
+                {productLabels.length ? (
+                  <div className="profile-product-tags">{productLabels.map((product) => <span key={product.toLocaleLowerCase("en-US")}>{product}</span>)}</div>
+                ) : (
+                  <p>Products have not been listed yet.</p>
+                )}
+              </section>
               <section className="profile-section"><h3>How to buy</h3><p>{farm.marketPresence || "A confirmed sales schedule has not been added yet."}</p><div className="profile-service-grid">{serviceFilters.map(({ key, label }) => {
                 const mark = markForService(key);
                 return (
