@@ -7,6 +7,7 @@ import { type DiscoveryScope, type FarmMapResponse, type FarmSearchResponse, typ
 import { categories, productGuides, serviceFilters } from "../lib/directory-config";
 import { categoryColors, type Farm } from "../lib/farms";
 import { Mark, markForCategory, markForProduct } from "../lib/marks";
+import DiscoveryControls from "./discovery-controls";
 import FarmResultCard from "./farm-result-card";
 import FarmProfileDialog from "./farm-profile-dialog";
 
@@ -487,17 +488,29 @@ export default function DiscoveryWorkspace() {
     <section className="discovery discovery-v2" id="discover" aria-labelledby="discover-title">
       <div className="discovery-heading"><div><p className="section-number">Search the directory</p><h2 id="discover-title">Find food from a farm near you.</h2></div><p>Choose a city or share an approximate location. The directory loads only the farms relevant to your search.</p></div>
 
-      <div className="discovery-controls">
-        <div className="location-control">
-          <label htmlFor="near-place">City or town</label>
-          <div className="location-input-row"><input ref={placeInputRef} id="near-place" value={placeInput} onChange={(event) => updatePlaceInput(event.target.value)} onFocus={() => suggestions.length && setSuggestionsOpen(true)} placeholder="Madison, WI" autoComplete="off" role="combobox" aria-autocomplete="list" aria-controls="place-suggestions" aria-expanded={suggestionsOpen && suggestions.length > 0} /><button type="button" onClick={locate} disabled={locating}>{locating ? "Finding you…" : "Use my location"}</button></div>
-          {suggestionsOpen && suggestions.length ? <div id="place-suggestions" className="place-suggestions" role="listbox" aria-label="Place suggestions">{suggestions.map((suggestion) => <button type="button" role="option" aria-selected={place?.slug === suggestion.slug} key={suggestion.slug} onMouseDown={(event) => event.preventDefault()} onClick={() => choosePlace(suggestion)}><span>{suggestion.label}</span><small>{suggestion.farmCount.toLocaleString()} directory records</small></button>)}</div> : null}
-        </div>
-        <label className="directory-query"><span>Farm or food</span><div><input value={query} onChange={(event) => { setQuery(event.target.value); setSort(event.target.value.trim() ? "relevance" : hasScope ? "distance" : "name"); }} placeholder="Eggs, tomatoes, farm name…" type="search" />{query ? <button type="button" onClick={() => setQuery("")} aria-label="Clear farm search">×</button> : null}</div></label>
-        <div className="radius-control" role="group" aria-label="Search radius"><span>Field boundary</span><div>{([25, 50, 100] as const).map((miles) => <button type="button" key={miles} className={radius === miles ? "active" : ""} aria-pressed={radius === miles} disabled={!place && !userOrigin} onClick={() => { setRadius(miles); setBbox(null); setPendingCamera(null); }}>{miles} mi</button>)}</div></div>
-      </div>
-
-      <div className="location-status" aria-live="polite"><span>{locationMessage || "Choose a city to begin nearby search."}</span>{!searchEnabled ? <button type="button" onClick={browseNationwide}>Browse all farms instead</button> : <button type="button" onClick={startOver}>Start over</button>}</div>
+      <DiscoveryControls
+        inputRef={placeInputRef}
+        model={{ placeInput, selectedPlaceSlug: place?.slug ?? null, suggestions, suggestionsOpen, locating, query, radius, radiusEnabled: Boolean(place || userOrigin), locationMessage, searchEnabled }}
+        actions={{
+          onPlaceInputChange: updatePlaceInput,
+          onPlaceInputFocus: () => setSuggestionsOpen(true),
+          onDismissSuggestions: () => setSuggestionsOpen(false),
+          onChoosePlace: choosePlace,
+          onLocate: locate,
+          onQueryChange: (value) => {
+            setQuery(value);
+            setSort(value.trim() ? "relevance" : hasScope ? "distance" : "name");
+          },
+          onClearQuery: () => setQuery(""),
+          onRadiusChange: (miles) => {
+            setRadius(miles);
+            setBbox(null);
+            setPendingCamera(null);
+          },
+          onBrowseNationwide: browseNationwide,
+          onStartOver: startOver,
+        }}
+      />
 
       <div className="primary-filters" role="group" aria-label="Quick filters">
         <div className="quick-filter-scroll"><button type="button" className={!product ? "active" : ""} onClick={() => setProduct("")}>All products</button>{productGuides.slice(0, 8).map((guide) => <button type="button" key={guide.id} className={product === guide.id ? "active" : ""} onClick={() => setProduct(product === guide.id ? "" : guide.id)} aria-pressed={product === guide.id}>{markForProduct(guide.id) ? <Mark name={markForProduct(guide.id)!} style={{ color: guide.color }} /> : null}{guide.shortLabel}</button>)}</div>

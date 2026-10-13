@@ -1,6 +1,6 @@
 # FarmFinder UX, engineering, and design improvement plan
 
-> Status: active implementation plan
+> Status: first two implementation passes complete; pilots and regression automation remain
 > Date: 2026-10-13
 > Scope: consumer directory experience under `03-app/site/`
 
@@ -118,6 +118,33 @@ Decoration must remain quiet around controls and data.
 
 The primary agent reviews every package for scope, product truthfulness,
 accessibility, responsive behavior, and test coverage before integration.
+
+## Implementation ledger
+
+- [x] Ask keeps the explorer's location and radius through requests and result
+  links, while distinguishing nearby from nationwide matches.
+- [x] Cards and profiles share presentation-only product normalization without
+  rewriting canonical data.
+- [x] The result card and discovery controls are typed view boundaries; the
+  discovery workspace remains the state and data-loading controller.
+- [x] Map detail, cards, and profiles now use the same clean location and
+  product presentation, including explicit missing-data language.
+- [x] City suggestions implement the ARIA combobox keyboard path: Up/Down,
+  Enter, Escape, active-option announcement, and focus-safe pointer selection.
+- [x] Search status updates are scoped to a dedicated status node so the
+  adjacent action does not get repeatedly announced.
+- [x] Desktop and 390px mobile checks confirmed city selection, suggestion
+  dismissal, status messaging, a 44px map-detail close target, and a map sheet
+  that stays within the mobile viewport width.
+- [ ] Add reproducible visual-regression baselines after Chrome/font versions,
+  dynamic map regions, ownership, and baseline-update rules are pinned.
+- [ ] Run the permissioned five-farm logo pilot; research links are not
+  production assets and remain blocked on documented rights and approval.
+
+The current screenshot harness remains a review tool, not a pixel-diff gate.
+That distinction is intentional: an unowned or unstable baseline creates noisy
+approvals rather than trustworthy regression coverage. The staged path is
+recorded in [`../testing-report.md`](../testing-report.md).
 
 ## Completion checks
 
