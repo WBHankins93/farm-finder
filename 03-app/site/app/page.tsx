@@ -1,9 +1,11 @@
+import Link from "next/link";
 import type { CSSProperties } from "react";
 import AskDirectory from "./components/ask-directory";
 import DiscoveryWorkspace from "./components/discovery-workspace";
 import FarmTicker from "./components/farm-ticker";
 import HeroPlaceSearch from "./components/hero-place-search";
 import stats from "./data/directory-stats.generated.json";
+import { feedbackEnabled } from "./lib/feedback-handler";
 import { productGuides } from "./lib/directory-config";
 import { tickerFarms } from "./lib/discovery-server";
 import { BrandMark, Mark, markForProduct } from "./lib/marks";
@@ -25,6 +27,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<Rec
   const params = await searchParams;
   const near = typeof params.near === "string" ? params.near : "";
   const ticker = await tickerFarms(near);
+  const acceptsFeedback = feedbackEnabled();
 
   return (
     <div className="site-shell">
@@ -102,7 +105,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<Rec
           <div className="field-story-copy"><p className="section-number">A useful field guide, not a promise of live stock</p><h2 id="field-story-title">Find the farm.<br /><em>Confirm the trip.</em></h2><p>Compare products and ways to buy, then contact the farm for this week’s availability, hours, and pickup details.</p><a href="#discover">Search farms near you →</a></div>
         </section>
 
-        <DiscoveryWorkspace />
+        <DiscoveryWorkspace acceptsFeedback={acceptsFeedback} />
 
         <section className="updates-section" id="updates" aria-labelledby="updates-title">
           <div className="updates-heading"><p className="section-number">Directory field notes</p><h2 id="updates-title">What the map<br />can tell you.</h2><p>{stats.updatedLabel} · Every listing keeps its source so details can be checked and corrected.</p></div>
@@ -114,7 +117,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<Rec
           </div>
         </section>
 
-        <section className="about" id="about" aria-labelledby="about-title"><p className="section-number">About this field guide</p><div className="about-grid"><h2 id="about-title">A living directory,<br />built from the ground up.</h2><div><p>FarmFinder catalogs independent farms so buying local takes less detective work.</p><p>Some pins represent a city or county center rather than a farm gate. Always contact a farm before visiting.</p></div><aside><strong>Grow the map</strong><p>Own a farm, know one we missed, or see a detail that needs fixing?</p><span>Correction and submission tools are in progress.</span></aside></div></section>
+        <section className="about" id="about" aria-labelledby="about-title"><p className="section-number">About this field guide</p><div className="about-grid"><h2 id="about-title">A living directory,<br />built from the ground up.</h2><div><p>FarmFinder catalogs independent farms so buying local takes less detective work.</p><p>Some pins represent a city or county center rather than a farm gate. Always contact a farm before visiting.</p></div><aside><strong>Grow the map</strong><p>Own a farm, know one we missed, or see a detail that needs fixing?</p>{acceptsFeedback ? <Link href="/feedback">Suggest an update →</Link> : <span>Correction and submission tools are in progress.</span>}</aside></div></section>
       </main>
 
       <footer><a className="brand footer-brand" href="#top"><BrandMark className="brand-mark" /><span>FarmFinder<small>Find food closer to home.</small></span></a><p>Source-backed farm discovery, one region at a time.</p><div><a href="#ask">Ask</a><a href="#products">Products</a><a href="#discover">Explore</a><a href="#about">About</a></div><small>© 2026 FarmFinder</small></footer>

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { serviceFilters } from "../lib/directory-config";
 import { farmLocationLabel, farmProfileSummary, productLabelsForFarm } from "../lib/farm-presentation";
@@ -7,12 +8,13 @@ import { categoryColors, type Farm } from "../lib/farms";
 import { Mark, markForCategory, markForService } from "../lib/marks";
 
 type Props = {
+  acceptsFeedback?: boolean;
   farm: Farm;
   onClose: () => void;
   onShowMap: () => void;
 };
 
-export default function FarmProfileDialog({ farm, onClose, onShowMap }: Props) {
+export default function FarmProfileDialog({ farm, onClose, onShowMap, acceptsFeedback = false }: Props) {
   const dialogRef = useRef<HTMLElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
   const productLabels = productLabelsForFarm(farm);
@@ -92,6 +94,7 @@ export default function FarmProfileDialog({ farm, onClose, onShowMap }: Props) {
             </div>
             <aside className="profile-sidebar">
               <div className="profile-actions"><button type="button" onClick={onShowMap}>Show on map →</button>{farm.website ? <a href={farm.website} target="_blank" rel="noreferrer">Visit website ↗</a> : null}{contactHref ? <a href={contactHref}>Contact farm ↗</a> : null}</div>
+              {acceptsFeedback && <div className="profile-actions"><Link href={`/feedback?farmId=${encodeURIComponent(farm.id)}`}>Suggest an update →</Link></div>}
               <div className="profile-fact"><span>Location confidence</span><strong>{farm.geoPrecision === "point" ? "Public point" : farm.geoPrecision === "city" ? "City-level approximation" : "Approximate area"}</strong><small>Confirm before visiting</small></div>
               <div className="profile-fact"><span>Directory source</span><strong>{farm.source || "Source retained internally"}</strong></div>
             </aside>
