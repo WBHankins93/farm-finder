@@ -26,7 +26,11 @@ const assetBinding = {
   },
 };
 
-async function request(path = "/", { legacy = false } = {}) {
+async function request(path = "/", { legacy = false, feedback = false, databaseUrl = "postgresql://127.0.0.1:1/unavailable", method = "GET", body } = {}) {
+  const previousFeedback = process.env.FEEDBACK_ENABLED;
+  const previousDatabase = process.env.FEEDBACK_DATABASE_URL;
+  process.env.FEEDBACK_ENABLED = String(feedback);
+  process.env.FEEDBACK_DATABASE_URL = databaseUrl;
   const previous = process.env.EXPLORER_LEGACY;
   if (legacy) process.env.EXPLORER_LEGACY = "true";
   else delete process.env.EXPLORER_LEGACY;
@@ -37,11 +41,15 @@ async function request(path = "/", { legacy = false } = {}) {
 
   try {
     return await worker.fetch(
-      new Request(`http://localhost${path}`, { headers: { accept: "text/html" } }),
+      new Request(`http://localhost${path}`, { method, body: body ? JSON.stringify(body) : undefined, headers: { accept: "text/html", ...(body ? { "content-type": "application/json" } : {}) } }),
       { ASSETS: assetBinding },
       { waitUntil() {}, passThroughOnException() {} },
     );
   } finally {
+    if (previousFeedback === undefined) delete process.env.FEEDBACK_ENABLED;
+    else process.env.FEEDBACK_ENABLED = previousFeedback;
+    if (previousDatabase === undefined) delete process.env.FEEDBACK_DATABASE_URL;
+    else process.env.FEEDBACK_DATABASE_URL = previousDatabase;
     if (previous === undefined) delete process.env.EXPLORER_LEGACY;
     else process.env.EXPLORER_LEGACY = previous;
   }
@@ -175,4 +183,54 @@ test("the worker serves without an env, as `vinext start` calls it", async () =>
     new Request("http://localhost/_vinext/image?url=%2Fimages%2Ffield-story.webp&w=640&q=75"),
   );
   assert.notEqual(image.status, 500);
+});
+
+
+test("feedback stays unavailable and has no submission form until explicitly enabled", async () => {
+  const html = await request("/feedback").then((response) => response.text());
+  assert.match(html, /Feedback submissions are not available yet/);
+  assert.doesNotMatch(html, /<form/);
+  const response = await request("/v1/feedback", { method: "POST", body: {} });
+  assert.equal(response.status, 503);
+  assert.equal(response.headers.get("cache-control"), "no-store");
+});
+
+test("enabled feedback renders a directory-backed form without exposing server configuration", async () => {
+  const list = await request("/v1/farms?limit=1").then((response) => response.json());
+  const farm = list.items[0];
+  const response = await request(`/feedback?farmId=${encodeURIComponent(farm.id)}&farmName=untrusted-injected-name`, { feedback: true });
+  const html = await response.text();
+  assert.equal(response.status, 200);
+  assert.match(html, /Send update for review/);
+  assert.match(html, /No account needed/);
+  assert.match(html, /name="farmName"/);
+  assert.doesNotMatch(html, /value="untrusted-injected-name"/);
+  assert.doesNotMatch(html, /postgresql:\/\//);
+  const home = await request("/", { feedback: true }).then((response) => response.text());
+  assert.match(home, /href="\/feedback"/);
+});
+
+test("feedback HTTP intake saves one durable report and replays its receipt", { skip: !process.env.FEEDBACK_TEST_DATABASE_URL }, async () => {
+  const { Client } = await import("pg");
+  const databaseUrl = process.env.FEEDBACK_TEST_DATABASE_URL;
+  const database = new Client({ connectionString: databaseUrl });
+  await database.connect();
+  try {
+    await database.query("DROP SCHEMA IF EXISTS feedback_private CASCADE");
+    await database.query(await readFile(new URL("../packages/db/migrations/0004_feedback.sql", import.meta.url), "utf8"));
+    const body = { idempotencyKey: crypto.randomUUID(), farmName: "HTTP Test Farm", city: "Baton Rouge", state: "LA", type: "missing_farm", details: "A synthetic integration test farm report.", relationship: "visitor", email: "private@example.com" };
+    const options = { feedback: true, databaseUrl, method: "POST", body };
+    const first = await request("/v1/feedback", options);
+    assert.equal(first.status, 201);
+    const receipt = await first.json();
+    const retry = await request("/v1/feedback", options);
+    assert.equal(retry.status, 200);
+    assert.deepEqual(await retry.json(), receipt);
+    assert.deepEqual(Object.keys(receipt).sort(), ["receipt", "status"]);
+    assert.equal((await database.query("SELECT count(*) FROM feedback_private.submissions")).rows[0].count, "1");
+    assert.equal((await database.query("SELECT count(*) FROM feedback_private.processing_jobs")).rows[0].count, "1");
+  } finally {
+    await database.query("DROP SCHEMA IF EXISTS feedback_private CASCADE");
+    await database.end();
+  }
 });

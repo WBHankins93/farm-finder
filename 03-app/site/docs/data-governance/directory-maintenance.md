@@ -85,6 +85,8 @@ live information.
 - Safe recurring reconciliation, operating-status history, and scheduling:
   follow-up implementation work.
 - Feedback destination: private backend storage and review, agreed direction;
-  managed PostgreSQL is the proposed store. UI, API, and infrastructure remain
-  planned in the linked implementation plan.
+  the first implementation adds PostgreSQL intake, durable receipts, pending
+  processing jobs, and a gated form. It remains disabled pending managed
+  infrastructure and authenticated review; see the
+  [intake runbook](feedback-intake-runbook.md).
 - Grounded generated answers: planned; the current Ask UI searches listing text.
