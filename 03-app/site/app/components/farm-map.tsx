@@ -5,6 +5,7 @@ import maplibregl, { type GeoJSONSource, type Map as MapLibreMap } from "maplibr
 import type { FeatureCollection, Point } from "geojson";
 import { serviceKeys, type DiscoveryScope, type FarmMapFeature, type FarmSummary, type LatLng, type MapBounds, type ServiceKey } from "../lib/discovery-contract";
 import { categoryColors } from "../lib/farms";
+import { farmLocationLabel, formatProductSummary, productLabelsForFarm } from "../lib/farm-presentation";
 import { basemaps, detailedStyleUrl, detailPaint, detailPitch, detailZoom, guideStyle, needsStyleSwap, type BasemapId } from "../lib/map-styles";
 import { densityPaint, describeMapOptions, farmLabelLayout, farmPointMinZoom, farmPointPaint, layerVisibility, pinModes, readMapOptions, spotlightCategories, writeMapOptions, type MapOptions, type PinMode } from "../lib/map-options";
 import { Mark, markForCategory, markForService } from "../lib/marks";
@@ -389,6 +390,7 @@ export default function FarmMap(props: FarmMapProps) {
   }
 
   const selected = props.selectedFarm;
+  const selectedProducts = selected ? productLabelsForFarm(selected) : [];
   const activeBasemap = basemaps.find((option) => option.id === basemap) ?? null;
   return (
     <div className="map-wrap">
@@ -507,8 +509,8 @@ export default function FarmMap(props: FarmMapProps) {
           <button className="detail-close" type="button" onClick={() => props.onSelect("")} aria-label="Close farm details">×</button>
           <div className="detail-kicker"><Mark name={markForCategory(selected.category)} style={{ color: categoryColors[selected.category] || "#596b60" }} />{selected.category}</div>
           <h3>{selected.name}</h3>
-          <p className="detail-place"><Mark name="pin" aria-hidden="true" />{[selected.city, selected.state].filter(Boolean).join(", ")}{selected.parish ? ` · ${selected.parish}` : ""}</p>
-          <p className={`detail-products ${selected.productsText ? "" : "is-missing"}`}>{selected.productsText || "Products not listed — ask the farm what they have this week."}</p>
+          <p className="detail-place"><Mark name="pin" aria-hidden="true" />{farmLocationLabel(selected)}</p>
+          <p className={`detail-products ${selectedProducts.length ? "" : "is-missing"}`}>{selectedProducts.length ? formatProductSummary(selectedProducts) : "Products not listed — ask the farm what they have this week."}</p>
           {/* "How to buy" is the question the sheet exists to answer, so it is
               a labelled row of targets rather than a line of grey word-pills. */}
           <div className="detail-ways">
