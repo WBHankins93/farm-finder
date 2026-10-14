@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useId, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
+import { buildHeroPlaceUrl } from "../lib/browse-location-continuity";
 import type { PlaceSearchResponse, PlaceSuggestion } from "../lib/discovery-contract";
 import { choiceCaption, choosePlace, fallbackPlaceQueries } from "../lib/place-match";
 
@@ -106,7 +107,7 @@ export default function HeroPlaceSearch() {
     setActive(-1);
     setValue(place.label);
     setStatus({ tone: "idle" });
-    const url = `/?near=${encodeURIComponent(place.slug)}&radiusMiles=50&sort=distance#discover`;
+    const url = buildHeroPlaceUrl(place.slug, window.location.search);
     window.history.pushState(null, "", url);
     window.dispatchEvent(new PopStateEvent("popstate"));
 

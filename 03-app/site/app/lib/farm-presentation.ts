@@ -80,6 +80,32 @@ export function farmLocationLabel(farm: Pick<Farm, "city" | "state" | "parish">)
   return place ? `${place} · ${area}` : area;
 }
 
+/**
+ * Public source records sometimes contain a bare domain rather than a fully
+ * qualified URL. Turn those into safe external links while refusing unknown
+ * schemes, whitespace, and values that are not plausibly web addresses.
+ */
+export function farmWebsiteHref(value: string): string {
+  const website = value.trim();
+  if (!website || /\s/.test(website)) return "";
+
+  if (/^https?:\/\//i.test(website)) {
+    try {
+      const url = new URL(website);
+      return url.protocol === "http:" || url.protocol === "https:" ? url.toString() : "";
+    } catch {
+      return "";
+    }
+  }
+
+  if (!/^(?:[a-z0-9-]+\.)+[a-z]{2,}(?::\d+)?(?:[/?#].*)?$/i.test(website)) return "";
+  try {
+    return new URL(`https://${website}`).toString();
+  } catch {
+    return "";
+  }
+}
+
 export function farmProfileSummary(farm: FarmSummaryFields, productLabels = productLabelsForFarm(farm)): string {
   const category = farm.category.trim().toLocaleLowerCase("en-US");
   const article = /^[aeiou]/i.test(category) ? "an" : "a";

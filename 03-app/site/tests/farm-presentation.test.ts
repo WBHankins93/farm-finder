@@ -3,6 +3,7 @@ import test from "node:test";
 import {
   farmLocationLabel,
   farmProfileSummary,
+  farmWebsiteHref,
   formatProductLabels,
   formatProductSummary,
   normalizeProductLabels,
@@ -109,4 +110,18 @@ test("location label avoids stray punctuation when city or state is missing", ()
   assert.equal(farmLocationLabel({ city: "", state: "MS", parish: "Pearl River" }), "MS · Pearl River");
   assert.equal(farmLocationLabel({ city: "Picayune", state: "", parish: "" }), "Picayune · Area not listed");
   assert.equal(farmLocationLabel({ city: "", state: "", parish: "" }), "Area not listed");
+});
+
+test("website links accept web URLs and safely qualify bare domains", () => {
+  assert.equal(farmWebsiteHref("www.1000stonefarm.com"), "https://www.1000stonefarm.com/");
+  assert.equal(farmWebsiteHref("farm.example/path"), "https://farm.example/path");
+  assert.equal(farmWebsiteHref("https://farm.example/about"), "https://farm.example/about");
+  assert.equal(farmWebsiteHref("http://farm.example"), "http://farm.example/");
+});
+
+test("website links reject unsafe schemes and malformed values", () => {
+  assert.equal(farmWebsiteHref("javascript:alert(1)"), "");
+  assert.equal(farmWebsiteHref("mailto:farmer@example.com"), "");
+  assert.equal(farmWebsiteHref("not a website"), "");
+  assert.equal(farmWebsiteHref(""), "");
 });

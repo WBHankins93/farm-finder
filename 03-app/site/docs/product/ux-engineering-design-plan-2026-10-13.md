@@ -146,6 +146,73 @@ That distinction is intentional: an unowned or unstable baseline creates noisy
 approvals rather than trustworthy regression coverage. The staged path is
 recorded in [`../testing-report.md`](../testing-report.md).
 
+## User-flow critique backlog
+
+This backlog records the first-time-user review completed after the first two
+implementation passes. “Working” means the core path can be completed today;
+it does not mean every transition is yet as direct or legible as it should be.
+
+### Current flow assessment
+
+The core journey is sound: choose a city → filter by food → compare farms → use
+the map → open a profile, website, contact path, or directions. The hero makes
+the product legible quickly, the search model is understandable, and location
+uncertainty is represented honestly. The remaining work is concentrated at
+transitions between these surfaces and at the point where a farm record should
+become a confident next step.
+
+| ID | Finding | Acceptance condition | Status |
+|---|---|---|---|
+| UF-01 | Product browse links replace the current query string, silently dropping a chosen place and radius | Product navigation preserves valid `near`, `radiusMiles`, and other compatible discovery context while changing only the product | Complete · verified |
+| UF-02 | The results toolbar repeats the selected sort value beside the native select | One visible, labeled sort control communicates the current value | Complete · verified |
+| UF-03 | Tapping the main body of a result card on mobile only selects it while its detail sheet remains in the hidden map view | A mobile card activation produces an immediate visible outcome; desktop list/map continuity remains intact | Complete · verified |
+| UF-04 | Some visual toggle states do not expose their selected state to assistive technology | Every product, category, and service toggle reports `aria-pressed` consistently | Complete · verified |
+| UF-05 | The full location/query/radius workbench consumes most of the screen after a mobile scope is established | A compact mobile scope summary appears after selection, preserves the active values, and offers an explicit Edit action | Complete · verified |
+| UF-06 | Ask can legitimately return nationwide results before a visitor establishes location, but that is rarely the intended meaning of “Who sells…” | Ask either carries an established scope or offers a direct location refinement without forcing a trip down and back up the page | Next pass |
+| UF-07 | The profile reads as a database record rather than the conclusion of discovery; contact, website, and map actions compete equally | The profile presents a clear “next step” hierarchy without inventing contact paths or freshness | Complete · verified |
+| UF-08 | Repeated “not listed” language is honest but erodes confidence when source records are sparse | Data enrichment and owner correction reduce missing product and purchase-path fields while keeping explicit unknown states | Data/owner workflow |
+| UF-09 | Farms, farmers markets, and related organizations can appear visually equivalent | Product ownership decides the entity taxonomy; the interface then labels each type explicitly | Product decision |
+| UF-10 | Listing freshness is not visible to consumers | Show a verified or source-updated date only after a governed field and update policy exist | Data-model dependency |
+| UF-11 | Some source-kept farm websites are bare domains, which browsers otherwise interpret as broken internal links | Qualify plausible bare domains as HTTPS and reject malformed or unsafe schemes everywhere the app renders a website action | Complete · verified |
+
+### Product questions retained for decision
+
+1. Is the primary successful outcome contacting the farm, visiting its website,
+   or getting directions? Analytics and action hierarchy should follow one
+   declared outcome.
+2. Are farmers markets and related organizations first-class peers of farms, or
+   distinct result types within the same directory?
+3. Is location the default boundary for every consumer journey, or is national
+   research an equally important mode?
+4. What governed event is allowed to reset a listing’s “verified” date?
+5. When does owner correction/claim become part of the public product rather
+   than an internal enrichment process?
+
+### Verification matrix for this pass
+
+| Risk | Verification |
+|---|---|
+| Location disappears when browsing by product | Pure URL-helper tests plus hydrated browser navigation from a Louisiana-scoped page |
+| Mobile card activation has no visible result | Browser check at 390 × 844 confirming the Map view and selected sheet become visible |
+| Compact summary hides or misstates active scope | Browser checks for selection, Edit, place/radius/query text, and desktop non-regression |
+| Toggle state is visual only | Source assertions and keyboard/accessibility-tree inspection for `aria-pressed` |
+| Profile invents unavailable actions | Unit/type checks plus browser review of records with and without contact and website fields |
+| App-wide regression | Repository-required data, pipeline, lint, build, rendered, and real-WebGL screenshot gates |
+
+### Implementation review · 2026-10-14
+
+The work was split into three exclusive implementation scopes: location and
+product continuity, results/filter interaction, and mobile/profile hierarchy.
+Integration review found and corrected two boundary cases before approval:
+unmapped result cards now open their profile rather than promising a map, and
+source-kept bare-domain websites are safely qualified for external navigation.
+
+Browser verification covered the New Orleans, Louisiana flow on desktop and at
+390 × 844. It confirmed retained place/radius context, one visible sort control,
+announced toggle states, the compact scope summary and Edit focus return, mapped
+card → map-sheet continuity, the unmapped-card profile fallback, and profile
+actions for records with and without a public contact path or map point.
+
 ## Completion checks
 
 Run the repository-required checks from `AGENTS.md`, including all pipeline and

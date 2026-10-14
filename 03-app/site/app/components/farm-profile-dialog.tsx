@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { serviceFilters } from "../lib/directory-config";
-import { farmLocationLabel, farmProfileSummary, productLabelsForFarm } from "../lib/farm-presentation";
+import { farmLocationLabel, farmProfileSummary, farmWebsiteHref, productLabelsForFarm } from "../lib/farm-presentation";
 import { categoryColors, type Farm } from "../lib/farms";
 import { Mark, markForCategory, markForService } from "../lib/marks";
 
@@ -55,6 +55,10 @@ export default function FarmProfileDialog({ farm, onClose, onShowMap, acceptsFee
 
   const digits = farm.contact.replace(/\D/g, "");
   const contactHref = farm.contact.includes("@") ? `mailto:${farm.contact}` : digits.length >= 10 ? `tel:${digits}` : "";
+  const contactLabel = farm.contact.includes("@") ? "Email farm" : "Call farm";
+  const websiteHref = farmWebsiteHref(farm.website);
+  const mapped = farm.geoPrecision !== "ungeocoded";
+  const primaryAction = contactHref ? "contact" : websiteHref ? "website" : mapped ? "map" : "details";
 
   return (
     <div className="profile-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && onClose()}>
@@ -71,6 +75,24 @@ export default function FarmProfileDialog({ farm, onClose, onShowMap, acceptsFee
         <div className="profile-body">
           <section className="profile-summary"><span>Directory summary</span><p>{farmProfileSummary(farm, productLabels)}</p></section>
           <div className="profile-columns">
+            <aside className="profile-sidebar" aria-label="Farm next steps">
+              <div className="profile-next-step">
+                <span>Next step</span>
+                <strong>{primaryAction === "contact" ? "Contact the farm" : primaryAction === "website" ? "Visit the farm’s website" : primaryAction === "map" ? "Review the map location" : "Review the directory details"}</strong>
+                <p>{primaryAction === "details" ? "No confirmed contact path or public map location is listed yet." : primaryAction === "map" ? "No confirmed direct contact path is listed. Review the approximate location and confirm before visiting." : "Confirm hours, availability, and pickup details before visiting."}</p>
+              </div>
+              <div className="profile-actions">
+                {primaryAction === "contact" ? <a className="primary" href={contactHref}>{contactLabel}</a> : null}
+                {primaryAction === "website" ? <a className="primary" href={websiteHref} target="_blank" rel="noreferrer">Visit website</a> : null}
+                {primaryAction === "map" ? <button className="primary" type="button" onClick={onShowMap}>Show on map</button> : null}
+                {primaryAction !== "website" && websiteHref ? <a href={websiteHref} target="_blank" rel="noreferrer">Visit website</a> : null}
+                {primaryAction !== "contact" && contactHref ? <a href={contactHref}>{contactLabel}</a> : null}
+                {primaryAction !== "map" && mapped ? <button type="button" onClick={onShowMap}>Show on map</button> : null}
+                {acceptsFeedback ? <Link href={`/feedback?farmId=${encodeURIComponent(farm.id)}`}>Suggest an update</Link> : null}
+              </div>
+              <div className="profile-fact"><span>Location confidence</span><strong>{farm.geoPrecision === "point" ? "Public point" : farm.geoPrecision === "city" ? "City-level approximation" : "Approximate area"}</strong><small>Confirm before visiting</small></div>
+              <div className="profile-fact"><span>Directory source</span><strong>{farm.source || "Source retained internally"}</strong></div>
+            </aside>
             <div className="profile-main">
               <section className="profile-section">
                 <h3>Products & specialties</h3>
@@ -92,12 +114,6 @@ export default function FarmProfileDialog({ farm, onClose, onShowMap, acceptsFee
               })}</div></section>
               <section className="profile-section"><h3>Directory notes</h3><p>{farm.notes || "No additional field notes have been recorded yet."}</p></section>
             </div>
-            <aside className="profile-sidebar">
-              <div className="profile-actions"><button type="button" onClick={onShowMap}>Show on map →</button>{farm.website ? <a href={farm.website} target="_blank" rel="noreferrer">Visit website ↗</a> : null}{contactHref ? <a href={contactHref}>Contact farm ↗</a> : null}</div>
-              {acceptsFeedback && <div className="profile-actions"><Link href={`/feedback?farmId=${encodeURIComponent(farm.id)}`}>Suggest an update →</Link></div>}
-              <div className="profile-fact"><span>Location confidence</span><strong>{farm.geoPrecision === "point" ? "Public point" : farm.geoPrecision === "city" ? "City-level approximation" : "Approximate area"}</strong><small>Confirm before visiting</small></div>
-              <div className="profile-fact"><span>Directory source</span><strong>{farm.source || "Source retained internally"}</strong></div>
-            </aside>
           </div>
         </div>
       </article>

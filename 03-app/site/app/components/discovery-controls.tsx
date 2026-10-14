@@ -1,6 +1,6 @@
 "use client";
 
-import { useId, useState, type KeyboardEvent, type RefObject } from "react";
+import { useId, useRef, useState, type KeyboardEvent, type RefObject } from "react";
 import type { PlaceSuggestion } from "../lib/discovery-contract";
 
 type SearchRadius = 25 | 50 | 100;
@@ -11,6 +11,7 @@ export interface DiscoveryControlsModel {
   suggestions: PlaceSuggestion[];
   suggestionsOpen: boolean;
   locating: boolean;
+  productLabel: string;
   query: string;
   radius: SearchRadius;
   radiusEnabled: boolean;
@@ -23,7 +24,7 @@ export interface DiscoveryControlsActions {
   onPlaceInputFocus: () => void;
   onDismissSuggestions: () => void;
   onChoosePlace: (place: PlaceSuggestion) => void;
-  onLocate: () => void;
+  onLocate: () => void | Promise<void>;
   onQueryChange: (value: string) => void;
   onClearQuery: () => void;
   onRadiusChange: (radius: SearchRadius) => void;
@@ -39,11 +40,27 @@ interface DiscoveryControlsProps {
 
 export default function DiscoveryControls({ inputRef, model, actions }: DiscoveryControlsProps) {
   const suggestionsId = useId();
+  const editButtonRef = useRef<HTMLButtonElement>(null);
   const [activeSuggestion, setActiveSuggestion] = useState(-1);
+  const [editingOnMobile, setEditingOnMobile] = useState(false);
   const suggestionsExpanded = model.suggestionsOpen && model.suggestions.length > 0;
+  const scopedLocation = model.placeInput.trim();
+  const canCompactOnMobile = model.searchEnabled && model.radiusEnabled && Boolean(scopedLocation);
+  const showMobileSummary = canCompactOnMobile && !editingOnMobile;
+  const scopeFood = model.query.trim() ? `“${model.query.trim()}”` : model.productLabel || "All products";
   const activeSuggestionId = suggestionsExpanded && activeSuggestion >= 0
     ? `${suggestionsId}-option-${activeSuggestion}`
     : undefined;
+
+  function editMobileScope() {
+    setEditingOnMobile(true);
+    window.requestAnimationFrame(() => inputRef.current?.focus());
+  }
+
+  function collapseMobileScope() {
+    setEditingOnMobile(false);
+    window.requestAnimationFrame(() => editButtonRef.current?.focus());
+  }
 
   function handlePlaceKeyDown(event: KeyboardEvent<HTMLInputElement>) {
     if (event.key === "ArrowDown" && model.suggestions.length) {
@@ -57,6 +74,7 @@ export default function DiscoveryControls({ inputRef, model, actions }: Discover
     } else if (event.key === "Enter" && suggestionsExpanded && activeSuggestion >= 0) {
       event.preventDefault();
       actions.onChoosePlace(model.suggestions[activeSuggestion]);
+      collapseMobileScope();
       setActiveSuggestion(-1);
     } else if (event.key === "Escape" && suggestionsExpanded) {
       event.preventDefault();
@@ -67,7 +85,18 @@ export default function DiscoveryControls({ inputRef, model, actions }: Discover
 
   return (
     <>
-      <div className="discovery-controls">
+      {canCompactOnMobile ? (
+        <div className={`mobile-scope-summary${showMobileSummary ? " visible" : ""}`} aria-label="Current nearby search">
+          <div>
+            <span>Searching near</span>
+            <strong>{scopedLocation}</strong>
+            <small>{model.radius} miles · {scopeFood}</small>
+          </div>
+          <button ref={editButtonRef} type="button" onClick={editMobileScope} aria-label={`Edit search near ${scopedLocation}`}>Edit</button>
+        </div>
+      ) : null}
+
+      <div className={`discovery-controls${showMobileSummary ? " mobile-collapsed" : ""}`}>
         <div className="location-control">
           <label htmlFor="near-place">City or town</label>
           <div className="location-input-row">
@@ -90,7 +119,7 @@ export default function DiscoveryControls({ inputRef, model, actions }: Discover
               aria-expanded={suggestionsExpanded}
               aria-activedescendant={activeSuggestionId}
             />
-            <button type="button" onClick={actions.onLocate} disabled={model.locating}>
+            <button type="button" onClick={async () => { setEditingOnMobile(true); await actions.onLocate(); collapseMobileScope(); }} disabled={model.locating}>
               {model.locating ? "Finding you…" : "Use my location"}
             </button>
           </div>
@@ -108,6 +137,7 @@ export default function DiscoveryControls({ inputRef, model, actions }: Discover
                   onMouseEnter={() => setActiveSuggestion(index)}
                   onClick={() => {
                     actions.onChoosePlace(suggestion);
+                    collapseMobileScope();
                     setActiveSuggestion(-1);
                   }}
                 >
@@ -137,7 +167,10 @@ export default function DiscoveryControls({ inputRef, model, actions }: Discover
                 className={model.radius === miles ? "active" : ""}
                 aria-pressed={model.radius === miles}
                 disabled={!model.radiusEnabled}
-                onClick={() => actions.onRadiusChange(miles)}
+                onClick={() => {
+                  actions.onRadiusChange(miles);
+                  collapseMobileScope();
+                }}
               >
                 {miles} mi
               </button>
@@ -146,13 +179,16 @@ export default function DiscoveryControls({ inputRef, model, actions }: Discover
         </div>
       </div>
 
-      <div className="location-status">
+      <div className={`location-status${showMobileSummary ? " mobile-collapsed" : ""}`}>
         <span role="status">{model.locationMessage || "Choose a city to begin nearby search."}</span>
-        {!model.searchEnabled ? (
-          <button type="button" onClick={actions.onBrowseNationwide}>Browse all farms instead</button>
-        ) : (
-          <button type="button" onClick={actions.onStartOver}>Start over</button>
-        )}
+        <div className="location-status-actions">
+          {canCompactOnMobile && editingOnMobile ? <button className="mobile-controls-done" type="button" onClick={collapseMobileScope}>Show results</button> : null}
+          {!model.searchEnabled ? (
+            <button type="button" onClick={actions.onBrowseNationwide}>Browse all farms instead</button>
+          ) : (
+            <button type="button" onClick={() => { setEditingOnMobile(true); actions.onStartOver(); }}>Start over</button>
+          )}
+        </div>
       </div>
     </>
   );

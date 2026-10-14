@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
 import { serviceKeys, type FarmSummary, type LatLng, type ServiceKey } from "../lib/discovery-contract";
 import { categoryColors } from "../lib/farms";
-import { productLabelsForFarm } from "../lib/farm-presentation";
+import { farmWebsiteHref, productLabelsForFarm } from "../lib/farm-presentation";
 import { Mark, markForCategory, markForService } from "../lib/marks";
 import { relativeHeading } from "../lib/nearby";
 
@@ -19,7 +19,6 @@ type FarmResultCardProps = {
   selected: boolean;
   index: number | null;
   origin: LatLng | null;
-  onSelect: (id: string) => void;
   onShowMap: (farm: FarmSummary) => void;
   onOpenProfile: (id: string) => void;
   onHover: (farm: FarmSummary | null) => void;
@@ -40,7 +39,7 @@ type FarmResultCardProps = {
  * information they carry. Each keeps a visible-on-focus text label for anyone
  * not reading by shape.
  */
-export default function FarmResultCard({ farm, selected, index, origin, onSelect, onShowMap, onOpenProfile, onHover }: FarmResultCardProps) {
+export default function FarmResultCard({ farm, selected, index, origin, onShowMap, onOpenProfile, onHover }: FarmResultCardProps) {
   const services = serviceKeys.filter((key) => farm[key]);
   const mapped = farm.geoPrecision !== "ungeocoded";
   const heading = mapped ? relativeHeading(origin, { lat: farm.latitude, lng: farm.longitude }, farm.distanceMiles) : null;
@@ -48,10 +47,16 @@ export default function FarmResultCard({ farm, selected, index, origin, onSelect
   const cityAndState = [farm.city.trim(), farm.state.trim()].filter(Boolean).join(", ");
   const place = cityAndState ? `${cityAndState}${farm.parish.trim() ? ` · ${farm.parish.trim()}` : ""}` : farm.parish.trim() || "Area not listed";
   const color = categoryColors[farm.category] || "#59604c";
+  const websiteHref = farmWebsiteHref(farm.website);
 
   return (
     <article className={`farm-card ${selected ? "selected" : ""}`} onMouseEnter={() => onHover(farm)} onMouseLeave={() => onHover(null)} onFocus={() => onHover(farm)} onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) onHover(null); }}>
-      <button className="farm-card-main" type="button" onClick={() => onSelect(farm.id)} aria-label={`Select ${farm.name}`}>
+      <button
+        className="farm-card-main"
+        type="button"
+        onClick={() => mapped ? onShowMap(farm) : onOpenProfile(farm.id)}
+        aria-label={mapped ? `Show ${farm.name} on the map` : `Open ${farm.name} profile`}
+      >
         {/* A colour-and-mark tile, not a photograph. NN/g's finding on mobile
             list thumbnails is that they only help when they differ from each
             other; the same category stock photo on forty cards is page weight
@@ -105,7 +110,7 @@ export default function FarmResultCard({ farm, selected, index, origin, onSelect
         <span className="card-links">
           <button type="button" onClick={() => onOpenProfile(farm.id)}>Profile</button>
           {mapped ? <button type="button" onClick={() => onShowMap(farm)}>Map</button> : null}
-          {farm.website ? <a href={farm.website} target="_blank" rel="noreferrer">Site<Mark name="link" aria-hidden="true" /><span className="sr-only"> (opens in a new tab)</span></a> : null}
+          {websiteHref ? <a href={websiteHref} target="_blank" rel="noreferrer">Site<Mark name="link" aria-hidden="true" /><span className="sr-only"> (opens in a new tab)</span></a> : null}
         </span>
       </div>
     </article>

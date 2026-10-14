@@ -5,7 +5,7 @@ import maplibregl, { type GeoJSONSource, type Map as MapLibreMap } from "maplibr
 import type { FeatureCollection, Point } from "geojson";
 import { serviceKeys, type DiscoveryScope, type FarmMapFeature, type FarmSummary, type LatLng, type MapBounds, type ServiceKey } from "../lib/discovery-contract";
 import { categoryColors } from "../lib/farms";
-import { farmLocationLabel, formatProductSummary, productLabelsForFarm } from "../lib/farm-presentation";
+import { farmLocationLabel, farmWebsiteHref, formatProductSummary, productLabelsForFarm } from "../lib/farm-presentation";
 import { basemaps, detailedStyleUrl, detailPaint, detailPitch, detailZoom, guideStyle, needsStyleSwap, type BasemapId } from "../lib/map-styles";
 import { densityPaint, describeMapOptions, farmLabelLayout, farmPointMinZoom, farmPointPaint, layerVisibility, pinModes, readMapOptions, spotlightCategories, writeMapOptions, type MapOptions, type PinMode } from "../lib/map-options";
 import { Mark, markForCategory, markForService } from "../lib/marks";
@@ -391,6 +391,7 @@ export default function FarmMap(props: FarmMapProps) {
 
   const selected = props.selectedFarm;
   const selectedProducts = selected ? productLabelsForFarm(selected) : [];
+  const selectedWebsiteHref = selected ? farmWebsiteHref(selected.website) : "";
   const activeBasemap = basemaps.find((option) => option.id === basemap) ?? null;
   return (
     <div className="map-wrap">
@@ -526,7 +527,7 @@ export default function FarmMap(props: FarmMapProps) {
           <div className="detail-actions">
             <a className="detail-primary" href={directionsHref(selected)} target="_blank" rel="noreferrer"><Mark name="heading" aria-hidden="true" />Directions</a>
             <button type="button" onClick={() => props.onOpenProfile(selected.id)}>Full profile</button>
-            {selected.website ? <a href={selected.website} target="_blank" rel="noreferrer">Website<Mark name="link" aria-hidden="true" /></a> : null}
+            {selectedWebsiteHref ? <a href={selectedWebsiteHref} target="_blank" rel="noreferrer">Website<Mark name="link" aria-hidden="true" /></a> : null}
           </div>
           <p className="precision-note">{selected.geoPrecision === "point" ? "Farm-gate point" : "Approximate location — the pin is a city or county centre"} · Confirm before visiting</p>
         </aside>
