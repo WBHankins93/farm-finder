@@ -32,7 +32,7 @@ function serializeBounds(bounds: MapBounds) {
   return bounds.map((value) => value.toFixed(4)).join(",");
 }
 
-export default function DiscoveryWorkspace() {
+export default function DiscoveryWorkspace({ acceptsFeedback = false }: { acceptsFeedback?: boolean }) {
   const [initialized, setInitialized] = useState(false);
   const [query, setQuery] = useState("");
   const [deferredQuery, setDeferredQuery] = useState("");
@@ -552,7 +552,7 @@ export default function DiscoveryWorkspace() {
         </div>
       </div>
 
-      {profileFarm ? <FarmProfileDialog farm={profileFarm} onClose={() => setProfileFarm(null)} onShowMap={() => { setProfileFarm(null); setSelectedFarm(fullFarmToSummary(profileFarm)); setView("map"); }} /> : null}
+      {profileFarm ? <FarmProfileDialog acceptsFeedback={acceptsFeedback} farm={profileFarm} onClose={() => setProfileFarm(null)} onShowMap={() => { setProfileFarm(null); setSelectedFarm(fullFarmToSummary(profileFarm)); setView("map"); }} /> : null}
     </section>
   );
 }

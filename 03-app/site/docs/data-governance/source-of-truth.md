@@ -34,6 +34,12 @@ location; it does not create an intake exemption or a QA penalty.
 
 ## Adding a new farm
 
+The [directory maintenance and community feedback policy](directory-maintenance.md)
+sets a monthly refresh baseline, permits every-other-month refreshes, and defines
+how firsthand reports enter private review before changing public records.
+The relational import steps below describe the PostgreSQL cutover workflow;
+the committed state store remains authoritative before that cutover.
+
 1. Register the source, license/terms, retrieval date, and immutable file checksum.
 2. Create an import batch with a unique idempotency key.
 3. Store the raw row in `source_records` before normalization.
