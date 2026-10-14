@@ -4,6 +4,7 @@ import DiscoveryWorkspace from "./components/discovery-workspace";
 import FarmTicker from "./components/farm-ticker";
 import HeroPlaceSearch from "./components/hero-place-search";
 import stats from "./data/directory-stats.generated.json";
+import { buildProductBrowseUrl } from "./lib/browse-location-continuity";
 import { productGuides } from "./lib/directory-config";
 import { tickerFarms } from "./lib/discovery-server";
 import { BrandMark, Mark, markForProduct } from "./lib/marks";
@@ -91,7 +92,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<Rec
                   <strong className="product-card-count">{stats.products[guide.id as keyof typeof stats.products].toLocaleString()}<span>farms</span></strong>
                 </div>
                 <h3>{guide.label}</h3><p>{guide.description}</p>
-                <a href={`/?product=${guide.id}#discover`}>Browse matching farms <span aria-hidden="true">→</span></a>
+                <a href={buildProductBrowseUrl(guide.id, params)}>Browse matching farms <span aria-hidden="true">→</span></a>
               </article>
             ))}
           </div>

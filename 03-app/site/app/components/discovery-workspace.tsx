@@ -482,7 +482,14 @@ export default function DiscoveryWorkspace() {
   const selectedOutsidePage = selectedFarm && !searchResult.items.some((farm) => farm.id === selectedFarm.id) ? selectedFarm : null;
   const scope = searchEnabled ? (searchResult.scope as DiscoveryScope) : null;
   const scopeText = scope?.mode === "nearby" ? `within ${scope.radiusMiles} miles of ${scope.label}` : scope?.mode === "area" ? "in this map area" : "across all covered areas";
-  const sortLabel = sort === "distance" ? "Nearest" : sort === "relevance" ? "Best match" : "Farm name";
+
+  const showFarmOnMap = useCallback((farm: FarmSummary) => {
+    setSelectedFarm(farm);
+    // Desktop keeps both panels visible, while the same action switches a
+    // narrow layout to its map panel. The card therefore has one truthful
+    // outcome at every breakpoint instead of a mobile-only no-op.
+    setView("map");
+  }, []);
 
   return (
     <section className="discovery discovery-v2" id="discover" aria-labelledby="discover-title">
@@ -490,7 +497,7 @@ export default function DiscoveryWorkspace() {
 
       <DiscoveryControls
         inputRef={placeInputRef}
-        model={{ placeInput, selectedPlaceSlug: place?.slug ?? null, suggestions, suggestionsOpen, locating, query, radius, radiusEnabled: Boolean(place || userOrigin), locationMessage, searchEnabled }}
+        model={{ placeInput, selectedPlaceSlug: place?.slug ?? null, suggestions, suggestionsOpen, locating, productLabel: productGuides.find((guide) => guide.id === product)?.shortLabel ?? "", query, radius, radiusEnabled: Boolean(place || userOrigin), locationMessage, searchEnabled }}
         actions={{
           onPlaceInputChange: updatePlaceInput,
           onPlaceInputFocus: () => setSuggestionsOpen(true),
@@ -513,16 +520,15 @@ export default function DiscoveryWorkspace() {
       />
 
       <div className="primary-filters" role="group" aria-label="Quick filters">
-        <div className="quick-filter-scroll"><button type="button" className={!product ? "active" : ""} onClick={() => setProduct("")}>All products</button>{productGuides.slice(0, 8).map((guide) => <button type="button" key={guide.id} className={product === guide.id ? "active" : ""} onClick={() => setProduct(product === guide.id ? "" : guide.id)} aria-pressed={product === guide.id}>{markForProduct(guide.id) ? <Mark name={markForProduct(guide.id)!} style={{ color: guide.color }} /> : null}{guide.shortLabel}</button>)}</div>
-        <div className="quick-service-row">{serviceFilters.slice(0, 3).map(({ key, shortLabel }) => <button type="button" key={key} className={services.includes(key) ? "active" : ""} onClick={() => toggleService(key)} aria-pressed={services.includes(key)}>{services.includes(key) ? "✓ " : "+ "}{shortLabel}</button>)}<button ref={filtersButtonRef} className="all-filters-button" type="button" onClick={openFilters}>All filters {category || services.length > 3 ? "•" : ""}</button>{hasFilters ? <button className="clear-filters" type="button" onClick={clearFilters}>Clear filters</button> : null}</div>
+        <div className="quick-filter-scroll"><button type="button" className={!product ? "active" : ""} onClick={() => setProduct("")} aria-pressed={!product}>All products</button>{productGuides.slice(0, 8).map((guide) => <button type="button" key={guide.id} className={product === guide.id ? "active" : ""} onClick={() => setProduct(product === guide.id ? "" : guide.id)} aria-pressed={product === guide.id}>{markForProduct(guide.id) ? <Mark name={markForProduct(guide.id)!} style={{ color: guide.color }} /> : null}{guide.shortLabel}</button>)}</div>
+        <div className="quick-service-row">{serviceFilters.slice(0, 3).map(({ key, shortLabel }) => <button type="button" key={key} className={services.includes(key) ? "active" : ""} onClick={() => toggleService(key)} aria-pressed={services.includes(key)}>{services.includes(key) ? "✓ " : "+ "}{shortLabel}</button>)}<button ref={filtersButtonRef} className="all-filters-button" type="button" onClick={openFilters} aria-haspopup="dialog" aria-expanded={filtersOpen}>All filters {category || services.length > 3 ? "•" : ""}</button>{hasFilters ? <button className="clear-filters" type="button" onClick={clearFilters}>Clear filters</button> : null}</div>
       </div>
 
-      {filtersOpen ? <div className="filter-sheet-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setFiltersOpen(false)}><section ref={filtersDialogRef} className="filter-sheet" role="dialog" aria-modal="true" aria-labelledby="filter-sheet-title"><header><div><span>Refine the field</span><h3 id="filter-sheet-title">All filters</h3></div><button type="button" onClick={() => setFiltersOpen(false)} aria-label="Close filters">×</button></header><div className="filter-sheet-group"><h4>Farm category</h4><div><button type="button" className={!draftCategory ? "active" : ""} onClick={() => setDraftCategory("")}>Any category</button>{categories.map((item) => <button type="button" className={draftCategory === item ? "active" : ""} onClick={() => setDraftCategory(draftCategory === item ? "" : item)} key={item}><Mark name={markForCategory(item)} style={{ color: categoryColors[item] }} />{item}</button>)}</div></div><div className="filter-sheet-group"><h4>Ways to buy</h4><div>{serviceFilters.map(({ key, label }) => <button type="button" className={draftServices.includes(key) ? "active" : ""} onClick={() => toggleDraftService(key)} key={key}>{draftServices.includes(key) ? "✓ " : "+ "}{label}</button>)}</div></div><footer><button type="button" onClick={() => { setDraftCategory(""); setDraftServices([]); }}>Reset these filters</button><button type="button" onClick={applyDraftFilters}>See {draftTotal.toLocaleString()} farms</button></footer></section></div> : null}
+      {filtersOpen ? <div className="filter-sheet-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setFiltersOpen(false)}><section ref={filtersDialogRef} className="filter-sheet" role="dialog" aria-modal="true" aria-labelledby="filter-sheet-title"><header><div><span>Refine the field</span><h3 id="filter-sheet-title">All filters</h3></div><button type="button" onClick={() => setFiltersOpen(false)} aria-label="Close filters">×</button></header><div className="filter-sheet-group"><h4>Farm category</h4><div><button type="button" className={!draftCategory ? "active" : ""} onClick={() => setDraftCategory("")} aria-pressed={!draftCategory}>Any category</button>{categories.map((item) => <button type="button" className={draftCategory === item ? "active" : ""} onClick={() => setDraftCategory(draftCategory === item ? "" : item)} aria-pressed={draftCategory === item} key={item}><Mark name={markForCategory(item)} style={{ color: categoryColors[item] }} />{item}</button>)}</div></div><div className="filter-sheet-group"><h4>Ways to buy</h4><div>{serviceFilters.map(({ key, label }) => <button type="button" className={draftServices.includes(key) ? "active" : ""} onClick={() => toggleDraftService(key)} aria-pressed={draftServices.includes(key)} key={key}>{draftServices.includes(key) ? "✓ " : "+ "}{label}</button>)}</div></div><footer><button type="button" onClick={() => { setDraftCategory(""); setDraftServices([]); }}>Reset these filters</button><button type="button" onClick={applyDraftFilters}>See {draftTotal.toLocaleString()} farms</button></footer></section></div> : null}
 
       <div className="results-toolbar">
         <p aria-live="polite"><strong>{searchResult.total.toLocaleString()}</strong> {searchResult.total === 1 ? "farm" : "farms"} {searchEnabled ? scopeText : "ready to search"}{refreshing ? <span> · Updating…</span> : null}</p>
         <label>Sort<select value={sort} onChange={(event) => setSort(event.target.value as SortMode)}><option value="distance" disabled={!hasScope}>Nearest</option><option value="relevance" disabled={!deferredQuery}>Best match</option><option value="name">Farm name</option></select></label>
-        <span>{sortLabel}</span>
       </div>
 
       <div className="mobile-view-switch" role="group" aria-label="Choose list or map view"><button type="button" className={view === "list" ? "active" : ""} aria-pressed={view === "list"} onClick={() => setView("list")}>List <span>{searchResult.total.toLocaleString()}</span></button><button type="button" className={view === "map" ? "active" : ""} aria-pressed={view === "map"} onClick={() => setView("map")}>Map <span>{mapResult.total.toLocaleString()}</span></button></div>
@@ -534,8 +540,8 @@ export default function DiscoveryWorkspace() {
             {loading ? <div className="result-skeletons" role="status" aria-label="Loading farm results">{[1, 2, 3, 4].map((item) => <div key={item}><i /><span /><span /></div>)}</div> : null}
             {error && !loading ? <div className="inline-error" role="alert"><strong>Results paused</strong><p>{error}</p><button type="button" onClick={() => setMapZoom((current) => current + 0.0001)}>Try again</button></div> : null}
             {selectedOutsidePage ? <div className="selected-result-label">Selected farm</div> : null}
-            {selectedOutsidePage ? <FarmResultCard farm={selectedOutsidePage} selected index={null} origin={scope?.origin ?? null} onSelect={selectFarm} onShowMap={(farm) => { setSelectedFarm(farm); setView("map"); }} onOpenProfile={openProfile} onHover={setHoveredFarm} /> : null}
-            {!loading ? searchResult.items.map((farm, position) => <FarmResultCard farm={farm} selected={selectedFarm?.id === farm.id} index={sort === "distance" ? position + 1 : null} origin={scope?.origin ?? null} key={farm.id} onSelect={selectFarm} onShowMap={(item) => { setSelectedFarm(item); setView("map"); }} onOpenProfile={openProfile} onHover={setHoveredFarm} />) : null}
+            {selectedOutsidePage ? <FarmResultCard farm={selectedOutsidePage} selected index={null} origin={scope?.origin ?? null} onShowMap={showFarmOnMap} onOpenProfile={openProfile} onHover={setHoveredFarm} /> : null}
+            {!loading ? searchResult.items.map((farm, position) => <FarmResultCard farm={farm} selected={selectedFarm?.id === farm.id} index={sort === "distance" ? position + 1 : null} origin={scope?.origin ?? null} key={farm.id} onShowMap={showFarmOnMap} onOpenProfile={openProfile} onHover={setHoveredFarm} />) : null}
             {!loading && searchEnabled && searchResult.total === 0 ? <div className="empty-state"><span aria-hidden="true">○</span><h3>No farms match this field yet.</h3><p>Remove a filter or expand the radius. The directory will not widen the search without asking.</p>{radius < 100 && hasScope ? <button type="button" onClick={() => setRadius(100)}>Expand to 100 miles</button> : <button type="button" onClick={clearFilters}>Clear filters</button>}</div> : null}
             {searchResult.nextCursor ? <button type="button" className="load-more" onClick={loadMore}>Load more farms</button> : null}
           </div>
