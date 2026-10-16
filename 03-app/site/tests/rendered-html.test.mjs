@@ -234,3 +234,23 @@ test("feedback HTTP intake saves one durable report and replays its receipt", { 
     await database.end();
   }
 });
+
+
+test("private review fails closed before configuration and never renders report data", async () => {
+  const previous = process.env.FEEDBACK_REVIEW_ENABLED;
+  delete process.env.FEEDBACK_REVIEW_ENABLED;
+  try {
+    const html = await request("/review/feedback").then((response) => response.text());
+    assert.match(html, /Curator access is required/);
+    assert.doesNotMatch(html, /<form|postgresql:\/\//);
+    for (const [path, method] of [["/v1/feedback/review", "GET"], ["/v1/feedback/review", "POST"], ["/v1/feedback/process", "POST"]]) {
+      const response = await request(path, { method });
+      assert.equal(response.status, 503);
+      assert.equal(response.headers.get("cache-control"), "private, no-store");
+      assert.doesNotMatch(await response.text(), /postgresql|payload|actorEmail/);
+    }
+  } finally {
+    if (previous === undefined) delete process.env.FEEDBACK_REVIEW_ENABLED;
+    else process.env.FEEDBACK_REVIEW_ENABLED = previous;
+  }
+});
