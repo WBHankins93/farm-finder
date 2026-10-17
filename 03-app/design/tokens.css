@@ -1,0 +1,46 @@
+/* FarmFinder "Market Stand" design tokens — shared by app + website demos */
+:root {
+  /* materials */
+  --butter-50: #fbf7eb;
+  --cream-100: #f6efdc;
+  --kraft-100: #f1e7ce;
+  --kraft-300: #dfcfa8;
+  --awning-700: #33632f;
+  --awning-600: #457f3c;
+  --leaf-200: #dce9c6;
+  --tomato-500: #d95f43;
+  --honey-500: #e0a33c;
+  --soil-900: #2e2921;
+  --soil-600: #6e6355;
+  --soil-400: #9b8f7d;
+
+  /* category accents (mirror app/lib/farms.ts) */
+  --cat-produce: #55734d;
+  --cat-mixed: #6e7f4f;
+  --cat-meat: #8b3e30;
+  --cat-honey: #bd8628;
+  --cat-dairy: #557a78;
+  --cat-seafood: #39738c;
+  --cat-rice: #99835c;
+  --cat-urban: #5f7d62;
+  --cat-value: #7d5b7f;
+
+  /* shape */
+  --r-card: 22px;
+  --r-sheet: 28px;
+  --r-pill: 999px;
+
+  /* depth — soft, warm */
+  --shadow-1: 0 6px 20px rgb(94 74 44 / 0.12);
+  --shadow-2: 0 14px 36px rgb(94 74 44 / 0.2);
+
+  /* type — niche-standard pairing (DoorDash/Instacart class: warm geometric sans)
+     BANNED, do not reintroduce: Fraunces, Outfit, Bricolage Grotesque, Nunito Sans, Caveat */
+  --font-display: "Plus Jakarta Sans", "Avenir Next", system-ui, sans-serif;
+  --font-body: "DM Sans", "Avenir Next", system-ui, sans-serif;
+
+  /* motion */
+  --ease: cubic-bezier(0.22, 0.8, 0.36, 1);
+  --t-fast: 160ms;
+  --t-med: 240ms;
+}
