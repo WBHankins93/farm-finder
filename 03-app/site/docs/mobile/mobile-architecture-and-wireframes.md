@@ -1,5 +1,7 @@
 # FarmFinder mobile architecture and wireframes
 
+> Status checked 2026-10-17: architecture and wireframes only. No native client package, device build, or store release is verified. The responsive web app is implemented; its national discovery endpoints provide a foundation, while native auth, saved farms, notes, and offline contracts still need work.
+
 ## Recommendation
 
 Build the native mobile client with **React Native using Expo**, after the read-only API and web authentication contracts are stable.

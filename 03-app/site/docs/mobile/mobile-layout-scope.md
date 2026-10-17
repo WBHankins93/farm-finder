@@ -1,6 +1,7 @@
 # FarmFinder mobile layout scope
 
-> Status: staging-quality product and wireframe scope · 2026-07-15
+> Status: native product and wireframe scope; not an implemented native app.
+> Reviewed 2026-10-17. The responsive website is implemented separately.
 
 ## Outcome
 
@@ -103,8 +104,8 @@ The following are required to make the layout implementation-ready, even though 
 
 - `saved_farms` exists in the database foundation, but private farm notes need a user-owned relation; the current `documents` table has no `user_id`.
 - The current generated farm JSON has contact, website, social, sales-channel, coordinate, and precision fields, but not structured hours.
-- The current app reads static JSON. Mobile staging needs a versioned read-only API or an explicit fixture adapter with the same contract before device work begins.
-- The current mobile directory target is 299 mapped listings. The contract must already support state-by-state expansion and must not assume Louisiana/Mississippi-sized payloads.
+- The current web app serves a generated national index through bounded versioned discovery endpoints. Native staging must confirm contract coverage for every screen, especially saved farms, notes, authentication, and offline behavior.
+- The directory is national. Read coverage from the generated directory statistics; the 299-row snapshot is historical and must not size native payloads or determine displayed counts.
 - Exact farm addresses and farm-gate coordinates remain privacy-sensitive. Public location rendering must respect `geoPrecision` and visibility policy.
 
 ### Auth, privacy, and security

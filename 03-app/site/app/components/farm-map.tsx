@@ -50,7 +50,7 @@ const serviceNames: Record<ServiceKey, string> = {
  * a *named* destination would imply an exactness the data does not have. The
  * label beside it says which kind of point this is.
  */
-function directionsHref(farm: FarmSummary) {
+function mapLocationHref(farm: FarmSummary) {
   return `https://www.google.com/maps/search/?api=1&query=${farm.latitude},${farm.longitude}`;
 }
 
@@ -525,7 +525,7 @@ export default function FarmMap(props: FarmMapProps) {
             </ul>
           </div>
           <div className="detail-actions">
-            <a className="detail-primary" href={directionsHref(selected)} target="_blank" rel="noreferrer"><Mark name="heading" aria-hidden="true" />Directions</a>
+            <a className="detail-primary" href={mapLocationHref(selected)} target="_blank" rel="noreferrer"><Mark name="heading" aria-hidden="true" />{selected.geoPrecision === "point" ? "View on Google Maps" : "View approximate area"}</a>
             <button type="button" onClick={() => props.onOpenProfile(selected.id)}>Full profile</button>
             {selectedWebsiteHref ? <a href={selectedWebsiteHref} target="_blank" rel="noreferrer">Website<Mark name="link" aria-hidden="true" /></a> : null}
           </div>
