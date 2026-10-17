@@ -1,3 +1,5 @@
+> Historical August 2026 explorer review, retained on 2026-10-17. The current production implementation has superseded the accompanying CSS and component patch through later map/discovery PRs. Those older changes are not reapplied here. References to default flags, regional coverage, fonts, and unimplemented controls below describe that earlier snapshot; use the current UX plan and generated national statistics for present status.
+
 # FarmFinder — UX review & design recommendations
 
 _Reviewed: 2026-08-02 · Scope: the recent explorer redesign (PR #111 “Redesign the farm map and

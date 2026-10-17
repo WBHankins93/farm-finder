@@ -20,8 +20,9 @@ When two documents disagree, use this authority order:
 | Authority | Location | Validation |
 |---|---|---|
 | Pipeline engine, model, and rules | [`01-database/pipeline/`](../01-database/pipeline/README.md#layout) | Pipeline unit tests |
-| Staged farm data until cutover | [`research/state-expansions/<ST>/`](../research/state-expansions/README.md) | State-release validator |
-| Canonical pre-cutover app data | [`farms.json`](../03-app/site/app/data/farms.json) | `npm run data:validate` |
+| Canonical collected state data | [`pipeline/data/<ST>.json`](../01-database/pipeline/data/README.md) | Pipeline publish plus unit tests |
+| Eligible public directory feed | Generated [`pipeline/build/app-farms.json`](../01-database/pipeline/README.md#run-the-pipeline) | `python3 01-database/pipeline/run.py --publish` |
+| Legacy staged releases | [`research/state-expansions/<ST>/`](../research/state-expansions/README.md) | State-release validator |
 | Per-state source definitions | [`pipeline/sources/`](../01-database/pipeline/sources/SCHEMA.md#fields) | Source config schema |
 | Product and platform documentation | Root README and [`03-app/site/docs/`](../03-app/site/docs/architecture/README.md) | Maintainer review |
 
@@ -102,8 +103,9 @@ priority for scope, branch discipline, privacy, deletions, and required checks.
 
 The config-driven pipeline is the current engine. The older contract-v2 tools
 and state-expansion documents remain only to validate existing staged releases
-until PostgreSQL cutover. Historical dashboards, workbooks, `outputs/`, and
-`.codex-work/` are reference material, not editable authorities.
+until PostgreSQL cutover. Historical dashboards, workbooks, the 299-row
+`03-app/site/app/data/farms.json` artifact, `outputs/`, and `.codex-work/` are
+reference material, not editable authorities.
 
 If a transitional document conflicts with `01-database/pipeline/`, follow the
 pipeline. If it conflicts with [AGENTS.md](../AGENTS.md), follow `AGENTS.md`.

@@ -21,7 +21,7 @@ the repo has no PyYAML and `state.yaml` is already JSON content.
 ├── adapters/           # one module per source type (pdf_list, html_table, csv_download, api)
 ├── publish.py          # -> app farms.json  (Postgres sink stubbed)
 ├── run.py              # ORCHESTRATOR: collect a state via live engine -> data/<ST>.json; --publish
-├── migrate.py          # one-time bridge: fold the 15,703 staged rows into the model
+├── migrate.py          # historical 10-state bridge retained for transition validation
 ├── scaffold_sources.py # generate source configs from existing state.yaml
 ├── regions.json        # region -> states (the release unit)
 ├── data/               # committed canonical store, data/<ST>.json (live-collected states)
@@ -55,13 +55,35 @@ python3 -m unittest discover -s 01-database/pipeline/tests -p "test_*.py"
 `qa-residue.csv` (the only rows a human sees), and `migration-report.json`.
 Nothing in `03-app/` or `research/` is touched — cutover is a separate step.
 
-## Migration result (real data)
+## Current national snapshot
+
+Counts below are derived from the committed `data/<ST>.json` state stores and
+the eligible feed produced by `run.py --publish` on 2026-08-30.
+
+| | |
+|---|---|
+| Canonical collected records | **72,396** across 50 states |
+| Eligible / public feed | **68,618** |
+| QA residue | **3,778** durable named candidates |
+| Mappable public records | **54,821** |
+| Privacy-cleared public contacts | **10,308** |
+| Without a captured website | **51,984** — absence may mean not yet captured, not verified absent |
+
+The committed state files are authoritative. `build/app-farms.json` is a
+reproducible, ignored artifact; `03-app/site/app/data/farms.json` is the
+superseded 299-row workbook-era artifact.
+
+## Historical 10-state migration checkpoint
+
+The figures below describe the one-time staged-release bridge before the
+50-state collection sweep. They are preserved as migration history, not current
+coverage.
 
 | | |
 |---|---|
 | Rows ingested | 15,703 across 10 states |
 | Canonical after dedupe | 15,632 (71 merged) |
-| **Eligible / published** | **9,454** (prior human QA preserved; app was 299) |
+| **Eligible / published at that checkpoint** | **9,454** (prior human QA preserved) |
 | QA residue | 6,178 — exported to `build/qa-residue.csv` |
 | Mappable pins | 2,687 → **5,586** (+2,899 via in-repo county centroids) |
 | Public contacts | 3,246 (website-sourced; the rest held internal) |
@@ -84,7 +106,8 @@ Complete, tested, and stable to build against:
 5. **QA engine** — automated rules + residue export; migration mode (`rules=[]`)
    that preserves prior human QA rather than overriding it.
 6. **Collect engine + adapter registry + config spec** — the interfaces below.
-7. **The migration** — all 15,703 rows folded in, nothing lost.
+7. **The historical migration bridge** — all original 15,703 rows were folded
+   in without loss before the national state stores superseded it.
 
 ## Handoff to Codex (data lane — mass, parallel, scoped)
 

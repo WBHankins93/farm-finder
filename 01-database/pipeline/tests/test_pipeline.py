@@ -4,8 +4,10 @@
 """
 import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
@@ -289,13 +291,35 @@ class TestOrchestrator(unittest.TestCase):
 
     def setUp(self):
         import collect
+        import run
+
         self.pipeline = Path(__file__).resolve().parents[1]
-        self.cfg_dir = self.pipeline / "sources" / "_test"
+        self.temp_dir = tempfile.TemporaryDirectory()
+        self.temp_pipeline = Path(self.temp_dir.name)
+        self.sources = self.temp_pipeline / "sources"
+        self.data_dir = self.temp_pipeline / "data"
+        self.build = self.temp_pipeline / "build"
+        self.expansions = self.temp_pipeline / "state-expansions"
+        self.cfg_dir = self.sources / "_test"
         self.cfg_dir.mkdir(parents=True, exist_ok=True)
         self.cfg = self.cfg_dir / "ZZ.json"
         self.cfg.write_text('{"state":"ZZ","name":"Testland","region":"_test",'
                             '"sources":[{"id":"s1","name":"Fake","url":"","adapter":"faketest"}]}')
-        self.data = self.pipeline / "data" / "ZZ.json"
+        self.data = self.data_dir / "ZZ.json"
+
+        # run.py and migrate.py keep their output roots as module constants.
+        # Patch both modules so an end-to-end publish can never rewrite the
+        # persistent national artifacts under pipeline/data or pipeline/build.
+        self.path_patchers = [
+            patch.object(run, "SOURCES", self.sources),
+            patch.object(run, "DATA", self.data_dir),
+            patch.object(run, "BUILD", self.build),
+            patch.object(run, "EXPANSIONS", self.expansions),
+            patch.object(run.migrate, "BUILD", self.build),
+            patch.object(run.migrate, "EXPANSIONS", self.expansions),
+        ]
+        for path_patcher in self.path_patchers:
+            path_patcher.start()
 
         collect._adapters_loaded = True  # skip disk discovery; register inline
 
@@ -312,11 +336,9 @@ class TestOrchestrator(unittest.TestCase):
         import collect
         collect.ADAPTERS.pop("faketest", None)
         collect._adapters_loaded = False
-        for p in (self.cfg, self.data, self.pipeline / "build" / "qa-residue-ZZ.csv"):
-            if p.exists():
-                p.unlink()
-        if self.cfg_dir.exists():
-            self.cfg_dir.rmdir()
+        for path_patcher in reversed(self.path_patchers):
+            path_patcher.stop()
+        self.temp_dir.cleanup()
 
     def test_run_state_collects_and_persists(self):
         import run
@@ -338,10 +360,43 @@ class TestOrchestrator(unittest.TestCase):
 
     def test_publish_prefers_live_data_over_bridge(self):
         import run
+
         run.run_state("ZZ")
-        stats = run.publish_all()
+
+        # Seed the temporary bridge baseline directly. The publish must replace
+        # this state with data/ZZ.json, not append the bridge row.
+        bridge = farm(
+            id="bridge-farm-zz",
+            name="Bridge Farm",
+            state="ZZ",
+            eligible=True,
+            provenance=Provenance(source="Bridge"),
+        )
+        self.build.mkdir(parents=True, exist_ok=True)
+        (self.build / "canonical.json").write_text(
+            json.dumps([bridge.to_record()], indent=2) + "\n"
+        )
+
+        persistent_build = self.pipeline / "build"
+        before = {
+            p.relative_to(persistent_build): (p.stat().st_size, p.stat().st_mtime_ns)
+            for p in persistent_build.rglob("*")
+            if p.is_file()
+        }
+        with patch.object(run.migrate, "run", return_value={}):
+            stats = run.publish_all()
+
         self.assertIn("ZZ", stats["live_states"])
-        self.assertGreater(stats["written"], 0)
+        self.assertEqual(stats["written"], 1)
+        rows = json.loads((self.build / "app-farms.json").read_text())
+        self.assertEqual([row["name"] for row in rows], ["Good Farm"])
+        self.assertFalse((self.pipeline / "data" / "ZZ.json").exists())
+        after = {
+            p.relative_to(persistent_build): (p.stat().st_size, p.stat().st_mtime_ns)
+            for p in persistent_build.rglob("*")
+            if p.is_file()
+        }
+        self.assertEqual(after, before)
 
 
 if __name__ == "__main__":

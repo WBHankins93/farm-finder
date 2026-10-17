@@ -38,6 +38,7 @@ yarn-error.log*
 
 # typescript
 next-env.d.ts
+*.tsbuildinfo
 /dist/
 /.wrangler/
 /outputs/
@@ -47,5 +48,11 @@ next-env.d.ts
 # committed. Source records and intended placements live in docs/design/.
 /public/local-farm-images/
 
-# Generated runtime feed (regenerate: python3 scripts/build-web-feed.py)
+# Generated runtime artifacts (regenerate: python3 scripts/build-web-feed.py)
+public/national-index.bin
+app/data/directory-stats.generated.json
+# Rollback-explorer feed only; too large to deploy (FARMFINDER_LEGACY_FEED=1)
 public/farms.json
+
+# Local renders from dev/screenshots.mjs
+/dev/screenshots/
