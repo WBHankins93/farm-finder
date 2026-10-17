@@ -3,9 +3,10 @@
 This first implementation accepts private reports and creates a pending job in
 the same PostgreSQL transaction. It includes the feedback page and conditional
 entry points from the homepage and farm profiles. It is disabled by default.
-It does not process jobs, authenticate curators, change canonical records, or
-train a model. Those are subsequent small implementation PRs in the
-[approved plan](../product/community-feedback-plan.md).
+The optional [private review workflow](feedback-review-runbook.md) adds curator
+authentication, audited decisions, and manually triggered triage. Neither workflow
+changes canonical records or trains a model. Publication and evaluation remain
+subsequent steps in the [approved plan](../product/community-feedback-plan.md).
 
 ## Local verification
 
@@ -75,9 +76,9 @@ Keep `FEEDBACK_ENABLED` unset or false in production until these are complete:
 
 1. Provision managed PostgreSQL, verify encrypted connectivity and least-privilege
    roles, and test backup restoration. Use production secrets only at runtime.
-2. Add authenticated curator review, an assigned review operator, and explicit
+2. Deploy and verify authenticated curator review, assign a review operator, and add explicit
    retention/deletion handling. Public activation must not create an unattended inbox.
-3. Implement leased/retryable processing, backlog/failure monitoring, and edge
+3. Deploy and verify leased/retryable processing, then add backlog/failure monitoring and edge
    abuse controls. Preserve reporter privacy in logs and model input.
 4. Connect reviewed changes to the existing QA and canonical publication path.
    Fix source reconciliation in the serial tooling lane before scheduling refreshes.
