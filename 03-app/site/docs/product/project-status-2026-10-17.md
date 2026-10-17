@@ -20,6 +20,10 @@ The runtime reads a generated compact national index. PostgreSQL/PostGIS migrati
 
 Ask currently parses/searches directory information. It is not a deployed hybrid RAG system with generated, citation-backed answers. There is no evidence here of model training on reports, live inventory, checkout, or verified current opening hours.
 
+## Imagery
+
+The recent imagery chat and its local manifest record 21 approved generated images (14 landscape, 7 portrait), covering the initial category set and Louisiana module. They remain local and are not integrated into public assets. The regional production plan tracks the remaining national anchors and production curation. Eight strong official-logo candidates were researched for a five-farm pilot, but permissioned acquisition and publication remain outstanding. These assets are separate from the product photography already shipped in the web app.
+
 ## Mobile
 
 The responsive website is implemented and has prior successful 390×844 browser walkthrough coverage. Mobile search retains location and filters; the compact scope can be edited; mapped card taps switch to map detail; unmapped farms open profiles. List access remains available without relying on map gestures.
