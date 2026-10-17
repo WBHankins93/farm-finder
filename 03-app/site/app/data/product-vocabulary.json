@@ -1,0 +1,152 @@
+{
+  "_comment": "Shared product/stopword vocabulary. `productTokens` is the single source of truth for BOTH the precomputed product filter bitmask and the published product counts (scripts/discovery_index.py), so a browsed count can never disagree with the filtered result. `queryStopWords` is used by the runtime free-text search in app/lib/discovery-server.ts.",
+  "_wholeWordComment": "Tokens matched as whole words (an optional trailing 's' allowed) instead of bare substrings. Without this, 'bee' matched 'beef' and tagged 3,165 beef and livestock farms as honey producers; 'egg' matched 'eggplant' (1,000 rows), 'plant' matched 'plantation', 'rice' matched 'price', and 'crab' matched 'crabapple'. 'fish' is deliberately NOT here: catfish, shellfish and swordfish are seafood.",
+  "_stopWordComment": "Dropped from free-text queries. Text search requires ALL remaining tokens, so conversational framing words must be removed or a question like \"Who sells eggs near New Orleans?\" returns nothing. This is keyword search with question words stripped, not natural-language understanding.",
+  "wholeWordTokens": [
+    "bee",
+    "bees",
+    "crab",
+    "duck",
+    "egg",
+    "hog",
+    "milk",
+    "plant",
+    "rice"
+  ],
+  "productTokens": {
+    "vegetables": [
+      "vegetable",
+      "produce",
+      "greens",
+      "lettuce",
+      "tomato",
+      "okra",
+      "squash",
+      "peas",
+      "cucumber",
+      "microgreen",
+      "herbs"
+    ],
+    "fruit": [
+      "fruit",
+      "berry",
+      "berries",
+      "blueberr",
+      "strawberr",
+      "peach",
+      "watermelon",
+      "melon",
+      "citrus",
+      "satsuma",
+      "orchard"
+    ],
+    "eggs": [
+      "egg"
+    ],
+    "beef": [
+      "beef",
+      "cattle",
+      "wagyu"
+    ],
+    "pork": [
+      "pork",
+      "hog",
+      "berkshire",
+      "bacon",
+      "sausage"
+    ],
+    "poultry": [
+      "chicken",
+      "poultry",
+      "turkey",
+      "duck",
+      "broiler"
+    ],
+    "honey": [
+      "honey",
+      "apiar",
+      "bee",
+      "beeswax"
+    ],
+    "dairy": [
+      "dairy",
+      "milk",
+      "cheese",
+      "creamery",
+      "yogurt"
+    ],
+    "seafood": [
+      "seafood",
+      "crawfish",
+      "shrimp",
+      "crab",
+      "fish",
+      "oyster"
+    ],
+    "rice": [
+      "rice",
+      "grain",
+      "grits",
+      "cornmeal"
+    ],
+    "flowers": [
+      "flower",
+      "nursery",
+      "plant",
+      "seedling",
+      "transplant"
+    ],
+    "mushrooms": [
+      "mushroom",
+      "fungi"
+    ]
+  },
+  "queryStopWords": [
+    "a",
+    "an",
+    "and",
+    "any",
+    "anyone",
+    "are",
+    "around",
+    "at",
+    "buy",
+    "buying",
+    "can",
+    "close",
+    "do",
+    "does",
+    "farm",
+    "farms",
+    "find",
+    "for",
+    "from",
+    "get",
+    "got",
+    "in",
+    "is",
+    "local",
+    "me",
+    "my",
+    "near",
+    "of",
+    "on",
+    "or",
+    "sell",
+    "selling",
+    "sells",
+    "some",
+    "that",
+    "the",
+    "there",
+    "this",
+    "to",
+    "what",
+    "where",
+    "which",
+    "who",
+    "whos",
+    "whose",
+    "with"
+  ]
+}

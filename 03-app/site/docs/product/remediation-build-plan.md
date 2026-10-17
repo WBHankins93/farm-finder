@@ -1,3 +1,5 @@
+> Historical plan from September 2026. Reconciled on 2026-10-17: current main already supersedes the search, hero, sorting, and imagery proposals. This PR retains the outstanding focus, sticky containment, small-label, and dynamic mobile viewport fixes. The current brand border token is preserved; this document is not the current implementation status. See the October UX plan and project status report for current work.
+
 # Remediation Build Plan: FarmFinder web
 
 *Date: 2026-09-07 · Source: full-sweep UI/UX/technical review, 2026-09-07 · Roadmap: [`phased-build-plan.md`](./phased-build-plan.md) · Ledger: [`../implementation-ledger.md`](../implementation-ledger.md)*

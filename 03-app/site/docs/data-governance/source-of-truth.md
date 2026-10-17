@@ -4,7 +4,9 @@
 
 ### Before PostgreSQL cutover
 
-The committed state store at `01-database/pipeline/data/<ST>.json` is the canonical pre-cutover authority. It contains 72,396 governed records across all 50 states. The pipeline publish projection currently exposes 68,618 eligible records; generated feeds and local PostgreSQL are reproducible sinks, not independent authorities.
+The committed state store at `01-database/pipeline/data/<ST>.json` is the canonical pre-cutover authority. It contains 72,396 governed records across all 50 states. The pipeline publish projection currently exposes 68,618 eligible records, withholding 3,778 that do not clear QA or eligibility; generated feeds, the app's compact discovery index, and local PostgreSQL are reproducible sinks, not independent authorities.
+
+The public application serves this projection today through the bounded `/v1` routes, reading the generated `03-app/site/public/national-index.bin`. **PostgreSQL/PostGIS is not in the public request path.** It exists locally as a full-refresh sink and as the planned post-cutover authority; nothing a visitor sees is currently answered by it.
 
 Cutover staging began on 2026-07-15 with historical release `2026-07-13-final-v1`: its 315 raw rows are stored as a versioned object and registered in local PostgreSQL. Release `2026-07-15-enriched-v2` reduced that legacy workbook to 299 rows after evidence-based duplicate review. Those releases remain immutable provenance evidence, but the 299-row workbook is superseded and must never be used for national runtime queries or current counts. Managed-PostgreSQL promotion does not change authority until reviewed canonical entities are promoted atomically and the authority mode changes.
 
@@ -25,12 +27,18 @@ and `public_location_classification: market_circuit_service_area`. The venue or
 service area is a legitimate public discovery path, distinct from a fixed farm
 location; it does not create an intake exemption or a QA penalty.
 
-- Every fact retains its provenance, confidence, verification, consent, and public/private visibility rules.
-- Private contacts and non-public locations never become public fields and are never returned through public APIs, exports, logs, analytics, or model prompts.
+- Every fact retains its provenance, confidence, verification, consent, and public/private visibility rules. The published feed carries a `source` on every record, asserted at publish time.
+- Private contacts and non-public locations never become public fields and are never returned through public APIs, exports, logs, analytics, or model prompts. `scripts/build-web-feed.py` fails the build if a published record carries a contact without a farm-published website, an address-shaped contact, a geocoded row at `0,0`, or any field outside the public projection.
 - A correction enters FarmFinder only as a sourced assertion or curator action with appropriate consent and visibility.
 - FarmFinder stores only product and operational data required for the directory, farm participation, governance, and platform reliability.
 
 ## Adding a new farm
+
+The [directory maintenance and community feedback policy](directory-maintenance.md)
+sets a monthly refresh baseline, permits every-other-month refreshes, and defines
+how firsthand reports enter private review before changing public records.
+The relational import steps below describe the PostgreSQL cutover workflow;
+the committed state store remains authoritative before that cutover.
 
 1. Register the source, license/terms, retrieval date, and immutable file checksum.
 2. Create an import batch with a unique idempotency key.
@@ -64,6 +72,7 @@ New collection enters the config-driven state pipeline. Freeze material source u
 - Absence from one source is not proof that a product, market channel, or website does not exist.
 - Exact locations and private contacts are independently classified; canonical does not automatically mean public.
 - Derived fields such as `has_website` are computed from active canonical links rather than maintained separately.
+- Public product classification is a keyword projection over governed product text, not a verified attribute. It is built once at publish time from `03-app/site/app/data/product-vocabulary.json`, and both the browse counts and the product filter read that same bitmask so they cannot disagree. Known limitation: the vocabulary is heuristic, so a listing whose text never names its products is not classified.
 
 ## Release gates
 

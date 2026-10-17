@@ -83,6 +83,16 @@ Approval outcomes:
 - **Reject:** the underlying anatomy, agriculture, geography, or composition is
   unreliable enough that a new generation is safer than an edit.
 
+## Production status
+
+As of 2026-10-12, the local library contains **21 approved original previews**:
+nine foundation images, six category-coverage images, and six additional
+Louisiana images. Phase A and Phase B are complete. Two egg candidates were
+rejected for count and scene-logic errors, and one dairy candidate received a
+targeted correction before approval. Rejected and superseded files remain in
+the local manifest for auditability; no image binary is stored in this
+repository.
+
 ## Approved foundation set
 
 These previews are local-only. Checkmarks record the assistant's visual and
@@ -129,6 +139,91 @@ subject-matter approval; the user still controls final selection.
   and [USDA NASS citrus season and production context](https://www.nass.usda.gov/Statistics_by_State/Florida/Publications/Annual_Statistical_Bulletin/2024/CitrusAndAvocado.pdf).
 - **FF-GEN-009:** [Penn State Extension, *Growing Microgreens*](https://extension.psu.edu/growing-microgreens).
 
+## Approved category-coverage set
+
+- [x] **FF-GEN-010 — Pasture eggs, landscape.** A single hen, one newly
+  collected egg in hand, and four eggs seated separately in a partially filled
+  half-dozen carton. Approved after two rejected generations for correct counts,
+  egg scale, dry bedding, mobile-coop context, and coherent hand anatomy.
+- [x] **FF-GEN-011 — Small-dairy pasture, landscape.** Two grazing Holsteins and
+  one hornless resting Jersey near shade and water. Approved after a targeted
+  horn correction for plausible udders, hooves, posture, forage, polywire, and
+  independent-herd scale.
+- [x] **FF-GEN-012 — Honey after extraction, portrait.** An unlabeled jar beside
+  capped comb and an extractor gate. Approved for credible fill level,
+  headspace, fine bubbles, lid, clean food-contact surface, and the absence of
+  unsupported origin or certification claims.
+- [x] **FF-GEN-013 — Sheep paddock rotation, landscape.** Three adult ewes moving
+  through a safely opened electric-net gate. Approved for coherent gait and
+  hooves, forage-height contrast, water and mineral access, fencing, and calm
+  flock behavior.
+- [x] **FF-GEN-014 — Privacy-safe CSA delivery, landscape.** A worker handing a
+  modest produce carton across a residential doorway. Approved for box and load
+  construction, believable grips and weight, candid interaction, and the
+  absence of addresses, labels, or other private identifiers.
+- [x] **FF-GEN-015 — Honest harvest, portrait.** A canvas tote holding a modest
+  mix of lettuce, carrots, peppers, tomatoes, and summer squash near a working
+  wash-pack area. Approved for recognizable produce, plausible abundance,
+  anatomy, texture, restrained color, and a useful vertical crop.
+
+### Accuracy references for category coverage
+
+- **FF-GEN-010:** [Penn State Extension, proper egg handling](https://extension.psu.edu/proper-handling-of-eggs-from-hen-to-consumption)
+  and [egg-carton labels](https://extension.psu.edu/egg-carton-labels).
+- **FF-GEN-011:** [University of Minnesota Extension, livestock shade](https://extension.umn.edu/agriculture/animals-and-livestock/livestock-operations/what-are-agrivoltaics)
+  and [rotational-grazing water systems](https://extension.umn.edu/agriculture/farm-operations-and-systems/small-farms/farmbytes-watering-system-design-rotational-grazing).
+- **FF-GEN-012:** [Penn State Extension, beekeeping and honey-bee equipment](https://extension.psu.edu/beekeeping-honey-bees).
+- **FF-GEN-013:** [Penn State Extension, raising sheep and goats](https://extension.psu.edu/so-you-want-to-raise-sheep-or-goats)
+  and [grazing infrastructure](https://extension.psu.edu/integrating-grazing-into-cropping-systems-infrastructure).
+
+## Approved Louisiana expansion set
+
+These six images supplement FF-GEN-006 and FF-GEN-007. Together they give the
+Louisiana module eight approved images without presenting Louisiana as a proxy
+for FarmFinder's nationwide scope.
+
+- [x] **FF-GEN-016 — Crawfish–rice trap harvest, landscape.** April trap work
+  from a low aluminum boat in a shallow, flooded southwest Louisiana rice field.
+  Approved for crop stubble and regrowth, pyramid trap, raw red swamp crawfish,
+  protective gear, levee horizon, water depth, and coherent boat loading.
+- [x] **FF-GEN-017 — Sugarcane harvest check, landscape.** A grower examines
+  mature stalks while a chopper harvester, elevator, and wagon remain secondary
+  in the distance. Approved for stalk nodes, leaf sheaths, row structure,
+  machinery relationship, flat terrain, and harvest-stage crop condition.
+- [x] **FF-GEN-018 — Plaquemines Parish satsuma clipping, portrait.** An Owari
+  satsuma is clipped at the stem above a modest field crate. Approved for loose,
+  slightly flattened and mottled rind, remaining green color, bypass-clipper
+  contact, hand anatomy, flat drainage context, and restrained abundance.
+- [x] **FF-GEN-019 — Coastal oyster dock handling, landscape.** Closed Eastern
+  oysters in a mesh sack with a blank-facing harvest tag move across a draining
+  dock table toward cold storage. Approved for shell form, gloves, sack and tag
+  logic, workboat context, drainage, and the absence of private harvest data.
+- [x] **FF-GEN-020 — Diversified fall market garden, landscape.** A south
+  Louisiana grower transplants collards beside surface drip tape, established
+  cut-back okra, peppers, and a shade-cloth nursery in late September. Approved
+  for crop morphology and timing, planting action, irrigation, Gulf Coastal
+  Plain terrain, humidity, and practical small-farm infrastructure.
+- [x] **FF-GEN-021 — New Orleans urban farm, portrait.** A fictional grower cuts
+  an outer collard leaf in a maintained winter production plot. Approved for
+  the leaf-and-snip junction, raised imported-soil beds, visible separation from
+  native soil, drip tubing, crop distinctions, accessible paths, anonymous
+  neighborhood context, and privacy safety.
+
+### Accuracy references for Louisiana expansion
+
+- **FF-GEN-016:** [LSU AgCenter, crawfish harvest season and production](https://www.lsuagcenter.com/articles/page1716308072842)
+  and [rice–crawfish rotation](https://www.lsuagcenter.com/articles/page1724188009527).
+- **FF-GEN-017:** [LSU AgCenter, Louisiana sugarcane production](https://www.lsuagcenter.com/articles/page1678809025614)
+  and [sugarcane harvest process](https://www.lsuagcenter.com/articles/page1538661493623).
+- **FF-GEN-018:** [LSU AgCenter, Louisiana satsuma harvest](https://www.lsuagcenter.com/portals/communications/news/news_archive/2011/october/headline_news/satsuma-harvest-starts-another-good-citrus-season)
+  and [Louisiana home citrus production guide](https://www.lsuagcenter.com/~/media/system/9/2/4/5/9245b6a15f86068840811a1b56359a59/la%20home%20citrus%20production%20guidepdf.pdf).
+- **FF-GEN-019:** [Louisiana Department of Wildlife and Fisheries, oyster tags](https://www.wlf.louisiana.gov/page/oyster-harvesting-tag-requirements)
+  and [Louisiana Sea Grant, safe catch handling](https://www.seagrantfish.lsu.edu/resources/factsheets/handlingcatch.htm).
+- **FF-GEN-020:** [LSU AgCenter, fall vegetable gardening](https://www.lsuagcenter.com/topics/lawn_garden/home_gardening/vegetables/cultural_information/fall-vegetable-garden-in-louisiana)
+  and [okra timing and management](https://www.lsuagcenter.com/articles/page1754575713887).
+- **FF-GEN-021:** [New Orleans agriculture soil-testing and raised-bed rules](https://czo.nola.gov/Print.aspx?classname=nola.ordinance&printpath=%2FArticle-20%2F20-3%2F20-3-C)
+  and [City of New Orleans urban-agriculture resources](https://nola.gov/next/city-planning/programs/urban-agriculture-en/urban-agriculture-resources/).
+
 ## Regional production map
 
 Each regional module should begin with a landscape establishing image and a
@@ -147,12 +242,12 @@ blend seafood, bayou, rice, and citrus into a single fantasy scene.
 
 - [x] Louisiana Gulf white shrimp handling — FF-GEN-006
 - [x] Southwest Louisiana rice maturity check — FF-GEN-007
-- [ ] Crawfish–rice rotation during a documented seasonal task
-- [ ] Sugarcane planting or harvest at independent-farm scale
-- [ ] Plaquemines-area satsuma harvest
-- [ ] Gulf oyster handling at a working dock
-- [ ] Louisiana diversified market garden after summer heat
-- [ ] Louisiana urban farm or community growing operation
+- [x] Crawfish–rice rotation during April trap harvest — FF-GEN-016
+- [x] Sugarcane harvest at independent-farm scale — FF-GEN-017
+- [x] Plaquemines Parish Owari satsuma harvest — FF-GEN-018
+- [x] Coastal Louisiana oyster handling at a working dock — FF-GEN-019
+- [x] Louisiana diversified market garden after summer heat — FF-GEN-020
+- [x] New Orleans urban production farm — FF-GEN-021
 
 ### 2. Southeast
 
@@ -288,18 +383,19 @@ or using Native Hawaiian practices as decoration.
 
 Finish obvious gaps in the nationwide foundation before expanding every region.
 
-- [ ] Collected eggs in a pasture-hen context
-- [ ] Dairy cattle displaying normal pasture behavior
-- [ ] Simple honey or value-added product portrait without a fake label
-- [ ] Livestock husbandry beyond dairy
-- [ ] Farm pickup or CSA delivery with protected private details
-- [ ] A second honest-harvest image in portrait orientation
+- [x] Collected eggs in a pasture-hen context — FF-GEN-010
+- [x] Dairy cattle displaying normal pasture behavior — FF-GEN-011
+- [x] Simple honey or value-added product portrait without a fake label — FF-GEN-012
+- [x] Livestock husbandry beyond dairy — FF-GEN-013
+- [x] Farm pickup or CSA delivery with protected private details — FF-GEN-014
+- [x] A second honest-harvest image in portrait orientation — FF-GEN-015
 
 ### Phase B — Complete the Louisiana module
 
-Research and generate the six unchecked Louisiana/Gulf Coast scenes above. Pair
-each crop or product with its real season and subregion. Keep this module
-explicitly Louisiana while continuing national work in parallel sequence.
+**Completed 2026-10-12.** The six Louisiana/Gulf Coast scenes above were
+researched, generated, inspected at full resolution, and approved. Each crop or
+product is paired with its real season and subregion; Louisiana remains one
+deep regional module inside the nationwide plan.
 
 ### Phase C — Establish nationwide breadth
 

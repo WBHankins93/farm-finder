@@ -33,7 +33,12 @@ export type MarkName =
   | "farm"
   | "csa"
   | "ships"
-  | "online";
+  | "online"
+  | "pin"
+  | "heading"
+  | "approximate"
+  | "layers"
+  | "link";
 
 const MARKS: Record<MarkName, ReactNode> = {
   leaf: ( // lucide salad
@@ -92,6 +97,22 @@ const MARKS: Record<MarkName, ReactNode> = {
   ),
   ships: ( // lucide truck
     <><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" /><path d="M15 18H9" /><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" /><circle cx="17" cy="18" r="2" /><circle cx="7" cy="18" r="2" /></>
+  ),
+  pin: ( // lucide map-pin
+    <><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /><circle cx="12" cy="10" r="3" /></>
+  ),
+  heading: ( // lucide arrow-up — points north unrotated, so a `rotate(<bearing>deg)`
+             // turns it into an actual compass needle for the farm's direction
+    <><path d="M12 19V5" /><path d="m5 12 7-7 7 7" /></>
+  ),
+  approximate: ( // lucide circle-dashed — a point the farm did not confirm
+    <><path d="M10.1 2.18a9.93 9.93 0 0 1 3.8 0" /><path d="M17.6 3.71a9.95 9.95 0 0 1 2.69 2.7" /><path d="M21.82 10.1a9.93 9.93 0 0 1 0 3.8" /><path d="M20.29 17.6a9.95 9.95 0 0 1-2.7 2.69" /><path d="M13.9 21.82a9.94 9.94 0 0 1-3.8 0" /><path d="M6.4 20.29a9.95 9.95 0 0 1-2.69-2.7" /><path d="M2.18 13.9a9.93 9.93 0 0 1 0-3.8" /><path d="M3.71 6.4a9.95 9.95 0 0 1 2.7-2.69" /></>
+  ),
+  layers: ( // lucide layers — the map options panel
+    <><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" /><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" /><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" /></>
+  ),
+  link: ( // lucide external-link
+    <><path d="M15 3h6v6" /><path d="M10 14 21 3" /><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></>
   ),
   online: ( // lucide shopping-bag
     <><path d="M16 10a4 4 0 0 1-8 0" /><path d="M3.103 6.034h17.794" /><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z" /></>
@@ -169,6 +190,44 @@ export function Mark({
       {...rest}
     >
       {MARKS[name]}
+    </svg>
+  );
+}
+
+/**
+ * The FarmFinder mark: a market awning inside a map pin.
+ *
+ * The category is saturated with leaves and sprouts — Market Wagon, Farmles
+ * and LocalHarvest all use one — so a leaf would make FarmFinder harder to
+ * tell apart, not easier. An awning says *stall you can go and buy from*,
+ * which is what the product is for, and the pin says the directory knows
+ * where it is. It reads at 20px, which is the only size that matters.
+ *
+ * Two solid colours, no gradient, no stroke: it has to survive a favicon.
+ */
+export function BrandMark({ size = 34, ...rest }: { size?: number } & SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 40 40"
+      fill="none"
+      aria-hidden="true"
+      focusable="false"
+      {...rest}
+    >
+      <path
+        d="M20 37c-7.8-8.6-11.7-14.9-11.7-18.9a11.7 11.7 0 0 1 23.4 0C31.7 22.1 27.8 28.4 20 37Z"
+        fill="var(--tomato, #d9482b)"
+      />
+      {/* The awning: four scallops across the pin's shoulders. */}
+      <path
+        d="M10.6 14.2h18.8v4.1a2.35 2.35 0 0 1-4.7 0 2.35 2.35 0 0 1-4.7 0 2.35 2.35 0 0 1-4.7 0 2.35 2.35 0 0 1-4.7 0Z"
+        fill="var(--cream, #fffdf7)"
+      />
+      <path d="M14.5 9.6h4.2v4.6h-4.2zM22.9 9.6h4.2v4.6h-4.2z" fill="var(--sun, #f4c95d)" />
+      <path d="M10.6 9.6h18.8v4.6H10.6z" fill="none" />
+      <circle cx="20" cy="24.6" r="3.1" fill="var(--cream, #fffdf7)" />
     </svg>
   );
 }
