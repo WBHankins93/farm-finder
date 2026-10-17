@@ -450,8 +450,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .detail-ways li.is-missing { background: var(--paper-deep); color: var(--muted); font-style: normal; }
 .detail-place .mark { width: 13px; height: 13px; margin-right: 5px; opacity: .7; }
 .detail-products.is-missing { color: var(--muted); font-style: italic; }
-.detail-primary { display: inline-flex !important; align-items: center; gap: 6px; min-height: 40px; padding: 0 16px !important; border-radius: 999px; background: var(--rust); color: var(--cream) !important; font-weight: 750; }
-.detail-primary:hover { background: var(--ink); }
+.detail-actions .detail-primary { display: inline-flex !important; align-items: center; gap: 6px; min-height: 40px; padding: 0 16px !important; border-radius: 999px; background: var(--rust); color: var(--cream) !important; font-weight: 750; }
+.detail-actions .detail-primary:hover { background: var(--ink); }
 .detail-primary .mark { width: 14px; height: 14px; margin: 0; transform: rotate(45deg); }
 .detail-actions a .mark { width: 12px; height: 12px; margin: 0 0 0 4px; }
 .card-arrow { font-size: 18px; color: var(--muted); transition: transform .18s ease; }

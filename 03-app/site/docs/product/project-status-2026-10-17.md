@@ -51,7 +51,7 @@ A fresh `npm audit --json` reports 33 findings: 2 critical, 24 high, 6 moderate,
 ## Prioritized remaining work
 
 1. Correct food-filter evidence: nursery/flower-only descriptions currently enter vegetable results. Retain candidates and provenance; do not silently drop farms.
-2. Map action wording is corrected in this cleanup: approximate points say “View approximate area”; point locations say “View on Google Maps.” Neither action promises a confirmed visit entrance.
+2. Map action wording is corrected in this cleanup: approximate points say “View approximate area”; point locations say “View on Google Maps.” Neither action promises a confirmed visit entrance. Screenshot inspection also caught and fixed a later CSS rule clearing the primary action background while leaving white text.
 3. Activate feedback only after its documented infrastructure/operator gates pass, then connect reviewed corrections to governed publication.
 4. Make initial results more useful through evidence-backed enrichment and an actionable-listings option; incomplete records should remain durable.
 5. Empty-map language is corrected in this cleanup to ask visitors to choose a city. Anchor targets also clear the restored sticky header.
