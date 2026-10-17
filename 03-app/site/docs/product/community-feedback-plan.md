@@ -4,8 +4,9 @@ Status: implementation plan, 2026-10-13. Owner: Ben Hankins.
 Related policy: [directory maintenance](../data-governance/directory-maintenance.md).
 
 Implementation started: the first PR provides disabled-by-default PostgreSQL
-intake, transactional receipts/jobs, and a feedback form. Authenticated review,
-job processing, and canonical publication are follow-up PRs; the feature must
+intake, transactional receipts/jobs, and a feedback form. PR #131 adds authenticated
+review, audited decisions, and manually triggered leased triage. Production
+activation and canonical publication remain follow-up work; the feature must
 remain disabled in production until the [activation gates](../data-governance/feedback-intake-runbook.md)
 pass. Splitting the implementation does not waive the complete-release criteria below.
 

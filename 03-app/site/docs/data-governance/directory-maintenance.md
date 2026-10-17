@@ -87,6 +87,8 @@ live information.
 - Feedback destination: private backend storage and review, agreed direction;
   the first implementation adds PostgreSQL intake, durable receipts, pending
   processing jobs, and a gated form. It remains disabled pending managed
-  infrastructure and authenticated review; see the
-  [intake runbook](feedback-intake-runbook.md).
+  infrastructure and verified production access; see the
+  [intake runbook](feedback-intake-runbook.md). Authenticated curator review,
+  audited decisions, and leased triage are now implemented in PR #131; see the
+  [review runbook](feedback-review-runbook.md). Approval does not yet publish corrections.
 - Grounded generated answers: planned; the current Ask UI searches listing text.
