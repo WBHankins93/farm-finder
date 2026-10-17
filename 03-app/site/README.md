@@ -1,6 +1,6 @@
 # FarmFinder web and platform foundation
 
-The public FarmFinder directory runs on [vinext](https://github.com/cloudflare/vinext). The production foundation adds a governed dataset release, PostgreSQL/PostGIS migrations, documented indexes, database integration tests, architecture decisions, and local infrastructure without changing the static-first public release.
+The public FarmFinder directory runs on [vinext](https://github.com/cloudflare/vinext). The production foundation adds a governed 50-state dataset, PostgreSQL/PostGIS migrations, documented indexes, database integration tests, architecture decisions, and local infrastructure while preserving a rollback path for the static explorer.
 
 ## Prerequisites
 
@@ -19,11 +19,25 @@ npm run dev
 
 This starter does not use `wrangler.jsonc`.
 
+The national list/map workspace is what a default build serves. Set
+`EXPLORER_LEGACY=true` to fall back to the superseded 299-row workbook explorer;
+that path is for local comparison only, because its 45 MB client feed exceeds
+Cloudflare's 25 MiB per-asset limit and is pruned from every default build.
+
 ## Current shape
 
 - edit site code under `app/`
-- `app/data/farms.json` is the current 299-listing public build artifact
-- `config/source-of-truth.json` pins the pre-cutover canonical workbook release
+- `../../01-database/pipeline/data/<ST>.json` is the canonical 72,396-record
+  state store; 68,618 records currently pass the publication gates
+- `npm run data:build` applies the pipeline's publish projection and privacy
+  gate, enforces `app/data/feed-contract.json`, and writes two ignored
+  artifacts: `public/national-index.bin` (the compact index the `/v1` routes
+  query) and `app/data/directory-stats.generated.json` (every count the page
+  displays). A contract violation fails the build rather than publishing
+- `app/data/feed-contract.json` holds only editorial metadata and coverage
+  floors. It is a tripwire, never a source of displayed counts
+- `app/data/farms.json` and `config/source-of-truth.json` retain the superseded
+  299-row workbook release for historical validation only
 - `packages/db/` owns the production PostgreSQL/PostGIS migrations and index decisions
 - `infra/` owns reproducible local dependencies and the production infrastructure contract
 - `docs/` records architecture, data governance, and implementation state
@@ -93,16 +107,24 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 ## Useful Commands
 
 - `npm run dev`: start local development
-- `npm run build`: verify the vinext build output
-- `npm test`: build and verify the rendered FarmFinder shell and 299-record artifact
+- `npm run build`: rebuild the feed, build the site, and check the Cloudflare deploy budget
+- `npm test`: verify discovery behavior, build the site, and smoke-test the rendered shell
 - `npm run lint`: run the application linter
 - `npm run data:setup`: create the ignored Python environment for workbook tooling
 - `npm run data:validate`: validate the canonical workbook release manifest
+- `npm run data:gates`: verify the publication, privacy, and index-encoding gates
 - `npm run db:up`: start a healthy local PostgreSQL/PostGIS database
 - `npm run db:verify`: verify required extensions, tables, and documented indexes
 - `npm run db:test`: exercise spatial and integrity invariants in a rolled-back transaction
 - `npm run db:down`: stop local infrastructure while preserving its volume
 - `npm run db:reset`: delete the local database volume; local development only
+- `node dev/screenshots.mjs <outDir>`: render the home page and explorer in
+  headless Chrome with SwiftShader (software WebGL), write PNGs to `<outDir>`
+  (default `dev/screenshots/`, gitignored), and print what it measured. It needs
+  a server already running on `:3000` (`npm run dev`, or set `FARMFINDER_URL`),
+  and exists because the built-in browser pane has no WebGL, so MapLibre never
+  draws there. `FARMFINDER_SCOPE=map` skips the city-search flows to review map
+  work alone. Chrome is found at the macOS default path, or set `CHROME_PATH`.
 
 ## Learn More
 

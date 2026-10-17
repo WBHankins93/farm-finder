@@ -1,0 +1,41 @@
+{
+  "state": "ND",
+  "name": "North Dakota",
+  "region": "midwest",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "ndsrc-local-food-map",
+      "name": "North Dakota Department of Agriculture — Local Foods Directory Map",
+      "url": "https://www.ndda.nd.gov/divisions/business-marketing-information/local-foods/local-foods-directory-map",
+      "adapter": "html_table",
+      "notes": "Official map of farmers, ranchers, and businesses producing their own food; captured best-effort where public rows are parseable."
+    },
+    {
+      "id": "ndsrc-usfarmtrail",
+      "name": "U.S. Farm Trail — North Dakota",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=north-dakota",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "ndsrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — North Dakota certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27North+Dakota%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "api",
+      "field_map": {
+        "properties.Operation_": "id",
+        "properties.Operation1": "name",
+        "properties.Physical_2": "city",
+        "properties.Physical_3": "state",
+        "properties.Address": "address",
+        "properties.Certified_": "products_text",
+        "properties.Certified1": "products_text",
+        "properties.Website_UR": "website",
+        "properties.Lat": "latitude",
+        "properties.Long": "longitude"
+      },
+      "notes": "Certified crop, livestock, or wild-crop operations from the USDA-derived Organic Integrity snapshot; retained as durable secondary discovery evidence."
+    }
+  ]
+}

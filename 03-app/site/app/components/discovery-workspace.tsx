@@ -1,0 +1,558 @@
+"use client";
+
+import dynamic from "next/dynamic";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { createLatestRequestGuard, mergeCursorPage, parseDiscoveryUrl, requestApproximateLocation, retainSelectedFarm, serializeDiscoveryUrl } from "../lib/discovery-client";
+import { type DiscoveryScope, type FarmMapResponse, type FarmSearchResponse, type FarmSummary, type LatLng, type MapBounds, type PlaceSearchResponse, type PlaceSuggestion, type ServiceKey, type SortMode, type ViewMode } from "../lib/discovery-contract";
+import { categories, productGuides, serviceFilters } from "../lib/directory-config";
+import { categoryColors, type Farm } from "../lib/farms";
+import { Mark, markForCategory, markForProduct } from "../lib/marks";
+import DiscoveryControls from "./discovery-controls";
+import FarmResultCard from "./farm-result-card";
+import FarmProfileDialog from "./farm-profile-dialog";
+
+const MapCanvas = dynamic(() => import("./farm-map"), {
+  ssr: false,
+  loading: () => <div className="map-wrap map-placeholder" role="status"><span /><strong>Preparing the field map…</strong><small>The farm list stays available while geography loads.</small></div>,
+});
+
+const emptySearch: FarmSearchResponse = { items: [], total: 0, nextCursor: null, scope: { mode: "all", label: "all covered areas", origin: null, radiusMiles: null, bounds: null }, sort: "name", releaseId: "" };
+const emptyMap: FarmMapResponse = { features: [], total: 0, scope: emptySearch.scope, releaseId: "" };
+
+function fullFarmToSummary(farm: Farm): FarmSummary {
+  return {
+    id: farm.id, name: farm.name, category: farm.category, region: farm.region, parish: farm.parish, state: farm.state, city: farm.city,
+    productsText: farm.productsText, products: farm.products, marketPresence: farm.marketPresence, website: farm.website, contact: farm.contact,
+    farmersMarket: farm.farmersMarket, onFarm: farm.onFarm, csa: farm.csa, ships: farm.ships, onlineStore: farm.onlineStore,
+    latitude: farm.latitude, longitude: farm.longitude, geoPrecision: farm.geoPrecision, distanceMiles: null,
+  };
+}
+
+function serializeBounds(bounds: MapBounds) {
+  return bounds.map((value) => value.toFixed(4)).join(",");
+}
+
+export default function DiscoveryWorkspace({ acceptsFeedback = false }: { acceptsFeedback?: boolean }) {
+  const [initialized, setInitialized] = useState(false);
+  const [query, setQuery] = useState("");
+  const [deferredQuery, setDeferredQuery] = useState("");
+  const [placeInput, setPlaceInput] = useState("");
+  const [place, setPlace] = useState<PlaceSuggestion | null>(null);
+  const [suggestions, setSuggestions] = useState<PlaceSuggestion[]>([]);
+  const [suggestionsOpen, setSuggestionsOpen] = useState(false);
+  const [userOrigin, setUserOrigin] = useState<LatLng | null>(null);
+  const [locationMessage, setLocationMessage] = useState("");
+  const [locating, setLocating] = useState(false);
+  const [radius, setRadius] = useState<25 | 50 | 100>(50);
+  const [bbox, setBbox] = useState<MapBounds | null>(null);
+  const [pendingCamera, setPendingCamera] = useState<{ bounds: MapBounds; zoom: number } | null>(null);
+  const [mapZoom, setMapZoom] = useState(7);
+  const [category, setCategory] = useState("");
+  const [product, setProduct] = useState("");
+  const [services, setServices] = useState<ServiceKey[]>([]);
+  const [sort, setSort] = useState<SortMode>("name");
+  const [view, setView] = useState<ViewMode>("list");
+  const [browseAll, setBrowseAll] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [draftCategory, setDraftCategory] = useState("");
+  const [draftServices, setDraftServices] = useState<ServiceKey[]>([]);
+  const [draftTotal, setDraftTotal] = useState(0);
+  const [searchResult, setSearchResult] = useState<FarmSearchResponse>(emptySearch);
+  const [mapResult, setMapResult] = useState<FarmMapResponse>(emptyMap);
+  const [loading, setLoading] = useState(false);
+  const [refreshing, setRefreshing] = useState(false);
+  const [error, setError] = useState("");
+  const [selectedFarm, setSelectedFarm] = useState<FarmSummary | null>(null);
+  const [hoveredFarm, setHoveredFarm] = useState<FarmSummary | null>(null);
+  const [profileFarm, setProfileFarm] = useState<Farm | null>(null);
+  const [clusterFarms, setClusterFarms] = useState<FarmSummary[]>([]);
+  const [mapActivated, setMapActivated] = useState(false);
+  const placeInputRef = useRef<HTMLInputElement>(null);
+  const filtersButtonRef = useRef<HTMLButtonElement>(null);
+  const filtersDialogRef = useRef<HTMLElement>(null);
+  const mapShellRef = useRef<HTMLDivElement>(null);
+  const [requestGuard] = useState(createLatestRequestGuard);
+  const hasWrittenUrl = useRef(false);
+
+  const hydrateFromUrl = useCallback(async () => {
+    const params = new URLSearchParams(window.location.search);
+    const urlState = parseDiscoveryUrl(params);
+    setQuery(urlState.q);
+    setDeferredQuery(urlState.q);
+    setRadius(urlState.radiusMiles);
+    setCategory(urlState.category);
+    setProduct(urlState.product);
+    setServices(urlState.services);
+    setSort(urlState.sort);
+    setView(urlState.view);
+    setBrowseAll(urlState.browseAll);
+    setBbox(urlState.bbox);
+    if (urlState.bbox) setLocationMessage("Showing farms in the selected map area.");
+    else if (urlState.browseAll) setLocationMessage("Browsing all covered areas. Add a city for nearby results.");
+    if (urlState.near) {
+      const lookup = urlState.near.includes(",") ? urlState.near : urlState.near.replace(/-([a-z]{2})$/i, ", $1").replace(/-/g, " ");
+      setPlaceInput(lookup);
+      try {
+        const response = await fetch(`/v1/places?q=${encodeURIComponent(lookup)}&limit=8`);
+        const data = await response.json() as PlaceSearchResponse;
+        const match = data.items.find((item) => item.slug === urlState.near) ?? data.items[0] ?? null;
+        if (match) {
+          setPlace(match);
+          setPlaceInput(match.label);
+          setSort(urlState.q ? "relevance" : "distance");
+          // Restoring from the URL is the hero form's entry path, so the live
+          // status has to describe the restored scope rather than keep asking
+          // for a city that is already chosen.
+          setLocationMessage(`Showing farms within ${urlState.radiusMiles} miles of ${match.label}.`);
+        } else {
+          // Reached from the no-JavaScript hero form with a place we do not
+          // know. Say so, rather than leaving the explorer blank and the
+          // visitor wondering whether anything happened.
+          setLocationMessage(`We couldn't find “${lookup}”. Try a city and state, like Madison, WI.`);
+        }
+      } catch {
+        setLocationMessage("Choose a city from the suggestions to search nearby.");
+      }
+    }
+    if (urlState.farmId) {
+      try {
+        const response = await fetch(`/v1/farms/${encodeURIComponent(urlState.farmId)}`);
+        if (response.ok) {
+          const record = await response.json() as { farm: Farm };
+          setSelectedFarm(fullFarmToSummary(record.farm));
+        }
+      } catch {
+        setLocationMessage("The selected farm could not be restored.");
+      }
+    } else {
+      setSelectedFarm(null);
+    }
+    setInitialized(true);
+  }, []);
+
+  useEffect(() => {
+    const initialHydration = window.setTimeout(() => void hydrateFromUrl(), 0);
+    window.addEventListener("popstate", hydrateFromUrl);
+    return () => {
+      window.clearTimeout(initialHydration);
+      window.removeEventListener("popstate", hydrateFromUrl);
+    };
+  }, [hydrateFromUrl]);
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => setDeferredQuery(query.trim()), 250);
+    return () => window.clearTimeout(timer);
+  }, [query]);
+
+  useEffect(() => {
+    if (!initialized || place || placeInput.trim().length < 2) return;
+    const controller = new AbortController();
+    const timer = window.setTimeout(async () => {
+      try {
+        const response = await fetch(`/v1/places?q=${encodeURIComponent(placeInput.trim())}&limit=8`, { signal: controller.signal });
+        const data = await response.json() as PlaceSearchResponse;
+        setSuggestions(data.items);
+        setSuggestionsOpen(true);
+      } catch (caught) {
+        if ((caught as Error).name !== "AbortError") setSuggestions([]);
+      }
+    }, 180);
+    return () => {
+      controller.abort();
+      window.clearTimeout(timer);
+    };
+  }, [placeInput, place, initialized]);
+
+  const hasFilters = Boolean(deferredQuery || category || product || services.length);
+  const hasScope = Boolean(place || userOrigin || bbox);
+  const searchEnabled = initialized && (hasScope || hasFilters || browseAll);
+  const serviceKey = services.join(",");
+  const bboxKey = bbox ? serializeBounds(bbox) : "";
+
+  const makeParams = useCallback((cursor = "") => {
+    const params = new URLSearchParams();
+    if (deferredQuery) params.set("q", deferredQuery);
+    if (place && !bbox) params.set("near", place.slug);
+    if (userOrigin && !bbox) {
+      params.set("lat", userOrigin.lat.toFixed(3));
+      params.set("lng", userOrigin.lng.toFixed(3));
+    }
+    if ((place || userOrigin) && !bbox) params.set("radiusMiles", String(radius));
+    if (bbox) params.set("bbox", serializeBounds(bbox));
+    if (category) params.set("category", category);
+    if (product) params.set("product", product);
+    if (services.length) params.set("services", services.join(","));
+    params.set("sort", sort);
+    params.set("limit", "30");
+    if (cursor) params.set("cursor", cursor);
+    return params;
+  }, [deferredQuery, place, userOrigin, radius, bbox, category, product, services, sort]);
+
+  useEffect(() => {
+    if (!searchEnabled) return;
+    const request = requestGuard.begin();
+    const params = makeParams();
+    const mapParams = new URLSearchParams(params);
+    mapParams.delete("limit");
+    mapParams.set("zoom", String(mapZoom));
+    queueMicrotask(() => {
+      setError("");
+      setRefreshing(searchResult.items.length > 0);
+      setLoading(searchResult.items.length === 0);
+    });
+
+    Promise.all([
+      fetch(`/v1/farms?${params}`, { signal: request.signal }).then((response) => response.ok ? response.json() as Promise<FarmSearchResponse> : Promise.reject(new Error(`search ${response.status}`))),
+      fetch(`/v1/farms/map?${mapParams}`, { signal: request.signal }).then((response) => response.ok ? response.json() as Promise<FarmMapResponse> : Promise.reject(new Error(`map ${response.status}`))),
+    ]).then(([list, map]) => {
+      if (!request.isLatest()) return;
+      setSearchResult(list);
+      setMapResult(map);
+      setSelectedFarm((current) => retainSelectedFarm(current, list.items, map.features));
+    }).catch((caught) => {
+      if ((caught as Error).name !== "AbortError") setError("Farm results could not be refreshed. Try again.");
+    }).finally(() => {
+      if (request.isLatest()) {
+        setLoading(false);
+        setRefreshing(false);
+      }
+    });
+    return request.cancel;
+  // Primitive keys keep user typing and transient map movement from restarting requests.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchEnabled, deferredQuery, place?.slug, userOrigin?.lat, userOrigin?.lng, radius, bboxKey, category, product, serviceKey, sort, mapZoom]);
+
+  useEffect(() => {
+    if (!initialized) return;
+    const params = serializeDiscoveryUrl({
+      q: deferredQuery,
+      near: place && !userOrigin ? place.slug : "",
+      radiusMiles: radius,
+      bbox,
+      category,
+      product,
+      services,
+      sort,
+      view,
+      browseAll,
+      farmId: selectedFarm?.id ?? "",
+    });
+    const url = `${window.location.pathname}${params.size ? `?${params}` : ""}${window.location.hash || "#discover"}`;
+    const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    if (url !== currentUrl) {
+      window.history[hasWrittenUrl.current ? "pushState" : "replaceState"](null, "", url);
+    }
+    hasWrittenUrl.current = true;
+  }, [initialized, deferredQuery, place, userOrigin, bbox, radius, category, product, services, sort, view, browseAll, selectedFarm]);
+
+  useEffect(() => {
+    const shell = mapShellRef.current;
+    if (!shell || mapActivated) return;
+    // An explicit map view — a tap on Map, or a shared link carrying view=map —
+    // is a request for the map now. Waiting on intersection there leaves the
+    // placeholder up on a deep link that already asked for it.
+    if (view === "map") {
+      const activation = globalThis.setTimeout(() => setMapActivated(true), 0);
+      return () => globalThis.clearTimeout(activation);
+    }
+    if (!("IntersectionObserver" in window)) {
+      const activation = globalThis.setTimeout(() => setMapActivated(true), 0);
+      return () => globalThis.clearTimeout(activation);
+    }
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        setMapActivated(true);
+        observer.disconnect();
+      }
+    }, { rootMargin: "320px" });
+    observer.observe(shell);
+    return () => observer.disconnect();
+  }, [mapActivated, view]);
+
+  useEffect(() => {
+    if (!filtersOpen) return;
+    const dialog = filtersDialogRef.current;
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : filtersButtonRef.current;
+    dialog?.querySelector<HTMLElement>("button")?.focus();
+
+    function handleFilterKeys(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        setFiltersOpen(false);
+        return;
+      }
+      if (event.key !== "Tab" || !dialog) return;
+      const focusable = Array.from(dialog.querySelectorAll<HTMLElement>('button, select, input, [href], [tabindex]:not([tabindex="-1"])')).filter((element) => !element.hasAttribute("disabled"));
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+
+    window.addEventListener("keydown", handleFilterKeys);
+    return () => {
+      window.removeEventListener("keydown", handleFilterKeys);
+      previousFocus?.focus();
+    };
+  }, [filtersOpen]);
+
+  useEffect(() => {
+    if (!filtersOpen) return;
+    const controller = new AbortController();
+    const timer = window.setTimeout(async () => {
+      const params = makeParams();
+      params.delete("category");
+      params.delete("services");
+      if (draftCategory) params.set("category", draftCategory);
+      if (draftServices.length) params.set("services", draftServices.join(","));
+      params.set("limit", "1");
+      try {
+        const response = await fetch(`/v1/farms?${params}`, { signal: controller.signal });
+        if (response.ok) setDraftTotal(((await response.json()) as FarmSearchResponse).total);
+      } catch (caught) {
+        if ((caught as Error).name !== "AbortError") setDraftTotal(searchResult.total);
+      }
+    }, 150);
+    return () => {
+      controller.abort();
+      window.clearTimeout(timer);
+    };
+  }, [filtersOpen, draftCategory, draftServices, makeParams, searchResult.total]);
+
+  async function locate() {
+    setLocating(true);
+    setLocationMessage("Finding your approximate location…");
+    const origin = await requestApproximateLocation(navigator.geolocation ?? null);
+    if (origin) {
+      setUserOrigin(origin);
+      setPlace(null);
+      setPlaceInput("Current location");
+      setBbox(null);
+      setPendingCamera(null);
+      setBrowseAll(false);
+      setSort(query.trim() ? "relevance" : "distance");
+      setLocationMessage("Showing farms near your approximate location.");
+      setLocating(false);
+    } else {
+      setLocating(false);
+      setLocationMessage("Location permission was not available. Enter a city or town instead.");
+      placeInputRef.current?.focus();
+    }
+  }
+
+  function choosePlace(nextPlace: PlaceSuggestion) {
+    setPlace(nextPlace);
+    setPlaceInput(nextPlace.label);
+    setSuggestionsOpen(false);
+    setSuggestions([]);
+    setUserOrigin(null);
+    setBbox(null);
+    setPendingCamera(null);
+    setBrowseAll(false);
+    setSort(query.trim() ? "relevance" : "distance");
+    setLocationMessage(`Showing farms within ${radius} miles of ${nextPlace.label}.`);
+  }
+
+  function updatePlaceInput(value: string) {
+    setPlaceInput(value);
+    setPlace(null);
+    setUserOrigin(null);
+    setBbox(null);
+    setPendingCamera(null);
+    setBrowseAll(false);
+    setSort(query.trim() ? "relevance" : "name");
+    if (value.trim().length < 2) {
+      setSuggestions([]);
+      setSuggestionsOpen(false);
+    }
+  }
+
+  function browseNationwide() {
+    setBrowseAll(true);
+    setPlace(null);
+    setUserOrigin(null);
+    setBbox(null);
+    setPlaceInput("");
+    setSort(query.trim() ? "relevance" : "name");
+    setLocationMessage("Browsing all covered areas. Add a city for nearby results.");
+  }
+
+  function toggleService(service: ServiceKey) {
+    setServices((current) => current.includes(service) ? current.filter((item) => item !== service) : [...current, service]);
+  }
+
+  function openFilters() {
+    setDraftCategory(category);
+    setDraftServices(services);
+    setDraftTotal(searchResult.total);
+    setFiltersOpen(true);
+  }
+
+  function toggleDraftService(service: ServiceKey) {
+    setDraftServices((current) => current.includes(service) ? current.filter((item) => item !== service) : [...current, service]);
+  }
+
+  function applyDraftFilters() {
+    setCategory(draftCategory);
+    setServices(draftServices);
+    setFiltersOpen(false);
+  }
+
+  function clearFilters() {
+    setQuery("");
+    setDeferredQuery("");
+    setCategory("");
+    setProduct("");
+    setServices([]);
+    setSort(hasScope ? "distance" : "name");
+  }
+
+  function startOver() {
+    clearFilters();
+    setPlace(null);
+    setUserOrigin(null);
+    setBbox(null);
+    setPendingCamera(null);
+    setPlaceInput("");
+    setBrowseAll(false);
+    setSelectedFarm(null);
+    setSearchResult(emptySearch);
+    setMapResult(emptyMap);
+    setLocationMessage("");
+    placeInputRef.current?.focus();
+  }
+
+  async function loadMore() {
+    if (!searchResult.nextCursor) return;
+    const response = await fetch(`/v1/farms?${makeParams(searchResult.nextCursor)}`);
+    if (!response.ok) {
+      setError("More farms could not be loaded. Try again.");
+      return;
+    }
+    const next = await response.json() as FarmSearchResponse;
+    setSearchResult((current) => mergeCursorPage(current, next));
+  }
+
+  const fetchFarm = useCallback(async (id: string) => {
+    const response = await fetch(`/v1/farms/${encodeURIComponent(id)}`);
+    if (!response.ok) throw new Error(`farm ${response.status}`);
+    return (await response.json() as { farm: Farm }).farm;
+  }, []);
+
+  const selectFarm = useCallback(async (id: string) => {
+    if (!id) {
+      setSelectedFarm(null);
+      return;
+    }
+    const loaded = searchResult.items.find((farm) => farm.id === id) ?? clusterFarms.find((farm) => farm.id === id);
+    if (loaded) {
+      setSelectedFarm(loaded);
+      return;
+    }
+    try {
+      setSelectedFarm(fullFarmToSummary(await fetchFarm(id)));
+    } catch {
+      setError("That farm profile could not be loaded.");
+    }
+  }, [searchResult.items, clusterFarms, fetchFarm]);
+
+  const openProfile = useCallback(async (id: string) => {
+    try {
+      setProfileFarm(await fetchFarm(id));
+    } catch {
+      setError("That farm profile could not be loaded.");
+    }
+  }, [fetchFarm]);
+
+  const selectCluster = useCallback(async (ids: string[]) => {
+    try {
+      const records = await Promise.all(ids.slice(0, 50).map(fetchFarm));
+      setClusterFarms(records.map(fullFarmToSummary));
+    } catch {
+      setError("Farms at this approximate location could not be loaded.");
+    }
+  }, [fetchFarm]);
+
+  const selectedOutsidePage = selectedFarm && !searchResult.items.some((farm) => farm.id === selectedFarm.id) ? selectedFarm : null;
+  const scope = searchEnabled ? (searchResult.scope as DiscoveryScope) : null;
+  const scopeText = scope?.mode === "nearby" ? `within ${scope.radiusMiles} miles of ${scope.label}` : scope?.mode === "area" ? "in this map area" : "across all covered areas";
+
+  const showFarmOnMap = useCallback((farm: FarmSummary) => {
+    setSelectedFarm(farm);
+    // Desktop keeps both panels visible, while the same action switches a
+    // narrow layout to its map panel. The card therefore has one truthful
+    // outcome at every breakpoint instead of a mobile-only no-op.
+    setView("map");
+  }, []);
+
+  return (
+    <section className="discovery discovery-v2" id="discover" aria-labelledby="discover-title">
+      <div className="discovery-heading"><div><p className="section-number">Search the directory</p><h2 id="discover-title">Find food from a farm near you.</h2></div><p>Choose a city or share an approximate location. The directory loads only the farms relevant to your search.</p></div>
+
+      <DiscoveryControls
+        inputRef={placeInputRef}
+        model={{ placeInput, selectedPlaceSlug: place?.slug ?? null, suggestions, suggestionsOpen, locating, productLabel: productGuides.find((guide) => guide.id === product)?.shortLabel ?? "", query, radius, radiusEnabled: Boolean(place || userOrigin), locationMessage, searchEnabled }}
+        actions={{
+          onPlaceInputChange: updatePlaceInput,
+          onPlaceInputFocus: () => setSuggestionsOpen(true),
+          onDismissSuggestions: () => setSuggestionsOpen(false),
+          onChoosePlace: choosePlace,
+          onLocate: locate,
+          onQueryChange: (value) => {
+            setQuery(value);
+            setSort(value.trim() ? "relevance" : hasScope ? "distance" : "name");
+          },
+          onClearQuery: () => setQuery(""),
+          onRadiusChange: (miles) => {
+            setRadius(miles);
+            setBbox(null);
+            setPendingCamera(null);
+          },
+          onBrowseNationwide: browseNationwide,
+          onStartOver: startOver,
+        }}
+      />
+
+      <div className="primary-filters" role="group" aria-label="Quick filters">
+        <div className="quick-filter-scroll"><button type="button" className={!product ? "active" : ""} onClick={() => setProduct("")} aria-pressed={!product}>All products</button>{productGuides.slice(0, 8).map((guide) => <button type="button" key={guide.id} className={product === guide.id ? "active" : ""} onClick={() => setProduct(product === guide.id ? "" : guide.id)} aria-pressed={product === guide.id}>{markForProduct(guide.id) ? <Mark name={markForProduct(guide.id)!} style={{ color: guide.color }} /> : null}{guide.shortLabel}</button>)}</div>
+        <div className="quick-service-row">{serviceFilters.slice(0, 3).map(({ key, shortLabel }) => <button type="button" key={key} className={services.includes(key) ? "active" : ""} onClick={() => toggleService(key)} aria-pressed={services.includes(key)}>{services.includes(key) ? "✓ " : "+ "}{shortLabel}</button>)}<button ref={filtersButtonRef} className="all-filters-button" type="button" onClick={openFilters} aria-haspopup="dialog" aria-expanded={filtersOpen}>All filters {category || services.length > 3 ? "•" : ""}</button>{hasFilters ? <button className="clear-filters" type="button" onClick={clearFilters}>Clear filters</button> : null}</div>
+      </div>
+
+      {filtersOpen ? <div className="filter-sheet-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setFiltersOpen(false)}><section ref={filtersDialogRef} className="filter-sheet" role="dialog" aria-modal="true" aria-labelledby="filter-sheet-title"><header><div><span>Refine the field</span><h3 id="filter-sheet-title">All filters</h3></div><button type="button" onClick={() => setFiltersOpen(false)} aria-label="Close filters">×</button></header><div className="filter-sheet-group"><h4>Farm category</h4><div><button type="button" className={!draftCategory ? "active" : ""} onClick={() => setDraftCategory("")} aria-pressed={!draftCategory}>Any category</button>{categories.map((item) => <button type="button" className={draftCategory === item ? "active" : ""} onClick={() => setDraftCategory(draftCategory === item ? "" : item)} aria-pressed={draftCategory === item} key={item}><Mark name={markForCategory(item)} style={{ color: categoryColors[item] }} />{item}</button>)}</div></div><div className="filter-sheet-group"><h4>Ways to buy</h4><div>{serviceFilters.map(({ key, label }) => <button type="button" className={draftServices.includes(key) ? "active" : ""} onClick={() => toggleDraftService(key)} aria-pressed={draftServices.includes(key)} key={key}>{draftServices.includes(key) ? "✓ " : "+ "}{label}</button>)}</div></div><footer><button type="button" onClick={() => { setDraftCategory(""); setDraftServices([]); }}>Reset these filters</button><button type="button" onClick={applyDraftFilters}>See {draftTotal.toLocaleString()} farms</button></footer></section></div> : null}
+
+      <div className="results-toolbar">
+        <p aria-live="polite"><strong>{searchResult.total.toLocaleString()}</strong> {searchResult.total === 1 ? "farm" : "farms"} {searchEnabled ? scopeText : "ready to search"}{refreshing ? <span> · Updating…</span> : null}</p>
+        <label>Sort<select value={sort} onChange={(event) => setSort(event.target.value as SortMode)}><option value="distance" disabled={!hasScope}>Nearest</option><option value="relevance" disabled={!deferredQuery}>Best match</option><option value="name">Farm name</option></select></label>
+      </div>
+
+      <div className="mobile-view-switch" role="group" aria-label="Choose list or map view"><button type="button" className={view === "list" ? "active" : ""} aria-pressed={view === "list"} onClick={() => setView("list")}>List <span>{searchResult.total.toLocaleString()}</span></button><button type="button" className={view === "map" ? "active" : ""} aria-pressed={view === "map"} onClick={() => setView("map")}>Map <span>{mapResult.total.toLocaleString()}</span></button></div>
+
+      <div className={`explorer explorer-v2 view-${view}`}>
+        <div className="farm-list-panel">
+          <div className="farm-list" role="region" aria-label="Farm results" aria-busy={loading || refreshing}>
+            {!searchEnabled ? <div className="empty-state nearby-empty"><span aria-hidden="true">◎</span><h3>Set your field boundary.</h3><p>Choose a city or use your approximate location to see nearby farms without loading the whole country.</p><button type="button" onClick={() => placeInputRef.current?.focus()}>Enter a city</button></div> : null}
+            {loading ? <div className="result-skeletons" role="status" aria-label="Loading farm results">{[1, 2, 3, 4].map((item) => <div key={item}><i /><span /><span /></div>)}</div> : null}
+            {error && !loading ? <div className="inline-error" role="alert"><strong>Results paused</strong><p>{error}</p><button type="button" onClick={() => setMapZoom((current) => current + 0.0001)}>Try again</button></div> : null}
+            {selectedOutsidePage ? <div className="selected-result-label">Selected farm</div> : null}
+            {selectedOutsidePage ? <FarmResultCard farm={selectedOutsidePage} selected index={null} origin={scope?.origin ?? null} onShowMap={showFarmOnMap} onOpenProfile={openProfile} onHover={setHoveredFarm} /> : null}
+            {!loading ? searchResult.items.map((farm, position) => <FarmResultCard farm={farm} selected={selectedFarm?.id === farm.id} index={sort === "distance" ? position + 1 : null} origin={scope?.origin ?? null} key={farm.id} onShowMap={showFarmOnMap} onOpenProfile={openProfile} onHover={setHoveredFarm} />) : null}
+            {!loading && searchEnabled && searchResult.total === 0 ? <div className="empty-state"><span aria-hidden="true">○</span><h3>No farms match this field yet.</h3><p>Remove a filter or expand the radius. The directory will not widen the search without asking.</p>{radius < 100 && hasScope ? <button type="button" onClick={() => setRadius(100)}>Expand to 100 miles</button> : <button type="button" onClick={clearFilters}>Clear filters</button>}</div> : null}
+            {searchResult.nextCursor ? <button type="button" className="load-more" onClick={loadMore}>Load more farms</button> : null}
+          </div>
+        </div>
+        <div className="map-panel" ref={mapShellRef}>
+          {mapActivated ? <MapCanvas features={mapResult.features} selectedFarm={selectedFarm} hoveredFarm={hoveredFarm} userOrigin={userOrigin} scope={scope} searchAreaAvailable={Boolean(pendingCamera)} onSearchArea={() => { if (!pendingCamera) return; setBbox(pendingCamera.bounds); setMapZoom(pendingCamera.zoom); setPendingCamera(null); setPlace(null); setUserOrigin(null); setLocationMessage("Showing farms in the selected map area."); }} onCameraChange={(bounds, zoom) => setPendingCamera({ bounds, zoom })} onSelect={(id) => void selectFarm(id)} onSelectCluster={(ids) => void selectCluster(ids)} onOpenProfile={(id) => void openProfile(id)} /> : <div className="map-wrap map-placeholder" role="status"><span /><strong>Map waits until you need it.</strong><small>The list stays on the critical path.</small></div>}
+          {clusterFarms.length ? <aside className="cluster-sheet" role="region" aria-live="polite" aria-label="Farms at this approximate location"><header><div><span>Shared map point</span><strong>{clusterFarms.length} farms in this area</strong></div><button type="button" onClick={() => setClusterFarms([])} aria-label="Close shared location results">×</button></header><div>{clusterFarms.map((farm) => <button type="button" key={farm.id} onClick={() => { setClusterFarms([]); void selectFarm(farm.id); }}><small>{farm.category}</small><strong>{farm.name}</strong><span>{farm.city}, {farm.state}</span></button>)}</div></aside> : null}
+        </div>
+      </div>
+
+      {profileFarm ? <FarmProfileDialog acceptsFeedback={acceptsFeedback} farm={profileFarm} onClose={() => setProfileFarm(null)} onShowMap={() => { setProfileFarm(null); setSelectedFarm(fullFarmToSummary(profileFarm)); setView("map"); }} /> : null}
+    </section>
+  );
+}

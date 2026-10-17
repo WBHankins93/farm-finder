@@ -9,6 +9,7 @@
 **/coverage/
 
 **/.next/
+03-app/site/dev/map-review.html
 **/.vinext/
 **/dist/
 **/.wrangler/

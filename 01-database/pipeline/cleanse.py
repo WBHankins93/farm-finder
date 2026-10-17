@@ -148,6 +148,53 @@ def dedupe(farms: list[Farm]) -> tuple[list[Farm], int]:
 # --- top-level cleanse pass --------------------------------------------
 
 
+def aggregate_dedupe(farms: list[Farm]) -> tuple[list[Farm], int]:
+    """Feed-level safety-net dedupe across ALL states at publish time.
+
+    Per-state cleansing already dedupes within a state; this catches the rare
+    record that slips through when the same farm lands in two data files (e.g. a
+    border farm collected under two states). It merges only exact
+    (state, county, normalized_name) collisions — cross-county same-name farms
+    stay distinct by design. Returns (deduped, merged_count).
+
+    It deliberately does NOT fuzzy-merge name variants ("X Farm" vs
+    "X Farm at Y"): that needs review, since collapsing them can erase a real
+    distinct operation. Use `near_duplicate_clusters` to quantify those instead.
+    """
+    groups: dict[tuple[str, str, str], Farm] = {}
+    order: list[tuple[str, str, str]] = []
+    merged = 0
+    for f in farms:
+        key = (f.state, f.county.lower(), normalized_name(f.name))
+        if key in groups:
+            _merge(groups[key], f)
+            merged += 1
+        else:
+            groups[key] = f
+            order.append(key)
+    return [groups[k] for k in order], merged
+
+
+def near_duplicate_clusters(farms: list[Farm]) -> int:
+    """Count likely name-variant duplicates for reporting only: records sharing
+    a precise (point/address) coordinate AND at least one significant name token.
+    City-centroid coordinates are excluded — many farms legitimately share one."""
+    from collections import defaultdict
+
+    by_coord: dict[tuple[float, float], list[Farm]] = defaultdict(list)
+    for f in farms:
+        if f.geo.latitude is not None and f.geo.precision in ("point", "address"):
+            by_coord[(round(f.geo.latitude, 5), round(f.geo.longitude, 5))].append(f)
+    clusters = 0
+    for group in by_coord.values():
+        if len(group) < 2:
+            continue
+        toks = [set(w for w in normalized_name(f.name).split() if len(w) > 2) for f in group]
+        if any(toks[i] & toks[j] for i in range(len(toks)) for j in range(i + 1, len(toks))):
+            clusters += 1
+    return clusters
+
+
 def cleanse(farms: list[Farm]) -> dict[str, int]:
     """Run in place: (re)classify, dedupe, decide eligibility. Returns a summary.
     Callers pass the deduped result back out via the returned list on `farms`."""

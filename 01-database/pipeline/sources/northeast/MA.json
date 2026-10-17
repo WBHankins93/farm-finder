@@ -1,0 +1,75 @@
+{
+  "state": "MA",
+  "name": "Massachusetts",
+  "region": "northeast",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "masrc-massgrown",
+      "name": "Massachusetts Department of Agricultural Resources — MassGrown Map",
+      "url": "https://massnrc.org/farmlocator/map.aspx",
+      "adapter": "html_table",
+      "notes": "Official statewide farms and agricultural activities map."
+    },
+    {
+      "id": "masrc-massgrown-feature-service",
+      "name": "Massachusetts Department of Agricultural Resources — MassGrown public feature service",
+      "url": "https://services1.arcgis.com/7iJyYTjCtKsZS1LR/ArcGIS/rest/services/MassGrown_Map_Points_%28Public%29/FeatureServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "api",
+      "field_map": {
+        "properties.FarmName": "name",
+        "properties.AddressLine1": "address",
+        "properties.farmprofile": "products_text",
+        "properties.AllMapCodes": "notes"
+      },
+      "notes": "Official statewide point inventory with farm names, city, county, contact fields, profiles, and coordinates; final entity-type sorting follows collection."
+    },
+    {
+      "id": "masrc-usfarmtrail",
+      "name": "U.S. Farm Trail — Massachusetts",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=massachusetts",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "masrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — Massachusetts certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Massachusetts%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "api",
+      "field_map": {
+        "properties.Operation_": "id",
+        "properties.Operation1": "name",
+        "properties.Physical_2": "city",
+        "properties.Physical_3": "state",
+        "properties.Address": "address",
+        "properties.Certified_": "products_text",
+        "properties.Certified1": "products_text",
+        "properties.Website_UR": "website",
+        "properties.Lat": "latitude",
+        "properties.Long": "longitude"
+      },
+      "notes": "Certified crop, livestock, or wild-crop operations from the USDA-derived Organic Integrity snapshot; retained as durable secondary discovery evidence."
+    },
+    {
+      "id": "masrc-eatwild",
+      "name": "EatWild — Massachusetts",
+      "url": "https://www.eatwild.com/products/massachusetts.html",
+      "adapter": "html_table",
+      "notes": "Pastured-products directory."
+    },
+    {
+      "id": "masrc-pickyourown",
+      "name": "PickYourOwn — Massachusetts",
+      "url": "https://www.pickyourown.org/MA.htm",
+      "adapter": "html_table",
+      "notes": "Statewide U-pick discovery index."
+    },
+    {
+      "id": "masrc-localharvest",
+      "name": "LocalHarvest — Massachusetts",
+      "url": "https://www.localharvest.org/massachusetts/",
+      "adapter": "html_table",
+      "notes": "Best-effort collection; skipped gracefully if rate-limited."
+    }
+  ]
+}

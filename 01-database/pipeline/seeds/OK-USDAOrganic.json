@@ -1,0 +1,2774 @@
+[
+  {
+    "id": "usda-9460000315",
+    "name": "4 Generations Organic",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Alva",
+    "category": "Mixed",
+    "products": [
+      "Other: Wheat"
+    ],
+    "products_text": "Other: Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-430-5478",
+      "email": "",
+      "address": "1739 Pine Circle, Alva, Oklahoma, 73717",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7895662,
+      "longitude": -98.6648768,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000341",
+    "name": "416 Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Adair",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "817-500-7010",
+      "email": "",
+      "address": "11000 N 430 Rd, Adair, Oklahoma, 74330",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.46760659,
+      "longitude": -95.34593635,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000065",
+    "name": "A.G. Wood",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Cordell",
+    "category": "Mixed",
+    "products": [
+      "Other: Wheat (Alfalfa)"
+    ],
+    "products_text": "Other: Wheat (Alfalfa)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-832-2932",
+      "email": "",
+      "address": "Rt 3 Box 53, Cordell, Oklahoma, 73632",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.291271,
+      "longitude": -98.9876227,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000203",
+    "name": "Acadian Family Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Fort Cobb",
+    "category": "Mixed",
+    "products": [
+      "Other: Rye (Herbs)",
+      "Sweet Potatoes (Vegetable/Herb Seedlings)"
+    ],
+    "products_text": "Other: Rye (Herbs), Sweet Potatoes (Vegetable/Herb Seedlings)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "361-772-2725",
+      "email": "",
+      "address": "23149 CW 2560, Fort Cobb, Oklahoma, 73038",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.09756,
+      "longitude": -98.43686,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000284",
+    "name": "Bar Double Diamond Farms",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Boise City",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa (Grass Hay",
+      "Pastureland)"
+    ],
+    "products_text": "Other: Alfalfa (Grass Hay, Pastureland)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-544-2521",
+      "email": "",
+      "address": "HCR 2 Box 79, Boise City, Oklahoma, 73933",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7313361,
+      "longitude": -102.5095217,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000288",
+    "name": "Bergen Holdings",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Norman",
+    "category": "Mixed",
+    "products": [
+      "Other: Other Item-White Winter Wheat (Pastureland)"
+    ],
+    "products_text": "Other: Other Item-White Winter Wheat (Pastureland)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "405-650-0804",
+      "email": "",
+      "address": "1529 24th Ave, Norman, Oklahoma, 73072",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.19919417,
+      "longitude": -97.47667303,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000340",
+    "name": "Black Fox Farms",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Bixby",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-231-3029",
+      "email": "",
+      "address": "14446 S Hudson Ave, Bixby, Oklahoma, 74008",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.95383,
+      "longitude": -95.912888,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000343",
+    "name": "Cedar Canyon Goods, LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Cyril",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "405-488-7762",
+      "email": "",
+      "address": "43296 State Hwy 8, Cyril, Oklahoma, 73029",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.942014,
+      "longitude": -98.22247211,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000311",
+    "name": "Cha Chue Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Wyandotte",
+    "category": "Mixed",
+    "products": [
+      "Other: Other Item-Pasture"
+    ],
+    "products_text": "Other: Other Item-Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-678-2401",
+      "email": "",
+      "address": "62965 E 170 Rd, Wyandotte, Oklahoma, 74370",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.76910053,
+      "longitude": -94.75444076,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150007296",
+    "name": "Chris Schmidt",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Jay",
+    "category": "Mixed",
+    "products": [
+      "Other: Grass",
+      "Native Prairie",
+      "Other: Chicken Eggs",
+      "Chickens-For Egg Production"
+    ],
+    "products_text": "Other: Grass, Native Prairie; Other: Chicken Eggs, Chickens-For Egg Production",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(479) 530-4469",
+      "email": "ashley@hbfeggs.com",
+      "address": "41991 S 710 Road, Jay, Oklahoma, 74346",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.409626,
+      "longitude": -94.61195467,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000324",
+    "name": "Convirs Farms",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Wyandotte",
+    "category": "Mixed",
+    "products": [
+      "Other: Other Item-Ginger (Tumeric",
+      "Strawberries",
+      "Vegetables)"
+    ],
+    "products_text": "Other: Other Item-Ginger (Tumeric, Strawberries, Vegetables)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "417-455-3201",
+      "email": "",
+      "address": "67150 E 175 Rd, Wyandotte, Oklahoma, 74370",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.76413651,
+      "longitude": -94.66435831,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9579017100",
+    "name": "COVEY FARMS",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Rose",
+    "category": "Mixed",
+    "products": [
+      "Other: Forage",
+      "Hay",
+      "Other: Dairy bulls",
+      "live",
+      "Dairy cows",
+      "Dairy heifers [ 1 year",
+      "Dairy heifers ] 1 year"
+    ],
+    "products_text": "Other: Forage, Hay; Other: Dairy bulls, live, Dairy cows, live, Dairy heifers [ 1 year, live, Dairy heifers ] 1 year, live",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(918) 720-3333",
+      "email": "",
+      "address": "6350 S 446 Road, Rose, Oklahoma, 74364",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.2148691,
+      "longitude": -95.06498749,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000304",
+    "name": "D S 3 Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Midwest City",
+    "category": "Mixed",
+    "products": [
+      "Fruit Vegetables: Herbs (Vegetables)"
+    ],
+    "products_text": "Fruit Vegetables: Herbs (Vegetables)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "405-739-0255",
+      "email": "",
+      "address": "326 Blue Spruce, Midwest City, Oklahoma, 73130",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.46918883,
+      "longitude": -97.36779476,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000120",
+    "name": "Daddy Mac's Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Fairfax",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay (Native Grass Hay",
+      "Vegetables)",
+      "Pecans (Wild Crops",
+      "Fruits)"
+    ],
+    "products_text": "Other: Hay (Native Grass Hay, Vegetables), Pecans (Wild Crops, Fruits)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-642-3444",
+      "email": "",
+      "address": "39 Little Star Dr, Fairfax, Oklahoma, 74637",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.55099025,
+      "longitude": -96.64021362,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5878526097",
+    "name": "Dedmon Organic Farms, LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Spiro",
+    "category": "Mixed",
+    "products": [
+      "Other: Corn",
+      "Soybeans",
+      "Wheat"
+    ],
+    "products_text": "Other: Corn, Soybeans, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "4794592437",
+      "email": "",
+      "address": "904 Carmen Drive, Spiro, Oklahoma, 74959",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.25251121,
+      "longitude": -94.6113904,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150005239",
+    "name": "Eastern Oklahoma State College",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Talihina",
+    "category": "Mixed",
+    "products": [
+      "Other: Artichoke Transplants",
+      "Basil",
+      "Basil Transplants",
+      "Borage Transplants",
+      "Broccoli Transplants",
+      "Brussels Sprouts Transplants",
+      "Cauliflower",
+      "Cauliflower Transplants",
+      "Celery Transplants",
+      "Chicory Transplants",
+      "Chives Transplants",
+      "Cilantro Transplants",
+      "Colla"
+    ],
+    "products_text": "Other: Artichoke Transplants, Basil, Basil Transplants, Borage Transplants, Broccoli Transplants, Brussels Sprouts Transplants, Cauliflower, Cauliflower Transplants, Celery Transplants, Chicory Transplants, Chives Transplants, Cilantro Transplants, Colla",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(918) 869-0845",
+      "email": "kaben@symbioticaquaponic.com",
+      "address": "100 Nelson Street, Talihina, Oklahoma, 74571",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.75508775,
+      "longitude": -95.035549,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000298",
+    "name": "Eden Valley",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Eucha",
+    "category": "Mixed",
+    "products": [
+      "Other: Other Item (Blackberries",
+      "Vegetables)"
+    ],
+    "products_text": "Other: Other Item (Blackberries, Vegetables)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-353-2510",
+      "email": "",
+      "address": "2202 County Road 419, Eucha, Oklahoma, 74342",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.40913829,
+      "longitude": -94.96615532,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000334",
+    "name": "Equally Yolked Eggs",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Cushing",
+    "category": "Mixed",
+    "products": [
+      "Other: Other Item-Poultry Eggs"
+    ],
+    "products_text": "Other: Other Item-Poultry Eggs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-225-3570",
+      "email": "",
+      "address": "PO Box 1030, Cushing, Oklahoma, 74023",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9850639,
+      "longitude": -96.76697,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000307",
+    "name": "FHA Holdings, LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Cushing",
+    "category": "Mixed",
+    "products": [
+      "Other: Other Item-Pasture"
+    ],
+    "products_text": "Other: Other Item-Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-225-0267",
+      "email": "",
+      "address": "PO Box 1030, Cushing, Oklahoma, 74023",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9850639,
+      "longitude": -96.76697,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000204",
+    "name": "Fisher Farm Organic",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Bristow",
+    "category": "Mixed",
+    "products": [
+      "Other: Soybeans (Hard Red Winter Wheat)"
+    ],
+    "products_text": "Other: Soybeans (Hard Red Winter Wheat)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-367-3531",
+      "email": "",
+      "address": "2932 S 257th W Ave, Bristow, Oklahoma, 74010",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.8961976,
+      "longitude": -96.28129964,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000122",
+    "name": "Fisher Farms Produce",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Bristow",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-367-3531",
+      "email": "",
+      "address": "29323 S 257 W Ave, Bristow, Oklahoma, 74010",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.73765394,
+      "longitude": -96.28093147,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220006018",
+    "name": "FREEMAN & FREEMAN FARMS, LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "MAYSVILLE",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa",
+      "Beef Cattle - Breeder Stock",
+      "Silage",
+      "Beef Cattle - Last Third Gestation Born",
+      "Barley",
+      "Wheat Hay",
+      "Sorghum"
+    ],
+    "products_text": "Other: Alfalfa, Beef Cattle - Breeder Stock, Silage, Beef Cattle - Last Third Gestation Born, Barley, Wheat Hay, Sorghum; Other: Alfalfa, Beef Cattle - Breeder Stock, Silage, Beef Cattle - Last Third Gestation Born, Barley, Wheat Hay, Sorghum",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "26477 E County Road 1570, MAYSVILLE, Oklahoma, 73057",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.74663347,
+      "longitude": -97.37905967,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-6220006019",
+    "name": "GREEN BROTHERS, LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "PAOL",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa",
+      "Wheat",
+      "Soybeans",
+      "Grass Hay",
+      "Corn",
+      "Corn Silage",
+      "Barley",
+      "Sorghum"
+    ],
+    "products_text": "Other: Alfalfa, Wheat, Soybeans, Grass Hay, Corn, Corn Silage, Barley, Sorghum",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "12554 N County Road 3190, PAOL, Oklahoma, 73074",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.82064089,
+      "longitude": -97.31833495,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150006228",
+    "name": "Handrich Investments, LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Afton",
+    "category": "Mixed",
+    "products": [
+      "Other: Pasture",
+      "Other: Chicken Eggs",
+      "Chickens-For Egg Production"
+    ],
+    "products_text": "Other: Pasture; Other: Chicken Eggs, Chickens-For Egg Production",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(479) 530-4469",
+      "email": "ashley@hbfeggs.com",
+      "address": "55454 East Highway 59, Afton, Oklahoma, 74331",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.68502945,
+      "longitude": -94.87205594,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000116",
+    "name": "Hilltop Natural Producer LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Norman",
+    "category": "Mixed",
+    "products": [
+      "Other: Fruits"
+    ],
+    "products_text": "Other: Fruits",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "405-321-3727",
+      "email": "",
+      "address": "6490 Corky Dr NE, Norman, Oklahoma, 73026",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.24206868,
+      "longitude": -97.34580859,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000159",
+    "name": "Jason Davenport",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Wapanucka",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecans (Native Grass Hay)"
+    ],
+    "products_text": "Other: Pecans (Native Grass Hay)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "325-277-8397",
+      "email": "",
+      "address": "1360 W Pleasantview Rd, Wapanucka, Oklahoma, 73461",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.3893554,
+      "longitude": -96.3734998,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561000031",
+    "name": "Joe Kroll",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Covington",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Clover",
+      "Ryegrass"
+    ],
+    "products_text": "Field/Forageable: Clover, Ryegrass",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "415-305-9098",
+      "email": "",
+      "address": "Shell Road / Wood Road, Covington, Oklahoma, 73730",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.3074737,
+      "longitude": -97.5863584,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000158",
+    "name": "Joe's Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Bixby",
+    "category": "Mixed",
+    "products": [
+      "Other: Herbs (Strawberries",
+      "Vegetables)"
+    ],
+    "products_text": "Other: Herbs (Strawberries, Vegetables)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-740-1171",
+      "email": "",
+      "address": "12811 S. Sheridan, Bixby, Oklahoma, 74008",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.97707487,
+      "longitude": -95.90442939,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000055",
+    "name": "John Liebl",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Harrah",
+    "category": "Mixed",
+    "products": [
+      "Other: Other Item (Pastureland)"
+    ],
+    "products_text": "Other: Other Item (Pastureland)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "405-454-3097",
+      "email": "",
+      "address": "19480 E Reno, Harrah, Oklahoma, 73045",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.46406448,
+      "longitude": -97.187661,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000001",
+    "name": "John's Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Fairview",
+    "category": "Mixed",
+    "products": [
+      "Other: Alfalfa",
+      "Barley",
+      "Hay (Native Grass)",
+      "Peas",
+      "Wheat"
+    ],
+    "products_text": "Other: Alfalfa, Barley, Hay (Native Grass), Peas, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-227-3452",
+      "email": "",
+      "address": "201 S Vo-Tech Drive, Fairview, Oklahoma, 73737",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.267678,
+      "longitude": -98.49782489,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000051",
+    "name": "John's Farm & Cattle Tracks",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Fairview",
+    "category": "Mixed",
+    "products": [
+      "Cattle: Other Item (Beef)"
+    ],
+    "products_text": "Cattle: Other Item (Beef)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-227-3452",
+      "email": "",
+      "address": "201 Vo-Tech Drive, Fairview, Oklahoma, 73737",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.267678,
+      "longitude": -98.49782489,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000231",
+    "name": "Koehn Seed Cleaning",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Isabella",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-822-3135",
+      "email": "",
+      "address": "262248 E Country Rd 56, Isabella, Oklahoma, 73747",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.20287053,
+      "longitude": -98.33066019,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000105",
+    "name": "Legacy Pecan",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Hugo",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecans"
+    ],
+    "products_text": "Other: Pecans,",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-317-7182",
+      "email": "",
+      "address": "HC 79 Box 240, Hugo, Oklahoma, 74743",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.01066,
+      "longitude": -95.5096821,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150010565",
+    "name": "Matt Troyer",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Jay",
+    "category": "Mixed",
+    "products": [
+      "Other: Chickens-Pullets"
+    ],
+    "products_text": "Other: Chickens-Pullets",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(479) 530-4469",
+      "email": "ashley@hbfeggs.com",
+      "address": "45597 S 680 Road, Jay, Oklahoma, 74346",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.355554,
+      "longitude": -94.66600562,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000114",
+    "name": "Mcclains",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Bixby",
+    "category": "Mixed",
+    "products": [
+      "Fruit - Berries: Blueberries (Blackberries)",
+      "Other: Other Item-Vegetables"
+    ],
+    "products_text": "Fruit - Berries: Blueberries (Blackberries); Other: Other Item-Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-366-9077",
+      "email": "",
+      "address": "16325 S 129th Ave, Bixby, Oklahoma, 74008",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.92649156,
+      "longitude": -95.83290606,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150002086",
+    "name": "Menno Borntrager",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Welch",
+    "category": "Mixed",
+    "products": [
+      "Other: Pasture",
+      "Other: Chicken Eggs",
+      "Chickens-For Egg Production"
+    ],
+    "products_text": "Other: Pasture; Other: Chicken Eggs, Chickens-For Egg Production",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(417) 793-7292",
+      "email": "bobby.bearden@vitalfarms.com",
+      "address": "437817 E 90 Road, Welch, Oklahoma, 74369",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.88787413,
+      "longitude": -95.2011033,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000167",
+    "name": "Merrick Valley Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Guthrie",
+    "category": "Mixed",
+    "products": [
+      "Other: Pecans"
+    ],
+    "products_text": "Other: Pecans",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "405-921-4606",
+      "email": "",
+      "address": "PO Box 1230, Guthrie, Oklahoma, 73044",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.8779118,
+      "longitude": -97.4269518,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000316",
+    "name": "Mourning Dove Organic Farm, LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Goodman",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "417-434-3191",
+      "email": "",
+      "address": "485 Jaguar Rd, Goodman, Oklahoma, 64843",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.74946563,
+      "longitude": -94.43435189,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000197",
+    "name": "Nelson's Organic Food Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Porum",
+    "category": "Mixed",
+    "products": [
+      "Other: Other Item (Vegetables)",
+      "Other Item (Vegetables)"
+    ],
+    "products_text": "Other: Other Item (Vegetables), Other Item (Vegetables)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "817-760-6699",
+      "email": "",
+      "address": "PO Box 29595, Porum, Oklahoma, 74435",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.3562083,
+      "longitude": -95.2655231,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000010",
+    "name": "Old Tyme Grain",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Sayre",
+    "category": "Mixed",
+    "products": [
+      "Other: Pasture (Juniper Berries",
+      "Native Grass Hay)",
+      "Pecans (Sage",
+      "Pear",
+      "Sandplums",
+      "Pecans)"
+    ],
+    "products_text": "Other: Pasture (Juniper Berries, Native Grass Hay), Pecans (Sage, Pear, Sandplums, Pecans)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-928-2785",
+      "email": "",
+      "address": "11276 N 1830 Rd, Sayre, Oklahoma, 73662",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.38104738,
+      "longitude": -99.71745681,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-5561005813",
+    "name": "Once Upon A Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Locust Grove",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Sweet Potatoes",
+      "Fruit Vegetables: Persimmons",
+      "Squash",
+      "Fruit - Berries: Blueberries",
+      "Field/Forageable: Fallow"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Sweet Potatoes; Fruit Vegetables: Persimmons, Squash; Fruit - Berries: Blueberries; Field/Forageable: Fallow",
+    "website": "www.onceuponafarmorganics.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "888-983-1606",
+      "email": "",
+      "address": "9983 South 437 Road, Locust Grove, Oklahoma, 74352",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.16283165,
+      "longitude": -95.22527749,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000057",
+    "name": "OSU/USDA Lane Ag Center",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Lane",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay (Native Grass Hay)",
+      "Research of Vegetables"
+    ],
+    "products_text": "Other: Hay (Native Grass Hay), Research of Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-889-7343",
+      "email": "",
+      "address": "911 E Hwy 3, Lane, Oklahoma, 74555",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.30252985,
+      "longitude": -95.99715271,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000221",
+    "name": "Peace Of Prairie Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Muskogee",
+    "category": "Mixed",
+    "products": [
+      "Other: Herbs (Vegetables",
+      "Fruits)"
+    ],
+    "products_text": "Other: Herbs (Vegetables, Fruits)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-816-4913",
+      "email": "",
+      "address": "6221 W Okmulgee Ave, Muskogee, Oklahoma, 74401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.75493554,
+      "longitude": -95.44534103,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000230",
+    "name": "Pleasant Valley Ranch",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Vinita",
+    "category": "Mixed",
+    "products": [
+      "Other: Wheat (Pasture)"
+    ],
+    "products_text": "Other: Wheat (Pasture)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-256-7111",
+      "email": "",
+      "address": "115 S Wilson, Vinita, Oklahoma, 74301",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.63853299,
+      "longitude": -95.15461888,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000289",
+    "name": "Pleasant Valley Ranch",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Vinita",
+    "category": "Mixed",
+    "products": [
+      "Cattle: Other Item-Beef Cattle"
+    ],
+    "products_text": "Cattle: Other Item-Beef Cattle",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-256-7111",
+      "email": "",
+      "address": "115 S Wilson, Vinita, Oklahoma, 73072",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.63853299,
+      "longitude": -95.15461888,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000240",
+    "name": "Provision Organic Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Arcadia",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay (Native Grass Hay)"
+    ],
+    "products_text": "Other: Hay (Native Grass Hay)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "405-459-8650",
+      "email": "",
+      "address": "100 S Westminister Rd, Arcadia, Oklahoma, 73007",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.65437805,
+      "longitude": -97.33593571,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000101",
+    "name": "Raney Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Hugo",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay (Pastureland",
+      "Prairie Hay",
+      "Blacberries)"
+    ],
+    "products_text": "Other: Hay (Pastureland, Prairie Hay, Blacberries)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-317-9190",
+      "email": "",
+      "address": "499 N 4210, Hugo, Oklahoma, 74743",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.0955763,
+      "longitude": -95.5390827,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000238",
+    "name": "Raney Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Hugo",
+    "category": "Mixed",
+    "products": [
+      "Poultry: Eggs"
+    ],
+    "products_text": "Poultry: Eggs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-317-9190",
+      "email": "",
+      "address": "499 N 4210, Hugo, Oklahoma, 74743",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.0955763,
+      "longitude": -95.5390827,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-3920897846",
+    "name": "Rick Krows Farms",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Seiling",
+    "category": "Mixed",
+    "products": [
+      "Field/Forageable: Wheat (Hard red winter)"
+    ],
+    "products_text": "Field/Forageable: Wheat (Hard red winter)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-922-4975",
+      "email": "rjkrows@pldi.net",
+      "address": "62939 North 2220 Rd, Seiling, Oklahoma, 73663",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.10182709,
+      "longitude": -99.04429346,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000349",
+    "name": "Rose Rock Gardens Organic Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Muskogee",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-900-5907",
+      "email": "",
+      "address": "3600 Eufaula Ave, Muskogee, Oklahoma, 74403",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.76250631,
+      "longitude": -95.32140859,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150008675",
+    "name": "Scotty Kropf",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Pocola",
+    "category": "Mixed",
+    "products": [
+      "Other: Chickens-Pullets"
+    ],
+    "products_text": "Other: Chickens-Pullets",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(479) 774-1934",
+      "email": "scottkropf@yahoo.com",
+      "address": "1000 Barnes St, Pocola, Oklahoma, 74902",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.25187351,
+      "longitude": -94.50202558,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-8150004155",
+    "name": "SMC Farm LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Westville",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay",
+      "Outdoor Access",
+      "Pasture",
+      "Other: Chicken Eggs",
+      "Chickens-For Egg Production"
+    ],
+    "products_text": "Other: Hay, Outdoor Access, Pasture; Other: Chicken Eggs, Chickens-For Egg Production",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(918) 316-3929",
+      "email": "smcfarmllc@gmail.com",
+      "address": "RT. 3 Box 5110, Westville, Oklahoma, 74965",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9894125,
+      "longitude": -94.5746644,
+      "precision": "city"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000282",
+    "name": "Sutter Farms",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Alva",
+    "category": "Mixed",
+    "products": [
+      "Other: Wheat"
+    ],
+    "products_text": "Other: Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-334-6573",
+      "email": "",
+      "address": "13269 CR 430, Alva, Oklahoma, 73717",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.97082377,
+      "longitude": -98.68909679,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000139",
+    "name": "The Garden Spot",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Spencer",
+    "category": "Mixed",
+    "products": [
+      "Other: Herbs (Vegetables)"
+    ],
+    "products_text": "Other: Herbs (Vegetables)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "405-487-8320",
+      "email": "",
+      "address": "5300 N Westminister, Spencer, Oklahoma, 73084",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.524719,
+      "longitude": -97.335396,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000182",
+    "name": "Thousand Hills Ranch",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Okeene",
+    "category": "Mixed",
+    "products": [
+      "Other: Hard Red Winter Wheat"
+    ],
+    "products_text": "Other: Hard Red Winter Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "405-368-1118",
+      "email": "",
+      "address": "PO Box 385, Okeene, Oklahoma, 73763",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1172242,
+      "longitude": -98.3155936,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000222",
+    "name": "Three Fruits And A Veggie",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Osage",
+    "category": "Mixed",
+    "products": [
+      "Fruit Vegetables: Sunflowers (Vegetables",
+      "Fruits",
+      "Herbs",
+      "Vegetables/Herb Transplants",
+      "Fruits & Berries",
+      "Mushrooms)"
+    ],
+    "products_text": "Fruit Vegetables: Sunflowers (Vegetables, Fruits, Herbs, Vegetables/Herb Transplants, Fruits & Berries, Mushrooms)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-242-3158",
+      "email": "",
+      "address": "549 CR 1577, Osage, Oklahoma, 74054",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.243164,
+      "longitude": -96.322984,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000069",
+    "name": "Three Springs Farm",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Oaks",
+    "category": "Mixed",
+    "products": [
+      "Other: Herbs (Vegetables",
+      "Fruit)"
+    ],
+    "products_text": "Other: Herbs (Vegetables, Fruit)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-868-5450",
+      "email": "",
+      "address": "PO Box 13, Oaks, Oklahoma, 74359",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1841008,
+      "longitude": -94.8494709,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000215",
+    "name": "Tishomingo Land & Cattle Company LLC,",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Tishomingo",
+    "category": "Mixed",
+    "products": [
+      "Other: Hay (Native Grass",
+      "Bermuda)",
+      "Pecans (Pastureland)"
+    ],
+    "products_text": "Other: Hay (Native Grass , Bermuda), Pecans (Pastureland)",
+    "website": "www.washitavalleyfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "817-268-8000",
+      "email": "washitavalleyfarms@gmail.com",
+      "address": "12422 South US Highway 377, Tishomingo, Oklahoma, 73460",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.18869584,
+      "longitude": -96.72413485,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000239",
+    "name": "Tishomingo Land & Cattle Company LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Tishomingo",
+    "category": "Mixed",
+    "products": [
+      "Cattle: Beef",
+      "Sheep"
+    ],
+    "products_text": "Cattle: Beef, Sheep",
+    "website": "www.washitavalleyfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "817-268-8000",
+      "email": "washitavalleyfarms@gmail.com",
+      "address": "12422 South US Highway 377, Tishomingo, Oklahoma, 73460",
+      "public": false
+    },
+    "geo": {
+      "latitude": 34.18869584,
+      "longitude": -96.72413485,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000314",
+    "name": "Triple S Farms LLC",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Hydro",
+    "category": "Mixed",
+    "products": [
+      "Other: Wheat"
+    ],
+    "products_text": "Other: Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "405-663-2913",
+      "email": "",
+      "address": "246060 E 960 Rd, Hydro, Oklahoma, 73048",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.62413453,
+      "longitude": -98.6133105,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000352",
+    "name": "Ward Farms",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Tom",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-245-2226",
+      "email": "",
+      "address": "2879 Jasper Hollow Rd, Tom, Oklahoma, 74740",
+      "public": false
+    },
+    "geo": {
+      "latitude": 33.72146648,
+      "longitude": -94.60601181,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000312",
+    "name": "WKP Cattle",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Boise City",
+    "category": "Mixed",
+    "products": [
+      "Cattle: Other Item-Beef Cattle"
+    ],
+    "products_text": "Cattle: Other Item-Beef Cattle",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-544-2521",
+      "email": "",
+      "address": "PO Box 548, Boise City, Oklahoma, 73933",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.72969,
+      "longitude": -102.51235,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000328",
+    "name": "WM Ranch",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Hulbert",
+    "category": "Mixed",
+    "products": [
+      "Other: Other Item (Native Grass Hay",
+      "Pastureland)"
+    ],
+    "products_text": "Other: Other Item (Native Grass Hay, Pastureland)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "918-207-9441",
+      "email": "",
+      "address": "18492 S Coos Thompson Rd, Hulbert, Oklahoma, 74441",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9062886,
+      "longitude": -95.0827061,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000299",
+    "name": "Yancey Farms",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Westville",
+    "category": "Mixed",
+    "products": [
+      "Other: Pastureland"
+    ],
+    "products_text": "Other: Pastureland",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "479-841-4873",
+      "email": "",
+      "address": "P. O Box 591, Westville, Oklahoma, 74965",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9925829,
+      "longitude": -94.5679988,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000303",
+    "name": "Yancey Farms",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Westville",
+    "category": "Mixed",
+    "products": [
+      "Poultry: Eggs"
+    ],
+    "products_text": "Poultry: Eggs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "479-841-4873",
+      "email": "",
+      "address": "P. O Box 591, Westville, Oklahoma, 74965",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.9925829,
+      "longitude": -94.5679988,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-9460000338",
+    "name": "Yarrowhead Farms LP",
+    "state": "OK",
+    "region": "southwest",
+    "county": "",
+    "city": "Wellston",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "580-370-0838",
+      "email": "",
+      "address": "800257 S. 3310 Rd, Wellston, Oklahoma, 74881",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.850744,
+      "longitude": -97.10603294,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Oklahoma certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Oklahoma%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

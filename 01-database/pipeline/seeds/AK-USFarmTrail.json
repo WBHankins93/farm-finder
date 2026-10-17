@@ -1,0 +1,6210 @@
+[
+  {
+    "id": "27858",
+    "name": "Alaska Farm Tours",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.598290019,
+      "longitude": -149.113059961,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "79",
+    "name": "Alaska Farmers Co-Op",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Delta Junction",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.0378,
+      "longitude": -145.7322,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6198",
+    "name": "Alaska Flour Company",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 63.9729049,
+      "longitude": -145.3456406,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5781",
+    "name": "Alaska Food Hub",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.8194045,
+      "longitude": -151.6397605,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31899",
+    "name": "Alaska Food Hub (formally known as Kenai Peninsula Food Hub)",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Homer",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.647893,
+      "longitude": -151.53167,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31184",
+    "name": "Alaska Fruit",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.799564704,
+      "longitude": -148.067759601,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "85",
+    "name": "Alaska Natural Foods",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Delta Junction",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.0378,
+      "longitude": -145.7322,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9155",
+    "name": "Alaska Pacific University Farmers' Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.188348408,
+      "longitude": -149.806065706,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20345",
+    "name": "Alaska Wild Harvest",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Talkeetna",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 62.148990991,
+      "longitude": -150.029537003,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27859",
+    "name": "Alaskan Gamefisher",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Soldotna",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.464058006,
+      "longitude": -151.185948034,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18320",
+    "name": "Alaskans Own Seafood",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Sitka",
+    "category": "Mixed",
+    "products": [
+      "csa",
+      "organic"
+    ],
+    "products_text": "csa; organic",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.0498164,
+      "longitude": -135.3233014,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "32155",
+    "name": "Alutiiq Grown Foodhub",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kodiak",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.78923001,
+      "longitude": -152.404719001,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9156",
+    "name": "Anchor Point Saturday Farmers' Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchor Point",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.779630015,
+      "longitude": -151.833300019,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9157",
+    "name": "Anchorage Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.208449831,
+      "longitude": -149.879202385,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9158",
+    "name": "Anchorage Market & Festival",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.219530004,
+      "longitude": -149.89138002,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9159",
+    "name": "Anchorage Midtown Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.193419656,
+      "longitude": -149.865584371,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26612",
+    "name": "Ann's Greenhouses",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "nursery"
+    ],
+    "products_text": "agritourism; nursery",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.890052995,
+      "longitude": -147.93501398,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19174",
+    "name": "Arctic Harvest Deliveries",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "csa"
+    ],
+    "products_text": "csa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.168312929,
+      "longitude": -149.881800008,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14819",
+    "name": "Arctic Organics",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [
+      "farm-stand",
+      "organic"
+    ],
+    "products_text": "farm-stand; organic",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.593207,
+      "longitude": -149.02532,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25409",
+    "name": "Bear Viewing in Alaska",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Soldotna",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.48743,
+      "longitude": -151.154985,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25693",
+    "name": "Berry Patch Bed and Breakfast",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Seward",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "produce"
+    ],
+    "products_text": "agritourism; produce",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.186488563,
+      "longitude": -149.387491423,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30792",
+    "name": "Birch Creek Ranch",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Talkeetna",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 62.266026498,
+      "longitude": -149.956499104,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5138",
+    "name": "Blood, Sweat, & Food Farms",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "meat",
+      "livestock"
+    ],
+    "products_text": "meat; livestock",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.6480855,
+      "longitude": -151.5299245,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24545",
+    "name": "Bob Smith's Minnesota Christmas Trees",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "christmas-trees"
+    ],
+    "products_text": "agritourism; christmas-trees",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.14299866,
+      "longitude": -149.897484644,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31887",
+    "name": "Bogard Food Hub",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Wasilla",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.5857475,
+      "longitude": -149.43957,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "82",
+    "name": "Butcher Block No 9",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "meat"
+    ],
+    "products_text": "meat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.1194,
+      "longitude": -149.8974,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "73",
+    "name": "Cactus Flats Natural Foods and Fine Kitchenware",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kodiak",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.6036,
+      "longitude": -153.3751,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18321",
+    "name": "Calypso Farm and Ecology Center",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Ester",
+    "category": "Mixed",
+    "products": [
+      "csa",
+      "organic",
+      "produce"
+    ],
+    "products_text": "csa; organic; produce",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.8404709,
+      "longitude": -148.1341569,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "56",
+    "name": "Camp Denali",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Denali National Park",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 63.5436,
+      "longitude": -149.9867,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "58",
+    "name": "Camp Denali",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Denali National Park",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 63.5436,
+      "longitude": -149.9867,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "53",
+    "name": "Canoe Lagoon Oyster Co",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Wrangell",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 56.4335,
+      "longitude": -132.3529,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "54",
+    "name": "Canoe Lagoon Oyster Co",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Wrangell",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 56.4335,
+      "longitude": -132.3529,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "68",
+    "name": "Captain Jack's Seafood Locker",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Seward",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.1329,
+      "longitude": -149.3985,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "67",
+    "name": "Catch 49",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.2116,
+      "longitude": -149.8761,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "64",
+    "name": "Catch Sitka Seafoods",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Sitka",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.0514,
+      "longitude": -135.3166,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28041",
+    "name": "Cedars Lodge",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Ketchikan",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 55.346699001,
+      "longitude": -131.662408026,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9160",
+    "name": "Central Kenai Peninsula Farmers' Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Soldotna",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.493210014,
+      "longitude": -151.06730999,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7329",
+    "name": "Circle D Ranch",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.8557472,
+      "longitude": -135.5686336,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "61",
+    "name": "Citizen Salmon Alaska",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchor Point",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.8371,
+      "longitude": -151.7078,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31318",
+    "name": "Clairs Cultivations",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.9273066,
+      "longitude": -147.515594,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "78",
+    "name": "Co-op Market Grocery & Deli",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.8378,
+      "longitude": -147.7164,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "63",
+    "name": "Coal Point Trading Co",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Homer",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.5374,
+      "longitude": -151.2356,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7323",
+    "name": "Community Greenhouse",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "nursery"
+    ],
+    "products_text": "nursery",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 67.4352654,
+      "longitude": -134.8827129,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "62",
+    "name": "Copper River Fish Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Cordova",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.5362,
+      "longitude": -145.7534,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19186",
+    "name": "Cottonwood Creek Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Wasilla",
+    "category": "Mixed",
+    "products": [
+      "csa"
+    ],
+    "products_text": "csa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.5909201,
+      "longitude": -149.4133522,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15633",
+    "name": "Crazy Eights Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Ninilchik",
+    "category": "Mixed",
+    "products": [
+      "farm-stand"
+    ],
+    "products_text": "farm-stand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.99490693,
+      "longitude": -151.494626955,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "86",
+    "name": "Delta Meat & Sausage Co",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Delta Junction",
+    "category": "Mixed",
+    "products": [
+      "meat"
+    ],
+    "products_text": "meat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.0378,
+      "longitude": -145.7322,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9161",
+    "name": "Depot Farm Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.600029013,
+      "longitude": -149.113565976,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21288",
+    "name": "Dorman Tree Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kodiak",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.704537053,
+      "longitude": -152.586835737,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9162",
+    "name": "Eagle River Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Eagle River",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.315689071,
+      "longitude": -149.573358273,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9163",
+    "name": "Ester Community Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.844657523,
+      "longitude": -148.017985444,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9164",
+    "name": "Ester Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.844657692,
+      "longitude": -148.017974036,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "32156",
+    "name": "Fairbanks Food Hub",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.822866006,
+      "longitude": -147.718117986,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5136",
+    "name": "Fairweather Salmon",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.0532193,
+      "longitude": -135.3345513,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "74",
+    "name": "Farmers Fresh Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Soldotna",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.4818,
+      "longitude": -151.1358,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30662",
+    "name": "Fire Apple Orchard & Gardens",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Wasilla",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "orchard"
+    ],
+    "products_text": "agritourism; orchard",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.58298,
+      "longitude": -149.4436,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7325",
+    "name": "Fireweed Community Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.730764,
+      "longitude": -135.064109,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "65",
+    "name": "Fish From Trish",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Ketchikan",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 55.372,
+      "longitude": -131.6832,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30136",
+    "name": "Garcia's Alaska Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.577014266,
+      "longitude": -149.042534715,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9165",
+    "name": "Girdwood Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Girdwood",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.963210783,
+      "longitude": -149.136256188,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28255",
+    "name": "Glacier Gardens Rainforest Adventure",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Juneau",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 58.359885988,
+      "longitude": -134.548131998,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9166",
+    "name": "Glennallen Wednesday Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Glennallen",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 62.107759162,
+      "longitude": -145.519192188,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21652",
+    "name": "Grandma’s Alaskan Honey",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Wasilla",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "honey"
+    ],
+    "products_text": "agritourism; honey",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.58225,
+      "longitude": -149.44534,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9167",
+    "name": "Haines Farmer Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Haines",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.232908656,
+      "longitude": -135.465702315,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9168",
+    "name": "Healy Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Healy",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 63.871448855,
+      "longitude": -149.017899803,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "80",
+    "name": "Highway's End Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Delta Junction",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 63.952,
+      "longitude": -146.451,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7972",
+    "name": "Homer Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Homer",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.638109,
+      "longitude": -151.51234,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5128",
+    "name": "Hungate Farms Llc",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.5808314,
+      "longitude": -149.6082337,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22013",
+    "name": "Jackson Gardens Nursery",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Soldotna",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "nursery"
+    ],
+    "products_text": "agritourism; nursery",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.494070352,
+      "longitude": -151.048188883,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "84",
+    "name": "Kenai Feed & Supply",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kenai",
+    "category": "Mixed",
+    "products": [
+      "eggs",
+      "produce"
+    ],
+    "products_text": "eggs; produce",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.6145,
+      "longitude": -151.2546,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9169",
+    "name": "Kenai Saturday Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kenai",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.554682012,
+      "longitude": -151.261220039,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9170",
+    "name": "Kenney Lake Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.579884995,
+      "longitude": -149.128893963,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9171",
+    "name": "Kenny Lake Harvest Farmers' Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Valdez",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.129862703,
+      "longitude": -146.358373401,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5125",
+    "name": "Ketchikan Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 55.3423139,
+      "longitude": -131.6460407,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9172",
+    "name": "KGB Corner Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Wasilla",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.561835183,
+      "longitude": -149.480854478,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7322",
+    "name": "Klondike Valley Creamery",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "dairy"
+    ],
+    "products_text": "dairy",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.0630049,
+      "longitude": -139.4247168,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "52",
+    "name": "Kodiak Baptist Mission",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kodiak",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.6036,
+      "longitude": -153.3751,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "32157",
+    "name": "Kodiak Harvest Food Cooperative",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.798761994,
+      "longitude": -152.386355005,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22162",
+    "name": "Kodiak Kiwanis Christmas Tree Sales",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kodiak",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "christmas-trees"
+    ],
+    "products_text": "agritourism; christmas-trees",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.800556979,
+      "longitude": -152.380772993,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26582",
+    "name": "Lingonberry Farm of Alaska",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anderson",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.34358,
+      "longitude": -149.17829,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "55",
+    "name": "Lunachick Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Clam Gulch",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.2311,
+      "longitude": -151.3936,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "57",
+    "name": "Lunachick Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Clam Gulch",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.2311,
+      "longitude": -151.3936,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23102",
+    "name": "Maggie's Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "North Pole",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.841678626,
+      "longitude": -147.343937533,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15442",
+    "name": "Magpie Mini-farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Skagway",
+    "category": "Mixed",
+    "products": [
+      "farm-stand",
+      "organic"
+    ],
+    "products_text": "farm-stand; organic",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.460729,
+      "longitude": -135.31072,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5120",
+    "name": "Mat-Su Farm Co-op (Serving Wasilla, AK · Alaska · Palmer, AK · Anchorage, AK)",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.5734415,
+      "longitude": -149.1147193,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "75",
+    "name": "Mat-Valley Meats",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Wasilla",
+    "category": "Mixed",
+    "products": [
+      "meat"
+    ],
+    "products_text": "meat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.5923,
+      "longitude": -149.3959,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9173",
+    "name": "Meadow Drive Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Homer",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.662506227,
+      "longitude": -151.467584152,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "72",
+    "name": "Meyers Farm Stand",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Bethel",
+    "category": "Mixed",
+    "products": [
+      "farm-stand"
+    ],
+    "products_text": "farm-stand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.7922,
+      "longitude": -161.7558,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "71",
+    "name": "Mike's Quality Meats",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Eagle River",
+    "category": "Mixed",
+    "products": [
+      "meat"
+    ],
+    "products_text": "meat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.3114,
+      "longitude": -149.5085,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15146",
+    "name": "Monastery Acres",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Eagle River",
+    "category": "Mixed",
+    "products": [
+      "farm-stand",
+      "organic"
+    ],
+    "products_text": "farm-stand; organic",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.360154,
+      "longitude": -149.52708,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "51",
+    "name": "Mosesian Farms of Alaska",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.1194,
+      "longitude": -149.8974,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "83",
+    "name": "Mr. Prime Beef",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "meat"
+    ],
+    "products_text": "meat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.1549,
+      "longitude": -149.8866,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8051",
+    "name": "Muldoon Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.208991,
+      "longitude": -149.73118,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9174",
+    "name": "Nenana Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Nenana",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.56106214,
+      "longitude": -149.099752543,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "50",
+    "name": "New Midtown Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.206,
+      "longitude": -149.8101,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9175",
+    "name": "Ninilchik Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Ninilchik",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.036738985,
+      "longitude": -151.675766004,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9176",
+    "name": "North Peninsula Recreation Service Area Farmer's Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kenai",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.707201008,
+      "longitude": -151.383612003,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9177",
+    "name": "Northway Mall Wednesday Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.216369942,
+      "longitude": -149.823242524,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29043",
+    "name": "Nugget Farms",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.845911452,
+      "longitude": -147.722399117,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9178",
+    "name": "O'Malley Castle Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.122978997,
+      "longitude": -149.854605554,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "70",
+    "name": "Palmer Friday Flings",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.6303,
+      "longitude": -148.9872,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15635",
+    "name": "Pearl Creek Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "farm-stand"
+    ],
+    "products_text": "farm-stand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.897246009,
+      "longitude": -147.815184029,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9179",
+    "name": "Pena Park Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.229289534,
+      "longitude": -149.721564761,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9180",
+    "name": "Petersburg Farmers' Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Petersburg",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 56.811779987,
+      "longitude": -132.956189985,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "59",
+    "name": "Poiema Farm LLC",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Sterling",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.5136,
+      "longitude": -150.8532,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5126",
+    "name": "Prince of Wales Island Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 55.6867672,
+      "longitude": -132.5232037,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25192",
+    "name": "Pyrah's Pioneer Peak Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.530805012,
+      "longitude": -149.083863026,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5121",
+    "name": "Rafter M Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "dairy",
+      "meat",
+      "eggs",
+      "produce",
+      "livestock"
+    ],
+    "products_text": "dairy; meat; eggs; produce; livestock",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.3219707,
+      "longitude": -151.2555625,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "76",
+    "name": "Rainbow Foods",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Juneau",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 58.3628,
+      "longitude": -134.5294,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24245",
+    "name": "Reindeer Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.533832158,
+      "longitude": -149.080069963,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7170",
+    "name": "Rosie Creek Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.7486984,
+      "longitude": -148.0866734,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28652",
+    "name": "Running Reindeer Ranch",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.842525,
+      "longitude": -147.72455,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31885",
+    "name": "Salt & Soil Marketplace",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Juneau",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 58.2997815,
+      "longitude": -134.42354,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9181",
+    "name": "Salt & Soil Marketplace",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Juneau",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 58.357795821,
+      "longitude": -134.487226092,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23407",
+    "name": "Sarahs Alaska Honey",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Soldotna",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "honey"
+    ],
+    "products_text": "agritourism; honey",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.426084259,
+      "longitude": -151.207761813,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9182",
+    "name": "Saturday Art and Farm Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Sutton",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.711025161,
+      "longitude": -148.87740725,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "77",
+    "name": "Second Saturday Farmers' & Crafters' Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Juneau",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 58.3628,
+      "longitude": -134.5294,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "49",
+    "name": "Seeds and Soil Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.6303,
+      "longitude": -148.9872,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15349",
+    "name": "Serenity Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Phenix City",
+    "category": "Mixed",
+    "products": [
+      "farm-stand",
+      "organic"
+    ],
+    "products_text": "farm-stand; organic",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.447297,
+      "longitude": -85.182649,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside AK review bounds"
+  },
+  {
+    "id": "9183",
+    "name": "Seward Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Seward",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.101704217,
+      "longitude": -149.440518479,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28705",
+    "name": "Silver King Lodge",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Ketchikan",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 55.3433675,
+      "longitude": -131.6415417,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5124",
+    "name": "Sitka Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 57.0507064,
+      "longitude": -135.3410088,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5117",
+    "name": "Sitkinak Ranch",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "meat",
+      "livestock"
+    ],
+    "products_text": "meat; livestock",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 56.5418689,
+      "longitude": -154.1245299,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7729",
+    "name": "Snoot & Toe Beans",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.6286252,
+      "longitude": -149.5827855,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8157",
+    "name": "Soldotna Saturday Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Soldotna",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.49304,
+      "longitude": -151.06758,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9184",
+    "name": "Soldotna Wednesday Farmers' Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Soldotna",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.46687688,
+      "longitude": -151.090448059,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9185",
+    "name": "South Anchorage Farmers' Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.123140003,
+      "longitude": -149.863949991,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9186",
+    "name": "South Anchorage Wednesday Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.144724517,
+      "longitude": -149.867738646,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9187",
+    "name": "Southside Community Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "FAIRBANKS",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.825160745,
+      "longitude": -147.718648696,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9188",
+    "name": "Spenard Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.199182244,
+      "longitude": -149.9057439,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18322",
+    "name": "Spinach Creek Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "csa",
+      "organic",
+      "produce"
+    ],
+    "products_text": "csa; organic; produce",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.90857,
+      "longitude": -148.17984,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27540",
+    "name": "Stoked Beekeeping Co",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Homer",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "honey"
+    ],
+    "products_text": "agritourism; honey",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.6481424,
+      "longitude": -151.53355,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31660",
+    "name": "Sundog Orchard and Alaska Haskaps",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Wasilla",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "orchard"
+    ],
+    "products_text": "agritourism; orchard",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.602567011,
+      "longitude": -149.445121963,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "60",
+    "name": "Sunny Side Up LLC",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Delta Junction",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.0378,
+      "longitude": -145.7322,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "81",
+    "name": "Tanana Valley Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.8544,
+      "longitude": -147.8469,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "69",
+    "name": "Tanner's Alaskan Seafood",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Ninilchik",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.0108,
+      "longitude": -151.6396,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15636",
+    "name": "The Big M Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Nenana",
+    "category": "Mixed",
+    "products": [
+      "farm-stand"
+    ],
+    "products_text": "farm-stand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.650610052,
+      "longitude": -148.981290901,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23638",
+    "name": "The Big M Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Nenana",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.540011743,
+      "longitude": -149.087759497,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9189",
+    "name": "The Center Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.195276553,
+      "longitude": -149.873552805,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9190",
+    "name": "The Farmers Market at Alaska Pacific University",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.189294342,
+      "longitude": -149.80389927,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28278",
+    "name": "The Great Alaskan Cattle Drive",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "DELTA JCT",
+    "category": "Mixed",
+    "products": [
+      "agritourism",
+      "livestock"
+    ],
+    "products_text": "agritourism; livestock",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.1535383,
+      "longitude": -145.8885037,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9191",
+    "name": "The Market at Petersburg",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Petersburg",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 56.809817722,
+      "longitude": -132.958756903,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28501",
+    "name": "The Musk Ox Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [
+      "agritourism"
+    ],
+    "products_text": "agritourism",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.635054011,
+      "longitude": -149.127245997,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9192",
+    "name": "The Outdoor Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Salcha",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.521798846,
+      "longitude": -146.984552121,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9193",
+    "name": "The Salt & Soil Marketplace",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "JUNEAU",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 58.299951424,
+      "longitude": -134.414210946,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "9194",
+    "name": "Tyonek Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchorage",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.205294621,
+      "longitude": -149.887336509,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "45",
+    "name": "Up in Farms Food Hub",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Jackson",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.3386,
+      "longitude": -90.1708,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside AK review bounds"
+  },
+  {
+    "id": "9195",
+    "name": "Upper Valley Farmers Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Haines",
+    "category": "Mixed",
+    "products": [
+      "farmers-market"
+    ],
+    "products_text": "farmers-market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.424613942,
+      "longitude": -136.015687112,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5127",
+    "name": "Wasilla Farmer's Market",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.5808763,
+      "longitude": -149.4410597,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14070",
+    "name": "White Fireweed Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "farm-stand"
+    ],
+    "products_text": "farm-stand",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.867087,
+      "longitude": -146.97699,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "66",
+    "name": "Wild Alaska Salmon & Seafood",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "King Salmon",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 58.6883,
+      "longitude": -156.6614,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5129",
+    "name": "Wolverine Farms Beef",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "meat"
+    ],
+    "products_text": "meat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.6019051,
+      "longitude": -149.1706807,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7326",
+    "name": "Yukon Local Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 60.8846492,
+      "longitude": -135.4073814,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Alaska",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=alaska",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

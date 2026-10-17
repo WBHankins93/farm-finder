@@ -1,0 +1,258 @@
+[
+  {
+    "id": "usda-2780003414",
+    "name": "Alaska Borealis Mountain Farms, LLC",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fritz Creek",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Herbs"
+    ],
+    "products_text": "Herbs/Spices: Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "PO Box 15256, Fritz Creek, Alaska, 99603",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.73864,
+      "longitude": -151.32232,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Alaska certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Alaska%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-2780003022",
+    "name": "Anchor Point Greenhouse, LLC",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchor Point",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Herbs (Rhodiola rosea)",
+      "Other: Rhodiola (Planting Stock) - Rhodiola rosea"
+    ],
+    "products_text": "Herbs/Spices: Herbs (Rhodiola rosea); Other: Rhodiola (Planting Stock) - Rhodiola rosea",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "P.O. Box 13, Anchor Point, Alaska, 99556",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.77599,
+      "longitude": -151.83105,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Alaska certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Alaska%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-2780003308",
+    "name": "Flying Moose Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Anchor Point",
+    "category": "Mixed",
+    "products": [
+      "Herbs/Spices: Herbs"
+    ],
+    "products_text": "Herbs/Spices: Herbs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Po Box 312, Anchor Point, Alaska, 99556",
+      "public": false
+    },
+    "geo": {
+      "latitude": 59.77599,
+      "longitude": -151.83105,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Alaska certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Alaska%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-2780003275",
+    "name": "Forcier Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Fairbanks",
+    "category": "Mixed",
+    "products": [
+      "Leaf Vegetables: Leaf Vegetables (Microgreens)",
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Leaf Vegetables: Leaf Vegetables (Microgreens); Other: Mixed Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "717 John Cole Road, Fairbanks, Alaska, 99712",
+      "public": false
+    },
+    "geo": {
+      "latitude": 64.890819,
+      "longitude": -147.330414,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Alaska certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Alaska%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-2780001315",
+    "name": "Rempel Family Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Potatoes",
+      "Fruit - Melons: Squash",
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Potatoes; Fruit - Melons: Squash; Other: Mixed Vegetables",
+    "website": "www.rempelfamilyfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "17909 East Plumley Road, Palmer, Alaska, 99645",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.543296,
+      "longitude": -148.999149,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Alaska certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Alaska%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-2780003248",
+    "name": "Sun Circle Farm",
+    "state": "AK",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Palmer",
+    "category": "Mixed",
+    "products": [
+      "Nursery/Starts/Flowers/Trees: Flowers",
+      "Herbs/Spices: Herbs",
+      "Fruit - Berries: Currants",
+      "Raspberries",
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Nursery/Starts/Flowers/Trees: Flowers; Herbs/Spices: Herbs; Fruit - Berries: Currants, Raspberries; Other: Mixed Vegetables",
+    "website": "www.suncirclefarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "5605 N Farm Loop Rd, Palmer, Alaska, 99645",
+      "public": false
+    },
+    "geo": {
+      "latitude": 61.64627762,
+      "longitude": -149.15516,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Alaska certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Alaska%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

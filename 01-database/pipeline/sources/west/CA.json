@@ -1,0 +1,35 @@
+{
+  "state": "CA",
+  "name": "California",
+  "region": "west",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "casrc-wic-enabled-farmers",
+      "name": "California Department of Public Health — WIC enabled farmers",
+      "adapter": "seed",
+      "path": "seeds/CA-WIC.json",
+      "notes": "Reviewed 2026-07-19 capture of the state open-data list; the live host rejects the pipeline HTTP client."
+    },
+    {
+      "id": "casrc-caff-farms",
+      "name": "Community Alliance with Family Farmers — California Farm Directory",
+      "adapter": "seed",
+      "path": "seeds/CA-CAFF.json",
+      "notes": "Reviewed 2026-07-19 capture of all five public REST pages; preserves nested products and sales channels while enforcing the canonical west region."
+    },
+    {"id": "casrc-usfarmtrail", "name": "U.S. Farm Trail — California", "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=california", "adapter": "seed", "path": "seeds/CA-USFarmTrail.json", "notes": "Reviewed 2026-07-19 capture; out-of-state coordinates remain QA residue."},
+    {
+      "id": "casrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — California certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27California%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "seed",
+      "path": "seeds/CA-USDAOrganic.json",
+      "field_map": {"properties.Operation_": "id", "properties.Operation1": "name", "properties.Physical_2": "city", "properties.Physical_3": "state", "properties.Address": "address", "properties.Certified_": "products_text", "properties.Certified1": "products_text", "properties.Website_UR": "website", "properties.Lat": "latitude", "properties.Long": "longitude"},
+      "notes": "Certified crop, livestock, or wild-crop operations."
+    },
+    {"id": "casrc-eatwild", "name": "EatWild — California", "url": "https://www.eatwild.com/products/california.html", "adapter": "html_table", "notes": "Pastured-products directory."},
+    {"id": "casrc-pickyourown", "name": "PickYourOwn — California", "url": "https://www.pickyourown.org/CA.htm", "adapter": "html_table", "notes": "Statewide U-pick discovery index."},
+    {"id": "casrc-localharvest", "name": "LocalHarvest — California", "url": "https://www.localharvest.org/california/", "adapter": "html_table", "notes": "Best-effort collection; skipped gracefully if rate-limited."}
+  ]
+}

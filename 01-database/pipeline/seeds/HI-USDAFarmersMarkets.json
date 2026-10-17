@@ -1,0 +1,137 @@
+[
+  {
+    "id": "usda-market-301544",
+    "name": "Grove Farm Market",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Lihue",
+    "category": "Mixed",
+    "products": [
+      "Fresh fruits",
+      "Fresh vegetables",
+      "Baked goods",
+      "Canned or preserved fruits/vegetables",
+      "Coffee/tea",
+      "Cut flowers",
+      "Fish/seafood",
+      "Fresh/dried herbs",
+      "Honey",
+      "Juices/non-alcoholic ciders",
+      "Poultry/fowl meat and products",
+      "Prepared foods",
+      "Red/other non-poultry meat and products"
+    ],
+    "products_text": "Fresh fruits; Fresh vegetables; Baked goods; Canned or preserved fruits/vegetables; Coffee/tea; Cut flowers; Fish/seafood; Fresh/dried herbs; Honey; Juices/non-alcoholic ciders; Poultry/fowl meat and products; Prepared foods; Red/other non-poultry meat and products",
+    "website": "https://www.grovefarm.com/grovefarmmarket",
+    "facebook_url": "https://www.facebook.com/GroveFarmMarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "8086322528",
+      "email": "",
+      "address": "4411 Kikowaena St, Lihue, HI, 96766",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.965378,
+      "longitude": -159.39557,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-309669",
+    "name": "Makawao Marketplace",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Makawao",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "http://makawaomarketplace.com",
+    "facebook_url": "http://www.facebook.com/MakawaoMarketplace",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "808-280-5516",
+      "email": "",
+      "address": "3654 BALDWIN AVE, Makawao, HI, 96768",
+      "public": false
+    },
+    "geo": {
+      "latitude": 20.855321714539134,
+      "longitude": -156.31144255356344,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-313876",
+    "name": "Waianae Farmers Market",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waianae",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": true,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Waianae, HI, 96792",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.4348349,
+      "longitude": -158.1842001,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

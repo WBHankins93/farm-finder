@@ -1,0 +1,5930 @@
+[
+  {
+    "id": "5877",
+    "name": "Shining \"K\" Ranches",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.6032998,
+      "longitude": -119.2702711,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2562",
+    "name": "River School Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5249,
+      "longitude": -119.9031,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2538",
+    "name": "The Las Vegas Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.2956,
+      "longitude": -115.2419,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2554",
+    "name": "Quail Hollow Farm CSA",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Overton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.5703,
+      "longitude": -114.4732,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2544",
+    "name": "The Las Vegas Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.2956,
+      "longitude": -115.2419,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2548",
+    "name": "Bruce Trent Park Farmers Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1968,
+      "longitude": -115.2644,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2552",
+    "name": "Ana's village farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Pahrump",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1184,
+      "longitude": -115.9407,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2556",
+    "name": "Flint Street Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5268,
+      "longitude": -119.8113,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2557",
+    "name": "Tahoe Microgreens",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5249,
+      "longitude": -119.9031,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2563",
+    "name": "rLm Ranch | NeuDay Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Winnemucca",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.9664,
+      "longitude": -117.7467,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4670",
+    "name": "Rolling Horse Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4256803,
+      "longitude": -118.7777967,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4954",
+    "name": "Bently Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9754686,
+      "longitude": -119.7646525,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4955",
+    "name": "Holley Family Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.2475565,
+      "longitude": -119.5726084,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4957",
+    "name": "Carson Valley Meats",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9109859,
+      "longitude": -119.7806585,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4959",
+    "name": "Cluck it Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.2619208,
+      "longitude": -115.2234433,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4965",
+    "name": "Garden Farms of Nevada, Las Vegas | Garden Farms Foundation",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.2465647,
+      "longitude": -115.1513514,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4967",
+    "name": "First Fruits Sustainable Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4808821,
+      "longitude": -118.8213146,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4969",
+    "name": "Lattin Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.461437,
+      "longitude": -118.833328,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5337",
+    "name": "Las Vegas Farmer’s Market at Skye Canyon",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.3126148,
+      "longitude": -115.3167996,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5340",
+    "name": "Vegas Bees",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1648588,
+      "longitude": -115.2641792,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5624",
+    "name": "Glory Garden",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.069211,
+      "longitude": -117.2305861,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5628",
+    "name": "B-S Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.9728274,
+      "longitude": -117.7357354,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5832",
+    "name": "Heritage Hens Homestead",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.279642,
+      "longitude": -116.067346,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5836",
+    "name": "Eagle Valley Livestock",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.1427743,
+      "longitude": -119.7123387,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6179",
+    "name": "Reno Food Systems",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5059031,
+      "longitude": -119.8550968,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6180",
+    "name": "Urban Roots",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5272467,
+      "longitude": -119.7905356,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2535",
+    "name": "Ponderosa Meat & Provision Co",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4972,
+      "longitude": -119.7764,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2541",
+    "name": "Ponderosa Meat & Provision Co",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4972,
+      "longitude": -119.7764,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2546",
+    "name": "Grassy Mountain Beef",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1302,
+      "longitude": -115.2755,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2547",
+    "name": "Larry's Great Western Meats",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1705,
+      "longitude": -115.2176,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2550",
+    "name": "Double H&C Nevada Ranch Raised Beef",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Hiko",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.5926,
+      "longitude": -115.2262,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2560",
+    "name": "Smith Valley Dairy",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Wellington",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.8447,
+      "longitude": -119.3523,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "7682",
+    "name": "Inyo Farm @ School",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.3645439,
+      "longitude": -118.4048828,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4953",
+    "name": "Lazetich Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5149896,
+      "longitude": -119.8101898,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4958",
+    "name": "T & T Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.5440531,
+      "longitude": -116.4888846,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4961",
+    "name": "The Las Vegas Farm and The Farm Experience(weddings)",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.3055115,
+      "longitude": -115.2514419,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4966",
+    "name": "Peri & Sons Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.001114,
+      "longitude": -119.180655,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4968",
+    "name": "Ceballos Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.7850387,
+      "longitude": -116.0243036,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4970",
+    "name": "Desert Moon Mushrooms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.0963137,
+      "longitude": -115.1679021,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5076",
+    "name": "Intuitive Forager Farmer's Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1621818,
+      "longitude": -115.1529617,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2555",
+    "name": "Radiant Valley Organics",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "New Washoe City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.2669,
+      "longitude": -119.8174,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2565",
+    "name": "Carson Farmers Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Carson City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.1507,
+      "longitude": -119.7459,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2536",
+    "name": "Hall's Honey",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9866,
+      "longitude": -119.1596,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2539",
+    "name": "Tom's Bee Hives",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1433,
+      "longitude": -115.2004,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2553",
+    "name": "fresh52 Farmers & Artisan Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.0383,
+      "longitude": -115.1462,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2561",
+    "name": "Pahrump Honey Company #2",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Pahrump",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1661,
+      "longitude": -116.0038,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2564",
+    "name": "Great Basin Community Food Co-op",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5268,
+      "longitude": -119.8113,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5338",
+    "name": "Downtown Summerlin Farmers Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1512826,
+      "longitude": -115.3334819,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5339",
+    "name": "LV Bees - bee hive removal and honey",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.0159611,
+      "longitude": -115.0428054,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5341",
+    "name": "Herbally Grounded",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1582707,
+      "longitude": -115.2001036,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5627",
+    "name": "Barking Bird Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.9153882,
+      "longitude": -117.8366783,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2542",
+    "name": "Hall's Honey",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9866,
+      "longitude": -119.1596,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "5629",
+    "name": "SK Meats",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.9507908,
+      "longitude": -117.6914466,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2545",
+    "name": "Tom's Bee Hives",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1433,
+      "longitude": -115.2004,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2549",
+    "name": "Echo & Rig Butcher and Steakhouse",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1693,
+      "longitude": -115.2828,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2551",
+    "name": "Perigo Hay and Cattle",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Lund",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.8641,
+      "longitude": -115.0069,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2558",
+    "name": "Silver Lion Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Ely",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.2474,
+      "longitude": -114.8886,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2566",
+    "name": "Riverside Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.498,
+      "longitude": -119.8239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6220",
+    "name": "Mile High Mill & Grain Co.",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.7659412,
+      "longitude": -120.3083249,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": "out of jurisdiction: source coordinate outside NV review bounds"
+  },
+  {
+    "id": "6373",
+    "name": "Green Life Produce",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1252361,
+      "longitude": -115.9548444,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4712",
+    "name": "NFR Beef",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4753343,
+      "longitude": -118.7996364,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4950",
+    "name": "The Butcher Block",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.0439871,
+      "longitude": -115.2439062,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4951",
+    "name": "Featherblade Craft Butchery",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1599586,
+      "longitude": -115.2795912,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4952",
+    "name": "Alpine-Ranch Grass Fed Beef",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4256883,
+      "longitude": -119.7532067,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4956",
+    "name": "Crosby Cattle Company Local Meats",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.478589,
+      "longitude": -119.763213,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4960",
+    "name": "Gilcrease Orchard",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.301839,
+      "longitude": -115.2502218,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4962",
+    "name": "Wolf Pack Meats",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5129394,
+      "longitude": -119.7417297,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4963",
+    "name": "Blue Ribbon Meat Co.",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.5389196,
+      "longitude": -119.7611788,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4964",
+    "name": "Armando & Sons Butcher Shop",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.467795,
+      "longitude": -119.7931709,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4971",
+    "name": "Pahrump Honey Company",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.1352776,
+      "longitude": -115.938371,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "4972",
+    "name": "Hall's Honey - Yerington, Nevada",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.995129,
+      "longitude": -119.1614841,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19183",
+    "name": "Bijou's Blooms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Fallon",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.428306157,
+      "longitude": -118.833631128,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "6368",
+    "name": "Miller Bison LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.6357282,
+      "longitude": -115.975899,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12139",
+    "name": "Connors Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Henderson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.021370653,
+      "longitude": -115.087104677,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12140",
+    "name": "Country Fresh Farmers Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.031386994,
+      "longitude": -114.981668683,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12142",
+    "name": "Ely Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Ely",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.249143232,
+      "longitude": -114.894735978,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12144",
+    "name": "Farmers Market at The District",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.021370653,
+      "longitude": -115.087104677,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12145",
+    "name": "Fernley Farmers Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.607248412,
+      "longitude": -119.242348175,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12149",
+    "name": "Lampe Park Farmers Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.938616667,
+      "longitude": -119.735828434,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12150",
+    "name": "Las Vegas Farmers Market at Bruce Trent Park",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.18879119,
+      "longitude": -115.287587169,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12152",
+    "name": "Reno Summit Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.409795741,
+      "longitude": -119.750651534,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12153",
+    "name": "Sands Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.528668906,
+      "longitude": -119.818005254,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12155",
+    "name": "The Green Chefs Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.168737488,
+      "longitude": -115.192571055,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25263",
+    "name": "Corley Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.903396008,
+      "longitude": -119.700307008,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25286",
+    "name": "A Little Country Chapel",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Carson City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.109915945,
+      "longitude": -119.769350883,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17169",
+    "name": "Sweet Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Fallon",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4737008,
+      "longitude": -118.7841189,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17167",
+    "name": "Pumpkin Patch Harvest Festival Craft Fair",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Sparks",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.544842019,
+      "longitude": -119.75330201,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26399",
+    "name": "Hidden Valley Honey",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.491835797,
+      "longitude": -119.742590021,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19899",
+    "name": "Lazy P Adventure Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Winnemucca",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.896758009,
+      "longitude": -117.77044203,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20376",
+    "name": "Andelin Family Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Sparks",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.62722498,
+      "longitude": -119.711156962,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21384",
+    "name": "PDOP Pumpkin Days 2016",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Pahrump",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.196815957,
+      "longitude": -115.980337471,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21565",
+    "name": "Garden Farms of Nevada",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "North Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.2335265,
+      "longitude": -115.147639,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21741",
+    "name": "Halloween Town Pumpkin Patch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.166603227,
+      "longitude": -115.288028114,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23543",
+    "name": "Smith & Smith Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Dayton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.273555018,
+      "longitude": -119.517226964,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24025",
+    "name": "The Undead Maze",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.163175577,
+      "longitude": -115.144483424,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24347",
+    "name": "Annsley Naturals Southwest",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Henderson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.026848911,
+      "longitude": -115.085514287,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24440",
+    "name": "Potter's House Harvest Festival",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.14405349,
+      "longitude": -115.164248002,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24855",
+    "name": "Las Vegas Farmers Market on Rampart",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.179248836,
+      "longitude": -115.287090931,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25099",
+    "name": "Rise and Shine Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Fallon",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.51009199,
+      "longitude": -118.877242002,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25205",
+    "name": "Pumpkin Patch Harvest Festival & Craft Fair",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Sparks",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.535461193,
+      "longitude": -119.753114282,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27093",
+    "name": "Mackie Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.548288993,
+      "longitude": -119.065095959,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27459",
+    "name": "Renner Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Smith",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.927296402,
+      "longitude": -119.162734394,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12138",
+    "name": "Clark County Backyard Farmer Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.133521487,
+      "longitude": -115.109783624,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12141",
+    "name": "Downtown3rd Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.171991119,
+      "longitude": -115.141790051,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12143",
+    "name": "Farmers' Market at Kahle Community Park",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Stateline",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.968080316,
+      "longitude": -119.92771601,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12146",
+    "name": "fresh52 Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.169496612,
+      "longitude": -115.286998809,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12147",
+    "name": "Gardens Park Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.127044032,
+      "longitude": -115.320946665,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12148",
+    "name": "Henderson Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Henderson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.02153298,
+      "longitude": -115.083895813,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12154",
+    "name": "Sparks Tuesday Morning Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Sparks",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.544814029,
+      "longitude": -119.752667254,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12156",
+    "name": "Yerington Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.988083535,
+      "longitude": -119.160173774,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19874",
+    "name": "Horses 4 Heroes Community Equestrian Center The Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.321709983,
+      "longitude": -115.267622003,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "19991",
+    "name": "Plant It Nursery",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Gardnerville",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.93534185,
+      "longitude": -119.751638839,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21959",
+    "name": "Hungry Mother Organics",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Carson City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.164209402,
+      "longitude": -119.767053916,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22552",
+    "name": "Moapa Valley Corn Maze",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Moapa",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.655252112,
+      "longitude": -114.558273391,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23454",
+    "name": "Seasonal Adventures, INC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Henderson",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.081733687,
+      "longitude": -115.037405463,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23512",
+    "name": "Silver Valley Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.740177107,
+      "longitude": -119.677372337,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26323",
+    "name": "Custom Gardens Farm & CSA",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Silver Springs",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.357328349,
+      "longitude": -119.231289021,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26502",
+    "name": "Rays Honey",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Boulder City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.979607123,
+      "longitude": -114.838884227,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26598",
+    "name": "Agape Organics / The Apple Basket",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.233275992,
+      "longitude": -119.819362974,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26600",
+    "name": "Sierra Nevada Honey",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.45593,
+      "longitude": -119.77142,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27604",
+    "name": "Toll House Pumpkin Patch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.422896979,
+      "longitude": -119.760183971,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28093",
+    "name": "Cowboy Trail Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.301725,
+      "longitude": -115.2677,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28242",
+    "name": "Last Chance Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Pahrump",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.162452021,
+      "longitude": -115.975500967,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28710",
+    "name": "Borges Sleighrides",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Stateline",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.961915019,
+      "longitude": -119.939784016,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28764",
+    "name": "Sweet Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Fallon",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.4717,
+      "longitude": -118.77845,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "28827",
+    "name": "Tractors & Truffles",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Fallon",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.47345599,
+      "longitude": -118.76839796,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29282",
+    "name": "Genoa Halloween Party",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Genoa",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.00421,
+      "longitude": -119.84769,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29411",
+    "name": "Sunrise Acres",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Pahrump",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.074832005,
+      "longitude": -115.971915022,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29432",
+    "name": "Glendale Corn Maze",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Moapa",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.664930776,
+      "longitude": -114.569731814,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29443",
+    "name": "Boot Hill Bash Halloween Party",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.52766,
+      "longitude": -119.81353,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "29964",
+    "name": "Ghost Walk",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Virginia City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.31148,
+      "longitude": -119.6493,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30391",
+    "name": "High Desert Books etcetera",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.687592431,
+      "longitude": -119.83763904,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "30558",
+    "name": "Ferrari Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.515940002,
+      "longitude": -119.761739988,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31063",
+    "name": "Renner Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Smith",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.778152982,
+      "longitude": -119.346225997,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2559",
+    "name": "Master Gardener Orchard - University of Nevada Cooperative Extension",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.2956,
+      "longitude": -115.2419,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12151",
+    "name": "Las Vegas Farmers Market at Floyd Lamb Park / Tule Springs",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.325950242,
+      "longitude": -115.264943576,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15127",
+    "name": "k-t ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "silver springs",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.308329,
+      "longitude": -119.21055,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8007",
+    "name": "The Village Farmers Market on California Street",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.514749,
+      "longitude": -119.82764,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8261",
+    "name": "Tamarack Junction Casino Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "RENO",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.416292,
+      "longitude": -119.75538,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8367",
+    "name": "Carson Farmers Market @3rd & Curry St.",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Carson City",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.162841,
+      "longitude": -119.76816,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8535",
+    "name": "Sparks United Methodist Church Farmer's Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Sparks",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.544248,
+      "longitude": -119.75339,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8554",
+    "name": "Pahrump Saturday Farmers' Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Pahrump",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.205326,
+      "longitude": -115.9979,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "8592",
+    "name": "Fernley Poolside Farmers Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Fernley",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.594402,
+      "longitude": -119.24733,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14611",
+    "name": "Cowboy Trail Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.2807076,
+      "longitude": -115.22238,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15175",
+    "name": "Silver Springs Custom Gardens On-Farm Green-Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Silver Springs",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.394724,
+      "longitude": -119.23122,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17166",
+    "name": "Lost City Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.520299011,
+      "longitude": -119.808931025,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17168",
+    "name": "Quail Hollow",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Overton",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.566131979,
+      "longitude": -114.448354,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17165",
+    "name": "Jacobs Family Berry Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Gardnerville",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.933949009,
+      "longitude": -119.748930009,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18502",
+    "name": "Meadow Valley Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Moapa",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7002183,
+      "longitude": -114.5976003,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "31842",
+    "name": "Fallon Food Hub",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Fallon",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.472773,
+      "longitude": -118.77632,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "14905",
+    "name": "Iron Mountain Nursery & Farm__On-Farm Farmers Market",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Stagecoach",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.337718,
+      "longitude": -119.4512,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25967",
+    "name": "McKee Ranch Family Ranch Pumpkin Patch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Las Vegas",
+    "category": "Feature",
+    "products": [],
+    "products_text": "",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.027111987,
+      "longitude": -115.182882974,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "U.S. Farm Trail — Nevada",
+      "source_url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=nevada",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

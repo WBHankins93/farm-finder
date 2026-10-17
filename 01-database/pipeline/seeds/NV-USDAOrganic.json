@@ -1,0 +1,2249 @@
+[
+  {
+    "id": "661",
+    "name": "DG Partners LLC Dba Ponderosa Dairies",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Amargosa Valley",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Fallow",
+      "Grass",
+      "Pasture",
+      "Silage",
+      "Sudan Grass",
+      "Triticale"
+    ],
+    "products_text": "Field/Forageable: Fallow, Grass, Pasture, Silage, Sudan Grass, Triticale",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-513-2298",
+      "email": "",
+      "address": "900 S G Ranch Rd., Amargosa Valley, Nevada, 89020",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.5578542,
+      "longitude": -116.6101407,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1008",
+    "name": "Jamason Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Battle Mountain",
+    "category": "Feature",
+    "products": [
+      "Tuber/Root Vegetables: Garlic",
+      "Horseradish",
+      "Stem Vegetables: Asparagus",
+      "Fruit Vegetables: Pumpkins",
+      "Flower Vegetables: Hops",
+      "Field/Forageable: Corn",
+      "Sunflowers"
+    ],
+    "products_text": "Tuber/Root Vegetables: Garlic, Horseradish; Stem Vegetables: Asparagus; Fruit Vegetables: Pumpkins; Flower Vegetables: Hops; Field/Forageable: Corn, Sunflowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-635-3545",
+      "email": "",
+      "address": "155 Farr Ranch Road HC 61 Box 155, Battle Mountain, Nevada, 89820",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.64073,
+      "longitude": -116.9367,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1010",
+    "name": "Mary Alice's Sprout Farm Inc.",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [
+      "Seed/Pod Vegetables: Sprouts"
+    ],
+    "products_text": "Seed/Pod Vegetables: Sprouts",
+    "website": "www.masprouts.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-323-1718",
+      "email": "",
+      "address": "1555 Marsh Avenue, Reno, Nevada, 89509",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.50829632,
+      "longitude": -119.8288818,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1368",
+    "name": "Custom Gardens Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Silver Springs",
+    "category": "Feature",
+    "products": [
+      "Herbs/Spices: Ginger",
+      "Turmeric",
+      "Fruit - Stone: Apricots",
+      "Cherries",
+      "Nectarines",
+      "Peaches",
+      "Fruit - Pome: Apples",
+      "Fruit - Melons: Melons",
+      "Fruit - Berries: Grapes",
+      "Strawberries",
+      "Other: Mixed Vegetables"
+    ],
+    "products_text": "Herbs/Spices: Ginger, Turmeric; Fruit - Stone: Apricots, Cherries, Nectarines, Peaches; Fruit - Pome: Apples; Fruit - Melons: Melons; Fruit - Berries: Grapes, Strawberries; Other: Mixed Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-577-2069",
+      "email": "",
+      "address": "3701 Elm St., Silver Springs, Nevada, 89429",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.39466444,
+      "longitude": -119.2311746,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1377",
+    "name": "Holley Family Farms Dba Holley Family Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Dayton",
+    "category": "Feature",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Garlic",
+      "Onions",
+      "Radishes",
+      "Stem Vegetables: Rhubarb",
+      "Seed/Pod Vegetables: Beans",
+      "Nursery/Starts/Flowers/Trees: Flowers",
+      "Transplants",
+      "Leaf Vegetables: Arugula",
+      "Bok Choy",
+      "Cabbage",
+      "Chard",
+      "Kale",
+      "Lettuce",
+      "Spinach",
+      "Turnips"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Garlic, Onions, Radishes; Stem Vegetables: Rhubarb; Seed/Pod Vegetables: Beans; Nursery/Starts/Flowers/Trees: Flowers, Transplants; Leaf Vegetables: Arugula, Bok Choy, Cabbage, Chard, Kale, Lettuce, Spinach, Turnips",
+    "website": "www.holleyfamilyfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-721-7806",
+      "email": "",
+      "address": "375 Imperial Road, Dayton, Nevada, 89403",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.27975321,
+      "longitude": -119.513774,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1562",
+    "name": "Mewaldt Organics",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Fallon",
+    "category": "Feature",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Garlic",
+      "Sunchokes",
+      "Stem Vegetables: Rhubarb",
+      "Nursery/Starts/Flowers/Trees: Flowers",
+      "Seeds",
+      "Transplants",
+      "Trees",
+      "Leaf Vegetables: Chard",
+      "Kale",
+      "Herbs/Spices: Basil",
+      "Parsley",
+      "Thyme",
+      "Fruit Vegetables: Cucumbers",
+      "Eggplants",
+      "Pepper"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Garlic, Sunchokes; Stem Vegetables: Rhubarb; Nursery/Starts/Flowers/Trees: Flowers, Seeds, Transplants, Trees; Leaf Vegetables: Chard, Kale; Herbs/Spices: Basil, Parsley, Thyme; Fruit Vegetables: Cucumbers, Eggplants, Pepper",
+    "website": "www.mewaldtorganics.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-867-3469",
+      "email": "",
+      "address": "1750 Mclean Rd, Fallon, Nevada, 89406",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.46318722,
+      "longitude": -118.8359702,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1656",
+    "name": "Pine Forest Land & Stock Inc Dba Leonard Creek Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Winnemucca",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Wheat"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-941-0277",
+      "email": "",
+      "address": "19255 Leonard Creek Rd., Winnemucca, Nevada, 89445",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.37985536,
+      "longitude": -118.8637671,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1783",
+    "name": "Saddleback Orchard",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Amargosa Valley",
+    "category": "Feature",
+    "products": [
+      "Nuts: Pistachios"
+    ],
+    "products_text": "Nuts: Pistachios",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "702-622-7193",
+      "email": "",
+      "address": "2770 N Saddleback Dr., Amargosa Valley, Nevada, 89020",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.56702708,
+      "longitude": -116.6101802,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1828",
+    "name": "Mcclintick Farms, Inc",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Orovada",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Hay"
+    ],
+    "products_text": "Field/Forageable: Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-761-7112",
+      "email": "",
+      "address": "30 Rock Creek Rd., Orovada, Nevada, 89425",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.5694302,
+      "longitude": -117.7785123,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "1926",
+    "name": "AMI Newco, LLC DBA Aloha Medicinals",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Carson City",
+    "category": "Feature",
+    "products": [
+      "Other: Agaricus augustus",
+      "Agaricus bisporus",
+      "Agaricus blazei",
+      "Agaricus liliceps",
+      "Agaricus sp",
+      "Agaricus subrufescens",
+      "Agrocybe aegerita",
+      "Antrodia camphorata",
+      "Antrodia cinnamomea",
+      "Antrodia sp",
+      "Auricularia auricula",
+      "Bacillus subtilis",
+      "Calocybe indica",
+      "Cop"
+    ],
+    "products_text": "Other: Agaricus augustus, Agaricus bisporus, Agaricus blazei, Agaricus liliceps, Agaricus sp., Agaricus subrufescens, Agrocybe aegerita, Antrodia camphorata, Antrodia cinnamomea, Antrodia sp., Auricularia auricula, Bacillus subtilis, Calocybe indica, Cop",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "2300 Arrowhead Drive, Carson City, Nevada, 89706",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.199347,
+      "longitude": -119.7429705,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2182",
+    "name": "Salisha's Delicious Organic Produce",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Fallon",
+    "category": "Feature",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Onions",
+      "Radishes",
+      "Leaf Vegetables: Arugula",
+      "Chard",
+      "Kale",
+      "Kohlrabi",
+      "Lettuce",
+      "Spinach",
+      "Fruit Vegetables: Squash",
+      "Tomatoes",
+      "Fruit - Melons: Melons",
+      "Flower Vegetables: Broccoli",
+      "Cauliflower"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Onions, Radishes; Leaf Vegetables: Arugula, Chard, Kale, Kohlrabi, Lettuce, Spinach; Fruit Vegetables: Squash, Tomatoes; Fruit - Melons: Melons; Flower Vegetables: Broccoli, Cauliflower",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-867-5167",
+      "email": "",
+      "address": "5862 MacPherson Lane, Fallon, Nevada, 89406",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.49254039,
+      "longitude": -118.8725764,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2230",
+    "name": "Empire Farms, LLC - Empire Organic, LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Gerlach",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Fallow",
+      "Hemp",
+      "Pasture",
+      "Triticale"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Fallow, Hemp, Pasture, Triticale",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-355-7001",
+      "email": "",
+      "address": "61505 State Route 447, Gerlach, Nevada, 89412",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.65307403,
+      "longitude": -119.3518063,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2626",
+    "name": "Desert Farming Initiative - University Of Nevada Reno",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [
+      "Tuber/Root Vegetables: Alliums",
+      "Garlic",
+      "Onions",
+      "Potatoes",
+      "Shallots",
+      "Tuber/Root Vegetables",
+      "Nursery/Starts/Flowers/Trees: Transplants",
+      "Leaf Vegetables: Arugula",
+      "Chard",
+      "Collards",
+      "Kale",
+      "Lettuce",
+      "Herbs/Spices: Basil",
+      "Cilantro",
+      "Herbs",
+      "Oregano",
+      "Fruit Vegetable"
+    ],
+    "products_text": "Tuber/Root Vegetables: Alliums, Garlic, Onions, Potatoes, Shallots, Tuber/Root Vegetables; Nursery/Starts/Flowers/Trees: Transplants; Leaf Vegetables: Arugula, Chard, Collards, Kale, Lettuce; Herbs/Spices: Basil, Cilantro, Herbs, Oregano; Fruit Vegetable",
+    "website": "ag.unr.edu/dfi",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-682-9783",
+      "email": "",
+      "address": "920 Valley Road, Reno, Nevada, 89557",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.537657,
+      "longitude": -119.8049625,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "2868",
+    "name": "208 Investments, LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [
+      "Tuber/Root Vegetables: Beets",
+      "Carrots",
+      "Garlic",
+      "Onions",
+      "Radishes",
+      "Seed/Pod Vegetables: Peas",
+      "Leaf Vegetables: Spinach",
+      "Fruit Vegetables: Pumpkins",
+      "Field/Forageable: Cover Crop"
+    ],
+    "products_text": "Tuber/Root Vegetables: Beets, Carrots, Garlic, Onions, Radishes; Seed/Pod Vegetables: Peas; Leaf Vegetables: Spinach; Fruit Vegetables: Pumpkins; Field/Forageable: Cover Crop",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-722-7526",
+      "email": "",
+      "address": "La Buena Vida Lane, Yerington, Nevada, 89447",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.96496718,
+      "longitude": -119.1656407,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "11800",
+    "name": "Foster Ranch Limited Partnership",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Denio",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa"
+    ],
+    "products_text": "Field/Forageable: Alfalfa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-941-0442",
+      "email": "fosterranch@wildblue.net",
+      "address": "11805 Leonard Creek Road, Denio, Nevada, 89404",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.63603102,
+      "longitude": -118.8055046,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "12465",
+    "name": "Radiant Valley Organics",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Washoe Valley",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Grass",
+      "Hay & Pasture",
+      "Pasture"
+    ],
+    "products_text": "Field/Forageable: Grass, Hay & Pasture, Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "415-317-2067",
+      "email": "",
+      "address": "205 Will Sauer Rd., Washoe Valley, Nevada, 89704",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.277975,
+      "longitude": -119.8478383,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "13237",
+    "name": "Delee Family, LLC Series 2 Dba T And T Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Amargosa Valley",
+    "category": "Feature",
+    "products": [
+      "Nuts: Pistachios",
+      "Nursery/Starts/Flowers/Trees: Trees",
+      "Fruit - Berries: Grapes",
+      "Field/Forageable: Fallow",
+      "Grain",
+      "Sorghum",
+      "Other: Outdoor Access"
+    ],
+    "products_text": "Nuts: Pistachios; Nursery/Starts/Flowers/Trees: Trees; Fruit - Berries: Grapes; Field/Forageable: Fallow, Grain, Sorghum; Other: Outdoor Access",
+    "website": "www.tandtranch.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-372-5510",
+      "email": "",
+      "address": "429 N. T&T Rd., Amargosa Valley, Nevada, 89020",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.64359,
+      "longitude": -116.40034,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "15590",
+    "name": "Mary's River Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Deeth",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Grass",
+      "Hay"
+    ],
+    "products_text": "Field/Forageable: Grass, Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-753-3370",
+      "email": "",
+      "address": "1 Mary's River Ranch Airport Road, Deeth, Nevada, 89823",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.0855386,
+      "longitude": -115.1926305,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "16389",
+    "name": "Last Hurrah Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [
+      "Other: Hay (Alfalfa Hay",
+      "Grass Hay",
+      "Triticale Hay",
+      "Oats Hay",
+      "Wheat Hay)"
+    ],
+    "products_text": "Other: Hay (Alfalfa Hay, Grass Hay, Triticale Hay, Oats Hay, Wheat Hay)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "7757206551",
+      "email": "g_godde@msn.com",
+      "address": "1075 State Route 208, Yerington, Nevada, 89447",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.84759354,
+      "longitude": -119.1448063,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "17026",
+    "name": "Estill Ranches LLC. Dba. Bare Ranch Eggs",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Gerlach",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Grass"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Grass",
+    "website": "www.thebareranch.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-333-0882",
+      "email": "",
+      "address": "123175 State Route 447, Gerlach, Nevada, 89412",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.151141,
+      "longitude": -119.9995515,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18021",
+    "name": "Grass Valley Ranch, LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Austin",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa",
+      "Triticale Hay"
+    ],
+    "products_text": "Other: Alfalfa, Triticale Hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(775) 455 2605",
+      "email": "jess75cc@yahoo.com",
+      "address": "1765 Grass Valley Rd., Austin, Nevada, 89310",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.67281427,
+      "longitude": -116.7933909,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18439",
+    "name": "Snyder Livestock Company, Inc. Dba T. Anne's Organics",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [
+      "Fruit - Berries: Raspberries",
+      "Other: Raspberry"
+    ],
+    "products_text": "Fruit - Berries: Raspberries; Other: Raspberry",
+    "website": "www.snyderfamilyfarms.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-463-4448",
+      "email": "",
+      "address": "168 Osbourne Lane, Yerington, Nevada, 89447",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.91959944,
+      "longitude": -119.1771963,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18460",
+    "name": "ROUND MOUNTAIN TECHNOLOGIES LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "NORTH LAS VEGAS",
+    "category": "Feature",
+    "products": [
+      "Other: Industrial Hemp"
+    ],
+    "products_text": "Other: Industrial Hemp",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1728 Rushing River Road, NORTH LAS VEGAS, Nevada, 89031",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.26443932,
+      "longitude": -115.1656742,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18792",
+    "name": "Steelman Farm LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Spring Creek",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa",
+      "Barley",
+      "Fallow"
+    ],
+    "products_text": "Other: Alfalfa, Barley, Fallow",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(775) 388-2544",
+      "email": "steelmanfarmllc@gmail.com",
+      "address": "181 Lawndale Drive, Spring Creek, Nevada, 89815",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.75137826,
+      "longitude": -115.6214177,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "18991",
+    "name": "Omni Consumer Products LLC Dba Hemp Seed Heaven",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Bunkerville",
+    "category": "Feature",
+    "products": [
+      "Other: Greenhouse production of hemp transplants for on farm use",
+      "Land"
+    ],
+    "products_text": "Other: Greenhouse production of hemp transplants for on farm use, Land",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "1550 Riverside Road, Bunkerville, Nevada, 89007",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7854948,
+      "longitude": -114.0974585,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "20824",
+    "name": "Crawford Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Winnemucca",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa"
+    ],
+    "products_text": "Field/Forageable: Alfalfa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-623-3211",
+      "email": "",
+      "address": "2924 Stuart St., Winnemucca, Nevada, 89445",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.96232217,
+      "longitude": -117.7015753,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21001",
+    "name": "C&R Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Orovada",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa"
+    ],
+    "products_text": "Field/Forageable: Alfalfa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "530-701-4881",
+      "email": "",
+      "address": "32035 North Valley Road, Orovada, Nevada, 89425",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.69294193,
+      "longitude": -117.8023108,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21360",
+    "name": "Disaster Farms Inc.",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Orovada",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa",
+      "Fallow",
+      "Grass",
+      "Ryegrass"
+    ],
+    "products_text": "Other: Alfalfa, Fallow, Grass, Ryegrass",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(775) 560-8822",
+      "email": "",
+      "address": "29920 Kings River Road, Orovada, Nevada, 89425",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.70098251,
+      "longitude": -118.2055389,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21425",
+    "name": "Buffalo Valley Farms, LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Fallow",
+      "Ryegrass"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Fallow, Ryegrass",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "707-363-7151",
+      "email": "",
+      "address": "350 Campbell Ln., Yerington, Nevada, 89447",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.08771427,
+      "longitude": -119.2506881,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "21837",
+    "name": "Broken Wheel Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Orovada",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa"
+    ],
+    "products_text": "Field/Forageable: Alfalfa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "530-301-7507",
+      "email": "",
+      "address": "30475 N Valley Rd, Orovada, Nevada, 89425",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.69294193,
+      "longitude": -117.8023108,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22025",
+    "name": "Hoenck Bob & Susan",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Winnemucca",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa"
+    ],
+    "products_text": "Other: Alfalfa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "777-859-0238",
+      "email": "jma.angus@hotmail.com",
+      "address": "3865 N Bottle Creek Rd, Winnemucca, Nevada, 89445",
+      "public": false
+    },
+    "geo": {
+      "latitude": 41.14656764,
+      "longitude": -118.2203104,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22408",
+    "name": "Pursel Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [
+      "Other: Wheat",
+      "Oat hay",
+      "Beardless Barley",
+      "Alfalfa hay"
+    ],
+    "products_text": "Other: Wheat, Oat hay, Beardless Barley, Alfalfa hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "7757414906",
+      "email": "darrellpursel@gmail.com",
+      "address": "42 Mackenzie Lane, Yerington, Nevada, 89447",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.92570379,
+      "longitude": -119.1444567,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "22706",
+    "name": "Hungry Mother Organics",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Carson City",
+    "category": "Feature",
+    "products": [
+      "Other: Hemp"
+    ],
+    "products_text": "Other: Hemp",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "7752975018",
+      "email": "marko@hungrymotherorganics.com",
+      "address": "3598 Green Acres Dr., Carson City, Nevada, 89705",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.09895192,
+      "longitude": -119.7873239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "23057",
+    "name": "SILVER LION FARMS LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "LAS VEGAS",
+    "category": "Feature",
+    "products": [
+      "Other: Industrial Hemp"
+    ],
+    "products_text": "Other: Industrial Hemp",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "5348 Vegas Drive, LAS VEGAS, Nevada, 89108",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.18824609,
+      "longitude": -115.2139575,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24152",
+    "name": "Bonanza Pharms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Mound House",
+    "category": "Feature",
+    "products": [
+      "Other: Hemp",
+      "Hemp Extract"
+    ],
+    "products_text": "Other: Hemp, Hemp Extract",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(775) 450-7396",
+      "email": "jacob@bpharms.com",
+      "address": "65 Newman Ln., Mound House, Nevada, 89706",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.20818588,
+      "longitude": -119.6667325,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24163",
+    "name": "Equipment Headquarters Inc. Dba Which Came First Farm",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Pasture"
+    ],
+    "products_text": "Field/Forageable: Pasture",
+    "website": "www.whichcamefirstfarm.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-741-7880",
+      "email": "",
+      "address": "6505 Winnemucca Ranch Rd., Reno, Nevada, 89510",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.80144624,
+      "longitude": -119.7064745,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24527",
+    "name": "Nevada Onion Inc.",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [
+      "Other: Hay (Alfalfa Hay",
+      "Alfalfa Hay Cubes)"
+    ],
+    "products_text": "Other: Hay (Alfalfa Hay, Alfalfa Hay Cubes)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "7754633642",
+      "email": "bchounet@gmail.com",
+      "address": "61 Bowman Lane, Yerington, Nevada, 89447",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.07012426,
+      "longitude": -119.1779823,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "24772",
+    "name": "SOBOBA CITRUS INC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "RENO",
+    "category": "Feature",
+    "products": [
+      "Other: Grapefruit"
+    ],
+    "products_text": "Other: Grapefruit",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "59 Damonte Ranch Pkwy., RENO, Nevada, 89521",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.420324,
+      "longitude": -119.7568845,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25051",
+    "name": "Duck Lake Ranch LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Wheat"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Wheat",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-825-1888",
+      "email": "",
+      "address": "8600 Technology Way Suite 110, Reno, Nevada, 89521",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.454119,
+      "longitude": -119.758239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25061",
+    "name": "Jackrabbit Properties, LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Pasture"
+    ],
+    "products_text": "Field/Forageable: Pasture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-398-2947",
+      "email": "",
+      "address": "8600 Technology Way Suite 110, Reno, Nevada, 89521",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.454119,
+      "longitude": -119.758239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25069",
+    "name": "White Pine Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Reno",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Grass"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Grass",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-825-1888",
+      "email": "",
+      "address": "8600 Technology Way Suite 110, Reno, Nevada, 89521",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.454119,
+      "longitude": -119.758239,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "25598",
+    "name": "LUCKY CHARM FARMS INC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "INCLINE VILLAGE",
+    "category": "Feature",
+    "products": [
+      "Other: Avocado",
+      "Grapefruit",
+      "Orange",
+      "Tangerine"
+    ],
+    "products_text": "Other: Avocado, Grapefruit, Orange, Tangerine",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "888 Tyner Way, INCLINE VILLAGE, Nevada, 89451",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.26206155,
+      "longitude": -119.966579,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26210",
+    "name": "Erik M Taylor",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Battle Mountain",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa Seeds",
+      "Alfalfa Seeds (Performance + Brand coated)"
+    ],
+    "products_text": "Other: Alfalfa Seeds, Alfalfa Seeds (Performance + Brand coated)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(775) 635-8608",
+      "email": "erikt@wildblue.net",
+      "address": "HC 61 Box 20, Battle Mountain, Nevada, 89820",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.64073,
+      "longitude": -116.9367,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26211",
+    "name": "Filippini Ranching Co.",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Battle Mountain",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Fallow",
+      "Grain",
+      "Pasture",
+      "Sudan Grass"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Fallow, Grain, Pasture, Sudan Grass",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-374-2000",
+      "email": "",
+      "address": "HC 61 Box 70, Battle Mountain, Nevada, 89820",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.64073,
+      "longitude": -116.9367,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26229",
+    "name": "L-M Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa hay"
+    ],
+    "products_text": "Other: Alfalfa hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "7754633515",
+      "email": "marcus@masiniranches.com",
+      "address": "Hwy 95A 225 N, Yerington, Nevada, 89447",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.99645416,
+      "longitude": -119.1617838,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "26537",
+    "name": "Blackstone Realty Investors, LLC Dba Blackrock Farms, LLC",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Gerlach",
+    "category": "Feature",
+    "products": [
+      "Field/Forageable: Alfalfa",
+      "Fallow",
+      "Grain",
+      "Grass",
+      "Oats"
+    ],
+    "products_text": "Field/Forageable: Alfalfa, Fallow, Grain, Grass, Oats",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "775-443-5492",
+      "email": "",
+      "address": "95500 Hwy. 34, Gerlach, Nevada, 89412",
+      "public": false
+    },
+    "geo": {
+      "latitude": 40.956498,
+      "longitude": -119.339874,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27003",
+    "name": "Hungry Mother Organics",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Carson City",
+    "category": "Feature",
+    "products": [
+      "Other: Hemp"
+    ],
+    "products_text": "Other: Hemp",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "7752975018",
+      "email": "marko@hungrymotherorganics.com",
+      "address": "3598 Green Acres Dr., Carson City, Nevada, 89705",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.0987185,
+      "longitude": -119.7876811,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27363",
+    "name": "Pursel Farms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [
+      "Other: Wheat",
+      "Oat hay",
+      "Beardless Barley",
+      "Alfalfa hay"
+    ],
+    "products_text": "Other: Wheat, Oat hay, Beardless Barley, Alfalfa hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "7757414906",
+      "email": "darrellpursel@gmail.com",
+      "address": "42 Mackenzie Lane, Yerington, Nevada, 89447",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.925779,
+      "longitude": -119.138832,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27403",
+    "name": "Nevada Onion Inc.",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [
+      "Other: Hay (Alfalfa Hay",
+      "Alfalfa Hay Cubes)"
+    ],
+    "products_text": "Other: Hay (Alfalfa Hay, Alfalfa Hay Cubes)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "7754633642",
+      "email": "bchounet@gmail.com",
+      "address": "61 Bowman Lane, Yerington, Nevada, 89447",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.069968,
+      "longitude": -119.1760958,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27408",
+    "name": "Bonanza Pharms",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Mound House",
+    "category": "Feature",
+    "products": [
+      "Other: Hemp",
+      "Hemp Extract"
+    ],
+    "products_text": "Other: Hemp, Hemp Extract",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(775) 450-7396",
+      "email": "jacob@bpharms.com",
+      "address": "65 Newman Ln., Mound House, Nevada, 89706",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.205906,
+      "longitude": -119.665764,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "27594",
+    "name": "L-M Ranch",
+    "state": "NV",
+    "region": "west",
+    "county": "",
+    "city": "Yerington",
+    "category": "Feature",
+    "products": [
+      "Other: Alfalfa hay"
+    ],
+    "products_text": "Other: Alfalfa hay",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "7754633515",
+      "email": "marcus@masiniranches.com",
+      "address": "Hwy 95A 225 N, Yerington, Nevada, 89447",
+      "public": false
+    },
+    "geo": {
+      "latitude": 39.10716,
+      "longitude": -119.187012,
+      "precision": "point"
+    },
+    "notes": "",
+    "provenance": {
+      "source": "USDA Organic Integrity Database — Nevada certified producers",
+      "source_url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Nevada%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "retrieved": "2026-07-19"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

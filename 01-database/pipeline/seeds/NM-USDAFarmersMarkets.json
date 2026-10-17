@@ -1,0 +1,84 @@
+[
+  {
+    "id": "usda-market-311742",
+    "name": "Alamogordo Farmers' Market (in Alameda Park)",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Alamogordo",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/AlamogordoFarmersMarket/",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "575-446-9450",
+      "email": "",
+      "address": "1991 N WHITE SANDS BLVD, Alamogordo, NM, 88310",
+      "public": false
+    },
+    "geo": {
+      "latitude": 32.913245447219346,
+      "longitude": -105.96061395290752,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "usda-market-314261",
+    "name": "Rail Yards Market - Movie Market",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Farmers market"
+    ],
+    "products_text": "Farmers market",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Albuquerque, NM, 87102",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.075633,
+      "longitude": -106.6489752,
+      "precision": "point"
+    },
+    "notes": "Current USDA directory record redistributed by Harvestly Markets; personal contact names and emails were removed upstream.",
+    "provenance": {
+      "source": "USDA AMS Local Food Portal — 2026 Farmers Market Directory (Harvestly Markets CC BY 4.0 redistribution)",
+      "source_url": "https://raw.githubusercontent.com/GC108/us-farmers-markets-dataset/main/us-farmers-markets-2026.csv",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

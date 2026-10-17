@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pyo-country-road-berries-clendenin",
+    "name": "Country Road Berries",
+    "state": "WV",
+    "region": "southeast",
+    "county": "",
+    "city": "Clendenin",
+    "category": "Mixed",
+    "products": [
+      "Berries",
+      "Strawberries"
+    ],
+    "products_text": "Berries; Strawberries",
+    "website": "https://www.countryroadhouseandberries.com",
+    "facebook_url": "https://www.facebook.com/Country-Road-House-and-Berries-665779606894820/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(304) 553-5761",
+      "email": "countryroadhouseandberries@gmail.com",
+      "address": "Clendenin, WV 25045",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.4844694,
+      "longitude": -81.3515118,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active West Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/WVcharleston.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

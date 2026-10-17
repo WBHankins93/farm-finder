@@ -1,0 +1,1699 @@
+[
+  {
+    "id": "pyo-apple-berry-manor-virginia-beach",
+    "name": "Apple Berry Manor",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Blueberries"
+    ],
+    "products_text": "Blueberries",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/Apple-Berry-Farm-1598948257021144",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "757 434 9644",
+      "email": "proshow1212@gmail.com",
+      "address": "Apple Berry Manor - Blueberries 2601 West Landing Road, Virginia Beach, VA 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-blackwater-blueberries-flowers5140-blackwater-road-virginia-beach",
+    "name": "Blackwater Blueberries",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Flowers5140 Blackwater Road Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Blackberries",
+      "Blueberries"
+    ],
+    "products_text": "Blackberries; Blueberries",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/profile.php?id=61554250203507",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Blackwater Blueberries - blueberries, Blackberries, Flowers5140 Blackwater Road Virginia Beach, VA 23457",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-braehead-farm-fredericksburg",
+    "name": "Braehead Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Fredericksburg",
+    "category": "Mixed",
+    "products": [
+      "Beans",
+      "Blackberries",
+      "Cucumbers",
+      "Eggs",
+      "Honey",
+      "Peppers",
+      "Pumpkins",
+      "Raspberries",
+      "Squash",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Beans; Blackberries; Cucumbers; Eggs; Honey; Peppers; Pumpkins; Raspberries; Squash; Strawberries; Tomatoes; Vegetables",
+    "website": "https://braeheadfarm.com",
+    "facebook_url": "https://www.facebook.com/breaheadfarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-899-9848",
+      "email": "Info@braeheadfarm.com",
+      "address": "Fredericksburg, VA 22401",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.2992718,
+      "longitude": -77.4866583,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAfredericksburg.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-bright-hope-farm-and-apiary-chesterfield",
+    "name": "Bright Hope Farm and Apiary",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesterfield",
+    "category": "Mixed",
+    "products": [
+      "Flowers",
+      "Honey"
+    ],
+    "products_text": "Flowers; Honey",
+    "website": "https://maps.google.com/maps?q=10425%20Spring%20Run%20Road+23832",
+    "facebook_url": "https://www.facebook.com/BrightHopeFarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "804-822-0400",
+      "email": "brighthopechesterfield@gmail.com",
+      "address": "Bright Hope Farm and Apiary - flowers, tulips, honey from hives on the farm, 10425 Spring Run Road, Chesterfield, VA 23832",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast-Richmond.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-brookdale-farm-chesapeake",
+    "name": "Brookdale Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Mixed",
+    "products": [
+      "Dairy",
+      "Pumpkins",
+      "Strawberries"
+    ],
+    "products_text": "Dairy; Pumpkins; Strawberries",
+    "website": "https://maps.google.com/maps?q=2133%20Mt.%20Pleasant%20Rd+23457",
+    "facebook_url": "https://www.facebook.com/brookdalefarmva",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 721-0558",
+      "email": "brookdalefarm.va@gmail.com",
+      "address": "Pleasant Rd, Chesapeake, VA 23457",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6793761,
+      "longitude": -76.3017884,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-carter-mountain-orchard-charlottesville",
+    "name": "Carter Mountain Orchard",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Charlottesville",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Nectarines",
+      "Peaches"
+    ],
+    "products_text": "Apples; Nectarines; Peaches",
+    "website": "https://chilesfamilyorchards.com/carter-mountain-orchard",
+    "facebook_url": "https://www.facebook.com/CarterMountainOrchard",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "434-977-1833",
+      "email": "Hello@CarterMountainOrchard.com",
+      "address": "Charlottesville, VA 22901",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.0376579,
+      "longitude": -78.4853806,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAalbe.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-cromwell-s-produce-virginia-beach",
+    "name": "Cromwell's Produce",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Produce",
+      "Strawberries"
+    ],
+    "products_text": "Produce; Strawberries",
+    "website": "https://www.google.com/maps/place/3116+New+Bridge+Rd,+Virginia+Beach,+VA+23456/@36.720852,-75.988756,14z/data=!4m2!3m1!1s0x89bac3ff6160db6b:0xfabda03a459fa270?hl=en",
+    "facebook_url": "https://www.facebook.com/188165274558164",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "757-721-6226",
+      "email": "cromwellsproduce@gmail.com",
+      "address": "Cromwell's Produce - strawberries, Christmas trees3116 New Bridge Road, Virginia Beach, VA 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-cullipher-berry-patch-and-pumpkin-patch-virginia-beach",
+    "name": "Cullipher Berry Patch and Pumpkin Patch",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Honey",
+      "Pumpkins",
+      "Strawberries"
+    ],
+    "products_text": "Apples; Honey; Pumpkins; Strawberries",
+    "website": "https://www.cullipherfarm.com",
+    "facebook_url": "https://www.facebook.com/CullipherFarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 721-7456",
+      "email": "cullfarm@msn.com",
+      "address": "Cullipher Berry Patch and Pumpkin Patch - strawberries, pumpkins, Honey from hives on the farm 772 Princess Anne Road, Virginia Beach, VA 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-cullipher-farm-market-virginia-beach",
+    "name": "Cullipher Farm Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Flowers",
+      "Honey",
+      "Pumpkins",
+      "Strawberries"
+    ],
+    "products_text": "Apples; Flowers; Honey; Pumpkins; Strawberries",
+    "website": "https://www.cullipherfarm.com",
+    "facebook_url": "https://www.facebook.com/CullipherFarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 721-7456",
+      "email": "cullfarm@msn.com",
+      "address": "Virginia Beach, VA 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-drewry-farms-wakefield",
+    "name": "Drewry Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Wakefield",
+    "category": "Mixed",
+    "products": [
+      "Beef",
+      "Blackberries",
+      "Blueberries",
+      "Pork",
+      "Produce",
+      "Raspberries",
+      "Strawberries"
+    ],
+    "products_text": "Beef; Blackberries; Blueberries; Pork; Produce; Raspberries; Strawberries",
+    "website": "https://www.drewryfarmsberries.com/",
+    "facebook_url": "https://www.facebook.com/Drewry-Farms-Blueberries-117126898334206",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 899-3636",
+      "email": "michael_drewry@yahoo.com",
+      "address": "Wakefield, VA 23888",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-faith-farms-suffolk",
+    "name": "Faith Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Suffolk",
+    "category": "Mixed",
+    "products": [
+      "Berries",
+      "Strawberries"
+    ],
+    "products_text": "Berries; Strawberries",
+    "website": "https://mapq.st/3-K3Yyjoxt",
+    "facebook_url": "https://www.facebook.com/Faith-Farms-1598316523718524",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757 620-8677",
+      "email": "faith_farms@verizon.net",
+      "address": "3259 Lake Prince Drive, Suffolk, VA 23434",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6971573,
+      "longitude": -76.6347808,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-goose-hill-farm-franklin",
+    "name": "Goose Hill Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Franklin",
+    "category": "Mixed",
+    "products": [
+      "Corn",
+      "Strawberries"
+    ],
+    "products_text": "Corn; Strawberries",
+    "website": "https://mapq.st/ZzuXrz",
+    "facebook_url": "https://www.facebook.com/goosehillfarmva",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757 569-8453",
+      "email": "goosehillfarmva@gmail.com",
+      "address": "Goose Hill Farm - Strawberries 22173 Sedley Road, Franklin, VA 23851",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6840142,
+      "longitude": -76.9413956,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-great-country-farms-bluemont",
+    "name": "Great Country Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Bluemont",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Berries",
+      "Blackberries",
+      "Blueberries",
+      "Broccoli",
+      "Cherries",
+      "Eggs",
+      "Grapes",
+      "Honey",
+      "Peaches",
+      "Plums",
+      "Pumpkins",
+      "Raspberries",
+      "Squash",
+      "Strawberries",
+      "Vegetables"
+    ],
+    "products_text": "Apples; Berries; Blackberries; Blueberries; Broccoli; Cherries; Eggs; Grapes; Honey; Peaches; Plums; Pumpkins; Raspberries; Squash; Strawberries; Vegetables",
+    "website": "https://www.greatcountryfarms.com",
+    "facebook_url": "https://www.facebook.com/GreatCountryFarms",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540 554 2073",
+      "email": "social@greatcountryfarms.com",
+      "address": "Bluemont, VA 20135",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-greenbrier-farms-chesapeake",
+    "name": "Greenbrier Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Blackberries",
+      "Blueberries",
+      "Broccoli",
+      "Carrots",
+      "Corn",
+      "Cucumbers",
+      "Eggs",
+      "Flowers",
+      "Honey",
+      "Nectarines",
+      "Peaches",
+      "Peppers",
+      "Pumpkins",
+      "Squash",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Apples; Blackberries; Blueberries; Broccoli; Carrots; Corn; Cucumbers; Eggs; Flowers; Honey; Nectarines; Peaches; Peppers; Pumpkins; Squash; Strawberries; Tomatoes; Vegetables",
+    "website": "https://www.historicgreenbrierfarms.com/",
+    "facebook_url": "https://www.facebook.com/greenbrierfarmsnursery/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 421-2141",
+      "email": "torib@greenbrierfarms.info",
+      "address": "Chesapeake, VA 23322",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6793761,
+      "longitude": -76.3017884,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-hanks-christmas-tree-farm-markham",
+    "name": "Hanks Christmas Tree Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Markham",
+    "category": "Mixed",
+    "products": [
+      "Corn",
+      "Honey",
+      "Pumpkins",
+      "Squash",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Corn; Honey; Pumpkins; Squash; Tomatoes; Vegetables",
+    "website": "https://www.hankschristmastrees.com/",
+    "facebook_url": "https://www.facebook.com/HartlandFarmandOrchard",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-532-0436",
+      "email": "hartlandfarm@gmail.com",
+      "address": "Christmas trees are located at 12234 Belle Meade Rd, Markham, VA 22643",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-henley-farm-and-henley-farm-market-virginia-beach",
+    "name": "Henley Farm and Henley Farm Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Beans",
+      "Blackberries",
+      "Broccoli",
+      "Cabbage",
+      "Corn",
+      "Potatoes",
+      "Pumpkins",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Beans; Blackberries; Broccoli; Cabbage; Corn; Potatoes; Pumpkins; Strawberries; Tomatoes; Vegetables",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/Henley-Farms-120621691351274/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 426-7501",
+      "email": "barbarahenley@cox.net",
+      "address": "3513 Charity Neck Road, Virginia Beach, VA 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-hill-top-berry-farm-winery-nellysford",
+    "name": "Hill Top Berry Farm & Winery",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Nellysford",
+    "category": "Mixed",
+    "products": [
+      "Blackberries"
+    ],
+    "products_text": "Blackberries",
+    "website": "https://www.hilltopberrywine.com",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "434-361-1266",
+      "email": "hilltop1@ntelos.net",
+      "address": "Hill Top Berry Farm & Winery - blackberries, gift shop, snacks and refreshment stand, restrooms, picnic area2800 Berry Hill Road, Nellysford, VA 22938",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.9238068,
+      "longitude": -78.8936097,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAalbe.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-hollin-farms-delaplane",
+    "name": "Hollin Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Delaplane",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Beans",
+      "Beef",
+      "Berries",
+      "Blackberries",
+      "Blueberries",
+      "Corn",
+      "Cucumbers",
+      "Flowers",
+      "Peaches",
+      "Pears",
+      "Peppers",
+      "Plums",
+      "Pumpkins",
+      "Raspberries",
+      "Squash",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Apples; Beans; Beef; Berries; Blackberries; Blueberries; Corn; Cucumbers; Flowers; Peaches; Pears; Peppers; Plums; Pumpkins; Raspberries; Squash; Strawberries; Tomatoes; Vegetables",
+    "website": "https://www.hollinfarms.com",
+    "facebook_url": "https://www.facebook.com/Hollin-Farms-180851738638678",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "540-592-3574",
+      "email": "hollinfarms@gmail.com",
+      "address": "Delaplane, VA 20144",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-holly-fork-farm-produce-and-pumpkin-patch-barhamsville",
+    "name": "Holly Fork Farm Produce and Pumpkin Patch",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Barhamsville",
+    "category": "Mixed",
+    "products": [
+      "Blackberries",
+      "Honey",
+      "Produce",
+      "Pumpkins",
+      "Raspberries",
+      "Strawberries"
+    ],
+    "products_text": "Blackberries; Honey; Produce; Pumpkins; Raspberries; Strawberries",
+    "website": "https://www.hollyforkfarm.com/",
+    "facebook_url": "https://www.facebook.com/Holly-Fork-Farm-Produce-Pumpkin-Patch-313444578804872/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "804 366 6349",
+      "email": "hollyforkfarm@gmail.com",
+      "address": "Barhamsville, VA 23011",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast-Richmond.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-land-of-promise-farms-virginia-beach",
+    "name": "Land of Promise Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Corn",
+      "Pecans"
+    ],
+    "products_text": "Corn; Pecans",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/Land-of-Promise-Farms-223071081080664",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(757) 421-3625",
+      "email": "bhorsley@vt.edu",
+      "address": "Land of Promise Farms - Pecans3169 Land of Promise Road, Virginia Beach, VA 23457",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-lilley-farms-and-nursery-chesapeake",
+    "name": "Lilley Farms and Nursery",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Mixed",
+    "products": [
+      "Berries",
+      "Produce",
+      "Strawberries"
+    ],
+    "products_text": "Berries; Produce; Strawberries",
+    "website": "https://www.lilleyfarms.com/strawberrydirections.htm",
+    "facebook_url": "https://www.facebook.com/LilleyFarmsStrawberries/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757-483-9880",
+      "email": "carolyn.lilley@yahoo.com",
+      "address": "- Strawberries, already-picked produce, restrooms, picnic area, birthday parties, school tours2800 Tyre Neck Road, Chesapeake, VA 23321",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6793761,
+      "longitude": -76.3017884,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-messick-s-farm-market-bealeton",
+    "name": "Messick's Farm Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Bealeton",
+    "category": "Mixed",
+    "products": [
+      "Beans",
+      "Blackberries",
+      "Corn",
+      "Eggs",
+      "Herbs",
+      "Peppers",
+      "Raspberries",
+      "Squash",
+      "Strawberries",
+      "Tomatoes"
+    ],
+    "products_text": "Beans; Blackberries; Corn; Eggs; Herbs; Peppers; Raspberries; Squash; Strawberries; Tomatoes",
+    "website": "https://www.messicksfarmmarket.com",
+    "facebook_url": "https://www.facebook.com/messicksfarmmarket",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(540)-439-8900",
+      "email": "manager@messicksfarmmarket.com",
+      "address": "Bealeton, VA 22712",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.5830145,
+      "longitude": -77.7787632,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-millfarm-christmas-trees-and-berry-farm-williamsburg",
+    "name": "Millfarm Christmas Trees and Berry farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Williamsburg",
+    "category": "Mixed",
+    "products": [
+      "Blackberries",
+      "Blueberries",
+      "Strawberries"
+    ],
+    "products_text": "Blackberries; Blueberries; Strawberries",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/millfarmchristmastrees",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757-566-2035",
+      "email": "",
+      "address": "Millfarm Christmas Trees and Berry farm - Uses natural growing practices, blackberries, blueberries, strawberries, 4900 Fenton Mill Rd, Williamsburg, VA 23188",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.2689453,
+      "longitude": -76.7086553,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-mount-pleasant-farms-chesapeake",
+    "name": "Mount Pleasant Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Mixed",
+    "products": [
+      "Beans",
+      "Blackberries",
+      "Cucumbers",
+      "Eggs",
+      "Peaches",
+      "Peppers",
+      "Pumpkins",
+      "Squash",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Beans; Blackberries; Cucumbers; Eggs; Peaches; Peppers; Pumpkins; Squash; Strawberries; Tomatoes; Vegetables",
+    "website": "http://www.mountpleasantfarms.com",
+    "facebook_url": "https://www.facebook.com/mountpleasantfarms",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 482-0739",
+      "email": "info@mountpleasantfarms.com",
+      "address": "Chesapeake, VA 23322",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6793761,
+      "longitude": -76.3017884,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-old-mcconnell-s-farm-elberon",
+    "name": "Old McConnell's Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Elberon",
+    "category": "Mixed",
+    "products": [
+      "Beans",
+      "Broccoli",
+      "Carrots",
+      "Corn",
+      "Cucumbers",
+      "Flowers",
+      "Herbs",
+      "Honey",
+      "Onions",
+      "Peppers",
+      "Squash",
+      "Tomatoes",
+      "Vegetables",
+      "Watermelons"
+    ],
+    "products_text": "Beans; Broccoli; Carrots; Corn; Cucumbers; Flowers; Herbs; Honey; Onions; Peppers; Squash; Tomatoes; Vegetables; Watermelons",
+    "website": "https://vagrown.va-vdacs.com/product.aspx?pid=80830",
+    "facebook_url": "https://www.facebook.com/oldmcconnellsfarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(757) 814-4186",
+      "email": "oldmcconnellsfarm.com@gmail.com",
+      "address": "Elberon, VA 23846",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-please-write-me-maidens",
+    "name": "please write me",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Maidens",
+    "category": "Mixed",
+    "products": [
+      "Blackberries"
+    ],
+    "products_text": "Blackberries",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "(804) 556-4164",
+      "email": "",
+      "address": "Maidens Thornless Blackberries - blackberries 2638 River Road West, Maidens, VA 23102",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Source requests current-status confirmation; retained as named QA candidate.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast-Richmond.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": "source requests current-status confirmation"
+  },
+  {
+    "id": "pyo-powers-produce-chesapeake",
+    "name": "Powers Produce",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chesapeake",
+    "category": "Mixed",
+    "products": [
+      "Broccoli",
+      "Peppers",
+      "Potatoes",
+      "Produce",
+      "Strawberries",
+      "Tomatoes",
+      "Vegetables"
+    ],
+    "products_text": "Broccoli; Peppers; Potatoes; Produce; Strawberries; Tomatoes; Vegetables",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757 619-3292",
+      "email": "jessicathompson4@cox.net",
+      "address": "Powers Produce - Pick-your-own strawberries395 Ballahack Road, Chesapeake, Va 23322",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.6793761,
+      "longitude": -76.3017884,
+      "precision": "city"
+    },
+    "notes": "Source requests current-status confirmation; retained as named QA candidate.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": "source requests current-status confirmation"
+  },
+  {
+    "id": "pyo-ryan-s-fruit-market-timberville",
+    "name": "Ryan's Fruit Market",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Timberville",
+    "category": "Mixed",
+    "products": [
+      "Apples",
+      "Cider",
+      "Fruit",
+      "Peaches",
+      "Vegetables"
+    ],
+    "products_text": "Apples; Cider; Fruit; Peaches; Vegetables",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/ryansfruit",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-896-2181",
+      "email": "",
+      "address": "Ryan's Fruit Market - cherries118651 North Mountain Road, Timberville, VA 22853",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.6326601,
+      "longitude": -78.7737174,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAshenandoahvalley.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-salem-berry-farm-virginia-beach",
+    "name": "Salem Berry Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Strawberries",
+      "Vegetables"
+    ],
+    "products_text": "Strawberries; Vegetables",
+    "website": "https://mapq.st/13VHc8R",
+    "facebook_url": "https://www.facebook.com/SalemBerryFarm",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757 818-3156",
+      "email": "salemberryfarm@gmail.com",
+      "address": "Salem Berry Farm - Strawberries1763 Salem Road, Virginia Beach, VA 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-survivor-farm-luray",
+    "name": "Survivor Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Luray",
+    "category": "Mixed",
+    "products": [
+      "Blackberries",
+      "Potatoes",
+      "Raspberries",
+      "Tomatoes"
+    ],
+    "products_text": "Blackberries; Potatoes; Raspberries; Tomatoes",
+    "website": "https://www.google.com/maps?daddr=632+Lake+Arrowhead+Road+Luray+VA+22835",
+    "facebook_url": "https://www.facebook.com/Survivor-Farm-645868342148620/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-743-4790",
+      "email": "dhulver@embarqmail.com",
+      "address": "Survivor Farm - Blackberries, Black Raspberries, Red Raspberries, 632 Lake Arrowhead Road, Luray, VA 22835",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.6641843,
+      "longitude": -78.4544761,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-the-flip-flop-farmer-virginia-beach",
+    "name": "The Flip Flop Farmer",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Beans",
+      "Blackberries",
+      "Corn",
+      "Cucumbers",
+      "Peppers",
+      "Potatoes",
+      "Squash",
+      "Strawberries",
+      "Tomatoes",
+      "Watermelons"
+    ],
+    "products_text": "Beans; Blackberries; Corn; Cucumbers; Peppers; Potatoes; Squash; Strawberries; Tomatoes; Watermelons",
+    "website": "https://mapq.st/Y9q9fp",
+    "facebook_url": "https://www.facebook.com/Flip-Flop-Farmer-203045989735075",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757 426-9908",
+      "email": "flipflopfarmer@yahoo.com",
+      "address": "The Flip Flop Farmer - strawberries3244 New Bridge Road, Virginia Beach, VA 23456",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-the-market-at-grelen-somerset",
+    "name": "The Market at Grelen",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Somerset",
+    "category": "Mixed",
+    "products": [
+      "Blackberries",
+      "Blueberries",
+      "Raspberries"
+    ],
+    "products_text": "Blackberries; Blueberries; Raspberries",
+    "website": "https://www.themarketatgrelen.com",
+    "facebook_url": "https://www.facebook.com/marketatgrelen-",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-672-7268",
+      "email": "info@themarketatgrelen.com",
+      "address": "Somerset, VA 22972",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAalbe.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-ticonderoga-farms-chantilly",
+    "name": "Ticonderoga Farms",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Chantilly",
+    "category": "Mixed",
+    "products": [
+      "Corn",
+      "Eggs",
+      "Flowers",
+      "Herbs",
+      "Honey",
+      "Melons",
+      "Peppers",
+      "Pumpkins",
+      "Tomatoes"
+    ],
+    "products_text": "Corn; Eggs; Flowers; Herbs; Honey; Melons; Peppers; Pumpkins; Tomatoes",
+    "website": "https://www.ticonderoga.com",
+    "facebook_url": "https://www.facebook.com/Ticonderoga-Farms-91806057538",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "703-327-4424",
+      "email": "marketing@ticonderoga.com",
+      "address": "Chantilly, VA 20152",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.8891797,
+      "longitude": -77.442088,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-vaughan-farm-s-produce-virginia-beach",
+    "name": "Vaughan Farm's Produce",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Virginia Beach",
+    "category": "Mixed",
+    "products": [
+      "Corn",
+      "Eggs",
+      "Fruit",
+      "Honey",
+      "Produce",
+      "Strawberries"
+    ],
+    "products_text": "Corn; Eggs; Fruit; Honey; Produce; Strawberries",
+    "website": "https://www.vaughanfarmsproduce.com/Home_Page.php",
+    "facebook_url": "https://www.facebook.com/vaughanfarmsproduce",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "757-615-4888",
+      "email": "vaughanfarmsproduce@yahoo.com",
+      "address": "Virginia Beach, VA 23457",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.7791127,
+      "longitude": -76.0284501,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-wegmeyer-farms-at-gilberts-corner-aldie",
+    "name": "Wegmeyer Farms at Gilberts Corner",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Aldie",
+    "category": "Mixed",
+    "products": [
+      "Pumpkins",
+      "Strawberries"
+    ],
+    "products_text": "Pumpkins; Strawberries",
+    "website": "http://wegmeyerfarms.com/directions/",
+    "facebook_url": "https://www.facebook.com/Wegmeyer-Farms-344823077483",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": true,
+    "contact": {
+      "phone": "540-751-1782",
+      "email": "wegmeyerfarms@yahoo.com",
+      "address": "Wegmeyer Farms at Gilberts Corner - strawberries, pumpkins, U-pick and already picked, porta-potties are availableRoute 50 And Route 15 Intersection, Aldie, VA 20105",
+      "public": false
+    },
+    "geo": {
+      "latitude": 38.9761205,
+      "longitude": -77.6479848,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAnorthern.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-white-oaks-preserve-skipwith",
+    "name": "White Oaks Preserve",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Skipwith",
+    "category": "Mixed",
+    "products": [
+      "Blueberries"
+    ],
+    "products_text": "Blueberries",
+    "website": "https://www.whiteoakspreserve.com/",
+    "facebook_url": "https://www.facebook.com/whiteoakspreserve",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(919) 619-2260",
+      "email": "whiteoakspreserve@gmail.com",
+      "address": "White Oaks Preserve - No pesticides are used, blueberries, 18014 Highway 49, Skipwith, VA 23968",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAsoutheast-Dinw.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "pyo-yoders-farm-rustburg",
+    "name": "Yoders' Farm",
+    "state": "VA",
+    "region": "southeast",
+    "county": "",
+    "city": "Rustburg",
+    "category": "Mixed",
+    "products": [
+      "Corn",
+      "Pumpkins",
+      "Strawberries"
+    ],
+    "products_text": "Corn; Pumpkins; Strawberries",
+    "website": "https://www.yodersfarm.com",
+    "facebook_url": "https://www.facebook.com/yodersfarm/",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "434-401-4864",
+      "email": "yodairy@gmail.com",
+      "address": "Yoders' Farm - strawberries, pumpkins, corn maze1134 Browns Mill Road, Rustburg, VA 24588",
+      "public": false
+    },
+    "geo": {
+      "latitude": 37.2722656,
+      "longitude": -79.1002756,
+      "precision": "city"
+    },
+    "notes": "Active listing on the source's current state or regional page.",
+    "provenance": {
+      "source": "PickYourOwn.org — active Virginia farm listings",
+      "source_url": "https://www.pickyourown.org/VAroanoke.htm",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

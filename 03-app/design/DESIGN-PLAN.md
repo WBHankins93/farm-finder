@@ -1,3 +1,5 @@
+> Historical July 2026 design exploration, preserved on 2026-10-17. This prototype uses the former 299-row snapshot and an earlier type/palette direction. Current production design, fonts, national counts, and behavior live in `03-app/site/`; the typography restrictions below do not govern that app. The HTML mobile demo is not a native mobile release. Reference images are design-study material, not approved production assets.
+
 # FarmFinder UI Design Plan — v2 "Market Stand"
 
 Synthesized from the nine reference shots in `ui-design-farm-finder/` and grounded in the

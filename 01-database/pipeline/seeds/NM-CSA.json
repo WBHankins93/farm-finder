@@ -1,0 +1,494 @@
+[
+  {
+    "id": "nm-csa-abq-rail-yards-market-veggie-box",
+    "name": "ABQ Rail Yards Market Veggie Box",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 600-1109",
+      "email": "RailYardsMarket@gmail.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.1047797,
+      "longitude": -106.6468093,
+      "precision": "city"
+    },
+    "notes": "May through October | Free / Low-Cost Home Delivery Programs Available https://railyardsmarket.square.site/ RailYardsMarket@gmail.com (505) 600-1109",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-beck-bulow-buffalo",
+    "name": "Beck & Bulow Buffalo",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 467-9927",
+      "email": "beckandbulow@gmail.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.6619812,
+      "longitude": -105.9818147,
+      "precision": "city"
+    },
+    "notes": "Year-round www.beckandbulow.com (505) 467-9927, (800) 674-8426 or beckandbulow@gmail.com",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-crisis-collective",
+    "name": "Crisis Collective",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.6619812,
+      "longitude": -105.9818147,
+      "precision": "city"
+    },
+    "notes": "Week-to-week www.crisiscsacollective.square.site.com",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-good-dirt-farm",
+    "name": "Good Dirt Farm",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.1047797,
+      "longitude": -106.6468093,
+      "precision": "city"
+    },
+    "notes": "https://www.instagram.com/good.dirt.farm",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-indigenous-farm-hub",
+    "name": "Indigenous Farm Hub",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Albuquerque",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 347-9086",
+      "email": "alan@nacainspiredschoolsnetwork.org",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.1047797,
+      "longitude": -106.6468093,
+      "precision": "city"
+    },
+    "notes": "May through October https://indigenousfarmhub.org/ alan@nacainspiredschoolsnetwork.org (505) 347-9086",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-khalsa-family-farms",
+    "name": "Khalsa Family Farms",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Española",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "csa@khalsafamilyfarms.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.0039594,
+      "longitude": -106.0701309,
+      "precision": "city"
+    },
+    "notes": "Year-round We grow in the colder seasons in our 8,600 sq. ft. geothermal greenhouse. www.khalsafamilyfarms.com Store: https://app.barn2door.com/e/QVw45/all csa@khalsafamilyfarms.com",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-la-semilla-farm-box",
+    "name": "La Semilla: Farm Box",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(575) 618-7374",
+      "email": "farmfresh@lasemillafoodcenter.org",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Anthony Weekly Food Boxes https://www.lasemillafarmfresh.com/ farmfresh@lasemillafoodcenter.org (575) 618-7374",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-new-mexico-harvest",
+    "name": "New Mexico Harvest",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 585-5127",
+      "email": "orders@newmexicoharvest.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Year-round | Albuquerque, Santa Fe www.newmexicoharvest.com (505) 585-5127 or orders@newmexicoharvest.com",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-san-juan-college-farm-box",
+    "name": "San Juan College: Farm Box",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 566-3119",
+      "email": "harvest@sanjuancollege.edu",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Farmington Spring through Fall https://www.sanjuancollege.edu/community/harvest-food-hub/ harvest@sanjuancollege.edu (505) 566-3119",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-santa-fe-farmers-market-csa",
+    "name": "Santa Fe Farmers’ Market CSA",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 983-4098",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.6619812,
+      "longitude": -105.9818147,
+      "precision": "city"
+    },
+    "notes": "Year-round www.santafefarmersmarket.com (505) 983-4098 x 3",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-squash-blossom-local-food",
+    "name": "Squash Blossom Local Food",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Santa Fe",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(505) 310-7405",
+      "email": "info@squashblossomlocalfood.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 35.6619812,
+      "longitude": -105.9818147,
+      "precision": "city"
+    },
+    "notes": "Year-round www.squashblossomlocalfood.com (505) 310-7405 or info@squashblossomlocalfood.com",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "nm-csa-taos-community-farms-csa",
+    "name": "Taos Community Farms CSA",
+    "state": "NM",
+    "region": "southwest",
+    "county": "",
+    "city": "Taos",
+    "category": "Mixed",
+    "products": [
+      "Community Supported Agriculture"
+    ],
+    "products_text": "Community Supported Agriculture",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 36.3870809,
+      "longitude": -105.5808318,
+      "precision": "city"
+    },
+    "notes": "https://growingcommunitynow.org/csa",
+    "provenance": {
+      "source": "New Mexico Farmers' Marketing Association — current CSA listings",
+      "source_url": "https://farmersmarketsnm.org/resources/shopper-resources/csa-listings/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

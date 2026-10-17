@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "gofarm-808-organic",
+    "name": "808 Organic",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Honolulu",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Produce"
+    ],
+    "products_text": "Weekly diversified produce boxes available for pick-up or delivery.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Local-food aggregator",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-ahiki-acres",
+    "name": "Ahiki Acres",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waimanalo",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables, fruits, online ordering, Kailua Farmer's Market on Sunday's",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 341-8556",
+      "email": "ahikiacres@gmail.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.3420696,
+      "longitude": -157.7302383,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-augustine-family-farm",
+    "name": "Augustine Family Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kailua",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables, CSA, Online ordering",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "theaugustinefamilyfarm@gmail.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-diamond-island-farm",
+    "name": "Diamond Island Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Honolulu",
+    "city": "North Shore",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables, Online ordering and on-site pick up. kaka'ako Farmers Market every Saturday.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(541) 633-0910",
+      "email": "carey.bonn@gmail.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-eggs-hawaii",
+    "name": "Eggs Hawaii",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Honolulu",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Eggs"
+    ],
+    "products_text": "Eggs",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-farmlink-hawaii",
+    "name": "Farmlink Hawaii",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Honolulu",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Dairy",
+      "Herbs",
+      "Vegetables"
+    ],
+    "products_text": "Fruits, vegetables, herbs, specialty meats and dairy, plus value added products. CSA sign-up available with pick-up or delivery island wide.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 201-5252",
+      "email": "info@farmlinkhawaii.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Local-food aggregator",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-hawaii-meats-llc",
+    "name": "Hawaii Meats, LLC",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kapolei",
+    "category": "Mixed",
+    "products": [
+      "Beef"
+    ],
+    "products_text": "Ground beef, roasts, various steaks, ribs, various specialty beef products, etc. (Located on Oahu, but will deliver to outer island via Hawaii Food Alliance.)",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 465-2361",
+      "email": "vanessa@hawaiimeats.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.3399253,
+      "longitude": -158.067827,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-honolulu-mushroom-company",
+    "name": "Honolulu Mushroom Company",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kaneohe",
+    "category": "Mixed",
+    "products": [
+      "Mushrooms"
+    ],
+    "products_text": "Various mushrooms. Kaka'ako Farmers Market on Saturdays. Online ordering available via Farmlink Hawaii, Oahu Fresh, or Honolulu Mushroom Co. Website.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 744-1991",
+      "email": "info@opalafoods.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.4093319,
+      "longitude": -157.7896476,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-j-ludovico-farm",
+    "name": "J. Ludovico Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Honolulu",
+    "city": "North Shore",
+    "category": "Mixed",
+    "products": [
+      "Chicken",
+      "Poultry"
+    ],
+    "products_text": "Poultry (Chicken), Online ordering, Farmlink Hawaii, and available in grocery stores island wide",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 628-0603",
+      "email": "jludovicofarm@gmail.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-jimmy-hugh-s-farm",
+    "name": "Jimmy Hugh's Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waimanalo",
+    "category": "Mixed",
+    "products": [
+      "Greens"
+    ],
+    "products_text": "Organic Micro Greens. Online ordering coming soon. Purchase at Moilili Ko'olau Farmers.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "jimmyhughsllc@gmail.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.3420696,
+      "longitude": -157.7302383,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-kahumana-organic-farm",
+    "name": "Kahumana Organic Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waianae",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Fruits, vegetables, CSA options, online ordering here: https://www.kahumana.org/csa",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "kahumanafarm@asi-hawaii.org",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.4535311,
+      "longitude": -158.1814926,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-kupu-place",
+    "name": "Kupu Place",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honolulu",
+    "category": "Mixed",
+    "products": [
+      "Flowers",
+      "Greens"
+    ],
+    "products_text": "Aquaponic grown micro-greens, edible flowers, and lettuces. Online ordering available via Farmlink Hawaii or Kupu Place website",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 542- 4061",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-lokoea-farm",
+    "name": "Lokoea Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Honolulu",
+    "city": "North Shore",
+    "category": "Mixed",
+    "products": [
+      "Avocado",
+      "Citrus",
+      "Fruit"
+    ],
+    "products_text": "Avocado, citrus, tropical fruit. Online ordering via Farmlink Hawaii",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 228-8865",
+      "email": "info@lokoeafarm.org",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-ma-farm",
+    "name": "Ma Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honolulu",
+    "category": "Mixed",
+    "products": [
+      "Produce"
+    ],
+    "products_text": "Organic Produce, CSA, ala carte. Online ordering available.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "info@mafarm.org",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-ma-o-organic-farms",
+    "name": "Ma'o Organic Farms",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waianae",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Organic fruits and vegetables. Sold in numerous grocery stores island wide. Shop Farmers Markets Saturday's: Kaka'ako Pearlridge Makeke Waianae CSA sign up available: https://www.maoorganicfarms.org/csa with on-site pick up.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 696-5569",
+      "email": "info@maoorganicfarms.org",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.4535311,
+      "longitude": -158.1814926,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-makaha-mountain-farm",
+    "name": "Makaha Mountain Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waianae",
+    "category": "Mixed",
+    "products": [
+      "Microgreens"
+    ],
+    "products_text": "Microgreens",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 386-3099",
+      "email": "mmf@arahawaii.org",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.4535311,
+      "longitude": -158.1814926,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-manna-food-hawaii",
+    "name": "Manna Food Hawaii",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Honolulu",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Local food"
+    ],
+    "products_text": "Poi and value added products. Farmers markets and Store Locations",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": true,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "info@mannafoodhawaii.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-mari-s-garden",
+    "name": "Mari's Garden",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Mililani",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables, fruits, and value added products. Online ordering and in-store pick up.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 625-2800",
+      "email": "info@marisgarden.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.4465061,
+      "longitude": -158.0146437,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-metrogrow-hawaii",
+    "name": "MetroGrow Hawaii",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Honolulu",
+    "category": "Mixed",
+    "products": [
+      "Lettuce",
+      "Microgreens"
+    ],
+    "products_text": "Lettuce, microgreens, shoots. Online ordering available: https://www.metrogrowhawaii.com/s/order",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 255-3002",
+      "email": "Kerryk@metrogrowhawaii.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-nona-s-orchard-inc",
+    "name": "Nona's Orchard Inc.",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kahaluu",
+    "category": "Mixed",
+    "products": [
+      "Flowers"
+    ],
+    "products_text": "Cut orchids, plants, cut foliage, and tropical flowers",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 293-8117",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.4562787,
+      "longitude": -157.8417633,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-oahu-fresh",
+    "name": "Oahu Fresh",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Honolulu",
+    "city": "",
+    "category": "Mixed",
+    "products": [
+      "Herbs",
+      "Vegetables"
+    ],
+    "products_text": "Fruits, vegetables, herbs. CSA and ala carte options available online with pick-up or delivery island wide.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": false,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 492-8331",
+      "email": "info@oahufresh.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Local-food aggregator",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-small-kine-farm",
+    "name": "Small Kine Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Waimanalo",
+    "category": "Mixed",
+    "products": [
+      "Mushrooms"
+    ],
+    "products_text": "Various mushrooms. Online ordering available with on-site pick up or delivery with $10 fee",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "smallkinefarm@gmail.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.3420696,
+      "longitude": -157.7302383,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-sweet-land-farm-hawaii",
+    "name": "Sweet Land Farm Hawaii",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Honolulu",
+    "city": "North Shore",
+    "category": "Mixed",
+    "products": [
+      "Goat"
+    ],
+    "products_text": "Artisan Goat milk creamery offereing cheeses, desserts, and more value added products. Online ordering available via Farmlink Hawaii and Kahumana Organic Farm Food Hub",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": true,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "(808) 228-6838",
+      "email": "emma@sweetlandfarmhawaii.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-thrive-family-farm",
+    "name": "Thrive Family Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "Honolulu",
+    "city": "North Shore",
+    "category": "Mixed",
+    "products": [
+      "Vegetables"
+    ],
+    "products_text": "Vegetables, CSA.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": true,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "thrivehawaiiorganicfarm@gmail.com",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null,
+      "precision": "ungeocoded"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  },
+  {
+    "id": "gofarm-waiahole-farm",
+    "name": "Waiahole Farm",
+    "state": "HI",
+    "region": "noncontiguous",
+    "county": "",
+    "city": "Kaneohe",
+    "category": "Mixed",
+    "products": [
+      "Bananas",
+      "Fruit",
+      "Vegetables"
+    ],
+    "products_text": "Bananas, asian vegetables, and variety of tropical fruit.",
+    "website": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "on_farm": true,
+    "farmers_market": false,
+    "csa": false,
+    "online_store": false,
+    "ships": false,
+    "u_pick": false,
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "public": false
+    },
+    "geo": {
+      "latitude": 21.4093319,
+      "longitude": -157.7896476,
+      "precision": "city"
+    },
+    "notes": "Oʻahu farm or producer",
+    "provenance": {
+      "source": "GoFarm Hawaiʻi — Statewide Find Your Farmer directory",
+      "source_url": "https://gofarmhawaii.org/find-your-farmer/",
+      "retrieved": "2026-07-20"
+    },
+    "eligible": false,
+    "qa_reason": ""
+  }
+]

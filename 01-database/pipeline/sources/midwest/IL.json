@@ -1,0 +1,41 @@
+{
+  "state": "IL",
+  "name": "Illinois",
+  "region": "midwest",
+  "countyEquivalentLabel": "county",
+  "sources": [
+    {
+      "id": "ilsrc-illinois-products",
+      "name": "Illinois Department of Agriculture — Illinois Product and farm search",
+      "url": "https://agr.illinois.gov/assistance/food-and-agribusiness-guide.html",
+      "adapter": "html_table",
+      "notes": "Official Illinois products and farm-search landing page; captured best-effort where public rows are parseable."
+    },
+    {
+      "id": "ilsrc-usfarmtrail",
+      "name": "U.S. Farm Trail — Illinois",
+      "url": "https://www.usfarmtrail.com/api/v1/farms/geojson?state=illinois",
+      "adapter": "api",
+      "notes": "Broad raw discovery set; entity-type sorting follows collection."
+    },
+    {
+      "id": "ilsrc-usda-organic-producers",
+      "name": "USDA Organic Integrity Database — Illinois certified producers",
+      "url": "https://services5.arcgis.com/LmwBQYUc8Dcoq129/arcgis/rest/services/Organic_Farms__Organic_Integrity_Database_/FeatureServer/7/query?where=Physical_3%3D%27Illinois%27+AND+Operatio_1%3D%27Certified%27+AND+%28CROPS_Scop%3D%27Certified%27+OR+LIVESTOCK_%3D%27Certified%27+OR+WILD_CROPS%3D%27Certified%27%29&outFields=%2A&outSR=4326&f=geojson",
+      "adapter": "api",
+      "field_map": {
+        "properties.Operation_": "id",
+        "properties.Operation1": "name",
+        "properties.Physical_2": "city",
+        "properties.Physical_3": "state",
+        "properties.Address": "address",
+        "properties.Certified_": "products_text",
+        "properties.Certified1": "products_text",
+        "properties.Website_UR": "website",
+        "properties.Lat": "latitude",
+        "properties.Long": "longitude"
+      },
+      "notes": "Certified crop, livestock, or wild-crop operations from the USDA-derived Organic Integrity snapshot; retained as durable secondary discovery evidence."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+name: Site discovery quality
+
+on:
+  pull_request:
+    paths:
+      - "03-app/site/**"
+      - ".github/workflows/site-discovery.yml"
+  push:
+    branches: [main]
+    paths:
+      - "03-app/site/**"
+      - ".github/workflows/site-discovery.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  application:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 03-app/site
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.13.0"
+          cache: npm
+          cache-dependency-path: 03-app/site/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+
+  postgis:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgis/postgis:17-3.5
+        env:
+          POSTGRES_DB: farmfinder
+          POSTGRES_USER: farmfinder
+          POSTGRES_PASSWORD: farmfinder_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U farmfinder -d farmfinder"
+          --health-interval 2s
+          --health-timeout 3s
+          --health-retries 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply governed schema and run discovery integration tests
+        env:
+          PGPASSWORD: farmfinder_test
+        run: |
+          for sql in 03-app/site/packages/db/migrations/*.sql; do
+            docker run --rm --network host -e PGPASSWORD -v "$PWD:/workspace:ro" postgis/postgis:17-3.5 \
+              psql -v ON_ERROR_STOP=1 -h 127.0.0.1 -U farmfinder -d farmfinder -f "/workspace/$sql"
+          done
+          for sql in 03-app/site/packages/db/tests/*.sql; do
+            docker run --rm --network host -e PGPASSWORD -v "$PWD:/workspace:ro" postgis/postgis:17-3.5 \
+              psql -v ON_ERROR_STOP=1 -h 127.0.0.1 -U farmfinder -d farmfinder -f "/workspace/$sql"
+          done
