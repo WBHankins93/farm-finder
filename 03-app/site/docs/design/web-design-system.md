@@ -6,11 +6,11 @@
 - **Launch coverage:** Louisiana and Mississippi first; the Gulf South is a starting region, not the product identity or boundary.
 - **Audience:** shoppers looking for nearby products and ways to buy; farmers reviewing or eventually managing their listing.
 - **Primary job:** get from “I want this food near this place” to a trustworthy farm result with the next buying step.
-- **Archetype:** Field Journal × Living Atlas.
-- **Palette in materials:** river slate, chlorophyll ink, weathered seed paper, cane fiber, persimmon stamp, and oyster-shell white.
-- **Current media constraint:** no production farm-image pipeline yet. The map, contour lines, category marks, farm data, and typography form the visual plate.
+- **Archetype:** Market Stand (adopted 2026-10-09 — see [`brand.md`](./brand.md), which supersedes the palette and imagery sections below). The Field Journal × Living Atlas archetype it replaced is kept here for the layout and component thinking that is still in force.
+- **Palette in materials:** warm cream, ripe tomato, field green, butter, soil, and sky. The material names below (river slate, cane fiber, persimmon stamp) describe the retired palette.
+- **Media:** a sourced public-domain photo kit now ships in `public/images/` — hero and eight harvest tiles. See [`imagery-credits.md`](./imagery-credits.md).
 
-The aesthetic risk is an image-light editorial hero whose “picture” is a living agricultural atlas rather than stock farm photography. This is specific to FarmFinder, improves first-load performance, and remains honest about the current dataset.
+> **Superseded.** The image-light hero described below was replaced on 2026-10-09 by a photograph-led hero. The reasoning is in [`brand.md`](./brand.md): the atlas-as-picture was honest about having no imagery, and gave a hungry visitor no reason to stay.
 
 ## Core composition
 

@@ -1,37 +1,23 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef } from "react";
-import {
-  CheckCircleIcon,
-  DatabaseIcon,
-  EnvelopeSimpleIcon,
-  GlobeIcon,
-  MapPinIcon,
-  MinusCircleIcon,
-  PhoneIcon,
-  ShieldCheckIcon,
-  XIcon,
-} from "@phosphor-icons/react";
 import { serviceFilters } from "../lib/directory-config";
+import { farmLocationLabel, farmProfileSummary, farmWebsiteHref, productLabelsForFarm } from "../lib/farm-presentation";
 import { categoryColors, type Farm } from "../lib/farms";
-import { Mark, markForCategory } from "../lib/marks";
+import { Mark, markForCategory, markForService } from "../lib/marks";
 
 type Props = {
+  acceptsFeedback?: boolean;
   farm: Farm;
   onClose: () => void;
   onShowMap: () => void;
 };
 
-function farmSummary(farm: Farm) {
-  const selling = farm.marketPresence
-    ? `Current sales information lists ${farm.marketPresence.toLocaleLowerCase()}.`
-    : "A confirmed sales schedule is not listed yet.";
-  return `${farm.name} is a ${farm.category.toLocaleLowerCase()} producer near ${farm.city}, ${farm.state}. Known products include ${farm.productsText}. ${selling}`;
-}
-
-export default function FarmProfileDialog({ farm, onClose, onShowMap }: Props) {
+export default function FarmProfileDialog({ farm, onClose, onShowMap, acceptsFeedback = false }: Props) {
   const dialogRef = useRef<HTMLElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
+  const productLabels = productLabelsForFarm(farm);
 
   useEffect(() => {
     const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
@@ -69,6 +55,10 @@ export default function FarmProfileDialog({ farm, onClose, onShowMap }: Props) {
 
   const digits = farm.contact.replace(/\D/g, "");
   const contactHref = farm.contact.includes("@") ? `mailto:${farm.contact}` : digits.length >= 10 ? `tel:${digits}` : "";
+  const contactLabel = farm.contact.includes("@") ? "Email farm" : "Call farm";
+  const websiteHref = farmWebsiteHref(farm.website);
+  const mapped = farm.geoPrecision !== "ungeocoded";
+  const primaryAction = contactHref ? "contact" : websiteHref ? "website" : mapped ? "map" : "details";
 
   return (
     <div className="profile-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && onClose()}>
@@ -77,24 +67,53 @@ export default function FarmProfileDialog({ farm, onClose, onShowMap }: Props) {
           <div>
             <p className="profile-kicker"><Mark name={markForCategory(farm.category)} style={{ color: categoryColors[farm.category] }} />{farm.category} · Farm profile</p>
             <h2 id="profile-title">{farm.name}</h2>
-            <p>{farm.city}, {farm.state} · {farm.parish || "Area not listed"}</p>
+            <p>{farmLocationLabel(farm)}</p>
           </div>
-          <button ref={closeRef} type="button" onClick={onClose} aria-label="Close farm profile"><XIcon aria-hidden="true" /></button>
+          <button ref={closeRef} type="button" onClick={onClose} aria-label="Close farm profile">×</button>
         </header>
 
         <div className="profile-body">
-          <section className="profile-summary"><span>Directory summary</span><p>{farmSummary(farm)}</p></section>
+          <section className="profile-summary"><span>Directory summary</span><p>{farmProfileSummary(farm, productLabels)}</p></section>
           <div className="profile-columns">
+            <aside className="profile-sidebar" aria-label="Farm next steps">
+              <div className="profile-next-step">
+                <span>Next step</span>
+                <strong>{primaryAction === "contact" ? "Contact the farm" : primaryAction === "website" ? "Visit the farm’s website" : primaryAction === "map" ? "Review the map location" : "Review the directory details"}</strong>
+                <p>{primaryAction === "details" ? "No confirmed contact path or public map location is listed yet." : primaryAction === "map" ? "No confirmed direct contact path is listed. Review the approximate location and confirm before visiting." : "Confirm hours, availability, and pickup details before visiting."}</p>
+              </div>
+              <div className="profile-actions">
+                {primaryAction === "contact" ? <a className="primary" href={contactHref}>{contactLabel}</a> : null}
+                {primaryAction === "website" ? <a className="primary" href={websiteHref} target="_blank" rel="noreferrer">Visit website</a> : null}
+                {primaryAction === "map" ? <button className="primary" type="button" onClick={onShowMap}>Show on map</button> : null}
+                {primaryAction !== "website" && websiteHref ? <a href={websiteHref} target="_blank" rel="noreferrer">Visit website</a> : null}
+                {primaryAction !== "contact" && contactHref ? <a href={contactHref}>{contactLabel}</a> : null}
+                {primaryAction !== "map" && mapped ? <button type="button" onClick={onShowMap}>Show on map</button> : null}
+                {acceptsFeedback ? <Link href={`/feedback?farmId=${encodeURIComponent(farm.id)}`}>Suggest an update</Link> : null}
+              </div>
+              <div className="profile-fact"><span>Location confidence</span><strong>{farm.geoPrecision === "point" ? "Public point" : farm.geoPrecision === "city" ? "City-level approximation" : "Approximate area"}</strong><small>Confirm before visiting</small></div>
+              <div className="profile-fact"><span>Directory source</span><strong>{farm.source || "Source retained internally"}</strong></div>
+            </aside>
             <div className="profile-main">
-              <section className="profile-section"><h3>Products & specialties</h3><p>{farm.productsText || "Products have not been listed yet."}</p><div className="profile-product-tags">{farm.products.map((product) => <span key={product}>{product}</span>)}</div></section>
-              <section className="profile-section"><h3>How to buy</h3><p>{farm.marketPresence || "A confirmed sales schedule has not been added yet."}</p><div className="profile-service-grid">{serviceFilters.map(({ key, label }) => <div className={farm[key] ? "available" : "unknown"} key={key}>{farm[key] ? <CheckCircleIcon aria-hidden="true" /> : <MinusCircleIcon aria-hidden="true" />}<span>{label}</span><small>{farm[key] ? "Listed" : "Not confirmed"}</small></div>)}</div></section>
+              <section className="profile-section">
+                <h3>Products & specialties</h3>
+                {productLabels.length ? (
+                  <div className="profile-product-tags">{productLabels.map((product) => <span key={product.toLocaleLowerCase("en-US")}>{product}</span>)}</div>
+                ) : (
+                  <p>Products have not been listed yet.</p>
+                )}
+              </section>
+              <section className="profile-section"><h3>How to buy</h3><p>{farm.marketPresence || "A confirmed sales schedule has not been added yet."}</p><div className="profile-service-grid">{serviceFilters.map(({ key, label }) => {
+                const mark = markForService(key);
+                return (
+                  <div className={farm[key] ? "available" : "unknown"} key={key}>
+                    <i aria-hidden="true">{mark ? <Mark name={mark} /> : null}</i>
+                    <span>{label}</span>
+                    <small>{farm[key] ? "Listed" : "Not confirmed"}</small>
+                  </div>
+                );
+              })}</div></section>
               <section className="profile-section"><h3>Directory notes</h3><p>{farm.notes || "No additional field notes have been recorded yet."}</p></section>
             </div>
-            <aside className="profile-sidebar">
-              <div className="profile-actions"><button type="button" onClick={onShowMap}><MapPinIcon aria-hidden="true" />Show on map</button>{farm.website ? <a href={farm.website} target="_blank" rel="noreferrer"><GlobeIcon aria-hidden="true" />Visit website</a> : null}{contactHref ? <a href={contactHref}>{farm.contact.includes("@") ? <EnvelopeSimpleIcon aria-hidden="true" /> : <PhoneIcon aria-hidden="true" />}Contact farm</a> : null}</div>
-              <div className="profile-fact"><span><ShieldCheckIcon aria-hidden="true" />Location confidence</span><strong>{farm.geoPrecision === "point" ? "Public point" : farm.geoPrecision === "city" ? "City-level approximation" : "Approximate area"}</strong><small>Confirm before visiting</small></div>
-              <div className="profile-fact"><span><DatabaseIcon aria-hidden="true" />Directory source</span><strong>{farm.source || "Source retained internally"}</strong></div>
-            </aside>
           </div>
         </div>
       </article>

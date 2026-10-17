@@ -13,7 +13,6 @@ Throughout this repository, **LA means Louisiana**, never Los Angeles.
 ## On this page
 
 - [What exists today](#current-state)
-- [Walk through the product](#demo-walkthrough)
 - [Run the web application](#quick-start)
 - [Understand the system](#architecture-at-a-glance)
 - [Find your way around](#repository-guide)
@@ -26,59 +25,16 @@ Throughout this repository, **LA means Louisiana**, never Los Angeles.
 | Area | Current state |
 |---|---|
 | Public application | A working static-first directory and map under `03-app/site/`. |
-| Public data | `03-app/site/app/data/farms.json` is the canonical 299-record pre-cutover application dataset. |
+| Canonical data | `01-database/pipeline/data/<ST>.json` holds 72,396 collected records across all 50 states; 68,618 currently pass QA and privacy publication gates. |
 | Data pipeline | A config-driven collect → cleanse → QA → publish engine under `01-database/pipeline/`. |
-| State expansion | Coverage-reviewed state releases remain read-only staged inputs until the Postgres cutover. |
-| PostgreSQL/PostGIS | The production foundation exists, but PostgreSQL does not serve the application yet. |
+| State expansion | All 50 state stores are committed; unresolved candidates remain durable with QA reasons. Legacy staged releases are read-only transition inputs. |
+| Public application data | `run.py --publish` generates the national feed. The 299-row `03-app/site/app/data/farms.json` file is a superseded workbook-era artifact. |
+| PostgreSQL/PostGIS | A local full-refresh sink exists for the eligible feed; the managed production cutover remains gated. |
 | Question answering | The app has prototype dataset-grounded parsing; the production hybrid query system is planned. |
 
 Named farm candidates are durable: incomplete data creates a QA reason, not a
 silent deletion. Exact private locations and uncleared contact information stay
 internal until the publish-time privacy gate approves them.
-
-<a id="demo-walkthrough"></a>
-## Demo walkthrough
-
-This local demo follows a typical visitor from an open-ended need to a farm
-they can contact. The screenshots show the national discovery experience; the
-pre-cutover data authority and production status remain documented above.
-
-### 1. Start with the food, not the database
-
-The landing page explains the value in plain language and offers direct paths
-to ask a question, browse food, or search farms.
-
-![FarmFinder landing page inviting a visitor to find the farms behind their food](docs/assets/demo/01-find-local-food.jpg)
-
-### 2. Ask the field guide
-
-A visitor can start conversationally. Suggested prompts demonstrate the kinds
-of grounded questions the directory can answer and remind people to confirm
-live availability with the farm.
-
-![FarmFinder field guide answering a question about farms offering CSA shares](docs/assets/demo/02-ask-the-field-guide.jpg)
-
-### 3. Browse the harvest
-
-Photo-led product guides let someone begin with what they want to eat instead
-of requiring them to know a farm name or category.
-
-![FarmFinder harvest browser showing photographic vegetable and fruit guides](docs/assets/demo/03-browse-the-harvest.jpg)
-
-### 4. Refine the directory
-
-Product, producer, state, and shopping-method filters stay visible together so
-people can understand and adjust the search they are making.
-
-![FarmFinder directory filtered to farms listing vegetables](docs/assets/demo/04-filter-farm-results.jpg)
-
-### 5. Check the farm before the trip
-
-Profiles collect products, ways to buy, source context, and location confidence
-in one place. The interface consistently asks visitors to confirm details
-before traveling.
-
-![FarmFinder profile for Dupont Nursery with products and location-confidence details](docs/assets/demo/05-check-a-farm-profile.jpg)
 
 <a id="quick-start"></a>
 ## Run the web application
@@ -108,9 +64,10 @@ flowchart LR
     Data --> Search["Structured and narrative search"]
 ```
 
-Today the web application reads a generated JSON artifact. The target platform
-promotes approved data into PostgreSQL/PostGIS and exposes it through validated
-API and query-tool boundaries. Read the [project architecture](docs/architecture/README.md#system-shape)
+Today the web application reads bounded discovery responses generated from the
+eligible national feed. The target platform promotes approved data into managed
+PostgreSQL/PostGIS and exposes it through validated API and query-tool
+boundaries. Read the [project architecture](docs/architecture/README.md#system-shape)
 for the current and target flows.
 
 <a id="repository-guide"></a>

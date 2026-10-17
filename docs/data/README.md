@@ -38,12 +38,17 @@ exclusive state, adapter, or region scope.
 During the transition:
 
 1. `01-database/pipeline/` owns the engine, canonical model, and pipeline rules.
-2. `research/state-expansions/<ST>/` is read-only staged input until cutover.
-3. `03-app/site/app/data/farms.json` is the canonical pre-cutover application
-   data.
-4. `01-database/pipeline/sources/<region>/<ST>.json` owns each state's source
+2. `01-database/pipeline/data/<ST>.json` is the committed canonical state store.
+3. `01-database/pipeline/build/app-farms.json` is the reproducible eligible,
+   privacy-cleared public feed.
+4. `research/state-expansions/<ST>/` is read-only legacy transition input.
+5. `01-database/pipeline/sources/<region>/<ST>.json` owns each state's source
    definitions.
-5. `01-database/pipeline/build/` is reproducible output and is never committed.
+6. `01-database/pipeline/build/` is reproducible output and is never committed.
+
+`03-app/site/app/data/farms.json` is a superseded 299-row workbook-era artifact.
+It is retained only for historical release validation and must not drive
+national runtime queries, counts, or market analysis.
 
 The older contract-v2 validator remains only to keep existing staged releases
 intact during the transition. Do not extend legacy governance when the same rule
@@ -68,8 +73,8 @@ python3 01-database/pipeline/run.py --publish
 python3 -m unittest discover -s 01-database/pipeline/tests -p "test_*.py"
 ```
 
-`run.py --publish` writes a build artifact; it does not update the application's
-canonical `farms.json` or promote data into PostgreSQL. See the
+`run.py --publish` writes the national build artifact; it does not promote data
+into PostgreSQL. See the
 [pipeline output contract](../../01-database/pipeline/README.md#run).
 
 <a id="state-source-configs"></a>
@@ -134,12 +139,12 @@ There are two distinct publication actions:
 
 1. `run.py --publish` creates the reproducible aggregate artifact in
    `01-database/pipeline/build/`.
-2. Cutover deliberately replaces the app artifact and later promotes an
-   approved release into PostgreSQL/PostGIS.
+2. The web-feed step derives runtime assets from that national artifact.
+3. Cutover promotes an approved release into managed PostgreSQL/PostGIS.
 
-Do not copy build output into `03-app/site/app/data/farms.json`, alter the
-source-of-truth manifest, or load PostgreSQL as a side effect of ordinary
-collection work. Those are gated tooling-lane changes. Follow the
+Do not copy build output into the legacy `03-app/site/app/data/farms.json`,
+alter the historical workbook manifest, or load PostgreSQL as a side effect of
+ordinary collection work. Those are gated tooling-lane changes. Follow the
 [PostgreSQL cutover runbook](../../03-app/site/docs/data-governance/cutover-runbook.md#local-execution)
 and reconcile counts, provenance, privacy, tests, and rollback before promotion.
 

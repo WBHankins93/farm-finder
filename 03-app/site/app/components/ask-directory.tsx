@@ -1,29 +1,30 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import {
-  ArrowRightIcon,
-  ChatCircleDotsIcon,
-  CircleNotchIcon,
-  MagnifyingGlassIcon,
-  WarningCircleIcon,
-} from "@phosphor-icons/react";
 import type { FarmSearchResponse } from "../lib/discovery-contract";
+import { buildAskExploreUrl, buildAskRequestUrl, formatAskFarmLocation, parseAskLocationContext, type AskLocationContext } from "../lib/ask-continuity";
+
+const noLocation: AskLocationContext = { near: "", radiusMiles: null };
 
 export default function AskDirectory() {
   const [question, setQuestion] = useState("");
   const [result, setResult] = useState<FarmSearchResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [submittedQuestion, setSubmittedQuestion] = useState("");
+  const [submittedContext, setSubmittedContext] = useState<AskLocationContext>(noLocation);
 
   async function submit(event: FormEvent) {
     event.preventDefault();
     const query = question.trim();
     if (!query) return;
+    const context = parseAskLocationContext(window.location.search);
+    setSubmittedQuestion(query);
+    setSubmittedContext(context);
     setLoading(true);
     setError("");
     try {
-      const response = await fetch(`/v1/farms?q=${encodeURIComponent(query)}&sort=relevance&limit=6`);
+      const response = await fetch(buildAskRequestUrl(query, context));
       if (!response.ok) throw new Error(`search ${response.status}`);
       setResult(await response.json() as FarmSearchResponse);
     } catch {
@@ -33,8 +34,8 @@ export default function AskDirectory() {
     }
   }
 
-  const queryString = `q=${encodeURIComponent(question.trim())}`;
-  const exploreHref = `/?${queryString}#discover`;
+  const exploreHref = buildAskExploreUrl(submittedQuestion, submittedContext);
+  const resultIsNearby = result?.scope.mode === "nearby";
 
   return (
     <div className="ask-workspace ask-workspace-v2">
@@ -45,30 +46,34 @@ export default function AskDirectory() {
             id="field-question"
             value={question}
             onChange={(event) => setQuestion(event.target.value)}
-            placeholder="Who sells eggs near New Orleans?"
+            placeholder="Who sells goat cheese?"
           />
-          <button type="submit" disabled={loading}>{loading ? <CircleNotchIcon className="icon-spin" aria-hidden="true" /> : <MagnifyingGlassIcon aria-hidden="true" />}{loading ? "Searching…" : "Ask"}</button>
+          <button type="submit" disabled={loading}>{loading ? "Searching…" : "Ask →"}</button>
         </div>
-        <p>Results come from listing descriptions, not live inventory. Confirm the trip with the farm.</p>
+        <p>This searches listing descriptions, not live inventory. Your current explorer location stays applied; without one, results are nationwide. Fewer words usually find more farms.</p>
       </form>
 
       <div className={`ask-answer ${result || error ? "has-answer" : ""}`} aria-live="polite">
-        <div className="answer-mark" aria-hidden="true">{error ? <WarningCircleIcon weight="duotone" /> : result ? result.total : <ChatCircleDotsIcon weight="duotone" />}</div>
+        <div className="answer-mark" aria-hidden="true">{error ? "!" : result ? result.total : "?"}</div>
         <div className={`answer-copy ${result ? "" : "empty"}`}>
           {error ? (
             <><span>Search interrupted</span><h3>Keep browsing</h3><p>{error}</p></>
           ) : result ? (
             <>
-              <span>Directory matches</span>
+              <span>{resultIsNearby ? `Matches near ${result.scope.label}` : "Nationwide directory matches"}</span>
               <h3>{result.total.toLocaleString()} {result.total === 1 ? "farm matches" : "farms match"}</h3>
-              <p>Review the closest matches, then use the explorer to add a location and shopping preferences.</p>
+              <p>
+                {resultIsNearby
+                  ? `These listing-text matches are within ${result.scope.radiusMiles} miles of ${result.scope.label}. Refine products and ways to buy in the explorer.`
+                  : "These are nationwide listing-text matches. Add a location in the explorer to find genuinely local options."}
+              </p>
               <div className="answer-farms">
-                {result.items.map((farm) => <a href={`/?${queryString}&farm=${encodeURIComponent(farm.id)}#discover`} key={farm.id}><small>{farm.city}, {farm.state}</small>{farm.name}</a>)}
+                {result.items.map((farm) => <a href={buildAskExploreUrl(submittedQuestion, submittedContext, farm.id)} key={farm.id}><small>{formatAskFarmLocation(farm.city, farm.state)}</small>{farm.name}</a>)}
               </div>
-              <a className="answer-action" href={exploreHref}>Explore all {result.total.toLocaleString()} matches <ArrowRightIcon aria-hidden="true" /></a>
+              <a className="answer-action" href={exploreHref}>Explore all {result.total.toLocaleString()} matches →</a>
             </>
           ) : (
-            <><span>Built for practical questions</span><h3>Food, farms, and ways to buy</h3><p>Ask for a product or farm name here. Add your city in the explorer for genuinely local results.</p></>
+            <><span>Built for practical questions</span><h3>Food, farms, and ways to buy</h3><p>Name a product or a farm. Add your city in the explorer for genuinely local results.</p></>
           )}
         </div>
       </div>
