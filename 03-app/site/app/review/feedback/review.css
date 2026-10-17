@@ -1,0 +1,18 @@
+.review-main { width: min(100% - 40px, 900px); }
+.review-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; margin: 24px 0; }
+.review-controls label { display: grid; gap: 6px; }
+.review-controls :is(select,button) { min-height: 44px; padding: 10px 14px; border: 1px solid var(--green); background: var(--cream); color: var(--green); border-radius: 8px; font: inherit; }
+.review-controls button { cursor: pointer; }
+.review-controls button:disabled { opacity: .6; cursor: wait; }
+.review-report { padding: clamp(16px, 4vw, 28px); margin: 24px 0; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--cream); overflow-wrap: anywhere; }
+.review-report h2 { color: var(--green); margin-top: 0; }
+.review-report dl { font-size: 14px; }
+.review-report dt { font-weight: 700; }
+.review-report dd { margin: 0 0 8px; }
+.review-account { white-space: pre-wrap; }
+.review-report details { margin: 20px 0; }
+.review-report summary { cursor: pointer; padding: 10px 0; }
+.review-report .feedback-form { padding: 20px; background: var(--paper); }
+.review-report fieldset { margin: 0; }
+.review-report a { color: var(--green); }
+.review-main :is(button,select,summary,a):focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
