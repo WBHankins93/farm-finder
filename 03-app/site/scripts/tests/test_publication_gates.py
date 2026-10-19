@@ -153,7 +153,38 @@ class DerivedStatsTests(unittest.TestCase):
         self.assertEqual(stats["products"]["eggs"], 0)
         self.assertEqual(stats["products"]["beef"], 1)
         self.assertEqual(stats["products"]["honey"], 2)
-        self.assertEqual(stats["products"]["vegetables"], 3)
+        self.assertEqual(stats["products"]["vegetables"], 2)
+
+
+class VegetableEvidenceTests(unittest.TestCase):
+    def mask(self, text: str, **overrides) -> int:
+        record = sample_record(productsText=text, products=[], **overrides)
+        return discovery_index._product_masks([record], VOCABULARY, ["vegetables"])[0]
+
+    def test_broad_labels_and_administrative_notes_are_not_evidence(self) -> None:
+        for text in ("", "Nursery stock; cut flowers; bulbs", "Peaches and fruit",
+                     "Local producer", "Evergreens", "Green nursery stock", "Field corn; soybeans", "Produce"):
+            with self.subTest(text=text):
+                self.assertEqual(self.mask(text, notes="Vegetable producer registration", category="Produce"), 0)
+
+    def test_explicit_vegetables_and_irregular_plurals_are_retained(self) -> None:
+        for text in ("Eggplant", "Peppers", "Asparagus", "Artichokes", "Beets",
+                     "Tomatoes", "Potatoes", "Radishes", "Peas", "Microgreens",
+                     "Flowers and vegetables", "Herbs", "Bok choy", "Veggies", "Sweet corn"):
+            with self.subTest(text=text):
+                self.assertEqual(self.mask(text), 1)
+        record = sample_record(productsText="", products=["Asparagus"])
+        self.assertEqual(discovery_index._product_masks([record], VOCABULARY, ["vegetables"]), [1])
+
+    def test_other_product_facets_are_preserved(self) -> None:
+        record = sample_record(productsText="Fruit; nursery plants", products=[], notes="Honey")
+        self.assertEqual(discovery_index._product_masks([record], VOCABULARY,
+                         ["vegetables", "fruit", "flowers", "honey"]), [14])
+
+    def test_keyword_limit_does_not_claim_negation_understanding(self) -> None:
+        # Explicitly document the remaining limitation; semantic review is a
+        # separate task. The product text is not a verified inventory promise.
+        self.assertEqual(self.mask("No vegetables available this season"), 1)
 
 
 class IndexEncodingTests(unittest.TestCase):
