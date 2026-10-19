@@ -1,0 +1,10 @@
+{
+  "name": "farmfinder-hosted-build",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-hosted-site.mjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
