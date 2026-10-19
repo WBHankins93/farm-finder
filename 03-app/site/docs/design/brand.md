@@ -72,7 +72,7 @@ it is setting five hundred farm names. The variation settings live on
 default `SOFT` is a different typeface wearing the same name.
 
 Baloo 2 takes the Mochi Boom / Peanut Donuts / Sauce TM role and is **confined
-to numerals and very short labels**. A bubble face is a delight on "17,346" and
+to numerals and very short labels**. A bubble face is a delight on a short derived count and
 a liability on a paragraph.
 
 This reverses the earlier "no display serif" rule, deliberately and at the

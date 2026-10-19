@@ -120,8 +120,15 @@ class _Sections:
         self.body.extend(payload)
 
 
-def product_haystack(record: dict) -> str:
-    """The text a product filter matches against."""
+def product_haystack(record: dict, *, product: str | None = None) -> str:
+    """Use product evidence for vegetables; retain other facets' existing rules.
+
+    Produce includes fruit and nurseries. Administrative notes also describe
+    source programs rather than inventory, so neither supports a vegetable
+    claim. This remains keyword inference, not proof of current availability.
+    """
+    if product == "vegetables":
+        return " ".join([record["productsText"], " ".join(record["products"])]).lower()
     return " ".join([
         record["productsText"], " ".join(record["products"]),
         record["category"], record["notes"],
@@ -133,7 +140,9 @@ def _token_matcher(vocabulary: dict):
 
     Most tokens are deliberate prefixes ("apiar" catches apiary/apiaries,
     "berr" catches berry/berries), so plain substring matching is right for
-    them. A few are ordinary words that are also substrings of unrelated ones,
+    them outside the vegetable facet. Vegetable aliases always use word
+    boundaries to avoid evergreens/producer matches. A few other tokens are
+    ordinary words that are also substrings of unrelated ones,
     and those are listed in `wholeWordTokens` and matched at word boundaries
     with an optional plural — otherwise "bee" tags every beef producer as a
     honey producer.
@@ -143,7 +152,7 @@ def _token_matcher(vocabulary: dict):
     for key, tokens in vocabulary["productTokens"].items():
         matchers = []
         for token in tokens:
-            if token in whole_word:
+            if token in whole_word or key == "vegetables":
                 pattern = re.compile(rf"(?<![a-z0-9]){re.escape(token)}s?(?![a-z0-9])")
                 matchers.append(pattern.search)
             else:
@@ -165,7 +174,8 @@ def _product_masks(records: list[dict], vocabulary: dict, product_ids: list[str]
         haystack = product_haystack(record)
         mask = 0
         for position, key in enumerate(product_ids):
-            if any(matches(haystack) for matches in matchers[key]):
+            evidence = product_haystack(record, product=key) if key == "vegetables" else haystack
+            if any(matches(evidence) for matches in matchers[key]):
                 mask |= 1 << position
         masks.append(mask)
     return masks
