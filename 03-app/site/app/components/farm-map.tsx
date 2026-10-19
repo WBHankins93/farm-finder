@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import maplibregl, { type GeoJSONSource, type Map as MapLibreMap } from "maplibre-gl";
+import * as maplibregl from "maplibre-gl";
+import mapWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
+import type { GeoJSONSource, Map as MapLibreMap } from "maplibre-gl";
 import type { FeatureCollection, Point } from "geojson";
 import { serviceKeys, type DiscoveryScope, type FarmMapFeature, type FarmSummary, type LatLng, type MapBounds, type ServiceKey } from "../lib/discovery-contract";
 import { categoryColors } from "../lib/farms";
@@ -116,6 +118,9 @@ export default function FarmMap(props: FarmMapProps) {
     let map: MapLibreMap;
     try {
       appliedBasemapRef.current = basemapRef.current;
+      // v6 ships a separate module worker; let Vite bundle its dependencies and
+      // emit the hashed URL instead of requesting a missing relative asset.
+      maplibregl.setWorkerUrl(mapWorkerUrl);
       map = new maplibregl.Map({
         container: containerRef.current,
         style: basemapRef.current === "detailed" ? detailedStyleUrl : guideStyle(),
@@ -286,12 +291,12 @@ export default function FarmMap(props: FarmMapProps) {
       if (map.getLayer(layer)) map.setLayoutProperty(layer, "visibility", on ? "visible" : "none");
     }
     for (const [property, value] of Object.entries(farmPointPaint(options))) {
-      map.setPaintProperty("farm-points", property, value);
+      map.setPaintProperty("farm-points", property as keyof ReturnType<typeof farmPointPaint>, value);
     }
     map.setLayerZoomRange("farm-points", farmPointMinZoom(options), 24);
     if (map.getLayer("farm-density")) {
       for (const [property, value] of Object.entries(densityPaint(options))) {
-        map.setPaintProperty("farm-density", property, value);
+        map.setPaintProperty("farm-density", property as keyof ReturnType<typeof densityPaint>, value);
       }
     }
   }, [options, mapReady]);

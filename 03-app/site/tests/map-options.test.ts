@@ -48,7 +48,7 @@ test("no option ever stops the pins from being drawn for some farms", () => {
  */
 function evaluatePaint(layer: "circle" | "heatmap", property: string, value: unknown, zoom: number, category = "Produce"): number {
   const spec = (latest as unknown as Record<string, Record<string, unknown>>)[`paint_${layer}`][property];
-  const parsed = createPropertyExpression(value as never, spec as never);
+  const parsed = createPropertyExpression(value, property, spec as never);
   assert.equal(parsed.result, "success", `${property} does not parse: ${JSON.stringify(parsed.value)}`);
   const expression = parsed.value as unknown as { evaluate: (globals: { zoom: number }, feature: unknown) => number };
   return expression.evaluate({ zoom }, { type: 1, properties: { kind: "farm", category } });
