@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
+import mapWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import type { GeoJSONSource, Map as MapLibreMap } from "maplibre-gl";
 import type { FeatureCollection, Point } from "geojson";
 import { serviceKeys, type DiscoveryScope, type FarmMapFeature, type FarmSummary, type LatLng, type MapBounds, type ServiceKey } from "../lib/discovery-contract";
@@ -117,6 +118,9 @@ export default function FarmMap(props: FarmMapProps) {
     let map: MapLibreMap;
     try {
       appliedBasemapRef.current = basemapRef.current;
+      // v6 ships a separate module worker; let Vite bundle its dependencies and
+      // emit the hashed URL instead of requesting a missing relative asset.
+      maplibregl.setWorkerUrl(mapWorkerUrl);
       map = new maplibregl.Map({
         container: containerRef.current,
         style: basemapRef.current === "detailed" ? detailedStyleUrl : guideStyle(),
