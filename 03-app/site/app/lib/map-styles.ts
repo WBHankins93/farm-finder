@@ -1,4 +1,4 @@
-import type { StyleSpecification } from "maplibre-gl";
+import type { FillExtrusionLayerSpecification, StyleSpecification } from "maplibre-gl";
 
 /**
  * The two basemaps the explorer offers.
@@ -353,7 +353,8 @@ export const detailPitch = 52;
  * farm pins are installed above the basemap and were never at risk of being
  * buried by it.
  */
-export const detailPaint: { layer: string; property: string; value: unknown }[] = [
+type ExtrusionPaint = NonNullable<FillExtrusionLayerSpecification["paint"]>;
+export const detailPaint: { layer: string; property: keyof ExtrusionPaint; value: ExtrusionPaint[keyof ExtrusionPaint] }[] = [
   {
     layer: "building-3d",
     property: "fill-extrusion-color",
