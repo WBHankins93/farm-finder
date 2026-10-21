@@ -37,8 +37,22 @@ the repo has no PyYAML and `state.yaml` is already JSON content.
 ```bash
 python3 01-database/pipeline/run.py --state KY   # collect one state via live adapters -> data/KY.json
 python3 01-database/pipeline/run.py --all        # every state that has a source config
+python3 01-database/pipeline/run.py --state KY --dry-run  # private source proposal; canonical file is not changed
 python3 01-database/pipeline/run.py --publish    # aggregate all states -> build/app-farms.json
 ```
+
+`--dry-run` is limited to one state and cannot be combined with `--all` or
+`--publish`. It writes an internal-only source proposal under
+`build/proposals/<ST>-<id>.json`, including the base canonical SHA-256, config
+hash, retrieval time, source outcomes, and fully materialized source
+observations. Proposal files and their directory are restricted to the local
+user because observations can include internal contact fields. This mode never
+finalizes rows or writes `data/<ST>.json`; a required source marked with
+`"required": true` that fails, yields partially, or is disabled returns a
+nonzero status while retaining the proposal for inspection. An empty complete
+response is recorded as an observation. Iterator exhaustion confirms only that
+the adapter finished yielding; it does not verify remote pagination unless the
+adapter itself can establish that condition.
 
 `migrate.py` remains the one-time entities.csv bridge; `run.py --publish` prefers
 a committed `data/<ST>.json` and falls back to that bridge per state.
