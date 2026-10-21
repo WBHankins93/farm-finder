@@ -20,13 +20,22 @@ function against the SourceAdapter signature and never touches the engine.
 from __future__ import annotations
 
 import json
+import hashlib
 from pathlib import Path
-from typing import Callable, Iterable
+from typing import Callable, Iterable, Literal
+from datetime import datetime, timezone
 
 from model import Farm
 
 # A source adapter takes a source config dict and yields raw Farm records.
 SourceAdapter = Callable[[dict, "CollectContext"], Iterable[Farm]]
+SourceStatus = Literal["complete", "empty", "failed", "partial", "disabled"]
+SourceOutcome = dict[str, object]
+
+
+def _sha256_records(rows: list[Farm]) -> str:
+    payload = json.dumps([row.to_record() for row in rows], sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 ADAPTERS: dict[str, SourceAdapter] = {}
 
@@ -72,6 +81,8 @@ class CollectContext:
         self.region = region
         self.staged = staged or {}
         self.warnings: list[str] = []
+        self.source_outcomes: list[SourceOutcome] = []
+        self.source_observations: list[dict] = []
 
 
 @adapter("staged")
@@ -90,7 +101,7 @@ def load_state_config(path: Path) -> dict:
     return cfg
 
 
-def collect_state(config: dict, ctx: CollectContext) -> list[Farm]:
+def collect_sources(config: dict, ctx: CollectContext) -> list[Farm]:
     """Run every source in a state's config through its adapter and concatenate.
     Unknown adapters are skipped with a clear error rather than crashing the run —
     a half-configured state should still collect its working sources."""
@@ -99,10 +110,29 @@ def collect_state(config: dict, ctx: CollectContext) -> list[Farm]:
     for source in config.get("sources", []):
         kind = source.get("adapter", "staged")
         fn = ADAPTERS.get(kind)
-        label = source.get("name", source.get("id", "?"))
+        source_id = str(source.get("id", source.get("name", "?")))
+        label = source.get("name", source_id)
+        required = source.get("required") is True
+        base = {
+            "source_id": source_id,
+            "adapter": kind,
+            "required": required,
+            "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
+            "config_sha256": hashlib.sha256(
+                json.dumps(source, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+            ).hexdigest(),
+        }
+        if source.get("enabled") is False:
+            ctx.source_outcomes.append(SourceOutcome(**base, status="disabled", row_count=0, observed_row_count=0, snapshot_sha256=None,
+                                                     failure_type=None, completion_basis="not_attempted"))
+            ctx.source_observations.append({"source_id": source_id, "records": []})
+            continue
         if fn is None:
             if kind in PLANNED_ADAPTERS:
                 ctx.warnings.append(f"[{config['state']}] skipped {kind} source (not yet built): {label}")
+                ctx.source_outcomes.append(SourceOutcome(**base, status="disabled", row_count=0, observed_row_count=0, snapshot_sha256=None,
+                                                         failure_type=None, completion_basis="adapter_unavailable"))
+                ctx.source_observations.append({"source_id": source_id, "records": []})
                 continue
             raise NotImplementedError(
                 f"[{config['state']}] unknown adapter type {kind!r} (source: {label}). "
@@ -112,8 +142,44 @@ def collect_state(config: dict, ctx: CollectContext) -> list[Farm]:
         # one source must not lose the other sources (especially the staged
         # bridge). Record it and move on — a failed fetch is a data-lane fix, not
         # a crash. A typo'd adapter (NotImplementedError above) still hard-fails.
+        staged: list[Farm] = []
         try:
-            out.extend(fn(source, ctx))
+            # Fully exhaust the iterator into a source-local buffer. A late
+            # exception must not leak a partial snapshot into accepted rows.
+            for item in fn(source, ctx):
+                if not isinstance(item, Farm):
+                    raise TypeError("adapter emitted a non-Farm record")
+                staged.append(item)
         except Exception as exc:  # noqa: BLE001 — deliberately broad; sources are untrusted I/O
             ctx.warnings.append(f"[{config['state']}] source failed ({type(exc).__name__}): {label} — {exc}")
+            ctx.source_outcomes.append(SourceOutcome(
+                **base,
+                status="partial" if staged else "failed",
+                row_count=0,
+                observed_row_count=len(staged),
+                snapshot_sha256=None,
+                failure_type=type(exc).__name__,
+                completion_basis="iterator_error",
+            ))
+            ctx.source_observations.append({"source_id": source_id, "records": []})
+            continue
+        out.extend(staged)
+        ctx.source_outcomes.append(SourceOutcome(
+            **base,
+            status="complete" if staged else "empty",
+            row_count=len(staged),
+            observed_row_count=len(staged),
+            snapshot_sha256=_sha256_records(staged),
+            failure_type=None,
+            completion_basis="iterator_exhausted",
+        ))
+        ctx.source_observations.append({
+            "source_id": source_id,
+            "records": [row.to_record() for row in staged],
+        })
     return out
+
+
+def collect_state(config: dict, ctx: CollectContext) -> list[Farm]:
+    """Compatibility wrapper returning accepted rows; outcomes remain on ctx."""
+    return collect_sources(config, ctx)

@@ -20,10 +20,15 @@ retire its `entities.csv`.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import os
+import re
 import sys
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
+from uuid import uuid4
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
@@ -101,6 +106,63 @@ def run_state(state: str) -> dict:
     return stats
 
 
+def _validate_state_code(state: str) -> str:
+    if not re.fullmatch(r"[A-Za-z]{2}", state, flags=re.ASCII):
+        raise SystemExit("state must be a two-letter ASCII code")
+    return state.upper()
+
+
+def _sha256_file(path: Path) -> str | None:
+    if not path.exists():
+        return None
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def propose_state(state: str) -> dict:
+    """Collect isolated source observations without finalizing or writing canonical data."""
+    state = _validate_state_code(state)
+    cfg_path = find_config(state)
+    if cfg_path is None:
+        raise SystemExit(f"no source config found: sources/*/{state}.json")
+    cfg = load_state_config(cfg_path)
+    canonical_path = DATA / f"{state}.json"
+    base_hash = _sha256_file(canonical_path)
+    fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+    config_hash = hashlib.sha256(cfg_path.read_bytes()).hexdigest()
+    ctx = CollectContext(state=state, region=cfg["region"])
+    collect_state(cfg, ctx)
+
+    run_id = uuid4().hex
+    proposal = {
+        "schema_version": 1,
+        "proposal_id": run_id,
+        "state": state,
+        "fetched_at": fetched_at,
+        "config_sha256": config_hash,
+        "base_canonical_sha256": base_hash,
+        "artifact_classification": "internal_only",
+        "pagination_boundary": "iterator_exhaustion_does_not_verify_remote_pagination_completeness",
+        "source_outcomes": ctx.source_outcomes,
+        "observations": ctx.source_observations,
+    }
+    proposal_dir = BUILD / "proposals"
+    proposal_dir.mkdir(parents=True, exist_ok=True, mode=0o700)
+    os.chmod(proposal_dir, 0o700)
+    proposal_path = proposal_dir / f"{state}-{run_id}.json"
+    descriptor = os.open(proposal_path, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
+    with os.fdopen(descriptor, "w", encoding="utf-8") as stream:
+        stream.write(json.dumps(proposal, indent=2, ensure_ascii=False) + "\n")
+    return {
+        "proposal_path": proposal_path,
+        "source_outcomes": ctx.source_outcomes,
+        "required_failures": [
+            outcome["source_id"] for outcome in ctx.source_outcomes
+            if outcome["required"] and outcome["status"] in ("failed", "partial", "disabled")
+        ],
+        "warnings": ctx.warnings,
+    }
+
+
 def publish_all() -> dict:
     """Aggregate every state and write the app feed. A committed data/<ST>.json
     (live-collected) supersedes the entities.csv bridge for that state."""
@@ -124,14 +186,29 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--state", help="two-letter state code to collect")
     p.add_argument("--all", action="store_true", help="collect every state with a source config")
     p.add_argument("--publish", action="store_true", help="aggregate all states into the app feed")
+    p.add_argument("--dry-run", action="store_true", help="write an inspectable source proposal without changing canonical data")
     return p.parse_args()
 
 
 def main() -> int:
     args = parse_args()
+    if args.state:
+        args.state = _validate_state_code(args.state)
+    if args.dry_run and (not args.state or args.all or args.publish):
+        raise SystemExit("--dry-run requires --state <ST> and cannot be combined with --all or --publish")
     if not (args.state or args.all or args.publish):
         raise SystemExit("nothing to do: pass --state <ST>, --all, or --publish")
-    if args.all:
+    if args.dry_run:
+        result = propose_state(args.state)
+        print(f"proposal: {result['proposal_path']}")
+        for outcome in result["source_outcomes"]:
+            print(f"  {outcome['source_id']}: {outcome['status']} ({outcome['row_count']} rows)")
+        for w in result["warnings"]:
+            print(" ", w)
+        if result["required_failures"]:
+            print("required source outcomes need attention: " + ", ".join(result["required_failures"]))
+            return 1
+    elif args.all:
         for cfg in sorted(SOURCES.glob("*/[A-Z]*.json")):
             st = cfg.stem
             s = run_state(st)

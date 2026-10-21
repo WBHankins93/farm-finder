@@ -35,7 +35,17 @@ one adapter in `collect.py`; the two never entangle.
 | `sources[].name` | yes | Human-readable source name (becomes a record's provenance). |
 | `sources[].url` | yes | Source URL (becomes provenance source_url). |
 | `sources[].adapter` | yes | One of the registered adapter types (below). |
+| `sources[].required` | no | Set `true` when an unsuccessful refresh must return nonzero in dry-run mode. Omitted means optional. |
+| `sources[].enabled` | no | Set `false` to record a `disabled` outcome without calling the adapter. |
 | `sources[].notes` | no | Scope / caveats for reviewers. |
+
+The dry-run collector records per-source `complete`, `empty`, `failed`,
+`partial`, or `disabled` outcomes. It buffers each adapter's full iterator and
+accepts its records only after every yielded item validates as a `Farm` and the
+iterator exhausts successfully. A late exception or malformed record discards
+that source's buffered rows. Iterator exhaustion alone does not prove remote
+pagination is complete; adapters must expose that evidence themselves before a
+future workflow can treat pagination as verified.
 
 ## Adapter types
 
