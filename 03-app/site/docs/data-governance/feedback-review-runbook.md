@@ -198,3 +198,25 @@ node --import tsx --test tests/feedback-auth.test.ts tests/feedback-review-store
 Also run the repository's required checks before a PR. Signed-token tests and
 local database tests do not establish that a deployed Access policy, network,
 backup process, retention process, or operator coverage is configured.
+
+## Required CI integration gate
+
+The `postgis` job in Site discovery quality builds the site and runs
+`scripts/test-feedback-integration.mjs`. Unlike the optional local unit-test
+entrypoint, this runner rejects missing database URLs, shared database names,
+failed processes, skipped tests and TODO tests. It covers intake, review,
+worker leasing, runtime-role permission denials, and the built HTTP intake.
+
+For a local reproduction, create four **disposable** PostgreSQL databases whose
+names begin `ff_feedback_ci_`, then set `FEEDBACK_TEST_DATABASE_URL`,
+`FEEDBACK_REVIEW_TEST_DATABASE_URL`, `FEEDBACK_WORKER_TEST_DATABASE_URL`, and
+`FEEDBACK_HTTP_TEST_DATABASE_URL` to their distinct connections. Run
+`npm run build` followed by `node scripts/test-feedback-integration.mjs` from
+`03-app/site`. The fixture owner needs database schema and role creation rights;
+these are test-only administrative connections, never runtime credentials.
+The permission test creates temporary restricted roles and removes them after
+checking the documented grants. The HTTP suite gets its own database; the
+permission suite reuses the review database only after review tests finish.
+Every database suite drops `feedback_private`; never use shared or production
+databases. CI databases disappear with the job service. Local databases can be
+dropped once the runner exits.
